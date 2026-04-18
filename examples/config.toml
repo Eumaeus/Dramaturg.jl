@@ -1,0 +1,18 @@
+# Configuration for GreekReader reader-page generator
+
+[input]
+cex_path = "path/to/your/play.cex"          # or a CTS URN if you prefer
+text_urn = "urn:cts:greekLit:tlg0019.tlg009:"  # example Aristophanes' Frogs
+
+[output]
+lines_per_page = 25
+output_dir = "html/pages"
+template_dir = "../templates"
+index_template = "index.html"
+page_template = "reader_page.html"
+
+[lexicon]
+lsj_cex = "https://github.com/Eumaeus/cite_lsj_cex/raw/main/lsj_chicago.cex"  # or local path
+
+[morphology]
+pos_data = "path/to/morpheus_output.tsv"   # from your pos-julia pipeline

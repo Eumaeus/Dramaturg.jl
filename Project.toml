@@ -1,0 +1,18 @@
+name = "Dramaturg"
+uuid = "d9b85af1-919c-47e9-8470-52c4d8953361"
+version = "0.1.0"
+authors = ["Eumaeus <cwblackwell@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+# We'll add the official CITE packages + others here later
+# (CiteEXchange, CitableCorpus, etc.) — for now the package builds cleanly
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-bb59-b91f2f15c6a9"
+
+[targets]
+test = ["Test"]
