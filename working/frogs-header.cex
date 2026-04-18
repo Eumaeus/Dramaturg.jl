@@ -11,7 +11,7 @@ license#Creative Commons Attribution Share Alike
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
 urn:cts:greekLit:tlg0019.tlg009.fu:#line#Aristphanes#Frogs#Furman University##true#grc
 urn:cts:greekLit:tlg0019.tlg009.fuEng:#line/part#Aristphanes#Frogs, Jebb, trans.#Furman University##true#eng
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:#line/speaker,line/speech#Aristphanes#Frogs#Furman University#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:#line/speech/speaker,line/speech/text#Aristphanes#Frogs#Furman University#tokenized by speech#true#grc
 urn:cts:greekLit:tlg0019.tlg009.fu.tokens:#line/token#Aristphanes#Frogs#Furman University#tokenized by word and punctuation#true#grc
 
 #!ctsdata
