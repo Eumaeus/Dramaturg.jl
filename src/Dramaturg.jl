@@ -15,7 +15,7 @@ export read_config, tokenize, align_morphology, align_lsj, generate_reader_pages
 # include("syntax.jl")      # future
 
 """
-    GreekReader.version()
+        Dramaturg.version()
 """
 function version()
     return pkgversion(Dramaturg)

@@ -1,0 +1,2466 @@
+// Library of texts for teaching CITE Collections
+// The pound sign "#" is used as a column divider.
+#!cexversion
+3.0
+#!citelibrary
+name#Sophocles, Oedipus Tyrannos
+urn#urn:cite2:furman:cex.2019:sophocles
+license#Creative Commons Attribution Share Alike
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:greekLit:tlg0011.tlg004.fu:#line#Sophocles#Oedipus Tyrannos#Furman University##true#grc
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:#line/speaker,line/speech#Sophocles#Oedipus Tyrannos#Furman University#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:#line/token#Sophocles#Oedipus Tyrannos#Furman University#tokenized by word and punctuation#true#grc
+
+#!ctsdata
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:1.1#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:1.2#τέκνα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:1.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:1.4#Κάδμου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:1.5#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:1.6#πάλαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:1.7#νέα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:1.8#τροφή
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:1.9#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:2.1#τίνας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:2.2#ποθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:2.3#ἕδρας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:2.4#τάσδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:2.5#μοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:2.6#θοάζετε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:3.1#ἱκτηρίοις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:3.2#κλάδοισιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:3.3#ἐξεστεμμένοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:3.4#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:4.1#πόλις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:4.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:4.3#ὁμοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:4.4#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:4.5#θυμιαμάτων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:4.6#γέμει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:4.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:5.1#ὁμοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:5.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:5.3#παιάνων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:5.4#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:5.5#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:5.6#στεναγμάτων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:5.7#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:6.1#ἁγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:6.2#δικαιῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:6.3#μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:6.4#παρʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:6.5#ἀγγέλων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:6.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:6.7#τέκνα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:6.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:7.1#ἄλλων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:7.2#ἀκούειν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:7.3#αὐτὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:7.4#ὧδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:7.5#ἐλήλυθα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:7.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:8.1#ὁ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:8.2#πᾶσι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:8.3#κλεινὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:8.4#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:8.5#καλούμενος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:8.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:9.1#ἀλλʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:9.2#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:9.3#γεραιέ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:9.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:9.5#φράζʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:9.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:9.7#ἐπεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:9.8#πρέπων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:9.9#ἔφυς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:10.1#πρὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:10.2#τῶνδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:10.3#φωνεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:10.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:10.5#τίνι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:10.6#τρόπῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:10.7#καθέστατε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:10.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:11.1#δείσαντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:11.2#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:11.3#στέρξαντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:11.4#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:11.5#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:11.6#θέλοντος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:11.7#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:12.1#ἐμοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:12.2#προσαρκεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:12.3#πᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:12.4#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:12.5#δυσάλγητος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:12.6#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:12.7#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:13.1#εἴην
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:13.2#τοιάνδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:13.3#μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:13.4#οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:13.5#κατοικτίρων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:13.6#ἕδραν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:13.7#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:14.1#ἀλλʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:14.2#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:14.3#κρατύνων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:14.4#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:14.5#χώρας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:14.6#ἐμῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:14.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:15.1#ὁρᾷς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:15.2#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:15.3#ἡμᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:15.4#ἡλίκοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:15.5#προσήμεθα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:16.1#βωμοῖσι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:16.2#τοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:16.3#σοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:16.4#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:16.5#οἱ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:16.6#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:16.7#οὐδέπω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:16.8#μακρὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:17.1#πτέσθαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:17.2#σθένοντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:17.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:17.4#οἱ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:17.5#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:17.6#σὺν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:17.7#γήρᾳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:17.8#βαρεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:17.9#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:18.1#ἱερῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:18.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:18.3#ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:18.4#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:18.5#Ζηνός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:18.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:18.7#οἵδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:18.8#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:18.9#ᾐθέων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:19.1#λεκτοί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:19.2#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:19.3#τὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:19.4#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:19.5#ἄλλο
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:19.6#φῦλον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:19.7#ἐξεστεμμένον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:20.1#ἀγοραῖσι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:20.2#θακεῖ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:20.3#πρός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:20.4#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:20.5#Παλλάδος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:20.6#διπλοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:21.1#ναοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:21.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:21.3#ἐπʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:21.4#Ἰσμηνοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:21.5#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:21.6#μαντείᾳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:21.7#σποδῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:21.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:22.1#πόλις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:22.2#γάρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:22.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:22.4#ὥσπερ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:22.5#καὐτὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:22.6#εἰσορᾷς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:22.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:22.8#ἄγαν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:23.1#ἤδη
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:23.2#σαλεύει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:23.3#κἀνακουφίσαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:23.4#κάρα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:24.1#βυθῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:24.2#ἔτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:24.3#οὐχ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:24.4#οἵα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:24.5#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:24.6#φοινίου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:24.7#σάλου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:24.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:25.1#φθίνουσα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:25.2#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:25.3#κάλυξιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:25.4#ἐγκάρποις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:25.5#χθονός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:25.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:26.1#φθίνουσα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:26.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:26.3#ἀγέλαις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:26.4#βουνόμοις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:26.5#τόκοισί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:26.6#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:27.1#ἀγόνοις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:27.2#γυναικῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:27.3#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:27.4#ἐν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:27.5#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:27.6#ὁ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:27.7#πυρφόρος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:27.8#θεὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:28.1#σκήψας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:28.2#ἐλαύνει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:28.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:28.4#λοιμὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:28.5#ἔχθιστος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:28.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:28.7#πόλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:28.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:29.1#ὑφʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:29.2#οὗ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:29.3#κενοῦται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:29.4#δῶμα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:29.5#Καδμεῖον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:29.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:29.7#μέλας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:29.8#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:30.1#Ἅιδης
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:30.2#στεναγμοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:30.3#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:30.4#γόοις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:30.5#πλουτίζεται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:30.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:31.1#θεοῖσι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:31.2#μέν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:31.3#νυν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:31.4#οὐκ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:31.5#ἰσούμενόν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:31.6#σʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:31.7#ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:32.1#οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:32.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:32.3#οἵδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:32.4#παῖδες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:32.5#ἑζόμεσθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:32.6#ἐφέστιοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:32.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:33.1#ἀνδρῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:33.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:33.3#πρῶτον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:33.4#ἔν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:33.5#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:33.6#συμφοραῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:33.7#βίου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:34.1#κρίνοντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:34.2#ἔν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:34.3#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:34.4#δαιμόνων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:34.5#συναλλαγαῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:34.6#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:35.1#ὅς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:35.2#γʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:35.3#ἐξέλυσας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:35.4#ἄστυ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:35.5#Καδμεῖον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:35.6#μολὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:36.1#σκληρᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:36.2#ἀοιδοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:36.3#δασμὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:36.4#ὃν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:36.5#παρείχομεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:36.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:37.1#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:37.2#ταῦθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:37.3#ὑφʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:37.4#ἡμῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:37.5#οὐδὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:37.6#ἐξειδὼς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:37.7#πλέον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:38.1#οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:38.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:38.3#ἐκδιδαχθείς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:38.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:38.5#ἀλλὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:38.6#προσθήκῃ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:38.7#θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:39.1#λέγει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:39.2#νομίζει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:39.3#θʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:39.4#ἡμὶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:39.5#ὀρθῶσαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:39.6#βίον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:39.7#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:40.1#νῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:40.2#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:40.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:40.4#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:40.5#κράτιστον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:40.6#πᾶσιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:40.7#Οἰδίπου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:40.8#κάρα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:40.9#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:41.1#ἱκετεύομέν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:41.2#σε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:41.3#πάντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:41.4#οἵδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:41.5#πρόστροποι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:42.1#ἀλκήν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:42.2#τινʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:42.3#εὑρεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:42.4#ἡμίν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:42.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:42.6#εἴτε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:42.7#του
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:42.8#θεῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:43.1#φήμην
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:43.2#ἀκούσας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:43.3#εἴτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:43.4#ἀπʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:43.5#ἀνδρὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:43.6#οἶσθά
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:43.7#του
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:43.8#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:44.1#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:44.2#τοῖσιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:44.3#ἐμπείροισι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:44.4#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:44.5#τὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:44.6#ξυμφορὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:45.1#ζώσας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:45.2#ὁρῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:45.3#μάλιστα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:45.4#τῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:45.5#βουλευμάτων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:45.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:46.1#ἴθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:46.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:46.3#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:46.4#βροτῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:46.5#ἄριστʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:46.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:46.7#ἀνόρθωσον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:46.8#πόλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:46.9#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:47.1#ἴθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:47.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:47.3#εὐλαβήθηθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:47.4#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:47.5#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:47.6#σὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:47.7#νῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:47.8#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:47.9#ἥδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:47.10#γῆ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:48.1#σωτῆρα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:48.2#κλῄζει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:48.3#τῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:48.4#πάρος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:48.5#προθυμίας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:48.6#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:49.1#ἀρχῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:49.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:49.3#τῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:49.4#σῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:49.5#μηδαμῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:49.6#μεμνώμεθα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:50.1#στάντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:50.2#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:50.3#ἐς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:50.4#ὀρθὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:50.5#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:50.6#πεσόντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:50.7#ὕστερον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:50.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:51.1#ἀλλʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:51.2#ἀσφαλείᾳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:51.3#τήνδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:51.4#ἀνόρθωσον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:51.5#πόλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:51.6#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:52.1#ὄρνιθι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:52.2#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:52.3#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:52.4#τὴν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:52.5#τότʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:52.6#αἰσίῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:52.7#τύχην
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:53.1#παρέσχες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:53.2#ἡμῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:53.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:53.4#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:53.5#τανῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:53.6#ἴσος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:53.7#γενοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:53.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:54.1#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:54.2#εἴπερ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:54.3#ἄρξεις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:54.4#τῆσδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:54.5#γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:54.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:54.7#ὥσπερ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:54.8#κρατεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:54.9#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:55.1#ξὺν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:55.2#ἀνδράσιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:55.3#κάλλιον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:55.4#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:55.5#κενῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:55.6#κρατεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:55.7#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:56.1#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:56.2#οὐδέν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:56.3#ἐστιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:56.4#οὔ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:56.5#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:56.6#πύργος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:56.7#οὔ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:56.8#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:56.9#ναῦς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:57.1#ἔρημος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:57.2#ἀνδρῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:57.3#μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:57.4#ξυνοικούντων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:57.5#ἔσω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:57.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:58.1#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:58.2#παῖδες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:58.3#οἰκτροί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:58.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:58.5#γνωτὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:58.6#κοὐκ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:58.7#ἄγνωτά
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:58.8#μοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:59.1#προσήλθεθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:59.2#ἱμείροντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:59.3#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:59.4#εὖ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:59.5#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:59.6#οἶδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:59.7#ὅτι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:60.1#νοσεῖτε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:60.2#πάντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:60.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:60.4#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:60.5#νοσοῦντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:60.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:60.7#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:60.8#ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:61.1#οὐκ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:61.2#ἔστιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:61.3#ὑμῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:61.4#ὅστις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:61.5#ἐξ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:61.6#ἴσου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:61.7#νοσεῖ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:61.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:62.1#τὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:62.2#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:62.3#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:62.4#ὑμῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:62.5#ἄλγος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:62.6#εἰς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:62.7#ἕνʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:62.8#ἔρχεται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:63.1#μόνον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:63.2#καθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:63.3#αὑτὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:63.4#κοὐδένʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:63.5#ἄλλον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:63.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:63.7#ἡ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:63.8#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:63.9#ἐμὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:64.1#ψυχὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:64.2#πόλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:64.3#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:64.4#κἀμὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:64.5#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:64.6#σʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:64.7#ὁμοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:64.8#στένει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:64.9#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:65.1#ὥστʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:65.2#οὐχ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:65.3#ὕπνῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:65.4#γʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:65.5#εὕδοντά
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:65.6#μʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:65.7#ἐξεγείρετε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:65.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:66.1#ἀλλʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:66.2#ἴστε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:66.3#πολλὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:66.4#μέν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:66.5#με
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:66.6#δακρύσαντα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:66.7#δή
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:66.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:67.1#πολλὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:67.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:67.3#ὁδοὺς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:67.4#ἐλθόντα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:67.5#φροντίδος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:67.6#πλάνοις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:67.7#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:68.1#ἣν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:68.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:68.3#εὖ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:68.4#σκοπῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:68.5#ηὕρισκον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:68.6#ἴασιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:68.7#μόνην
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:68.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:69.1#ταύτην
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:69.2#ἔπραξα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:69.3#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:69.4#παῖδα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:69.5#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:69.6#Μενοικέως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:70.1#Κρέοντʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:70.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:70.3#ἐμαυτοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:70.4#γαμβρόν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:70.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:70.6#ἐς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:70.7#τὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:70.8#Πυθικὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:71.1#ἔπεμψα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:71.2#Φοίβου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:71.3#δώμαθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:71.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:71.5#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:71.6#πύθοιθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:71.7#ὅ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:71.8#τι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:72.1#δρῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:72.2#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:72.3#τί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:72.4#φωνῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:72.5#τήνδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:72.6#ῥυσαίμην
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:72.7#πόλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:72.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:73.1#καί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:73.2#μʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:73.3#ἦμαρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:73.4#ἤδη
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:73.5#ξυμμετρούμενον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:73.6#χρόνῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:74.1#λυπεῖ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:74.2#τί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:74.3#πράσσει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:74.4#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:74.5#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:74.6#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:74.7#εἰκότος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:74.8#πέρα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:75.1#ἄπεστι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:75.2#πλείω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:75.3#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:75.4#καθήκοντος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:75.5#χρόνου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:75.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:76.1#ὅταν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:76.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:76.3#ἵκηται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:76.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:76.5#τηνικαῦτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:76.6#ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:76.7#κακὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:77.1#μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:77.2#δρῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:77.3#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:77.4#εἴην
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:77.5#πάνθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:77.6#ὅσʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:77.7#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:77.8#δηλοῖ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:77.9#θεός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:77.10#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:78.1#ἀλλʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:78.2#εἰς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:78.3#καλὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:78.4#σύ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:78.5#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:78.6#εἶπας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:78.7#οἵδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:78.8#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:78.9#ἀρτίως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:79.1#Κρέοντα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:79.2#προσστείχοντα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:79.3#σημαίνουσί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:79.4#μοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:79.5#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:80.1#ὦναξ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:80.2#Ἄπολλον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:80.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:80.4#εἰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:80.5#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:80.6#ἐν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:80.7#τύχῃ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:80.8#γέ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:80.9#τῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:81.1#σωτῆρι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:81.2#βαίη
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:81.3#λαμπρὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:81.4#ὥσπερ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:81.5#ὄμματι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:82.1#ἀλλʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:82.2#εἰκάσαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:82.3#μέν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:82.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:82.5#ἡδύς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:82.6#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:82.7#οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:82.8#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:82.9#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:82.10#κάρα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:83.1#πολυστεφὴς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:83.2#ὧδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:83.3#εἷρπε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:83.4#παγκάρπου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:83.5#δάφνης
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:83.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:84.1#τάχʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:84.2#εἰσόμεσθα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:84.3#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:84.4#ξύμμετρος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:84.5#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:84.6#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:84.7#κλύειν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:84.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:85.1#ἄναξ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:85.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:85.3#ἐμὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:85.4#κήδευμα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:85.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:85.6#παῖ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:85.7#Μενοικέως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:85.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:86.1#τίνʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:86.2#ἡμὶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:86.3#ἥκεις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:86.4#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:86.5#θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:86.6#φήμην
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:86.7#φέρων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:86.8#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:87.1#ἐσθλήν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:87.2#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:87.3#λέγω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:87.4#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:87.5#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:87.6#τὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:87.7#δύσφορʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:87.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:87.9#εἰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:87.10#τύχοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:88.1#κατʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:88.2#ὀρθὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:88.3#ἐξελθόντα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:88.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:88.5#πάντʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:88.6#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:88.7#εὐτυχεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:88.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:89.1#ἔστιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:89.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:89.3#ποῖον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:89.4#τοὔπος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:89.5#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:89.6#οὔ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:89.7#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:89.8#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:89.9#θρασὺς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:90.1#οὔ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:90.2#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:90.3#οὖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:90.4#προδείσας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:90.5#εἰμὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:90.6#τῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:90.7#γε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:90.8#νῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:90.9#λόγῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:90.10#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:91.1#εἰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:91.2#τῶνδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:91.3#χρῄζεις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:91.4#πλησιαζόντων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:91.5#κλύειν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:91.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:92.1#ἕτοιμος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:92.2#εἰπεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:92.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:92.4#εἴτε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:92.5#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:92.6#στείχειν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:92.7#ἔσω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:92.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:93.1#ἐς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:93.2#πάντας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:93.3#αὔδα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:93.4#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:93.5#τῶνδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:93.6#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:93.7#πλέον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:93.8#φέρω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:94.1#τὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:94.2#πένθος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:94.3#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:94.4#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:94.5#τῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:94.6#ἐμῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:94.7#ψυχῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:94.8#πέρι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:94.9#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:95.1#λέγοιμʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:95.2#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:95.3#οἷʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:95.4#ἤκουσα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:95.5#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:95.6#θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:95.7#πάρα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:95.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:96.1#ἄνωγεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:96.2#ἡμᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:96.3#Φοῖβος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:96.4#ἐμφανῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:96.5#ἄναξ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:97.1#μίασμα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:97.2#χώρας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:97.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:97.4#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:97.5#τεθραμμένον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:97.6#χθονὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:98.1#ἐν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:98.2#τῇδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:98.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:98.4#ἐλαύνειν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:98.5#μη
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:98.6#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:98.7#ἀνήκεστον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:98.8#τρέφειν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:98.9#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:99.1#ποίῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:99.2#καθαρμῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:99.3#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:99.4#τίς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:99.5#ὁ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:99.6#τρόπος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:99.7#τῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:99.8#ξυμφορᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:99.9#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:100.1#ἀνδρηλατοῦντας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:100.2#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:100.3#φόνῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:100.4#φόνον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:100.5#πάλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:101.1#λύοντας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:101.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:101.3#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:101.4#τόδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:101.5#αἷμα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:101.6#χειμάζον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:101.7#πόλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:101.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:102.1#ποίου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:102.2#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:102.3#ἀνδρὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:102.4#τήνδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:102.5#μηνύει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:102.6#τύχην
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:102.7#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:103.1#ἦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:103.2#ἡμίν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:103.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:103.4#ὦναξ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:103.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:103.6#Λάϊός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:103.7#ποθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:103.8#ἡγεμὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:104.1#γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:104.2#τῆσδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:104.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:104.4#πρὶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:104.5#σὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:104.6#τήνδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:104.7#ἀπευθύνειν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:104.8#πόλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:104.9#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:105.1#ἔξοιδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:105.2#ἀκούων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:105.3#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:105.4#οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:105.5#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:105.6#εἰσεῖδόν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:105.7#γέ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:105.8#πω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:105.9#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:106.1#τούτου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:106.2#θανόντος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:106.3#νῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:106.4#ἐπιστέλλει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:106.5#σαφῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:107.1#τοὺς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:107.2#αὐτοέντας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:107.3#χειρὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:107.4#τιμωρεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:107.5#τινας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:107.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:108.1#οἳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:108.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:108.3#εἰσὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:108.4#ποῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:108.5#γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:108.6#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:108.7#ποῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:108.8#τόδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:108.9#εὑρεθήσεται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:109.1#ἴχνος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:109.2#παλαιᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:109.3#δυστέκμαρτον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:109.4#αἰτίας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:109.5#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:110.1#ἐν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:110.2#τῇδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:110.3#ἔφασκε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:110.4#γῇ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:110.5#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:110.6#τὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:110.7#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:110.8#ζητούμενον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:111.1#ἁλωτόν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:111.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:111.3#ἐκφεύγειν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:111.4#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:111.5#τἀμελούμενον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:111.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:112.1#πότερα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:112.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:112.3#ἐν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:112.4#οἴκοις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:112.5#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:112.6#ʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:112.7#ν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:112.8#ἀγροῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:112.9#ὁ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:112.10#Λάϊος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:113.1#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:113.2#γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:113.3#ἐπʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:113.4#ἄλλης
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:113.5#τῷδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:113.6#συμπίπτει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:113.7#φόνῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:113.8#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:114.1#θεωρός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:114.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:114.3#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:114.4#ἔφασκεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:114.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:114.6#ἐκδημῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:114.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:114.8#πάλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:115.1#πρὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:115.2#οἶκον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:115.3#οὐκέθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:115.4#ἵκεθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:115.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:115.6#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:115.7#ἀπεστάλη
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:115.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:116.1#οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:116.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:116.3#ἄγγελός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:116.4#τις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:116.5#οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:116.6#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:116.7#συμπράκτωρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:116.8#ὁδοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:117.1#κατεῖδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:117.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:117.3#ὅτου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:117.4#τις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:117.5#ἐκμαθὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:117.6#ἐχρήσατʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:117.7#ἄν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:117.8#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:118.1#θνῄσκουσι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:118.2#γάρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:118.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:118.4#πλὴν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:118.5#εἷς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:118.6#τις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:118.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:118.8#ὃς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:118.9#φόβῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:118.10#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:118.11#φυγὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:119.1#ὧν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:119.2#εἶδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:119.3#πλὴν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:119.4#ἓν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:119.5#οὐδὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:119.6#εἶχʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:119.7#εἰδὼς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:119.8#φράσαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:119.9#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:120.1#τὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:120.2#ποῖον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:120.3#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:120.4#ἓν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:120.5#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:120.6#πόλλʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:120.7#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:120.8#ἐξεύροι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:120.9#μαθεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:120.10#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:121.1#ἀρχὴν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:121.2#βραχεῖαν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:121.3#εἰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:121.4#λάβοιμεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:121.5#ἐλπίδος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:121.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:122.1#λῃστὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:122.2#ἔφασκε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:122.3#συντυχόντας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:122.4#οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:122.5#μιᾷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:123.1#ῥώμῃ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:123.2#κτανεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:123.3#νιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:123.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:123.5#ἀλλὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:123.6#σὺν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:123.7#πλήθει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:123.8#χερῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:123.9#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:124.1#πῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:124.2#οὖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:124.3#ὁ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:124.4#λῃστής
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:124.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:124.6#εἴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:124.7#τι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:124.8#μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:124.9#ξὺν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:124.10#ἀργύρῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:125.1#ἐπράσσετʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:125.2#ἐνθένδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:125.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:125.4#ἐς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:125.5#τόδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:125.6#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:125.7#τόλμης
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:125.8#ἔβη
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:125.9#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:126.1#δοκοῦντα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:126.2#ταῦτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:126.3#ἦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:126.4#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:126.5#Λαΐου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:126.6#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:126.7#ὀλωλότος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:127.1#οὐδεὶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:127.2#ἀρωγὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:127.3#ἐν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:127.4#κακοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:127.5#ἐγίγνετο
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:127.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:128.1#κακὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:128.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:128.3#ποῖον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:128.4#ἐμποδών
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:128.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:128.6#τυραννίδος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:129.1#οὕτω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:129.2#πεσούσης
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:129.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:129.4#εἶργε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:129.5#τοῦτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:129.6#ἐξειδέναι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:129.7#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:130.1#ἡ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:130.2#ποικιλῳδὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:130.3#Σφὶγξ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:130.4#τὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:130.5#πρὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:130.6#ποσὶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:130.7#σκοπεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:131.1#μεθέντας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:131.2#ἡμᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:131.3#τἀφανῆ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:131.4#προσήγετο
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:131.5#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:132.1#ἀλλʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:132.2#ἐξ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:132.3#ὑπαρχῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:132.4#αὖθις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:132.5#αὔτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:132.6#ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:132.7#φανῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:132.8#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:133.1#ἐπαξίως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:133.2#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:133.3#Φοῖβος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:133.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:133.5#ἀξίως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:133.6#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:133.7#σὺ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:134.1#πρὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:134.2#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:134.3#θανόντος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:134.4#τήνδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:134.5#ἔθεσθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:134.6#ἐπιστροφήν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:134.7#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:135.1#ὥστʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:135.2#ἐνδίκως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:135.3#ὄψεσθε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:135.4#κἀμὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:135.5#σύμμαχον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:136.1#γῇ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:136.2#τῇδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:136.3#τιμωροῦντα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:136.4#τῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:136.5#θεῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:136.6#θʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:136.7#ἅμα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:136.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:137.1#ὑπὲρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:137.2#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:137.3#οὐχὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:137.4#τῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:137.5#ἀπωτέρω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:137.6#φίλων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:137.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:138.1#ἀλλʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:138.2#αὐτὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:138.3#αὑτοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:138.4#τοῦτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:138.5#ἀποσκεδῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:138.6#μύσος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:138.7#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:139.1#ὅστις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:139.2#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:139.3#ἦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:139.4#ἐκεῖνον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:139.5#ὁ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:139.6#κτανών
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:139.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:139.8#τάχʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:139.9#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:140.1#κἄμʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:140.2#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:140.3#τοιαύτῃ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:140.4#χειρὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:140.5#τιμωροῦνθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:140.6#ἕλοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:140.7#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:141.1#κείνῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:141.2#προσαρκῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:141.3#οὖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:141.4#ἐμαυτὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:141.5#ὠφελῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:141.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:142.1#ἀλλʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:142.2#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:142.3#τάχιστα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:142.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:142.5#παῖδες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:142.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:142.7#ὑμεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:142.8#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:142.9#βάθρων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:143.1#ἵστασθε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:143.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:143.3#τούσδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:143.4#ἄραντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:143.5#ἱκτῆρας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:143.6#κλάδους
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:143.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:144.1#ἄλλος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:144.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:144.3#Κάδμου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:144.4#λαὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:144.5#ὧδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:144.6#ἀθροιζέτω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:144.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:145.1#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:145.2#πᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:145.3#ἐμοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:145.4#δράσοντος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:145.5#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:145.6#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:145.7#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:145.8#εὐτυχεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:146.1#σὺν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:146.2#τῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:146.3#θεῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:146.4#φανούμεθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:146.5#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:146.6#πεπτωκότες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:146.7#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:147.1#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:147.2#παῖδες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:147.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:147.4#ἱστώμεσθα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:147.5#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:147.6#τῶνδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:147.7#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:147.8#χάριν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:148.1#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:148.2#δεῦρʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:148.3#ἔβημεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:148.4#ὧν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:148.5#ὅδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:148.6#ἐξαγγέλλεται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:148.7#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:149.1#Φοῖβος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:149.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:149.3#ὁ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:149.4#πέμψας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:149.5#τάσδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:149.6#μαντείας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:149.7#ἅμα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:150.1#σωτήρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:150.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:150.3#ἵκοιτο
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:150.4#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:150.5#νόσου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:150.6#παυστήριος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:150.7#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:151.1#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:151.2#Διὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:151.3#ἁδυεπὲς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:151.4#φάτι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:151.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:151.6#τίς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:151.7#ποτε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:151.8#τᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:151.9#πολυχρύσου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:152.1#Πυθῶνος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:152.2#ἀγλαὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:152.3#ἔβας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:153.1#Θήβας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:153.2#;
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:153.3#ἐκτέταμαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:153.4#φοβερὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:153.5#φρένα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:153.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:153.7#δείματι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:153.8#πάλλων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:153.9#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:154.1#ἰήιε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:154.2#Δάλιε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:154.3#Παιάν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:154.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:155.1#ἀμφὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:155.2#σοὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:155.3#ἁζόμενος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:155.4#τί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:155.5#μοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:155.6#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:155.7#νέον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:156.1#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:156.2#περιτελλομέναις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:156.3#ὥραις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:156.4#πάλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:156.5#ἐξανύσεις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:156.6#χρέος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:156.7#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:157.1#εἰπέ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:157.2#μοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:157.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:157.4#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:157.5#χρυσέας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:157.6#τέκνον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:157.7#Ἐλπίδος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:157.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:157.9#ἄμβροτε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:157.10#Φάμα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:157.11#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:158.1#πρῶτα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:158.2#σὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:158.3#κεκλόμενος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:158.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:158.5#θύγατερ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:158.6#Διός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:158.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:158.8#ἄμβροτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:158.9#Ἀθάνα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:160.1#γαιάοχόν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:160.2#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:160.3#ἀδελφεὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:161.1#Ἄρτεμιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:161.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:161.3#ἃ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:161.4#κυκλόεντʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:161.5#ἀγορᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:161.6#θρόνον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:161.7#εὐκλέα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:162.1#θάσσει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:162.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:163.1#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:163.2#Φοῖβον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:163.3#ἑκαβόλον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:163.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:163.5#ἰὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:164.1#τρισσοὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:164.2#ἀλεξίμοροι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:164.3#προφάνητέ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:164.4#μοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:164.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:165.1#εἴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:165.2#ποτε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:165.3#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:165.4#προτέρας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:165.5#ἄτας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:165.6#ὕπερ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:165.7#ὀρνυμένας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:165.8#πόλει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:166.1#ἠνύσατʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:166.2#ἐκτοπίαν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:166.3#φλόγα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:166.4#πήματος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:166.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:166.6#ἔλθετε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:166.7#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:166.8#νῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:166.9#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:167.1#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:167.2#πόποι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:167.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:167.4#ἀνάριθμα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:167.5#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:167.6#φέρω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.1#πήματα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.2#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.3#νοσεῖ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.4#δέ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.5#μοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.6#πρόπας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.7#στόλος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.9#οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.10#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.11#ἔνι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.12#φροντίδος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:170.13#ἔγχος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:171.1#ᾧ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:171.2#τις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:171.3#ἀλέξεται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:171.4#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:171.5#οὔ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:171.6#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:171.7#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:171.8#ἔκγονα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:172.1#κλυτᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:172.2#χθονὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:172.3#αὔξεται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:172.4#οὔ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:172.5#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:172.6#τόκοισιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:174.1#ἰηίων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:174.2#καμάτων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:174.3#ἀνέχουσι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:174.4#γυναῖκες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:174.5#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:175.1#ἄλλον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:175.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:175.3#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:175.4#ἄλλῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:175.5#προσίδοις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:175.6#ἅπερ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:175.7#εὔπτερον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:175.8#ὄρνιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:176.1#κρεῖσσον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:176.2#ἀμαιμακέτου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:176.3#πυρὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:176.4#ὄρμενον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:177.1#ἀκτὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:177.2#πρὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:177.3#ἑσπέρου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:177.4#θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:177.5#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:178.1#ὧν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:178.2#πόλις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:178.3#ἀνάριθμος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:178.4#ὄλλυται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:178.5#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:180.1#νηλέα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:180.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:180.3#γένεθλα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:180.4#πρὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:180.5#πέδῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:180.6#θαναταφόρα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:180.7#κεῖται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:180.8#ἀνοίκτως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:180.9#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:181.1#ἐν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:181.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:181.3#ἄλοχοι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:181.4#πολιαί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:181.5#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:181.6#ἔπι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:181.7#ματέρες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:182.1#ἀχὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:182.2#παραβώμιον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:182.3#ἄλλοθεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:182.4#ἄλλαν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:183.1#λυγρῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:183.2#πόνων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:183.3#ἱκετῆρες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:183.4#ἐπιστενάχουσιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:183.5#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:185.1#παιὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:185.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:185.3#λάμπει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:185.4#στονόεσσά
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:185.5#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:185.6#γῆρυς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:185.7#ὅμαυλος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:186.1#ὧν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:186.2#ὕπερ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:186.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:186.4#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:186.5#χρυσέα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:186.6#θύγατερ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:186.7#Διός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:186.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:187.1#εὐῶπα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:187.2#πέμψον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:187.3#ἀλκάν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:187.4#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:190.1#Ἄρεά
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:190.2#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:190.3#τὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:190.4#μαλερόν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:190.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:190.6#ὃς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:190.7#νῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:190.8#ἄχαλκος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:190.9#ἀσπίδων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:191.1#φλέγει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:191.2#με
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:191.3#περιβόατον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:191.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:191.5#ἀντιάζω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:192.1#παλίσσυτον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:192.2#δράμημα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:192.3#νωτίσαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:192.4#πάτρας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:193.1#ἔπουρον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:193.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:193.3#εἴτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:193.4#ἐς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:193.5#μέγαν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:193.6#θάλαμον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:193.7#Ἀμφιτρίτας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:195.1#εἴτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:195.2#ἐς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:195.3#τὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:195.4#ἀπόξενον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:195.5#ὅρμων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:196.1#Θρῄκιον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:196.2#κλύδωνα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:196.3#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:197.1#τελεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:197.2#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:197.3#εἴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:197.4#τι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:197.5#νὺξ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:197.6#ἀφῇ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:197.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:198.1#τοῦτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:198.2#ἐπʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:198.3#ἦμαρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:198.4#ἔρχεται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:198.5#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:199.1#τόν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:199.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:199.3#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:199.4#τᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:199.5#πυρφόρων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:200.1#ἀστραπᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:200.2#κράτη
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:200.3#νέμων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:200.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:201.1#ὦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:201.2#Ζεῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:201.3#πάτερ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:201.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:201.5#ὑπὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:201.6#σῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:201.7#φθίσον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:201.8#κεραυνῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:201.9#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:202.1#Λύκειʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:202.2#ἄναξ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:202.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:202.4#τά
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:202.5#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:202.6#σὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:202.7#χρυσοστρόφων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:202.8#ἀπʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:202.9#ἀγκυλᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:203.1#βέλεα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:203.2#θέλοιμʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:203.3#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:203.4#ἀδάματʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:203.5#ἐνδατεῖσθαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:205.1#ἀρωγὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:205.2#προσταχθέντα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:205.3#τάς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:205.4#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:205.5#πυρφόρους
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:206.1#Ἀρτέμιδος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:206.2#αἴγλας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:206.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:206.4#ξὺν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:206.5#αἷς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:206.6#Λύκιʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:206.7#ὄρεα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:206.8#διᾴσσει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:206.9#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:207.1#τὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:207.2#χρυσομίτραν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:207.3#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:207.4#κικλήσκω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:207.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:210.1#τᾶσδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:210.2#ἐπώνυμον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:210.3#γᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:210.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:211.1#οἰνῶπα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:211.2#Βάκχον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:211.3#εὔιον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:211.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:212.1#Μαινάδων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:212.2#ὁμόστολον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:212.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:213.1#πελασθῆναι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:213.2#φλέγοντʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:214.1#ἀγλαῶπι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:214.2#¯
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:214.3#?
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:214.4#¯
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:215.1#πεύκᾳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:215.2#ʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:215.3#πὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:215.4#τὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:215.5#ἀπότιμον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:215.6#ἐν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:215.7#θεοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:215.8#θεόν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:215.9#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:216.1#αἰτεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:216.2#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:216.3#ἃ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:216.4#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:216.5#αἰτεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:216.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:216.7#τἄμʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:216.8#ἐὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:216.9#θέλῃς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:216.10#ἔπη
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:217.1#κλύων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:217.2#δέχεσθαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:217.3#τῇ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:217.4#νόσῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:217.5#θʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:217.6#ὑπηρετεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:217.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:218.1#ἀλκὴν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:218.2#λάβοις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:218.3#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:218.4#κἀνακούφισιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:218.5#κακῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:218.6#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:219.1#ἁγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:219.2#ξένος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:219.3#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:219.4#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:219.5#λόγου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:219.6#τοῦδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:219.7#ἐξερῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:219.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:220.1#ξένος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:220.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:220.3#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:220.4#πραχθέντος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:220.5#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:220.6#οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:220.7#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:220.8#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:220.9#μακρὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:221.1#ἴχνευον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:221.2#αὐτός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:221.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:221.4#μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:221.5#οὐκ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:221.6#ἔχων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:221.7#τι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:221.8#σύμβολον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:221.9#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:222.1#νῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:222.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:222.3#ὕστερος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:222.4#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:222.5#ἀστὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:222.6#εἰς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:222.7#ἀστοὺς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:222.8#τελῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:222.9#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:223.1#ὑμῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:223.2#προφωνῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:223.3#πᾶσι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:223.4#Καδμείοις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:223.5#τάδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:223.6#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:224.1#ὅστις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:224.2#ποθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:224.3#ὑμῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:224.4#Λάϊον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:224.5#τὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:224.6#Λαβδάκου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:225.1#κάτοιδεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:225.2#ἀνδρὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:225.3#ἐκ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:225.4#τίνος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:225.5#διώλετο
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:225.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:226.1#τοῦτον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:226.2#κελεύω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:226.3#πάντα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:226.4#σημαίνειν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:226.5#ἐμοί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:226.6#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:227.1#κεἰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:227.2#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:227.3#φοβεῖται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:227.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:227.5#τοὐπίκλημʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:227.6#ὑπεξελεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:228.1#αὐτὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:228.2#καθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:228.3#αὑτοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:228.4#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:228.5#πείσεται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:228.6#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:228.7#ἄλλο
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:228.8#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:229.1#ἀστεργὲς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:229.2#οὐδέν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:229.3#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:229.4#γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:229.5#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:229.6#ἄπεισιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:229.7#ἀσφαλής
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:229.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:230.1#εἰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:230.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:230.3#αὖ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:230.4#τις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:230.5#ἄλλον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:230.6#οἶδεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:230.7#ἐξ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:230.8#ἄλλης
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:230.9#χθονὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:231.1#τὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:231.2#αὐτόχειρα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:231.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:231.4#μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:231.5#σιωπάτω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:231.6#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:231.7#τὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:231.8#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:232.1#κέρδος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:232.2#τελῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:232.3#ʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:232.4#γὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:232.5#χἠ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:232.6#χάρις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:232.7#προσκείσεται
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:232.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:233.1#εἰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:233.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:233.3#αὖ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:233.4#σιωπήσεσθε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:233.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:233.6#καί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:233.7#τις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:233.8#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:233.9#φίλου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:234.1#δείσας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:234.2#ἀπώσει
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:234.3#τοὔπος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:234.4#ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:234.5#χαὐτοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:234.6#τόδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:234.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:235.1#ἃκ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:235.2#τῶνδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:235.3#δράσω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:235.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:235.5#ταῦτα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:235.6#χρὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:235.7#κλύειν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:235.8#ἐμοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:235.9#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:236.1#τὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:236.2#ἄνδρʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:236.3#ἀπαυδῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:236.4#τοῦτον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:236.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:236.6#ὅστις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:236.7#ἐστί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:236.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:236.9#γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:237.1#τῆσδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:237.2#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:237.3#ἧς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:237.4#ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:237.5#κράτη
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:237.6#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:237.7#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:237.8#θρόνους
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:237.9#νέμω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:237.10#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:238.1#μήτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:238.2#εἰσδέχεσθαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:238.3#μήτε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:238.4#προσφωνεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:238.5#τινα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:238.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:239.1#μήτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:239.2#ἐν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:239.3#θεῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:239.4#εὐχαῖσι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:239.5#μήτε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:239.6#θύμασιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:240.1#κοινὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:240.2#ποεῖσθαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:240.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:240.4#μήτε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:240.5#χέρνιβας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:240.6#νέμειν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:240.7#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:241.1#ὠθεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:241.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:241.3#ἀπʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:241.4#οἴκων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:241.5#πάντας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:241.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:241.7#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:241.8#μιάσματος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:242.1#τοῦδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:242.2#ἡμὶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:242.3#ὄντος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:242.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:242.5#ὡς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:242.6#τὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:242.7#Πυθικὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:242.8#θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:243.1#μαντεῖον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:243.2#ἐξέφηνεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:243.3#ἀρτίως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:243.4#ἐμοί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:243.5#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:244.1#ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:244.2#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:244.3#οὖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:244.4#τοιόσδε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:244.5#τῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:244.6#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:244.7#δαίμονι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:245.1#τῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:245.2#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:245.3#ἀνδρὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:245.4#τῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:245.5#θανόντι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:245.6#σύμμαχος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:245.7#πέλω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:245.8#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:246.1#κατεύχομαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:246.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:246.3#τὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:246.4#δεδρακότʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:246.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:246.6#εἴτε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:246.7#τις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:247.1#εἷς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:247.2#ὢν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:247.3#λέληθεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:247.4#εἴτε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:247.5#πλειόνων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:247.6#μέτα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:247.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:248.1#κακὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:248.2#κακῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:248.3#νιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:248.4#ἄμορον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:248.5#ἐκτρῖψαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:248.6#βίον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:248.7#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:249.1#ἐπεύχομαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:249.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:249.3#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:249.4#οἴκοισιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:249.5#εἰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:249.6#ξυνέστιος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:250.1#ἐν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:250.2#τοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:250.3#ἐμοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:250.4#γένοιτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:250.5#ἐμοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:250.6#συνειδότος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:250.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:251.1#παθεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:251.2#ἅπερ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:251.3#τοῖσδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:251.4#ἀρτίως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:251.5#ἠρασάμην
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:251.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:252.1#ὑμῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:252.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:252.3#ταῦτα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:252.4#πάντʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:252.5#ἐπισκήπτω
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:252.6#τελεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:252.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:253.1#ὑπέρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:253.2#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:253.3#ἐμαυτοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:253.4#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:253.5#θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:253.6#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:253.7#τῆσδέ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:253.8#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:254.1#γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:254.2#ὧδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:254.3#ἀκάρπως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:254.4#κἀθέως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:254.5#ἐφθαρμένης
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:254.6#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:255.1#οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:255.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:255.3#εἰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:255.4#γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:255.5#ἦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:255.6#τὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:255.7#πρᾶγμα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:255.8#μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:255.9#θεήλατον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:255.10#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:256.1#ἀκάθαρτον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:256.2#ὑμᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:256.3#εἰκὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:256.4#ἦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:256.5#οὕτως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:256.6#ἐᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:256.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:257.1#ἀνδρός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:257.2#γʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:257.3#ἀρίστου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:257.4#βασιλέως
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:257.5#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:257.6#ὀλωλότος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:257.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:258.1#ἀλλʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:258.2#ἐξερευνᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:258.3#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:258.4#νῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:258.5#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:258.6#ἐπεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:258.7#κυρῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:258.8#γʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:258.9#ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:259.1#ἔχων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:259.2#μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:259.3#ἀρχὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:259.4#ἃς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:259.5#ἐκεῖνος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:259.6#εἶχε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:259.7#πρίν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:259.8#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:260.1#ἔχων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:260.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:260.3#λέκτρα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:260.4#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:260.5#γυναῖχʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:260.6#ὁμόσπορον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:260.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:261.1#κοινῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:261.2#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:261.3#παίδων
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:261.4#κοίνʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:261.5#ἄν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:261.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:261.7#εἰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:261.8#κείνῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:261.9#γένος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:262.1#μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:262.2#ʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:262.3#δυστύχησεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:262.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:262.5#ἦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:262.6#ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:262.7#ἐκπεφυκότα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:262.8#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:263.1#νῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:263.2#δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:263.3#ἐς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:263.4#τὸ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:263.5#κείνου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:263.6#κρᾶτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:263.7#ἐνήλαθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:263.8#ἡ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:263.9#τύχη
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:263.10#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:264.1#ἀνθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:264.2#ὧν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:264.3#ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:264.4#τάδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:264.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:264.6#ὡσπερεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:264.7#τοὐμοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:264.8#πατρός
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:264.9#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:265.1#ὑπερμαχοῦμαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:265.2#κἀπὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:265.3#πᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:265.4#ἀφίξομαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:265.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:266.1#ζητῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:266.2#τὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:266.3#αὐτόχειρα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:266.4#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:266.5#φόνου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:266.6#λαβεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:266.7#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:267.1#τῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:267.2#Λαβδακείῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:267.3#παιδὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:267.4#Πολυδώρου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:267.5#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:267.6#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:268.1#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:268.2#πρόσθε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:268.3#Κάδμου
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:268.4#τοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:268.5#πάλαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:268.6#τʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:268.7#Ἀγήνορος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:268.8#.
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:269.1#καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:269.2#ταῦτα
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:269.3#τοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:269.4#μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:269.5#δρῶσιν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:269.6#εὔχομαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:269.7#θεοὺς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:270.1#μήτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:270.2#ἄροτον
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:270.3#αὐτοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:270.4#γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:270.5#ἀνιέναι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:270.6#τινὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:271.1#μήτʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:271.2#οὖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:271.3#γυναικῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:271.4#παῖδας
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:271.5#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:271.6#ἀλλὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:271.7#τῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:271.8#πότμῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:272.1#τῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:272.2#νῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:272.3#φθερεῖσθαι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:272.4#κἄτι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:272.5#τοῦδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:272.6#ἐχθίονι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:272.7#:
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:273.1#ὑμῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:273.2#δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:273.3#τοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:273.4#ἄλλοισι
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:273.5#Καδμείοις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:273.6#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:273.7#ὅσοις
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:274.1#τάδʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:274.2#ἔστʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:274.3#ἀρέσκονθʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:274.4#,
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:274.5#ἥ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:274.6#τε
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:274.7#σύμμαχος
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:274.8#Δίκη
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:275.1#χοἰ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:275.2#πάντες
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:275.3#εὖ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:275.4#ξυνεῖεν
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:275.5#εἰσαεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:275.6#θεοί
+urn:cts:greekLit:tlg0011.tlg004.fu.tokens:275.7#.
+
+#!ctsdata
+urn:cts:greekLit:tlg0011.tlg004.fu:1#ὦ τέκνα , Κάδμου τοῦ πάλαι νέα τροφή ,
+urn:cts:greekLit:tlg0011.tlg004.fu:2#τίνας ποθʼ ἕδρας τάσδε μοι θοάζετε
+urn:cts:greekLit:tlg0011.tlg004.fu:3#ἱκτηρίοις κλάδοισιν ἐξεστεμμένοι ;
+urn:cts:greekLit:tlg0011.tlg004.fu:4#πόλις δʼ ὁμοῦ μὲν θυμιαμάτων γέμει ,
+urn:cts:greekLit:tlg0011.tlg004.fu:5#ὁμοῦ δὲ παιάνων τε καὶ στεναγμάτων :
+urn:cts:greekLit:tlg0011.tlg004.fu:6#ἁγὼ δικαιῶν μὴ παρʼ ἀγγέλων , τέκνα ,
+urn:cts:greekLit:tlg0011.tlg004.fu:7#ἄλλων ἀκούειν αὐτὸς ὧδʼ ἐλήλυθα ,
+urn:cts:greekLit:tlg0011.tlg004.fu:8#ὁ πᾶσι κλεινὸς Οἰδίπους καλούμενος .
+urn:cts:greekLit:tlg0011.tlg004.fu:9#ἀλλʼ ὦ γεραιέ , φράζʼ , ἐπεὶ πρέπων ἔφυς
+urn:cts:greekLit:tlg0011.tlg004.fu:10#πρὸ τῶνδε φωνεῖν , τίνι τρόπῳ καθέστατε ,
+urn:cts:greekLit:tlg0011.tlg004.fu:11#δείσαντες ἢ στέρξαντες ; ὡς θέλοντος ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu:12#ἐμοῦ προσαρκεῖν πᾶν : δυσάλγητος γὰρ ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu:13#εἴην τοιάνδε μὴ οὐ κατοικτίρων ἕδραν .
+urn:cts:greekLit:tlg0011.tlg004.fu:14#ἀλλʼ ὦ κρατύνων Οἰδίπους χώρας ἐμῆς ,
+urn:cts:greekLit:tlg0011.tlg004.fu:15#ὁρᾷς μὲν ἡμᾶς ἡλίκοι προσήμεθα
+urn:cts:greekLit:tlg0011.tlg004.fu:16#βωμοῖσι τοῖς σοῖς : οἱ μὲν οὐδέπω μακρὰν
+urn:cts:greekLit:tlg0011.tlg004.fu:17#πτέσθαι σθένοντες , οἱ δὲ σὺν γήρᾳ βαρεῖς ,
+urn:cts:greekLit:tlg0011.tlg004.fu:18#ἱερῆς , ἐγὼ μὲν Ζηνός , οἵδε τʼ ᾐθέων
+urn:cts:greekLit:tlg0011.tlg004.fu:19#λεκτοί : τὸ δʼ ἄλλο φῦλον ἐξεστεμμένον
+urn:cts:greekLit:tlg0011.tlg004.fu:20#ἀγοραῖσι θακεῖ πρός τε Παλλάδος διπλοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu:21#ναοῖς , ἐπʼ Ἰσμηνοῦ τε μαντείᾳ σποδῷ .
+urn:cts:greekLit:tlg0011.tlg004.fu:22#πόλις γάρ , ὥσπερ καὐτὸς εἰσορᾷς , ἄγαν
+urn:cts:greekLit:tlg0011.tlg004.fu:23#ἤδη σαλεύει κἀνακουφίσαι κάρα
+urn:cts:greekLit:tlg0011.tlg004.fu:24#βυθῶν ἔτʼ οὐχ οἵα τε φοινίου σάλου ,
+urn:cts:greekLit:tlg0011.tlg004.fu:25#φθίνουσα μὲν κάλυξιν ἐγκάρποις χθονός ,
+urn:cts:greekLit:tlg0011.tlg004.fu:26#φθίνουσα δʼ ἀγέλαις βουνόμοις τόκοισί τε
+urn:cts:greekLit:tlg0011.tlg004.fu:27#ἀγόνοις γυναικῶν : ἐν δʼ ὁ πυρφόρος θεὸς
+urn:cts:greekLit:tlg0011.tlg004.fu:28#σκήψας ἐλαύνει , λοιμὸς ἔχθιστος , πόλιν ,
+urn:cts:greekLit:tlg0011.tlg004.fu:29#ὑφʼ οὗ κενοῦται δῶμα Καδμεῖον , μέλας δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu:30#Ἅιδης στεναγμοῖς καὶ γόοις πλουτίζεται .
+urn:cts:greekLit:tlg0011.tlg004.fu:31#θεοῖσι μέν νυν οὐκ ἰσούμενόν σʼ ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu:32#οὐ δʼ οἵδε παῖδες ἑζόμεσθʼ ἐφέστιοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu:33#ἀνδρῶν δὲ πρῶτον ἔν τε συμφοραῖς βίου
+urn:cts:greekLit:tlg0011.tlg004.fu:34#κρίνοντες ἔν τε δαιμόνων συναλλαγαῖς :
+urn:cts:greekLit:tlg0011.tlg004.fu:35#ὅς γʼ ἐξέλυσας ἄστυ Καδμεῖον μολὼν
+urn:cts:greekLit:tlg0011.tlg004.fu:36#σκληρᾶς ἀοιδοῦ δασμὸν ὃν παρείχομεν ,
+urn:cts:greekLit:tlg0011.tlg004.fu:37#καὶ ταῦθʼ ὑφʼ ἡμῶν οὐδὲν ἐξειδὼς πλέον
+urn:cts:greekLit:tlg0011.tlg004.fu:38#οὐ δʼ ἐκδιδαχθείς , ἀλλὰ προσθήκῃ θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu:39#λέγει νομίζει θʼ ἡμὶν ὀρθῶσαι βίον :
+urn:cts:greekLit:tlg0011.tlg004.fu:40#νῦν τʼ , ὦ κράτιστον πᾶσιν Οἰδίπου κάρα ,
+urn:cts:greekLit:tlg0011.tlg004.fu:41#ἱκετεύομέν σε πάντες οἵδε πρόστροποι
+urn:cts:greekLit:tlg0011.tlg004.fu:42#ἀλκήν τινʼ εὑρεῖν ἡμίν , εἴτε του θεῶν
+urn:cts:greekLit:tlg0011.tlg004.fu:43#φήμην ἀκούσας εἴτʼ ἀπʼ ἀνδρὸς οἶσθά του :
+urn:cts:greekLit:tlg0011.tlg004.fu:44#ὡς τοῖσιν ἐμπείροισι καὶ τὰς ξυμφορὰς
+urn:cts:greekLit:tlg0011.tlg004.fu:45#ζώσας ὁρῶ μάλιστα τῶν βουλευμάτων .
+urn:cts:greekLit:tlg0011.tlg004.fu:46#ἴθʼ , ὦ βροτῶν ἄριστʼ , ἀνόρθωσον πόλιν ,
+urn:cts:greekLit:tlg0011.tlg004.fu:47#ἴθʼ , εὐλαβήθηθʼ : ὡς σὲ νῦν μὲν ἥδε γῆ
+urn:cts:greekLit:tlg0011.tlg004.fu:48#σωτῆρα κλῄζει τῆς πάρος προθυμίας :
+urn:cts:greekLit:tlg0011.tlg004.fu:49#ἀρχῆς δὲ τῆς σῆς μηδαμῶς μεμνώμεθα
+urn:cts:greekLit:tlg0011.tlg004.fu:50#στάντες τʼ ἐς ὀρθὸν καὶ πεσόντες ὕστερον .
+urn:cts:greekLit:tlg0011.tlg004.fu:51#ἀλλʼ ἀσφαλείᾳ τήνδʼ ἀνόρθωσον πόλιν :
+urn:cts:greekLit:tlg0011.tlg004.fu:52#ὄρνιθι γὰρ καὶ τὴν τότʼ αἰσίῳ τύχην
+urn:cts:greekLit:tlg0011.tlg004.fu:53#παρέσχες ἡμῖν , καὶ τανῦν ἴσος γενοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu:54#ὡς εἴπερ ἄρξεις τῆσδε γῆς , ὥσπερ κρατεῖς ,
+urn:cts:greekLit:tlg0011.tlg004.fu:55#ξὺν ἀνδράσιν κάλλιον ἢ κενῆς κρατεῖν :
+urn:cts:greekLit:tlg0011.tlg004.fu:56#ὡς οὐδέν ἐστιν οὔ τε πύργος οὔ τε ναῦς
+urn:cts:greekLit:tlg0011.tlg004.fu:57#ἔρημος ἀνδρῶν μὴ ξυνοικούντων ἔσω .
+urn:cts:greekLit:tlg0011.tlg004.fu:58#ὦ παῖδες οἰκτροί , γνωτὰ κοὐκ ἄγνωτά μοι
+urn:cts:greekLit:tlg0011.tlg004.fu:59#προσήλθεθʼ ἱμείροντες : εὖ γὰρ οἶδʼ ὅτι
+urn:cts:greekLit:tlg0011.tlg004.fu:60#νοσεῖτε πάντες , καὶ νοσοῦντες , ὡς ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu:61#οὐκ ἔστιν ὑμῶν ὅστις ἐξ ἴσου νοσεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu:62#τὸ μὲν γὰρ ὑμῶν ἄλγος εἰς ἕνʼ ἔρχεται
+urn:cts:greekLit:tlg0011.tlg004.fu:63#μόνον καθʼ αὑτὸν κοὐδένʼ ἄλλον , ἡ δʼ ἐμὴ
+urn:cts:greekLit:tlg0011.tlg004.fu:64#ψυχὴ πόλιν τε κἀμὲ καὶ σʼ ὁμοῦ στένει .
+urn:cts:greekLit:tlg0011.tlg004.fu:65#ὥστʼ οὐχ ὕπνῳ γʼ εὕδοντά μʼ ἐξεγείρετε ,
+urn:cts:greekLit:tlg0011.tlg004.fu:66#ἀλλʼ ἴστε πολλὰ μέν με δακρύσαντα δή ,
+urn:cts:greekLit:tlg0011.tlg004.fu:67#πολλὰς δʼ ὁδοὺς ἐλθόντα φροντίδος πλάνοις :
+urn:cts:greekLit:tlg0011.tlg004.fu:68#ἣν δʼ εὖ σκοπῶν ηὕρισκον ἴασιν μόνην ,
+urn:cts:greekLit:tlg0011.tlg004.fu:69#ταύτην ἔπραξα : παῖδα γὰρ Μενοικέως
+urn:cts:greekLit:tlg0011.tlg004.fu:70#Κρέοντʼ , ἐμαυτοῦ γαμβρόν , ἐς τὰ Πυθικὰ
+urn:cts:greekLit:tlg0011.tlg004.fu:71#ἔπεμψα Φοίβου δώμαθʼ , ὡς πύθοιθʼ ὅ τι
+urn:cts:greekLit:tlg0011.tlg004.fu:72#δρῶν ἢ τί φωνῶν τήνδε ῥυσαίμην πόλιν .
+urn:cts:greekLit:tlg0011.tlg004.fu:73#καί μʼ ἦμαρ ἤδη ξυμμετρούμενον χρόνῳ
+urn:cts:greekLit:tlg0011.tlg004.fu:74#λυπεῖ τί πράσσει : τοῦ γὰρ εἰκότος πέρα
+urn:cts:greekLit:tlg0011.tlg004.fu:75#ἄπεστι πλείω τοῦ καθήκοντος χρόνου .
+urn:cts:greekLit:tlg0011.tlg004.fu:76#ὅταν δʼ ἵκηται , τηνικαῦτʼ ἐγὼ κακὸς
+urn:cts:greekLit:tlg0011.tlg004.fu:77#μὴ δρῶν ἂν εἴην πάνθʼ ὅσʼ ἂν δηλοῖ θεός .
+urn:cts:greekLit:tlg0011.tlg004.fu:78#ἀλλʼ εἰς καλὸν σύ τʼ εἶπας οἵδε τʼ ἀρτίως
+urn:cts:greekLit:tlg0011.tlg004.fu:79#Κρέοντα προσστείχοντα σημαίνουσί μοι .
+urn:cts:greekLit:tlg0011.tlg004.fu:80#ὦναξ Ἄπολλον , εἰ γὰρ ἐν τύχῃ γέ τῳ
+urn:cts:greekLit:tlg0011.tlg004.fu:81#σωτῆρι βαίη λαμπρὸς ὥσπερ ὄμματι
+urn:cts:greekLit:tlg0011.tlg004.fu:82#ἀλλʼ εἰκάσαι μέν , ἡδύς : οὐ γὰρ ἂν κάρα
+urn:cts:greekLit:tlg0011.tlg004.fu:83#πολυστεφὴς ὧδʼ εἷρπε παγκάρπου δάφνης .
+urn:cts:greekLit:tlg0011.tlg004.fu:84#τάχʼ εἰσόμεσθα : ξύμμετρος γὰρ ὡς κλύειν .
+urn:cts:greekLit:tlg0011.tlg004.fu:85#ἄναξ , ἐμὸν κήδευμα , παῖ Μενοικέως ,
+urn:cts:greekLit:tlg0011.tlg004.fu:86#τίνʼ ἡμὶν ἥκεις τοῦ θεοῦ φήμην φέρων ;
+urn:cts:greekLit:tlg0011.tlg004.fu:87#ἐσθλήν : λέγω γὰρ καὶ τὰ δύσφορʼ , εἰ τύχοι
+urn:cts:greekLit:tlg0011.tlg004.fu:88#κατʼ ὀρθὸν ἐξελθόντα , πάντʼ ἂν εὐτυχεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu:89#ἔστιν δὲ ποῖον τοὔπος ; οὔ τε γὰρ θρασὺς
+urn:cts:greekLit:tlg0011.tlg004.fu:90#οὔ τʼ οὖν προδείσας εἰμὶ τῷ γε νῦν λόγῳ .
+urn:cts:greekLit:tlg0011.tlg004.fu:91#εἰ τῶνδε χρῄζεις πλησιαζόντων κλύειν ,
+urn:cts:greekLit:tlg0011.tlg004.fu:92#ἕτοιμος εἰπεῖν , εἴτε καὶ στείχειν ἔσω .
+urn:cts:greekLit:tlg0011.tlg004.fu:93#ἐς πάντας αὔδα : τῶνδε γὰρ πλέον φέρω
+urn:cts:greekLit:tlg0011.tlg004.fu:94#τὸ πένθος ἢ καὶ τῆς ἐμῆς ψυχῆς πέρι .
+urn:cts:greekLit:tlg0011.tlg004.fu:95#λέγοιμʼ ἂν οἷʼ ἤκουσα τοῦ θεοῦ πάρα .
+urn:cts:greekLit:tlg0011.tlg004.fu:96#ἄνωγεν ἡμᾶς Φοῖβος ἐμφανῶς ἄναξ
+urn:cts:greekLit:tlg0011.tlg004.fu:97#μίασμα χώρας , ὡς τεθραμμένον χθονὶ
+urn:cts:greekLit:tlg0011.tlg004.fu:98#ἐν τῇδʼ , ἐλαύνειν μη δʼ ἀνήκεστον τρέφειν .
+urn:cts:greekLit:tlg0011.tlg004.fu:99#ποίῳ καθαρμῷ ; τίς ὁ τρόπος τῆς ξυμφορᾶς ;
+urn:cts:greekLit:tlg0011.tlg004.fu:100#ἀνδρηλατοῦντας ἢ φόνῳ φόνον πάλιν
+urn:cts:greekLit:tlg0011.tlg004.fu:101#λύοντας , ὡς τόδʼ αἷμα χειμάζον πόλιν .
+urn:cts:greekLit:tlg0011.tlg004.fu:102#ποίου γὰρ ἀνδρὸς τήνδε μηνύει τύχην ;
+urn:cts:greekLit:tlg0011.tlg004.fu:103#ἦν ἡμίν , ὦναξ , Λάϊός ποθʼ ἡγεμὼν
+urn:cts:greekLit:tlg0011.tlg004.fu:104#γῆς τῆσδε , πρὶν σὲ τήνδʼ ἀπευθύνειν πόλιν .
+urn:cts:greekLit:tlg0011.tlg004.fu:105#ἔξοιδʼ ἀκούων : οὐ γὰρ εἰσεῖδόν γέ πω .
+urn:cts:greekLit:tlg0011.tlg004.fu:106#τούτου θανόντος νῦν ἐπιστέλλει σαφῶς
+urn:cts:greekLit:tlg0011.tlg004.fu:107#τοὺς αὐτοέντας χειρὶ τιμωρεῖν τινας .
+urn:cts:greekLit:tlg0011.tlg004.fu:108#οἳ δʼ εἰσὶ ποῦ γῆς ; ποῦ τόδʼ εὑρεθήσεται
+urn:cts:greekLit:tlg0011.tlg004.fu:109#ἴχνος παλαιᾶς δυστέκμαρτον αἰτίας ;
+urn:cts:greekLit:tlg0011.tlg004.fu:110#ἐν τῇδʼ ἔφασκε γῇ : τὸ δὲ ζητούμενον
+urn:cts:greekLit:tlg0011.tlg004.fu:111#ἁλωτόν , ἐκφεύγειν δὲ τἀμελούμενον .
+urn:cts:greekLit:tlg0011.tlg004.fu:112#πότερα δʼ ἐν οἴκοις ἢ ʼ ν ἀγροῖς ὁ Λάϊος
+urn:cts:greekLit:tlg0011.tlg004.fu:113#ἢ γῆς ἐπʼ ἄλλης τῷδε συμπίπτει φόνῳ ;
+urn:cts:greekLit:tlg0011.tlg004.fu:114#θεωρός , ὡς ἔφασκεν , ἐκδημῶν , πάλιν
+urn:cts:greekLit:tlg0011.tlg004.fu:115#πρὸς οἶκον οὐκέθʼ ἵκεθʼ , ὡς ἀπεστάλη .
+urn:cts:greekLit:tlg0011.tlg004.fu:116#οὐ δʼ ἄγγελός τις οὐ δὲ συμπράκτωρ ὁδοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu:117#κατεῖδʼ , ὅτου τις ἐκμαθὼν ἐχρήσατʼ ἄν ;
+urn:cts:greekLit:tlg0011.tlg004.fu:118#θνῄσκουσι γάρ , πλὴν εἷς τις , ὃς φόβῳ , φυγὼν
+urn:cts:greekLit:tlg0011.tlg004.fu:119#ὧν εἶδε πλὴν ἓν οὐδὲν εἶχʼ εἰδὼς φράσαι .
+urn:cts:greekLit:tlg0011.tlg004.fu:120#τὸ ποῖον ; ἓν γὰρ πόλλʼ ἂν ἐξεύροι μαθεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu:121#ἀρχὴν βραχεῖαν εἰ λάβοιμεν ἐλπίδος .
+urn:cts:greekLit:tlg0011.tlg004.fu:122#λῃστὰς ἔφασκε συντυχόντας οὐ μιᾷ
+urn:cts:greekLit:tlg0011.tlg004.fu:123#ῥώμῃ κτανεῖν νιν , ἀλλὰ σὺν πλήθει χερῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu:124#πῶς οὖν ὁ λῃστής , εἴ τι μὴ ξὺν ἀργύρῳ
+urn:cts:greekLit:tlg0011.tlg004.fu:125#ἐπράσσετʼ ἐνθένδʼ , ἐς τόδʼ ἂν τόλμης ἔβη ;
+urn:cts:greekLit:tlg0011.tlg004.fu:126#δοκοῦντα ταῦτʼ ἦν : Λαΐου δʼ ὀλωλότος
+urn:cts:greekLit:tlg0011.tlg004.fu:127#οὐδεὶς ἀρωγὸς ἐν κακοῖς ἐγίγνετο .
+urn:cts:greekLit:tlg0011.tlg004.fu:128#κακὸν δὲ ποῖον ἐμποδών , τυραννίδος
+urn:cts:greekLit:tlg0011.tlg004.fu:129#οὕτω πεσούσης , εἶργε τοῦτʼ ἐξειδέναι ;
+urn:cts:greekLit:tlg0011.tlg004.fu:130#ἡ ποικιλῳδὸς Σφὶγξ τὸ πρὸς ποσὶν σκοπεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu:131#μεθέντας ἡμᾶς τἀφανῆ προσήγετο .
+urn:cts:greekLit:tlg0011.tlg004.fu:132#ἀλλʼ ἐξ ὑπαρχῆς αὖθις αὔτʼ ἐγὼ φανῶ :
+urn:cts:greekLit:tlg0011.tlg004.fu:133#ἐπαξίως γὰρ Φοῖβος , ἀξίως δὲ σὺ
+urn:cts:greekLit:tlg0011.tlg004.fu:134#πρὸ τοῦ θανόντος τήνδʼ ἔθεσθʼ ἐπιστροφήν :
+urn:cts:greekLit:tlg0011.tlg004.fu:135#ὥστʼ ἐνδίκως ὄψεσθε κἀμὲ σύμμαχον
+urn:cts:greekLit:tlg0011.tlg004.fu:136#γῇ τῇδε τιμωροῦντα τῷ θεῷ θʼ ἅμα .
+urn:cts:greekLit:tlg0011.tlg004.fu:137#ὑπὲρ γὰρ οὐχὶ τῶν ἀπωτέρω φίλων ,
+urn:cts:greekLit:tlg0011.tlg004.fu:138#ἀλλʼ αὐτὸς αὑτοῦ τοῦτʼ ἀποσκεδῶ μύσος .
+urn:cts:greekLit:tlg0011.tlg004.fu:139#ὅστις γὰρ ἦν ἐκεῖνον ὁ κτανών , τάχʼ ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu:140#κἄμʼ ἂν τοιαύτῃ χειρὶ τιμωροῦνθʼ ἕλοι .
+urn:cts:greekLit:tlg0011.tlg004.fu:141#κείνῳ προσαρκῶν οὖν ἐμαυτὸν ὠφελῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu:142#ἀλλʼ ὡς τάχιστα , παῖδες , ὑμεῖς μὲν βάθρων
+urn:cts:greekLit:tlg0011.tlg004.fu:143#ἵστασθε , τούσδʼ ἄραντες ἱκτῆρας κλάδους ,
+urn:cts:greekLit:tlg0011.tlg004.fu:144#ἄλλος δὲ Κάδμου λαὸν ὧδʼ ἀθροιζέτω ,
+urn:cts:greekLit:tlg0011.tlg004.fu:145#ὡς πᾶν ἐμοῦ δράσοντος : ἢ γὰρ εὐτυχεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu:146#σὺν τῷ θεῷ φανούμεθʼ ἢ πεπτωκότες .
+urn:cts:greekLit:tlg0011.tlg004.fu:147#ὦ παῖδες , ἱστώμεσθα : τῶνδε γὰρ χάριν
+urn:cts:greekLit:tlg0011.tlg004.fu:148#καὶ δεῦρʼ ἔβημεν ὧν ὅδʼ ἐξαγγέλλεται .
+urn:cts:greekLit:tlg0011.tlg004.fu:149#Φοῖβος δʼ ὁ πέμψας τάσδε μαντείας ἅμα
+urn:cts:greekLit:tlg0011.tlg004.fu:150#σωτήρ δʼ ἵκοιτο καὶ νόσου παυστήριος .
+urn:cts:greekLit:tlg0011.tlg004.fu:151#ὦ Διὸς ἁδυεπὲς φάτι , τίς ποτε τᾶς πολυχρύσου
+urn:cts:greekLit:tlg0011.tlg004.fu:152#Πυθῶνος ἀγλαὰς ἔβας
+urn:cts:greekLit:tlg0011.tlg004.fu:153#Θήβας ; ἐκτέταμαι φοβερὰν φρένα , δείματι πάλλων ,
+urn:cts:greekLit:tlg0011.tlg004.fu:154#ἰήιε Δάλιε Παιάν ,
+urn:cts:greekLit:tlg0011.tlg004.fu:155#ἀμφὶ σοὶ ἁζόμενος τί μοι ἢ νέον
+urn:cts:greekLit:tlg0011.tlg004.fu:156#ἢ περιτελλομέναις ὥραις πάλιν ἐξανύσεις χρέος .
+urn:cts:greekLit:tlg0011.tlg004.fu:157#εἰπέ μοι , ὦ χρυσέας τέκνον Ἐλπίδος , ἄμβροτε Φάμα .
+urn:cts:greekLit:tlg0011.tlg004.fu:158#πρῶτα σὲ κεκλόμενος , θύγατερ Διός , ἄμβροτʼ Ἀθάνα
+urn:cts:greekLit:tlg0011.tlg004.fu:160#γαιάοχόν τʼ ἀδελφεὰν
+urn:cts:greekLit:tlg0011.tlg004.fu:161#Ἄρτεμιν , ἃ κυκλόεντʼ ἀγορᾶς θρόνον εὐκλέα
+urn:cts:greekLit:tlg0011.tlg004.fu:162#θάσσει ,
+urn:cts:greekLit:tlg0011.tlg004.fu:163#καὶ Φοῖβον ἑκαβόλον , ἰὼ
+urn:cts:greekLit:tlg0011.tlg004.fu:164#τρισσοὶ ἀλεξίμοροι προφάνητέ μοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu:165#εἴ ποτε καὶ προτέρας ἄτας ὕπερ ὀρνυμένας πόλει
+urn:cts:greekLit:tlg0011.tlg004.fu:166#ἠνύσατʼ ἐκτοπίαν φλόγα πήματος , ἔλθετε καὶ νῦν .
+urn:cts:greekLit:tlg0011.tlg004.fu:167#ὦ πόποι , ἀνάριθμα γὰρ φέρω
+urn:cts:greekLit:tlg0011.tlg004.fu:170#πήματα : νοσεῖ δέ μοι πρόπας στόλος , οὐ δʼ ἔνι φροντίδος ἔγχος
+urn:cts:greekLit:tlg0011.tlg004.fu:171#ᾧ τις ἀλέξεται . οὔ τε γὰρ ἔκγονα
+urn:cts:greekLit:tlg0011.tlg004.fu:172#κλυτᾶς χθονὸς αὔξεται οὔ τε τόκοισιν
+urn:cts:greekLit:tlg0011.tlg004.fu:174#ἰηίων καμάτων ἀνέχουσι γυναῖκες :
+urn:cts:greekLit:tlg0011.tlg004.fu:175#ἄλλον δʼ ἂν ἄλλῳ προσίδοις ἅπερ εὔπτερον ὄρνιν
+urn:cts:greekLit:tlg0011.tlg004.fu:176#κρεῖσσον ἀμαιμακέτου πυρὸς ὄρμενον
+urn:cts:greekLit:tlg0011.tlg004.fu:177#ἀκτὰν πρὸς ἑσπέρου θεοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu:178#ὧν πόλις ἀνάριθμος ὄλλυται :
+urn:cts:greekLit:tlg0011.tlg004.fu:180#νηλέα δὲ γένεθλα πρὸς πέδῳ θαναταφόρα κεῖται ἀνοίκτως :
+urn:cts:greekLit:tlg0011.tlg004.fu:181#ἐν δʼ ἄλοχοι πολιαί τʼ ἔπι ματέρες
+urn:cts:greekLit:tlg0011.tlg004.fu:182#ἀχὰν παραβώμιον ἄλλοθεν ἄλλαν
+urn:cts:greekLit:tlg0011.tlg004.fu:183#λυγρῶν πόνων ἱκετῆρες ἐπιστενάχουσιν .
+urn:cts:greekLit:tlg0011.tlg004.fu:185#παιὰν δὲ λάμπει στονόεσσά τε γῆρυς ὅμαυλος
+urn:cts:greekLit:tlg0011.tlg004.fu:186#ὧν ὕπερ , ὦ χρυσέα θύγατερ Διός ,
+urn:cts:greekLit:tlg0011.tlg004.fu:187#εὐῶπα πέμψον ἀλκάν .
+urn:cts:greekLit:tlg0011.tlg004.fu:190#Ἄρεά τε τὸν μαλερόν , ὃς νῦν ἄχαλκος ἀσπίδων
+urn:cts:greekLit:tlg0011.tlg004.fu:191#φλέγει με περιβόατον , ἀντιάζω
+urn:cts:greekLit:tlg0011.tlg004.fu:192#παλίσσυτον δράμημα νωτίσαι πάτρας
+urn:cts:greekLit:tlg0011.tlg004.fu:193#ἔπουρον , εἴτʼ ἐς μέγαν θάλαμον Ἀμφιτρίτας
+urn:cts:greekLit:tlg0011.tlg004.fu:195#εἴτʼ ἐς τὸν ἀπόξενον ὅρμων
+urn:cts:greekLit:tlg0011.tlg004.fu:196#Θρῄκιον κλύδωνα :
+urn:cts:greekLit:tlg0011.tlg004.fu:197#τελεῖν γὰρ εἴ τι νὺξ ἀφῇ ,
+urn:cts:greekLit:tlg0011.tlg004.fu:198#τοῦτʼ ἐπʼ ἦμαρ ἔρχεται :
+urn:cts:greekLit:tlg0011.tlg004.fu:199#τόν , ὦ τᾶν πυρφόρων
+urn:cts:greekLit:tlg0011.tlg004.fu:200#ἀστραπᾶν κράτη νέμων ,
+urn:cts:greekLit:tlg0011.tlg004.fu:201#ὦ Ζεῦ πάτερ , ὑπὸ σῷ φθίσον κεραυνῷ ,
+urn:cts:greekLit:tlg0011.tlg004.fu:202#Λύκειʼ ἄναξ , τά τε σὰ χρυσοστρόφων ἀπʼ ἀγκυλᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu:203#βέλεα θέλοιμʼ ἂν ἀδάματʼ ἐνδατεῖσθαι
+urn:cts:greekLit:tlg0011.tlg004.fu:205#ἀρωγὰ προσταχθέντα τάς τε πυρφόρους
+urn:cts:greekLit:tlg0011.tlg004.fu:206#Ἀρτέμιδος αἴγλας , ξὺν αἷς Λύκιʼ ὄρεα διᾴσσει :
+urn:cts:greekLit:tlg0011.tlg004.fu:207#τὸν χρυσομίτραν τε κικλήσκω ,
+urn:cts:greekLit:tlg0011.tlg004.fu:210#τᾶσδʼ ἐπώνυμον γᾶς ,
+urn:cts:greekLit:tlg0011.tlg004.fu:211#οἰνῶπα Βάκχον εὔιον ,
+urn:cts:greekLit:tlg0011.tlg004.fu:212#Μαινάδων ὁμόστολον ,
+urn:cts:greekLit:tlg0011.tlg004.fu:213#πελασθῆναι φλέγοντʼ
+urn:cts:greekLit:tlg0011.tlg004.fu:214#ἀγλαῶπι ¯ ? ¯
+urn:cts:greekLit:tlg0011.tlg004.fu:215#πεύκᾳ ʼ πὶ τὸν ἀπότιμον ἐν θεοῖς θεόν .
+urn:cts:greekLit:tlg0011.tlg004.fu:216#αἰτεῖς : ἃ δʼ αἰτεῖς , τἄμʼ ἐὰν θέλῃς ἔπη
+urn:cts:greekLit:tlg0011.tlg004.fu:217#κλύων δέχεσθαι τῇ νόσῳ θʼ ὑπηρετεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu:218#ἀλκὴν λάβοις ἂν κἀνακούφισιν κακῶν :
+urn:cts:greekLit:tlg0011.tlg004.fu:219#ἁγὼ ξένος μὲν τοῦ λόγου τοῦδʼ ἐξερῶ ,
+urn:cts:greekLit:tlg0011.tlg004.fu:220#ξένος δὲ τοῦ πραχθέντος : οὐ γὰρ ἂν μακρὰν
+urn:cts:greekLit:tlg0011.tlg004.fu:221#ἴχνευον αὐτός , μὴ οὐκ ἔχων τι σύμβολον ,
+urn:cts:greekLit:tlg0011.tlg004.fu:222#νῦν δʼ ὕστερος γὰρ ἀστὸς εἰς ἀστοὺς τελῶ ,
+urn:cts:greekLit:tlg0011.tlg004.fu:223#ὑμῖν προφωνῶ πᾶσι Καδμείοις τάδε :
+urn:cts:greekLit:tlg0011.tlg004.fu:224#ὅστις ποθʼ ὑμῶν Λάϊον τὸν Λαβδάκου
+urn:cts:greekLit:tlg0011.tlg004.fu:225#κάτοιδεν ἀνδρὸς ἐκ τίνος διώλετο ,
+urn:cts:greekLit:tlg0011.tlg004.fu:226#τοῦτον κελεύω πάντα σημαίνειν ἐμοί :
+urn:cts:greekLit:tlg0011.tlg004.fu:227#κεἰ μὲν φοβεῖται , τοὐπίκλημʼ ὑπεξελεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu:228#αὐτὸν καθʼ αὑτοῦ : πείσεται γὰρ ἄλλο μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu:229#ἀστεργὲς οὐδέν . γῆς δʼ ἄπεισιν ἀσφαλής .
+urn:cts:greekLit:tlg0011.tlg004.fu:230#εἰ δʼ αὖ τις ἄλλον οἶδεν ἐξ ἄλλης χθονὸς
+urn:cts:greekLit:tlg0011.tlg004.fu:231#τὸν αὐτόχειρα , μὴ σιωπάτω : τὸ γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu:232#κέρδος τελῶ ʼ γὼ χἠ χάρις προσκείσεται .
+urn:cts:greekLit:tlg0011.tlg004.fu:233#εἰ δʼ αὖ σιωπήσεσθε , καί τις ἢ φίλου
+urn:cts:greekLit:tlg0011.tlg004.fu:234#δείσας ἀπώσει τοὔπος ἢ χαὐτοῦ τόδε ,
+urn:cts:greekLit:tlg0011.tlg004.fu:235#ἃκ τῶνδε δράσω , ταῦτα χρὴ κλύειν ἐμοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu:236#τὸν ἄνδρʼ ἀπαυδῶ τοῦτον , ὅστις ἐστί , γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu:237#τῆσδʼ , ἧς ἐγὼ κράτη τε καὶ θρόνους νέμω ,
+urn:cts:greekLit:tlg0011.tlg004.fu:238#μήτʼ εἰσδέχεσθαι μήτε προσφωνεῖν τινα ,
+urn:cts:greekLit:tlg0011.tlg004.fu:239#μήτʼ ἐν θεῶν εὐχαῖσι μήτε θύμασιν
+urn:cts:greekLit:tlg0011.tlg004.fu:240#κοινὸν ποεῖσθαι , μήτε χέρνιβας νέμειν :
+urn:cts:greekLit:tlg0011.tlg004.fu:241#ὠθεῖν δʼ ἀπʼ οἴκων πάντας , ὡς μιάσματος
+urn:cts:greekLit:tlg0011.tlg004.fu:242#τοῦδʼ ἡμὶν ὄντος , ὡς τὸ Πυθικὸν θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu:243#μαντεῖον ἐξέφηνεν ἀρτίως ἐμοί .
+urn:cts:greekLit:tlg0011.tlg004.fu:244#ἐγὼ μὲν οὖν τοιόσδε τῷ τε δαίμονι
+urn:cts:greekLit:tlg0011.tlg004.fu:245#τῷ τʼ ἀνδρὶ τῷ θανόντι σύμμαχος πέλω :
+urn:cts:greekLit:tlg0011.tlg004.fu:246#κατεύχομαι δὲ τὸν δεδρακότʼ , εἴτε τις
+urn:cts:greekLit:tlg0011.tlg004.fu:247#εἷς ὢν λέληθεν εἴτε πλειόνων μέτα ,
+urn:cts:greekLit:tlg0011.tlg004.fu:248#κακὸν κακῶς νιν ἄμορον ἐκτρῖψαι βίον :
+urn:cts:greekLit:tlg0011.tlg004.fu:249#ἐπεύχομαι δʼ , οἴκοισιν εἰ ξυνέστιος
+urn:cts:greekLit:tlg0011.tlg004.fu:250#ἐν τοῖς ἐμοῖς γένοιτʼ ἐμοῦ συνειδότος ,
+urn:cts:greekLit:tlg0011.tlg004.fu:251#παθεῖν ἅπερ τοῖσδʼ ἀρτίως ἠρασάμην .
+urn:cts:greekLit:tlg0011.tlg004.fu:252#ὑμῖν δὲ ταῦτα πάντʼ ἐπισκήπτω τελεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu:253#ὑπέρ τʼ ἐμαυτοῦ τοῦ θεοῦ τε τῆσδέ τε
+urn:cts:greekLit:tlg0011.tlg004.fu:254#γῆς ὧδʼ ἀκάρπως κἀθέως ἐφθαρμένης .
+urn:cts:greekLit:tlg0011.tlg004.fu:255#οὐ δʼ εἰ γὰρ ἦν τὸ πρᾶγμα μὴ θεήλατον ,
+urn:cts:greekLit:tlg0011.tlg004.fu:256#ἀκάθαρτον ὑμᾶς εἰκὸς ἦν οὕτως ἐᾶν ,
+urn:cts:greekLit:tlg0011.tlg004.fu:257#ἀνδρός γʼ ἀρίστου βασιλέως τʼ ὀλωλότος ,
+urn:cts:greekLit:tlg0011.tlg004.fu:258#ἀλλʼ ἐξερευνᾶν : νῦν δʼ ἐπεὶ κυρῶ γʼ ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu:259#ἔχων μὲν ἀρχὰς ἃς ἐκεῖνος εἶχε πρίν ,
+urn:cts:greekLit:tlg0011.tlg004.fu:260#ἔχων δὲ λέκτρα καὶ γυναῖχʼ ὁμόσπορον ,
+urn:cts:greekLit:tlg0011.tlg004.fu:261#κοινῶν τε παίδων κοίνʼ ἄν , εἰ κείνῳ γένος
+urn:cts:greekLit:tlg0011.tlg004.fu:262#μὴ ʼ δυστύχησεν , ἦν ἂν ἐκπεφυκότα :
+urn:cts:greekLit:tlg0011.tlg004.fu:263#νῦν δʼ ἐς τὸ κείνου κρᾶτʼ ἐνήλαθʼ ἡ τύχη :
+urn:cts:greekLit:tlg0011.tlg004.fu:264#ἀνθʼ ὧν ἐγὼ τάδʼ , ὡσπερεὶ τοὐμοῦ πατρός ,
+urn:cts:greekLit:tlg0011.tlg004.fu:265#ὑπερμαχοῦμαι κἀπὶ πᾶν ἀφίξομαι ,
+urn:cts:greekLit:tlg0011.tlg004.fu:266#ζητῶν τὸν αὐτόχειρα τοῦ φόνου λαβεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu:267#τῷ Λαβδακείῳ παιδὶ Πολυδώρου τε καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu:268#τοῦ πρόσθε Κάδμου τοῦ πάλαι τʼ Ἀγήνορος .
+urn:cts:greekLit:tlg0011.tlg004.fu:269#καὶ ταῦτα τοῖς μὴ δρῶσιν εὔχομαι θεοὺς
+urn:cts:greekLit:tlg0011.tlg004.fu:270#μήτʼ ἄροτον αὐτοῖς γῆς ἀνιέναι τινὰ
+urn:cts:greekLit:tlg0011.tlg004.fu:271#μήτʼ οὖν γυναικῶν παῖδας , ἀλλὰ τῷ πότμῳ
+urn:cts:greekLit:tlg0011.tlg004.fu:272#τῷ νῦν φθερεῖσθαι κἄτι τοῦδʼ ἐχθίονι :
+urn:cts:greekLit:tlg0011.tlg004.fu:273#ὑμῖν δὲ τοῖς ἄλλοισι Καδμείοις , ὅσοις
+urn:cts:greekLit:tlg0011.tlg004.fu:274#τάδʼ ἔστʼ ἀρέσκονθʼ , ἥ τε σύμμαχος Δίκη
+urn:cts:greekLit:tlg0011.tlg004.fu:275#χοἰ πάντες εὖ ξυνεῖεν εἰσαεὶ θεοί .
+
+#!ctsdata
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1.1#ὦ τέκνα , Κάδμου τοῦ πάλαι νέα τροφή ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:2.1#τίνας ποθʼ ἕδρας τάσδε μοι θοάζετε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:3.1#ἱκτηρίοις κλάδοισιν ἐξεστεμμένοι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:4.1#πόλις δʼ ὁμοῦ μὲν θυμιαμάτων γέμει ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:5.1#ὁμοῦ δὲ παιάνων τε καὶ στεναγμάτων :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:6.1#ἁγὼ δικαιῶν μὴ παρʼ ἀγγέλων , τέκνα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:7.1#ἄλλων ἀκούειν αὐτὸς ὧδʼ ἐλήλυθα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:8.1#ὁ πᾶσι κλεινὸς Οἰδίπους καλούμενος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:9.1#ἀλλʼ ὦ γεραιέ , φράζʼ , ἐπεὶ πρέπων ἔφυς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:10.1#πρὸ τῶνδε φωνεῖν , τίνι τρόπῳ καθέστατε ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:11.1#δείσαντες ἢ στέρξαντες ; ὡς θέλοντος ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:12.1#ἐμοῦ προσαρκεῖν πᾶν : δυσάλγητος γὰρ ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:13.1#εἴην τοιάνδε μὴ οὐ κατοικτίρων ἕδραν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:14.speaker1#Ἱερεύς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:14.1#ἀλλʼ ὦ κρατύνων Οἰδίπους χώρας ἐμῆς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:15.1#ὁρᾷς μὲν ἡμᾶς ἡλίκοι προσήμεθα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:16.1#βωμοῖσι τοῖς σοῖς : οἱ μὲν οὐδέπω μακρὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:17.1#πτέσθαι σθένοντες , οἱ δὲ σὺν γήρᾳ βαρεῖς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:18.1#ἱερῆς , ἐγὼ μὲν Ζηνός , οἵδε τʼ ᾐθέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:19.1#λεκτοί : τὸ δʼ ἄλλο φῦλον ἐξεστεμμένον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:20.1#ἀγοραῖσι θακεῖ πρός τε Παλλάδος διπλοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:21.1#ναοῖς , ἐπʼ Ἰσμηνοῦ τε μαντείᾳ σποδῷ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:22.1#πόλις γάρ , ὥσπερ καὐτὸς εἰσορᾷς , ἄγαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:23.1#ἤδη σαλεύει κἀνακουφίσαι κάρα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:24.1#βυθῶν ἔτʼ οὐχ οἵα τε φοινίου σάλου ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:25.1#φθίνουσα μὲν κάλυξιν ἐγκάρποις χθονός ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:26.1#φθίνουσα δʼ ἀγέλαις βουνόμοις τόκοισί τε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:27.1#ἀγόνοις γυναικῶν : ἐν δʼ ὁ πυρφόρος θεὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:28.1#σκήψας ἐλαύνει , λοιμὸς ἔχθιστος , πόλιν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:29.1#ὑφʼ οὗ κενοῦται δῶμα Καδμεῖον , μέλας δʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:30.1#Ἅιδης στεναγμοῖς καὶ γόοις πλουτίζεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:31.1#θεοῖσι μέν νυν οὐκ ἰσούμενόν σʼ ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:32.1#οὐ δʼ οἵδε παῖδες ἑζόμεσθʼ ἐφέστιοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:33.1#ἀνδρῶν δὲ πρῶτον ἔν τε συμφοραῖς βίου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:34.1#κρίνοντες ἔν τε δαιμόνων συναλλαγαῖς :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:35.1#ὅς γʼ ἐξέλυσας ἄστυ Καδμεῖον μολὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:36.1#σκληρᾶς ἀοιδοῦ δασμὸν ὃν παρείχομεν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:37.1#καὶ ταῦθʼ ὑφʼ ἡμῶν οὐδὲν ἐξειδὼς πλέον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:38.1#οὐ δʼ ἐκδιδαχθείς , ἀλλὰ προσθήκῃ θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:39.1#λέγει νομίζει θʼ ἡμὶν ὀρθῶσαι βίον :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:40.1#νῦν τʼ , ὦ κράτιστον πᾶσιν Οἰδίπου κάρα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:41.1#ἱκετεύομέν σε πάντες οἵδε πρόστροποι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:42.1#ἀλκήν τινʼ εὑρεῖν ἡμίν , εἴτε του θεῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:43.1#φήμην ἀκούσας εἴτʼ ἀπʼ ἀνδρὸς οἶσθά του :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:44.1#ὡς τοῖσιν ἐμπείροισι καὶ τὰς ξυμφορὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:45.1#ζώσας ὁρῶ μάλιστα τῶν βουλευμάτων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:46.1#ἴθʼ , ὦ βροτῶν ἄριστʼ , ἀνόρθωσον πόλιν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:47.1#ἴθʼ , εὐλαβήθηθʼ : ὡς σὲ νῦν μὲν ἥδε γῆ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:48.1#σωτῆρα κλῄζει τῆς πάρος προθυμίας :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:49.1#ἀρχῆς δὲ τῆς σῆς μηδαμῶς μεμνώμεθα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:50.1#στάντες τʼ ἐς ὀρθὸν καὶ πεσόντες ὕστερον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:51.1#ἀλλʼ ἀσφαλείᾳ τήνδʼ ἀνόρθωσον πόλιν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:52.1#ὄρνιθι γὰρ καὶ τὴν τότʼ αἰσίῳ τύχην
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:53.1#παρέσχες ἡμῖν , καὶ τανῦν ἴσος γενοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:54.1#ὡς εἴπερ ἄρξεις τῆσδε γῆς , ὥσπερ κρατεῖς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:55.1#ξὺν ἀνδράσιν κάλλιον ἢ κενῆς κρατεῖν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:56.1#ὡς οὐδέν ἐστιν οὔ τε πύργος οὔ τε ναῦς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:57.1#ἔρημος ἀνδρῶν μὴ ξυνοικούντων ἔσω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:58.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:58.1#ὦ παῖδες οἰκτροί , γνωτὰ κοὐκ ἄγνωτά μοι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:59.1#προσήλθεθʼ ἱμείροντες : εὖ γὰρ οἶδʼ ὅτι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:60.1#νοσεῖτε πάντες , καὶ νοσοῦντες , ὡς ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:61.1#οὐκ ἔστιν ὑμῶν ὅστις ἐξ ἴσου νοσεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:62.1#τὸ μὲν γὰρ ὑμῶν ἄλγος εἰς ἕνʼ ἔρχεται
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:63.1#μόνον καθʼ αὑτὸν κοὐδένʼ ἄλλον , ἡ δʼ ἐμὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:64.1#ψυχὴ πόλιν τε κἀμὲ καὶ σʼ ὁμοῦ στένει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:65.1#ὥστʼ οὐχ ὕπνῳ γʼ εὕδοντά μʼ ἐξεγείρετε ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:66.1#ἀλλʼ ἴστε πολλὰ μέν με δακρύσαντα δή ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:67.1#πολλὰς δʼ ὁδοὺς ἐλθόντα φροντίδος πλάνοις :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:68.1#ἣν δʼ εὖ σκοπῶν ηὕρισκον ἴασιν μόνην ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:69.1#ταύτην ἔπραξα : παῖδα γὰρ Μενοικέως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:70.1#Κρέοντʼ , ἐμαυτοῦ γαμβρόν , ἐς τὰ Πυθικὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:71.1#ἔπεμψα Φοίβου δώμαθʼ , ὡς πύθοιθʼ ὅ τι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:72.1#δρῶν ἢ τί φωνῶν τήνδε ῥυσαίμην πόλιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:73.1#καί μʼ ἦμαρ ἤδη ξυμμετρούμενον χρόνῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:74.1#λυπεῖ τί πράσσει : τοῦ γὰρ εἰκότος πέρα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:75.1#ἄπεστι πλείω τοῦ καθήκοντος χρόνου .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:76.1#ὅταν δʼ ἵκηται , τηνικαῦτʼ ἐγὼ κακὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:77.1#μὴ δρῶν ἂν εἴην πάνθʼ ὅσʼ ἂν δηλοῖ θεός .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:78.speaker1#Ἱερεύς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:78.1#ἀλλʼ εἰς καλὸν σύ τʼ εἶπας οἵδε τʼ ἀρτίως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:79.1#Κρέοντα προσστείχοντα σημαίνουσί μοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:80.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:80.1#ὦναξ Ἄπολλον , εἰ γὰρ ἐν τύχῃ γέ τῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:81.1#σωτῆρι βαίη λαμπρὸς ὥσπερ ὄμματι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:82.speaker1#Ἱερεύς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:82.1#ἀλλʼ εἰκάσαι μέν , ἡδύς : οὐ γὰρ ἂν κάρα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:83.1#πολυστεφὴς ὧδʼ εἷρπε παγκάρπου δάφνης .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:84.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:84.1#τάχʼ εἰσόμεσθα : ξύμμετρος γὰρ ὡς κλύειν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:85.1#ἄναξ , ἐμὸν κήδευμα , παῖ Μενοικέως ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:86.1#τίνʼ ἡμὶν ἥκεις τοῦ θεοῦ φήμην φέρων ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:87.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:87.1#ἐσθλήν : λέγω γὰρ καὶ τὰ δύσφορʼ , εἰ τύχοι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:88.1#κατʼ ὀρθὸν ἐξελθόντα , πάντʼ ἂν εὐτυχεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:89.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:89.1#ἔστιν δὲ ποῖον τοὔπος ; οὔ τε γὰρ θρασὺς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:90.1#οὔ τʼ οὖν προδείσας εἰμὶ τῷ γε νῦν λόγῳ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:91.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:91.1#εἰ τῶνδε χρῄζεις πλησιαζόντων κλύειν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:92.1#ἕτοιμος εἰπεῖν , εἴτε καὶ στείχειν ἔσω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:93.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:93.1#ἐς πάντας αὔδα : τῶνδε γὰρ πλέον φέρω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:94.1#τὸ πένθος ἢ καὶ τῆς ἐμῆς ψυχῆς πέρι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:95.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:95.1#λέγοιμʼ ἂν οἷʼ ἤκουσα τοῦ θεοῦ πάρα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:96.1#ἄνωγεν ἡμᾶς Φοῖβος ἐμφανῶς ἄναξ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:97.1#μίασμα χώρας , ὡς τεθραμμένον χθονὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:98.1#ἐν τῇδʼ , ἐλαύνειν μη δʼ ἀνήκεστον τρέφειν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:99.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:99.1#ποίῳ καθαρμῷ ; τίς ὁ τρόπος τῆς ξυμφορᾶς ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:100.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:100.1#ἀνδρηλατοῦντας ἢ φόνῳ φόνον πάλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:101.1#λύοντας , ὡς τόδʼ αἷμα χειμάζον πόλιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:102.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:102.1#ποίου γὰρ ἀνδρὸς τήνδε μηνύει τύχην ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:103.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:103.1#ἦν ἡμίν , ὦναξ , Λάϊός ποθʼ ἡγεμὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:104.1#γῆς τῆσδε , πρὶν σὲ τήνδʼ ἀπευθύνειν πόλιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:105.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:105.1#ἔξοιδʼ ἀκούων : οὐ γὰρ εἰσεῖδόν γέ πω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:106.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:106.1#τούτου θανόντος νῦν ἐπιστέλλει σαφῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:107.1#τοὺς αὐτοέντας χειρὶ τιμωρεῖν τινας .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:108.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:108.1#οἳ δʼ εἰσὶ ποῦ γῆς ; ποῦ τόδʼ εὑρεθήσεται
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:109.1#ἴχνος παλαιᾶς δυστέκμαρτον αἰτίας ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:110.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:110.1#ἐν τῇδʼ ἔφασκε γῇ : τὸ δὲ ζητούμενον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:111.1#ἁλωτόν , ἐκφεύγειν δὲ τἀμελούμενον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:112.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:112.1#πότερα δʼ ἐν οἴκοις ἢ ʼ ν ἀγροῖς ὁ Λάϊος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:113.1#ἢ γῆς ἐπʼ ἄλλης τῷδε συμπίπτει φόνῳ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:114.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:114.1#θεωρός , ὡς ἔφασκεν , ἐκδημῶν , πάλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:115.1#πρὸς οἶκον οὐκέθʼ ἵκεθʼ , ὡς ἀπεστάλη .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:116.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:116.1#οὐ δʼ ἄγγελός τις οὐ δὲ συμπράκτωρ ὁδοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:117.1#κατεῖδʼ , ὅτου τις ἐκμαθὼν ἐχρήσατʼ ἄν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:118.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:118.1#θνῄσκουσι γάρ , πλὴν εἷς τις , ὃς φόβῳ , φυγὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:119.1#ὧν εἶδε πλὴν ἓν οὐδὲν εἶχʼ εἰδὼς φράσαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:120.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:120.1#τὸ ποῖον ; ἓν γὰρ πόλλʼ ἂν ἐξεύροι μαθεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:121.1#ἀρχὴν βραχεῖαν εἰ λάβοιμεν ἐλπίδος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:122.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:122.1#λῃστὰς ἔφασκε συντυχόντας οὐ μιᾷ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:123.1#ῥώμῃ κτανεῖν νιν , ἀλλὰ σὺν πλήθει χερῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:124.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:124.1#πῶς οὖν ὁ λῃστής , εἴ τι μὴ ξὺν ἀργύρῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:125.1#ἐπράσσετʼ ἐνθένδʼ , ἐς τόδʼ ἂν τόλμης ἔβη ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:126.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:126.1#δοκοῦντα ταῦτʼ ἦν : Λαΐου δʼ ὀλωλότος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:127.1#οὐδεὶς ἀρωγὸς ἐν κακοῖς ἐγίγνετο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:128.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:128.1#κακὸν δὲ ποῖον ἐμποδών , τυραννίδος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:129.1#οὕτω πεσούσης , εἶργε τοῦτʼ ἐξειδέναι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:130.speaker1#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:130.1#ἡ ποικιλῳδὸς Σφὶγξ τὸ πρὸς ποσὶν σκοπεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:131.1#μεθέντας ἡμᾶς τἀφανῆ προσήγετο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:132.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:132.1#ἀλλʼ ἐξ ὑπαρχῆς αὖθις αὔτʼ ἐγὼ φανῶ :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:133.1#ἐπαξίως γὰρ Φοῖβος , ἀξίως δὲ σὺ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:134.1#πρὸ τοῦ θανόντος τήνδʼ ἔθεσθʼ ἐπιστροφήν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:135.1#ὥστʼ ἐνδίκως ὄψεσθε κἀμὲ σύμμαχον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:136.1#γῇ τῇδε τιμωροῦντα τῷ θεῷ θʼ ἅμα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:137.1#ὑπὲρ γὰρ οὐχὶ τῶν ἀπωτέρω φίλων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:138.1#ἀλλʼ αὐτὸς αὑτοῦ τοῦτʼ ἀποσκεδῶ μύσος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:139.1#ὅστις γὰρ ἦν ἐκεῖνον ὁ κτανών , τάχʼ ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:140.1#κἄμʼ ἂν τοιαύτῃ χειρὶ τιμωροῦνθʼ ἕλοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:141.1#κείνῳ προσαρκῶν οὖν ἐμαυτὸν ὠφελῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:142.1#ἀλλʼ ὡς τάχιστα , παῖδες , ὑμεῖς μὲν βάθρων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:143.1#ἵστασθε , τούσδʼ ἄραντες ἱκτῆρας κλάδους ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:144.1#ἄλλος δὲ Κάδμου λαὸν ὧδʼ ἀθροιζέτω ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:145.1#ὡς πᾶν ἐμοῦ δράσοντος : ἢ γὰρ εὐτυχεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:146.1#σὺν τῷ θεῷ φανούμεθʼ ἢ πεπτωκότες .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:147.speaker1#Ἱερεύς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:147.1#ὦ παῖδες , ἱστώμεσθα : τῶνδε γὰρ χάριν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:148.1#καὶ δεῦρʼ ἔβημεν ὧν ὅδʼ ἐξαγγέλλεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:149.1#Φοῖβος δʼ ὁ πέμψας τάσδε μαντείας ἅμα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:150.1#σωτήρ δʼ ἵκοιτο καὶ νόσου παυστήριος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:151.speaker1#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:151.1#ὦ Διὸς ἁδυεπὲς φάτι , τίς ποτε τᾶς πολυχρύσου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:152.1#Πυθῶνος ἀγλαὰς ἔβας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:153.1#Θήβας ; ἐκτέταμαι φοβερὰν φρένα , δείματι πάλλων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:154.1#ἰήιε Δάλιε Παιάν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:155.1#ἀμφὶ σοὶ ἁζόμενος τί μοι ἢ νέον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:156.1#ἢ περιτελλομέναις ὥραις πάλιν ἐξανύσεις χρέος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:157.1#εἰπέ μοι , ὦ χρυσέας τέκνον Ἐλπίδος , ἄμβροτε Φάμα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:158.1#πρῶτα σὲ κεκλόμενος , θύγατερ Διός , ἄμβροτʼ Ἀθάνα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:160.1#γαιάοχόν τʼ ἀδελφεὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:161.1#Ἄρτεμιν , ἃ κυκλόεντʼ ἀγορᾶς θρόνον εὐκλέα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:162.1#θάσσει ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:163.1#καὶ Φοῖβον ἑκαβόλον , ἰὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:164.1#τρισσοὶ ἀλεξίμοροι προφάνητέ μοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:165.1#εἴ ποτε καὶ προτέρας ἄτας ὕπερ ὀρνυμένας πόλει
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:166.1#ἠνύσατʼ ἐκτοπίαν φλόγα πήματος , ἔλθετε καὶ νῦν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:167.1#ὦ πόποι , ἀνάριθμα γὰρ φέρω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:170.1#πήματα : νοσεῖ δέ μοι πρόπας στόλος , οὐ δʼ ἔνι φροντίδος ἔγχος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:171.1#ᾧ τις ἀλέξεται . οὔ τε γὰρ ἔκγονα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:172.1#κλυτᾶς χθονὸς αὔξεται οὔ τε τόκοισιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:174.1#ἰηίων καμάτων ἀνέχουσι γυναῖκες :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:175.1#ἄλλον δʼ ἂν ἄλλῳ προσίδοις ἅπερ εὔπτερον ὄρνιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:176.1#κρεῖσσον ἀμαιμακέτου πυρὸς ὄρμενον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:177.1#ἀκτὰν πρὸς ἑσπέρου θεοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:178.1#ὧν πόλις ἀνάριθμος ὄλλυται :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:180.1#νηλέα δὲ γένεθλα πρὸς πέδῳ θαναταφόρα κεῖται ἀνοίκτως :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:181.1#ἐν δʼ ἄλοχοι πολιαί τʼ ἔπι ματέρες
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:182.1#ἀχὰν παραβώμιον ἄλλοθεν ἄλλαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:183.1#λυγρῶν πόνων ἱκετῆρες ἐπιστενάχουσιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:185.1#παιὰν δὲ λάμπει στονόεσσά τε γῆρυς ὅμαυλος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:186.1#ὧν ὕπερ , ὦ χρυσέα θύγατερ Διός ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:187.1#εὐῶπα πέμψον ἀλκάν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:190.1#Ἄρεά τε τὸν μαλερόν , ὃς νῦν ἄχαλκος ἀσπίδων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:191.1#φλέγει με περιβόατον , ἀντιάζω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:192.1#παλίσσυτον δράμημα νωτίσαι πάτρας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:193.1#ἔπουρον , εἴτʼ ἐς μέγαν θάλαμον Ἀμφιτρίτας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:195.1#εἴτʼ ἐς τὸν ἀπόξενον ὅρμων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:196.1#Θρῄκιον κλύδωνα :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:197.1#τελεῖν γὰρ εἴ τι νὺξ ἀφῇ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:198.1#τοῦτʼ ἐπʼ ἦμαρ ἔρχεται :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:199.1#τόν , ὦ τᾶν πυρφόρων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:200.1#ἀστραπᾶν κράτη νέμων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:201.1#ὦ Ζεῦ πάτερ , ὑπὸ σῷ φθίσον κεραυνῷ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:202.1#Λύκειʼ ἄναξ , τά τε σὰ χρυσοστρόφων ἀπʼ ἀγκυλᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:203.1#βέλεα θέλοιμʼ ἂν ἀδάματʼ ἐνδατεῖσθαι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:205.1#ἀρωγὰ προσταχθέντα τάς τε πυρφόρους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:206.1#Ἀρτέμιδος αἴγλας , ξὺν αἷς Λύκιʼ ὄρεα διᾴσσει :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:207.1#τὸν χρυσομίτραν τε κικλήσκω ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:210.1#τᾶσδʼ ἐπώνυμον γᾶς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:211.1#οἰνῶπα Βάκχον εὔιον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:212.1#Μαινάδων ὁμόστολον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:213.1#πελασθῆναι φλέγοντʼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:214.1#ἀγλαῶπι ¯ ? ¯
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:215.1#πεύκᾳ ʼ πὶ τὸν ἀπότιμον ἐν θεοῖς θεόν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:216.speaker1#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:216.1#αἰτεῖς : ἃ δʼ αἰτεῖς , τἄμʼ ἐὰν θέλῃς ἔπη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:217.1#κλύων δέχεσθαι τῇ νόσῳ θʼ ὑπηρετεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:218.1#ἀλκὴν λάβοις ἂν κἀνακούφισιν κακῶν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:219.1#ἁγὼ ξένος μὲν τοῦ λόγου τοῦδʼ ἐξερῶ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:220.1#ξένος δὲ τοῦ πραχθέντος : οὐ γὰρ ἂν μακρὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:221.1#ἴχνευον αὐτός , μὴ οὐκ ἔχων τι σύμβολον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:222.1#νῦν δʼ ὕστερος γὰρ ἀστὸς εἰς ἀστοὺς τελῶ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:223.1#ὑμῖν προφωνῶ πᾶσι Καδμείοις τάδε :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:224.1#ὅστις ποθʼ ὑμῶν Λάϊον τὸν Λαβδάκου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:225.1#κάτοιδεν ἀνδρὸς ἐκ τίνος διώλετο ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:226.1#τοῦτον κελεύω πάντα σημαίνειν ἐμοί :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:227.1#κεἰ μὲν φοβεῖται , τοὐπίκλημʼ ὑπεξελεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:228.1#αὐτὸν καθʼ αὑτοῦ : πείσεται γὰρ ἄλλο μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:229.1#ἀστεργὲς οὐδέν . γῆς δʼ ἄπεισιν ἀσφαλής .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:230.1#εἰ δʼ αὖ τις ἄλλον οἶδεν ἐξ ἄλλης χθονὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:231.1#τὸν αὐτόχειρα , μὴ σιωπάτω : τὸ γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:232.1#κέρδος τελῶ ʼ γὼ χἠ χάρις προσκείσεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:233.1#εἰ δʼ αὖ σιωπήσεσθε , καί τις ἢ φίλου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:234.1#δείσας ἀπώσει τοὔπος ἢ χαὐτοῦ τόδε ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:235.1#ἃκ τῶνδε δράσω , ταῦτα χρὴ κλύειν ἐμοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:236.1#τὸν ἄνδρʼ ἀπαυδῶ τοῦτον , ὅστις ἐστί , γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:237.1#τῆσδʼ , ἧς ἐγὼ κράτη τε καὶ θρόνους νέμω ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:238.1#μήτʼ εἰσδέχεσθαι μήτε προσφωνεῖν τινα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:239.1#μήτʼ ἐν θεῶν εὐχαῖσι μήτε θύμασιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:240.1#κοινὸν ποεῖσθαι , μήτε χέρνιβας νέμειν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:241.1#ὠθεῖν δʼ ἀπʼ οἴκων πάντας , ὡς μιάσματος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:242.1#τοῦδʼ ἡμὶν ὄντος , ὡς τὸ Πυθικὸν θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:243.1#μαντεῖον ἐξέφηνεν ἀρτίως ἐμοί .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:244.1#ἐγὼ μὲν οὖν τοιόσδε τῷ τε δαίμονι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:245.1#τῷ τʼ ἀνδρὶ τῷ θανόντι σύμμαχος πέλω :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:246.1#κατεύχομαι δὲ τὸν δεδρακότʼ , εἴτε τις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:247.1#εἷς ὢν λέληθεν εἴτε πλειόνων μέτα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:248.1#κακὸν κακῶς νιν ἄμορον ἐκτρῖψαι βίον :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:249.1#ἐπεύχομαι δʼ , οἴκοισιν εἰ ξυνέστιος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:250.1#ἐν τοῖς ἐμοῖς γένοιτʼ ἐμοῦ συνειδότος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:251.1#παθεῖν ἅπερ τοῖσδʼ ἀρτίως ἠρασάμην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:252.1#ὑμῖν δὲ ταῦτα πάντʼ ἐπισκήπτω τελεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:253.1#ὑπέρ τʼ ἐμαυτοῦ τοῦ θεοῦ τε τῆσδέ τε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:254.1#γῆς ὧδʼ ἀκάρπως κἀθέως ἐφθαρμένης .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:255.1#οὐ δʼ εἰ γὰρ ἦν τὸ πρᾶγμα μὴ θεήλατον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:256.1#ἀκάθαρτον ὑμᾶς εἰκὸς ἦν οὕτως ἐᾶν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:257.1#ἀνδρός γʼ ἀρίστου βασιλέως τʼ ὀλωλότος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:258.1#ἀλλʼ ἐξερευνᾶν : νῦν δʼ ἐπεὶ κυρῶ γʼ ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:259.1#ἔχων μὲν ἀρχὰς ἃς ἐκεῖνος εἶχε πρίν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:260.1#ἔχων δὲ λέκτρα καὶ γυναῖχʼ ὁμόσπορον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:261.1#κοινῶν τε παίδων κοίνʼ ἄν , εἰ κείνῳ γένος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:262.1#μὴ ʼ δυστύχησεν , ἦν ἂν ἐκπεφυκότα :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:263.1#νῦν δʼ ἐς τὸ κείνου κρᾶτʼ ἐνήλαθʼ ἡ τύχη :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:264.1#ἀνθʼ ὧν ἐγὼ τάδʼ , ὡσπερεὶ τοὐμοῦ πατρός ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:265.1#ὑπερμαχοῦμαι κἀπὶ πᾶν ἀφίξομαι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:266.1#ζητῶν τὸν αὐτόχειρα τοῦ φόνου λαβεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:267.1#τῷ Λαβδακείῳ παιδὶ Πολυδώρου τε καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:268.1#τοῦ πρόσθε Κάδμου τοῦ πάλαι τʼ Ἀγήνορος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:269.1#καὶ ταῦτα τοῖς μὴ δρῶσιν εὔχομαι θεοὺς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:270.1#μήτʼ ἄροτον αὐτοῖς γῆς ἀνιέναι τινὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:271.1#μήτʼ οὖν γυναικῶν παῖδας , ἀλλὰ τῷ πότμῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:272.1#τῷ νῦν φθερεῖσθαι κἄτι τοῦδʼ ἐχθίονι :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:273.1#ὑμῖν δὲ τοῖς ἄλλοισι Καδμείοις , ὅσοις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:274.1#τάδʼ ἔστʼ ἀρέσκονθʼ , ἥ τε σύμμαχος Δίκη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:275.1#χοἰ πάντες εὖ ξυνεῖεν εἰσαεὶ θεοί .

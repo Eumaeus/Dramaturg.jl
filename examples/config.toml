@@ -1,8 +1,8 @@
-# Configuration for GreekReader reader-page generator
+# Configuration for Dramaturg reader-page generator
 
 [input]
 cex_path = "path/to/your/play.cex"          # or a CTS URN if you prefer
-text_urn = "urn:cts:greekLit:tlg0019.tlg009:"  # example Aristophanes' Frogs
+text_urn = "urn:cts:greekLit:tlg0011.tlg004"  # example: Sophocles OT
 
 [output]
 lines_per_page = 25

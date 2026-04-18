@@ -1,12 +1,10 @@
 name = "Dramaturg"
-uuid = "d9b85af1-919c-47e9-8470-52c4d8953361"
-version = "0.1.0"
-authors = ["Eumaeus <cwblackwell@gmail.com>"]
+uuid = "f5e8a5c5-9f0a-4b0a-8e0a-5f5e5f5e5f5e"   # ← If you already have a different UUID from Pkg.generate, keep yours instead of this one
+authors = ["C. W. Blackwell"]
 version = "0.1.0"
 
 [deps]
-# We'll add the official CITE packages + others here later
-# (CiteEXchange, CitableCorpus, etc.) — for now the package builds cleanly
+# CITE Architecture packages + others will go here in the next step
 
 [compat]
 julia = "1.6"

@@ -1,0 +1,16 @@
+
+#### `.gitignore` (create this file)
+```gitignore
+# Julia
+*.jl.cov
+*.jl.mem
+*.jl.so
+*.jl.tmp
+Manifest.toml
+# Project
+/docs/build/
+/test/tmp/
+/examples/data/*.csv
+/html/pages/
+*.log
+.DS_Store
