@@ -1,6 +1,5 @@
 module Dramaturg
 
-using Printf
 
 # Public API (we'll flesh these out next)
 export read_config, tokenize, align_morphology, align_lsj, generate_reader_pages

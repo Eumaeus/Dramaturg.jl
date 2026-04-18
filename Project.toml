@@ -1,16 +1,11 @@
 name = "Dramaturg"
-uuid = "f5e8a5c5-9f0a-4b0a-8e0a-5f5e5f5e5f5e"   # ← If you already have a different UUID from Pkg.generate, keep yours instead of this one
-authors = ["C. W. Blackwell"]
+uuid = "f5e8a5c5-9f0a-4b0a-8e0a-5f5e5f5e5f5e"
 version = "0.1.0"
+authors = ["C. W. Blackwell"]
 
 [deps]
-# CITE Architecture packages + others will go here in the next step
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
+Test = "1.11.0"
 julia = "1.6"
-
-[extras]
-Test = "8dfed614-e22c-5e08-bb59-b91f2f15c6a9"
-
-[targets]
-test = ["Test"]
