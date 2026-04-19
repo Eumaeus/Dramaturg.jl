@@ -30,9 +30,10 @@ end
 """
     write_tokenized_cex(original_path::String, tokenized_data_lines::Vector{String}, config::Dict)
 Write a complete tokenized CEX that:
-  • Copies every original metadata block exactly
-  • Replaces the original #!ctscatalog block with the new .token catalog entry
-  • Ends with a single #!ctsdata block containing the tokenized lines
+  • Preserves every original metadata block exactly
+  • Replaces the #!ctscatalog block with a clean .token version
+  • Inserts a blank line before every #! block header (for readability)
+  • Uses the correct tokenized URN (…sp.token: with no extra colon)
 """
 function write_tokenized_cex(original_path::String, tokenized_data_lines::Vector{String}, config::Dict)
     output_path = get_output_path(config, "tokenized")
@@ -41,45 +42,44 @@ function write_tokenized_cex(original_path::String, tokenized_data_lines::Vector
     original_lines = readlines(original_path)
     open(output_path, "w") do io
         catalog_replaced = false
-        in_data_block = false
 
         for line in original_lines
             stripped = strip(line)
             isempty(stripped) && continue
 
-            # When we hit the original catalog block, replace it entirely
+            # === REPLACE THE CATALOG BLOCK (Request 1 + 2) ===
             if startswith(stripped, "#!ctscatalog") && !catalog_replaced
                 catalog_replaced = true
+                
+                # Blank line before the block header (Request 3)
+                println(io)
                 println(io, "#!ctscatalog")
                 println(io, "urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang")
+                
+                # Correct tokenized URN: insert .token before the final :
                 urn_base = config["input"]["text_urn"]
-                println(io, "$urn_base.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of $urn_base, tokenized by word and punctuation#true#grc")
-                continue
+                tokenized_urn = replace(urn_base, r":$" => ".token:")
+                
+                println(io, "$tokenized_urn#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of $urn_base, tokenized by word and punctuation#true#grc")
+                continue   # skip the original catalog's two data lines
             end
 
-            # When we reach the first data block, stop copying original data
+            # === START OF DATA BLOCK ===
             if startswith(stripped, "#!ctsdata")
-                in_data_block = true
+                println(io)                  # blank line before block
                 println(io, "#!ctsdata")
-                # Insert our tokenized lines
                 for tline in tokenized_data_lines
                     println(io, tline)
                 end
                 continue
             end
 
-            # Copy everything else (headers, comments, etc.)
-            if !in_data_block
-                println(io, line)
+            # === ALL OTHER #! BLOCKS (cexversion, citelibrary, etc.) ===
+            if startswith(stripped, "#!")
+                println(io)                  # blank line before block (Request 3)
             end
-        end
 
-        # Safety net: if the original file had no #!ctsdata
-        if !in_data_block
-            println(io, "#!ctsdata")
-            for tline in tokenized_data_lines
-                println(io, tline)
-            end
+            println(io, line)
         end
     end
 
