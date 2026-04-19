@@ -78,3 +78,28 @@ I would like a blank line before each block-header, that is, each line begining 
 The two indices that the demo script generates are perfect!
 
 My next requests for help will extend indexing a little further, before we move on to morphological and lexical analysis.
+
+------
+
+Not quite there! The script runs smoothly, and I love the new blank lines for legibility. I have updated the project at <https://github.com/Eumaeus/Dramaturg.jl/tree/main> with the current output.
+
+In the output file `data/tokenized/speech-speaker-tokenized.cex`, lines 14 and 15 should not be there.
+
+The script writes:
+
+```
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:greekLit:tlg0019.tlg009.fu.sp.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0019.tlg009.fu.sp:, tokenized by word and punctuation#true#grc
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:#line/speech/speaker,line/speech/text#Aristphanes#Frogs#Furman University#tokenized by speech#true#grc
+```
+
+But it should be:
+
+```
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:greekLit:tlg0019.tlg009.fu.sp.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0019.tlg009.fu.sp:, tokenized by word and punctuation#true#grc
+```
+

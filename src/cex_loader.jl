@@ -26,13 +26,12 @@ function load_cex(cex_path::String)
     end
     return data
 end
-
 """
     write_tokenized_cex(original_path::String, tokenized_data_lines::Vector{String}, config::Dict)
 Write a complete tokenized CEX that:
   • Preserves every original metadata block exactly
-  • Replaces the #!ctscatalog block with a clean .token version
-  • Inserts a blank line before every #! block header (for readability)
+  • Replaces the entire #!ctscatalog block with the clean .token version
+  • Inserts a blank line before every #! block header
   • Uses the correct tokenized URN (…sp.token: with no extra colon)
 """
 function write_tokenized_cex(original_path::String, tokenized_data_lines::Vector{String}, config::Dict)
@@ -42,31 +41,37 @@ function write_tokenized_cex(original_path::String, tokenized_data_lines::Vector
     original_lines = readlines(original_path)
     open(output_path, "w") do io
         catalog_replaced = false
+        skip_lines = 0
 
         for line in original_lines
             stripped = strip(line)
             isempty(stripped) && continue
 
-            # === REPLACE THE CATALOG BLOCK (Request 1 + 2) ===
+            # === REPLACE THE ENTIRE ORIGINAL CATALOG BLOCK ===
             if startswith(stripped, "#!ctscatalog") && !catalog_replaced
                 catalog_replaced = true
-                
-                # Blank line before the block header (Request 3)
-                println(io)
+                skip_lines = 2                     # skip the next two lines (header + original URN line)
+
+                println(io)                        # blank line for readability
                 println(io, "#!ctscatalog")
                 println(io, "urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang")
-                
-                # Correct tokenized URN: insert .token before the final :
+
                 urn_base = config["input"]["text_urn"]
                 tokenized_urn = replace(urn_base, r":$" => ".token:")
-                
+
                 println(io, "$tokenized_urn#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of $urn_base, tokenized by word and punctuation#true#grc")
-                continue   # skip the original catalog's two data lines
+                continue
             end
 
-            # === START OF DATA BLOCK ===
+            # Skip any lines we marked for skipping
+            if skip_lines > 0
+                skip_lines -= 1
+                continue
+            end
+
+            # === DATA BLOCK ===
             if startswith(stripped, "#!ctsdata")
-                println(io)                  # blank line before block
+                println(io)                        # blank line
                 println(io, "#!ctsdata")
                 for tline in tokenized_data_lines
                     println(io, tline)
@@ -74,9 +79,9 @@ function write_tokenized_cex(original_path::String, tokenized_data_lines::Vector
                 continue
             end
 
-            # === ALL OTHER #! BLOCKS (cexversion, citelibrary, etc.) ===
+            # === OTHER #! BLOCKS (cexversion, citelibrary, etc.) ===
             if startswith(stripped, "#!")
-                println(io)                  # blank line before block (Request 3)
+                println(io)                        # blank line before block
             end
 
             println(io, line)
