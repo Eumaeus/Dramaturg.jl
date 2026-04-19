@@ -1,8 +1,8 @@
-# Configuration for Dramaturg reader-page generator
+# Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "path/to/your/play.cex"          # or a CTS URN if you prefer
-text_urn = "urn:cts:greekLit:tlg0011.tlg004"  # example: Sophocles OT
+cex_path = "working-files/speech-speaker.cex"          # ← change to your actual CEX file
+text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:"  # example: Aristophanes Frogs
 
 [output]
 lines_per_page = 25
@@ -12,7 +12,16 @@ index_template = "index.html"
 page_template = "reader_page.html"
 
 [lexicon]
-lsj_cex = "https://github.com/Eumaeus/cite_lsj_cex/raw/main/lsj_chicago.cex"  # or local path
+lsj_cex = "https://github.com/Eumaeus/cite_lsj_cex/raw/main/lsj_chicago.cex"
 
 [morphology]
-pos_data = "path/to/morpheus_output.tsv"   # from your pos-julia pipeline
+pos_data = "path/to/morpheus_output.tsv"
+
+# NEW sections for this milestone
+[processing]
+data_root = "data"                                      # base folder for all generated files
+tokenized_dir = "tokenized"
+indexes_dir = "indexes"
+tokenized_suffix = "_tokenized.cex"
+elided_index_suffix = "_elided.tsv"
+elided_histogram_suffix = "_elided_histogram.tsv"

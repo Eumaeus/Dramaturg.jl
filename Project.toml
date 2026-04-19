@@ -4,8 +4,18 @@ version = "0.1.0"
 authors = ["C. W. Blackwell"]
 
 [deps]
+CitableBase = "d6f014bd-995c-41bd-9893-703339864534"
+CitableCorpus = "cf5ac11a-93ef-4a1a-97a3-f6af101603b5"
+CitableText = "41e66566-473b-49d4-85b7-da83b66615d8"
+CiteEXchange = "e2e9ead3-1b6c-4e96-b95f-43e6ab899178"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
+CitableBase = "10.4.0"
+CitableCorpus = "0.13.5"
+CitableText = "0.16.2"
+CiteEXchange = "0.10.2"
+TOML = "1.0.3"
 Test = "1.11.0"
 julia = "1.6"
