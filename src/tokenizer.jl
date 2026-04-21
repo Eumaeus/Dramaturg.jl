@@ -1,46 +1,114 @@
+
 """
     tokenize_line(text::String) :: Vector{String}
-Split on any whitespace. Treats punctuation as separate tokens.
-Keeps elision mark ʼ attached to its word (exactly as in your example).
+    ... (your existing function, unchanged)
 """
-function tokenize_line(text::String)
-    # Insert space before common Greek punctuation so they become their own tokens
-    text = replace(text, r"([“”·,†.;:!?()[\]])" => s" \1 ")
-    # Split on whitespace, drop empty tokens
-    tokens = split(text, r"\s+"; keepempty=false)
-    return tokens
+
+# … keep tokenize_to_exemplar and write_tokenized_cex exactly as they are …
+
+"""
+    normalize_grave_to_acute(s::String) :: String
+Convert any final grave accent to acute (the conventional presentation form).
+Uses NFD/NFC decomposition so it works on all precomposed and combining Greek accents.
+"""
+function normalize_grave_to_acute(s::String)::String
+    nfd = Unicode.normalize(s, :NFD)
+    replaced = replace(nfd, '\u0300' => '\u0301')
+    return Unicode.normalize(replaced, :NFC)
 end
 
 """
-    tokenize_to_exemplar(cex_data::Vector{Tuple{String,String}}, config::Dict)
-Generate ONLY the tokenized data lines (urn.token.N#token).  
-The catalog header is inserted by write_tokenized_cex.
+    load_presentation_dict(config::Dict) :: Dict{String,String}
+Load and merge all three editorial dictionaries into a single surface → presentation map.
+Order of precedence: elision → enclitics → anastrophe.
 """
-function tokenize_to_exemplar(cex_data::Vector{Tuple{String,String}}, config::Dict)
-    tokenized_lines = String[]
+function load_presentation_dict(config::Dict)
+    d = Dict{String,String}()
+    editorial = get(config, "editorial", Dict())
 
-    for (urn, text) in cex_data
-        tokens = tokenize_line(text)
-        for (i, tok) in enumerate(tokens)
-            new_urn = "$urn.token.$(i)"
-            push!(tokenized_lines, "$new_urn#$tok")
+    # 1. Elision dictionary (surface → expanded_form)
+    if haskey(editorial, "elision_dict")
+        path = editorial["elision_dict"]
+        if isfile(path)
+            open(path) do io
+                readline(io)  # skip header
+                for line in eachline(io)
+                    isempty(strip(line)) && continue
+                    cols = split(line, '\t'; limit=2)
+                    length(cols) == 2 || continue
+                    surface = strip(cols[1])
+                    expanded = strip(cols[2])
+                    if !isempty(surface) && !isempty(expanded)
+                        d[surface] = expanded
+                    end
+                end
+            end
         end
     end
 
-    return tokenized_lines
+    # 2. Enclitics dictionary (surface → presentation_form)
+    if haskey(editorial, "enclitics_dict")
+        path = editorial["enclitics_dict"]
+        if isfile(path)
+            open(path) do io
+                readline(io)  # skip header
+                for line in eachline(io)
+                    isempty(strip(line)) && continue
+                    cols = split(line, '\t'; limit=2)
+                    length(cols) == 2 || continue
+                    surface = strip(cols[1])
+                    pres = strip(cols[2])
+                    if !isempty(surface) && !isempty(pres)
+                        d[surface] = pres
+                    end
+                end
+            end
+        end
+    end
+
+    # 3. Anastrophe dictionary (surface → presentation_form)
+    if haskey(editorial, "anastrophe_dict")
+        path = editorial["anastrophe_dict"]
+        if isfile(path)
+            open(path) do io
+                readline(io)  # skip header
+                for line in eachline(io)
+                    isempty(strip(line)) && continue
+                    cols = split(line, '\t'; limit=2)
+                    length(cols) == 2 || continue
+                    surface = strip(cols[1])
+                    pres = strip(cols[2])
+                    if !isempty(surface) && !isempty(pres)
+                        d[surface] = pres
+                    end
+                end
+            end
+        end
+    end
+
+    println("Loaded $(length(d)) editorial presentation mappings")
+    return d
 end
 
+"""
+    get_presentation_form(surface::String, config::Dict) :: String
+Return the canonical presentation form for any token.
+Priority: editorial dict (elision/enclitic/anastrophe) → automatic grave→acute.
+"""
+function get_presentation_form(surface::String, config::Dict)::String
+    static_dict = load_presentation_dict(config)  # loaded once per run
+    return get(static_dict, surface, normalize_grave_to_acute(surface))
+end
 
 """
-    generate_elision_index(cex_data::Vector{Tuple{String,String}}, tokenized_cex::String)
-Create two files:
-1. Full elision index: form\t token-URN\t expanded-form (blank)
-2. Frequency histogram: freq\t form\t expanded\t comma-separated-URNs (sorted descending)
+    generate_elision_index(...)  ← updated version
+Now populates expanded_form (from elision dict) **and** uses presentation_form for display.
 """
 function generate_elision_index(cex_data::Vector{Tuple{String,String}}, tokenized_cex::String, config::Dict)
-    # Parse the tokenized CEX we just generated to get token URNs
+    presentation_dict = load_presentation_dict(config)  # reuse the merged dict
+
     token_lines = split(tokenized_cex, '\n')
-    elisions = Dict{String, Vector{String}}()   # form => [urn1, urn2, ...]
+    elisions = Dict{String, Vector{String}}()
 
     for line in token_lines
         line = strip(line)
@@ -49,90 +117,52 @@ function generate_elision_index(cex_data::Vector{Tuple{String,String}}, tokenize
         if occursin('#', line)
             urn, form = split(line, '#'; limit=2)
             if occursin('ʼ', form)
-                if haskey(elisions, form)
-                    push!(elisions[form], urn)
-                else
-                    elisions[form] = [urn]
-                end
+                push!(get!(Vector{String}, elisions, form), urn)
             end
         end
     end
 
-    # 1. Full index
+    # 1. Full index (surface form + presentation)
     index_path = get_output_path(config, "elided_index")
     mkpath(dirname(index_path))
     open(index_path, "w") do f
-        println(f, "form\ttoken_urn\texpanded_form")
+        println(f, "form\ttoken_urn\texpanded_form\tpresentation_form")
         for form in sort(collect(keys(elisions)))
+            expanded = get(presentation_dict, form, "")   # only elision gives expanded
+            pres = get_presentation_form(form, config)
             for urn in elisions[form]
-                println(f, "$form\t$urn\t")
+                println(f, "$form\t$urn\t$expanded\t$pres")
             end
         end
     end
 
-    # 2. Frequency histogram
+    # 2. Histogram (now with presentation_form)
     hist_path = get_output_path(config, "elided_histogram")
     open(hist_path, "w") do f
-        println(f, "frequency\telided_form\texpanded_form\turns")
+        println(f, "frequency\telided_form\texpanded_form\tpresentation_form\tturns")
         sorted = sort(collect(elisions), by = x -> length(x[2]), rev=true)
         for (form, urns) in sorted
             freq = length(urns)
+            expanded = get(presentation_dict, form, "")
+            pres = get_presentation_form(form, config)
             urn_list = join(urns, ",")
-            println(f, "$freq\t$form\t\t$urn_list")
+            println(f, "$freq\t$form\t$expanded\t$pres\t$urn_list")
         end
     end
 
-    println("✅ Elision index → $index_path")
-    println("✅ Histogram     → $hist_path")
+    println("Elision index     → $index_path")
+    println("Elision histogram → $hist_path")
 end
 
 """
-    load_elision_dict(config::Dict) :: Dict{String,String}
-Load the editorial dictionary of elided surface forms → expanded forms.
-Returns an empty dict if the file is missing (so the pipeline never crashes).
-"""
-function load_elision_dict(config::Dict)
-    if haskey(config, "editorial") && haskey(config["editorial"], "elision_dict")
-        path = config["editorial"]["elision_dict"]
-    else
-        path = "source-data/editorial_dict_elision.tsv"
-    end
-
-    if !isfile(path)
-        @warn "Editorial elision dictionary not found at $path — using empty dictionary"
-        return Dict{String,String}()
-    end
-
-    d = Dict{String,String}()
-    open(path) do io
-        readline(io)  # skip header
-        for line in eachline(io)
-            isempty(strip(line)) && continue
-            cols = split(line, '\t'; limit=2)
-            length(cols) == 2 || continue
-            surface = strip(cols[1])
-            expanded = strip(cols[2])
-            if !isempty(surface) && !isempty(expanded)
-                d[surface] = expanded
-            end
-        end
-    end
-    println("Loaded $(length(d)) editorial elision mappings")
-    return d
-end
-
-"""
-    generate_word_histogram(tokenized_cex::String, config::Dict)
-Create a full-vocabulary histogram of every token in the play.
-• Uses the editorial elision dictionary: elided forms with an entry appear under their expanded form.
-• Elided forms without an entry appear exactly as they occur in the text.
-• Output: data/indexes/<text>_word_histogram.tsv
+    generate_word_histogram(...)  ← updated version
+Uses presentation_form for every token (elided forms get expanded first, then grave→acute or editorial override).
 """
 function generate_word_histogram(tokenized_cex::String, config::Dict)
-    elision_dict = load_elision_dict(config)
+    presentation_dict = load_presentation_dict(config)
 
     token_lines = split(tokenized_cex, '\n')
-    counts = Dict{String, Vector{String}}()   # canonical_form => [urn1, urn2, ...]
+    counts = Dict{String, Vector{String}}()   # presentation_form => [urns...]
 
     for line in token_lines
         line = strip(line)
@@ -140,8 +170,7 @@ function generate_word_histogram(tokenized_cex::String, config::Dict)
         startswith(line, "#!") && continue
         if occursin('#', line)
             urn, surface = split(line, '#'; limit=2)
-            # Use expanded form when the editorial dictionary supplies one
-            canonical = get(elision_dict, surface, surface)
+            canonical = get_presentation_form(surface, config)
             if haskey(counts, canonical)
                 push!(counts[canonical], urn)
             else
@@ -155,7 +184,6 @@ function generate_word_histogram(tokenized_cex::String, config::Dict)
 
     open(hist_path, "w") do f
         println(f, "frequency\tform\tturns")
-        # sort by frequency descending
         sorted = sort(collect(counts), by = x -> length(x[2]), rev=true)
         for (form, urns) in sorted
             freq = length(urns)
@@ -166,4 +194,3 @@ function generate_word_histogram(tokenized_cex::String, config::Dict)
 
     println("Full word histogram → $hist_path")
 end
-

@@ -27,6 +27,9 @@ elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
 word_histogram_suffix = "_word_histogram.tsv"
 
+
 [editorial]
-elision_dict = "source-data/editorial_dict_elision.tsv"
+elision_dict      = "source-data/editorial_dict_elision.tsv"
+enclitics_dict    = "source-data/editorial-dict-enclitics.tsv"
+anastrophe_dict   = "source-data/editorial_dict_anastrophe.tsv"
 
