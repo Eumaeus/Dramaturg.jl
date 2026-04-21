@@ -102,3 +102,33 @@ Hmmm. Now we get this:
    Resolving package versions...
 ERROR: expected package `Unicode [4ec3a0c8]` to be registered
 ```
+
+---
+
+Okay, the Unicode problem seems to be fixed. Thanks for sorting that out!
+
+I may have made some copy-and-paste errors in the last rounds of updates.
+
+I have checked the current state of all files into GitHub at <https://github.com/Eumaeus/Dramaturg.jl/tree/main>.
+
+When I run `examples/tokenize_demo.jl` I get this error:
+
+```
+ERROR: LoadError: MethodError: no method matching get_presentation_form(::SubString{String}, ::Dict{String, Any})
+The function `get_presentation_form` exists, but no method is defined for this combination of argument types.
+
+Closest candidates are:
+  get_presentation_form(::String, ::Dict)
+   @ Dramaturg ~/Dropbox/CITE/grok/Dramaturg/src/tokenizer.jl:125
+
+Stacktrace:
+ [1] generate_word_histogram(tokenized_cex::String, config::Dict{String, Any})
+   @ Dramaturg ~/Dropbox/CITE/grok/Dramaturg/src/tokenizer.jl:200
+ [2] top-level scope
+   @ ~/Dropbox/CITE/grok/Dramaturg/examples/tokenize_demo.jl:18
+in expression starting at /Users/cblackwell/Dropbox/CITE/grok/Dramaturg/examples/tokenize_demo.jl:18
+```
+
+----
+
+Great! The code runs and the output looks good. I am tired and making silly human-errors, so I will get back to this tomorrow. A million thanks for your help! The current state of the code is pushed to GitHub. Thank you!
