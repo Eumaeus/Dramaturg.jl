@@ -7,7 +7,7 @@ Keeps elision mark ʼ attached to its word (exactly as in your example).
 """
 function tokenize_line(text::String)
     # Insert space before common Greek punctuation so they become their own tokens
-    text = replace(text, r"(-[·,.;:!?{}…()[\]])" => s" \1 ")
+    text = replace(text, r"([-“”·.,;:!?{}…()[\]])" => s" \1 ")
     # Split on whitespace, drop empty tokens
     tokens = split(text, r"\s+"; keepempty=false)
     return tokens
@@ -128,24 +128,50 @@ function get_presentation_form(surface::AbstractString, presentation_dict::Dict{
 end
 
 """
-    generate_elision_index(...)  ← updated version
-Uses the pre-loaded presentation dictionary for speed and now correctly handles SubString.
+    extract_ctsdata_lines(cex_text::String) :: Vector{String}
+Extract only the actual data lines (urn#surface_form) from all #!ctsdata blocks.
+Completely ignores catalog, metadata, and block headers.
+Handles multiple ctsdata blocks if present in the future.
+"""
+function extract_ctsdata_lines(cex_text::String)::Vector{String}
+    lines = split(cex_text, '\n')
+    data_lines = String[]
+    in_data_block = false
+
+    for raw_line in lines
+        line = strip(raw_line)
+        isempty(line) && continue
+
+        if startswith(line, "#!ctsdata")
+            in_data_block = true
+            continue
+        elseif startswith(line, "#!")
+            in_data_block = false
+            continue
+        end
+
+        # Only keep actual data lines inside a ctsdata block
+        if in_data_block && occursin('#', line)
+            push!(data_lines, line)
+        end
+    end
+    return data_lines
+end
+
+"""
+    generate_elision_index(cex_data::Vector{Tuple{String,String}}, tokenized_cex::String, config::Dict)
+Create elision index and histogram using only lines inside #!ctsdata blocks.
 """
 function generate_elision_index(cex_data::Vector{Tuple{String,String}}, tokenized_cex::String, config::Dict)
-    presentation_dict = load_presentation_dict(config)  # load once
+    presentation_dict = load_presentation_dict(config)
 
-    token_lines = split(tokenized_cex, '\n')
+    data_lines = extract_ctsdata_lines(tokenized_cex)
     elisions = Dict{String, Vector{String}}()
 
-    for line in token_lines
-        line = strip(line)
-        isempty(line) && continue
-        startswith(line, "#!") && continue
-        if occursin('#', line)
-            urn, form = split(line, '#'; limit=2)
-            if occursin('ʼ', form)
-                push!(get!(Vector{String}, elisions, form), urn)
-            end
+    for line in data_lines
+        urn, form = split(line, '#'; limit=2)
+        if occursin('ʼ', form)
+            push!(get!(Vector{String}, elisions, form), urn)
         end
     end
 
@@ -155,7 +181,7 @@ function generate_elision_index(cex_data::Vector{Tuple{String,String}}, tokenize
     open(index_path, "w") do f
         println(f, "form\ttoken_urn\texpanded_form\tpresentation_form")
         for form in sort(collect(keys(elisions)))
-            expanded = get(presentation_dict, form, "")   # only elision gives expanded
+            expanded = get(presentation_dict, form, "")
             pres = get_presentation_form(form, presentation_dict)
             for urn in elisions[form]
                 println(f, "$form\t$urn\t$expanded\t$pres")
@@ -182,27 +208,23 @@ function generate_elision_index(cex_data::Vector{Tuple{String,String}}, tokenize
 end
 
 """
-    generate_word_histogram(...)  ← updated version
-Now uses the pre-loaded dictionary and correctly handles SubString tokens.
+    generate_word_histogram(tokenized_cex::String, config::Dict)
+Create a full-vocabulary histogram using only lines inside #!ctsdata blocks.
+Uses presentation_form for every token (elided forms get expanded first, then grave→acute or editorial override).
 """
 function generate_word_histogram(tokenized_cex::String, config::Dict)
-    presentation_dict = load_presentation_dict(config)  # load once
+    presentation_dict = load_presentation_dict(config)
 
-    token_lines = split(tokenized_cex, '\n')
+    data_lines = extract_ctsdata_lines(tokenized_cex)
     counts = Dict{String, Vector{String}}()   # presentation_form => [urns...]
 
-    for line in token_lines
-        line = strip(line)
-        isempty(line) && continue
-        startswith(line, "#!") && continue
-        if occursin('#', line)
-            urn, surface = split(line, '#'; limit=2)
-            canonical = get_presentation_form(surface, presentation_dict)
-            if haskey(counts, canonical)
-                push!(counts[canonical], urn)
-            else
-                counts[canonical] = [urn]
-            end
+    for line in data_lines
+        urn, surface = split(line, '#'; limit=2)
+        canonical = get_presentation_form(surface, presentation_dict)
+        if haskey(counts, canonical)
+            push!(counts[canonical], urn)
+        else
+            counts[canonical] = [urn]
         end
     end
 
