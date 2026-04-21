@@ -85,3 +85,85 @@ function generate_elision_index(cex_data::Vector{Tuple{String,String}}, tokenize
     println("✅ Elision index → $index_path")
     println("✅ Histogram     → $hist_path")
 end
+
+"""
+    load_elision_dict(config::Dict) :: Dict{String,String}
+Load the editorial dictionary of elided surface forms → expanded forms.
+Returns an empty dict if the file is missing (so the pipeline never crashes).
+"""
+function load_elision_dict(config::Dict)
+    if haskey(config, "editorial") && haskey(config["editorial"], "elision_dict")
+        path = config["editorial"]["elision_dict"]
+    else
+        path = "source-data/editorial_dict_elision.tsv"
+    end
+
+    if !isfile(path)
+        @warn "Editorial elision dictionary not found at $path — using empty dictionary"
+        return Dict{String,String}()
+    end
+
+    d = Dict{String,String}()
+    open(path) do io
+        readline(io)  # skip header
+        for line in eachline(io)
+            isempty(strip(line)) && continue
+            cols = split(line, '\t'; limit=2)
+            length(cols) == 2 || continue
+            surface = strip(cols[1])
+            expanded = strip(cols[2])
+            if !isempty(surface) && !isempty(expanded)
+                d[surface] = expanded
+            end
+        end
+    end
+    println("Loaded $(length(d)) editorial elision mappings")
+    return d
+end
+
+"""
+    generate_word_histogram(tokenized_cex::String, config::Dict)
+Create a full-vocabulary histogram of every token in the play.
+• Uses the editorial elision dictionary: elided forms with an entry appear under their expanded form.
+• Elided forms without an entry appear exactly as they occur in the text.
+• Output: data/indexes/<text>_word_histogram.tsv
+"""
+function generate_word_histogram(tokenized_cex::String, config::Dict)
+    elision_dict = load_elision_dict(config)
+
+    token_lines = split(tokenized_cex, '\n')
+    counts = Dict{String, Vector{String}}()   # canonical_form => [urn1, urn2, ...]
+
+    for line in token_lines
+        line = strip(line)
+        isempty(line) && continue
+        startswith(line, "#!") && continue
+        if occursin('#', line)
+            urn, surface = split(line, '#'; limit=2)
+            # Use expanded form when the editorial dictionary supplies one
+            canonical = get(elision_dict, surface, surface)
+            if haskey(counts, canonical)
+                push!(counts[canonical], urn)
+            else
+                counts[canonical] = [urn]
+            end
+        end
+    end
+
+    hist_path = get_output_path(config, "word_histogram")
+    mkpath(dirname(hist_path))
+
+    open(hist_path, "w") do f
+        println(f, "frequency\tform\tturns")
+        # sort by frequency descending
+        sorted = sort(collect(counts), by = x -> length(x[2]), rev=true)
+        for (form, urns) in sorted
+            freq = length(urns)
+            urn_list = join(urns, ",")
+            println(f, "$freq\t$form\t$urn_list")
+        end
+    end
+
+    println("Full word histogram → $hist_path")
+end
+

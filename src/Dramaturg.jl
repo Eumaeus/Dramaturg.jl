@@ -1,7 +1,8 @@
 module Dramaturg
 
 # Public API
-export read_config, load_cex, tokenize_to_exemplar, generate_elision_index, generate_elision_histogram, get_output_path, write_tokenized_cex, tokenize_line
+export read_config, load_cex, tokenize_to_exemplar, generate_elision_index,
+       generate_word_histogram, get_output_path, write_tokenized_cex, tokenize_line
 
 # Load our new sub-modules
 include("config.jl")
