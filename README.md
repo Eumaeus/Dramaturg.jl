@@ -13,3 +13,6 @@ using Dramaturg
 
 See `examples/config.toml` for configuration options.
 
+Run a demo script with:
+
+`julia --project=. examples/tokenize_demo.jl`
