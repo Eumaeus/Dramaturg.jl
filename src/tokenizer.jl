@@ -1,10 +1,37 @@
+using Unicode   # ← new import for robust accent normalization
 
 """
     tokenize_line(text::String) :: Vector{String}
-    ... (your existing function, unchanged)
+Split on any whitespace. Treats punctuation as separate tokens.
+Keeps elision mark ʼ attached to its word (exactly as in your example).
 """
+function tokenize_line(text::String)
+    # Insert space before common Greek punctuation so they become their own tokens
+    text = replace(text, r"([·,.;:!?()[\]])" => s" \1 ")
+    # Split on whitespace, drop empty tokens
+    tokens = split(text, r"\s+"; keepempty=false)
+    return tokens
+end
 
-# … keep tokenize_to_exemplar and write_tokenized_cex exactly as they are …
+
+"""
+    tokenize_to_exemplar(cex_data::Vector{Tuple{String,String}}, config::Dict)
+Generate ONLY the tokenized data lines (urn.token.N#token).  
+The catalog header is inserted by write_tokenized_cex.
+"""
+function tokenize_to_exemplar(cex_data::Vector{Tuple{String,String}}, config::Dict)
+    tokenized_lines = String[]
+
+    for (urn, text) in cex_data
+        tokens = tokenize_line(text)
+        for (i, tok) in enumerate(tokens)
+            new_urn = "$urn.token.$(i)"
+            push!(tokenized_lines, "$new_urn#$tok")
+        end
+    end
+
+    return tokenized_lines
+end
 
 """
     normalize_grave_to_acute(s::String) :: String

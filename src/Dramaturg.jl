@@ -1,8 +1,11 @@
 module Dramaturg
 
+
 # Public API
-export read_config, load_cex, tokenize_to_exemplar, generate_elision_index,
-       generate_word_histogram, get_output_path, write_tokenized_cex, tokenize_line, normalize_grave_to_acute, get_presentation_form
+export read_config, load_cex
+export generate_elision_index, generate_word_histogram, get_output_path
+export write_tokenized_cex, tokenize_line
+export normalize_grave_to_acute, get_presentation_form, tokenize_to_exemplar 
 
 using Unicode   # ← new import for robust accent normalization
 
