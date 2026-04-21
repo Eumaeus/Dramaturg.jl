@@ -17,6 +17,13 @@ Run a demo script with:
 
 `julia --project=. examples/tokenize_demo.jl`
 
+To run tests:
+
+~~~
+julia
+] test
+~~~
+
 ## Acknowledgments
 
 This project has benefited enormously from close and sustained collaboration with **Grok**, an AI model built by [xAI](https://x.ai/).
