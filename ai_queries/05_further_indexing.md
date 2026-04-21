@@ -19,14 +19,3 @@ And while we are at it, this might be a good time to generate a word-histogram o
 For such a file, for elided forms we would want to use the expanded form where we have it in the dictionary. Since we have not completed the dictionary of elided forms, elided forms without dictionary entries can appear in the histogram as they are, in their "surface form". 
 
 I hope this is a clear description of what I have in mind for the next step. If not, I will try to clarify! Thanks!
-
----
-
-Okay, that looks great! The code runs perfectly. For my part, I only now realize that I omitted a step in my thinking.
-
-For indexing, histograms, and any other list-making we do, but **not** for the tokenized edition, we need to "normalize" grave accents.
-
-That is, when generating a list, histogram, or index, `καὶ` and `καί` should be treated as the same word, and rendered with an acute accent: `καί`. We never lose the surface-forms with the grave, since the token-level CTS-URN will always point us back to the true text-content of the citable passage in the text.
-
-This was my omission… it would probably have been easier to implement this earlier.
-
