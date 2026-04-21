@@ -5,7 +5,7 @@ Keeps elision mark ʼ attached to its word (exactly as in your example).
 """
 function tokenize_line(text::String)
     # Insert space before common Greek punctuation so they become their own tokens
-    text = replace(text, r"([“”·,.;:!?()[\]])" => s" \1 ")
+    text = replace(text, r"([“”·,†.;:!?()[\]])" => s" \1 ")
     # Split on whitespace, drop empty tokens
     tokens = split(text, r"\s+"; keepempty=false)
     return tokens

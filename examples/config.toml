@@ -1,7 +1,7 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "working-files/speech-speaker.cex"          # ← change to your actual CEX file
+cex_path = "source-data/frogs-speech-speaker.cex"          # ← change to your actual CEX file
 text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:"  # example: Aristophanes Frogs
 
 [output]
