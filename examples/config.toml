@@ -1,8 +1,12 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/frogs-speech-speaker.cex"          # ← change to your actual CEX file
+cex_path = "source-data/frogs-speech-speaker.cex"  # ← change to your actual CEX file
 text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:"  # example: Aristophanes Frogs
+#cex_path = "source-data/demeter.cex"  # ← change to your actual CEX file
+#text_urn = "urn:cts:greekLit:tlg0013.tlg002.fucex:"  # example: Aristophanes Frogs
+#cex_path = "source-data/herodotus.cex"  # ← change to your actual CEX file
+#text_urn = "urn:cts:greekLit:tlg0016.tlg001.grc:"  # example: Aristophanes Frogs
 
 [output]
 lines_per_page = 25
