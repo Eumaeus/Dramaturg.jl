@@ -1,5 +1,36 @@
 using Unicode   # ← new import for robust accent normalization
 
+
+const TONOS_TO_OXIA = Dict(
+    # lowercase
+    '\u03AC' => '\u1F71',  # ά → ά
+    '\u03AD' => '\u1F73',  # έ → έ
+    '\u03AE' => '\u1F75',  # ή → ή
+    '\u03AF' => '\u1F77',  # ί → ί
+    '\u03CC' => '\u1F79',  # ό → ό
+    '\u03CD' => '\u1F7B',  # ύ → ύ
+    '\u03CE' => '\u1F7D',  # ώ → ώ
+    # uppercase
+    '\u0386' => '\u1FBB',  # Ά → Ά
+    '\u0388' => '\u1FC9',  # Έ → Έ
+    '\u0389' => '\u1FCB',  # Ή → Ή
+    '\u038A' => '\u1FDB',  # Ί → Ί
+    '\u038C' => '\u1FF9',  # Ό → Ό
+    '\u038E' => '\u1FEB',  # Ύ → Ύ
+    '\u038F' => '\u1FFB',  # Ώ → Ώ
+    # (optional but harmless) dialytika+tonos pairs
+    '\u0390' => '\u1FD3',  # ΐ → ΐ
+    '\u03B0' => '\u1FE3',  # ΰ → ΰ
+)
+
+function ensure_oxia(s::String)::String
+    # Replace tonos precomposed → oxia precomposed (fast, in-place friendly)
+    for (tonos, oxia) in TONOS_TO_OXIA
+        s = replace(s, tonos => oxia)
+    end
+    return s
+end
+
 """
     tokenize_line(text::String) :: Vector{String}
 Split on any whitespace. Treats punctuation as separate tokens.
@@ -41,7 +72,9 @@ Uses NFD/NFC decomposition so it works on all precomposed and combining Greek ac
 function normalize_grave_to_acute(s::String)::String
     nfd = Unicode.normalize(s, :NFD)
     replaced = replace(nfd, '\u0300' => '\u0301')
-    return Unicode.normalize(replaced, :NFC)
+    nfc = Unicode.normalize(replaced, :NFC)
+    return ensure_oxia(nfc)          # ← add this
+
 end
 
 """
