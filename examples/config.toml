@@ -1,12 +1,15 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/frogs-speech-speaker.cex"  # ← change to your actual CEX file
-text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:"  # example: Aristophanes Frogs
-#cex_path = "source-data/demeter.cex"  # ← change to your actual CEX file
-#text_urn = "urn:cts:greekLit:tlg0013.tlg002.fucex:"  # example: Aristophanes Frogs
-#cex_path = "source-data/herodotus.cex"  # ← change to your actual CEX file
-#text_urn = "urn:cts:greekLit:tlg0016.tlg001.grc:"  # example: Aristophanes Frogs
+cex_path = "source-data/frogs-speech-speaker.cex"
+text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:" 
+file_name = "Aristophanes_Frogs"
+#cex_path = "source-data/demeter.cex"  
+#text_urn = "urn:cts:greekLit:tlg0013.tlg002.fucex:"  
+#file_name = "Homeric_Hymn_to_Demeter"
+#cex_path = "source-data/herodotus.cex"
+#text_urn = "urn:cts:greekLit:tlg0016.tlg001.grc:"
+#file_name = "Herodotus"
 
 [output]
 lines_per_page = 25
@@ -26,10 +29,13 @@ pos_data = "path/to/morpheus_output.tsv"
 data_root = "data"                       # base folder for all generated files
 tokenized_dir = "tokenized"
 indexes_dir = "indexes"
+vocabulary_dir = "vocabulary"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
 word_histogram_suffix = "_word_histogram.tsv"
+vocabulary_unicode_suffix = "_uc_vocabulary.txt"
+vocabulary_beta_suffix = "_beta_vocabulary.txt"
 
 
 [editorial]
