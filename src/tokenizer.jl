@@ -1,5 +1,16 @@
 using Unicode   # ← new import for robust accent normalization
 
+const PUNCTUATION_REGEX = r"([-“”\"·.,;:!?{}…†()–—[\]])"
+
+const PUNCTUATION_CHARS = Set(['-', '–', '—', '†', '“', '”', '"', '·', '.', ',', ';', ':', '!', '?', '{', '}', '…', '(', ')', '[', ']'])
+
+"""
+    is_punctuation(token::AbstractString) :: Bool
+Return `true` if the token is a single punctuation character produced by our tokenizer.
+"""
+function is_punctuation(token::AbstractString)::Bool
+    length(token) == 1 && token[1] in PUNCTUATION_CHARS
+end
 
 const TONOS_TO_OXIA = Dict(
     # lowercase
@@ -38,12 +49,11 @@ Keeps elision mark ʼ attached to its word (exactly as in your example).
 """
 function tokenize_line(text::String)
     # Insert space before common Greek punctuation so they become their own tokens
-    text = replace(text, r"([-“”\"·.,;:!?{}…()[\]])" => s" \1 ")
+    text = replace(text, PUNCTUATION_REGEX => s" \1 ")
     # Split on whitespace, drop empty tokens
     tokens = split(text, r"\s+"; keepempty=false)
     return tokens
 end
-
 
 """
     tokenize_to_exemplar(cex_data::Vector{Tuple{String,String}}, config::Dict)
@@ -94,7 +104,8 @@ function load_presentation_dict(config::Dict)
                 readline(io)  # skip header
                 for line in eachline(io)
                     isempty(strip(line)) && continue
-                    cols = split(line, '\t'; limit=2)
+                    safeline = ensure_oxia(line)
+                    cols = split(safeline, '\t'; limit=2)
                     length(cols) == 2 || continue
                     surface = strip(cols[1])
                     expanded = strip(cols[2])
@@ -114,7 +125,8 @@ function load_presentation_dict(config::Dict)
                 readline(io)  # skip header
                 for line in eachline(io)
                     isempty(strip(line)) && continue
-                    cols = split(line, '\t'; limit=2)
+                    safeline = ensure_oxia(line)
+                    cols = split(safeline, '\t'; limit=2)
                     length(cols) == 2 || continue
                     surface = strip(cols[1])
                     pres = strip(cols[2])
@@ -134,7 +146,8 @@ function load_presentation_dict(config::Dict)
                 readline(io)  # skip header
                 for line in eachline(io)
                     isempty(strip(line)) && continue
-                    cols = split(line, '\t'; limit=2)
+                    safeline = ensure_oxia(line)
+                    cols = split(safeline, '\t'; limit=2)
                     length(cols) == 2 || continue
                     surface = strip(cols[1])
                     pres = strip(cols[2])
@@ -157,7 +170,9 @@ Now accepts SubString{String} (from split) and uses the pre-loaded dictionary.
 """
 function get_presentation_form(surface::AbstractString, presentation_dict::Dict{String,String})::String
     s = String(surface)  # safe conversion
-    return get(presentation_dict, s, normalize_grave_to_acute(s))
+    nf = get(presentation_dict, ensure_oxia(s), ensure_oxia(normalize_grave_to_acute(s)))
+    return ensure_oxia(nf)
+ 
 end
 
 """
