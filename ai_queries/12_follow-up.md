@@ -11,4 +11,4 @@ I did a certain amount of refactoring involving `src/config.jl`, `src/tokenizer.
 
 All of these changes are checked in, along with script output from my main focus, Aristophanes *Frogs*, and my two other test texts, Herodotus and the Homeric Hymn to Demeter.
 
-This is just an after-action report, mainly for my own record. You have noted that the contents of `ai_queries` is serving as my log, or diary, of the development of this project, to give both you and me context as we move forward.gi
+This is just an after-action report, mainly for my own record. You have noted that the contents of `ai_queries` is serving as my log, or diary, of the development of this project, to give both you and me context as we move forward.
