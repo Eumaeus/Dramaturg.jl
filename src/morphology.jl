@@ -74,7 +74,7 @@ function parse_morpheus_to_triplets(input_path::String, output_triplets::String,
 
                     # === Lemma handling (comma-separated) ===
                     lemma_parts = split(lemma_key, ",")
-                    lemmas = [clean_lemma(lp) for lp in lemma_parts if !isempty(strip(lp))]
+                    lemmas = [clean_lemma(String(lp)) for lp in lemma_parts if !isempty(strip(lp))]
 
                     # Default tag components (9-character Perseus style)
                     pos = ""
