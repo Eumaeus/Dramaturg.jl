@@ -7,7 +7,7 @@ export generate_elision_index, generate_word_histogram, get_output_path
 export write_tokenized_cex, tokenize_line, generate_vocabulary
 export unicode_to_beta_file
 export normalize_grave_to_acute, get_presentation_form, tokenize_to_exemplar
-export unicode_to_beta_file, beta_to_unicode_file
+export unicode_to_beta_file, beta_to_unicode_file, parse_morpheus_to_triplets
 
 using Unicode  
 using BetaReader
@@ -17,6 +17,7 @@ include("config.jl")
 include("cex_loader.jl")
 include("tokenizer.jl")
 include("vocabulary.jl")
+include("morphology.jl")
 
 """    Dramaturg.version()
 Return the current package version.
