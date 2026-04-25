@@ -262,12 +262,20 @@ Uses presentation_form for every token (elided forms get expanded first, then gr
 """
 function generate_word_histogram(tokenized_cex::String, config::Dict)
     presentation_dict = load_presentation_dict(config)
+    filter_paratext = config["input"]["filter_paratext"]
+    println("filter paratext: $filter_paratext")
 
     data_lines = extract_ctsdata_lines(tokenized_cex)
     counts = Dict{String, Vector{String}}()   # presentation_form => [urns...]
 
     for line in data_lines
         urn, surface = split(line, '#'; limit=2)
+        # exclude "speaker" nodes!
+        if (!isempty(filter_paratext))
+            if (contains(urn, filter_paratext))
+                continue
+            end
+        end
         canonical = get_presentation_form(surface, presentation_dict)
         if haskey(counts, canonical)
             push!(counts[canonical], urn)

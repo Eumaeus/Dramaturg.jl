@@ -4,6 +4,7 @@
 cex_path = "source-data/frogs-speech-speaker.cex"
 text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:" 
 file_name = "Aristophanes_Frogs"
+filter_paratext = "" # filter out passages with this string in the URN.
 #cex_path = "source-data/demeter.cex"  
 #text_urn = "urn:cts:greekLit:tlg0013.tlg002.fucex:"  
 #file_name = "Homeric_Hymn_to_Demeter"
