@@ -1,0 +1,40 @@
+a)/nqrwpos
+<NL>N a)/nqrwpos  masc nom sg			os_ou</NL>
+a)nqrw/pou
+<NL>N a)/nqrwpos  masc gen sg			os_ou</NL>
+a)/nqrwpoi
+<NL>N a)/nqrwpos  masc nom/voc pl			os_ou</NL>
+krh/nh
+<NL>N krh/nh  fem nom/voc sg	attic epic ionic		h_hs</NL>
+krh/nhn
+<NL>N krh/nh  fem acc sg	attic epic ionic		h_hs</NL>
+e)/lusa
+<NL>V e)lu/w  aor ind act 1st sg	homeric ionic	unaugmented	aor1,reg_conj</NL><NL>V e)/lu_sa,lu/w  aor ind act 1st sg			aor1,reg_conj</NL>
+lu=e
+<NL>V lu/w  pres imperat act 2nd sg			w_stem,reg_conj</NL><NL>V lu/w  imperf ind act 3rd sg	homeric ionic	unaugmented	w_stem,reg_conj</NL>
+e)luo/meqa
+<NL>V e)lu/w  pres ind mp 1st pl			w_stem,reg_conj</NL><NL>V e)lu/w  imperf ind mp 1st pl	homeric ionic	unaugmented	w_stem,reg_conj</NL><NL>V lu/w  imperf ind mp 1st pl	epic		w_stem,reg_conj</NL><NL>V e)lu_o/meqa,lu/w  imperf ind mp 1st pl			w_stem,reg_conj</NL>
+lu/w
+<NL>V lu/w  pres subj act 1st sg	epic		w_stem,reg_conj</NL><NL>V lu/w  pres ind act 1st sg	epic		w_stem,reg_conj</NL><NL>V lu_/w,lu/w  pres subj act 1st sg			w_stem,reg_conj</NL><NL>V lu_/w,lu/w  pres ind act 1st sg			w_stem,reg_conj</NL>
+poiw=n
+<NL>N po/a  fem gen pl	doric ionic		h_hs</NL><NL>P poie/w  pres part act masc nom sg	attic epic doric	contr	ew_pr,ew_denom</NL><NL>N poio/s  fem gen pl			os_h_on</NL><NL>N poio/s  masc/neut gen pl			os_h_on</NL><NL>P poio/w  pres part act masc voc sg	doric aeolic	contr	ow_pr,ow_denom</NL><NL>P poio/w  pres part act neut nom/voc/acc sg	doric aeolic	contr	ow_pr,ow_denom</NL><NL>P poio/w  pres part act masc nom sg		contr	ow_pr,ow_denom</NL><NL>V poio/w  pres inf act	doric		ow_pr,ow_denom</NL>
+poiou=ntos
+<NL>P poie/w  pres part act masc/neut gen sg	attic epic doric	contr	ew_pr,ew_denom</NL><NL>P poio/w  pres part act masc/neut gen sg		contr	ow_pr,ow_denom</NL>
+luqh/sesqe
+<NL>V lu/w  fut ind pass 2nd pl			aor_pass,reg_conj</NL>
+eu)=
+<NL>N eu)= 		indeclform	adverb</NL>
+o(/s
+<NL>N o(/s  masc nom sg		indeclform	relative</NL>
+kalw=s
+<NL>N kalo/s  adverbial			os_h_on</NL>
+sofwte/ran
+<NL>N sofwte/ra_n,sofo/s  fem acc comp sg	attic doric aeolic		os_h_on</NL>
+sofwta/tou
+<NL>N sofo/s  masc/neut gen superl sg			os_h_on</NL>
+e)bla/bhn
+<NL>V bla/ptw  aor ind pass 3rd pl	epic doric aeolic		aor2_pass</NL><NL>V bla/ptw  aor ind pass 1st sg			aor2_pass</NL>
+parainou/meqa
+<NL>V paraine/w  pres ind mp 1st pl	attic epic doric	contr	ew_pr,ew_denom</NL><NL>V paraine/w  pres ind mp 1st pl	attic epic doric	contr	ew_pr,e_stem</NL><NL>V paraine/w  imperf ind mp 1st pl	attic epic doric	contr unaugmented	ew_pr,ew_denom</NL><NL>V paraine/w  imperf ind mp 1st pl	attic epic doric	contr unaugmented	ew_pr,e_stem</NL>
+parainei=te
+<NL>V paraine/w  pres imperat act 2nd pl	attic epic	contr	ew_pr,ew_denom</NL><NL>V paraine/w  pres opt act 2nd pl			ew_pr,ew_denom</NL><NL>V paraine/w  pres ind act 2nd pl	attic epic	contr	ew_pr,ew_denom</NL><NL>V paraine/w  pres imperat act 2nd pl	attic epic	contr	ew_pr,e_stem</NL><NL>V paraine/w  pres opt act 2nd pl			ew_pr,e_stem</NL><NL>V paraine/w  pres ind act 2nd pl	attic epic	contr	ew_pr,e_stem</NL>

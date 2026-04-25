@@ -12,5 +12,5 @@ Manifest.toml
 /test/tmp/
 /examples/data/*.csv
 /html/pages/
-*.log
+#*.log
 .DS_Store
