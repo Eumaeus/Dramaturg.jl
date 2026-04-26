@@ -38,3 +38,21 @@ parainou/meqa
 <NL>V paraine/w  pres ind mp 1st pl	attic epic doric	contr	ew_pr,ew_denom</NL><NL>V paraine/w  pres ind mp 1st pl	attic epic doric	contr	ew_pr,e_stem</NL><NL>V paraine/w  imperf ind mp 1st pl	attic epic doric	contr unaugmented	ew_pr,ew_denom</NL><NL>V paraine/w  imperf ind mp 1st pl	attic epic doric	contr unaugmented	ew_pr,e_stem</NL>
 parainei=te
 <NL>V paraine/w  pres imperat act 2nd pl	attic epic	contr	ew_pr,ew_denom</NL><NL>V paraine/w  pres opt act 2nd pl			ew_pr,ew_denom</NL><NL>V paraine/w  pres ind act 2nd pl	attic epic	contr	ew_pr,ew_denom</NL><NL>V paraine/w  pres imperat act 2nd pl	attic epic	contr	ew_pr,e_stem</NL><NL>V paraine/w  pres opt act 2nd pl			ew_pr,e_stem</NL><NL>V paraine/w  pres ind act 2nd pl	attic epic	contr	ew_pr,e_stem</NL>
+dei=
+<NL>V de/omai  pres ind mp 2nd sg	attic epic doric ionic	contr	ew_pr,ew_denom</NL><NL>V de/w1  pres ind mp 2nd sg	attic epic doric ionic	contr	evw_pr,e_stem</NL><NL>V de/w1  pres imperat act 2nd sg	attic epic	contr	evw_pr,e_stem</NL><NL>V de/w1  pres ind act 3rd sg	attic epic doric ionic	contr	evw_pr,e_stem</NL><NL>V de/w1  imperf ind act 3rd sg	attic epic	contr unaugmented	evw_pr,e_stem</NL><NL>V de/w2  pres ind mp 2nd sg	attic epic doric ionic	contr	evw_pr,ev_stem</NL><NL>V de/w2  pres imperat act 2nd sg	attic epic	contr	evw_pr,ev_stem</NL><NL>V de/w2  pres ind act 3rd sg	attic epic doric ionic	contr	evw_pr,ev_stem</NL><NL>V de/w2  imperf ind act 3rd sg	attic epic	contr unaugmented	evw_pr,ev_stem</NL><NL>V dei=  imperf ind act 3rd sg	attic epic ionic	contr unaugmented impersonal	ew_pr</NL>
+deo/ntwn
+<NL>N de/on  neut gen pl			wn_ontos</NL><NL>V de/w1  pres imperat act 3rd pl			ew_pr</NL><NL>P de/w1  pres part act masc/neut gen pl			evw_pr,e_stem</NL><NL>V de/w1  pres imperat act 3rd pl			evw_pr,e_stem</NL><NL>P de/w1  pres part act masc/neut gen pl	attic epic doric ionic aeolic		ew_pr,e_stem</NL><NL>P de/w2  pres part act masc/neut gen pl			evw_pr,ev_stem</NL><NL>V de/w2  pres imperat act 3rd pl			evw_pr,ev_stem</NL><NL>P dei=  pres part act masc/neut gen pl		impersonal	w_stem</NL><NL>V dei=  pres imperat act 3rd pl		impersonal	w_stem</NL>
+dh/sw
+<NL>V de/omai  aor ind mp 2nd sg	homeric ionic	unaugmented	aor1,ew_denom</NL><NL>V de/w1  aor subj act 1st sg			aor1,e_stem</NL><NL>V de/w1  fut ind act 1st sg			reg_fut,e_stem</NL><NL>V de/w1  aor ind mid 2nd sg	homeric ionic	unaugmented	aor1,e_stem</NL><NL>V de/w2  aor subj act 1st sg			aor1,e_suppl</NL><NL>V de/w2  aor ind mid 2nd sg	homeric ionic	unaugmented	aor1,e_suppl</NL>
+dh=sa
+<NL>V de/w1  aor ind act 1st sg	homeric ionic	unaugmented	aor1,e_stem</NL><NL>V de/w2  aor ind act 1st sg	homeric ionic	unaugmented	aor1,e_suppl</NL>
+deou=mai
+<NL>V de/w2  fut ind mid 1st sg	attic epic doric	contr	ew_fut,ev_stem</NL>
+de/w
+<NL>V de/w1  pres subj act 1st sg			evw_pr,e_stem</NL><NL>V de/w1  pres ind act 1st sg			evw_pr,e_stem</NL><NL>V de/w2  pres subj act 1st sg			evw_pr,ev_stem</NL><NL>V de/w2  pres ind act 1st sg			evw_pr,ev_stem</NL><NL>V dei=  pres subj act 1st sg		impersonal	w_stem</NL><NL>V dei=  pres ind act 1st sg		impersonal	w_stem</NL>
+dh/w
+<NL>V dh/w  pres subj act 1st sg			w_stem</NL><NL>V dh/w  pres ind act 1st sg			w_stem</NL><NL>N dh=os  masc/neut nom/voc/acc dual			os_h_on</NL><NL>N dh=os  masc/neut gen sg	doric aeolic		os_h_on</NL>
+ei)
+<NL>N ei) 		proclitic indeclform	conj</NL>
+ei)=
+<NL>N ei) 		proclitic indeclform	conj</NL><NL>V ei)=mi  pres ind act 2nd sg			irreg_mi</NL><NL>V ei)mi/  pres ind act 2nd sg			irreg_mi</NL>

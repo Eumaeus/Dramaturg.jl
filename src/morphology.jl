@@ -236,6 +236,8 @@ Converts a Perseus-style POS tag + beta-code lemma into a human-readable string.
 - describe_pos("ai)/tia", "ai)/tios", "a-s---fnp")
 - describe_pos("ai)/tia", "ai)ti/a", "n-s---fa-")
 
+NOT CATCHING GENDER AND CASE FOR PARTICIPLES!
+
 """
 
 
@@ -273,12 +275,22 @@ function describe_pos(sf::String, lemma::String, pos::String; markdown::Bool=tru
     if pos_char == 'v'
         verb_parts = String[]
         if haskey(TENSE_FULL, tense_char);  
-            tmpTense = TENSE_FULL[tense_char];
-            println(tmpTense);
-            push!(verb_parts, TENSE_FULL[tense_char]) 
+            title_case_tense = uppercasefirst(TENSE_FULL[tense_char]);
+            push!(verb_parts, title_case_tense) 
         end
-        if haskey(MOOD_FULL, mood_char);    push!(verb_parts, MOOD_FULL[mood_char]) end
-        if haskey(VOICE_FULL, voice_char);  push!(verb_parts, VOICE_FULL[voice_char]) end
+        if haskey(MOOD_FULL, mood_char);    
+            push!(verb_parts, MOOD_FULL[mood_char]) 
+        end
+        if haskey(VOICE_FULL, voice_char);  
+            push!(verb_parts, VOICE_FULL[voice_char]) 
+        end
+        # Participles have gender, case, and number!
+        if haskey(GENDER_FULL, gender_char); 
+            title_case_gender = GENDER_FULL[gender_char];
+            push!(verb_parts, title_case_gender) 
+        end
+        if haskey(CASE_FULL, case_char);     push!(verb_parts, CASE_FULL[case_char]) end
+        # For finite verbs…
         if haskey(PERSON_FULL, person_char)
             push!(verb_parts, "$(PERSON_FULL[person_char]) person")
         end
@@ -286,30 +298,29 @@ function describe_pos(sf::String, lemma::String, pos::String; markdown::Bool=tru
             push!(verb_parts, NUMBER_FULL[number_char])
         end
         if !isempty(verb_parts)
-            push!(parts, join(verb_parts, " "))
+            push!(parts, join(verb_parts, ", "))
         end
 
     # 4. Nominal features (nouns, adjectives, etc.)
     else
         nominal = String[]
         if haskey(GENDER_FULL, gender_char); 
-            tempGender = uppercasefirst(GENDER_FULL[gender_char]);
-            println(tempGender);
-            push!(nominal, tempGender) 
+            title_case_gender = uppercasefirst(GENDER_FULL[gender_char]);
+            push!(nominal, title_case_gender) 
         end
         if haskey(CASE_FULL, case_char);     push!(nominal, CASE_FULL[case_char]) end
         if haskey(NUMBER_FULL, number_char); push!(nominal, NUMBER_FULL[number_char]) end
         if !isempty(nominal)
-            push!(parts, join(nominal, " "))
+            push!(parts, join(nominal, ", "))
         end
     end
 
-    description = join(parts, ". ") * "."
+    description = join(parts, ". ") * "." * " [$pos]"
 
     # Final formatting
     if markdown
-        return "**$unicode_sf**. From ‘**$unicode_lemma**’: $description"
+        return "**$unicode_sf**. From ‘**$(unicode_lemma)**’. $description"
     else
-        return "$unicode_lemma: $description"
+        return "$unicode_sf. From ‘$(unicode_lemma)’. $description"
     end
 end

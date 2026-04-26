@@ -5,15 +5,32 @@ using Dramaturg   # This brings in describe_pos (once you export it)
 
 
 
-    @testset "Basic examples (exactly as requested)" begin
-        @test describe_pos("v3sfim---", "ai)sqa/nomai"; markdown=false) ==
-              "αἰσθάνομαι: Verb. Future indicative middle, 3rd person singular."
+    @testset "Basic examples" begin
+        # Markdown false
+        @test describe_pos("a)/nqrwpos", "a)/nqrwpos", "n-s---mn-", markdown=false) ==
+              "ἄνθρωπος. From ‘ἄνθρωπος’. Noun. Masculine, nominative, singular. [n-s---mn-]"
+        # Markdown true
+        @test describe_pos("a)/nqrwpos", "a)/nqrwpos", "n-s---mn-", markdown=true) ==
+              "**ἄνθρωπος**. From ‘**ἄνθρωπος**’. Noun. Masculine, nominative, singular. [n-s---mn-]"
+        # Markdown default to true
+        @test describe_pos("a)/nqrwpos", "a)/nqrwpos", "n-s---mn-") ==
+              "**ἄνθρωπος**. From ‘**ἄνθρωπος**’. Noun. Masculine, nominative, singular. [n-s---mn-]"
 
-        @test describe_pos("a-s---fnp", "ai)/tios") ==
-              "**αἴτιος**: Adjective. Feminine accusative singular."
 
-        @test describe_pos("n-s---fa-", "ai)ti/a") ==
-              "**αἰτία**: Noun. Feminine accusative singular."
+        @test describe_pos("krh/nhn", "krh/nh", "n-s---fa-") ==
+              "**κρήνην**. From ‘**κρήνη**’. Noun. Feminine, accusative, singular. [n-s---fa-]"
+
+        @test describe_pos("e)/lusa", "lu/w", "v1saia---") ==
+              "**ἔλυσα**. From ‘**λύω**’. Verb. Aorist, indicative, active, 1st person, singular. [v1saia---]"
+
+        @test describe_pos("poiw=n", "poie/w", "v-spapmn-") ==
+              "**ποιῶν**. From ‘**ποιέω**’. Verb. Present, participle, active, masculine, nominative, singular. [v-spapmn-]"
+
+        @test describe_pos("poiou/menos", "poie/w", "v-spepmn-") ==
+              "**ποιῶν**. From ‘**ποιέω**’. Verb. Present, participle, middle-passive, masculine, nominative, singular. [v-spepmn-]"
+
+         @test describe_pos("poiei=n", "poie/w", "v--pna---") ==
+              "**ποιεῖν**. From ‘**ποιέω**’. Verb. Present, infinitive, active. [v--pna---]"
     end
 
     #=
@@ -85,9 +102,6 @@ using Dramaturg   # This brings in describe_pos (once you export it)
 
    =# 
    
-    @testset "Markdown toggle works correctly" begin
-        @test startswith(describe_pos("n-s---fa-", "ai)ti/a"), "**αἰτία**")
-        @test !startswith(describe_pos("n-s---fa-", "ai)ti/a"; markdown=false), "**")
-    end
+    
 
 end
