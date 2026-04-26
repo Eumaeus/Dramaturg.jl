@@ -8,6 +8,7 @@ export write_tokenized_cex, tokenize_line, generate_vocabulary
 export unicode_to_beta_file
 export normalize_grave_to_acute, get_presentation_form, tokenize_to_exemplar
 export unicode_to_beta_file, beta_to_unicode_file, parse_morpheus_to_triplets
+export describe_pos, parse_morpheus_to_triplets   # (and beta_to_unicode if you want it public)
 
 using Unicode  
 using BetaReader

@@ -181,3 +181,135 @@ function parse_morpheus_to_triplets(input_path::String, output_triplets::String,
 end
 
 end # module Morphology
+
+"""
+    beta_to_unicode(lemma::String) -> String
+
+Convenience wrapper around BetaReader (already a dependency of the project).
+"""
+beta_to_unicode(lemma::AbstractString) = BetaReader.betaToUnicode(string(lemma))
+
+# ==================== Full name mappings (re-used + extended) ====================
+const POS_FULL = Dict(
+    'v' => "Verb",
+    'n' => "Noun",
+    'a' => "Adjective",
+    'd' => "Adverb",
+    'l' => "Article",
+    'g' => "Particle",
+    'c' => "Conjunction",
+    'r' => "Preposition",
+    'p' => "Pronoun",
+    'm' => "Numeral",
+    'i' => "Interjection"
+)
+
+const PERSON_FULL = Dict('1' => "1st", '2' => "2nd", '3' => "3rd")
+const NUMBER_FULL = Dict('s' => "singular", 'p' => "plural", 'd' => "dual")
+const TENSE_FULL  = Dict(
+    'p' => "present", 'i' => "imperfect", 'f' => "future",
+    'a' => "aorist",  'r' => "perfect",   'l' => "pluperfect",
+    't' => "future perfect"
+)
+const MOOD_FULL   = Dict(
+    'i' => "indicative", 's' => "subjunctive", 'o' => "optative",
+    'm' => "imperative", 'n' => "infinitive",  'p' => "participle"
+)
+const VOICE_FULL  = Dict(
+    'a' => "active", 'm' => "middle", 'p' => "passive", 'e' => "middle-passive"
+)
+const GENDER_FULL = Dict('m' => "masculine", 'f' => "feminine", 'n' => "neuter")
+const CASE_FULL   = Dict(
+    'n' => "nominative", 'g' => "genitive", 'd' => "dative",
+    'a' => "accusative", 'v' => "vocative", 'l' => "locative"
+)
+const DEGREE_FULL = Dict('c' => "comparative", 's' => "superlative")  # "-" → positive (omitted)
+
+"""
+    describe_pos(sf::String, lemma::String, pos::String; markdown::Bool=true) -> String
+
+Converts a Perseus-style POS tag + beta-code lemma into a human-readable string.
+
+- describe_pos("lu/setai", "lu/w", "v3sfim---"; markdown=false)
+
+    λῦε. From ‘λύω’ (verb): present active imperative, 3rd person singular
+- describe_pos("ai)/tia", "ai)/tios", "a-s---fnp")
+- describe_pos("ai)/tia", "ai)ti/a", "n-s---fa-")
+
+"""
+
+
+function describe_pos(sf::String, lemma::String, pos::String; markdown::Bool=true)::String
+    unicode_lemma = beta_to_unicode(lemma)
+    unicode_sf = beta_to_unicode(sf) # sf is the 'surface form'
+
+    # Normalize tag to exactly 9 characters (pad with '-' if shorter)
+    tag = rstrip(pos, '-') * repeat("-", 9)
+    tag = tag[1:9]
+
+    pos_char    = tag[1]
+    person_char = tag[2]
+    number_char = tag[3]
+    tense_char  = tag[4]
+    mood_char   = tag[5]
+    voice_char  = tag[6]
+    gender_char = tag[7]
+    case_char   = tag[8]
+    degree_char = tag[9]
+
+    # Build description parts
+    parts = String[]
+
+    # 1. Part of speech
+    pos_name = get(POS_FULL, pos_char, "Unknown")
+    push!(parts, pos_name)
+
+    # 2. Degree (only for adjectives and adverbs, and only when not positive)
+    if ((pos_char == 'a') || pos_char == 'd') && haskey(DEGREE_FULL, degree_char)
+        push!(parts, "($(uppercasefirst(DEGREE_FULL[degree_char])))")
+    end
+
+    # 3. Verb-specific features (order matches your example exactly)
+    if pos_char == 'v'
+        verb_parts = String[]
+        if haskey(TENSE_FULL, tense_char);  
+            tmpTense = TENSE_FULL[tense_char];
+            println(tmpTense);
+            push!(verb_parts, TENSE_FULL[tense_char]) 
+        end
+        if haskey(MOOD_FULL, mood_char);    push!(verb_parts, MOOD_FULL[mood_char]) end
+        if haskey(VOICE_FULL, voice_char);  push!(verb_parts, VOICE_FULL[voice_char]) end
+        if haskey(PERSON_FULL, person_char)
+            push!(verb_parts, "$(PERSON_FULL[person_char]) person")
+        end
+        if haskey(NUMBER_FULL, number_char)
+            push!(verb_parts, NUMBER_FULL[number_char])
+        end
+        if !isempty(verb_parts)
+            push!(parts, join(verb_parts, " "))
+        end
+
+    # 4. Nominal features (nouns, adjectives, etc.)
+    else
+        nominal = String[]
+        if haskey(GENDER_FULL, gender_char); 
+            tempGender = uppercasefirst(GENDER_FULL[gender_char]);
+            println(tempGender);
+            push!(nominal, tempGender) 
+        end
+        if haskey(CASE_FULL, case_char);     push!(nominal, CASE_FULL[case_char]) end
+        if haskey(NUMBER_FULL, number_char); push!(nominal, NUMBER_FULL[number_char]) end
+        if !isempty(nominal)
+            push!(parts, join(nominal, " "))
+        end
+    end
+
+    description = join(parts, ". ") * "."
+
+    # Final formatting
+    if markdown
+        return "**$unicode_sf**. From ‘**$unicode_lemma**’: $description"
+    else
+        return "$unicode_lemma: $description"
+    end
+end

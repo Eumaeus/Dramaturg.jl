@@ -19,10 +19,7 @@ Run a demo script with:
 
 To run tests:
 
-~~~
-julia
-] test
-~~~
+`julia --project -e 'using Pkg; Pkg.test()'`
 
 ## Acknowledgments
 
