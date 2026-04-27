@@ -1,3 +1,57 @@
+lu/w
+<NL>V lu/w  pres subj act 1st sg	epic		w_stem,reg_conj</NL><NL>V lu/w  pres ind act 1st sg	epic		w_stem,reg_conj</NL><NL>V lu_/w,lu/w  pres subj act 1st sg			w_stem,reg_conj</NL><NL>V lu_/w,lu/w  pres ind act 1st sg			w_stem,reg_conj</NL>
+lu/sw
+<NL>V lu_/sw,lu/w  aor subj act 1st sg			aor1,reg_conj</NL><NL>V lu_/sw,lu/w  fut ind act 1st sg			reg_fut,reg_conj</NL><NL>V lu_/sw,lu/w  aor ind mid 2nd sg	homeric ionic	unaugmented	aor1,reg_conj</NL>
+lu/sete
+<NL>V lu_/sete,lu/w  aor subj act 2nd pl	epic	short_subj	aor1,reg_conj</NL><NL>V lu_/sete,lu/w  fut ind act 2nd pl			reg_fut,reg_conj</NL>
+lu/ein
+<NL>V lu/w  pres inf act	attic epic	contr	w_stem,reg_conj</NL><NL>V lu_/ein,lu/w  pres inf act	attic epic	contr	w_stem,reg_conj</NL>
+lu/wsin
+<NL>V lu/w  pres subj act 3rd pl	epic	nu_movable	w_stem,reg_conj</NL><NL>V lu_/wsin,lu/w  pres subj act 3rd pl		nu_movable	w_stem,reg_conj</NL>
+lu/oimi
+<NL>V lu/w  pres opt act 1st sg	epic		w_stem,reg_conj</NL><NL>V lu_/oimi,lu/w  pres opt act 1st sg			w_stem,reg_conj</NL>
+lu/omen
+<NL>V lu/w  pres ind act 1st pl	epic		w_stem,reg_conj</NL><NL>V lu_/omen,lu/w  pres ind act 1st pl			w_stem,reg_conj</NL><NL>V lu/w  imperf ind act 1st pl	epic	unaugmented	w_stem,reg_conj</NL><NL>V lu_/omen,lu/w  imperf ind act 1st pl	homeric ionic	unaugmented	w_stem,reg_conj</NL>
+lu/h|
+<NL>N lu/a  fem dat sg	attic epic ionic		h_hs</NL><NL>N lu/h  fem dat sg	attic epic doric ionic		h_hs</NL><NL>V lu/w  aor subj pass 2nd sg	epic		ath_secondary</NL><NL>V lu/w  pres subj mp 2nd sg	epic		w_stem,reg_conj</NL><NL>V lu/w  pres ind mp 2nd sg	epic		w_stem,reg_conj</NL><NL>V lu/w  pres subj act 3rd sg	epic		w_stem,reg_conj</NL><NL>V lu_/h|,lu/w  pres subj mp 2nd sg			w_stem,reg_conj</NL><NL>V lu_/h|,lu/w  pres ind mp 2nd sg			w_stem,reg_conj</NL><NL>V lu_/h|,lu/w  pres subj act 3rd sg			w_stem,reg_conj</NL>
+lu/etai
+<NL>V lu/w  pres ind mp 3rd sg	epic		w_stem,reg_conj</NL><NL>V lu_/etai,lu/w  pres ind mp 3rd sg			w_stem,reg_conj</NL>
+lu/wmai
+<NL>V lu/w  aor subj pass 1st sg	epic		ath_secondary</NL><NL>V lu/w  pres subj mp 1st sg	epic		w_stem,reg_conj</NL><NL>V lu_/wmai,lu/w  pres subj mp 1st sg			w_stem,reg_conj</NL>
+lu/htai
+<NL>V lu/w  aor subj pass 3rd sg	epic		ath_secondary</NL><NL>V lu/w  pres subj mp 3rd sg	epic		w_stem,reg_conj</NL><NL>V lu_/htai,lu/w  pres subj mp 3rd sg			w_stem,reg_conj</NL><NL>V lua/w  pres ind mp 3rd sg			ath_primary,aw_denom</NL>
+luoi/mhn
+<NL>V lu/w  pres opt mp 1st sg	epic		w_stem,reg_conj</NL><NL>V lu_oi/mhn,lu/w  pres opt mp 1st sg			w_stem,reg_conj</NL><NL>V lua/w  pres opt mp 1st sg	attic epic doric ionic	contr	ew_pr,aw_denom</NL>
+lu/oio
+<NL>V lu/w  pres opt mp 2nd sg	epic		w_stem,reg_conj</NL><NL>V lu_/oio,lu/w  pres opt mp 2nd sg			w_stem,reg_conj</NL>
+lu/ointo
+<NL>V lu/w  pres opt mp 3rd pl	epic		w_stem,reg_conj</NL><NL>V lu_/ointo,lu/w  pres opt mp 3rd pl			w_stem,reg_conj</NL>
+e)/luon
+<NL>V e)lu/w  imperf ind act 3rd pl	homeric ionic	unaugmented	w_stem,reg_conj</NL><NL>V e)lu/w  imperf ind act 1st sg	homeric ionic	unaugmented	w_stem,reg_conj</NL><NL>V lu/w  imperf ind act 3rd pl	epic		w_stem,reg_conj</NL><NL>V lu/w  imperf ind act 1st sg	epic		w_stem,reg_conj</NL><NL>V e)/lu_on,lu/w  imperf ind act 3rd pl			w_stem,reg_conj</NL><NL>V e)/lu_on,lu/w  imperf ind act 1st sg			w_stem,reg_conj</NL>
+e)lu/omen
+<NL>V e)lu/w  pres ind act 1st pl			w_stem,reg_conj</NL><NL>V e)lu/w  imperf ind act 1st pl	homeric ionic	unaugmented	w_stem,reg_conj</NL><NL>V lu/w  imperf ind act 1st pl	epic		w_stem,reg_conj</NL><NL>V e)lu_/omen,lu/w  imperf ind act 1st pl			w_stem,reg_conj</NL>
+e)lu/samen
+<NL>V e)lu/w  aor ind act 1st pl	homeric ionic	unaugmented	aor1,reg_conj</NL><NL>V e)lu_/samen,lu/w  aor ind act 1st pl			aor1,reg_conj</NL>
+e)/lusan
+<NL>V e)lu/w  aor ind act 3rd pl	homeric ionic	unaugmented	aor1,reg_conj</NL><NL>V e)/lu_san,lu/w  aor ind act 3rd pl			aor1,reg_conj</NL>
+lu=sai
+<NL>V lu/w  aor imperat mid 2nd sg			aor1,reg_conj</NL><NL>V lu/w  aor inf act			aor1,reg_conj</NL>
+e)/lusa
+<NL>V e)lu/w  aor ind act 1st sg	homeric ionic	unaugmented	aor1,reg_conj</NL><NL>V e)/lu_sa,lu/w  aor ind act 1st sg			aor1,reg_conj</NL>
+e)/lusan
+<NL>V e)lu/w  aor ind act 3rd pl	homeric ionic	unaugmented	aor1,reg_conj</NL><NL>V e)/lu_san,lu/w  aor ind act 3rd pl			aor1,reg_conj</NL>
+e)lusa/mhn
+<NL>V e)lu/w  aor ind mid 1st sg	homeric ionic	unaugmented	aor1,reg_conj</NL><NL>V e)lu_sa/mhn,lu/w  aor ind mid 1st sg			aor1,reg_conj</NL>
+e)lu/sato
+<NL>V e)lu/w  aor ind mid 3rd sg	homeric ionic	unaugmented	aor1,reg_conj</NL><NL>V e)lu_/sato,lu/w  aor ind mid 3rd sg			aor1,reg_conj</NL>
+lu/sasqai
+<NL>V lu_/sasqai,lu/w  aor inf mid			aor1,reg_conj</NL>
+lu/sainto
+<NL>V lu_/sainto,lu/w  aor opt mid 3rd pl			aor1,reg_conj</NL>
+lelu/kamen
+<NL>V lu/w  perf ind act 1st pl			perf_act,reg_conj</NL>
+e)lelu/khn
+<NL>V lu/w  plup ind act 1st sg	doric aeolic	contr	perf_act,reg_conj</NL>
 a)/nqrwpos
 <NL>N a)/nqrwpos  masc nom sg			os_ou</NL>
 a)nqrw/pou

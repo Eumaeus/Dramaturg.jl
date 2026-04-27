@@ -12,7 +12,7 @@ parse_morpheus_to_triplets(
 
 parse_morpheus_to_triplets(
     "morph/test-output/analysis.txt",
-    "morph/test-output/triplets.tsv",
+    "morph/test-output/test-triplets.tsv",
     "morph/test-output/parse_errors.log"
 )
 
