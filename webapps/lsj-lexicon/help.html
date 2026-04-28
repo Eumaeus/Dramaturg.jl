@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LSJ.js Help</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles/application.css">
+    <link
+    href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&amp;subset=cyrillic-ext,greek,greek-ext,latin-ext"
+    rel="stylesheet">
+</head>
+
+<body id="body">
+    <div id="main-wrapper">
+        <header>
+            <em>Help for LSJ.js</em> 
+            <span id="app_header_versionInfo">Version 1.0.0</span>
+        </header>
+
+        <article id="main_Container">
+
+            <div id="workingDiv">
+
+<h1 id="youcanusethisapplicationlikeaprintedlexicon.">You can use this application like a printed lexicon.</h1>
+
+<p>On the left are two columns. The first is the Greek alphabet. You can click on a letter to load entries beginning with that letter in the second-from-left column.</p>
+
+<figure>
+<img class="help_image"  src="images/browse.jpg" alt="Browse and click to read entries." />
+<figcaption>Browse and click to read entries.</figcaption>
+</figure>
+
+<p>The alphabet-column includes three archaic letters, giving access to words that begin with this: <em>digamma</em> (Ϝϝ), <em>koppa</em> (Ϟϟ), and <em>san</em> (Ϻϻ).</p>
+
+<p>The list of word-entries scrolls. Click on a word to see its entry in the lexicon.</p>
+
+<h1 id="youcanlookupgreekwordsbytyping">You can look up Greek words by typing</h1>
+
+<p>You can find entries for Greek words by typing in this box.</p>
+
+<figure>
+<img class="help_image"  src="images/type.jpg" alt="Type here to find Greek words." />
+<figcaption>Type here to find Greek words.</figcaption>
+</figure>
+
+<p><strong>Type Latin characters.</strong> Use the chart, below, to see the correspondance between &#8220;Beta Code&#8221; (Greek represented by Latin characters) and Unicode Greek.</p>
+
+ <table id="betaGuide">
+                    <thead>
+                        <tr>
+                            <th> α </th>
+                            <th> β </th>
+                            <th> γ </th>
+                            <th> δ </th>
+                            <th> ε </th>
+                            <th> ζ </th>
+                            <th> η </th>
+                            <th> θ </th>
+                            <th> ι </th>
+                            <th> κ </th>
+                            <th> λ </th>
+                            <th> μ </th>
+                            <th> ν </th>
+                            <th> ξ </th>
+                            <th> ο </th>
+                            <th> π </th>
+                            <th> ρ </th>
+                            <th> σ </th>
+                            <th> ς </th>
+                            <th> τ </th>
+                            <th> υ </th>
+                            <th> φ </th>
+                            <th> χ </th>
+                            <th> ψ </th>
+                            <th> ω </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> <code>a</code> </td>
+                            <td> <code>b</code> </td>
+                            <td> <code>g</code> </td>
+                            <td> <code>d</code> </td>
+                            <td> <code>e</code> </td>
+                            <td> <code>z</code> </td>
+                            <td> <code>h</code> </td>
+                            <td> <code>q</code> </td>
+                            <td> <code>i</code> </td>
+                            <td> <code>k</code> </td>
+                            <td> <code>l</code> </td>
+                            <td> <code>m</code> </td>
+                            <td> <code>n</code> </td>
+                            <td> <code>c</code> </td>
+                            <td> <code>o</code> </td>
+                            <td> <code>p</code> </td>
+                            <td> <code>r</code> </td>
+                            <td> <code>s</code> </td>
+                            <td> <code>s</code> </td>
+                            <td> <code>t</code> </td>
+                            <td> <code>u</code> </td>
+                            <td> <code>f</code> </td>
+                            <td> <code>x</code> </td>
+                            <td> <code>y</code> </td>
+                            <td> <code>w</code> </td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+
+<p>As you type, it will show you the Greek equivalent below. See that typing <strong>erxomai</strong> is transformed to &#8220;ερχομαι&#8221;.</p>
+
+<p>As you type, suggested Greek words will appear in the scrolling list below. The suggestions appear, in that list, in the following order:</p>
+
+<ol>
+<li>Lexicon entries that exactly match what you typed.</li>
+<li>Lexicon entries that <em>start with</em> what you typed.</li>
+<li>Lexicon entries that <em>include</em> what you typed.</li>
+<li>Entries for words whose definitions include what you typed.</li>
+</ol>
+
+<p>Click on one of the suggestions to see the article for that word.</p>
+
+<figure>
+<img class="help_image"  src="images/suggestions.jpg" alt="Suggestions based on what you typed." />
+<figcaption>Suggestions based on what you typed.</figcaption>
+</figure>
+
+<h1 id="youcansearchforenglishwords.">You can search for English words.</h1>
+
+<p>You can search across the lexicon for entries whose article contain a given word or phrase. The application will look for exact matches.</p>
+
+<figure>
+<img class="help_image"  src="images/english.jpg" alt="How do you say porcupine in Ancient Greek?" />
+<figcaption>How do you say &#8220;porcupine&#8221; in Ancient Greek?</figcaption>
+</figure>
+
+<h1 id="youcanlinkdirectlytoentries.">You can link directly to entries.</h1>
+
+<p>Each entry has a unique id in the form <strong>urn:cite2:…</strong>. These appear on the right of the article&#8217;s display.</p>
+
+<figure>
+<img class="help_image"  src="images/urn.jpg" alt="The URN that uniquely identifies an entry." />
+<figcaption>The URN that uniquely identifies an entry.</figcaption>
+</figure>
+
+<figure>
+<img class="help_image"  src="images/link.jpg" alt="Hover or click to see that is really a link directly to this entry." />
+<figcaption>Hover or click to see that is really a link directly to this entry.</figcaption>
+</figure>
+
+<p>When you put the cursor over that URN, you can see it identifies itself as a link. Clicking on that will re-load the page, with the entry identified in the URL, like this:</p>
+
+<blockquote>
+<p><strong>…index.html?urn=urn:cite2:hmt:lsj.chicago_md:n51647</strong><br/>
+(It is simply the URL to the lexicon-app, with a &#8220;search-parameter&#8221;, <strong>?urn=</strong> , followed by a URN.)</p>
+</blockquote>
+
+<p>That link can be shared or included in an online publication.</p>
+
+<h1 id="accessingthedatadirectly">Accessing the data directly</h1>
+
+<p>There is a link to the raw data for the LSJ lexicon. You can download that data and search, analyze, or transform it however you like. The <strong>.cex</strong> file is self-describing. The application is <em>not<em> using <strong>data/lexicon.cex</strong>, but <strong>data/lexicon.txt</strong>, so you can fiddle with the <strong>.cex</strong> version without harming the functionality of this application.</p>
+
+            </div>
+
+
+            </article>
+        </div> <!--id="main-wrapper"-->
+
+    </body>
+
+
+    <footer>
+        <img src="styles/fu.svg" height="50px" />
+        <p>
+            <span class="fu_motto">Editions, done right, for learners.</span>
+            <span class="cc_license"><a rel="license"
+                href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC</a></span>
+                <a href=""><img  alt="github" class="github_logo"
+                    height="30px" src="styles/GitHub-Mark-Light-120px-plus.png" /></a>
+                </p>
+
+            </footer>
+
+            </html>

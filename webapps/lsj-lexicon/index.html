@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LSJ Lexicon  (LSJ.js v.1.0.3)</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="styles/application.css">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&amp;subset=cyrillic-ext,greek,greek-ext,latin-ext" rel="stylesheet">
+
+	<script src="scripts/jquery-3.7.1.min"></script>
+	<script type="text/javascript" src="scripts/marked.min.js"></script>
+	<script src="scripts/betareader.js"></script>
+
+</head>
+<body id="body">
+
+	<div id="main-wrapper">
+
+	<header>
+			<em>A Greek-English Lexicon</em>, Henry George Liddell, Robert Scott, revised and augmented throughout by
+			Sir Henry Stuart Jones with the assistance of Roderick McKenzie (Oxford: Clarendon Press. 1940).
+			<span id="app_header_versionInfo">CITE Version 2.0.0</span>
+			<div id="main_message" class="app_message wait"> <!-- app_hidden -->
+				<p>Loading data…</p>
+			</div>
+		</header>
+
+		<div class="ribbon"><span>New Version!</span></div>
+
+		<article id="main_Container">
+
+			<p id="menu"> <a href="http://cite-architecture.github.io">The CITE Architecture</a> | <a
+			href="https://github.com/Eumaeus/LSJ.js">About this project</a> | <a
+			href="http://folio2.furman.edu/lewis-short/index.html">The Lewis &amp; Short Latin Dictionary</a> | <a
+			href="data/lexicon.cex" target="_blank">Lexicon Raw Data</a> | <a
+			href="help.html" target="_blank">Help with searching for Greek</a>
+			</p>
+
+			<ul id="alphaList" class="greekFont">
+				<li id="alpha_a" data-lookup="a" class="selected">Αα</li>
+				<li id="alpha_b" data-lookup="b">Ββ</li>
+				<li id="alpha_g" data-lookup="g">Γγ</li>
+				<li id="alpha_d" data-lookup="d">Δδ</li>
+				<li id="alpha_e" data-lookup="e">Εε</li>
+				<li id="alpha_v" data-lookup="v">Ϝϝ</li>
+				<li id="alpha_z" data-lookup="z">Ζζ</li>
+				<li id="alpha_h" data-lookup="h">Ηη</li>
+				<li id="alpha_q" data-lookup="q">Θθ</li>
+				<li id="alpha_i" data-lookup="i">Ιι</li>
+				<li id="alpha_k" data-lookup="k">Κκ</li>
+				<li id="alpha_l" data-lookup="l">Λλ</li>
+				<li id="alpha_m" data-lookup="m">Μμ</li>
+				<li id="alpha_n" data-lookup="n">Νν</li>
+				<li id="alpha_c" data-lookup="c">Ξξ</li>
+				<li id="alpha_o" data-lookup="o">Οο</li>
+				<li id="alpha_p" data-lookup="p">Ππ</li>
+				<li id="alpha_ϟ" data-lookup="Ϟ">Ϟϟ</li>
+				<li id="alpha_r" data-lookup="r">Ρρ</li>
+				<li id="alpha_s" data-lookup="s">Σς</li>
+				<li id="alpha_ϻ" data-lookup="ϻ">Ϻϻ</li>
+				<li id="alpha_t" data-lookup="t">Ττ</li>
+				<li id="alpha_u" data-lookup="u">Υυ</li>
+				<li id="alpha_f" data-lookup="f">Φφ</li>
+				<li id="alpha_x" data-lookup="x">Χχ</li>
+				<li id="alpha_y" data-lookup="y">Ψψ</li>
+				<li id="alpha_w" data-lookup="w">Ωω</li>
+			</ul>
+			<ul id="volumeList" class="greekFont long">
+				<!--
+				<li id="entry_n0">Α α</li>
+				<li id="entry_n1">ἀ-</li>
+				<li id="entry_n2">ἀ-</li> -->
+			</ul> <!-- id="volumeList" -->
+
+			<div id="lexiconDiv">
+
+				<div id="unknownDiv"> <!-- remove? -->
+
+					<div id="searchDiv">
+						<label class="inputLabel" for="greekInput">Search Greek:</label>
+						<input class="greekInputField" id="greekInput" size="40" spellcheck="false">
+						<br/><span id="greekOutput"></span>
+					</div> <!-- id="searchDiv" -->
+
+					<div id="searchEnglishDiv">
+						<label class="inputLabel" for="englishInput">Search English: </label>
+						<input class="greekInputField" id="englishInput" size="30">
+						<button id="searchButton">Search All Text</button>
+					</div> <!-- id="searchEnglishDiv" -->
+
+				</div> <!-- id="unknownDiv" remove? -->
+
+				<ul id="resultsList">
+					<!--
+					<li id="lexResultListItem_n8909" class="lexResultListItem selected">
+						ἄνθρωπος
+					</li>
+					<li id="lexResultListItem_n8910" class="">
+						ἀνθρωποσφᾰγέω
+					</li>
+					<li id="lexResultListItem_n845" class="">
+						ἀγρι-άνθρωπος
+					</li>
+					-->
+				</ul>
+
+				<div id="entryDiv" class="greekFont">
+
+					<div id="lexEntryDiv" class="lexEntryDiv">
+
+
+						<p id="lexEntryUrnP" class="lexEntryUrnP">
+							<span class="lexEntryUrn" id="lexEntryUrn">
+								<a href=""></a>
+							</span>
+						</p>
+
+						<p id="lexEntryLabel" class="lexEntryLabel"></p>
+
+						<p class="lexEntry" id="lexEntry"></p>
+						<p id="entryStats"></p>
+
+					</div> <!-- id="lexEntryContainerDiv_urn:cite2…" -->
+
+				</div> <!-- id="entryDiv" -->
+
+			</div> <!-- id="lexiconDiv" -->
+
+			<textarea id="hiddenTextArea"></textarea>
+
+
+		</article>
+
+		<div class="push"></div>
+		<div class="small_print">
+			<p><em>A Greek-English Lexicon</em>, Henry George Liddell, Robert Scott, revised and augmented throughout by
+				Sir Henry Stuart Jones with the assistance of Roderick McKenzie (Oxford: Clarendon Press. 1940). Text
+				provided by Perseus Digital Library, with funding from The National Endowment for the Humanities.
+				Original version available for viewing and download at <a
+					href="http://www.perseus.tufts.edu/">http://www.perseus.tufts.edu/</a>. This application is ©2025,
+				Christopher W. Blackwell, licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL
+					3.0</a>. CITE/CTS is ©2002–2025 Neel Smith and Christopher Blackwell. The implementations of the <a
+					href="http://cite-architecture.github.io">CITE</a> were written by Neel Smith and Christopher
+				Blackwell. Licensed under the <a
+					href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL 3.0</a>. Sourcecode on <a
+					href="https://github.com/Eumaeus/LSJ.js">GitHub</a>. Report bugs by <a
+					href="https://github.com/Eumaeus/LSJ.js/issues">filing issues on GitHub.</a>
+			</p>
+		</div> <!-- small print -->
+
+
+
+	</div> <!-- id="main-wrapper" -->
+
+
+
+<footer>
+	<img src="styles/fu.svg" height="50px"/>
+	<p>
+		<span class="fu_motto">Editions, done right, for learners.</span>
+		<span class="cc_license"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC</a></span>
+		<a href="https://github.com/Furman-University-Editions"><img alt="github" class="github_logo" height="30px" src="styles/GitHub-Mark-Light-120px-plus.png"/></a>
+	</p>
+	
+</footer>
+
+</body>
+
+<script type="text/javascript" language="javascript">
+
+		// global variables
+		const indexFileName = "data/index.txt";
+		const lexFileName = "data/lexicon.txt";
+		// request-params
+		let urlParams = new URL(document.location.toString()).searchParams;
+    	let urnRequestParam = urlParams.get("urn");
+		// Big Data
+		var indexData = [];
+		var lexData = [];
+		// Current Data
+		//var currentLexVolume = [];
+		//var currentUrn = "";
+		//var currentEntryChoices = [];
+		var currentEntry = undefined;
+
+
+        $(document).ready(function () {
+
+		    // bootstrap.js begins the chain of asynch data-loading before user-interaction can happen.
+
+            $.getScript("scripts/bootstrap.js", function () {
+                console.log("bootstrap loaded…");
+            });
+        });  
+        let debugBR = new betareader();
+    </script>
+
+</html>

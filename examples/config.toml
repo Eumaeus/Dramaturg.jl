@@ -1,23 +1,28 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/frogs-speech-speaker.cex"
+cex_path = "source-data/texts/frogs-speech-speaker.cex"
 text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:" 
 file_name = "Aristophanes_Frogs"
-filter_paratext = "" # filter out passages with this string in the URN.
-#cex_path = "source-data/demeter.cex"  
+filter_paratext = "speaker" # filter out passages with this string in the URN.
+
+#cex_path = "source-data/texts/demeter.cex"  
 #text_urn = "urn:cts:greekLit:tlg0013.tlg002.fucex:"  
 #file_name = "Homeric_Hymn_to_Demeter"
-#cex_path = "source-data/herodotus.cex"
+#filter_paratext = "" # filter out passages with this string in the URN.
+
+#cex_path = "source-data/texts/herodotus.cex"
 #text_urn = "urn:cts:greekLit:tlg0016.tlg001.grc:"
 #file_name = "Herodotus"
+#filter_paratext = "" # filter out passages with this string in the URN.
+
 
 [output]
-lines_per_page = 25
-output_dir = "html/pages"
-template_dir = "../templates"
-index_template = "index.html"
-page_template = "reader_page.html"
+html_lines_per_page = 25
+html_output_dir = "html/pages"
+html_template_dir = "../templates"
+html_index_template = "index.html"
+html_page_template = "reader_page.html"
 
 [lexicon]
 lsj_cex = "https://github.com/Eumaeus/cite_lsj_cex/raw/main/lsj_chicago.cex"
@@ -40,7 +45,9 @@ vocabulary_beta_suffix = "_beta_vocabulary.txt"
 
 
 [editorial]
-elision_dict      = "source-data/editorial_dict_elision.tsv"
-enclitics_dict    = "source-data/editorial-dict-enclitics.tsv"
-anastrophe_dict   = "source-data/editorial_dict_anastrophe.tsv"
+elision_dict      = "source-data/dictionaries/editorial_dict_elision.tsv"
+enclitics_dict    = "source-data/dictionaries/editorial-dict-enclitics.tsv"
+anastrophe_dict   = "source-data/dictionaries/editorial_dict_anastrophe.tsv"
+lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
+lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
 

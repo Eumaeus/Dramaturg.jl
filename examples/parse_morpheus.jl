@@ -1,10 +1,19 @@
 using Dramaturg.Morphology   # or wherever you include it
 
+#=
+
+Parse raw output from Morpheus into triplets of:
+
+    surface-form \t lemma \t part-of-speech-tag
+
+julia --project=. examples/parse_morpheus.jl
+
+=#
 
 parse_morpheus_to_triplets(
-    "morph/output/analysis.txt",          # your real output
-    "morph/output/frogs-morpheus_triplets.tsv",         # clean triplets you wanted
-    "morph/output/frogs-parse_errors.log"
+    "morph/output/Aristophanes_Frogs_analysis.txt", 
+    "data/indexes/Aristophanes_Frogs_morpheus_triplets.tsv",      
+    "morph/output/Aristophanes_Frogs_parse_errors.log"
 )
 
 
