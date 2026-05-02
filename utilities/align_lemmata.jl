@@ -72,48 +72,111 @@ function main()
     converted = String[]
     bad_entries = String[]
 
+
+    println("Beginning to process $(length(lines)) lines…")
+    counter = 0
+
     for line in lines
         line = strip(line)
         line_parts = split(line, '\t')
         test_lemma = string(line_parts[2])
         new_parts = []
         good_entry = false # flag
-       
-        # Go ahead and keep the first two fields, surface-form and lemma 
-        push!(new_parts, string(line_parts[1]))
-        push!(new_parts, test_lemma)
+      
+        counter = counter + 1
+        if (counter % 100) == 0
+            print("$counter ") 
+        end
 
-        # Logic 
-        # ================
+        #================
+        Logic 
 
+        N.b. `test_lemma` is the current lemma from the input file of triplets.
 
         # filter lex for test_lemma as is, but removing hyphen
+        ===============  =#
+        lemma_with_number = test_lemma
 
-        # if one match… good!
+        # Does the test lemma end in a number? 
+        nls = match(r"(.+)([0-9]+)", lemma_with_number)
+        # Get the lemma with no number
+        test_lemma = nls !== nothing ? nls[1] : lemma_with_number
 
-        # if no match… 
-            # if a hyphen, search for part after the hyphen
+        # Get the number of the lemma; default to "1"
+        lemma_number = nls !== nothing ? nls[2] : "1"
 
-            # if still no match, write to `bad_entries`
+        # Remove any hyphens
+        no_hyphen = replace(test_lemma, "-" => "")
 
-        # if more than one match
+        # Filter the lexicon for matching lemmata
+        candidates = filter( entry -> begin
+             cols = split(entry, "\t")
+             string(cols[2]) == no_hyphen
+           end, lex )
 
-            # Check for special cases
+       
+        # If exactly one hit… 
+        #   complete the new entry with its URN!
+        #   push onto output, `converted`
 
-            # Otherwise, add them all
+        if length(candidates) == 1
+
+            entry = candidates[1]
+
+            # Go ahead and keep the first two fields, surface-form and lemma 
+            push!(new_parts, string(line_parts[1]))
+            push!(new_parts, test_lemma)
+            # Add the newly-discovered URN
+            cols = split(entry, "\t")
+            push!(new_parts, string(cols[1]))
+            # Add the pos-tag at the end
+            push!(new_parts, string(line_parts[3]))
+            # pushnew line to output
+            new_line = join(new_parts, '\t')
+            push!(converted, new_line)
+                
+        # If more than one hit…
+        #   If there was a number in the lemma, make that URN the top.
+        #   but push them all onto output, `candidates` 
+
+        elseif length(candidates) > 1
+
+            for entry in candidates
+
+                # Go ahead and keep the first two fields, surface-form and lemma 
+                push!(new_parts, string(line_parts[1]))
+                push!(new_parts, test_lemma)
+                # Add the newly-discovered URN
+                cols = split(entry, "\t")
+                push!(new_parts, string(cols[1]))
+
+                # Add the pos-tag at the end
+                push!(new_parts, string(line_parts[3]))
+                # pushnew line to output
+                new_line = join(new_parts, '\t')
+                push!(converted, new_line)
+
+            end
+
+        else
+        #=== Write Bad Entry ===#
+             # Go ahead and keep the first two fields, surface-form and lemma 
+                push!(new_parts, string(line_parts[1]))
+                push!(new_parts, test_lemma)
+                # Add human-readable note that there is no entry found
+                push!(new_parts, "- no urn found -")
+
+                # Add the pos-tag at the end
+                push!(new_parts, string(line_parts[3]))
+                # Write new line to main index
+                new_line = join(new_parts, '\t')
+                push!(converted, new_line)
+                # And to error log
+                push!(bad_entries, new_line)
 
 
-        # ================
-        # Logic
+        end
 
-
-        # Add the pos-tag at the end
-        push!(new_parts, string(line_parts[3]))
-
-
-
-        new_line = join(new_parts, '\t')
-        push!(converted, new_line)
 
     end
 
