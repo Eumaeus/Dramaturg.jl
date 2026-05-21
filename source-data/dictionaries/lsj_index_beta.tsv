@@ -298,6 +298,7 @@ urn:cite2:hmt:lsj.chicago_md:n297	a)galmatoglu/fos	agalmatoglufos
 urn:cite2:hmt:lsj.chicago_md:n298	a)galmatopoie/w	agalmatopoiew
 urn:cite2:hmt:lsj.chicago_md:n299	a)galmatopoihtiko/s	agalmatopoihtikos
 urn:cite2:hmt:lsj.chicago_md:n300	a)galmatopoii+/a	agalmatopoiia
+urn:cite2:hmt:lsj.chicago_md:n300	a)galmatopoii/a	agalmatopoiia
 urn:cite2:hmt:lsj.chicago_md:n301	a)galmatopoiiko/s	agalmatopoiikos
 urn:cite2:hmt:lsj.chicago_md:n302	a)galmatopoio/s	agalmatopoios
 urn:cite2:hmt:lsj.chicago_md:n303	a)galmatourgi/a	agalmatourgia
@@ -378,6 +379,7 @@ urn:cite2:hmt:lsj.chicago_md:n378	a)ggarei/a	aggareia
 urn:cite2:hmt:lsj.chicago_md:n379	a)ggareuth/s	aggareuths
 urn:cite2:hmt:lsj.chicago_md:n380	a)ggareu/w	aggareuw
 urn:cite2:hmt:lsj.chicago_md:n381	a)ggarh/i+os	aggarhios
+urn:cite2:hmt:lsj.chicago_md:n381	a)ggarh/ios	aggarhios
 urn:cite2:hmt:lsj.chicago_md:n382	a)/ggaros	aggaros
 urn:cite2:hmt:lsj.chicago_md:n383	a)ggarofore/w	aggaroforew
 urn:cite2:hmt:lsj.chicago_md:n384	a)/ggatos	aggatos
@@ -436,6 +438,7 @@ urn:cite2:hmt:lsj.chicago_md:n436	a)ge/lh	agelh
 urn:cite2:hmt:lsj.chicago_md:n437	a)gelhdo/n	agelhdon
 urn:cite2:hmt:lsj.chicago_md:n438	a)ge/lhqen	agelhqen
 urn:cite2:hmt:lsj.chicago_md:n439	a)gelhi+/s	agelhis
+urn:cite2:hmt:lsj.chicago_md:n439	a)gelhi/s	agelhis
 urn:cite2:hmt:lsj.chicago_md:n440	a)gelhko/mos	agelhkomos
 urn:cite2:hmt:lsj.chicago_md:n441	a)gelh/ths	agelhths
 urn:cite2:hmt:lsj.chicago_md:n442	a)gelhtro/fos	agelhtrofos
@@ -630,10 +633,15 @@ urn:cite2:hmt:lsj.chicago_md:n629	a)gkwnoeidh/s	agkwnoeidhs
 urn:cite2:hmt:lsj.chicago_md:n629a	a)gkwnofo/ros	agkwnoforos
 urn:cite2:hmt:lsj.chicago_md:n630	a)glae/qeiros	aglaeqeiros
 urn:cite2:hmt:lsj.chicago_md:n631	a)glai+/a	aglaia
+urn:cite2:hmt:lsj.chicago_md:n631	a)glai/a	aglaia
 urn:cite2:hmt:lsj.chicago_md:n631a	a)glai+/zw	aglaizw
+urn:cite2:hmt:lsj.chicago_md:n631a	a)glai/zw	aglaizw
 urn:cite2:hmt:lsj.chicago_md:n632	a)gla/i+sma	aglaisma
+urn:cite2:hmt:lsj.chicago_md:n632	a)gla/isma	aglaisma
 urn:cite2:hmt:lsj.chicago_md:n633	a)glai+smo/s	aglaismos
+urn:cite2:hmt:lsj.chicago_md:n633	a)glaismo/s	aglaismos
 urn:cite2:hmt:lsj.chicago_md:n634	a)glai+sto/s	aglaistos
+urn:cite2:hmt:lsj.chicago_md:n634	a)glaisto/s	aglaistos
 urn:cite2:hmt:lsj.chicago_md:n635	a)glao/botrus	aglaobotrus
 urn:cite2:hmt:lsj.chicago_md:n636	a)glao/guios	aglaoguios
 urn:cite2:hmt:lsj.chicago_md:n637	a)glao/dendros	aglaodendros
@@ -17376,6 +17384,7 @@ urn:cite2:hmt:lsj.chicago_md:n17332	Au)/goustos	augoustos
 urn:cite2:hmt:lsj.chicago_md:n17333	Au)gw/	augw
 urn:cite2:hmt:lsj.chicago_md:n17334	au)da/zomai	audazomai
 urn:cite2:hmt:lsj.chicago_md:n17335	au)da/w	audaw
+urn:cite2:hmt:lsj.chicago_md:n17335	au)da/omai	audaw
 urn:cite2:hmt:lsj.chicago_md:n17335	au)dw=	audaw
 urn:cite2:hmt:lsj.chicago_md:n17336	au)dh/	audh
 urn:cite2:hmt:lsj.chicago_md:n17337	au)dh/eis	audheis
@@ -19572,6 +19581,7 @@ urn:cite2:hmt:lsj.chicago_md:n19530	basaniste/os	basanisteos
 urn:cite2:hmt:lsj.chicago_md:n19531	basanisth/rion	basanisthrion
 urn:cite2:hmt:lsj.chicago_md:n19532	basanisth/rios	basanisthrios
 urn:cite2:hmt:lsj.chicago_md:n19533	basanisth/s	basanisths
+urn:cite2:hmt:lsj.chicago_md:n19533	basani/stria	basanistria
 urn:cite2:hmt:lsj.chicago_md:n19534	basanistiko/s	basanistikos
 urn:cite2:hmt:lsj.chicago_md:n19535	basani/ths	basaniths
 urn:cite2:hmt:lsj.chicago_md:n19536	basanos	basanos
@@ -23282,6 +23292,7 @@ urn:cite2:hmt:lsj.chicago_md:n23242	dai/mwn	daimwn
 urn:cite2:hmt:lsj.chicago_md:n23243	dai/numi	dainumi
 urn:cite2:hmt:lsj.chicago_md:n23244	datcandros	datcandros
 urn:cite2:hmt:lsj.chicago_md:n23245	da/i+os	daios
+urn:cite2:hmt:lsj.chicago_md:n23245	da/ios	daios
 urn:cite2:hmt:lsj.chicago_md:n23246	dai+o/frwn	daiofrwn
 urn:cite2:hmt:lsj.chicago_md:n23247	dai+o/w	daiow
 urn:cite2:hmt:lsj.chicago_md:n23248	dai+/s	dais
@@ -24322,7 +24333,9 @@ urn:cite2:hmt:lsj.chicago_md:n24289	de/xomai	dexomai
 urn:cite2:hmt:lsj.chicago_md:n24290	de/ya	deya
 urn:cite2:hmt:lsj.chicago_md:n24291	de/yw	deyw
 urn:cite2:hmt:lsj.chicago_md:n24292	de/w	dew
+urn:cite2:hmt:lsj.chicago_md:n24292	de/omai	deomai
 urn:cite2:hmt:lsj.chicago_md:n24293	de/w	dew
+urn:cite2:hmt:lsj.chicago_md:n24293	de/omai	deomai
 urn:cite2:hmt:lsj.chicago_md:n24294	de/w	dew
 urn:cite2:hmt:lsj.chicago_md:n24295	dh/	dh
 urn:cite2:hmt:lsj.chicago_md:n24296	dh=	dh
@@ -30943,6 +30956,7 @@ urn:cite2:hmt:lsj.chicago_md:n30896	ei)dwlofanh/s	eidwlofanhs
 urn:cite2:hmt:lsj.chicago_md:n30897	ei)dwloxarh/s	eidwloxarhs
 urn:cite2:hmt:lsj.chicago_md:n30898	ei)/elos	eielos
 urn:cite2:hmt:lsj.chicago_md:n30899	ei)=e(n	eien
+urn:cite2:hmt:lsj.chicago_md:n30899	ei)=en	eien
 urn:cite2:hmt:lsj.chicago_md:n30900	ei)/ew	eiew
 urn:cite2:hmt:lsj.chicago_md:n30901	ei(/hn	eihn
 urn:cite2:hmt:lsj.chicago_md:n30902	ei)=qar	eiqar
@@ -77896,6 +77910,7 @@ urn:cite2:hmt:lsj.chicago_md:n77914	paradekto/s	paradektos
 urn:cite2:hmt:lsj.chicago_md:n77915	parade/rw	paraderw
 urn:cite2:hmt:lsj.chicago_md:n77916	parade/xomai	paradexomai
 urn:cite2:hmt:lsj.chicago_md:n77917	parade/w	paradew
+urn:cite2:hmt:lsj.chicago_md:n77917	para/de/w	paradew
 urn:cite2:hmt:lsj.chicago_md:n77918	paradhlo/w	paradhlow
 urn:cite2:hmt:lsj.chicago_md:n77919	paradiazeu/gnumi	paradiazeugnumi
 urn:cite2:hmt:lsj.chicago_md:n77920	paradiazeuktiko/s	paradiazeuktikos
@@ -89900,6 +89915,7 @@ urn:cite2:hmt:lsj.chicago_md:n89925	prospela/ths	prospelaths
 urn:cite2:hmt:lsj.chicago_md:n89926	prospe/mpw	prospempw
 urn:cite2:hmt:lsj.chicago_md:n89927	prospepoihme/nws	prospepoihmenws
 urn:cite2:hmt:lsj.chicago_md:n89928	prospe/rdomai	prosperdomai
+urn:cite2:hmt:lsj.chicago_md:n89928	pro/spe/rdomai	prosperdomai
 urn:cite2:hmt:lsj.chicago_md:n89929	prosperiba/llw	prosperiballw
 urn:cite2:hmt:lsj.chicago_md:n89930	prosperigi/gnomai	prosperigignomai
 urn:cite2:hmt:lsj.chicago_md:n89931	prosperieile/w	prosperieilew
@@ -90827,6 +90843,7 @@ urn:cite2:hmt:lsj.chicago_md:n90852	prutaneu/w	prutaneuw
 urn:cite2:hmt:lsj.chicago_md:n90853	prutanhi+/h	prutanhih
 urn:cite2:hmt:lsj.chicago_md:n90854	prutaniko/s	prutanikos
 urn:cite2:hmt:lsj.chicago_md:n90855	prutanis	prutanis
+urn:cite2:hmt:lsj.chicago_md:n90855	pru/tanis	prutanis
 urn:cite2:hmt:lsj.chicago_md:n90856	prutani=tis	prutanitis
 urn:cite2:hmt:lsj.chicago_md:n90857	prw/	prw
 urn:cite2:hmt:lsj.chicago_md:n90858	prw/hn	prwhn
@@ -116012,15 +116029,21 @@ urn:cite2:hmt:lsj.chicago_md:n116073	w)qi/zw	wqizw
 urn:cite2:hmt:lsj.chicago_md:n116074	w)qismo/s	wqismos
 urn:cite2:hmt:lsj.chicago_md:n116075	w)i/a	wia
 urn:cite2:hmt:lsj.chicago_md:n116076	w)i+/das	widas
+urn:cite2:hmt:lsj.chicago_md:n116076	w)i/das	widas
 urn:cite2:hmt:lsj.chicago_md:n116077	w)i+/eto	wieto
+urn:cite2:hmt:lsj.chicago_md:n116077	w)i/eto	wieto
 urn:cite2:hmt:lsj.chicago_md:n116078	w)i+/zw	wizw
+urn:cite2:hmt:lsj.chicago_md:n116078	w)i/zw	wizw
 urn:cite2:hmt:lsj.chicago_md:n116079	w)/i+cen	wicen
+urn:cite2:hmt:lsj.chicago_md:n116079	w)/icen	wicen
 urn:cite2:hmt:lsj.chicago_md:n116080	w)/ion	wion
 urn:cite2:hmt:lsj.chicago_md:n116081	w)/i+sxa	wisxa
+urn:cite2:hmt:lsj.chicago_md:n116081	w)/isxa	wisxa
 urn:cite2:hmt:lsj.chicago_md:n116082	w)=ka	wka
 urn:cite2:hmt:lsj.chicago_md:n116083	w)kale/on	wkaleon
 urn:cite2:hmt:lsj.chicago_md:n116084	W)kea/neios	wkeaneios
 urn:cite2:hmt:lsj.chicago_md:n116085	W)keanhi+a/s	wkeanhias
+urn:cite2:hmt:lsj.chicago_md:n116085	W)keanhia/s	wkeanhias
 urn:cite2:hmt:lsj.chicago_md:n116086	W)kea/nhs	wkeanhs
 urn:cite2:hmt:lsj.chicago_md:n116087	W)keani/nh	wkeaninh
 urn:cite2:hmt:lsj.chicago_md:n116088	W)keani/s	wkeanis
@@ -116126,6 +116149,7 @@ urn:cite2:hmt:lsj.chicago_md:n116188	w)/mion	wmion
 urn:cite2:hmt:lsj.chicago_md:n116189	w)misth/s	wmisths
 urn:cite2:hmt:lsj.chicago_md:n116190	w)mobo/eios	wmoboeios
 urn:cite2:hmt:lsj.chicago_md:n116191	w)mobo/i+os	wmoboios
+urn:cite2:hmt:lsj.chicago_md:n116191	w)mobo/ios	wmoboios
 urn:cite2:hmt:lsj.chicago_md:n116192	w)moboreu/s	wmoboreus
 urn:cite2:hmt:lsj.chicago_md:n116193	w)mobo/ros	wmoboros
 urn:cite2:hmt:lsj.chicago_md:n116194	w)mobrw/s	wmobrws
@@ -116134,6 +116158,7 @@ urn:cite2:hmt:lsj.chicago_md:n116196	w)mobu/rsinos	wmobursinos
 urn:cite2:hmt:lsj.chicago_md:n116197	w)moge/rwn	wmogerwn
 urn:cite2:hmt:lsj.chicago_md:n116198	w)mo/graus	wmograus
 urn:cite2:hmt:lsj.chicago_md:n116199	w)moda/i+kton	wmodaikton
+urn:cite2:hmt:lsj.chicago_md:n116199	w)moda/ikton	wmodaikton
 urn:cite2:hmt:lsj.chicago_md:n116200	w)modakh/s	wmodakhs
 urn:cite2:hmt:lsj.chicago_md:n116201	W)mo/damos	wmodamos
 urn:cite2:hmt:lsj.chicago_md:n116202	w)mode/yhtos	wmodeyhtos
@@ -116165,6 +116190,7 @@ urn:cite2:hmt:lsj.chicago_md:n116227	w)moto/kos	wmotokos
 urn:cite2:hmt:lsj.chicago_md:n116228	w)motome/w	wmotomew
 urn:cite2:hmt:lsj.chicago_md:n116229	w)motribh/s	wmotribhs
 urn:cite2:hmt:lsj.chicago_md:n116230	w)mo/u+pnos	wmoupnos
+urn:cite2:hmt:lsj.chicago_md:n116230	w)mo/upnos	wmoupnos
 urn:cite2:hmt:lsj.chicago_md:n116231	w)mofage/w	wmofagew
 urn:cite2:hmt:lsj.chicago_md:n116232	w)mofagi/a	wmofagia
 urn:cite2:hmt:lsj.chicago_md:n116233	w)mofagion	wmofagion
@@ -116231,6 +116257,7 @@ urn:cite2:hmt:lsj.chicago_md:n116293	w(/ra	wra
 urn:cite2:hmt:lsj.chicago_md:n116294	w(/ra	wra
 urn:cite2:hmt:lsj.chicago_md:n116295	w(rai/a	wraia
 urn:cite2:hmt:lsj.chicago_md:n116296	w(rai+/zw	wraizw
+urn:cite2:hmt:lsj.chicago_md:n116296	w(rai/zw	wraizw
 urn:cite2:hmt:lsj.chicago_md:n116297	w(raio/karpos	wraiokarpos
 urn:cite2:hmt:lsj.chicago_md:n116298	w(raioko/mos	wraiokomos
 urn:cite2:hmt:lsj.chicago_md:n116299	w(raio/omai	wraioomai
@@ -116240,7 +116267,9 @@ urn:cite2:hmt:lsj.chicago_md:n116302	w(rai=os	wraios
 urn:cite2:hmt:lsj.chicago_md:n116303	w(raio/ths	wraioths
 urn:cite2:hmt:lsj.chicago_md:n116304	w(raio/fqalmos	wraiofqalmos
 urn:cite2:hmt:lsj.chicago_md:n116305	w(rai+smo/s	wraismos
+urn:cite2:hmt:lsj.chicago_md:n116305	w(raismo/s	wraismos
 urn:cite2:hmt:lsj.chicago_md:n116306	w(rai+sth/s	wraisths
+urn:cite2:hmt:lsj.chicago_md:n116306	w(raisth/s	wraisths
 urn:cite2:hmt:lsj.chicago_md:n116307	w(rakia/w	wrakiaw
 urn:cite2:hmt:lsj.chicago_md:n116308	w(raki/zw	wrakizw
 urn:cite2:hmt:lsj.chicago_md:n116309	w(ranisth/r	wranisthr
@@ -116404,6 +116433,7 @@ urn:cite2:hmt:lsj.chicago_md:n116465	w)=tos	wtos
 urn:cite2:hmt:lsj.chicago_md:n116466	w)to/tmhtos	wtotmhtos
 urn:cite2:hmt:lsj.chicago_md:n116467	w)tw/eis	wtweis
 urn:cite2:hmt:lsj.chicago_md:n116468	w)|u+/fion	wufion
+urn:cite2:hmt:lsj.chicago_md:n116468	w)|u/fion	wufion
 urn:cite2:hmt:lsj.chicago_md:n116469	w)fe/leia	wfeleia
 urn:cite2:hmt:lsj.chicago_md:n116470	w)fele/w	wfelew
 urn:cite2:hmt:lsj.chicago_md:n116471	w)fe/lhma	wfelhma
@@ -116606,6 +116636,7 @@ urn:cite2:hmt:lsj.chicago_md:n51061	i)sokoi/	isokoi
 urn:cite2:hmt:lsj.chicago_md:n51226	Spani/an	spanian
 urn:cite2:hmt:lsj.chicago_md:n51228	Spa/nh	spanh
 urn:cite2:hmt:lsj.chicago_md:n51458	i)xqui+ka/	ixquika
+urn:cite2:hmt:lsj.chicago_md:n51458	i)xquika/	ixquika
 urn:cite2:hmt:lsj.chicago_md:n51484	i)xquopwlei=on	ixquopwleion
 urn:cite2:hmt:lsj.chicago_md:n51487	i)xquotro/fion	ixquotrofion
 urn:cite2:hmt:lsj.chicago_md:n51563	i)yko/n	iykon
@@ -116619,9 +116650,11 @@ urn:cite2:hmt:lsj.chicago_md:n52888	kalupthria/zw	kalupthriazw
 urn:cite2:hmt:lsj.chicago_md:n52919	kamarika/	kamarika
 urn:cite2:hmt:lsj.chicago_md:n53060	kanaxa/poda	kanaxapoda
 urn:cite2:hmt:lsj.chicago_md:n53388	Karu/i+nos	karuinos
+urn:cite2:hmt:lsj.chicago_md:n53388	Karu/inos	karuinos
 urn:cite2:hmt:lsj.chicago_md:n53403	Karpa/sion	karpasion
 urn:cite2:hmt:lsj.chicago_md:n53627	kastanikai/	kastanikai
 urn:cite2:hmt:lsj.chicago_md:n53628	kastanai+ko/n	kastanaikon
+urn:cite2:hmt:lsj.chicago_md:n53628	kastanaiko/n	kastanaikon
 urn:cite2:hmt:lsj.chicago_md:n54210	kataki/kkas	katakikkas
 urn:cite2:hmt:lsj.chicago_md:n54322	kataku/wn	katakuwn
 urn:cite2:hmt:lsj.chicago_md:n54792	kataperipefronhme/nws	kataperipefronhmenws
@@ -116710,7 +116743,9 @@ urn:cite2:hmt:lsj.chicago_md:n76220	o)/xqan	oxqan
 urn:cite2:hmt:lsj.chicago_md:n76409	Pagasai=os	pagasaios
 urn:cite2:hmt:lsj.chicago_md:n76410	Pagasi/ths	pagasiths
 urn:cite2:hmt:lsj.chicago_md:n76411	Pagash/i+os	pagashios
+urn:cite2:hmt:lsj.chicago_md:n76411	Pagash/ios	pagashios
 urn:cite2:hmt:lsj.chicago_md:n76412	Pagashi/+s	pagashis
+urn:cite2:hmt:lsj.chicago_md:n76412	Pagashi/s	pagashis
 urn:cite2:hmt:lsj.chicago_md:n76691	Paio/nia	paionia
 urn:cite2:hmt:lsj.chicago_md:n76901	pali/mprumnon	palimprumnon
 urn:cite2:hmt:lsj.chicago_md:n77354	Panellh/nia	panellhnia
@@ -116720,6 +116755,7 @@ urn:cite2:hmt:lsj.chicago_md:n79326	parelku18s15th/s	parelkusths
 urn:cite2:hmt:lsj.chicago_md:n79450	parepidami/wn	parepidamiwn
 urn:cite2:hmt:lsj.chicago_md:n79572	Parqe/nos	parqenos
 urn:cite2:hmt:lsj.chicago_md:n79574	i+os	ios
+urn:cite2:hmt:lsj.chicago_md:n79574	ios	ios
 urn:cite2:hmt:lsj.chicago_md:n80214	pedarta/seis	pedartaseis
 urn:cite2:hmt:lsj.chicago_md:n80488	pellaixno/n	pellaixnon
 urn:cite2:hmt:lsj.chicago_md:n80505	Peloponnh/sioi	peloponnhsioi
@@ -116752,6 +116788,7 @@ urn:cite2:hmt:lsj.chicago_md:n86320	prh=ma/	prhma
 urn:cite2:hmt:lsj.chicago_md:n86399	pri/w	priw
 urn:cite2:hmt:lsj.chicago_md:n87901	prokwni/ai	prokwniai
 urn:cite2:hmt:lsj.chicago_md:n87971	promanthi/+a	promanthia
+urn:cite2:hmt:lsj.chicago_md:n87971	promanthi/a	promanthia
 urn:cite2:hmt:lsj.chicago_md:n88064	promu/lios	promulios
 urn:cite2:hmt:lsj.chicago_md:n89039	prouse/lhnos	prouselhnos
 urn:cite2:hmt:lsj.chicago_md:n89833	prosonuma/sdesqai	prosonumasdesqai
@@ -116801,11 +116838,13 @@ urn:cite2:hmt:lsj.chicago_md:n101691	S	s
 urn:cite2:hmt:lsj.chicago_md:n101833	skendu/lh	skendulh
 urn:cite2:hmt:lsj.chicago_md:n101924	sxoinoi/h	sxoinoih
 urn:cite2:hmt:lsj.chicago_md:n102290	tanagrai+kh/	tanagraikh
+urn:cite2:hmt:lsj.chicago_md:n102290	tanagraikh/	tanagraikh
 urn:cite2:hmt:lsj.chicago_md:n102308	Tani/ths	taniths
 urn:cite2:hmt:lsj.chicago_md:n102309	Tanitiko\n	tanitikon
 urn:cite2:hmt:lsj.chicago_md:n102320	tantali/dhs	tantalidhs
 urn:cite2:hmt:lsj.chicago_md:n102321	tantali/s	tantalis
 urn:cite2:hmt:lsj.chicago_md:n102455	tarixhi/+h	tarixhih
+urn:cite2:hmt:lsj.chicago_md:n102455	tarixhi/h	tarixhih
 urn:cite2:hmt:lsj.chicago_md:n102492	tarso/omai	tarsoomai
 urn:cite2:hmt:lsj.chicago_md:n102497	Tarta/rios	tartarios
 urn:cite2:hmt:lsj.chicago_md:n102760	a	a

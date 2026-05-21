@@ -170,7 +170,7 @@ function main()
                 push!(new_parts, string(line_parts[3]))
                 # Write new line to main index
                 new_line = join(new_parts, '\t')
-                push!(converted, new_line)
+                # push!(converted, new_line) # Un-comment to include bad entries in fidal output
                 # And to error log
                 push!(bad_entries, new_line)
 

@@ -60,9 +60,9 @@ ai(/	o(	urn:cite2:hmt:lsj.chicago_md:n71882	l-p---fn-
 ai(/	o(	urn:cite2:hmt:lsj.chicago_md:n71882	l-p---fv-
 ai(/	o(/s	urn:cite2:hmt:lsj.chicago_md:n75512	p-p---fn-
 ai(/	o(/s	urn:cite2:hmt:lsj.chicago_md:n75512	p-p---fn-	ai(/	o(/s	urn:cite2:hmt:lsj.chicago_md:n75513	p-p---fn-
-au)dw=	au)da/omai	- no urn found -	v2siie---
-au)dw=	au)da/omai	- no urn found -	v2spme---
-au)dw=	au)da/omai	- no urn found -	v2siie---
+au)dw=	au)da/omai	urn:cite2:hmt:lsj.chicago_md:n17335	v2siie---
+au)dw=	au)da/omai	urn:cite2:hmt:lsj.chicago_md:n17335	v2spme---
+au)dw=	au)da/omai	urn:cite2:hmt:lsj.chicago_md:n17335	v2siie---
 au)dw=	au)da/w	urn:cite2:hmt:lsj.chicago_md:n17335	v2siie---
 au)dw=	au)da/w	urn:cite2:hmt:lsj.chicago_md:n17335	v2spme---
 au)dw=	au)da/w	urn:cite2:hmt:lsj.chicago_md:n17335	v1spsa---
@@ -174,8 +174,8 @@ basaniei=n	basani/zw	urn:cite2:hmt:lsj.chicago_md:n19528	v--fna---
 basaniei=s	basani/zw	urn:cite2:hmt:lsj.chicago_md:n19528	v2sfia---
 basaniw=	basani/zw	urn:cite2:hmt:lsj.chicago_md:n19528	v1sfia---
 basani/zein	basani/zw	urn:cite2:hmt:lsj.chicago_md:n19528	v--pna---
-basani/stria	basani/stria	- no urn found -	n-s---fn-
-basani/stria	basani/stria	- no urn found -	n-s---fv-
+basani/stria	basani/stria	urn:cite2:hmt:lsj.chicago_md:n19533	n-s---fn-
+basani/stria	basani/stria	urn:cite2:hmt:lsj.chicago_md:n19533	n-s---fv-
 basani/sw	basani/zw	urn:cite2:hmt:lsj.chicago_md:n19528	v1sasa---
 basani/sw	basani/zw	urn:cite2:hmt:lsj.chicago_md:n19528	v1sfia---
 basani/sw	basani/zw	urn:cite2:hmt:lsj.chicago_md:n19528	v2saim---
@@ -641,7 +641,7 @@ dai/mones	dai/mwn	urn:cite2:hmt:lsj.chicago_md:n23242	n-p---mn-
 dai/mones	dai/mwn	urn:cite2:hmt:lsj.chicago_md:n23242	n-p---mv-
 dai/mones	dai/mwn	urn:cite2:hmt:lsj.chicago_md:n23242	n-p---fn-
 dai/mones	dai/mwn	urn:cite2:hmt:lsj.chicago_md:n23242	n-p---fv-
-dai+/an	da/ios	- no urn found -	a-s---fa-
+dai+/an	da/ios	urn:cite2:hmt:lsj.chicago_md:n23245	a-s---fa-
 dai=mon	dai/mwn	urn:cite2:hmt:lsj.chicago_md:n23242	n-s---mv-
 dai=mon	dai/mwn	urn:cite2:hmt:lsj.chicago_md:n23242	n-s---fv-
 dehqei/hs	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v2saop---
@@ -721,7 +721,8 @@ decia=|	decia/zw	urn:cite2:hmt:lsj.chicago_md:n24075	v3sfia---
 decia=|	decio/omai	urn:cite2:hmt:lsj.chicago_md:n24082	v2spse---
 decia=|	decio/omai	urn:cite2:hmt:lsj.chicago_md:n24082	v2spie---
 decia=|	decio/s	urn:cite2:hmt:lsj.chicago_md:n24084	a-s---fd-
-deoi/mhn	de/omai	- no urn found -	v1spoe---
+deoi/mhn	de/omai	urn:cite2:hmt:lsj.chicago_md:n24292	v1spoe---
+deoi/mhn	de/omai	urn:cite2:hmt:lsj.chicago_md:n24292	v1spoe---	deoi/mhn	de/omai	urn:cite2:hmt:lsj.chicago_md:n24293	v1spoe---
 deoi/mhn	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v1spoe---
 deoi/mhn	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v1spoe---	deoi/mhn	de/w	urn:cite2:hmt:lsj.chicago_md:n24293	v1spoe---
 deoi/mhn	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v1spoe---	deoi/mhn	de/w	urn:cite2:hmt:lsj.chicago_md:n24293	v1spoe---	deoi/mhn	de/w	urn:cite2:hmt:lsj.chicago_md:n24294	v1spoe---
@@ -760,11 +761,6 @@ dei/n'	deino/s	urn:cite2:hmt:lsj.chicago_md:n23726	a-s---fv-
 dei/n'	deino/s	urn:cite2:hmt:lsj.chicago_md:n23726	a-s---mv-
 dei/n'	deino/s	urn:cite2:hmt:lsj.chicago_md:n23726	a-p---fn-
 dei/n'	deino/s	urn:cite2:hmt:lsj.chicago_md:n23726	a-p---fv-
-dei/cei	dei/cis	- no urn found -	n-d---fn-
-dei/cei	dei/cis	- no urn found -	n-d---fv-
-dei/cei	dei/cis	- no urn found -	n-d---fa-
-dei/cei	dei/cis	- no urn found -	n-s---fd-
-dei/cei	dei/cis	- no urn found -	n-s---fd-
 dei/cei	dei/knumi	urn:cite2:hmt:lsj.chicago_md:n23658	v3sasa---
 dei/cei	dei/knumi	urn:cite2:hmt:lsj.chicago_md:n23658	v2sfim---
 dei/cei	dei/knumi	urn:cite2:hmt:lsj.chicago_md:n23658	v3sfia---
@@ -778,10 +774,6 @@ dei/cei	dei=cis	urn:cite2:hmt:lsj.chicago_md:n23738	n-s---fd-
 dei/cei	dei=cis	urn:cite2:hmt:lsj.chicago_md:n23738	n-s---fd-	dei/cei	dei=cis	urn:cite2:hmt:lsj.chicago_md:n23738	n-s---fd-
 dei/cei	dei=cis	urn:cite2:hmt:lsj.chicago_md:n23738	n-s---fd-
 dei/cei	dei=cis	urn:cite2:hmt:lsj.chicago_md:n23738	n-s---fd-	dei/cei	dei=cis	urn:cite2:hmt:lsj.chicago_md:n23738	n-s---fd-
-dei/ceis	dei/cis	- no urn found -	n-p---fn-
-dei/ceis	dei/cis	- no urn found -	n-p---fv-
-dei/ceis	dei/cis	- no urn found -	n-p---fn-
-dei/ceis	dei/cis	- no urn found -	n-p---fa-
 dei/ceis	dei/knumi	urn:cite2:hmt:lsj.chicago_md:n23658	v2sasa---
 dei/ceis	dei/knumi	urn:cite2:hmt:lsj.chicago_md:n23658	v2sfia---
 dei/ceis	dei=cis	urn:cite2:hmt:lsj.chicago_md:n23738	n-p---fn-
@@ -807,7 +799,8 @@ deu/teron	deu/teros	urn:cite2:hmt:lsj.chicago_md:n24261	a-s---ma-
 deu/teron	deu/teros	urn:cite2:hmt:lsj.chicago_md:n24261	a-s---nn-
 deu/teron	deu/teros	urn:cite2:hmt:lsj.chicago_md:n24261	a-s---nv-
 deu/teron	deu/teros	urn:cite2:hmt:lsj.chicago_md:n24261	a-s---na-
-dei=	de/omai	- no urn found -	v2spie---
+dei=	de/omai	urn:cite2:hmt:lsj.chicago_md:n24292	v2spie---
+dei=	de/omai	urn:cite2:hmt:lsj.chicago_md:n24292	v2spie---	dei=	de/omai	urn:cite2:hmt:lsj.chicago_md:n24293	v2spie---
 dei=	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v2spie---
 dei=	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v2spie---	dei=	de/w	urn:cite2:hmt:lsj.chicago_md:n24293	v2spie---
 dei=	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v2spie---	dei=	de/w	urn:cite2:hmt:lsj.chicago_md:n24293	v2spie---	dei=	de/w	urn:cite2:hmt:lsj.chicago_md:n24294	v2spie---
@@ -876,8 +869,6 @@ diagwniei=sq'	diagwni/zomai	urn:cite2:hmt:lsj.chicago_md:n24673	v2pfie---
 diagwniei=sq'	diagwni/zomai	urn:cite2:hmt:lsj.chicago_md:n24673	v2pfie---
 diagwniei=sq'	diagwni/zomai	urn:cite2:hmt:lsj.chicago_md:n24673	v--fne---
 diagwniei=sq'	diagwni/zomai	urn:cite2:hmt:lsj.chicago_md:n24673	v--fne---
-diadrasipoli/tas	diadrasipoli/ths	- no urn found -	n-p---ma-
-diadrasipoli/tas	diadrasipoli/ths	- no urn found -	n-s---mn-
 diadrasipoli/tas	diadrasipoli=tai	urn:cite2:hmt:lsj.chicago_md:n24731	n-p---ma-
 diairei=n	diaire/w	urn:cite2:hmt:lsj.chicago_md:n24847	v--pna---
 diairei=n	diaire/w	urn:cite2:hmt:lsj.chicago_md:n24847	v--pna---
@@ -888,13 +879,9 @@ dialumai/netai	dialumai/nomai	urn:cite2:hmt:lsj.chicago_md:n25184	v3spie---
 diale/gou	diale/gw	urn:cite2:hmt:lsj.chicago_md:n25120	v2spme---
 diale/gou	diale/gw	urn:cite2:hmt:lsj.chicago_md:n25120	v2siie---
 diame/trous	dia/metros	urn:cite2:hmt:lsj.chicago_md:n25263	n-p---ma-
-dianoei=	dianoe/omai	- no urn found -	v2spie---
-dianoei=	dianoe/omai	- no urn found -	v2spie---
-dianoei=	dianoe/omai	- no urn found -	v3spia---
 dianoei=	dianoe/w	urn:cite2:hmt:lsj.chicago_md:n25394	v2spie---
 dianoei=	dianoe/w	urn:cite2:hmt:lsj.chicago_md:n25394	v3spia---
 dianoiw=n	dia/noia	urn:cite2:hmt:lsj.chicago_md:n25401	n-p---fg-
-diapta/sqai	diape/tamai	- no urn found -	v--anm---
 diape/mpwn	diape/mpw	urn:cite2:hmt:lsj.chicago_md:n25489	v-sppamn-
 diarragh/somai	diara/ssw	urn:cite2:hmt:lsj.chicago_md:n25690	v1sfip---
 diarragh/somai	diarrh/gnumi	urn:cite2:hmt:lsj.chicago_md:n25733	v1sfip---
@@ -989,7 +976,6 @@ dokh=|	dokh/	urn:cite2:hmt:lsj.chicago_md:n27848	n-s---fd-
 dokw=	doka/zw	urn:cite2:hmt:lsj.chicago_md:n27842	v1sfia---
 dokw=	doke/w	urn:cite2:hmt:lsj.chicago_md:n27847	v1spsa---
 dokw=	doke/w	urn:cite2:hmt:lsj.chicago_md:n27847	v1spia---
-dokw=	doko/n	- no urn found -	n-s---ng-
 dokw=	doko/s	urn:cite2:hmt:lsj.chicago_md:n27878	n-s---mg-
 dokw=	doko/s	urn:cite2:hmt:lsj.chicago_md:n27878	n-s---fg-
 dokw=	doko/w	urn:cite2:hmt:lsj.chicago_md:n27881	v1spsa---
@@ -1005,7 +991,6 @@ dokw=n	doka/zw	urn:cite2:hmt:lsj.chicago_md:n27842	v-sfpana-
 dokw=n	doka/zw	urn:cite2:hmt:lsj.chicago_md:n27842	v-sfpamn-
 dokw=n	doke/w	urn:cite2:hmt:lsj.chicago_md:n27847	v-sppamn-
 dokw=n	dokh/	urn:cite2:hmt:lsj.chicago_md:n27848	n-p---fg-
-dokw=n	doko/n	- no urn found -	n-p---ng-
 dokw=n	doko/s	urn:cite2:hmt:lsj.chicago_md:n27878	n-p---mg-
 dokw=n	doko/s	urn:cite2:hmt:lsj.chicago_md:n27878	n-p---fg-
 dokw=n	doko/w	urn:cite2:hmt:lsj.chicago_md:n27881	v-sppamv-
@@ -1142,7 +1127,7 @@ dwdekamh/xanon	dwdekamh/xanos	urn:cite2:hmt:lsj.chicago_md:n29723	n-s---na-
 dwma/tion	dwma/tion	urn:cite2:hmt:lsj.chicago_md:n29774	n-s---nn-
 dwma/tion	dwma/tion	urn:cite2:hmt:lsj.chicago_md:n29774	n-s---nv-
 dwma/tion	dwma/tion	urn:cite2:hmt:lsj.chicago_md:n29774	n-s---na-
-da/ios	da/ios	- no urn found -	a-s---mn-
+da/ios	da/ios	urn:cite2:hmt:lsj.chicago_md:n23245	a-s---mn-
 da/ios	da/os	urn:cite2:hmt:lsj.chicago_md:n23439	n-s---ng-
 da/knein	da/knw	urn:cite2:hmt:lsj.chicago_md:n23283	v--pna---
 da/knesqai	da/knw	urn:cite2:hmt:lsj.chicago_md:n23283	v--pne---
@@ -1172,7 +1157,8 @@ de/drakas	dra/w	urn:cite2:hmt:lsj.chicago_md:n28360	v2sria---	de/drakas	dra/w	ur
 de/ka	de/ka	urn:cite2:hmt:lsj.chicago_md:n23799	m--------
 de/ka	deka/w	urn:cite2:hmt:lsj.chicago_md:n23928	v2spma---
 de/ka	deka/w	urn:cite2:hmt:lsj.chicago_md:n23928	v3siia---
-de/omai	de/omai	- no urn found -	v1spie---
+de/omai	de/omai	urn:cite2:hmt:lsj.chicago_md:n24292	v1spie---
+de/omai	de/omai	urn:cite2:hmt:lsj.chicago_md:n24292	v1spie---	de/omai	de/omai	urn:cite2:hmt:lsj.chicago_md:n24293	v1spie---
 de/omai	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v1spie---
 de/omai	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v1spie---	de/omai	de/w	urn:cite2:hmt:lsj.chicago_md:n24293	v1spie---
 de/omai	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v1spie---	de/omai	de/w	urn:cite2:hmt:lsj.chicago_md:n24293	v1spie---	de/omai	de/w	urn:cite2:hmt:lsj.chicago_md:n24294	v1spie---
@@ -1190,8 +1176,10 @@ de/rwn	de/rw	urn:cite2:hmt:lsj.chicago_md:n24164	v-sppamn-
 de/spoq'	despo/ths	urn:cite2:hmt:lsj.chicago_md:n24206	n-s---mv-
 de/spota	despo/ths	urn:cite2:hmt:lsj.chicago_md:n24206	n-s---mv-
 de/xomai	de/xomai	urn:cite2:hmt:lsj.chicago_md:n24289	v1spie---
-de/h|	de/omai	- no urn found -	v2spse---
-de/h|	de/omai	- no urn found -	v2spie---
+de/h|	de/omai	urn:cite2:hmt:lsj.chicago_md:n24292	v2spse---
+de/h|	de/omai	urn:cite2:hmt:lsj.chicago_md:n24292	v2spse---	de/h|	de/omai	urn:cite2:hmt:lsj.chicago_md:n24293	v2spse---
+de/h|	de/omai	urn:cite2:hmt:lsj.chicago_md:n24292	v2spie---
+de/h|	de/omai	urn:cite2:hmt:lsj.chicago_md:n24292	v2spie---	de/h|	de/omai	urn:cite2:hmt:lsj.chicago_md:n24293	v2spie---
 de/h|	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v2spse---
 de/h|	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v2spse---	de/h|	de/w	urn:cite2:hmt:lsj.chicago_md:n24293	v2spse---
 de/h|	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v2spse---	de/h|	de/w	urn:cite2:hmt:lsj.chicago_md:n24293	v2spse---	de/h|	de/w	urn:cite2:hmt:lsj.chicago_md:n24294	v2spse---
@@ -1231,11 +1219,6 @@ dh/sas	de/w	urn:cite2:hmt:lsj.chicago_md:n24292	v-sapamv-	dh/sas	de/w	urn:cite2:
 di/dacon	dida/skw	urn:cite2:hmt:lsj.chicago_md:n26412	v2sama---
 di/daske	dida/skw	urn:cite2:hmt:lsj.chicago_md:n26412	v2spma---
 di/daske	dida/skw	urn:cite2:hmt:lsj.chicago_md:n26412	v3siia---
-di/qronon	di/qronos	- no urn found -	n-s---ma-
-di/qronon	di/qronos	- no urn found -	n-s---fa-
-di/qronon	di/qronos	- no urn found -	n-s---nn-
-di/qronon	di/qronos	- no urn found -	n-s---nv-
-di/qronon	di/qronos	- no urn found -	n-s---na-
 di/kaion	di/kaios	urn:cite2:hmt:lsj.chicago_md:n26886	a-s---ma-
 di/kaion	di/kaios	urn:cite2:hmt:lsj.chicago_md:n26886	a-s---nn-
 di/kaion	di/kaios	urn:cite2:hmt:lsj.chicago_md:n26886	a-s---nv-
@@ -1430,7 +1413,7 @@ ei)=	ei)mi/	urn:cite2:hmt:lsj.chicago_md:n31130	v2spia---
 ei)=a	ei)=a	urn:cite2:hmt:lsj.chicago_md:n30818	x--------
 ei)=de	ei)=don	urn:cite2:hmt:lsj.chicago_md:n30859a	v3saia---
 ei)=den	ei)=don	urn:cite2:hmt:lsj.chicago_md:n30859a	v3saia---
-ei)=en	ei)=en	- no urn found -	g--------
+ei)=en	ei)=en	urn:cite2:hmt:lsj.chicago_md:n30899	g--------
 ei)=en	ei)mi/	urn:cite2:hmt:lsj.chicago_md:n31130	v3ppoa---
 ei)=mi	ei)=mi	urn:cite2:hmt:lsj.chicago_md:n31131	v1spia---
 ei)=n'	ei)mi/	urn:cite2:hmt:lsj.chicago_md:n31130	v--pna---
@@ -1547,8 +1530,6 @@ zh=|	ze/w	urn:cite2:hmt:lsj.chicago_md:n46204	v2spie---
 zh=|	ze/w	urn:cite2:hmt:lsj.chicago_md:n46204	v3spsa---
 hu(riske/thn	eu(ri/skw	urn:cite2:hmt:lsj.chicago_md:n44964	v3diia---
 hu(=res	eu(ri/skw	urn:cite2:hmt:lsj.chicago_md:n44964	v2saia---
-qala/maki	qa/lamac	- no urn found -	n-s---md-
-qala/maki	qala/mac	- no urn found -	n-s---md-
 qala/sshs	qa/lassa	urn:cite2:hmt:lsj.chicago_md:n47735	n-s---fg-
 qarrw=n	qa/rsos	urn:cite2:hmt:lsj.chicago_md:n47904	n-p---ng-
 qarrw=n	qarse/w	urn:cite2:hmt:lsj.chicago_md:n47897	v-sppamn-
@@ -1697,7 +1678,6 @@ qhri/on	qhri/on	urn:cite2:hmt:lsj.chicago_md:n48760	n-s---nv-
 qhri/on	qhri/on	urn:cite2:hmt:lsj.chicago_md:n48760	n-s---na-
 qiasw/tas	qiasw/ths	urn:cite2:hmt:lsj.chicago_md:n48860	n-p---ma-
 qiasw/tas	qiasw/ths	urn:cite2:hmt:lsj.chicago_md:n48860	n-s---mn-
-qia/sous	qi/asos	- no urn found -	n-p---ma-
 qli/betai	qli/bw	urn:cite2:hmt:lsj.chicago_md:n48896	v3spie---
 qli/bomai	qli/bw	urn:cite2:hmt:lsj.chicago_md:n48896	v1spie---
 qnhto/s	qnhto/s	urn:cite2:hmt:lsj.chicago_md:n48910	a-s---mn-
@@ -1722,8 +1702,6 @@ qroei=n	qroe/w	urn:cite2:hmt:lsj.chicago_md:n49189	v--pna---
 qre/yasa	tre/fw	urn:cite2:hmt:lsj.chicago_md:n104690	v-sapafn-
 qre/yasa	tre/fw	urn:cite2:hmt:lsj.chicago_md:n104690	v-sapafv-
 qrh/nwn	qrh=nos	urn:cite2:hmt:lsj.chicago_md:n49117	n-p---mg-
-qri/w	qre/w	- no urn found -	v1spsa---
-qri/w	qre/w	- no urn found -	v1spia---
 qri/w	qri=on	urn:cite2:hmt:lsj.chicago_md:n49176	n-d---nn-
 qri/w	qri=on	urn:cite2:hmt:lsj.chicago_md:n49176	n-d---nv-
 qri/w	qri=on	urn:cite2:hmt:lsj.chicago_md:n49176	n-d---na-
@@ -1826,7 +1804,6 @@ kaqe/lcei	kaqe/lkw	urn:cite2:hmt:lsj.chicago_md:n51742	v2sfim---
 kaqe/lcei	kaqe/lkw	urn:cite2:hmt:lsj.chicago_md:n51742	v3sfia---
 kaqe/cw	kate/xw	urn:cite2:hmt:lsj.chicago_md:n55905	v1sfia---
 kaqe/rpuso/n	kaqe/rpw	urn:cite2:hmt:lsj.chicago_md:n51750	v2sama---
-kaqh/sqw	kata/-ka/qhmai	- no urn found -	v3spmm---
 kaqh=nto	ka/qhmai	urn:cite2:hmt:lsj.chicago_md:n51800	v3plim---
 kaqh=sto	ka/qhmai	urn:cite2:hmt:lsj.chicago_md:n51800	v3slim---
 kaqi=sen	kaqi/zw	urn:cite2:hmt:lsj.chicago_md:n51825	v3saia---
@@ -1875,11 +1852,6 @@ kako/n	kako/s	urn:cite2:hmt:lsj.chicago_md:n52332	a-s---nn-
 kako/n	kako/s	urn:cite2:hmt:lsj.chicago_md:n52332	a-s---nv-
 kako/n	kako/s	urn:cite2:hmt:lsj.chicago_md:n52332	a-s---na-
 kakw=n	ka/kh	urn:cite2:hmt:lsj.chicago_md:n52083	n-p---fg-
-kakw=n	kaka/zw	- no urn found -	v-sfpamv-
-kakw=n	kaka/zw	- no urn found -	v-sfpann-
-kakw=n	kaka/zw	- no urn found -	v-sfpanv-
-kakw=n	kaka/zw	- no urn found -	v-sfpana-
-kakw=n	kaka/zw	- no urn found -	v-sfpamn-
 kakw=n	kako/s	urn:cite2:hmt:lsj.chicago_md:n52332	a-p---fg-
 kakw=n	kako/s	urn:cite2:hmt:lsj.chicago_md:n52332	a-p---mg-
 kakw=n	kako/s	urn:cite2:hmt:lsj.chicago_md:n52332	a-p---ng-
@@ -2007,17 +1979,12 @@ katafobei=sqon	katafobe/w	urn:cite2:hmt:lsj.chicago_md:n55527	v3dpie---
 katafobei=sqon	katafobe/w	urn:cite2:hmt:lsj.chicago_md:n55527	v2dpie---
 katafobei=sqon	katafobe/w	urn:cite2:hmt:lsj.chicago_md:n55527	v2diie---
 katafobei=sqon	katafobe/w	urn:cite2:hmt:lsj.chicago_md:n55527	v2diie---
-katedu/same/n	kata/-du/w	- no urn found -	v1paia---
 katelqei=n	kate/rxomai	urn:cite2:hmt:lsj.chicago_md:n55845	v--ana---
-katereiktw=n	katereikto/s	- no urn found -	a-p---fg-
-katereiktw=n	katereikto/s	- no urn found -	a-p---mg-
-katereiktw=n	katereikto/s	- no urn found -	a-p---ng-
 katereiktw=n	katerikto/s	urn:cite2:hmt:lsj.chicago_md:n55837	n-p---mg-
 katereiktw=n	katerikto/s	urn:cite2:hmt:lsj.chicago_md:n55837	n-p---fg-
 katereiktw=n	katerikto/s	urn:cite2:hmt:lsj.chicago_md:n55837	n-p---ng-
 katerei=s	katera/w	urn:cite2:hmt:lsj.chicago_md:n55813	v2spia---
 katerei=s	katere/w	urn:cite2:hmt:lsj.chicago_md:n55832	v2spia---
-katerei=s	katerw=	- no urn found -	v2sfia---
 katerrinhme/non	katarrina/w	urn:cite2:hmt:lsj.chicago_md:n55041	v-srpema-
 katerrinhme/non	katarrina/w	urn:cite2:hmt:lsj.chicago_md:n55041	v-srpenn-
 katerrinhme/non	katarrina/w	urn:cite2:hmt:lsj.chicago_md:n55041	v-srpenv-
@@ -2029,7 +1996,6 @@ katei=don	katei=don	urn:cite2:hmt:lsj.chicago_md:n55714	v3paia---
 katei=don	katei=don	urn:cite2:hmt:lsj.chicago_md:n55714	v1saia---
 kathgo/rhken	kathgore/w	urn:cite2:hmt:lsj.chicago_md:n55910	v3plia---
 kathgo/rhken	kathgore/w	urn:cite2:hmt:lsj.chicago_md:n55910	v3sria---
-katqanei=n	kataqnh/skw	- no urn found -	v--ana---
 katorqw/sasi	katorqo/w	urn:cite2:hmt:lsj.chicago_md:n56089	v-papamd-
 katorqw/sasi	katorqo/w	urn:cite2:hmt:lsj.chicago_md:n56089	v-papand-
 katorqw/sasi	katorqo/w	urn:cite2:hmt:lsj.chicago_md:n56089	v-papamd-
@@ -2106,7 +2072,6 @@ kau)to/n	au)to/s	urn:cite2:hmt:lsj.chicago_md:n17907	n-s---ma-
 kau)to/s	au)to/s	urn:cite2:hmt:lsj.chicago_md:n17907	n-s---mn-
 kau)=qis	au)=qis	urn:cite2:hmt:lsj.chicago_md:n17381	d--------
 kai/	kai/	urn:cite2:hmt:lsj.chicago_md:n51951	c--------
-kai/toi	kai/toi	- no urn found -	g--------
 keime/nhn	kei=mai	urn:cite2:hmt:lsj.chicago_md:n56393	v-srpefa-
 keime/nhn	kei=mai	urn:cite2:hmt:lsj.chicago_md:n56393	v-sppefa-
 keime/nous	kei=mai	urn:cite2:hmt:lsj.chicago_md:n56393	v-prpema-
@@ -2145,7 +2110,6 @@ kexhno/tes	xa/skw	urn:cite2:hmt:lsj.chicago_md:n113469	v-prpamn-
 kexhno/tes	xa/skw	urn:cite2:hmt:lsj.chicago_md:n113469	v-prpamv-
 kei)	ei)	urn:cite2:hmt:lsj.chicago_md:n30817	c--------
 kei)/	ei)	urn:cite2:hmt:lsj.chicago_md:n30817	c--------
-keu)ripi/dou	eu)ripi/dhs	- no urn found -	n-s---mg-
 kei/menos	kei=mai	urn:cite2:hmt:lsj.chicago_md:n56393	v-srpemn-
 kei/menos	kei=mai	urn:cite2:hmt:lsj.chicago_md:n56393	v-sppemn-
 kei/setai	kei=mai	urn:cite2:hmt:lsj.chicago_md:n56393	v3sfim---
@@ -2226,9 +2190,6 @@ koni/as	konia/w	urn:cite2:hmt:lsj.chicago_md:n58891	v2siia---
 kopei=si	ko/pis	urn:cite2:hmt:lsj.chicago_md:n58968	n-p---fd-
 kopei=si	ko/ptw	urn:cite2:hmt:lsj.chicago_md:n59034	v-pappmd-
 kopei=si	ko/ptw	urn:cite2:hmt:lsj.chicago_md:n59034	v-pappnd-
-koruqai/ola	koruqai/olos	- no urn found -	n-p---nn-
-koruqai/ola	koruqai/olos	- no urn found -	n-p---nv-
-koruqai/ola	koruqai/olos	- no urn found -	n-p---na-
 kosmh/sas	kosme/w	urn:cite2:hmt:lsj.chicago_md:n59295	v-sapamn-
 kosmh/sas	kosme/w	urn:cite2:hmt:lsj.chicago_md:n59295	v-sapamv-
 koufota/tais	kou=fos	urn:cite2:hmt:lsj.chicago_md:n59516	a-p---fds
@@ -2241,7 +2202,6 @@ kou)de/	ou)do/s	urn:cite2:hmt:lsj.chicago_md:n75787	n-s---fv-
 kou)de/	ou)do/s	urn:cite2:hmt:lsj.chicago_md:n75787	n-s---fv-	kou)de/	ou)do/s	urn:cite2:hmt:lsj.chicago_md:n75788	n-s---fv-
 kou)k	ou)	urn:cite2:hmt:lsj.chicago_md:n75730	d--------
 kou)ke/ti	ou)ke/ti	urn:cite2:hmt:lsj.chicago_md:n75808	d--------
-koa/c	koa/c	- no urn found -	x--------
 kou=fo/n	kou=fos	urn:cite2:hmt:lsj.chicago_md:n59516	a-s---ma-
 kou=fo/n	kou=fos	urn:cite2:hmt:lsj.chicago_md:n59516	a-s---nn-
 kou=fo/n	kou=fos	urn:cite2:hmt:lsj.chicago_md:n59516	a-s---nv-
@@ -2261,8 +2221,6 @@ krema/santi	krema/nnumi	urn:cite2:hmt:lsj.chicago_md:n59803	v-sapamd-
 krema/santi	krema/nnumi	urn:cite2:hmt:lsj.chicago_md:n59803	v-sapand-
 krema/santi	krema/w	urn:cite2:hmt:lsj.chicago_md:n59815	v-sapamd-
 krema/santi	krema/w	urn:cite2:hmt:lsj.chicago_md:n59815	v-sapand-
-krema/santi	krema/zw	- no urn found -	v-sapamd-
-krema/santi	krema/zw	- no urn found -	v-sapand-
 krema/sas	krema/nnumi	urn:cite2:hmt:lsj.chicago_md:n59803	v-pfpafa-
 krema/sas	krema/nnumi	urn:cite2:hmt:lsj.chicago_md:n59803	v-sfpafg-
 krema/sas	krema/nnumi	urn:cite2:hmt:lsj.chicago_md:n59803	v-sapamn-
@@ -2271,10 +2229,6 @@ krema/sas	krema/w	urn:cite2:hmt:lsj.chicago_md:n59815	v-pppafa-
 krema/sas	krema/w	urn:cite2:hmt:lsj.chicago_md:n59815	v-sppafg-
 krema/sas	krema/w	urn:cite2:hmt:lsj.chicago_md:n59815	v-sapamn-
 krema/sas	krema/w	urn:cite2:hmt:lsj.chicago_md:n59815	v-sapamv-
-krema/sas	krema/zw	- no urn found -	v-pfpafa-
-krema/sas	krema/zw	- no urn found -	v-sfpafg-
-krema/sas	krema/zw	- no urn found -	v-sapamn-
-krema/sas	krema/zw	- no urn found -	v-sapamv-
 krei/ttwn	krei/sswn	urn:cite2:hmt:lsj.chicago_md:n59794	a-s---mn-
 krei/ttwn	krei/sswn	urn:cite2:hmt:lsj.chicago_md:n59794	a-s---fn-
 krei/ttwn	kreisso/w	urn:cite2:hmt:lsj.chicago_md:n59793	v3piia---
@@ -2311,9 +2265,6 @@ kra/th	kra/tos	urn:cite2:hmt:lsj.chicago_md:n59741	n-d---nv-
 kra/th	kra/tos	urn:cite2:hmt:lsj.chicago_md:n59741	n-d---na-
 kra/th	krate/w	urn:cite2:hmt:lsj.chicago_md:n59708	v2spma---
 kra/th	krate/w	urn:cite2:hmt:lsj.chicago_md:n59708	v3siia---
-kra/tistai	kra/tistos	- no urn found -	a-p---fn-
-kra/tistai	kra/tistos	- no urn found -	a-p---fv-
-kra/tistos	kra/tistos	- no urn found -	a-s---mn-
 kra/tos	kra/tos	urn:cite2:hmt:lsj.chicago_md:n59741	n-s---nn-
 kra/tos	kra/tos	urn:cite2:hmt:lsj.chicago_md:n59741	n-s---nv-
 kra/tos	kra/tos	urn:cite2:hmt:lsj.chicago_md:n59741	n-s---na-
@@ -2450,7 +2401,6 @@ ka)ktenei=s	e)ktenh/s	urn:cite2:hmt:lsj.chicago_md:n32981	n-p---fn-
 ka)ktenei=s	e)ktenh/s	urn:cite2:hmt:lsj.chicago_md:n32981	n-p---fv-
 ka)ko/ptet'	ko/ptw	urn:cite2:hmt:lsj.chicago_md:n59034	v3siie---
 ka)ko/ptet'	ko/ptw	urn:cite2:hmt:lsj.chicago_md:n59034	v2piia---
-ka)lektruo/na	*)alektruw/n	- no urn found -	n-s---ma-
 ka)lektruo/na	a)lektruw/n	urn:cite2:hmt:lsj.chicago_md:n3986	n-s---ma-
 ka)mautw=|	e)mautou=	urn:cite2:hmt:lsj.chicago_md:n33935	p-s---md-
 ka)mautw=|	e)mautou=	urn:cite2:hmt:lsj.chicago_md:n33935	p-s---nd-
@@ -2465,12 +2415,9 @@ ka)moi/	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-s---md-
 ka)moi/	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-s---fd-
 ka)moi/	e)mo/s	urn:cite2:hmt:lsj.chicago_md:n34194	a-p---mn-
 ka)moi/	e)mo/s	urn:cite2:hmt:lsj.chicago_md:n34194	a-p---mv-
-ka)moi/	h(mo/s	- no urn found -	a-p---mn-
-ka)moi/	h(mo/s	- no urn found -	a-p---mv-
 ka)mou/s	a(mo/s	urn:cite2:hmt:lsj.chicago_md:n5446	a-p---ma-
 ka)mou/s	a(mo/s	urn:cite2:hmt:lsj.chicago_md:n5446	a-p---ma-	ka)mou/s	a(mo/s	urn:cite2:hmt:lsj.chicago_md:n5447	a-p---ma-
 ka)mou/s	e)mo/s	urn:cite2:hmt:lsj.chicago_md:n34194	a-p---ma-
-ka)mou/s	h(mo/s	- no urn found -	a-p---ma-
 ka)muka=to/	muka/omai	urn:cite2:hmt:lsj.chicago_md:n69079	v3siie---
 ka)naskopei=n	a)naskope/w	urn:cite2:hmt:lsj.chicago_md:n7486	v--pna---
 ka)naskopei=n	a)naskope/w	urn:cite2:hmt:lsj.chicago_md:n7486	v--pna---
@@ -2491,7 +2438,6 @@ ka)ne/bale	e)mba/llw	urn:cite2:hmt:lsj.chicago_md:n33956	v3saia---
 ka)no/misan	nomi/zw	urn:cite2:hmt:lsj.chicago_md:n70958	v3paia---
 ka)chu=res	e)ceuri/skw	urn:cite2:hmt:lsj.chicago_md:n37244	v2saia---
 ka)ci/stasqai	e)ci/sthmi	urn:cite2:hmt:lsj.chicago_md:n37410	v--pne---
-ka)p'	*)api/s	- no urn found -	n-s---fv-
 ka)p'	a)/pios	urn:cite2:hmt:lsj.chicago_md:n12126	n-s---fv-
 ka)p'	a)/pios	urn:cite2:hmt:lsj.chicago_md:n12126	n-s---fv-	ka)p'	a)/pios	urn:cite2:hmt:lsj.chicago_md:n12127	n-s---fv-
 ka)p'	a)po/	urn:cite2:hmt:lsj.chicago_md:n12243	r--------
@@ -2516,14 +2462,11 @@ ka)posemnunou/meqa	a)posemnu/nw	urn:cite2:hmt:lsj.chicago_md:n13663	v1pfim---
 ka)posemnunou/meqa	a)posemnu/nw	urn:cite2:hmt:lsj.chicago_md:n13663	v1pfim---
 ka)pe/xou	a)pe/xw	urn:cite2:hmt:lsj.chicago_md:n12035	v2spme---
 ka)pe/xou	a)poxw/nnumi	urn:cite2:hmt:lsj.chicago_md:n14338	v3siia---
-ka)pe/xou	e)pw/xato	- no urn found -	v2spme---
 ka)pi/	e)pi/	urn:cite2:hmt:lsj.chicago_md:n38862	r--------
 ka)strath/ghse/n	strathge/w	urn:cite2:hmt:lsj.chicago_md:n97112	v3saia---
 ka)sti/n	ei)mi/	urn:cite2:hmt:lsj.chicago_md:n31130	v3spia---
 ka)felei=n	a)faire/w	urn:cite2:hmt:lsj.chicago_md:n18107	v--ana---
 ka)felei=n	a)faire/w	urn:cite2:hmt:lsj.chicago_md:n18107	v--fna---
-ka)felei=n	e)faire/omai	- no urn found -	v--ana---
-ka)felei=n	e)faire/omai	- no urn found -	v--fna---
 ka)/gwge	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-s---mn-
 ka)/gwge	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-s---mv-
 ka)/gwge	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-s---fn-
@@ -2536,7 +2479,6 @@ ka)/llws	a)/llos	urn:cite2:hmt:lsj.chicago_md:n4490	n-p---ma-
 ka)/llws	a)/llws	urn:cite2:hmt:lsj.chicago_md:n4548	d--------
 ka)/moige	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-s---md-
 ka)/moige	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-s---fd-
-ka)/n	ka)n	- no urn found -	c--------
 ka)/peita	e)/peita	urn:cite2:hmt:lsj.chicago_md:n38547	d--------
 ka)/rti	a)/rti	urn:cite2:hmt:lsj.chicago_md:n15618	d--------
 ka)/sti	ei)mi/	urn:cite2:hmt:lsj.chicago_md:n31130	v3spia---
@@ -2558,7 +2500,6 @@ ka/kiste	kako/s	urn:cite2:hmt:lsj.chicago_md:n52332	a-s---mv-
 ka/lei	kale/w	urn:cite2:hmt:lsj.chicago_md:n52571	v2spma---
 ka/lei	kale/w	urn:cite2:hmt:lsj.chicago_md:n52571	v3siia---
 ka/leson	kale/w	urn:cite2:hmt:lsj.chicago_md:n52571	v2sama---
-ka/llista	ka/llista	- no urn found -	d--------
 ka/llista	kalo/s	urn:cite2:hmt:lsj.chicago_md:n52840	a-p---nn-
 ka/llista	kalo/s	urn:cite2:hmt:lsj.chicago_md:n52840	a-p---nv-
 ka/llista	kalo/s	urn:cite2:hmt:lsj.chicago_md:n52840	a-p---na-
@@ -2590,8 +2531,6 @@ ka/tw	ka/tos	urn:cite2:hmt:lsj.chicago_md:n56149	n-s---mg-
 ka/tw	ka/tos	urn:cite2:hmt:lsj.chicago_md:n56149	n-s---fg-
 ka/tw	ka/tos	urn:cite2:hmt:lsj.chicago_md:n56149	n-s---ng-
 ka/tw	ka/tw	urn:cite2:hmt:lsj.chicago_md:n56149	d--------
-ka/tw	kato/w	- no urn found -	v2spma---
-ka/tw	kato/w	- no urn found -	v3siia---
 ka/x'	ka/kh	urn:cite2:hmt:lsj.chicago_md:n52083	n-p---fn-
 ka/x'	ka/kh	urn:cite2:hmt:lsj.chicago_md:n52083	n-p---fv-
 ka/x'	ka/kh	urn:cite2:hmt:lsj.chicago_md:n52083	n-s---fd-
@@ -2765,7 +2704,6 @@ laqrai/ois	laqrai=os	urn:cite2:hmt:lsj.chicago_md:n61604	n-p---fd-
 laqrai/ois	laqrai=os	urn:cite2:hmt:lsj.chicago_md:n61604	n-p---nd-
 lalei=n	lale/w	urn:cite2:hmt:lsj.chicago_md:n61771	v--pna---
 lalia/n	lalia/	urn:cite2:hmt:lsj.chicago_md:n61780	n-s---fa-
-lalia/n	lalih/	- no urn found -	n-s---fa-
 lalia/n	lalio/s	urn:cite2:hmt:lsj.chicago_md:n61781	a-s---fa-
 lalou=ntes	lale/w	urn:cite2:hmt:lsj.chicago_md:n61771	v-pppamn-
 lalou=ntes	lale/w	urn:cite2:hmt:lsj.chicago_md:n61771	v-pppamv-
@@ -2844,13 +2782,8 @@ leimw/nwn	leimw/n	urn:cite2:hmt:lsj.chicago_md:n62231	n-p---mg-
 leimw=na	leimw/n	urn:cite2:hmt:lsj.chicago_md:n62231	n-s---ma-
 leimw=nas	leimw/n	urn:cite2:hmt:lsj.chicago_md:n62231	n-p---ma-
 leonth=n	leonte/h	urn:cite2:hmt:lsj.chicago_md:n62388	n-s---fa-
-leptolo/gous	lepto/logos	- no urn found -	n-p---ma-
-leptolo/gous	lepto/logos	- no urn found -	n-p---fa-
 leptolo/gous	leptolo/gos	urn:cite2:hmt:lsj.chicago_md:n62509	n-p---ma-
 leptolo/gous	leptolo/gos	urn:cite2:hmt:lsj.chicago_md:n62509	n-p---fa-
-lepta/	lepto/n	- no urn found -	n-p---nn-
-lepta/	lepto/n	- no urn found -	n-p---nv-
-lepta/	lepto/n	- no urn found -	n-p---na-
 lepta/	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-p---nn-
 lepta/	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-p---nv-
 lepta/	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-p---na-
@@ -2859,14 +2792,10 @@ lepta/	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-d---fv-
 lepta/	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-d---fa-
 lepta/	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-s---fn-
 lepta/	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-s---fv-
-lepto/n	lepto/n	- no urn found -	n-s---nn-
-lepto/n	lepto/n	- no urn found -	n-s---nv-
-lepto/n	lepto/n	- no urn found -	n-s---na-
 lepto/n	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-s---ma-
 lepto/n	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-s---nn-
 lepto/n	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-s---nv-
 lepto/n	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-s---na-
-leptw=n	lepto/n	- no urn found -	n-p---ng-
 leptw=n	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-p---fg-
 leptw=n	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-p---mg-
 leptw=n	lepto/s	urn:cite2:hmt:lsj.chicago_md:n62528	a-p---ng-
@@ -3148,9 +3077,6 @@ li/mnais	li/mnh	urn:cite2:hmt:lsj.chicago_md:n63314	n-p---fd-
 li/mnan	li/mnh	urn:cite2:hmt:lsj.chicago_md:n63314	n-s---fa-
 li/mnh	li/mnh	urn:cite2:hmt:lsj.chicago_md:n63314	n-s---fn-
 li/mnh	li/mnh	urn:cite2:hmt:lsj.chicago_md:n63314	n-s---fv-
-li/mnh	limnei	- no urn found -	n-d---fn-
-li/mnh	limnei	- no urn found -	n-d---fv-
-li/mnh	limnei	- no urn found -	n-d---fa-
 li/mnhn	li/mnh	urn:cite2:hmt:lsj.chicago_md:n63314	n-s---fa-
 li/na	li/non	urn:cite2:hmt:lsj.chicago_md:n63402	n-p---nn-
 li/na	li/non	urn:cite2:hmt:lsj.chicago_md:n63402	n-p---nv-
@@ -3175,13 +3101,8 @@ lo/gwn	loga/w	urn:cite2:hmt:lsj.chicago_md:n63698	v3piia---
 lo/gwn	loga/w	urn:cite2:hmt:lsj.chicago_md:n63698	v1siia---
 lo/fon	lo/fos	urn:cite2:hmt:lsj.chicago_md:n63960	n-s---ma-
 lo/fous	lo/fos	urn:cite2:hmt:lsj.chicago_md:n63960	n-p---ma-
-lu/pas	lu/ph	- no urn found -	n-p---fa-
-lu/pas	lu/ph	- no urn found -	n-s---fg-
 lu/ras	lu/ra	urn:cite2:hmt:lsj.chicago_md:n64165	n-p---fa-
 lu/ras	lu/ra	urn:cite2:hmt:lsj.chicago_md:n64165	n-s---fg-
-lu/rion	lu/rion	- no urn found -	n-s---nn-
-lu/rion	lu/rion	- no urn found -	n-s---nv-
-lu/rion	lu/rion	- no urn found -	n-s---na-
 lu/xnon	lu/xnon	urn:cite2:hmt:lsj.chicago_md:n64303	n-s---nn-
 lu/xnon	lu/xnon	urn:cite2:hmt:lsj.chicago_md:n64303	n-s---nv-
 lu/xnon	lu/xnon	urn:cite2:hmt:lsj.chicago_md:n64303	n-s---na-
@@ -3217,9 +3138,6 @@ makra/n	makra/n	urn:cite2:hmt:lsj.chicago_md:n64619	d--------
 makra/n	makro/s	urn:cite2:hmt:lsj.chicago_md:n64703	a-s---fa-
 makrw=|	makro/s	urn:cite2:hmt:lsj.chicago_md:n64703	a-s---md-
 makrw=|	makro/s	urn:cite2:hmt:lsj.chicago_md:n64703	a-s---nd-
-maka/rio/s	maka/rios	- no urn found -	a-s---mn-
-maka/rio/s	maka/rios	- no urn found -	n-s---mn-
-maka/rio/s	maka/rios	- no urn found -	n-s---fn-
 malqako/n	malqako/s	urn:cite2:hmt:lsj.chicago_md:n64836	a-s---ma-
 malqako/n	malqako/s	urn:cite2:hmt:lsj.chicago_md:n64836	a-s---nn-
 malqako/n	malqako/s	urn:cite2:hmt:lsj.chicago_md:n64836	a-s---nv-
@@ -3253,8 +3171,6 @@ martu/romai	martu/romai	urn:cite2:hmt:lsj.chicago_md:n65091	v1sase---
 mastigwte/os	mastigwte/os	urn:cite2:hmt:lsj.chicago_md:n65155	n-s---mn-
 mastigi/as	mastigi/as	urn:cite2:hmt:lsj.chicago_md:n65145	n-p---ma-
 mastigi/as	mastigi/as	urn:cite2:hmt:lsj.chicago_md:n65145	n-s---mn-
-mastigi/as	mastigi/hs	- no urn found -	n-p---ma-
-mastigi/as	mastigi/hs	- no urn found -	n-s---mn-
 mastigi/as	mastigia/w	urn:cite2:hmt:lsj.chicago_md:n65146	v2siia---
 mastigw=n	mastigo/w	urn:cite2:hmt:lsj.chicago_md:n65152	v-sppamn-
 mastigw=n	mastigo/w	urn:cite2:hmt:lsj.chicago_md:n65152	v-sppamv-
@@ -3304,7 +3220,6 @@ meiagwgh/sousi	meiagwge/w	urn:cite2:hmt:lsj.chicago_md:n65686	v-pfpamd-
 meiagwgh/sousi	meiagwge/w	urn:cite2:hmt:lsj.chicago_md:n65686	v-pfpand-
 meiagwgh/sousi	meiagwge/w	urn:cite2:hmt:lsj.chicago_md:n65686	v3pfia---
 meiraki/skhs	meiraki/skh	urn:cite2:hmt:lsj.chicago_md:n65749	n-s---fg-
-meiraki/wn	meira/kion	- no urn found -	n-p---ng-
 meiraku/llia	meiraku/llion	urn:cite2:hmt:lsj.chicago_md:n65753	n-p---nn-
 meiraku/llia	meiraku/llion	urn:cite2:hmt:lsj.chicago_md:n65753	n-p---nv-
 meiraku/llia	meiraku/llion	urn:cite2:hmt:lsj.chicago_md:n65753	n-p---na-
@@ -3347,7 +3262,6 @@ mesto/n	mesto/s	urn:cite2:hmt:lsj.chicago_md:n66561	a-s---na-
 metaballo/menos	metaba/llw	urn:cite2:hmt:lsj.chicago_md:n66574	v-sppemn-
 metabalo/ntes	metaba/llw	urn:cite2:hmt:lsj.chicago_md:n66574	v-papamn-
 metabalo/ntes	metaba/llw	urn:cite2:hmt:lsj.chicago_md:n66574	v-papamv-
-metakuli/ndein	meta/-kuli/ndw	- no urn found -	v--pna---
 metacu/	metacu/	urn:cite2:hmt:lsj.chicago_md:n66838	d--------
 metastre/fesqai	metastre/fw	urn:cite2:hmt:lsj.chicago_md:n66961	v--pne---
 metousi/a	metousi/a	urn:cite2:hmt:lsj.chicago_md:n67214	n-d---fn-
@@ -3402,10 +3316,6 @@ miarw/tat'	miaro/s	urn:cite2:hmt:lsj.chicago_md:n67660	a-s---mvs
 miarw/tat'	miaro/s	urn:cite2:hmt:lsj.chicago_md:n67660	a-p---fns
 miarw/tat'	miaro/s	urn:cite2:hmt:lsj.chicago_md:n67660	a-p---fvs
 miarw/tate	miaro/s	urn:cite2:hmt:lsj.chicago_md:n67660	a-s---mvs
-mignume/nas	mi/gnumi	- no urn found -	v-pppefa-
-mignume/nas	mi/gnumi	- no urn found -	v-sppefg-
-mignu/s	mi/gnumi	- no urn found -	v-sppamn-
-mignu/s	mi/gnumi	- no urn found -	v-sppamv-
 mikro/s	mikro/s	urn:cite2:hmt:lsj.chicago_md:n67762	a-s---mn-
 mikro/s	smikro/s	urn:cite2:hmt:lsj.chicago_md:n95505	a-s---mn-
 minqw=sai	minqo/w	urn:cite2:hmt:lsj.chicago_md:n67884	v--ana---
@@ -3480,7 +3390,6 @@ ma/	mh/s	urn:cite2:hmt:lsj.chicago_md:n67539	n-d---mv-
 ma/	mh/s	urn:cite2:hmt:lsj.chicago_md:n67539	n-d---ma-
 ma/	mh/s	urn:cite2:hmt:lsj.chicago_md:n67539	n-s---mv-
 ma/	mh/s	urn:cite2:hmt:lsj.chicago_md:n67539	n-s---mn-
-ma/geiros	ma/geiros	- no urn found -	n-s---mn-
 ma/kar	ma/kar	urn:cite2:hmt:lsj.chicago_md:n64581	n-s---mn-
 ma/kar	ma/kar	urn:cite2:hmt:lsj.chicago_md:n64581	n-s---fn-
 ma/ktran	ma/ktra	urn:cite2:hmt:lsj.chicago_md:n64752	n-s---fa-
@@ -3490,8 +3399,6 @@ ma/la	ma/lh	urn:cite2:hmt:lsj.chicago_md:n64825	n-d---fv-
 ma/la	ma/lh	urn:cite2:hmt:lsj.chicago_md:n64825	n-d---fa-
 ma/la	ma/lh	urn:cite2:hmt:lsj.chicago_md:n64825	n-s---fn-
 ma/la	ma/lh	urn:cite2:hmt:lsj.chicago_md:n64825	n-s---fv-
-ma/lista	ma/lista	- no urn found -	d--------
-ma/lista/	ma/lista	- no urn found -	d--------
 ma/nqane/	manqa/nw	urn:cite2:hmt:lsj.chicago_md:n64914	v2spma---
 ma/nqane/	manqa/nw	urn:cite2:hmt:lsj.chicago_md:n64914	v3siia---
 ma/thn	ma/th	urn:cite2:hmt:lsj.chicago_md:n65237	n-s---fa-
@@ -3585,7 +3492,6 @@ mi/a	ei(=s	urn:cite2:hmt:lsj.chicago_md:n31236	n-s---fv-
 mi/a	ei(=s	urn:cite2:hmt:lsj.chicago_md:n31236	a-s---fn-
 mi/a	ei(=s	urn:cite2:hmt:lsj.chicago_md:n31236	a-s---fv-
 mi/an	ei(=s	urn:cite2:hmt:lsj.chicago_md:n31236	a-s---fa-
-mi/mhsin	mi/mhsis	- no urn found -	n-s---fa-
 mi/sqwsai/	misqo/w	urn:cite2:hmt:lsj.chicago_md:n68019	v2samm---
 mo/na	mo/nos	urn:cite2:hmt:lsj.chicago_md:n68641	a-p---nn-
 mo/na	mo/nos	urn:cite2:hmt:lsj.chicago_md:n68641	a-p---nv-
@@ -3630,10 +3536,6 @@ mw=n	mw=mai	urn:cite2:hmt:lsj.chicago_md:n69580	v1siia---
 mw=n	mw=n	urn:cite2:hmt:lsj.chicago_md:n69595	d--------
 m'	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-s---ma-
 m'	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-s---fa-
-m'	e)gw/ge	- no urn found -	p-s---ma-
-m'	e)gw/ge	- no urn found -	p-s---fa-
-m'	e)gw/ge	- no urn found -	p-s---md-
-m'	e)gw/ge	- no urn found -	p-s---fd-
 naumaxei=n	naumaxe/w	urn:cite2:hmt:lsj.chicago_md:n69836	v--pna---
 naumaxoi=en	naumaxe/w	urn:cite2:hmt:lsj.chicago_md:n69836	v3ppoa---
 naumaxh/santas	naumaxe/w	urn:cite2:hmt:lsj.chicago_md:n69836	v-papama-
@@ -3645,12 +3547,6 @@ nai/	nau=s	urn:cite2:hmt:lsj.chicago_md:n69863	n-s---fd-
 nai/	nau=s	urn:cite2:hmt:lsj.chicago_md:n69863	n-s---fd-
 nai/wn	nai/w	urn:cite2:hmt:lsj.chicago_md:n69674	v-sppamn-
 nai/wn	nai/w	urn:cite2:hmt:lsj.chicago_md:n69674	v-sppamn-
-nai/wn	nh/ios	- no urn found -	a-p---fg-
-nai/wn	nh/ios	- no urn found -	a-p---mg-
-nai/wn	nh/ios	- no urn found -	a-p---ng-
-nai/wn	nh/ios	- no urn found -	n-p---mg-
-nai/wn	nh/ios	- no urn found -	n-p---fg-
-nai/wn	nh/ios	- no urn found -	n-p---ng-
 nau/ths	nau/ths	urn:cite2:hmt:lsj.chicago_md:n69896	n-s---mn-
 nau=lon	nau=lon	urn:cite2:hmt:lsj.chicago_md:n69826	n-s---nn-
 nau=lon	nau=lon	urn:cite2:hmt:lsj.chicago_md:n69826	n-s---nv-
@@ -3701,12 +3597,6 @@ neoxmo/n	neoxmo/s	urn:cite2:hmt:lsj.chicago_md:n70450	n-s---na-
 nefrw/	nefro/s	urn:cite2:hmt:lsj.chicago_md:n70558	n-d---mn-
 nefrw/	nefro/s	urn:cite2:hmt:lsj.chicago_md:n70558	n-d---mv-
 nefrw/	nefro/s	urn:cite2:hmt:lsj.chicago_md:n70558	n-d---ma-
-nei/kh	nei	- no urn found -	n-p---nn-
-nei/kh	nei	- no urn found -	n-p---nv-
-nei/kh	nei	- no urn found -	n-p---na-
-nei/kh	nei	- no urn found -	n-d---nn-
-nei/kh	nei	- no urn found -	n-d---nv-
-nei/kh	nei	- no urn found -	n-d---na-
 nei/kh	nei/kh	urn:cite2:hmt:lsj.chicago_md:n70036	n-s---fn-
 nei/kh	nei/kh	urn:cite2:hmt:lsj.chicago_md:n70036	n-s---fv-
 nei/kh	nei=kos	urn:cite2:hmt:lsj.chicago_md:n70039	n-p---nn-
@@ -3725,9 +3615,6 @@ new/s	nau=s	urn:cite2:hmt:lsj.chicago_md:n69863	n-s---fg-
 new/s	nau=s	urn:cite2:hmt:lsj.chicago_md:n69863	n-s----g-
 new/s	new/s	urn:cite2:hmt:lsj.chicago_md:n70597	n-p---ma-
 new/s	new/s	urn:cite2:hmt:lsj.chicago_md:n70597	n-s---mn-
-nei=kos	nei	- no urn found -	n-s---nn-
-nei=kos	nei	- no urn found -	n-s---nv-
-nei=kos	nei	- no urn found -	n-s---na-
 nei=kos	nei=kos	urn:cite2:hmt:lsj.chicago_md:n70039	n-s---nn-
 nei=kos	nei=kos	urn:cite2:hmt:lsj.chicago_md:n70039	n-s---nv-
 nei=kos	nei=kos	urn:cite2:hmt:lsj.chicago_md:n70039	n-s---na-
@@ -4038,15 +3925,8 @@ cu/noikoi	su/noikos	urn:cite2:hmt:lsj.chicago_md:n100798	n-p---fv-
 cu/ntomos	su/ntomos	urn:cite2:hmt:lsj.chicago_md:n101042	n-s---mn-
 cu/ntomos	su/ntomos	urn:cite2:hmt:lsj.chicago_md:n101042	n-s---fn-
 cu/ssiton	su/ssitos	urn:cite2:hmt:lsj.chicago_md:n101418	n-s---ma-
-oi)dou=san	oi)da/w	- no urn found -	v-sppafa-
 oi)dou=san	oi)de/w	urn:cite2:hmt:lsj.chicago_md:n72208	v-sppafa-
 oi)dw=n	oi)=dos	urn:cite2:hmt:lsj.chicago_md:n72220	n-p---ng-
-oi)dw=n	oi)da/w	- no urn found -	v-sppamv-
-oi)dw=n	oi)da/w	- no urn found -	v-sppann-
-oi)dw=n	oi)da/w	- no urn found -	v-sppanv-
-oi)dw=n	oi)da/w	- no urn found -	v-sppana-
-oi)dw=n	oi)da/w	- no urn found -	v-sppamn-
-oi)dw=n	oi)da/w	- no urn found -	v-sppamn-
 oi)dw=n	oi)de/w	urn:cite2:hmt:lsj.chicago_md:n72208	v-sppamn-
 oi)kei=	oi)ke/w	urn:cite2:hmt:lsj.chicago_md:n72273	v2spie---
 oi)kei=	oi)ke/w	urn:cite2:hmt:lsj.chicago_md:n72273	v3spia---
@@ -4191,12 +4071,8 @@ ou(pixw/rioi	e)pixw/rios	urn:cite2:hmt:lsj.chicago_md:n41705	n-p---fn-
 ou(pixw/rioi	e)pixw/rios	urn:cite2:hmt:lsj.chicago_md:n41705	n-p---fv-
 ou(tosi/	ou(=tos	urn:cite2:hmt:lsj.chicago_md:n76062	n-s---mn-
 ou(tosi/	ou(=tos	urn:cite2:hmt:lsj.chicago_md:n76062	n-s---mv-
-ou(twsi/	ou(twsi/	- no urn found -	d--------
 ou)/	ou)	urn:cite2:hmt:lsj.chicago_md:n75730	d--------
 ou)/koun	ou)/koun	urn:cite2:hmt:lsj.chicago_md:n75810	d--------
-ou)/lwn	o(/loc	- no urn found -	a-p---fg-
-ou)/lwn	o(/loc	- no urn found -	a-p---mg-
-ou)/lwn	o(/loc	- no urn found -	a-p---ng-
 ou)/lwn	ou)=lon	urn:cite2:hmt:lsj.chicago_md:n75851	n-p---ng-
 ou)/lwn	ou)=los	urn:cite2:hmt:lsj.chicago_md:n75858	a-p---fg-
 ou)/lwn	ou)=los	urn:cite2:hmt:lsj.chicago_md:n75858	a-p---fg-	ou)/lwn	ou)=los	urn:cite2:hmt:lsj.chicago_md:n75859	a-p---fg-
@@ -4261,7 +4137,6 @@ ou(=toi	ou(=tos	urn:cite2:hmt:lsj.chicago_md:n76062	n-p---mv-
 ou(=tos	ou(=tos	urn:cite2:hmt:lsj.chicago_md:n76062	n-s---mn-
 ou(=tos	ou(=tos	urn:cite2:hmt:lsj.chicago_md:n76062	n-s---mv-
 paqei=n	pa/sxw	urn:cite2:hmt:lsj.chicago_md:n79983	v--ana---
-paidari/oisin	paida/rion	- no urn found -	n-p---nd-
 paidi/'	paidi/a	urn:cite2:hmt:lsj.chicago_md:n76588	n-s---fd-
 paidi/'	paidi/on	urn:cite2:hmt:lsj.chicago_md:n76596	n-p---nn-
 paidi/'	paidi/on	urn:cite2:hmt:lsj.chicago_md:n76596	n-p---nv-
@@ -4311,21 +4186,12 @@ pampo/nhros	pampo/nhros	urn:cite2:hmt:lsj.chicago_md:n77122	n-s---mn-
 pampo/nhros	pampo/nhros	urn:cite2:hmt:lsj.chicago_md:n77122	n-s---fn-
 pandokeutri/as	pandokeu/tria	urn:cite2:hmt:lsj.chicago_md:n77321	n-p---fa-
 pandokeutri/as	pandokeu/tria	urn:cite2:hmt:lsj.chicago_md:n77321	n-s---fg-
-pandokei=on	pandokei=on	- no urn found -	n-s---nn-
-pandokei=on	pandokei=on	- no urn found -	n-s---nv-
-pandokei=on	pandokei=on	- no urn found -	n-s---na-
-pannuxi/das	pannu/xios	- no urn found -	n-p---fa-
 pannuxi/das	pannuxi/s	urn:cite2:hmt:lsj.chicago_md:n77484	n-p---fa-
 pannuxi/zousin	pannuxi/zw	urn:cite2:hmt:lsj.chicago_md:n77481	v-pppamd-
 pannuxi/zousin	pannuxi/zw	urn:cite2:hmt:lsj.chicago_md:n77481	v-pppand-
 pannuxi/zousin	pannuxi/zw	urn:cite2:hmt:lsj.chicago_md:n77481	v3ppia---
-panou/rgous	pa/nourgos	- no urn found -	n-p---ma-
-panou/rgous	pa/nourgos	- no urn found -	n-p---fa-
 panou/rgous	panou=rgos	urn:cite2:hmt:lsj.chicago_md:n77528	n-p---ma-
 panou/rgous	panou=rgos	urn:cite2:hmt:lsj.chicago_md:n77528	n-p---fa-
-panou/rgwn	pa/nourgos	- no urn found -	n-p---mg-
-panou/rgwn	pa/nourgos	- no urn found -	n-p---fg-
-panou/rgwn	pa/nourgos	- no urn found -	n-p---ng-
 panou/rgwn	panou=rgos	urn:cite2:hmt:lsj.chicago_md:n77528	n-p---mg-
 panou/rgwn	panou=rgos	urn:cite2:hmt:lsj.chicago_md:n77528	n-p---fg-
 panou/rgwn	panou=rgos	urn:cite2:hmt:lsj.chicago_md:n77528	n-p---ng-
@@ -4363,10 +4229,6 @@ parainw=	paraine/w	urn:cite2:hmt:lsj.chicago_md:n78056	v1spsa---
 parainw=	paraine/w	urn:cite2:hmt:lsj.chicago_md:n78056	v1spia---
 parainw=	paraine/w	urn:cite2:hmt:lsj.chicago_md:n78056	v1spsa---
 parainw=	paraine/w	urn:cite2:hmt:lsj.chicago_md:n78056	v1spia---
-parakaqh/menon	para/-ka/qhmai	- no urn found -	v-srpmma-
-parakaqh/menon	para/-ka/qhmai	- no urn found -	v-srpmnn-
-parakaqh/menon	para/-ka/qhmai	- no urn found -	v-srpmnv-
-parakaqh/menon	para/-ka/qhmai	- no urn found -	v-srpmna-
 parakalei=te	parakale/w	urn:cite2:hmt:lsj.chicago_md:n78100	v2ppma---
 parakalei=te	parakale/w	urn:cite2:hmt:lsj.chicago_md:n78100	v2ppoa---
 parakalei=te	parakale/w	urn:cite2:hmt:lsj.chicago_md:n78100	v2ppia---
@@ -4600,7 +4462,6 @@ pedi/on	peda/w	urn:cite2:hmt:lsj.chicago_md:n80220	v-sppana-
 pedi/on	pedi/on	urn:cite2:hmt:lsj.chicago_md:n80240	n-s---nn-
 pedi/on	pedi/on	urn:cite2:hmt:lsj.chicago_md:n80240	n-s---nv-
 pedi/on	pedi/on	urn:cite2:hmt:lsj.chicago_md:n80240	n-s---na-
-peiqw/	*peiqw/	- no urn found -	n-s---fn-
 peiqw/	peiqo/s	urn:cite2:hmt:lsj.chicago_md:n80326	a-d---mn-
 peiqw/	peiqo/s	urn:cite2:hmt:lsj.chicago_md:n80326	a-d---mv-
 peiqw/	peiqo/s	urn:cite2:hmt:lsj.chicago_md:n80326	a-d---ma-
@@ -4617,15 +4478,9 @@ peiste/on	peiste/on	urn:cite2:hmt:lsj.chicago_md:n80379	n-s---ma-
 peiste/on	peiste/on	urn:cite2:hmt:lsj.chicago_md:n80379	n-s---nn-
 peiste/on	peiste/on	urn:cite2:hmt:lsj.chicago_md:n80379	n-s---nv-
 peiste/on	peiste/on	urn:cite2:hmt:lsj.chicago_md:n80379	n-s---na-
-peiste/on	peiste/os	- no urn found -	n-s---ma-
-peiste/on	peiste/os	- no urn found -	n-s---fa-
-peiste/on	peiste/os	- no urn found -	n-s---nn-
-peiste/on	peiste/os	- no urn found -	n-s---nv-
-peiste/on	peiste/os	- no urn found -	n-s---na-
 peiso/mesqa	pa/sxw	urn:cite2:hmt:lsj.chicago_md:n79983	v1pfim---
 peiso/mesqa	pei/qw	urn:cite2:hmt:lsj.chicago_md:n80327	v1pasm---
 peiso/mesqa	pei/qw	urn:cite2:hmt:lsj.chicago_md:n80327	v1pfim---
-pelagi/an	pela/gios	- no urn found -	a-s---fa-
 pela/qeis	pela/qw	urn:cite2:hmt:lsj.chicago_md:n80404	v2spia---
 penth/konta	penth/konta	urn:cite2:hmt:lsj.chicago_md:n80819	m--------
 peplh/gmeq'	plh/ssw	urn:cite2:hmt:lsj.chicago_md:n83869	v1prie---
@@ -4633,7 +4488,6 @@ peplh/gmeq'	plh/ssw	urn:cite2:hmt:lsj.chicago_md:n83869	v1plie---
 peponqe/nai	pa/sxw	urn:cite2:hmt:lsj.chicago_md:n79983	v--rna---
 pepoi/hkas	poie/w	urn:cite2:hmt:lsj.chicago_md:n84234	v2sria---
 pepra/gamen	pra/ssw	urn:cite2:hmt:lsj.chicago_md:n86219	v1pria---
-per	pe/r	- no urn found -	g--------
 peraiwqh/somai	peraio/w	urn:cite2:hmt:lsj.chicago_md:n80967	v1sfip---
 perai/neis	perai/nw	urn:cite2:hmt:lsj.chicago_md:n80964	v2spia---
 peridhsa/menos	peride/w	urn:cite2:hmt:lsj.chicago_md:n81249	v-sapmmn-
@@ -4759,7 +4613,6 @@ plinqeu/sousi	plinqeu/w	urn:cite2:hmt:lsj.chicago_md:n83883	v3pasa---
 plinqeu/sousi	plinqeu/w	urn:cite2:hmt:lsj.chicago_md:n83883	v-pfpamd-
 plinqeu/sousi	plinqeu/w	urn:cite2:hmt:lsj.chicago_md:n83883	v-pfpand-
 plinqeu/sousi	plinqeu/w	urn:cite2:hmt:lsj.chicago_md:n83883	v3pfia---
-ploiari/w|	ploia/rion	- no urn found -	n-s---nd-
 ploutw=n	plou=tos	urn:cite2:hmt:lsj.chicago_md:n83987	n-p---ng-
 ploutw=n	plou=tos	urn:cite2:hmt:lsj.chicago_md:n83987	n-p---ng-	ploutw=n	plou=tos	urn:cite2:hmt:lsj.chicago_md:n83988	n-p---ng-
 ploutw=n	ploute/w	urn:cite2:hmt:lsj.chicago_md:n83972	v-sppamn-
@@ -4778,7 +4631,6 @@ pla/stigg'	pla/stigc	urn:cite2:hmt:lsj.chicago_md:n83503	n-d---fn-
 pla/stigg'	pla/stigc	urn:cite2:hmt:lsj.chicago_md:n83503	n-d---fv-
 pla/stigg'	pla/stigc	urn:cite2:hmt:lsj.chicago_md:n83503	n-d---fa-
 pla/th|	pla/th	urn:cite2:hmt:lsj.chicago_md:n83546	n-s---fd-
-pla/th|	pla/ths	- no urn found -	n-s---md-
 ple/wn	ple/os	urn:cite2:hmt:lsj.chicago_md:n83718	n-p---mg-
 ple/wn	ple/os	urn:cite2:hmt:lsj.chicago_md:n83718	n-p---ng-
 ple/wn	ple/w	urn:cite2:hmt:lsj.chicago_md:n83754	v-sppamn-
@@ -4903,7 +4755,6 @@ polemi/wn	pole/mios	urn:cite2:hmt:lsj.chicago_md:n84422	n-p---mg-
 polemi/wn	pole/mios	urn:cite2:hmt:lsj.chicago_md:n84422	n-p---fg-
 polemi/wn	pole/mios	urn:cite2:hmt:lsj.chicago_md:n84422	n-p---ng-
 polemi/wn	poleme/w	urn:cite2:hmt:lsj.chicago_md:n84410	v-sppamn-
-politw=n	poli/ths	- no urn found -	n-p---mg-
 pollai/	polu/s	urn:cite2:hmt:lsj.chicago_md:n85306	a-p---fn-
 pollai/	polu/s	urn:cite2:hmt:lsj.chicago_md:n85306	a-p---fv-
 polloi/	polu/s	urn:cite2:hmt:lsj.chicago_md:n85306	a-p---mn-
@@ -4933,32 +4784,9 @@ polukoi/rane	polukoi/ranos	urn:cite2:hmt:lsj.chicago_md:n84963	n-s---mv-
 polukoi/rane	polukoi/ranos	urn:cite2:hmt:lsj.chicago_md:n84963	n-s---fv-
 polurro/dous	polu/rrodos	urn:cite2:hmt:lsj.chicago_md:n85296	n-p---ma-
 polurro/dous	polu/rrodos	urn:cite2:hmt:lsj.chicago_md:n85296	n-p---fa-
-poluti/mht'	poluti/mhtos	- no urn found -	a-p---nn-
-poluti/mht'	poluti/mhtos	- no urn found -	a-p---nv-
-poluti/mht'	poluti/mhtos	- no urn found -	a-p---na-
-poluti/mht'	poluti/mhtos	- no urn found -	n-p---nn-
-poluti/mht'	poluti/mhtos	- no urn found -	n-p---nv-
-poluti/mht'	poluti/mhtos	- no urn found -	n-p---na-
-poluti/mht'	poluti/mhtos	- no urn found -	a-s---mv-
-poluti/mht'	poluti/mhtos	- no urn found -	n-s---mv-
-poluti/mht'	poluti/mhtos	- no urn found -	n-s---fv-
-poluti/mht'	poluti/mhtos	- no urn found -	a-p---fn-
-poluti/mht'	poluti/mhtos	- no urn found -	a-p---fv-
-poluti/mhte	poluti/mhtos	- no urn found -	a-s---mv-
-poluti/mhte	poluti/mhtos	- no urn found -	n-s---mv-
-poluti/mhte	poluti/mhtos	- no urn found -	n-s---fv-
-poli/tais	poli/ths	- no urn found -	n-p---md-
-poli/tas	poli/ths	- no urn found -	n-p---ma-
-poli/tas	poli/ths	- no urn found -	n-s---mn-
-poli/thn	poli/ths	- no urn found -	n-s---ma-
 polu/	polu/s	urn:cite2:hmt:lsj.chicago_md:n85306	n-s---nn-
 polu/	polu/s	urn:cite2:hmt:lsj.chicago_md:n85306	n-s---nv-
 polu/	polu/s	urn:cite2:hmt:lsj.chicago_md:n85306	n-s---na-
-polu/karpon	polu/karpos	- no urn found -	n-s---ma-
-polu/karpon	polu/karpos	- no urn found -	n-s---fa-
-polu/karpon	polu/karpos	- no urn found -	n-s---nn-
-polu/karpon	polu/karpos	- no urn found -	n-s---nv-
-polu/karpon	polu/karpos	- no urn found -	n-s---na-
 polu/metron	polu/metros	urn:cite2:hmt:lsj.chicago_md:n85064	n-s---ma-
 polu/metron	polu/metros	urn:cite2:hmt:lsj.chicago_md:n85064	n-s---fa-
 polu/metron	polu/metros	urn:cite2:hmt:lsj.chicago_md:n85064	n-s---nn-
@@ -4990,10 +4818,7 @@ pori/sasqai	pori/zw	urn:cite2:hmt:lsj.chicago_md:n85760	v--anm---
 potame/	potamo/s	urn:cite2:hmt:lsj.chicago_md:n85953	n-s---mv-
 potamo/n	potamo/s	urn:cite2:hmt:lsj.chicago_md:n85953	n-s---ma-
 potamw=n	potamo/s	urn:cite2:hmt:lsj.chicago_md:n85953	n-p---mg-
-pote	pote/	- no urn found -	g--------
-pote/	pote/	- no urn found -	g--------
 pote/	poto/s	urn:cite2:hmt:lsj.chicago_md:n86083	a-s---mv-
-pou	pou/	- no urn found -	d--------
 poi/hsin	poi/hsis	urn:cite2:hmt:lsj.chicago_md:n84245	n-s---fa-
 poi/hsis	poi/hsis	urn:cite2:hmt:lsj.chicago_md:n84245	n-s---fn-
 poi/ois	poi=os	urn:cite2:hmt:lsj.chicago_md:n84363	a-p---md-
@@ -5005,8 +4830,6 @@ poi/wn	poi=os	urn:cite2:hmt:lsj.chicago_md:n84363	a-p---ng-
 poi/wn	poie/w	urn:cite2:hmt:lsj.chicago_md:n84234	v-sppamn-
 poi/wn	poio/w	urn:cite2:hmt:lsj.chicago_md:n84367	v3piia---
 poi/wn	poio/w	urn:cite2:hmt:lsj.chicago_md:n84367	v1siia---
-pou/	pou/	- no urn found -	d--------
-poi=	poi	- no urn found -	d--------
 poi=	poi=	urn:cite2:hmt:lsj.chicago_md:n84227	d--------
 poi='	po/a	urn:cite2:hmt:lsj.chicago_md:n84094	n-p---fn-
 poi='	po/a	urn:cite2:hmt:lsj.chicago_md:n84094	n-p---fv-
@@ -5025,7 +4848,6 @@ poi=o/n	poi=os	urn:cite2:hmt:lsj.chicago_md:n84363	a-s---nn-
 poi=o/n	poi=os	urn:cite2:hmt:lsj.chicago_md:n84363	a-s---nv-
 poi=o/n	poi=os	urn:cite2:hmt:lsj.chicago_md:n84363	a-s---na-
 poi=o/s	poi=os	urn:cite2:hmt:lsj.chicago_md:n84363	a-s---mn-
-pou=	pou/	- no urn found -	d--------
 pou=	pou=	urn:cite2:hmt:lsj.chicago_md:n86087	x--------
 pragma/twn	pra=gma	urn:cite2:hmt:lsj.chicago_md:n86112	n-p---ng-
 presbu/teros	pre/sbus	urn:cite2:hmt:lsj.chicago_md:n86305	a-s---mn-
@@ -5106,15 +4928,9 @@ prosourh/santa	prosoure/w	urn:cite2:hmt:lsj.chicago_md:n89856	v-papanv-
 prosourh/santa	prosoure/w	urn:cite2:hmt:lsj.chicago_md:n89856	v-papana-
 prosourh/santa	prosoure/w	urn:cite2:hmt:lsj.chicago_md:n89856	v-sapama-
 prosofei/lwn	prosofei/lw	urn:cite2:hmt:lsj.chicago_md:n89859	v-sppamn-
-prospardei=n	para/-de/w	- no urn found -	v--pna---
-prospardei=n	para/-de/w	- no urn found -	v--pna---
-prospardei=n	para/-dei=	- no urn found -	v-spp-nn-
-prospardei=n	para/-dei=	- no urn found -	v-spp-nv-
-prospardei=n	para/-dei=	- no urn found -	v-spp-na-
-prospardei=n	para/-dei=	- no urn found -	v--pna---
-prospardei=n	pro/s-pe/rdomai	- no urn found -	v--ana---
-prosta/thn	proi/sthmi	- no urn found -	v3daia---
-prosta/thn	prosta/ths	- no urn found -	n-s---ma-
+prospardei=n	para/-de/w	urn:cite2:hmt:lsj.chicago_md:n77917	v--pna---
+prospardei=n	para/-de/w	urn:cite2:hmt:lsj.chicago_md:n77917	v--pna---
+prospardei=n	pro/s-pe/rdomai	urn:cite2:hmt:lsj.chicago_md:n89928	v--ana---
 prosti/qei	prosti/qhmi	urn:cite2:hmt:lsj.chicago_md:n90166	v2spma---
 prosti/qei	prosti/qhmi	urn:cite2:hmt:lsj.chicago_md:n90166	v2spma---
 prosti/qei	prosti/qhmi	urn:cite2:hmt:lsj.chicago_md:n90166	v3siia---
@@ -5156,9 +4972,6 @@ prouselou=men	prousele/w	urn:cite2:hmt:lsj.chicago_md:n90646	v1ppia---
 prouselou=men	prousele/w	urn:cite2:hmt:lsj.chicago_md:n90646	v1piia---
 proi+e/nai	pro/eimi	urn:cite2:hmt:lsj.chicago_md:n87146	v--pna---
 proi+e/nai	pro/eimi	urn:cite2:hmt:lsj.chicago_md:n87146	v--pna---	proi+e/nai	pro/eimi	urn:cite2:hmt:lsj.chicago_md:n87147	v--pna---
-proi+e/nai	proi/hmi	- no urn found -	v--pna---
-prutanei/w|	pruta/neios	- no urn found -	a-s---md-
-prutanei/w|	pruta/neios	- no urn found -	a-s---nd-
 prutanei/w|	prutanei=on	urn:cite2:hmt:lsj.chicago_md:n90848	n-s---nd-
 prwkto/n	prwkto/s	urn:cite2:hmt:lsj.chicago_md:n90885	n-s---ma-
 prwkto/s	prwkto/s	urn:cite2:hmt:lsj.chicago_md:n90885	n-s---mn-
@@ -5193,7 +5006,6 @@ pre/pousin	pre/pw	urn:cite2:hmt:lsj.chicago_md:n86276	v-pppand-
 pre/pousin	pre/pw	urn:cite2:hmt:lsj.chicago_md:n86276	v3ppia---
 pre/pousin	pre/pwn	urn:cite2:hmt:lsj.chicago_md:n86278	n-p---md-
 pri/n	pri/n	urn:cite2:hmt:lsj.chicago_md:n86371	d--------
-pri/wmai	pri/amai	- no urn found -	v1spsm---
 pri/wmai	pri/w	urn:cite2:hmt:lsj.chicago_md:n86400	v1spse---
 pri/wmai	pri/w	urn:cite2:hmt:lsj.chicago_md:n86400	v1spse---	pri/wmai	pri/w	urn:cite2:hmt:lsj.chicago_md:n86399	v1spse---
 pro/	pro/	urn:cite2:hmt:lsj.chicago_md:n86405	r--------
@@ -5225,7 +5037,7 @@ pro/teron	pro/teros	urn:cite2:hmt:lsj.chicago_md:n90504	a-s---nn-
 pro/teron	pro/teros	urn:cite2:hmt:lsj.chicago_md:n90504	a-s---nv-
 pro/teron	pro/teros	urn:cite2:hmt:lsj.chicago_md:n90504	a-s---na-
 pro/teros	pro/teros	urn:cite2:hmt:lsj.chicago_md:n90504	a-s---mn-
-pru/tanin	pru/tanis	- no urn found -	n-s---ma-
+pru/tanin	pru/tanis	urn:cite2:hmt:lsj.chicago_md:n90855	n-s---ma-
 prw/hn	prw/hn	urn:cite2:hmt:lsj.chicago_md:n90858	d--------
 prw/thn	pro/teros	urn:cite2:hmt:lsj.chicago_md:n90504	a-s---fa-
 prw/thn	prw=tos	urn:cite2:hmt:lsj.chicago_md:n91038	a-s---fa-
@@ -5386,13 +5198,10 @@ pa/sh|	pa=sis	urn:cite2:hmt:lsj.chicago_md:n79920	n-s---fd-
 pa/sh|	pate/omai	urn:cite2:hmt:lsj.chicago_md:n80003	v2sasm---
 pa/tran	fra/tra	urn:cite2:hmt:lsj.chicago_md:n112240	n-s---fa-
 pa/tran	pa/tra	urn:cite2:hmt:lsj.chicago_md:n80021	n-s---fa-
-pa/tran	pa/trh	- no urn found -	n-s---fa-
 pa/tras	fra/tra	urn:cite2:hmt:lsj.chicago_md:n112240	n-p---fa-
 pa/tras	fra/tra	urn:cite2:hmt:lsj.chicago_md:n112240	n-s---fg-
 pa/tras	pa/tra	urn:cite2:hmt:lsj.chicago_md:n80021	n-p---fa-
 pa/tras	pa/tra	urn:cite2:hmt:lsj.chicago_md:n80021	n-s---fg-
-pa/tras	pa/trh	- no urn found -	n-p---fa-
-pa/tras	pa/trh	- no urn found -	n-s---fg-
 pe/las	pe/las	urn:cite2:hmt:lsj.chicago_md:n80415	d--------
 pe/las	pela/w	urn:cite2:hmt:lsj.chicago_md:n80427	v2siia---
 pe/mpei	pe/mpw	urn:cite2:hmt:lsj.chicago_md:n80557	v2spie---
@@ -5406,10 +5215,6 @@ pe/raine	perai/nw	urn:cite2:hmt:lsj.chicago_md:n80964	v3siia---
 pe/talon	pe/talon	urn:cite2:hmt:lsj.chicago_md:n82719	n-s---nn-
 pe/talon	pe/talon	urn:cite2:hmt:lsj.chicago_md:n82719	n-s---nv-
 pe/talon	pe/talon	urn:cite2:hmt:lsj.chicago_md:n82719	n-s---na-
-pe/talon	pe/talos	- no urn found -	a-s---ma-
-pe/talon	pe/talos	- no urn found -	a-s---nn-
-pe/talon	pe/talos	- no urn found -	a-s---nv-
-pe/talon	pe/talos	- no urn found -	a-s---na-
 pe/tra	pe/tra	urn:cite2:hmt:lsj.chicago_md:n82758	n-d---fn-
 pe/tra	pe/tra	urn:cite2:hmt:lsj.chicago_md:n82758	n-d---fv-
 pe/tra	pe/tra	urn:cite2:hmt:lsj.chicago_md:n82758	n-d---fa-
@@ -5443,7 +5248,6 @@ po/de	pou/s	urn:cite2:hmt:lsj.chicago_md:n86108	n-d---mv-
 po/de	pou/s	urn:cite2:hmt:lsj.chicago_md:n86108	n-d---ma-
 po/qen	pi/nw	urn:cite2:hmt:lsj.chicago_md:n83231	v3paip---
 po/qen	po/qen	urn:cite2:hmt:lsj.chicago_md:n84202	d--------
-po/qen	poqen	- no urn found -	g--------
 po/qos	po/qos	urn:cite2:hmt:lsj.chicago_md:n84226	n-s---mn-
 po/kas	po/kos	urn:cite2:hmt:lsj.chicago_md:n84396	n-p---ma-
 po/lei	po/lis	urn:cite2:hmt:lsj.chicago_md:n84494	n-d---fn-
@@ -5477,7 +5281,6 @@ po/nhr'	ponhro/s	urn:cite2:hmt:lsj.chicago_md:n85654	a-p---fn-
 po/nhr'	ponhro/s	urn:cite2:hmt:lsj.chicago_md:n85654	a-p---fv-
 po/non	po/nos	urn:cite2:hmt:lsj.chicago_md:n85665	n-s---ma-
 po/nou	po/nos	urn:cite2:hmt:lsj.chicago_md:n85665	n-s---mg-
-po/ntie	*po/ntios	- no urn found -	n-s---mv-
 po/ntie	po/ntios	urn:cite2:hmt:lsj.chicago_md:n85675	a-s---mv-
 po/ntie	po/ntios	urn:cite2:hmt:lsj.chicago_md:n85675	n-s---mv-
 po/ntie	po/ntios	urn:cite2:hmt:lsj.chicago_md:n85675	n-s---fv-
@@ -5489,8 +5292,6 @@ po/rimon	po/rimos	urn:cite2:hmt:lsj.chicago_md:n85761	n-s---na-
 po/rnas	po/rnh	urn:cite2:hmt:lsj.chicago_md:n85781	n-p---fa-
 po/rnas	po/rnh	urn:cite2:hmt:lsj.chicago_md:n85781	n-s---fg-
 po/ron	po/ros	urn:cite2:hmt:lsj.chicago_md:n85807	n-s---ma-
-po/ron	po/rw	- no urn found -	v3paia---
-po/ron	po/rw	- no urn found -	v1saia---
 po/s'	po/se	urn:cite2:hmt:lsj.chicago_md:n85886	d--------
 po/s'	po/sis	urn:cite2:hmt:lsj.chicago_md:n85907	n-s---mv-
 po/s'	po/sis	urn:cite2:hmt:lsj.chicago_md:n85907	n-s---mv-	po/s'	po/sis	urn:cite2:hmt:lsj.chicago_md:n85908	n-s---mv-
@@ -5691,9 +5492,6 @@ skw=pte/	skw/ptw	urn:cite2:hmt:lsj.chicago_md:n95432	v3siia---
 skw=r	skw=r	urn:cite2:hmt:lsj.chicago_md:n95433	n-s---nn-
 skw=r	skw=r	urn:cite2:hmt:lsj.chicago_md:n95433	n-s---nv-
 skw=r	skw=r	urn:cite2:hmt:lsj.chicago_md:n95433	n-s---na-
-smileu/mata/	smi/leuma	- no urn found -	n-p---nn-
-smileu/mata/	smi/leuma	- no urn found -	n-p---nv-
-smileu/mata/	smi/leuma	- no urn found -	n-p---na-
 soi	su/	urn:cite2:hmt:lsj.chicago_md:n97456	p-s----d-
 sou	su/	urn:cite2:hmt:lsj.chicago_md:n97456	p-s----g-
 sofisma/twn	so/fisma	urn:cite2:hmt:lsj.chicago_md:n95644	n-p---ng-
@@ -5744,12 +5542,8 @@ soi/	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-p---mv-
 soi/	su/	urn:cite2:hmt:lsj.chicago_md:n97456	p-s----d-
 soi/	su/	urn:cite2:hmt:lsj.chicago_md:n97456	p-s----d-
 sou/s	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-p---ma-
-soi=sin	se/w	- no urn found -	v-pppamd-
-soi=sin	se/w	- no urn found -	v-pppand-
 soi=sin	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-p---md-
 soi=sin	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-p---nd-
-sou=	se/w	- no urn found -	v2spme---
-sou=	se/w	- no urn found -	v2siie---
 sou=	seu/w	urn:cite2:hmt:lsj.chicago_md:n93762	v2spmm---
 sou=	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-s---mg-
 sou=	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-s---ng-
@@ -5775,8 +5569,6 @@ stadi/ous	sta/dios	urn:cite2:hmt:lsj.chicago_md:n96161	a-p---ma-
 stadi/w|	sta/dion	urn:cite2:hmt:lsj.chicago_md:n96160	n-s---nd-
 stadi/w|	sta/dios	urn:cite2:hmt:lsj.chicago_md:n96161	a-s---md-
 stadi/w|	sta/dios	urn:cite2:hmt:lsj.chicago_md:n96161	a-s---nd-
-staqmh/setai	staqma/omai	- no urn found -	v3sase---
-staqmh/setai	staqma/omai	- no urn found -	v3sfie---
 staqmh/setai	staqma/w	urn:cite2:hmt:lsj.chicago_md:n96171	v3sasm---
 staqmh/setai	staqma/w	urn:cite2:hmt:lsj.chicago_md:n96171	v3sfim---
 staqmo/n	staqmo/n	urn:cite2:hmt:lsj.chicago_md:n96193	n-s---nn-
@@ -5795,7 +5587,6 @@ strebloi=si	streblo/w	urn:cite2:hmt:lsj.chicago_md:n97166	v-pppamd-
 strebloi=si	streblo/w	urn:cite2:hmt:lsj.chicago_md:n97166	v-pppand-
 strebloi=si	streblo/w	urn:cite2:hmt:lsj.chicago_md:n97166	v3spsa---
 strebloi=si	streblo/w	urn:cite2:hmt:lsj.chicago_md:n97166	v3ppia---
-streblw=n	stre/bla	- no urn found -	n-p---fg-
 streblw=n	stre/blh	urn:cite2:hmt:lsj.chicago_md:n97159	n-p---fg-
 streblw=n	streblo/s	urn:cite2:hmt:lsj.chicago_md:n97164	a-p---fg-
 streblw=n	streblo/s	urn:cite2:hmt:lsj.chicago_md:n97164	a-p---mg-
@@ -5873,8 +5664,6 @@ sugkrou/sas	sugkrou/w	urn:cite2:hmt:lsj.chicago_md:n97925	v-sapamn-
 sugkrou/sas	sugkrou/w	urn:cite2:hmt:lsj.chicago_md:n97925	v-sapamv-
 sullabw/n	sullamba/nw	urn:cite2:hmt:lsj.chicago_md:n98173	v-sapamn-
 sulle/gwn	sulle/gw	urn:cite2:hmt:lsj.chicago_md:n98181	v-sppamn-
-sumpaistri/as	sumpai/stria	- no urn found -	n-p---fa-
-sumpaistri/as	sumpai/stria	- no urn found -	n-s---fg-
 sumpaistri/as	sumpaisth/s	urn:cite2:hmt:lsj.chicago_md:n98493	n-p---fa-
 sumpaistri/as	sumpaisth/s	urn:cite2:hmt:lsj.chicago_md:n98493	n-s---fg-
 sumparasta/tei	sumparastate/w	urn:cite2:hmt:lsj.chicago_md:n98544	v2spma---
@@ -5905,15 +5694,9 @@ sunarpa/sasa	sunarpa/zw	urn:cite2:hmt:lsj.chicago_md:n99520	v-sapafv-
 suneto/s	suneto/s	urn:cite2:hmt:lsj.chicago_md:n100436	a-s---mn-
 sunnoou/menos	sunnoe/w	urn:cite2:hmt:lsj.chicago_md:n100734	v-sppemn-
 sunnoou/menos	sunnoe/w	urn:cite2:hmt:lsj.chicago_md:n100734	v-sppemn-
-sunte/qnhken	sunqnh/skw	- no urn found -	v3sria---
-sunte/qnhken	sunqnh/skw	- no urn found -	v3plia---
-sunte/qnhke/	sunqnh/skw	- no urn found -	v2srma---
-sunte/qnhke/	sunqnh/skw	- no urn found -	v3sria---
 sunte/xnwn	su/ntexnos	urn:cite2:hmt:lsj.chicago_md:n101014	n-p---mg-
 sunte/xnwn	su/ntexnos	urn:cite2:hmt:lsj.chicago_md:n101014	n-p---fg-
 sune/baine	sumbai/nw	urn:cite2:hmt:lsj.chicago_md:n98234	v3siia---
-sune/lecas	su/n-le/gw	- no urn found -	v2saia---
-sune/lecas	su/n-le/gw	- no urn found -	v2saia---
 suskeda=n	suskeda/nnumi	urn:cite2:hmt:lsj.chicago_md:n101340	v-sfpamv-
 suskeda=n	suskeda/nnumi	urn:cite2:hmt:lsj.chicago_md:n101340	v-sfpann-
 suskeda=n	suskeda/nnumi	urn:cite2:hmt:lsj.chicago_md:n101340	v-sfpanv-
@@ -5930,7 +5713,6 @@ sfalh=t'	sfa/llw	urn:cite2:hmt:lsj.chicago_md:n101611	v2pasp---
 sfalh=t'	sfa/llw	urn:cite2:hmt:lsj.chicago_md:n101611	v2pfia---
 sfalh=t'	sfa/llw	urn:cite2:hmt:lsj.chicago_md:n101611	v3sfim---
 sfete/ran	sfe/teros	urn:cite2:hmt:lsj.chicago_md:n101655	a-s---fa-
-sfoggia/n	sfoggia/	- no urn found -	n-s---fa-
 sfo/dra	sfo/dra	urn:cite2:hmt:lsj.chicago_md:n101711	d--------
 sfw/	sfei=s	urn:cite2:hmt:lsj.chicago_md:n101628	n-d---mn-
 sfw/	sfei=s	urn:cite2:hmt:lsj.chicago_md:n101628	n-d---mv-
@@ -5960,13 +5742,9 @@ sxe/tlia	sxe/tlios	urn:cite2:hmt:lsj.chicago_md:n101849	a-p---na-
 sxe/tlie	sxe/tlios	urn:cite2:hmt:lsj.chicago_md:n101849	a-s---mv-
 sxh/sein	e)/xw	urn:cite2:hmt:lsj.chicago_md:n45996	v--fna---
 sxh/sein	e)/xw	urn:cite2:hmt:lsj.chicago_md:n45996	v--fna---	sxh/sein	e)/xw	urn:cite2:hmt:lsj.chicago_md:n45997	v--fna---
-sxh/sein	sxa/w	- no urn found -	v--fna---
 sxh=ma	sxh=ma	urn:cite2:hmt:lsj.chicago_md:n101851	n-s---nn-
 sxh=ma	sxh=ma	urn:cite2:hmt:lsj.chicago_md:n101851	n-s---nv-
 sxh=ma	sxh=ma	urn:cite2:hmt:lsj.chicago_md:n101851	n-s---na-
-swqei=men	sw/zw	- no urn found -	v1paop---
-swqei=sa	sw/zw	- no urn found -	v-sappfn-
-swqei=sa	sw/zw	- no urn found -	v-sappfv-
 swthri/an	swthri/a	urn:cite2:hmt:lsj.chicago_md:n102096	n-s---fa-
 swth/r	swth/r	urn:cite2:hmt:lsj.chicago_md:n102095	n-s---mn-
 swth=ra	swth/r	urn:cite2:hmt:lsj.chicago_md:n102095	n-s---ma-
@@ -5978,7 +5756,6 @@ se/	su/	urn:cite2:hmt:lsj.chicago_md:n97456	p-s----a-
 se/	su/	urn:cite2:hmt:lsj.chicago_md:n97456	p-s----a-
 sh/n	sh/s	urn:cite2:hmt:lsj.chicago_md:n93867	n-s---ma-
 sh/n	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-s---fa-
-si/thsin	si/thsis	- no urn found -	n-s---fa-
 so/n	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-s---ma-
 so/n	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-s---nn-
 so/n	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-s---nv-
@@ -5991,11 +5768,8 @@ su/mmaxoi	su/mmaxos	urn:cite2:hmt:lsj.chicago_md:n98358	n-p---fv-
 su/mmaxo/s	su/mmaxos	urn:cite2:hmt:lsj.chicago_md:n98358	n-s---mn-
 su/mmaxo/s	su/mmaxos	urn:cite2:hmt:lsj.chicago_md:n98358	n-s---fn-
 su/n	su/n	urn:cite2:hmt:lsj.chicago_md:n99002	r--------
-sw/seie	sw/zw	- no urn found -	v3saoa---
 sw/fronas	sw/frwn	urn:cite2:hmt:lsj.chicago_md:n102117	n-p---ma-
 sw/fronas	sw/frwn	urn:cite2:hmt:lsj.chicago_md:n102117	n-p---fa-
-sh=s	se/w	- no urn found -	v2spia---
-sh=s	se/w	- no urn found -	v2siia---
 sh=s	sh/s	urn:cite2:hmt:lsj.chicago_md:n93867	n-p---ma-
 sh=s	sh/s	urn:cite2:hmt:lsj.chicago_md:n93867	n-p---mn-
 sh=s	sh/s	urn:cite2:hmt:lsj.chicago_md:n93867	n-p---mv-
@@ -6003,9 +5777,6 @@ sh=s	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-s---fg-
 su=k'	su=kon	urn:cite2:hmt:lsj.chicago_md:n98114	n-p---nn-
 su=k'	su=kon	urn:cite2:hmt:lsj.chicago_md:n98114	n-p---nv-
 su=k'	su=kon	urn:cite2:hmt:lsj.chicago_md:n98114	n-p---na-
-sw|zoi/meqa	sw/zw	- no urn found -	v1ppoe---
-sw/|zein	sw/zw	- no urn found -	v--pna---
-sw=n	se/w	- no urn found -	v-sppamn-
 sw=n	sh/s	urn:cite2:hmt:lsj.chicago_md:n93867	n-p---mg-
 sw=n	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-p---fg-
 sw=n	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-p---mg-
@@ -6016,13 +5787,9 @@ sw=n	sw=s	urn:cite2:hmt:lsj.chicago_md:n102082	n-s---fa-
 sw=n	sw=s	urn:cite2:hmt:lsj.chicago_md:n102082	n-s---fa-	sw=n	sw=s	urn:cite2:hmt:lsj.chicago_md:n102083	n-s---fa-
 sw=|	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-s---md-
 sw=|	so/s	urn:cite2:hmt:lsj.chicago_md:n95610	a-s---nd-
-sw=|ze	sw/zw	- no urn found -	v2spma---
-sw=|ze	sw/zw	- no urn found -	v3siia---
 tadi/	o(/de	urn:cite2:hmt:lsj.chicago_md:n72010	n-p---mn-
 tainiou=sqai	tainio/w	urn:cite2:hmt:lsj.chicago_md:n102190	v--pne---
 talaipwroi=to	talaipwre/w	urn:cite2:hmt:lsj.chicago_md:n102213	v3spoe---
-tala/ntw|	ta/lanton	- no urn found -	n-s---nd-
-tala/rois	ta/laros	- no urn found -	n-p---md-
 taurhdo/n	taurhdo/n	urn:cite2:hmt:lsj.chicago_md:n102538	d--------
 taurofa/gou	taurofa/gos	urn:cite2:hmt:lsj.chicago_md:n102593	n-s---mg-
 taurofa/gou	taurofa/gos	urn:cite2:hmt:lsj.chicago_md:n102593	n-s---fg-
@@ -6043,7 +5810,6 @@ tau)to/n	tau)to/s	urn:cite2:hmt:lsj.chicago_md:n102632	a-s---ma-
 tau)to/n	tau)to/s	urn:cite2:hmt:lsj.chicago_md:n102632	a-s---nn-
 tau)to/n	tau)to/s	urn:cite2:hmt:lsj.chicago_md:n102632	a-s---nv-
 tau)to/n	tau)to/s	urn:cite2:hmt:lsj.chicago_md:n102632	a-s---na-
-tau)tw=|	tau)ta/zw	- no urn found -	v3sfoa---
 tau)tw=|	tau)to/s	urn:cite2:hmt:lsj.chicago_md:n102632	a-s---md-
 tau)tw=|	tau)to/s	urn:cite2:hmt:lsj.chicago_md:n102632	a-s---nd-
 tau/thn	ou(=tos	urn:cite2:hmt:lsj.chicago_md:n76062	n-s---fa-
@@ -6057,18 +5823,6 @@ tau=ta/	ou(=tos	urn:cite2:hmt:lsj.chicago_md:n76062	n-p---nn-
 tau=ta/	ou(=tos	urn:cite2:hmt:lsj.chicago_md:n76062	n-p---nv-
 tau=ta/	ou(=tos	urn:cite2:hmt:lsj.chicago_md:n76062	n-p---na-
 te	te	urn:cite2:hmt:lsj.chicago_md:n102752	g--------
-teqnew=tos	qnh/skw	- no urn found -	v-srpamg-
-teqnew=tos	qnh/skw	- no urn found -	v-srpang-
-teqnhke/nai	qnh/skw	- no urn found -	v--rna---
-teqnhko/sin	qnh/skw	- no urn found -	v-prpamd-
-teqnhko/sin	qnh/skw	- no urn found -	v-prpand-
-teqnhko/ta	qnh/skw	- no urn found -	v-prpann-
-teqnhko/ta	qnh/skw	- no urn found -	v-prpanv-
-teqnhko/ta	qnh/skw	- no urn found -	v-prpana-
-teqnhko/ta	qnh/skw	- no urn found -	v-srpama-
-teqnhko/tos	qnh/skw	- no urn found -	v-srpamg-
-teqnhko/tos	qnh/skw	- no urn found -	v-srpang-
-teqna/nai	qnh/skw	- no urn found -	v--rna---
 teqoru/bhken	qorube/w	urn:cite2:hmt:lsj.chicago_md:n48970	v3sria---
 teqoru/bhken	qorube/w	urn:cite2:hmt:lsj.chicago_md:n48970	v3plia---
 teletai=s	teleth/	urn:cite2:hmt:lsj.chicago_md:n102989	n-p---fd-
@@ -6086,8 +5840,6 @@ tema/xh	te/maxos	urn:cite2:hmt:lsj.chicago_md:n103038	n-p---na-
 tema/xh	te/maxos	urn:cite2:hmt:lsj.chicago_md:n103038	n-d---nn-
 tema/xh	te/maxos	urn:cite2:hmt:lsj.chicago_md:n103038	n-d---nv-
 tema/xh	te/maxos	urn:cite2:hmt:lsj.chicago_md:n103038	n-d---na-
-tetraph/xeis	tetra/phxus	- no urn found -	n-p---mn-
-tetraph/xeis	tetra/phxus	- no urn found -	n-p---ma-
 tetrimme/nh	tri/bw	urn:cite2:hmt:lsj.chicago_md:n104838	v-srpefn-
 tetrimme/nh	tri/bw	urn:cite2:hmt:lsj.chicago_md:n104838	v-srpefv-
 teutli/oisi	teutli/on	urn:cite2:hmt:lsj.chicago_md:n103664	n-p---nd-
@@ -6166,9 +5918,7 @@ toioutoni/	toiou=tos	urn:cite2:hmt:lsj.chicago_md:n104169	n-s---ma-
 toioutosi/	toiou=tos	urn:cite2:hmt:lsj.chicago_md:n104169	n-s---mn-
 toiou=ton	toiou=tos	urn:cite2:hmt:lsj.chicago_md:n104169	n-s---ma-
 toiou=tos	toiou=tos	urn:cite2:hmt:lsj.chicago_md:n104169	n-s---mn-
-toixwru/xois	toixw/ruxos	- no urn found -	n-p---md-
 toixwru/xois	toixwru/xos	urn:cite2:hmt:lsj.chicago_md:n104200	n-p---md-
-toixwru/xous	toixw/ruxos	- no urn found -	n-p---ma-
 toixwru/xous	toixwru/xos	urn:cite2:hmt:lsj.chicago_md:n104200	n-p---ma-
 toiw=nde	toio/sde	urn:cite2:hmt:lsj.chicago_md:n104166	n-p---fg-
 tolmhre/	tolmhro/s	urn:cite2:hmt:lsj.chicago_md:n104229	a-s---mv-
@@ -6208,10 +5958,6 @@ tou)/noma	o)/noma	urn:cite2:hmt:lsj.chicago_md:n74126	n-s---na-
 tou)/pos	e)/pos	urn:cite2:hmt:lsj.chicago_md:n41858	n-s---nn-
 tou)/pos	e)/pos	urn:cite2:hmt:lsj.chicago_md:n41858	n-s---nv-
 tou)/pos	e)/pos	urn:cite2:hmt:lsj.chicago_md:n41858	n-s---na-
-tou)/rgon	e)/rgnumi	- no urn found -	v-sppamv-
-tou)/rgon	e)/rgnumi	- no urn found -	v-sppann-
-tou)/rgon	e)/rgnumi	- no urn found -	v-sppanv-
-tou)/rgon	e)/rgnumi	- no urn found -	v-sppana-
 tou)/rgon	e)/rgon	urn:cite2:hmt:lsj.chicago_md:n42214	n-s---nn-
 tou)/rgon	e)/rgon	urn:cite2:hmt:lsj.chicago_md:n42214	n-s---nv-
 tou)/rgon	e)/rgon	urn:cite2:hmt:lsj.chicago_md:n42214	n-s---na-
@@ -6357,8 +6103,6 @@ tupto/menon	tu/ptw	urn:cite2:hmt:lsj.chicago_md:n105945	v-sppena-
 tupto/menos	tu/ptw	urn:cite2:hmt:lsj.chicago_md:n105945	v-sppemn-
 turopwlh=sai	turopwle/w	urn:cite2:hmt:lsj.chicago_md:n106020	v--ana---
 turo/n	turo/s	urn:cite2:hmt:lsj.chicago_md:n106023	n-s---ma-
-tufw/s	tufw/s	- no urn found -	n-p---ma-
-tufw/s	tufw/s	- no urn found -	n-s---mn-
 ta)gaqa/	a)gaqo/s	urn:cite2:hmt:lsj.chicago_md:n260	a-p---nn-
 ta)gaqa/	a)gaqo/s	urn:cite2:hmt:lsj.chicago_md:n260	a-p---nv-
 ta)gaqa/	a)gaqo/s	urn:cite2:hmt:lsj.chicago_md:n260	a-p---na-
@@ -6394,14 +6138,6 @@ ta)ma/	e)mo/s	urn:cite2:hmt:lsj.chicago_md:n34194	a-d---fv-
 ta)ma/	e)mo/s	urn:cite2:hmt:lsj.chicago_md:n34194	a-d---fa-
 ta)ma/	e)mo/s	urn:cite2:hmt:lsj.chicago_md:n34194	a-s---fn-
 ta)ma/	e)mo/s	urn:cite2:hmt:lsj.chicago_md:n34194	a-s---fv-
-ta)ma/	h(mo/s	- no urn found -	a-p---nn-
-ta)ma/	h(mo/s	- no urn found -	a-p---nv-
-ta)ma/	h(mo/s	- no urn found -	a-p---na-
-ta)ma/	h(mo/s	- no urn found -	a-d---fn-
-ta)ma/	h(mo/s	- no urn found -	a-d---fv-
-ta)ma/	h(mo/s	- no urn found -	a-d---fa-
-ta)ma/	h(mo/s	- no urn found -	a-s---fn-
-ta)ma/	h(mo/s	- no urn found -	a-s---fv-
 ta)n	e)n	urn:cite2:hmt:lsj.chicago_md:n34700	r--------
 ta)n	ei)s	urn:cite2:hmt:lsj.chicago_md:n31235	r--------
 ta)nanti/'	e)nanti/os	urn:cite2:hmt:lsj.chicago_md:n34855	a-p---nn-
@@ -6411,7 +6147,6 @@ ta)nanti/'	e)nanti/os	urn:cite2:hmt:lsj.chicago_md:n34855	a-s---mv-
 ta)nanti/'	e)nanti/os	urn:cite2:hmt:lsj.chicago_md:n34855	a-p---fn-
 ta)nanti/'	e)nanti/os	urn:cite2:hmt:lsj.chicago_md:n34855	a-p---fv-
 ta)nanti/'	e)nanti/os	urn:cite2:hmt:lsj.chicago_md:n34855	a-s---fd-
-ta)ntauqoi=	e)ntauqoi=	- no urn found -	d--------
 ta)ntiknh/mia	a)ntiknh/mion	urn:cite2:hmt:lsj.chicago_md:n10036	n-p---nn-
 ta)ntiknh/mia	a)ntiknh/mion	urn:cite2:hmt:lsj.chicago_md:n10036	n-p---nv-
 ta)ntiknh/mia	a)ntiknh/mion	urn:cite2:hmt:lsj.chicago_md:n10036	n-p---na-
@@ -6486,9 +6221,6 @@ ta)/ra	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v2spma---
 ta)/ra	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v2spma---	ta)/ra	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42156	v2spma---
 ta)/ra	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v2spma---
 ta)/ra	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v2spma---	ta)/ra	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42156	v2spma---
-ta)/ria	a)/rioi	- no urn found -	a-p---nn-
-ta)/ria	a)/rioi	- no urn found -	a-p---nv-
-ta)/ria	a)/rioi	- no urn found -	a-p---na-
 ta)/ria	e)/rion	urn:cite2:hmt:lsj.chicago_md:n42495	n-p---nn-
 ta)/ria	e)/rion	urn:cite2:hmt:lsj.chicago_md:n42495	n-p---nv-
 ta)/ria	e)/rion	urn:cite2:hmt:lsj.chicago_md:n42495	n-p---na-
@@ -6541,21 +6273,12 @@ ta/xa	ta/xa	urn:cite2:hmt:lsj.chicago_md:n102668	d--------
 ta/xa	ta/xos	urn:cite2:hmt:lsj.chicago_md:n102676	n-p---nn-
 ta/xa	ta/xos	urn:cite2:hmt:lsj.chicago_md:n102676	n-p---nv-
 ta/xa	ta/xos	urn:cite2:hmt:lsj.chicago_md:n102676	n-p---na-
-ta/xist'	ta/xistos	- no urn found -	a-p---nn-
-ta/xist'	ta/xistos	- no urn found -	a-p---nv-
-ta/xist'	ta/xistos	- no urn found -	a-p---na-
-ta/xist'	ta/xistos	- no urn found -	a-s---mv-
-ta/xist'	ta/xistos	- no urn found -	a-p---fn-
-ta/xist'	ta/xistos	- no urn found -	a-p---fv-
 ta/xist'	taxu/s	urn:cite2:hmt:lsj.chicago_md:n102736	a-p---nn-
 ta/xist'	taxu/s	urn:cite2:hmt:lsj.chicago_md:n102736	a-p---nv-
 ta/xist'	taxu/s	urn:cite2:hmt:lsj.chicago_md:n102736	a-p---na-
 ta/xist'	taxu/s	urn:cite2:hmt:lsj.chicago_md:n102736	a-s---mv-
 ta/xist'	taxu/s	urn:cite2:hmt:lsj.chicago_md:n102736	a-p---fn-
 ta/xist'	taxu/s	urn:cite2:hmt:lsj.chicago_md:n102736	a-p---fv-
-ta/xista	ta/xistos	- no urn found -	a-p---nn-
-ta/xista	ta/xistos	- no urn found -	a-p---nv-
-ta/xista	ta/xistos	- no urn found -	a-p---na-
 ta/xista	taxu/s	urn:cite2:hmt:lsj.chicago_md:n102736	a-p---nn-
 ta/xista	taxu/s	urn:cite2:hmt:lsj.chicago_md:n102736	a-p---nv-
 ta/xista	taxu/s	urn:cite2:hmt:lsj.chicago_md:n102736	a-p---na-
@@ -6563,8 +6286,6 @@ te/	su/	urn:cite2:hmt:lsj.chicago_md:n97456	p-s----a-
 te/	te	urn:cite2:hmt:lsj.chicago_md:n102752	g--------
 te/ggousai	te/ggw	urn:cite2:hmt:lsj.chicago_md:n102759	v-pppafn-
 te/ggousai	te/ggw	urn:cite2:hmt:lsj.chicago_md:n102759	v-pppafv-
-te/qnhke/	qnh/skw	- no urn found -	v2srma---
-te/qnhke/	qnh/skw	- no urn found -	v3sria---
 te/kna	te/knon	urn:cite2:hmt:lsj.chicago_md:n102869	n-p---nn-
 te/kna	te/knon	urn:cite2:hmt:lsj.chicago_md:n102869	n-p---nv-
 te/kna	te/knon	urn:cite2:hmt:lsj.chicago_md:n102869	n-p---na-
@@ -6693,7 +6414,6 @@ th=sde	o(/de	urn:cite2:hmt:lsj.chicago_md:n72010	n-s---fg-
 th=|	o(	urn:cite2:hmt:lsj.chicago_md:n71882	l-s---fd-
 th=|	th=|	urn:cite2:hmt:lsj.chicago_md:n103745	d--------
 th=|de	o(/de	urn:cite2:hmt:lsj.chicago_md:n72010	n-s---fd-
-th=|de	th=|de	- no urn found -	d--------
 tw|	tis	urn:cite2:hmt:lsj.chicago_md:n104051	p-s----d-
 tw=n	o(	urn:cite2:hmt:lsj.chicago_md:n71882	l-p---fg-
 tw=n	o(	urn:cite2:hmt:lsj.chicago_md:n71882	l-p---mg-
@@ -6893,7 +6613,6 @@ fula/ceis	fula/ssw	urn:cite2:hmt:lsj.chicago_md:n112559	v2sasa---
 fula/ceis	fula/ssw	urn:cite2:hmt:lsj.chicago_md:n112559	v2sfia---
 fula/ceis	fula/zw	urn:cite2:hmt:lsj.chicago_md:n112526	v2sasa---
 fula/ceis	fula/zw	urn:cite2:hmt:lsj.chicago_md:n112526	v2sfia---
-fush/mati	fu/shma	- no urn found -	n-s---nd-
 fusw=n	fu/w	urn:cite2:hmt:lsj.chicago_md:n112794	v-papafg-
 fusw=n	fu/w	urn:cite2:hmt:lsj.chicago_md:n112794	v-sfpamn-
 fusw=n	fu/zw	urn:cite2:hmt:lsj.chicago_md:n112495	v-sfpamn-
@@ -6923,8 +6642,6 @@ fa/lagges	fa/lagc	urn:cite2:hmt:lsj.chicago_md:n110166	n-p---fv-
 fa/os	fa/os	urn:cite2:hmt:lsj.chicago_md:n110284	n-s---nn-
 fa/os	fa/os	urn:cite2:hmt:lsj.chicago_md:n110284	n-s---nv-
 fa/os	fa/os	urn:cite2:hmt:lsj.chicago_md:n110284	n-s---na-
-fa/ruc	fa/ruc	- no urn found -	n-s---fn-
-fa/ruc	fa/ruc	- no urn found -	n-s---fv-
 fa/skein	fa/skw	urn:cite2:hmt:lsj.chicago_md:n110407	v--pna---
 fa/skh|	fa/skw	urn:cite2:hmt:lsj.chicago_md:n110407	v2spse---
 fa/skh|	fa/skw	urn:cite2:hmt:lsj.chicago_md:n110407	v2spie---
@@ -6957,8 +6674,6 @@ fh/m'	fhmi/	urn:cite2:hmt:lsj.chicago_md:n110639	v1spia---
 fh/s'	fhmi/	urn:cite2:hmt:lsj.chicago_md:n110639	v3spia---
 fh/seis	fhmi/	urn:cite2:hmt:lsj.chicago_md:n110639	v2sasa---
 fh/seis	fhmi/	urn:cite2:hmt:lsj.chicago_md:n110639	v2sfia---
-fi/laulos	fi/laulos	- no urn found -	n-s---mn-
-fi/laulos	fi/laulos	- no urn found -	n-s---fn-
 fi/loi	fi/los	urn:cite2:hmt:lsj.chicago_md:n111463	a-p---mn-
 fi/loi	fi/los	urn:cite2:hmt:lsj.chicago_md:n111463	a-p---mv-
 fi/lois	fi/los	urn:cite2:hmt:lsj.chicago_md:n111463	a-p---md-
@@ -7288,7 +7003,6 @@ xrh=n	xra/w	urn:cite2:hmt:lsj.chicago_md:n114552	v--pna---
 xrh=n	xra/w	urn:cite2:hmt:lsj.chicago_md:n114552	v--pna---	xrh=n	xra/w	urn:cite2:hmt:lsj.chicago_md:n114553	v--pna---
 xrh=n	xrau/w	urn:cite2:hmt:lsj.chicago_md:n114551	v--pna---
 xrh=n	xrh/	urn:cite2:hmt:lsj.chicago_md:n114615	v3siia---
-xrh=n	xrh=	- no urn found -	n-s---fa-
 xrh=nai	xrh/	urn:cite2:hmt:lsj.chicago_md:n114615	v--pna---
 xrh=sqai	xra/omai	urn:cite2:hmt:lsj.chicago_md:n114553a	v--pne---
 xrh=sqai	xra/omai	urn:cite2:hmt:lsj.chicago_md:n114553a	v--pne---
@@ -7550,18 +7264,6 @@ a)qala/ttwtos	a)qala/sswtos	urn:cite2:hmt:lsj.chicago_md:n1887	n-s---mn-
 a)qala/ttwtos	a)qala/sswtos	urn:cite2:hmt:lsj.chicago_md:n1887	n-s---fn-
 a)qliw/tatos	a)/qlios	urn:cite2:hmt:lsj.chicago_md:n2024	a-s---mns
 a)qliw/tatos	a)/qlios	urn:cite2:hmt:lsj.chicago_md:n2024	a-s---mns
-a)qa/naton	a)qa/natos	- no urn found -	a-s---ma-
-a)qa/naton	a)qa/natos	- no urn found -	a-s---nn-
-a)qa/naton	a)qa/natos	- no urn found -	a-s---nv-
-a)qa/naton	a)qa/natos	- no urn found -	a-s---na-
-a)qa/naton	a)qa/natos	- no urn found -	n-s---ma-
-a)qa/naton	a)qa/natos	- no urn found -	n-s---fa-
-a)qa/naton	a)qa/natos	- no urn found -	n-s---nn-
-a)qa/naton	a)qa/natos	- no urn found -	n-s---nv-
-a)qa/naton	a)qa/natos	- no urn found -	n-s---na-
-a)qa/natos	a)qa/natos	- no urn found -	a-s---mn-
-a)qa/natos	a)qa/natos	- no urn found -	n-s---mn-
-a)qa/natos	a)qa/natos	- no urn found -	n-s---fn-
 a)kmai=s	a)kmh/	urn:cite2:hmt:lsj.chicago_md:n3241	n-p---fd-
 a)kolou/qei	a)kolouqe/w	urn:cite2:hmt:lsj.chicago_md:n3289	v3siia---
 a)kolou/qei	a)kolouqe/w	urn:cite2:hmt:lsj.chicago_md:n3289	v2spma---
@@ -7574,17 +7276,6 @@ a)kouste/a	a)kouste/on	urn:cite2:hmt:lsj.chicago_md:n3392	n-d---fv-
 a)kouste/a	a)kouste/on	urn:cite2:hmt:lsj.chicago_md:n3392	n-d---fa-
 a)kouste/a	a)kouste/on	urn:cite2:hmt:lsj.chicago_md:n3392	n-s---fn-
 a)kouste/a	a)kouste/on	urn:cite2:hmt:lsj.chicago_md:n3392	n-s---fv-
-a)kouste/a	a)kouste/os	- no urn found -	n-p---nn-
-a)kouste/a	a)kouste/os	- no urn found -	n-p---nv-
-a)kouste/a	a)kouste/os	- no urn found -	n-p---na-
-a)kouste/a	a)kouste/os	- no urn found -	n-p---nn-
-a)kouste/a	a)kouste/os	- no urn found -	n-p---nv-
-a)kouste/a	a)kouste/os	- no urn found -	n-p---na-
-a)kouste/a	a)kouste/os	- no urn found -	n-d---fn-
-a)kouste/a	a)kouste/os	- no urn found -	n-d---fv-
-a)kouste/a	a)kouste/os	- no urn found -	n-d---fa-
-a)kouste/a	a)kouste/os	- no urn found -	n-s---fn-
-a)kouste/a	a)kouste/os	- no urn found -	n-s---fv-
 a)kouste/a	a)kousth/s	urn:cite2:hmt:lsj.chicago_md:n3394	n-s---ma-
 a)kou/eis	a)kou/w	urn:cite2:hmt:lsj.chicago_md:n3398	v2spia---
 a)kou/sei	a)/kousis	urn:cite2:hmt:lsj.chicago_md:n3388	n-d---fn-
@@ -7775,17 +7466,9 @@ a)ndrei=on	a)ndrei=os	urn:cite2:hmt:lsj.chicago_md:n7915	a-s---ma-
 a)ndrei=on	a)ndrei=os	urn:cite2:hmt:lsj.chicago_md:n7915	a-s---nn-
 a)ndrei=on	a)ndrei=os	urn:cite2:hmt:lsj.chicago_md:n7915	a-s---nv-
 a)ndrei=on	a)ndrei=os	urn:cite2:hmt:lsj.chicago_md:n7915	a-s---na-
-a)ndrei=a/	a)ndrei=a	- no urn found -	n-p---nn-
-a)ndrei=a/	a)ndrei=a	- no urn found -	n-p---nv-
-a)ndrei=a/	a)ndrei=a	- no urn found -	n-p---na-
 a)ndrei=a/	a)ndrei=os	urn:cite2:hmt:lsj.chicago_md:n7915	a-p---nn-
 a)ndrei=a/	a)ndrei=os	urn:cite2:hmt:lsj.chicago_md:n7915	a-p---nv-
 a)ndrei=a/	a)ndrei=os	urn:cite2:hmt:lsj.chicago_md:n7915	a-p---na-
-a)ndroda/ikton	a)ndroda/iktos	- no urn found -	n-s---ma-
-a)ndroda/ikton	a)ndroda/iktos	- no urn found -	n-s---fa-
-a)ndroda/ikton	a)ndroda/iktos	- no urn found -	n-s---nn-
-a)ndroda/ikton	a)ndroda/iktos	- no urn found -	n-s---nv-
-a)ndroda/ikton	a)ndroda/iktos	- no urn found -	n-s---na-
 a)ndroi=n	a)nh/r	urn:cite2:hmt:lsj.chicago_md:n8665	n-d---mg-
 a)ndroi=n	a)nh/r	urn:cite2:hmt:lsj.chicago_md:n8665	n-d---md-
 a)ndri/	a)ndri/s	urn:cite2:hmt:lsj.chicago_md:n7949	n-s---fv-
@@ -7988,7 +7671,6 @@ a)podoi/man	a)podi/dwmi	urn:cite2:hmt:lsj.chicago_md:n12485	v1saom---
 a)podu/esqe	a)podu/w	urn:cite2:hmt:lsj.chicago_md:n12562	v2ppme---
 a)podu/esqe	a)podu/w	urn:cite2:hmt:lsj.chicago_md:n12562	v2ppie---
 a)podu/esqe	a)podu/w	urn:cite2:hmt:lsj.chicago_md:n12562	v2piie---
-a)poqanei=n	a)poqnh/skw	- no urn found -	v--ana---
 a)poklu/sw	a)poklu/zw	urn:cite2:hmt:lsj.chicago_md:n12870	v2saim---
 a)poklu/sw	a)poklu/zw	urn:cite2:hmt:lsj.chicago_md:n12870	v1sasa---
 a)poklu/sw	a)poklu/zw	urn:cite2:hmt:lsj.chicago_md:n12870	v1sfia---
@@ -8012,11 +7694,9 @@ a)pomacame/nh	a)poma/ssw	urn:cite2:hmt:lsj.chicago_md:n13183	v-sapmfn-
 a)pomacame/nh	a)poma/ssw	urn:cite2:hmt:lsj.chicago_md:n13183	v-sapmfv-
 a)pomacame/nh	a)poma/ssw	urn:cite2:hmt:lsj.chicago_md:n13183	v-sapmfn-
 a)pomacame/nh	a)poma/ssw	urn:cite2:hmt:lsj.chicago_md:n13183	v-sapmfv-
-a)popardh/somai	para/-de/omai	- no urn found -	v1sase---
-a)popardh/somai	para/-de/omai	- no urn found -	v1sfie---
-a)popardh/somai	para/-de/w	- no urn found -	v1sasm---
-a)popardh/somai	para/-de/w	- no urn found -	v1sfim---
-a)popardh/somai	para/-de/w	- no urn found -	v1sasm---
+a)popardh/somai	para/-de/w	urn:cite2:hmt:lsj.chicago_md:n77917	v1sasm---
+a)popardh/somai	para/-de/w	urn:cite2:hmt:lsj.chicago_md:n77917	v1sfim---
+a)popardh/somai	para/-de/w	urn:cite2:hmt:lsj.chicago_md:n77917	v1sasm---
 a)popeira/somai	a)popeira/omai	urn:cite2:hmt:lsj.chicago_md:n13385	v1sase---
 a)popeira/somai	a)popeira/omai	urn:cite2:hmt:lsj.chicago_md:n13385	v1sase---
 a)popeira/somai	a)popeira/omai	urn:cite2:hmt:lsj.chicago_md:n13385	v1sfie---
@@ -8108,7 +7788,6 @@ a)pu/lwton	a)pu/lwtos	urn:cite2:hmt:lsj.chicago_md:n14581	n-s---nv-
 a)pu/lwton	a)pu/lwtos	urn:cite2:hmt:lsj.chicago_md:n14581	n-s---na-
 a)pw/lesen	a)po/llumi	urn:cite2:hmt:lsj.chicago_md:n13096	v3saia---
 a)pw/leto	a)po/llumi	urn:cite2:hmt:lsj.chicago_md:n13096	v3saim---
-a)ph=|cas	a)pai/ssw	- no urn found -	v2saia---
 a)rgale/wn	a)rgale/os	urn:cite2:hmt:lsj.chicago_md:n14751	a-p---fg-
 a)rgale/wn	a)rgale/os	urn:cite2:hmt:lsj.chicago_md:n14751	a-p---mg-
 a)rgale/wn	a)rgale/os	urn:cite2:hmt:lsj.chicago_md:n14751	a-p---ng-
@@ -8178,7 +7857,6 @@ a)sth/r	a)sth/r	urn:cite2:hmt:lsj.chicago_md:n16527	n-s---mn-
 a)sfalw=s	a)sfalh/s	urn:cite2:hmt:lsj.chicago_md:n16864	x--------
 a)texnw=s	a)/texnos	urn:cite2:hmt:lsj.chicago_md:n17050	x--------
 a)texnw=s	a)texnh/s	urn:cite2:hmt:lsj.chicago_md:n17047	x--------
-a)texnw=s	a)texnw=s	- no urn found -	d--------
 a)topi/as	a)topi/a	urn:cite2:hmt:lsj.chicago_md:n17153	n-p---fa-
 a)topi/as	a)topi/a	urn:cite2:hmt:lsj.chicago_md:n17153	n-s---fg-
 a)trapo/s	a)trapo/s	urn:cite2:hmt:lsj.chicago_md:n17173	n-s---fn-
@@ -8195,20 +7873,9 @@ a)fanou=s	a)fanh/s	urn:cite2:hmt:lsj.chicago_md:n18127	n-s---ng-
 a)fele/sqai	a)faire/w	urn:cite2:hmt:lsj.chicago_md:n18107	v--anm---
 a)fei=lon	a)faire/w	urn:cite2:hmt:lsj.chicago_md:n18107	v3paia---
 a)fei=lon	a)faire/w	urn:cite2:hmt:lsj.chicago_md:n18107	v1saia---
-a)figme/noisin	a)fi/zw	- no urn found -	v-prpemd-
-a)figme/noisin	a)fi/zw	- no urn found -	v-prpend-
 a)figme/noisin	a)fikne/omai	urn:cite2:hmt:lsj.chicago_md:n18334	v-prpemd-
 a)figme/noisin	a)fikne/omai	urn:cite2:hmt:lsj.chicago_md:n18334	v-prpend-
-a)figme/nos	a)fi/zw	- no urn found -	v-srpemn-
 a)figme/nos	a)fikne/omai	urn:cite2:hmt:lsj.chicago_md:n18334	v-srpemn-
-a)figme/nw	a)fi/zw	- no urn found -	v-drpemn-
-a)figme/nw	a)fi/zw	- no urn found -	v-drpemv-
-a)figme/nw	a)fi/zw	- no urn found -	v-drpema-
-a)figme/nw	a)fi/zw	- no urn found -	v-drpenn-
-a)figme/nw	a)fi/zw	- no urn found -	v-drpenv-
-a)figme/nw	a)fi/zw	- no urn found -	v-drpena-
-a)figme/nw	a)fi/zw	- no urn found -	v-srpemg-
-a)figme/nw	a)fi/zw	- no urn found -	v-srpeng-
 a)figme/nw	a)fikne/omai	urn:cite2:hmt:lsj.chicago_md:n18334	v-drpemn-
 a)figme/nw	a)fikne/omai	urn:cite2:hmt:lsj.chicago_md:n18334	v-drpemv-
 a)figme/nw	a)fikne/omai	urn:cite2:hmt:lsj.chicago_md:n18334	v-drpema-
@@ -8218,8 +7885,6 @@ a)figme/nw	a)fikne/omai	urn:cite2:hmt:lsj.chicago_md:n18334	v-drpena-
 a)figme/nw	a)fikne/omai	urn:cite2:hmt:lsj.chicago_md:n18334	v-srpemg-
 a)figme/nw	a)fikne/omai	urn:cite2:hmt:lsj.chicago_md:n18334	v-srpeng-
 a)fieme/nhn	a)fi/hmi	urn:cite2:hmt:lsj.chicago_md:n18331	v-sppmfa-
-a)fico/meq'	a)fi/zw	- no urn found -	v1pasm---
-a)fico/meq'	a)fi/zw	- no urn found -	v1pfim---
 a)fico/meq'	a)fikne/omai	urn:cite2:hmt:lsj.chicago_md:n18334	v1pfim---
 a)fobo/splagxnos	a)fobo/splagxnos	urn:cite2:hmt:lsj.chicago_md:n18418	n-s---mn-
 a)fobo/splagxnos	a)fobo/splagxnos	urn:cite2:hmt:lsj.chicago_md:n18418	n-s---fn-
@@ -8589,7 +8254,6 @@ a(/rmatos	a(/rma	urn:cite2:hmt:lsj.chicago_md:n15214	n-s---ng-
 a(/s	o(/s	urn:cite2:hmt:lsj.chicago_md:n75512	p-p---fa-
 a(/s	o(/s	urn:cite2:hmt:lsj.chicago_md:n75512	p-p---fa-	a(/s	o(/s	urn:cite2:hmt:lsj.chicago_md:n75513	p-p---fa-
 a(/te	a(/te	urn:cite2:hmt:lsj.chicago_md:n16986	d--------
-a(/tte	a)i/ssw	- no urn found -	v2spma---
 a(/yate	a(/ptw	urn:cite2:hmt:lsj.chicago_md:n14568	v2pama---
 a(/yate	a(/ptw	urn:cite2:hmt:lsj.chicago_md:n14568	v2paia---
 a(/yate	a(/ptw	urn:cite2:hmt:lsj.chicago_md:n14568	v2paia---
@@ -8601,9 +8265,6 @@ e)ba/lleto	ba/llw	urn:cite2:hmt:lsj.chicago_md:n19282	v3siie---
 e)ggene/sqai	e)ggi/gnomai	urn:cite2:hmt:lsj.chicago_md:n29974	v--anm---
 e)ggu/s	e)ggu/s	urn:cite2:hmt:lsj.chicago_md:n30030	d--------
 e)ggu/tata	e)ggu/s	urn:cite2:hmt:lsj.chicago_md:n30030	d--------
-e)ggu/tata	e)ggu/tatos	- no urn found -	a-p---nn-
-e)ggu/tata	e)ggu/tatos	- no urn found -	a-p---nv-
-e)ggu/tata	e)ggu/tatos	- no urn found -	a-p---na-
 e)ggu/tata	e)ggu/teros	urn:cite2:hmt:lsj.chicago_md:n30031	n-p---nn-
 e)ggu/tata	e)ggu/teros	urn:cite2:hmt:lsj.chicago_md:n30031	n-p---nv-
 e)ggu/tata	e)ggu/teros	urn:cite2:hmt:lsj.chicago_md:n30031	n-p---na-
@@ -8781,7 +8442,6 @@ e)ndiatri/yei	e)ndiatri/bw	urn:cite2:hmt:lsj.chicago_md:n35208	v3sasa---
 e)ndiatri/yei	e)ndiatri/bw	urn:cite2:hmt:lsj.chicago_md:n35208	v2sfim---
 e)ndiatri/yei	e)ndiatri/bw	urn:cite2:hmt:lsj.chicago_md:n35208	v3sfia---
 e)negka/tw	fe/rw	urn:cite2:hmt:lsj.chicago_md:n110598	v3sama---
-e)nege/grapto	e)ggra/fw	- no urn found -	v3slie---
 e)nequmh/qhs	e)nqume/omai	urn:cite2:hmt:lsj.chicago_md:n35642	v2saip---
 e)neskeu/asa	e)nskeua/zw	urn:cite2:hmt:lsj.chicago_md:n36056	v1saia---
 e)nhmme/non	e)na/ptw	urn:cite2:hmt:lsj.chicago_md:n34971	v-srpema-
@@ -8803,7 +8463,6 @@ e)nne/'	e)nne/w	urn:cite2:hmt:lsj.chicago_md:n35849	v2siie---
 e)nne/a	e)nne/a	urn:cite2:hmt:lsj.chicago_md:n35769	m--------
 e)noxlw=n	e)noxle/w	urn:cite2:hmt:lsj.chicago_md:n36008	v-sppamn-
 e)noxlw=n	e)noxle/w	urn:cite2:hmt:lsj.chicago_md:n36008	v-sppamn-
-e)nou=san	e)n-ei)mi/	- no urn found -	v-sppafa-
 e)ntau=q'	e)ntau=qa	urn:cite2:hmt:lsj.chicago_md:n36165	d--------
 e)ntau=qa	e)ntau=qa	urn:cite2:hmt:lsj.chicago_md:n36165	d--------
 e)ntau=qa/	e)ntau=qa	urn:cite2:hmt:lsj.chicago_md:n36165	d--------
@@ -8818,10 +8477,6 @@ e)nh/laq'	e)nh/laton	urn:cite2:hmt:lsj.chicago_md:n35517	n-p---nv-
 e)nh/laq'	e)nh/laton	urn:cite2:hmt:lsj.chicago_md:n35517	n-p---na-
 e)no/mize	nomi/zw	urn:cite2:hmt:lsj.chicago_md:n70958	v3siia---
 e)c	e)k	urn:cite2:hmt:lsj.chicago_md:n31575	r--------
-e)cake/seis	e)ca/kesis	- no urn found -	n-p---fn-
-e)cake/seis	e)ca/kesis	- no urn found -	n-p---fv-
-e)cake/seis	e)ca/kesis	- no urn found -	n-p---fn-
-e)cake/seis	e)ca/kesis	- no urn found -	n-p---fa-
 e)capath/sh|	e)capa/thsis	urn:cite2:hmt:lsj.chicago_md:n36831	n-s---fd-
 e)capath/sh|	e)capata/w	urn:cite2:hmt:lsj.chicago_md:n36827	v2sasm---
 e)capath/sh|	e)capata/w	urn:cite2:hmt:lsj.chicago_md:n36827	v3sasa---
@@ -8900,15 +8555,9 @@ e)ch/martes	e)camarta/nw	urn:cite2:hmt:lsj.chicago_md:n36677	v2saia---
 e)ci/stasqai	e)ci/sthmi	urn:cite2:hmt:lsj.chicago_md:n37410	v--pne---
 e)co/loisq'	e)co/llumi	urn:cite2:hmt:lsj.chicago_md:n37522	v2paom---
 e)co/loito	e)co/llumi	urn:cite2:hmt:lsj.chicago_md:n37522	v3saom---
-e)co/pisq'	e)co/pisqe	- no urn found -	d--------
 e)co/pisq'	e)co/pisqen	urn:cite2:hmt:lsj.chicago_md:n37567	d--------
 e)co/pisqen	e)co/pisqen	urn:cite2:hmt:lsj.chicago_md:n37567	d--------
 e)co/pisqen	e)copi/zw	urn:cite2:hmt:lsj.chicago_md:n37564	v3paip---
-e)ca/|cas	e)cai/ssw	- no urn found -	v-sapamn-
-e)ca/|cas	e)cai/ssw	- no urn found -	v-sapamv-
-e)ca/|cas	e)cai/ssw	- no urn found -	v-sapamn-
-e)ca/|cas	e)cai/ssw	- no urn found -	v-sapamv-
-e)ca/|cas	e)cai/ssw	- no urn found -	v2saia---
 e)ch=n	e)/cesti	urn:cite2:hmt:lsj.chicago_md:n37210	v1siia---
 e)ch=n	e)/cesti	urn:cite2:hmt:lsj.chicago_md:n37210	v3piia---
 e)ch=n	e)/cesti	urn:cite2:hmt:lsj.chicago_md:n37210	v3siia---
@@ -8943,7 +8592,6 @@ e)pau/sato	e)pau/w	urn:cite2:hmt:lsj.chicago_md:n38401	v3saim---
 e)pau/sato	pau/w	urn:cite2:hmt:lsj.chicago_md:n80140	v3saim---
 e)peba/teuon	e)pibateu/w	urn:cite2:hmt:lsj.chicago_md:n38895	v3piia---
 e)peba/teuon	e)pibateu/w	urn:cite2:hmt:lsj.chicago_md:n38895	v1siia---
-e)pedei/knuto	e)pidei/knumi	- no urn found -	v3siie---
 e)pequ/mhsas	e)piqume/w	urn:cite2:hmt:lsj.chicago_md:n39482	v2saia---
 e)peida/n	e)peida/n	urn:cite2:hmt:lsj.chicago_md:n38469	c--------
 e)peidh/	e)pei/	urn:cite2:hmt:lsj.chicago_md:n38466	c--------
@@ -9074,7 +8722,6 @@ e)pi/ponoi/	e)pi/ponos	urn:cite2:hmt:lsj.chicago_md:n40599	n-p---mv-
 e)pi/ponoi/	e)pi/ponos	urn:cite2:hmt:lsj.chicago_md:n40599	n-p---fn-
 e)pi/ponoi/	e)pi/ponos	urn:cite2:hmt:lsj.chicago_md:n40599	n-p---fv-
 e)pi/sxes	e)pi/sxw	urn:cite2:hmt:lsj.chicago_md:n41216	v2spia---
-e)pi/sxes	e)pw/xato	- no urn found -	v2saia---
 e)po/ntas	e)/peimi	urn:cite2:hmt:lsj.chicago_md:n38487	v-pppama-
 e)po/ntas	e)/peimi	urn:cite2:hmt:lsj.chicago_md:n38487	v-pppama-	e)po/ntas	e)/peimi	urn:cite2:hmt:lsj.chicago_md:n38488	v-pppama-
 e)pu/qeq'	pu/qw	urn:cite2:hmt:lsj.chicago_md:n91391	v3siip---
@@ -9089,8 +8736,6 @@ e)ph=n	e)/peimi	urn:cite2:hmt:lsj.chicago_md:n38487	v3siia---	e)ph=n	e)/peimi	ur
 e)pw=n	e)/pos	urn:cite2:hmt:lsj.chicago_md:n41858	n-p---ng-
 e)rgasi/as	e)rgasi/a	urn:cite2:hmt:lsj.chicago_md:n42168	n-p---fa-
 e)rgasi/as	e)rgasi/a	urn:cite2:hmt:lsj.chicago_md:n42168	n-s---fg-
-e)rei=	e)ra/omai	- no urn found -	v2spie---
-e)rei=	e)re/omai	- no urn found -	v2spie---
 e)rei=	e)re/w	urn:cite2:hmt:lsj.chicago_md:n42358	v2spie---
 e)rei=	e)re/w	urn:cite2:hmt:lsj.chicago_md:n42358	v2spie---	e)rei=	e)re/w	urn:cite2:hmt:lsj.chicago_md:n42359	v2spie---
 e)rei=	e)re/w	urn:cite2:hmt:lsj.chicago_md:n42358	v2spie---	e)rei=	e)re/w	urn:cite2:hmt:lsj.chicago_md:n42359	v2spie---	e)rei=	e)re/w	urn:cite2:hmt:lsj.chicago_md:n42360	v2spie---
@@ -9163,8 +8808,6 @@ e)ra=n	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v--pna---
 e)ra=n	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v--pna---	e)ra=n	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42156	v--pna---
 e)ra=n	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v--pna---
 e)ra=n	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v--pna---	e)ra=n	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42156	v--pna---
-e)ra=|	e)ra/omai	- no urn found -	v2spse---
-e)ra=|	e)ra/omai	- no urn found -	v2spie---
 e)ra=|	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v2spse---
 e)ra=|	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v2spse---	e)ra=|	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42156	v2spse---
 e)ra=|	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v2spie---
@@ -9181,8 +8824,6 @@ e)ra=|	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v3spsa---
 e)ra=|	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v3spsa---	e)ra=|	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42156	v3spsa---
 e)ra=|	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v3spia---
 e)ra=|	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v3spia---	e)ra=|	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42156	v3spia---
-e)rw=	e)ra/omai	- no urn found -	v2spme---
-e)rw=	e)ra/omai	- no urn found -	v2siie---
 e)rw=	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v2spme---
 e)rw=	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v2spme---	e)rw=	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42156	v2spme---
 e)rw=	e)ra/w	urn:cite2:hmt:lsj.chicago_md:n42155	v1spsa---
@@ -9230,7 +8871,6 @@ e)si/gwn	siga/w	urn:cite2:hmt:lsj.chicago_md:n93963	v1siia---
 e)tele/sqh	tele/w	urn:cite2:hmt:lsj.chicago_md:n102995	v3saip---
 e)terateu/eto	terateu/omai	urn:cite2:hmt:lsj.chicago_md:n103109	v3siie---
 e)tra/pesqe	tre/pw	urn:cite2:hmt:lsj.chicago_md:n104685	v2paim---
-e)tw=n	e)/tai	- no urn found -	n-p---mg-
 e)tw=n	e)/ths	urn:cite2:hmt:lsj.chicago_md:n43260	n-p---mg-
 e)tw=n	e)/tos	urn:cite2:hmt:lsj.chicago_md:n43291	n-p---ng-
 e)tw=n	e)ta/zw	urn:cite2:hmt:lsj.chicago_md:n43070	v-sfpamv-
@@ -9240,7 +8880,6 @@ e)tw=n	e)ta/zw	urn:cite2:hmt:lsj.chicago_md:n43070	v-sfpana-
 e)tw=n	e)ta/zw	urn:cite2:hmt:lsj.chicago_md:n43070	v-sfpamn-
 e)fenakizo/mhn	fenaki/zw	urn:cite2:hmt:lsj.chicago_md:n110521	v1siie---
 e)fech=s	e)fech=s	urn:cite2:hmt:lsj.chicago_md:n45660	d--------
-e)fech=s	e)pw/xato	- no urn found -	v2sfia---
 e)fqegca/mesqa	fqe/ggomai	urn:cite2:hmt:lsj.chicago_md:n110662	v1paim---
 e)fro/ntisa	fronti/zw	urn:cite2:hmt:lsj.chicago_md:n112367	v1saia---
 e)fu/latton	fula/ssw	urn:cite2:hmt:lsj.chicago_md:n112559	v3piia---
@@ -9275,16 +8914,9 @@ e(katogke/falos	e(katogke/falos	urn:cite2:hmt:lsj.chicago_md:n31623	n-s---mn-
 e(katogke/falos	e(katogke/falos	urn:cite2:hmt:lsj.chicago_md:n31623	n-s---fn-
 e(katogke/falos	e(katogkefa/las	urn:cite2:hmt:lsj.chicago_md:n31622	n-s---mn-
 e(katogke/falos	e(katogkefa/las	urn:cite2:hmt:lsj.chicago_md:n31622	n-s---fn-
-e(kate/rou	e(ka/teros	- no urn found -	a-s---mg-
-e(kate/rou	e(ka/teros	- no urn found -	a-s---ng-
 e(kato/n	e(kato/n	urn:cite2:hmt:lsj.chicago_md:n31642	m--------
 e(kkai/deka	e(kkai/deka	urn:cite2:hmt:lsj.chicago_md:n32072	m--------
 e(ka/stote	e(ka/stote	urn:cite2:hmt:lsj.chicago_md:n31599	d--------
-e(ka/teron	e(ka/teros	- no urn found -	a-s---ma-
-e(ka/teron	e(ka/teros	- no urn found -	a-s---nn-
-e(ka/teron	e(ka/teros	- no urn found -	a-s---nv-
-e(ka/teron	e(ka/teros	- no urn found -	a-s---na-
-e(ka/teros	e(ka/teros	- no urn found -	a-s---mn-
 e(ko/ntes	e(kw/n	urn:cite2:hmt:lsj.chicago_md:n33304	a-p---mn-
 e(ko/ntes	e(kw/n	urn:cite2:hmt:lsj.chicago_md:n33304	a-p---mv-
 e(no/s	ei(=s	urn:cite2:hmt:lsj.chicago_md:n31236	n-s---mg-
@@ -9327,7 +8959,6 @@ e)/bleyen	ble/pw	urn:cite2:hmt:lsj.chicago_md:n20097	v3saia---
 e)/geire	e)gei/rw	urn:cite2:hmt:lsj.chicago_md:n30040	v2spma---
 e)/geire	e)gei/rw	urn:cite2:hmt:lsj.chicago_md:n30040	v3saia---
 e)/geire	e)gei/rw	urn:cite2:hmt:lsj.chicago_md:n30040	v3siia---
-e)/ghmen	e)/ssomai	- no urn found -	v1paie---
 e)/ghmen	game/w	urn:cite2:hmt:lsj.chicago_md:n21556	v3saia---
 e)/gwge	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-s---mn-
 e)/gwge	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-s---mv-
@@ -9441,7 +9072,6 @@ e)/cag'	e)ca/gw	urn:cite2:hmt:lsj.chicago_md:n36505	v2spma---
 e)/cag'	e)ca/gw	urn:cite2:hmt:lsj.chicago_md:n36505	v3siia---
 e)/cesti/	e)/cesti	urn:cite2:hmt:lsj.chicago_md:n37210	v3spia---
 e)/cw	e)/cw	urn:cite2:hmt:lsj.chicago_md:n37720	d--------
-e)/cw	e)/ssomai	- no urn found -	v2saie---
 e)/oiken	e)/oika	urn:cite2:hmt:lsj.chicago_md:n37776	v3sria---
 e)/oiken	e)/oika	urn:cite2:hmt:lsj.chicago_md:n37776	v3plia---
 e)/palle	pa/llw	urn:cite2:hmt:lsj.chicago_md:n77030	v3siia---
@@ -9469,19 +9099,10 @@ e)/piton	e)/peimi	urn:cite2:hmt:lsj.chicago_md:n38487	v3dpia---	e)/piton	e)/peim
 e)/pos	e)/pos	urn:cite2:hmt:lsj.chicago_md:n41858	n-s---nn-
 e)/pos	e)/pos	urn:cite2:hmt:lsj.chicago_md:n41858	n-s---nv-
 e)/pos	e)/pos	urn:cite2:hmt:lsj.chicago_md:n41858	n-s---na-
-e)/ptaron	ptai/rw%	- no urn found -	v3paia---
-e)/ptaron	ptai/rw%	- no urn found -	v1saia---
-e)/rgoisi	e)/rgnumi	- no urn found -	v-pppamd-
-e)/rgoisi	e)/rgnumi	- no urn found -	v-pppand-
 e)/rgoisi	e)/rgon	urn:cite2:hmt:lsj.chicago_md:n42214	n-p---nd-
-e)/rgon	e)/rgnumi	- no urn found -	v-sppamv-
-e)/rgon	e)/rgnumi	- no urn found -	v-sppann-
-e)/rgon	e)/rgnumi	- no urn found -	v-sppanv-
-e)/rgon	e)/rgnumi	- no urn found -	v-sppana-
 e)/rgon	e)/rgon	urn:cite2:hmt:lsj.chicago_md:n42214	n-s---nn-
 e)/rgon	e)/rgon	urn:cite2:hmt:lsj.chicago_md:n42214	n-s---nv-
 e)/rgon	e)/rgon	urn:cite2:hmt:lsj.chicago_md:n42214	n-s---na-
-e)/rgwn	e)/rgnumi	- no urn found -	v-sppamn-
 e)/rgwn	e)/rgon	urn:cite2:hmt:lsj.chicago_md:n42214	n-p---ng-
 e)/rin	e)/ris	urn:cite2:hmt:lsj.chicago_md:n42522	n-s---fa-
 e)/rin	e)/ris	urn:cite2:hmt:lsj.chicago_md:n42522	n-s---fa-	e)/rin	e)/ris	urn:cite2:hmt:lsj.chicago_md:n42523	n-s---fa-
@@ -9492,7 +9113,6 @@ e)/sbaine	ei)sbai/nw	urn:cite2:hmt:lsj.chicago_md:n31305	v2spma---
 e)/sbaine	ei)sbai/nw	urn:cite2:hmt:lsj.chicago_md:n31305	v3siia---
 e)/sei	ei)/seimi	urn:cite2:hmt:lsj.chicago_md:n31333	v2spia---
 e)/sei	ei)mi/	urn:cite2:hmt:lsj.chicago_md:n31130	v2sfim---
-e)/sei	se/w	- no urn found -	v3siia---
 e)/somai	ei)mi/	urn:cite2:hmt:lsj.chicago_md:n31130	v1sfim---
 e)/somai/	ei)mi/	urn:cite2:hmt:lsj.chicago_md:n31130	v1sfim---
 e)/spartai	spei/rw	urn:cite2:hmt:lsj.chicago_md:n95836	v3srie---
@@ -9518,7 +9138,6 @@ e)/fedros	e)/fedros	urn:cite2:hmt:lsj.chicago_md:n45636	n-s---fn-
 e)/feugen	feu/gw	urn:cite2:hmt:lsj.chicago_md:n110606	v3siia---
 e)/fh	fhmi/	urn:cite2:hmt:lsj.chicago_md:n110639	v3siia---
 e)/fraze	fra/zw	urn:cite2:hmt:lsj.chicago_md:n112217	v3siia---
-e)/fruge	fru/gw	- no urn found -	v3siia---
 e)/fu	fu/w	urn:cite2:hmt:lsj.chicago_md:n112794	v3saia---
 e)/furon	fu/rw	urn:cite2:hmt:lsj.chicago_md:n112661	v3piia---
 e)/furon	fu/rw	urn:cite2:hmt:lsj.chicago_md:n112661	v1siia---
@@ -9568,8 +9187,6 @@ e)/xeton	e)/xw	urn:cite2:hmt:lsj.chicago_md:n45996	v2diia---
 e)/xeton	e)/xw	urn:cite2:hmt:lsj.chicago_md:n45996	v2diia---	e)/xeton	e)/xw	urn:cite2:hmt:lsj.chicago_md:n45997	v2diia---
 e)/xqras	e)/xqra	urn:cite2:hmt:lsj.chicago_md:n45936	n-p---fa-
 e)/xqras	e)/xqra	urn:cite2:hmt:lsj.chicago_md:n45936	n-s---fg-
-e)/xqras	e)/xqrh	- no urn found -	n-p---fa-
-e)/xqras	e)/xqrh	- no urn found -	n-s---fg-
 e)/xidna/	e)/xidna	urn:cite2:hmt:lsj.chicago_md:n45957	n-s---fn-
 e)/xidna/	e)/xidna	urn:cite2:hmt:lsj.chicago_md:n45957	n-s---fv-
 e)/xoim'	e)/xw	urn:cite2:hmt:lsj.chicago_md:n45996	v1spoa---
@@ -9754,7 +9371,6 @@ h)di/khse	a)dike/w	urn:cite2:hmt:lsj.chicago_md:n1377	v3saia---
 h)kribwme/nhn	a)kribo/w	urn:cite2:hmt:lsj.chicago_md:n3473	v-srpefa-
 h)lazoneu/eq'	a)lazoneu/omai	urn:cite2:hmt:lsj.chicago_md:n3826	v3siim---
 h)lqe/thn	e)/rxomai	urn:cite2:hmt:lsj.chicago_md:n42827	v3daia---
-h)li/qios	h)li/qios	- no urn found -	a-s---mn-
 h)lo/asen	a)loa/w	urn:cite2:hmt:lsj.chicago_md:n4578	v3saia---
 h)mi/	h)mi/	urn:cite2:hmt:lsj.chicago_md:n47031	v1spia---
 h)pi/stant'	e)pi/stamai	urn:cite2:hmt:lsj.chicago_md:n40972	v3piie---
@@ -9807,9 +9423,6 @@ h(mei=s	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-p---mv-
 h(mei=s	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-p---fn-
 h(mei=s	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-p---fv-
 h(miqe/ous	h(mi/qeos	urn:cite2:hmt:lsj.chicago_md:n47098	n-p---ma-
-h(miwboliai=a	h(miwboliai=os	- no urn found -	a-p---nn-
-h(miwboliai=a	h(miwboliai=os	- no urn found -	a-p---nv-
-h(miwboliai=a	h(miwboliai=os	- no urn found -	a-p---na-
 h(ma/rthken	a(marta/nw	urn:cite2:hmt:lsj.chicago_md:n4958	v3plia---
 h(ma/rthken	a(marta/nw	urn:cite2:hmt:lsj.chicago_md:n4958	v3sria---
 h(ma/rthken	a(marte/w	urn:cite2:hmt:lsj.chicago_md:n4960	v3plia---
@@ -9822,18 +9435,12 @@ h(me/teron	h(me/teros	urn:cite2:hmt:lsj.chicago_md:n47030	a-s---ma-
 h(me/teron	h(me/teros	urn:cite2:hmt:lsj.chicago_md:n47030	a-s---nn-
 h(me/teron	h(me/teros	urn:cite2:hmt:lsj.chicago_md:n47030	a-s---nv-
 h(me/teron	h(me/teros	urn:cite2:hmt:lsj.chicago_md:n47030	a-s---na-
-h(mh/	h(mo/s	- no urn found -	a-s---fn-
-h(mh/	h(mo/s	- no urn found -	a-s---fv-
 h(ma=s	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-p---ma-
 h(ma=s	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-p---fa-
-h(ma=s	h(mo/s	- no urn found -	a-s---fg-
 h(mi=n	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-p---md-
 h(mi=n	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-p---fd-
 h(mw=n	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-p---mg-
 h(mw=n	e)gw/	urn:cite2:hmt:lsj.chicago_md:n30657	p-p---fg-
-h(mw=n	h(mo/s	- no urn found -	a-p---fg-
-h(mw=n	h(mo/s	- no urn found -	a-p---mg-
-h(mw=n	h(mo/s	- no urn found -	a-p---ng-
 h(ni/ka	h(ni/ka	urn:cite2:hmt:lsj.chicago_md:n47405	d--------
 h(ni/x'	h(ni/ka	urn:cite2:hmt:lsj.chicago_md:n47405	d--------
 h(suxi/an	h(suxi/a	urn:cite2:hmt:lsj.chicago_md:n47629	n-s---fa-
@@ -9955,7 +9562,6 @@ i)axh/samen	i)axe/w	urn:cite2:hmt:lsj.chicago_md:n49776	v1paia---
 i)axh/samen	i)axe/w	urn:cite2:hmt:lsj.chicago_md:n49776	v1paia---
 i)au=	i)au=	urn:cite2:hmt:lsj.chicago_md:n49770	x--------
 i)dei=n	ei)=don	urn:cite2:hmt:lsj.chicago_md:n30859a	v--ana---
-i)dei=n	i)de/w	- no urn found -	v--pna---
 i)diw/tais	i)diw/ths	urn:cite2:hmt:lsj.chicago_md:n49908	n-p---md-
 i)diw/tas	i)diw/ths	urn:cite2:hmt:lsj.chicago_md:n49908	n-p---ma-
 i)diw/tas	i)diw/ths	urn:cite2:hmt:lsj.chicago_md:n49908	n-s---mn-
@@ -9970,17 +9576,11 @@ i)di/wn	i)/dios	urn:cite2:hmt:lsj.chicago_md:n49875	n-p---mg-
 i)di/wn	i)/dios	urn:cite2:hmt:lsj.chicago_md:n49875	n-p---fg-
 i)di/wn	i)/dios	urn:cite2:hmt:lsj.chicago_md:n49875	n-p---ng-
 i)di/wn	i)=dos	urn:cite2:hmt:lsj.chicago_md:n49922	n-p---ng-
-i)di/wn	i)de/w	- no urn found -	v-sppamn-
 i)di/wn	i)di/w	urn:cite2:hmt:lsj.chicago_md:n49902	v-sppamn-
 i)di/a|	i)/dios	urn:cite2:hmt:lsj.chicago_md:n49875	a-s---fd-
 i)dw/n	ei)=don	urn:cite2:hmt:lsj.chicago_md:n30859a	v-sapamn-
 i)ou/	i)ou/	urn:cite2:hmt:lsj.chicago_md:n50615	x--------
 i)tamai=s	i)tamo/s	urn:cite2:hmt:lsj.chicago_md:n51384	a-p---fd-
-i)xqu=s	i)xqu/s	- no urn found -	n-p---ma-
-i)xqu=s	i)xqu/s	- no urn found -	n-p---mn-
-i)xqu=s	i)xqu/s	- no urn found -	n-p---mn-
-i)xqu=s	i)xqu/s	- no urn found -	n-p---mv-
-i)xqu=s	i)xqu/s	- no urn found -	n-p---mv-
 i)e/nai	ei)=mi	urn:cite2:hmt:lsj.chicago_md:n31131	v--pna---
 i(ereu=	i(era/omai	urn:cite2:hmt:lsj.chicago_md:n49985	v2siie---
 i(ereu=	i(era/omai	urn:cite2:hmt:lsj.chicago_md:n49985	v2spme---
@@ -10009,7 +9609,6 @@ i(era/n	i(era/	urn:cite2:hmt:lsj.chicago_md:n49955	n-s---fa-
 i(era/n	i(erh/	urn:cite2:hmt:lsj.chicago_md:n50009	n-s---fa-
 i(era/n	i(ero/s	urn:cite2:hmt:lsj.chicago_md:n50093	a-s---fa-
 i(era/s	i(era/	urn:cite2:hmt:lsj.chicago_md:n49955	n-p---fa-
-i(era/s	i(erai/	- no urn found -	n-p---fa-
 i(era/s	i(erh/	urn:cite2:hmt:lsj.chicago_md:n50009	n-p---fa-
 i(era/s	i(ero/s	urn:cite2:hmt:lsj.chicago_md:n50093	a-p---fa-
 i(ero/n	i(ero/n	urn:cite2:hmt:lsj.chicago_md:n50073	n-s---nn-
@@ -10038,7 +9637,6 @@ i(erw=n	i(era/zw	urn:cite2:hmt:lsj.chicago_md:n49959	v-sfpann-
 i(erw=n	i(era/zw	urn:cite2:hmt:lsj.chicago_md:n49959	v-sfpanv-
 i(erw=n	i(era/zw	urn:cite2:hmt:lsj.chicago_md:n49959	v-sfpana-
 i(erw=n	i(era/zw	urn:cite2:hmt:lsj.chicago_md:n49959	v-sfpamn-
-i(erw=n	i(erai/	- no urn found -	n-p---fg-
 i(erw=n	i(erh/	urn:cite2:hmt:lsj.chicago_md:n50009	n-p---fg-
 i(erw=n	i(ero/n	urn:cite2:hmt:lsj.chicago_md:n50073	n-p---ng-
 i(erw=n	i(ero/s	urn:cite2:hmt:lsj.chicago_md:n50093	a-p---fg-
@@ -10164,8 +9762,6 @@ o)do/ntas	o)dou/s	urn:cite2:hmt:lsj.chicago_md:n72099	n-p---ma-
 o)do/ntas	o)dw/n	urn:cite2:hmt:lsj.chicago_md:n72126	n-p---ma-
 o)lisqou=sin	o)lisqa/nw	urn:cite2:hmt:lsj.chicago_md:n73142	v-papamd-
 o)lisqou=sin	o)lisqa/nw	urn:cite2:hmt:lsj.chicago_md:n73142	v-papand-
-o)li/gistoi	o)li/gistos	- no urn found -	a-p---mn-
-o)li/gistoi	o)li/gistos	- no urn found -	a-p---mv-
 o)li/gon	o)li/gos	urn:cite2:hmt:lsj.chicago_md:n73064	a-s---ma-
 o)li/gon	o)li/gos	urn:cite2:hmt:lsj.chicago_md:n73064	a-s---nn-
 o)li/gon	o)li/gos	urn:cite2:hmt:lsj.chicago_md:n73064	a-s---nv-
@@ -10195,10 +9791,6 @@ o)rgh=s	o)rga/w	urn:cite2:hmt:lsj.chicago_md:n74764	v2spia---
 o)rgh=s	o)rga/w	urn:cite2:hmt:lsj.chicago_md:n74764	v2spia---
 o)rgh=s	o)rga/zw	urn:cite2:hmt:lsj.chicago_md:n74742	v2sfia---
 o)rgh=s	o)rgh/	urn:cite2:hmt:lsj.chicago_md:n74767	n-s---fg-
-o)ressi/gonoi	o)ressi/gonos	- no urn found -	n-p---mn-
-o)ressi/gonoi	o)ressi/gonos	- no urn found -	n-p---mv-
-o)ressi/gonoi	o)ressi/gonos	- no urn found -	n-p---fn-
-o)ressi/gonoi	o)ressi/gonos	- no urn found -	n-p---fv-
 o)reu/s	o)reu/s	urn:cite2:hmt:lsj.chicago_md:n74889	n-s---mn-
 o)rqo/s	o)rqo/s	urn:cite2:hmt:lsj.chicago_md:n75005	a-s---mn-
 o)rqo/thtos	o)rqo/ths	urn:cite2:hmt:lsj.chicago_md:n75019	n-s---fg-
@@ -10219,10 +9811,6 @@ o)rrwdei=te	o)rrwde/w	urn:cite2:hmt:lsj.chicago_md:n75352	v2piia---
 o)rxhstri/des	o)rxhstri/s	urn:cite2:hmt:lsj.chicago_md:n75493	n-p---fn-
 o)rxhstri/des	o)rxhstri/s	urn:cite2:hmt:lsj.chicago_md:n75493	n-p---fv-
 o)rxhstri/sin	o)rxhstri/s	urn:cite2:hmt:lsj.chicago_md:n75493	n-p---fd-
-o)ri/ganon	o)ri/ganon	- no urn found -	n-s---nn-
-o)ri/ganon	o)ri/ganon	- no urn found -	n-s---nv-
-o)ri/ganon	o)ri/ganon	- no urn found -	n-s---na-
-o)ri/ganon	o)ri/ganos	- no urn found -	n-s---fa-
 o)stra/kois	o)/strakon	urn:cite2:hmt:lsj.chicago_md:n75639	n-p---nd-
 o)stra/kw|	o)/strakon	urn:cite2:hmt:lsj.chicago_md:n75639	n-s---nd-
 o)sfraino/menos	o)sfrai/nomai	urn:cite2:hmt:lsj.chicago_md:n75663	v-sppemn-
@@ -10239,9 +9827,6 @@ o)fqalmiw=n	o)fqalmia/w	urn:cite2:hmt:lsj.chicago_md:n76104	v-sppamn-
 o)fqalmou/s	o)fqalmo/s	urn:cite2:hmt:lsj.chicago_md:n76118	n-p---ma-
 o)fqalmoi=s	o)fqalmo/s	urn:cite2:hmt:lsj.chicago_md:n76118	n-p---md-
 o)fqei/hn	o(ra/w	urn:cite2:hmt:lsj.chicago_md:n74735	v1saop---
-o)fru=s	o)fru/s	- no urn found -	n-p---fa-
-o)fru=s	o)fru/s	- no urn found -	n-p---fn-
-o)fru=s	o)fru/s	- no urn found -	n-p---fv-
 o)xei=	o)xa/omai	urn:cite2:hmt:lsj.chicago_md:n76185	v2spie---
 o)xei=	o)xe/w	urn:cite2:hmt:lsj.chicago_md:n76210	v2spie---
 o)xei=	o)xe/w	urn:cite2:hmt:lsj.chicago_md:n76210	v3spia---
@@ -10281,8 +9866,6 @@ o(dw=n	o(do/w	urn:cite2:hmt:lsj.chicago_md:n72103	v-sppamn-
 o(dw=n	o(do/w	urn:cite2:hmt:lsj.chicago_md:n72103	v--pna---
 o(momastigi/as	o(momastigi/as	urn:cite2:hmt:lsj.chicago_md:n73755	n-p---ma-
 o(momastigi/as	o(momastigi/as	urn:cite2:hmt:lsj.chicago_md:n73755	n-s---mn-
-o(momastigi/as	o(momastigi/hs	- no urn found -	n-p---ma-
-o(momastigi/as	o(momastigi/hs	- no urn found -	n-s---mn-
 o(mou=	o(mo/s	urn:cite2:hmt:lsj.chicago_md:n73819	a-s---mg-
 o(mou=	o(mo/s	urn:cite2:hmt:lsj.chicago_md:n73819	a-s---ng-
 o(mou=	o(mo/w	urn:cite2:hmt:lsj.chicago_md:n73923	v2spme---
@@ -10355,7 +9938,6 @@ o)/lbiai	o)lbi/a	urn:cite2:hmt:lsj.chicago_md:n72896	n-p---fn-
 o)/lbiai	o)lbi/a	urn:cite2:hmt:lsj.chicago_md:n72896	n-p---fv-
 o)/mbron	o)/mbros	urn:cite2:hmt:lsj.chicago_md:n73435	n-s---ma-
 o)/mbron	o)/mbros	urn:cite2:hmt:lsj.chicago_md:n73435	n-s---ma-	o)/mbron	o)/mbros	urn:cite2:hmt:lsj.chicago_md:n73436	n-s---ma-
-o)/mbron	o/)mbros	- no urn found -	n-s---ma-
 o)/mmata	o)/mma	urn:cite2:hmt:lsj.chicago_md:n73517	n-p---nn-
 o)/mmata	o)/mma	urn:cite2:hmt:lsj.chicago_md:n73517	n-p---nv-
 o)/mmata	o)/mma	urn:cite2:hmt:lsj.chicago_md:n73517	n-p---na-
@@ -10454,10 +10036,6 @@ o(/dion	o(/dios	urn:cite2:hmt:lsj.chicago_md:n72029	n-s---na-
 o(/dion	o(da/w	urn:cite2:hmt:lsj.chicago_md:n72009	v3piia---
 o(/dion	o(da/w	urn:cite2:hmt:lsj.chicago_md:n72009	v1siia---
 o(/qen	o(/qen	urn:cite2:hmt:lsj.chicago_md:n72153	d--------
-o(/lon	o(/loc	- no urn found -	a-s---ma-
-o(/lon	o(/loc	- no urn found -	a-s---nn-
-o(/lon	o(/loc	- no urn found -	a-s---nv-
-o(/lon	o(/loc	- no urn found -	a-s---na-
 o(/lon	o(/los	urn:cite2:hmt:lsj.chicago_md:n73277	a-s---ma-
 o(/lon	o(/los	urn:cite2:hmt:lsj.chicago_md:n73277	a-s---nn-
 o(/lon	o(/los	urn:cite2:hmt:lsj.chicago_md:n73277	a-s---nv-
@@ -10576,7 +10154,6 @@ u(polu/rion	u(polu/rios	urn:cite2:hmt:lsj.chicago_md:n108735	n-s---nn-
 u(polu/rion	u(polu/rios	urn:cite2:hmt:lsj.chicago_md:n108735	n-s---nv-
 u(polu/rion	u(polu/rios	urn:cite2:hmt:lsj.chicago_md:n108735	n-s---na-
 u(poperdo/menos	u(pope/rdomai	urn:cite2:hmt:lsj.chicago_md:n108925	v-sppemn-
-u(potopei=sqai	u(potope/omai	- no urn found -	v--pne---
 u(potopei=sqai	u(potope/w	urn:cite2:hmt:lsj.chicago_md:n109383	v--pne---
 u(potopei=sqai	u(potope/w	urn:cite2:hmt:lsj.chicago_md:n109383	v--pne---
 u(pwro/fioi	u(pwro/fios	urn:cite2:hmt:lsj.chicago_md:n109665	a-p---mn-
@@ -10592,10 +10169,6 @@ u(pa/gete	u(pa/gw	urn:cite2:hmt:lsj.chicago_md:n106796	v2piia---
 u(pe/nerqen	u(pe/nerqe	urn:cite2:hmt:lsj.chicago_md:n107143	d--------
 u(pe/r	u(pe/r	urn:cite2:hmt:lsj.chicago_md:n107183	r--------
 u(po/	u(po/	urn:cite2:hmt:lsj.chicago_md:n108092	r--------
-u(pa/|dwn	u(paei/dw	- no urn found -	v-sppamn-
-u(pa/|sate	u(paei/dw	- no urn found -	v2pama---
-u(pa/|sate	u(paei/dw	- no urn found -	v2paia---
-u(pa/|sate	u(paei/dw	- no urn found -	v2paia---
 u(strixi/di	u(strixi/s	urn:cite2:hmt:lsj.chicago_md:n109767	n-s---fd-
 u(sta/tois	u(/statos	urn:cite2:hmt:lsj.chicago_md:n109728	a-p---md-
 u(sta/tois	u(/statos	urn:cite2:hmt:lsj.chicago_md:n109728	a-p---nd-
@@ -10733,13 +10306,10 @@ w)/|mhn	oi)ma/w	urn:cite2:hmt:lsj.chicago_md:n72426	v3piia---
 w)/|mhn	oi)ma/w	urn:cite2:hmt:lsj.chicago_md:n72426	v1siia---
 w)/|mwce	oi)mw/ssw	urn:cite2:hmt:lsj.chicago_md:n72443	v3saia---
 w)/|mwce	oi)mw/zw	urn:cite2:hmt:lsj.chicago_md:n72437	v3saia---
-w)/|xet'	o)i/zw	- no urn found -	v2plia---
-w)/|xet'	o)i/zw	- no urn found -	v2prma---
-w)/|xet'	o)i/zw	- no urn found -	v2plia---
 w)/|xet'	oi)/xomai	urn:cite2:hmt:lsj.chicago_md:n72712	v3siie---
-w)/|xet'	w)i/zw	- no urn found -	v2plia---
-w)/|xet'	w)i/zw	- no urn found -	v2prma---
-w)/|xet'	w)i/zw	- no urn found -	v2plia---
+w)/|xet'	w)i/zw	urn:cite2:hmt:lsj.chicago_md:n116078	v2plia---
+w)/|xet'	w)i/zw	urn:cite2:hmt:lsj.chicago_md:n116078	v2prma---
+w)/|xet'	w)i/zw	urn:cite2:hmt:lsj.chicago_md:n116078	v2plia---
 w)/|xou	oi)/xomai	urn:cite2:hmt:lsj.chicago_md:n72712	v2siie---
 w(=|per	o(/s	urn:cite2:hmt:lsj.chicago_md:n75512	p-s---md-
 w(=|per	o(/s	urn:cite2:hmt:lsj.chicago_md:n75512	p-s---md-	w(=|per	o(/s	urn:cite2:hmt:lsj.chicago_md:n75513	p-s---md-
@@ -10804,6 +10374,5 @@ r(a=|sta	r(a/|dios	urn:cite2:hmt:lsj.chicago_md:n92077	a-p---na-
 r(h=ma	r(h=ma	urn:cite2:hmt:lsj.chicago_md:n92329	n-s---nn-
 r(h=ma	r(h=ma	urn:cite2:hmt:lsj.chicago_md:n92329	n-s---nv-
 r(h=ma	r(h=ma	urn:cite2:hmt:lsj.chicago_md:n92329	n-s---na-
-r(h=sin	r(e/omai	- no urn found -	v2spse---
 r(h=sin	r(h=sis	urn:cite2:hmt:lsj.chicago_md:n92352	n-s---fa-
 r(i=nas	r(i/s	urn:cite2:hmt:lsj.chicago_md:n92533	n-p---fa-
