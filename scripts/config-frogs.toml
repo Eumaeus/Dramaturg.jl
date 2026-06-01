@@ -3,18 +3,8 @@
 [input]
 cex_path = "source-data/texts/frogs-speech-speaker.cex"
 text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:" 
-file_name = "Aristophanes_Frogs"
+file_name = "Aristophenes_Frogs"
 filter_paratext = "speaker" # filter out passages with this string in the URN.
-
-#cex_path = "source-data/texts/demeter.cex"  
-#text_urn = "urn:cts:greekLit:tlg0013.tlg002.fucex:"  
-#file_name = "Homeric_Hymn_to_Demeter"
-#filter_paratext = "" # filter out passages with this string in the URN.
-
-#cex_path = "source-data/texts/herodotus.cex"
-#text_urn = "urn:cts:greekLit:tlg0016.tlg001.grc:"
-#file_name = "Herodotus"
-#filter_paratext = "" # filter out passages with this string in the URN.
 
 
 [output]
@@ -26,9 +16,15 @@ html_page_template = "reader_page.html"
 
 [lexicon]
 lsj_cex = "https://github.com/Eumaeus/cite_lsj_cex/raw/main/lsj_chicago.cex"
+lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
 
 [morphology]
-pos_data = "path/to/morpheus_output.tsv"
+raw_morph_data = "morph/output/frogs-analysis.txt"
+morph_pos_triplets = "data/indexes/Aristophenes_Frogs_morpheus_triplets.tsv"
+morph_pos_errors = "morph/output/Aristophenes_Frogs_parse_errors.log"
+morph_lemmata_alignment = "data/indexes/Aristophenes_Frogs_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Aristophenes_Frogs_triplets_lemmata_errors.tsv"
+
 
 # NEW sections for this milestone
 [processing]
@@ -50,4 +46,4 @@ enclitics_dict    = "source-data/dictionaries/editorial-dict-enclitics.tsv"
 anastrophe_dict   = "source-data/dictionaries/editorial_dict_anastrophe.tsv"
 lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
 lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
-
+master_morph_dict = "source-data/dictionaries/Greek_Morphology.cex"
