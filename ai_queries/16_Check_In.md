@@ -12,11 +12,9 @@ The most useful file, for you, is: `docs/Pipeline.md`.
 
 I have also written a (very preliminary, very disorganized) overview at: `docs/Architecture.md`
 
-## Current Requests
+## Current Request
 
-**1.** I would value your professional eye on the work to date, and suggestions for refactoring, efficiency, etc.
-
-**2.** I can currently generate text-specific files like: `data/indexes/The_Homeric_Hymn_to_Demeter_triplets_lemmata.tsv`.
+I can currently generate text-specific files like: `data/indexes/The_Homeric_Hymn_to_Demeter_triplets_lemmata.tsv`.
 
 > The "triplets" have expanded "sextets": a surface-form in unicode and betacode, a lemma in both unicode and betacode, a URN to the LSJ lexicon, and a part-of-speech-tag. The combination of surface-form, lemma, LSJ URN, and POStag will define "uniqueness".
 
