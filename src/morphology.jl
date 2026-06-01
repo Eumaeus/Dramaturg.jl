@@ -1,6 +1,8 @@
 module Morphology
+using BetaReader
 
 export parse_morpheus_to_triplets
+export describe_pos
 
 # ==================== Mapping dictionaries (from your earlier work) ====================
 const pos_type_map = Dict(
@@ -54,6 +56,8 @@ and debugged independently.
 """
 function parse_single_analysis(surface::String, nl_content::String; err_io::IO = stderr)::Vector{String}
     triplets = String[]
+
+    uc_surface = betaToUnicode(surface)
 
     tokens = filter(!isempty, split(nl_content, r"\s+"))
     length(tokens) < 2 && (write(err_io, "Invalid line: $nl_content\n"); return triplets)
@@ -167,11 +171,12 @@ function parse_single_analysis(surface::String, nl_content::String; err_io::IO =
 
     # Generate one triplet per lemma × per ambiguity combination
     lemma = lemmas # hack. See line 66 and following.
+    uc_lemma = betaToUnicode(lemma)
     for g in gend_list
         for c in cas_list
             for n in num_list
                 tag = pos * person * n * tense * mood * voice * g * c * degree
-                push!(triplets, "$surface\t$lemma\t$tag")
+                push!(triplets, "$uc_surface\t$surface\t$uc_lemma\t$lemma\t$tag")
             end
         end
     end

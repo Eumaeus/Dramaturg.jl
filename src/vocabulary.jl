@@ -48,14 +48,18 @@ function unicode_to_beta_file(input_path::String, output_path::String)
 
     for line in lines
         stripped = strip(line)
-        safestring = replace(stripped, "ʼ" => s"'") # fix elision marks
+        safestring1 = replace(stripped, "ʼ" => s"'") # fix elision marks, βάλετʹ
+        safestring = replace(stripped, "ʹ" => s"'") # fix elision marks, βάλετʹ
         isempty(safestring) && continue
 
         # Preserve obvious non-Greek header lines
         if safestring == "form" || !contains_greek(safestring)
             push!(converted, safestring)
         else
-            push!(converted, unicodeToBeta(safestring))
+            # Will replace capitals with '*a' form
+            uc_string = unicodeToBeta(safestring)
+            cap_string = replace(uc_string, r"([A-Z])([)(\\/=]*)" => s"*\2\1") |> lowercase
+            push!(converted, cap_string)
         end
     end
 
@@ -96,5 +100,6 @@ end
 Simple heuristic to detect Greek characters (used to protect English headers).
 """
 function contains_greek(s::AbstractString)
-    any(c -> ('α' ≤ c ≤ 'ω') || ('Α' ≤ c ≤ 'Ω'), s)
+    # any(c -> ('α' ≤ c ≤ 'ω') || ('Α' ≤ c ≤ 'Ω'), s)
+    any(c -> ('α' ≤ c ≤ 'ω') || ('Α' ≤ c ≤ 'Ω') || ('ἀ' ≤ c ≤ 'ῼ'), s)
 end

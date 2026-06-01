@@ -1,4 +1,5 @@
 using Unicode   # ← new import for robust accent normalization
+using BetaReader
 
 const PUNCTUATION_REGEX = r"([-“”\"·.,;:!?{}…†()–—[\]])"
 
@@ -51,7 +52,9 @@ function tokenize_line(text::String)
     # Insert space before common Greek punctuation so they become their own tokens
     text = replace(text, PUNCTUATION_REGEX => s" \1 ")
     # Split on whitespace, drop empty tokens
-    tokens = split(text, r"\s+"; keepempty=false)
+    orig_tokens = split(text, r"\s+"; keepempty=false)
+    # Round-trip through BetaReader to normalize Greek
+    tokens = map(tok -> betaToUnicode(unicodeToBeta(tok)), orig_tokens) 
     return tokens
 end
 

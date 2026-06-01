@@ -40,7 +40,9 @@ Make a list of words, in BetaCode, one to a line: `morph/source-data/words.txt`.
 
 Within the VM, execute this:
 
-`MORPHLIB=stemlib bin/cruncher -S < morph/source-data/words.txt > morph/output/analysis.txt 2> morph/output/errors.log`
+[generic] `MORPHLIB=stemlib bin/cruncher -S < morph/source-data/words.txt > morph/output/analysis.txt 2> morph/output/errors.log`
+
+[project-specific] `MORPHLIB=stemlib bin/cruncher -S < morph/source-data/words.txt > morph/output/demeter-analysis.txt 2> morph/output/demeter-errors.log`
 
 The successful parsings will appear in `/morph/output/analysis.txt`.
 
