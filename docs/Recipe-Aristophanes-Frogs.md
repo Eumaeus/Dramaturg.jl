@@ -18,6 +18,6 @@ Start Docker
 
 `julia --project=. scripts/parse_morpheus.jl`
 
-
 `julia --project=. scripts/align_lemmata.jl`
 
+`julia --project=. scripts/update_morphology_dictionary.jl`

@@ -9,7 +9,7 @@ filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 [output]
 html_lines_per_page = 25
-html_output_dir = "html/pages"
+html_output_dir = "html/Aristophanes_Frogs/pages"
 html_template_dir = "../templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
@@ -24,6 +24,8 @@ morph_pos_triplets = "data/indexes/Aristophanes_Frogs_morpheus_triplets.tsv"
 morph_pos_errors = "morph/output/Aristophanes_Frogs_parse_errors.log"
 morph_lemmata_alignment = "data/indexes/Aristophanes_Frogs_triplets_lemmata.tsv"
 morph_lemmata_alignment_errors = "data/indexes/Aristophanes_Frogs_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/Aristophanes_Frogs_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/Aristophanes_Frogs_morphology_index_errors.tsv"
 
 
 # NEW sections for this milestone
