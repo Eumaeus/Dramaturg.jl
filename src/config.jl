@@ -4,7 +4,7 @@ using TOML
     read_config(path::String = "examples/config.toml")
 Load and return the TOML configuration as a Dict.
 """
-function read_config(path::String = joinpath(@__DIR__, "..", "examples", "config.toml"))
+function read_config(path::String = joinpath(@__DIR__, "..", "scripts", "config.toml"))
     if !isfile(path)
         error("Config file not found: $path")
     end

@@ -3,6 +3,8 @@
 
 This pipeline will take a digital edition of a Greek text and generate several editions aimed at enhancing a reader's ability to understand the text.
 
+You can follow this like a recipe. This version of the recipe starts with the file `source-data/texts/demeter.cex`, the *Homeric Hymn to Demeter*, and all commands, below, assume that we are working with this text.
+
 ## 1: Starting Data: CEX files
 
 Initial user-supplied data is in the form of CTS texts serialized as `.cex` files. These reside in:
@@ -15,7 +17,7 @@ There are three example texts provided:
 	source-data/texts/demeter.cex # The Homeric Hymn to Demeter
 	source-data/texts/frogs-speech-speaker.cex # Aritophanes' Frogs
 
-`frogs-speech-speaker.cex` demonstrates a convention for serializing a citable text of a play that both captures speamer-attributions while allowing that 'paratext' to be excluded from certain analytical edition. (We don't necessarily want to in include the word "Chorus" in a word-count of the language of the play, for example).
+> `frogs-speech-speaker.cex` demonstrates a convention for serializing a citable text of a play that both captures speamer-attributions while allowing that 'paratext' to be excluded from certain analytical edition. (We don't necessarily want to in include the word "Chorus" in a word-count of the language of the play, for example).
 
 ## 2: Tokenize Editions
 
@@ -46,13 +48,14 @@ To follow them, copy the beta-code vocabulary file from `data/vocabulary/` to `m
 `cp data/vocabulary/The_Homeric_Hymn_to_Demeter_beta_vocabulary.txt morph/source-data/words.txt
 `
 
-> The results in `morph/output/WHATEVER-errors.log` can be used to correct errors in the original text. 
+> The results in `morph/output/WHATEVER-errors.log` can be used to correct errors in the original text. If you find some, got back to the original text, edit the text, and re-run all the steps to here. 
+
 
 The resulting file `morph/output/analysis.txt` will be used in the next step.
 
 ## 4: Parse Morpheus Output to Triplets
 
-This step will take a file, *e.g.* `morph/output/analysis.txt`, produced by `morpheus` and turn it into a `.tsv` files of "triplets" (actually, 5-plets):
+This step will take a file, *e.g.* `morph/output/demeter-analysis.txt`, produced by `morpheus` and turn it into a `.tsv` files of "triplets" (actually, 5-plets):
 
     surface-form (Unicode) \t surface-form (Betacode) \t lemma (Unicode) \t lemma (BetaCode) \t part-of-speech-tag
 

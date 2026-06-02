@@ -168,8 +168,8 @@ function main()
                 push!(new_parts, string(line_parts[5]))
                 # pushnew line to output
                 new_line = join(new_parts, '\t')
-                push!(converted, new_line)
-
+                push!(converted, new_line )
+                new_parts = []
             end
 
         else

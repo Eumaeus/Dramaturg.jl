@@ -4,13 +4,17 @@
 
 using Dates
 using BetaReader
-include("src/morphology.jl")
+include("../src/morphology.jl")
+include("../src/config.jl")
 
-const CEX_PATH = "source-data/dictionaries/Greek_Morphology.cex"
+config = read_config()
+println("Loaded config for text: ", config["input"]["text_urn"])
+
+CEX_PATH = config["editorial"]["master_morph_dict"]
 
 # Get the new TSV from command-line argument (or hard-code if you prefer)
-length(ARGS) == 0 && error("Provide the path to a *_triplets_lemmata.tsv file")
-new_tsv = ARGS[1]
+
+new_tsv = config["morphology"]["morph_lemmata_alignment"]
 
 # 1. Build set of existing uniqueness keys from the current CEX
 existing_keys = Set{Tuple{String,String,String,String}}()
@@ -18,7 +22,7 @@ cex_lines = readlines(CEX_PATH)
 data_start = false
 for line in cex_lines
     if startswith(line, "#!citedata")
-        data_start = true
+        global data_start = true
         continue
     end
     if data_start && !isempty(strip(line)) && occursin('#', line)
@@ -44,12 +48,12 @@ for (idx, line) in enumerate(tsv_lines)
     fields = split(line, '\t')
     length(fields) != 6 && continue
 
-    uc_form   = strip(fields[1])
-    bc_form   = strip(fields[2])
-    uc_lemma  = strip(fields[3])
-    bc_lemma  = strip(fields[4])
-    lsj       = strip(fields[5])
-    pos       = strip(fields[6])
+    uc_form   = strip(fields[1]) |> String
+    bc_form   = strip(fields[2]) |> String
+    uc_lemma  = strip(fields[3]) |> String
+    bc_lemma  = strip(fields[4]) |> String
+    lsj       = strip(fields[5]) |> String
+    pos       = strip(fields[6]) |> String
 
     isempty(uc_form) && continue
 
@@ -66,7 +70,7 @@ for (idx, line) in enumerate(tsv_lines)
     data_line = join([full_urn, desc, uc_form, bc_form, uc_lemma, bc_lemma, lsj, pos], "#")
     push!(new_entries, data_line)
     push!(existing_keys, key)   # so we don't add it again in the same run
-    added += 1
+    global added += 1
 end
 
 # 3. Append only the new entries

@@ -4,9 +4,17 @@
 using Dates
 using BetaReader          # required for beta_to_unicode inside morphology.jl
 include("../src/morphology.jl")
+include("../src/config.jl")
 
-const TSV_PATH = "data/indexes/The_Homeric_Hymn_to_Demeter_triplets_lemmata.tsv"
-const CEX_PATH = "source-data/dictionaries/Greek_Morphology.cex"
+# const TSV_PATH = "data/indexes/The_Homeric_Hymn_to_Demeter_triplets_lemmata.tsv"
+# const CEX_PATH = "source-data/dictionaries/Greek_Morphology.cex"
+
+config = read_config()
+println("Loaded config for text: ", config["input"]["text_urn"])
+
+TSV_PATH = config["morphology"]["morph_lemmata_alignment"]
+CEX_PATH = config["editorial"]["master_morph_dict"]
+
 
 # Generate a date-time base for unique object IDs (your preferred style)
 base_time = Dates.format(Dates.now(Dates.UTC), "yyyymmddTHHMMSS")

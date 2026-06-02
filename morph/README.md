@@ -18,7 +18,9 @@ You need to share a directory between your host computer, where `Dramaturg` resi
 
 Start the VM, sharing that directory, with:
 
-`docker run --platform linux/amd64 -v /ABSOLUTE/PATH/TO/YOUR/Dramaturg/morph:/morpheus/morph -it perseidsproject/morpheus /bin/bash`
+[generic] `docker run --platform linux/amd64 -v /ABSOLUTE/PATH/TO/YOUR/Dramaturg/morph:/morpheus/morph -it perseidsproject/morpheus /bin/bash`
+
+[project-specific] `docker run --platform linux/amd64 -v /Users/cblackwell/cite/grok/Dramaturg/morph:/morpheus/morph -it perseidsproject/morpheus /bin/bash`
 
 ## Simple Queries
 
@@ -42,7 +44,7 @@ Within the VM, execute this:
 
 [generic] `MORPHLIB=stemlib bin/cruncher -S < morph/source-data/words.txt > morph/output/analysis.txt 2> morph/output/errors.log`
 
-[project-specific] `MORPHLIB=stemlib bin/cruncher -S < morph/source-data/words.txt > morph/output/demeter-analysis.txt 2> morph/output/demeter-errors.log`
+[project-specific] `MORPHLIB=stemlib bin/cruncher -S < morph/source-data/words.txt > morph/output/frogs-analysis.txt 2> morph/output/frogs-errors.log`
 
 The successful parsings will appear in `/morph/output/analysis.txt`.
 
