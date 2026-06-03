@@ -203,6 +203,26 @@ function main()
                 new_line = join(new_parts, '\t')
                 push!(converted, new_line)
 
+            elseif length(candidates) > 1
+
+                for entry in candidates
+
+                # Go ahead and keep the first four fields, surface-form and lemma 
+                push!(new_parts, string(line_parts[1]))
+                push!(new_parts, string(line_parts[2]))
+                push!(new_parts, string(line_parts[3]))
+                push!(new_parts, test_lemma)
+                # Add the newly-discovered URN
+                cols = split(entry, "\t")
+                push!(new_parts, string(cols[1]))
+
+                # Add the pos-tag at the end
+                push!(new_parts, string(line_parts[5]))
+                # pushnew line to output
+                new_line = join(new_parts, '\t')
+                push!(converted, new_line )
+                new_parts = []
+            end
 
             else
 

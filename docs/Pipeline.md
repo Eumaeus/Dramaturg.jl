@@ -17,7 +17,7 @@ There are three example texts provided:
 	source-data/texts/demeter.cex # The Homeric Hymn to Demeter
 	source-data/texts/frogs-speech-speaker.cex # Aritophanes' Frogs
 
-> `frogs-speech-speaker.cex` demonstrates a convention for serializing a citable text of a play that both captures speamer-attributions while allowing that 'paratext' to be excluded from certain analytical edition. (We don't necessarily want to in include the word "Chorus" in a word-count of the language of the play, for example).
+> The file `frogs-speech-speaker.cex` demonstrates a convention for serializing a citable text of a play that both captures speaker-attributions while allowing that 'paratext' to be excluded from certain analytical edition. (We don't necessarily want to in include the word "Chorus" in a word-count of the language of the play, for example).
 
 ## 2: Tokenize Editions
 
@@ -76,3 +76,6 @@ For decades, projects used string-matching to do this association. That is impre
 
 Run: `julia --project=. scripts/align_lemmata.jl`
 
+## 5: Add Forms to the Dictionary of Morphology
+
+## 6: Index Text-Tokens to Morphology

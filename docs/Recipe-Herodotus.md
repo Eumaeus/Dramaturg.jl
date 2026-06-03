@@ -16,6 +16,8 @@ Start Docker
 
 [In the Docker VM terminal] `MORPHLIB=stemlib bin/cruncher -S < morph/source-data/words.txt > morph/output/herodotus-analysis.txt 2> morph/output/herodotus-errors.log`
 
+[In the Docker VM terminal] `exit`
+
 `julia --project=. scripts/parse_morpheus.jl`
 
 `julia --project=. scripts/align_lemmata.jl`

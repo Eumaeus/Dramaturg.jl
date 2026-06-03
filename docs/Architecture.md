@@ -66,6 +66,12 @@ There are some files used as reference dictionaries.
 	- This process will *not* be 100% successful.
 	- There will be an error-list of unmatched entries, which can be fixed by hand.
 
+## Supplement a (Growing) Dictionary of Morphological Forms
+
+## Index Text-Tokens to Morphology
+
+
+
 ## Generate Enhanced Editions of a Text
 
 1. Generate an HTML edition of the original text, supplemented with the morphological and lexical data.

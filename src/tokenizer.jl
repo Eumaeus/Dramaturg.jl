@@ -221,7 +221,7 @@ function generate_elision_index(cex_data::Vector{Tuple{String,String}}, tokenize
 
     for line in data_lines
         urn, form = split(line, '#'; limit=2)
-        if occursin('ʼ', form)
+        if occursin('’', form)
             push!(get!(Vector{String}, elisions, form), urn)
         end
     end
