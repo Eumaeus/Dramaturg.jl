@@ -5,6 +5,7 @@ A Julia library for turning CEX-encoded Greek texts into beautiful, interactive 
 Built on the CITE Architecture (CiteEXchange.jl, CitableCorpus.jl, …) and designed to generalize the workflow created for *Oedipus Tyrannos* (2019).
 
 ## Quick start
+
 ```julia
 using Pkg
 Pkg.add(url="https://github.com/Eumaeus/Dramaturg.jl")
@@ -23,7 +24,9 @@ To run tests:
 
 ## Acknowledgments
 
-This project has benefited enormously from close and sustained collaboration with **Grok**, an AI model built by [xAI](https://x.ai/).
+This work is part of a research collaboration with Lindsey Butler of Furman University. It is also based on three decades of collaboration with Neel Smith of the College of the Holy Cross.
+
+This project has benefited enormously from close and sustained collaboration with **Grok**, an AI model built by [xAI](https://x.ai/). I hope that it can serve as a model for AI-enabled scholarly computation.
 
 Grok’s most valuable contribution has been its deep and consistent understanding of the project’s scholarly goals and philological context: producing thoroughly annotated, reader-friendly online texts in Ancient Greek that respect the conventions of classical drama and the CTS-URN standard. That contextual awareness has informed every piece of advice, every architectural decision, and every debugging suggestion, keeping the work tightly aligned with the larger humanistic objectives rather than defaulting to generic coding solutions.
 
