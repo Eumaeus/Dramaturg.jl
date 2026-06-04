@@ -14,20 +14,5 @@ Manifest.toml
 /html/pages/
 #*.log
 .DS_Store
-_cwb/~Dramaturg.sublime-workspace
-_cwb/check_dups.tsv
-_cwb/Dramaturg.sublime-workspace
-_cwb/elided_working.tsv
-_cwb/lsj_index_beta.tsv
-_cwb/my_morph_commands.md
-_cwb/Notes.md
-_cwb/ot_small.cex
-_cwb/ot.cex
-_cwb/playground_cwb backup 1.jl
-_cwb/playground_cwb.jl
-_cwb/playground.jl
-_cwb/Project_Overview.md
-_cwb/speech-speaker copy.xml
-_cwb/speech-speaker.cex.bak
-_cwb/speech-speaker.cex.bak2
-_cwb/test-pos-triples.md
+_cwb/
+Dramaturg.code-workspace
