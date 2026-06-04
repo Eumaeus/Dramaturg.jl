@@ -19,6 +19,7 @@ include("cex_loader.jl")
 include("tokenizer.jl")
 include("vocabulary.jl")
 include("morphology.jl")
+include("htmleditions.jl")
 
 """    Dramaturg.version()
 Return the current package version.
