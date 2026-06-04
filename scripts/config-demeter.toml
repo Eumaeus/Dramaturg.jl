@@ -3,7 +3,8 @@
 [input]
 cex_path = "source-data/texts/demeter.cex"
 text_urn = "urn:cts:greekLit:tlg0013.tlg002.fucex:" 
-file_name = "The_Homeric_Hymn_to_Demeter"
+file_name = "*The_Homeric_Hymn_to_Demeter*"
+text_title = "The Homeric Hymn to Demeter"
 text_genre = "poetry" # options are "poetry", "prose", "drama"
 filter_paratext = "speaker" # filter out passages with this string in the URN.
 
@@ -14,6 +15,9 @@ html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/The_Homeric_Hymn_to_Demeter"
+md_bibliography = "edtions/frontmatter/The_Homeric_Hymn_to_Demeter/bibliography.md"
+md_frontmatter = "edtions/frontmatter/The_Homeric_Hymn_to_Demeter/frontmatter.md"
+
 
 
 [lexicon]

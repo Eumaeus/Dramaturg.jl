@@ -8,7 +8,7 @@ Using `scripts/config-demeter.toml` as a starting point.
 
 	julia --project=. scripts/tokenize_cex.jl
 
-	cp data/vocabulary/The_Homeric_Hymn_to_Demeter_beta_vocabulary.txt morph/source-data/words.txt`
+	cp data/vocabulary/The_Homeric_Hymn_to_Demeter_beta_vocabulary.txt morph/source-data/words.txt
 
 [Start Docker]
 

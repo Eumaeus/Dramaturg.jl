@@ -2,13 +2,27 @@
 <html lang="grc">
 <head>
     <meta charset="UTF-8">
-    <title>Greek Reader — {{title}}</title>
+    <title>Greek Reader — {{title}} ({{passage_span}})</title>
     <link rel="stylesheet" href="../css/style.css"> <!-- your CSS will live here -->
 </head>
 <body>
     <nav>{{navigation}}</nav>
-    <div class="text">
+    <div id="title">
+        <div id="work_title">
+            {{title}} ({{passage_span}})
+        </div>
+        <div id="bibliography">
+            <!-- config.toml: ["ouput"]["md_bibliography"] --> 
+        </div>
+    </div>
+    <div id="text">
         {{greek_text}}   <!-- tokenized + annotated lines go here -->
+    </div>
+    <div id="textdata">
+        <div id="morphdata">
+        </div>
+        <div id="commentary"> <!-- unused for now -->
+        </div>
     </div>
     <script src="../js/interactive.js"></script>
 </body>

@@ -1,3 +1,38 @@
+
+#!cexversion
+3.0
+
+#!citelibrary
+name#Ancient Greek Morphology#urn:cite2:cex:fufolio.greek_morphology
+license#CC 3.0 NC-BY-SA.
+
+//
+// Collection Inventory:
+// This is a CITE Collection of unique Greek morphological forms, their parsings, with a URN reference to a lexicon entry.
+// It is an unordered collection.
+// Uniqueness is based on the surface-form + lemma + LSJ-URN + post-tag.
+
+
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:fufolio:greekmorph.2026a:#Greek morphological forms.#urn:cite2:fufolio:greekmorph.2026a.desc:##CC 3.0 NC-BY-SA
+
+
+// Definition of the Morphology Collection
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:fufolio:greekmorph.2026a.urn:#URN#Cite2Urn#CW Blackwell, Morpheus, LSJ, Grok
+urn:cite2:fufolio:greekmorph.2026a.desc:#URN#Cite2Urn#CW Blackwell, Morpheus, LSJ, Grok
+urn:cite2:fufolio:greekmorph.2026a.uc_form:#Unicode Surface Form#Text#CW Blackwell, Morpheus, LSJ, Grok
+urn:cite2:fufolio:greekmorph.2026a.bc_form:#Beta Code Surface Form#Text#CW Blackwell, Morpheus, LSJ, Grok
+urn:cite2:fufolio:greekmorph.2026a.uc_lemma:#Unicode Lemma#Text#CW Blackwell, Morpheus, LSJ, Grok
+urn:cite2:fufolio:greekmorph.2026a.bc_lemma:#BetaCode Lemma#Text#CW Blackwell, Morpheus, LSJ, Grok
+urn:cite2:fufolio:greekmorph.2026a.lsj:#LSJ URN#Cite2Urn#CW Blackwell, Morpheus, LSJ, Grok
+urn:cite2:fufolio:greekmorph.2026a.pos:#Part of Speech Tag#Text#CW Blackwell, Morpheus, LSJ, Grok
+
+#!citedata
+urn#desc#uc_form#bc_form#uc_lemma#bc_lemma#lsj#pos
 urn:cite2:fufolio:greekmorph.2026a:20260604T0959100001#**’διαύλιον**. From **διαυλέω**. Verb. Imperfect, indicative, active, 3rd person, plural. [v3piia---]. See `urn:cite2:hmt:lsj.chicago_md:n26160`.#’διαύλιον#'diau/lion#διαυλέω#diaule/w#urn:cite2:hmt:lsj.chicago_md:n26160#v3piia---
 urn:cite2:fufolio:greekmorph.2026a:20260604T0959100002#**’διαύλιον**. From **διαυλέω**. Verb. Imperfect, indicative, active, 1st person, singular. [v1siia---]. See `urn:cite2:hmt:lsj.chicago_md:n26160`.#’διαύλιον#'diau/lion#διαυλέω#diaule/w#urn:cite2:hmt:lsj.chicago_md:n26160#v1siia---
 urn:cite2:fufolio:greekmorph.2026a:20260604T0959100003#**Αἰγαίου**. From **Αἰγαῖος**. Adjective. Masculine, genitive, singular. [a-s---mg-]. See `urn:cite2:hmt:lsj.chicago_md:n2118`.#Αἰγαίου#*ai)gai/ou#Αἰγαῖος#*ai)gai=os#urn:cite2:hmt:lsj.chicago_md:n2118#a-s---mg-
