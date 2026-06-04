@@ -16,3 +16,4 @@ Manifest.toml
 .DS_Store
 _cwb/
 Dramaturg.code-workspace
+data/html_temp/

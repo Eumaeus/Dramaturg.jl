@@ -14,6 +14,8 @@ html_output_dir = "editions/html/Herodotus/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
+html_temp_dir = "data/html_temp/Herodotus"
+
 
 [lexicon]
 lsj_cex =   "source-data/dictionaries/lsj_chicago.cex"

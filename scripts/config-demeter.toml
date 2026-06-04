@@ -13,6 +13,8 @@ html_output_dir = "editions/html/The_Homeric_Hymn_to_Demeter/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
+html_temp_dir = "data/html_temp/The_Homeric_Hymn_to_Demeter"
+
 
 [lexicon]
 lsj_cex =   "source-data/dictionaries/lsj_chicago.cex"
