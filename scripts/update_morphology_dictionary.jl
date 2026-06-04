@@ -10,7 +10,7 @@ include("../src/config.jl")
 config = read_config()
 println("Loaded config for text: ", config["input"]["text_urn"])
 
-CEX_PATH = config["editorial"]["master_morph_dict"]
+CEX_PATH = config["morphology"]["local_morph_dict"]
 
 # Get the new TSV from command-line argument (or hard-code if you prefer)
 

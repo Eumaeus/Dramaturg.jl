@@ -1,17 +1,16 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/demeter.cex"
-text_urn = "urn:cts:greekLit:tlg0013.tlg002.fucex:" 
-file_name = "The_Homeric_Hymn_to_Demeter"
-text_genre = "poetry" # options are "poetry", "prose", "drama"
+cex_path = "source-data/texts/frogs-speech-speaker.cex"
+text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:" 
+file_name = "Aristophanes_Frogs"
+text_genre = "drama" # options are "poetry", "prose", "drama"
 filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 
 [output]
 html_tokens_per_page = 250
-html_output_dir = "editions/html/" # use ["input"]["file_name"] + "pages" for html files.
-html_temp_dir = "temp" # use ["output"]["html_output_dir"] and ["input"]["file_name"] + this value 
+html_output_dir = "editions/html/Aristophanes_Frogs/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
@@ -22,14 +21,15 @@ lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
 lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
-raw_morph_data = "morph/output/demeter-analysis.txt"
-morph_pos_triplets = "data/indexes/The_Homeric_Hymn_to_Demeter_morpheus_triplets.tsv"
-morph_pos_errors = "morph/output/The_Homeric_Hymn_to_Demeter_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/The_Homeric_Hymn_to_Demeter_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/The_Homeric_Hymn_to_Demeter_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/The_Homeric_Hymn_to_Demeter_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/The_Homeric_Hymn_to_Demeter_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/demeter_morph.cex"
+raw_morph_data = "morph/output/frogs-analysis.txt"
+morph_pos_triplets = "data/indexes/Aristophanes_Frogs_morpheus_triplets.tsv"
+morph_pos_errors = "morph/output/Aristophanes_Frogs_parse_errors.log"
+morph_lemmata_alignment = "data/indexes/Aristophanes_Frogs_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Aristophanes_Frogs_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/Aristophanes_Frogs_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/Aristophanes_Frogs_morphology_index_errors.tsv"
+local_morph_dict = "data/morphology/frogs_morph.cex"
+
 
 
 # NEW sections for this milestone

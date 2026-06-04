@@ -13,7 +13,7 @@ config = read_config()
 println("Loaded config for text: ", config["input"]["text_urn"])
 
 TSV_PATH = config["morphology"]["morph_lemmata_alignment"]
-CEX_PATH = config["editorial"]["master_morph_dict"]
+CEX_PATH = config["morphology"]["local_morph_dict"]
 
 
 # Generate a date-time base for unique object IDs (your preferred style)
