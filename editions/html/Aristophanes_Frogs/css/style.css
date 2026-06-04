@@ -1,0 +1,40 @@
+:root {
+    --text-color: #222;
+    --accent-color: #8b0000;
+}
+body {
+    font-family: "Iowan Old Style", "Garamond", "EB Garamond", Georgia, serif;
+    max-width: 42em;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    background: #fff;
+}
+h1, h2, h3 {
+    font-family: "Iowan Old Style", "Garamond", serif;
+    font-weight: normal;
+    color: var(--accent-color);
+}
+nav {
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+nav a {
+    margin-right: 1.5em;
+    text-decoration: none;
+    color: var(--accent-color);
+}
+nav a:hover { text-decoration: underline; }
+#title { margin-bottom: 2rem; }
+#work_title { font-size: 2rem; margin-bottom: 0.5rem; }
+#toc ul { list-style: none; padding-left: 0; }
+#toc li { margin: 0.4em 0; }
+#toc a { text-decoration: none; color: #222; }
+#toc a:hover { color: var(--accent-color); }
+.greek { font-size: 1.1rem; line-height: 1.8; }
+@media (max-width: 600px) {
+    body { padding: 1rem; font-size: 1.05rem; }
+}
