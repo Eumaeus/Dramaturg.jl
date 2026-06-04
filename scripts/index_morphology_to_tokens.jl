@@ -11,9 +11,11 @@ Greek_Morphology.cex).
 
 - One-to-one or one-to-many associations are written to the index.
 - Punctuation tokens are silently skipped.
-- Any non-punctuation token without a matching morphology entry
-  is logged to the error file (for transliteration issues, missing
-  forms, etc.).
+- Elided forms listed in editorial_dict_elision.tsv (surface_form → expanded_form)
+  are automatically resolved to their expanded form and matched to morphology
+  entries before any error is logged.
+- Any remaining non-punctuation token without a matching morphology entry
+  is logged to the error file (for transliteration issues, missing forms, etc.).
 
 Usage (run from project root):
     julia --project=. scripts/index_morphology_to_tokens.jl
@@ -92,10 +94,36 @@ end
 println("Loaded $(length(morph_dict)) unique normalized surface forms from the morphology dictionary (skipped $skipped header/comment lines).")
 
 # ----------------------------------------------------------------------
+# 1b. Load elision dictionary: normalized surface_form → normalized expanded_form
+# ----------------------------------------------------------------------
+elision_path = "source-data/dictionaries/editorial_dict_elision.tsv"
+elision_to_expanded = Dict{String, String}()
+
+elision_lines = readlines(elision_path)
+for line in elision_lines
+    line = strip(line)
+    if isempty(line) || startswith(line, "surface_form")
+        continue
+    end
+
+    parts = split(line, '\t')
+    if length(parts) >= 2
+        surf = strip(parts[1])
+        expd = strip(parts[2])
+        norm_surf = normalize_surface(surf)
+        norm_expd = normalize_surface(expd)
+        elision_to_expanded[norm_surf] = norm_expd
+    end
+end
+
+println("Loaded $(length(elision_to_expanded)) elision mappings from $elision_path.")
+
+# ----------------------------------------------------------------------
 # 2. Process tokenized text and build index + error list
 # ----------------------------------------------------------------------
-index_entries  = String[]
-error_entries  = String[]
+index_entries   = String[]
+error_entries   = String[]
+elided_resolved = 0
 
 token_lines = readlines(tokenized_path)
 for line in token_lines
@@ -124,7 +152,18 @@ for line in token_lines
         if !occursin(r"\p{L}", surface)
             continue
         else
-            # Real error (type 2 or 3 from the desiderata)
+            # NEW: try resolving via elision dictionary first
+            if haskey(elision_to_expanded, norm_surface)
+                expanded_norm = elision_to_expanded[norm_surface]
+                if haskey(morph_dict, expanded_norm)
+                    for murn in morph_dict[expanded_norm]
+                        push!(index_entries, "$(token_urn)\t$(murn)")
+                    end
+                    global elided_resolved += 1
+                    continue  # resolved successfully → no error
+                end
+            end
+            # If we reach here, it was neither a direct match nor a successfully resolved elision
             push!(error_entries,
                   "$(token_urn)\t$(surface)\t$(norm_surface)\tno_match_in_morph_dict")
         end
@@ -142,10 +181,12 @@ if !isempty(index_entries)
             println(io, entry)
         end
     end
-    println("✓ Wrote $(length(index_entries)) index entries → $output_path")
+    println("Wrote $(length(index_entries)) index entries → $output_path")
 else
-    println("⚠ No index entries generated!")
+    println("No index entries generated!")
 end
+
+println("Resolved $elided_resolved elided forms using the editorial dictionary.")
 
 # Errors (TSV with header for easy inspection)
 if !isempty(error_entries)
@@ -155,11 +196,11 @@ if !isempty(error_entries)
             println(io, entry)
         end
     end
-    println("⚠ Found $(length(error_entries)) unmatched non-punctuation tokens → $errors_path")
-    println("   (These are the three kinds of anticipated issues: punctuation was skipped automatically.)")
+    println("Found $(length(error_entries)) unmatched non-punctuation tokens → $errors_path")
+    println("   (Elided forms were automatically resolved where possible using source-data/dictionaries/editorial_dict_elision.tsv)")
 else
-    println("✓ No errors! All non-punctuation tokens matched a morphology entry.")
+    println("No errors! All non-punctuation tokens matched a morphology entry.")
 end
 
-println("\nMorphology-to-tokens indexing complete! 🎉")
+println("\nMorphology-to-tokens indexing complete! ")
 println("You can now proceed to generate reader editions and further analyses.")
