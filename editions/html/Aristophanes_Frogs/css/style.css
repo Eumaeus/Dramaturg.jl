@@ -38,3 +38,64 @@ nav a:hover { text-decoration: underline; }
 @media (max-width: 600px) {
     body { padding: 1rem; font-size: 1.05rem; }
 }
+
+/* Reader page styles */
+.citation-unit {
+    margin: 1.5em 0 1em 2em;
+    position: relative;
+    line-height: 1.8;
+}
+.citation-label {
+    color: var(--accent-color);
+    font-weight: bold;
+    position: absolute;
+    left: -2em;
+    width: 2em;
+    text-align: right;
+    font-size: 0.95rem;
+}
+.speaker-attribution {
+    font-weight: bold;
+    color: var(--accent-color);
+    margin: 1.8em 0 0.4em 0;
+    font-size: 1.1rem;
+}
+.text_token {
+    transition: background-color 0.2s;
+}
+.text_token:hover {
+    background-color: #fff8e1;
+}
+.citation-unit .text_token {
+    font-size: 1.1rem;
+}
+
+/* Reader page styles - updated for drama */
+.citation-unit {
+    margin: 1.5em 0 1em 2em;
+    position: relative;
+    line-height: 1.8;
+}
+.citation-label {
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+.speaker-attribution {
+    font-weight: bold;
+    color: var(--accent-color);
+    margin: 1.8em 0 0.4em 0;
+    font-size: 1.1rem;
+}
+.inline-speech {
+    margin: 0.8em 0;
+}
+.inline-speech + .inline-speech {
+    padding-left: 3em;          /* indents subsequent speeches in the same line */
+}
+.text_token {
+    transition: background-color 0.2s;
+}
+.text_token:hover {
+    background-color: #fff8e1;
+}
