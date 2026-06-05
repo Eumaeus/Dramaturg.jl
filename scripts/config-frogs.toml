@@ -6,6 +6,7 @@ text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:"
 file_name = "Aristophanes_Frogs"
 text_title = "Aristophanes *Frogs*"
 text_genre = "drama" # options are "poetry", "prose", "drama"
+citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
 filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 
@@ -16,8 +17,8 @@ html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/Aristphanes_Frogs"
-md_bibliography = "edtions/frontmatter/Aristophanes_Frogs/bibliography.md"
-md_frontmatter = "edtions/frontmatter/Aristophanes_Frogs/frontmatter.md"
+md_bibliography = "editions/frontmatter/Aristophanes_Frogs/bibliography.md"
+md_frontmatter = "editions/frontmatter/Aristophanes_Frogs/frontmatter.md"
 
 [lexicon]
 lsj_cex =   "source-data/dictionaries/lsj_chicago.cex"

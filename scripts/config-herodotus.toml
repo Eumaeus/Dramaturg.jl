@@ -6,6 +6,7 @@ text_urn = "urn:cts:greekLit:tlg0016.tlg001.grc:"
 file_name = "Herodotus"
 text_title = "Herodotus, *Histories*"
 text_genre = "prose" # options are "poetry", "prose", "drama"
+citation_level = 2 # "book.section". A poem might be 1, 'poetic-line'
 filter_paratext = "" # filter out passages with this string in the URN.
 
 
@@ -16,8 +17,8 @@ html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/Herodotus"
-md_bibliography = "edtions/frontmatter/Herodotus/bibliography.md"
-md_frontmatter = "edtions/frontmatter/Herodotus/frontmatter.md"
+md_bibliography = "editions/frontmatter/Herodotus/bibliography.md"
+md_frontmatter = "editions/frontmatter/Herodotus/frontmatter.md"
 
 
 [lexicon]

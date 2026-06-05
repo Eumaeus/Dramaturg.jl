@@ -8,6 +8,7 @@
 
 using TOML
 using Markdown
+using Dramaturg
 
 # Compatible regex escape for all Julia 1.x versions
 function regex_escape(s::AbstractString)::String
@@ -38,6 +39,8 @@ end
 function main()
     config_path = joinpath(@__DIR__, "config.toml")
     config = TOML.parsefile(config_path)
+
+    Dramaturg.chunk_for_html_edition(config)
 
     input = config["input"]
     output = config["output"]

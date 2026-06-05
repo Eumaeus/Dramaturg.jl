@@ -6,6 +6,7 @@ text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:"
 file_name = "Aristophanes_Frogs"
 text_title = "Aristophanes *Frogs*"
 text_genre = "drama" # options are "poetry", "prose", "drama"
+citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
 filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 

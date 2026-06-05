@@ -6,6 +6,7 @@ text_urn = "urn:cts:greekLit:tlg0013.tlg002.fucex:"
 file_name = "*The_Homeric_Hymn_to_Demeter*"
 text_title = "The Homeric Hymn to Demeter"
 text_genre = "poetry" # options are "poetry", "prose", "drama"
+citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
 filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 [output]
