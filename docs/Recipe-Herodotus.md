@@ -34,9 +34,6 @@ Using `scripts/config-herodotus.toml` as a starting point.
 
 	julia --project=. scripts/index_morphology_to_tokens.jl
 
-	julia --project=. -e '
-	using Dramaturg
-	config = read_config()          # or however your recipe loads the specific config
-	chunk_for_html_edition(config)
-	'
+	julia --project=. scripts/generate_html_index.jl
 
+	julia --project=. scripts/generate_html_reader_pages.jl	
