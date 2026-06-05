@@ -345,8 +345,11 @@ function main()
         filled = replace(filled, "{{greek_text}}" => greek_html)
         filled = replace(filled, "{{morph_data}}" => morphdata_html)
 
+        # === NEW: Insert sidebar-ready structure (already in updated template) ===
+        # (template now contains the .main-content flex layout)
 
         write(page_path, filled)
+        
         println("   ✓ $chunk_base.html  ($passage_span)")
     end
 
