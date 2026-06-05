@@ -242,7 +242,7 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
                         $desc_html
                     </div>
                     <div class="lsj_shortdef" data-lsjurn="$lsj_urn">
-                        <a href="$lsj_url" class="shortdeflink">$shortdef</a>
+                        <a href="$(lsj_url * "?urn=" * lsj_urn)" class="shortdeflink">$shortdef</a>
                     </div>
                 </div>
             """)
@@ -323,8 +323,8 @@ function main()
         end
 
         # Navigation
-        prev_href = idx > 1 ? "pages/" * replace(txt_files[idx-1], r"\.txt$"i => "") * ".html" : "#"
-        next_href = idx < length(txt_files) ? "pages/" * replace(txt_files[idx+1], r"\.txt$"i => "") * ".html" : "#"
+        prev_href = idx > 1 ? "" * replace(txt_files[idx-1], r"\.txt$"i => "") * ".html" : "#"
+        next_href = idx < length(txt_files) ? "" * replace(txt_files[idx+1], r"\.txt$"i => "") * ".html" : "#"
         navigation = """
         <a href="../index.html">← Index</a>
         <a href="$prev_href">Previous</a>
@@ -334,9 +334,11 @@ function main()
         # Title
         title_and_span_html = Markdown.html(Markdown.parse(text_title_md * " " * passage_span))
         title_html = Markdown.html(Markdown.parse(text_title_md))
+        page_title = replace(title_html, r"<[^>]+>" => "") # for the page-title, we dont' want markup.
 
         # Fill template
         filled = template
+        filled = replace(filled, "{{page_title}}" => page_title)
         filled = replace(filled, "{{title}}" => title_and_span_html)
         filled = replace(filled, "{{passage_span}}" => passage_span)
         filled = replace(filled, "{{navigation}}" => navigation)
