@@ -17,3 +17,4 @@ Manifest.toml
 _cwb/
 Dramaturg.code-workspace
 data/html_temp/
+morph/output/
