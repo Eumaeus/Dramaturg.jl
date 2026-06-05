@@ -164,6 +164,48 @@ nav a:hover { text-decoration: underline; }
 @media (max-width: 600px) {
     body { padding: 1rem; font-size: 1.05rem; }
 }
+
+
+/* ==================== EDITOR MODE STYLES ==================== */
+.editor-controls {
+    font-size: 0.95rem;
+}
+
+.parse_and_lex {
+    position: relative; /* for button positioning */
+}
+
+.parse_and_lex.preferred {
+    border-left: 6px solid #28a745;
+    background: #f0f8f0;
+    box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.2);
+}
+
+.preferred-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.preferred-btn:hover {
+    background: #218838;
+}
+
+.parse_and_lex.preferred .preferred-btn {
+    background: #28a745;
+}
+
+.parse_and_lex:not(.preferred) .preferred-btn {
+    background: #6c757d;
+}
 /* Reader page styles - updated for drama */
 .citation-unit {
     margin: 1.5em 0 1em 2em;
