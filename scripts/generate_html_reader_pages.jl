@@ -154,6 +154,105 @@ function render_greek_text(tokens::Vector{Tuple{String,String}}, genre::String, 
     end
 end
 
+
+# ------------------------------------------------------------------
+# NEW: Data loaders for morphology + lexicon
+# ------------------------------------------------------------------
+function load_morph_index(path::String)::Dict{String,Vector{String}}
+    idx = Dict{String,Vector{String}}()
+    for line in readlines(path)
+        line = strip(line)
+        isempty(line) && continue
+        parts = split(line, '\t')
+        length(parts) < 2 && continue
+        token_urn = strip(parts[1])
+        morph_urn = strip(parts[2])
+        if !haskey(idx, token_urn)
+            idx[token_urn] = String[]
+        end
+        push!(idx[token_urn], morph_urn)
+    end
+    idx
+end
+
+function load_morph_dict(path::String)::Dict{String,NamedTuple{(:desc,:lsj),Tuple{String,String}}}
+    d = Dict{String,NamedTuple{(:desc,:lsj),Tuple{String,String}}}()
+    for line in readlines(path)
+        line = strip(line)
+        startswith(line, "urn:cite2:fufolio:greekmorph") || continue
+        fields = split(line, '#')
+        length(fields) < 7 && continue
+        morph_urn = strip(fields[1])
+        desc = strip(fields[2])                     # the Markdown description you want
+        # LSJ URN is reliably the 7th field (or the first field that looks like an LSJ URN)
+        lsj = ""
+        for f in fields
+            if startswith(strip(f), "urn:cite2:hmt:lsj.chicago_md:")
+                lsj = strip(f)
+                break
+            end
+        end
+        isempty(lsj) && length(fields) >= 7 && (lsj = strip(fields[7]))
+        d[morph_urn] = (desc = desc, lsj = lsj)
+    end
+    d
+end
+
+function load_lsj_short_defs(path::String)::Dict{String,String}
+    defs = Dict{String,String}()
+    for line in readlines(path)
+        line = strip(line)
+        isempty(line) && continue
+        parts = split(line, '\t', limit = 2)
+        length(parts) == 2 || continue
+        urn = strip(parts[1])
+        def = strip(parts[2])
+        defs[urn] = def
+    end
+    defs
+end
+
+function build_morphdata_html(tokens::Vector{Tuple{String,String}},
+                              morph_index::Dict{String,Vector{String}},
+                              morph_dict::Dict{String,NamedTuple{(:desc,:lsj),Tuple{String,String}}},
+                              lsj_defs::Dict{String,String},
+                              lsj_url::String)::String
+    parts = String[]
+    processed = Set{String}()
+    for (urn, _) in tokens
+        occursin(".speaker", urn) && continue          # no lexical data for speakers
+        urn in processed && continue
+        push!(processed, urn)
+
+        haskey(morph_index, urn) || continue
+        morph_urns = morph_index[urn]
+
+        push!(parts, """<div class="morph4token" data-tokenurn="$urn">""")
+        for murn in morph_urns
+            haskey(morph_dict, murn) || continue
+            entry = morph_dict[murn]
+            desc_html = Markdown.html(Markdown.parse(entry.desc))
+
+            lsj_urn = entry.lsj
+            shortdef = get(lsj_defs, lsj_urn, "[No short definition available]")
+
+            push!(parts, """
+                <div class="parse_and_lex" data-morphurn="$murn">
+                    <div class="formparsing" data-morphurn="$murn">
+                        $desc_html
+                    </div>
+                    <div class="lsj_shortdef" data-lsjurn="$lsj_urn">
+                        <a href="$lsj_url" class="shortdeflink">$shortdef</a>
+                    </div>
+                </div>
+            """)
+        end
+        push!(parts, "</div>")   # close morph4token
+    end
+    join(parts, "\n")
+end
+
+
 # ------------------------------------------------------------------
 # Main
 # ------------------------------------------------------------------
@@ -174,6 +273,7 @@ function main()
     pages_dir = output["html_output_dir"]
     text_site_dir = dirname(pages_dir)
 
+
     mkpath(pages_dir)
 
     template_path = joinpath(output["html_template_dir"], output["html_page_template"])
@@ -183,6 +283,12 @@ function main()
     if isempty(txt_files)
         error("No chunk .txt files found in $html_temp_dir")
     end
+
+    # === NEW: Load all morphology/lexicon data once ===
+    morph_index = load_morph_index(config["morphology"]["morph_token_index"])
+    morph_dict  = load_morph_dict(config["morphology"]["local_morph_dict"])
+    lsj_defs    = load_lsj_short_defs(config["lexicon"]["lsj_short"])
+    lsj_url     = output["lsj_url"]
 
     println("Generating $(length(txt_files)) reader pages (drama mode: $(genre == "drama"))...")
 
@@ -201,6 +307,10 @@ function main()
         end
 
         greek_html = render_greek_text(tokens, genre, citation_level, text_urn)
+
+        # === NEW: Build the complete #morphdata block for this chunk ===
+        morphdata_html = build_morphdata_html(tokens, morph_index, morph_dict, lsj_defs, lsj_url)
+
 
         # Passage span for title
         text_cits = [get_citation_unit(urn, citation_level, text_urn) for (urn, tok) in tokens if !occursin(".speaker", urn)]
@@ -231,6 +341,8 @@ function main()
         filled = replace(filled, "{{passage_span}}" => passage_span)
         filled = replace(filled, "{{navigation}}" => navigation)
         filled = replace(filled, "{{greek_text}}" => greek_html)
+        filled = replace(filled, "{{morph_data}}" => morphdata_html)
+
 
         write(page_path, filled)
         println("   ✓ $chunk_base.html  ($passage_span)")
