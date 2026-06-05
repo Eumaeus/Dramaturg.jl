@@ -19,6 +19,7 @@ html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/Herodotus"
 md_bibliography = "editions/frontmatter/Herodotus/bibliography.md"
 md_frontmatter = "editions/frontmatter/Herodotus/frontmatter.md"
+lsj_url = "http://localhost:8080"
 
 
 [lexicon]

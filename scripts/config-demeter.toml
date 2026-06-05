@@ -18,6 +18,7 @@ html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/The_Homeric_Hymn_to_Demeter"
 md_bibliography = "edtions/frontmatter/The_Homeric_Hymn_to_Demeter/bibliography.md"
 md_frontmatter = "edtions/frontmatter/The_Homeric_Hymn_to_Demeter/frontmatter.md"
+lsj_url = "http://localhost:8080"
 
 
 

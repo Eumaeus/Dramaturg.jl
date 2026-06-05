@@ -19,6 +19,8 @@ html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/Aristphanes_Frogs"
 md_bibliography = "editions/frontmatter/Aristophanes_Frogs/bibliography.md"
 md_frontmatter = "editions/frontmatter/Aristophanes_Frogs/frontmatter.md"
+lsj_url = "http://localhost:8080"
+
 
 [lexicon]
 lsj_cex =   "source-data/dictionaries/lsj_chicago.cex"
