@@ -47,7 +47,6 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:139.1.text.token.3	τυννουτῳί	τ
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:146.1.text.token.3	ἀείνων	ἀείνων	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:153.1.text.token.6	Κινησίου	Κινησίου	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:156.1.text.token.2	μυρρινῶνας	μυρρινῶνας	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:164.1.text.token.3	πόλλ’	πόλλ’	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:171.1.text.token.9	τεθνηκότα	τεθνηκότα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:173.1.speaker.token.1	Νέκρος	Νέκρος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:173.3.speaker.token.1	Νέκρος	Νέκρος	no_match_in_morph_dict
@@ -281,7 +280,6 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:465.1.speaker.token.1	Ἄιακος	Ἄι�
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:466.1.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:467.1.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:468.1.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:468.1.text.token.1	ἀπῇξας	ἀπῇξας	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:469.1.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:470.1.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:471.1.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
@@ -351,7 +349,6 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:553.1.speaker.token.1	Πανδοκευτρ
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:554.1.speaker.token.1	Πανδοκευτρία	Πανδοκευτρία	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:554.1.text.token.2	ἡμιωβολιαῖα	ἡμιωβολιαῖα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:555.1.speaker.token.1	Πανδοκευτρία	Πανδοκευτρία	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:556.1.text.token.2	οἶσθ’	οἶσθ’	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:556.2.speaker.token.1	Πανδοκευτρία	Πανδοκευτρία	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:557.1.speaker.token.1	Πανδοκευτρία	Πανδοκευτρία	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:558.1.speaker.token.1	Πανδοκευτρία	Πανδοκευτρία	no_match_in_morph_dict
@@ -365,7 +362,6 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:565.1.speaker.token.1	Πλαθάνη	Πλ
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:565.2.speaker.token.1	Πανδοκευτρία	Πανδοκευτρία	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:566.1.speaker.token.1	Πανδοκευτρία	Πανδοκευτρία	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:567.1.speaker.token.1	Πανδοκευτρία	Πανδοκευτρία	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:567.1.text.token.4	ἐξᾴξας	ἐξᾴξας	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:568.2.speaker.token.1	Πλαθάνη	Πλαθάνη	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:569.1.speaker.token.1	Πανδοκευτρία	Πανδοκευτρία	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:569.1.text.token.6	Κλέωνά	Κλέωνά	no_match_in_morph_dict
@@ -528,7 +524,6 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:745.2.text.token.1	μἀλλ’	μἀλλ�
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:746.1.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:748.2.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:749.2.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:751.1.text.token.1	ἅττ’	ἅττ’	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:751.2.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:752.2.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:753.1.speaker.token.1	Ἄιακος	Ἄιακος	no_match_in_morph_dict
@@ -674,7 +669,6 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:929.1.text.token.1	γρυπαιέτους
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:933.1.speaker.token.1	Αἰσχύλος	Αἰσχύλος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:933.1.text.token.5	ὦμαθέστατ’	ὦμαθέστατ’	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:936.1.speaker.token.1	Αἰσχύλος	Αἰσχύλος	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:936.1.text.token.9	ἅττ’	ἅττ’	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:944.2.text.token.1	Κηφισοφῶντα	Κηφισοφῶντα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:944.2.text.token.2	μιγνύς	μιγνύς	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:950.2.speaker.token.1	Αἰσχύλος	Αἰσχύλος	no_match_in_morph_dict
@@ -824,7 +818,6 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:1115.1.speaker.token.1	Χορός	Χορ�
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1116.1.speaker.token.1	Χορός	Χορός	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1117.1.speaker.token.1	Χορός	Χορός	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1118.1.speaker.token.1	Χορός	Χορός	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:1118.1.text.token.5	οὕνεχ’	οὕνεχ’	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1125.1.text.token.8	Αἰσχύλε	Αἰσχύλε	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1126.1.speaker.token.1	Αἰσχύλος	Αἰσχύλος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1126.1.text.token.1	ʹ	ʹ	no_match_in_morph_dict
@@ -954,7 +947,6 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:1259.1.speaker.token.1	Χορός	Χορ�
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1260.1.speaker.token.1	Χορός	Χορός	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1263.1.text.token.9	ʹδιαύλιον	ʹδιαύλιον	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1263.1.text.token.11	τισ̓	τισ̓	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:1264.1.text.token.6	ἀνδροδάικτον	ἀνδροδάικτον	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1268.1.text.token.4	Αἰσχύλε	Αἰσχύλε	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1270.1.text.token.3	Ἀτρέως	Ἀτρέως	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1272.1.text.token.2	ᾠσχύλε	ᾠσχύλε	no_match_in_morph_dict

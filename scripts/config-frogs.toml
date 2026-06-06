@@ -16,10 +16,11 @@ html_output_dir = "editions/html/Aristophanes_Frogs/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Aristphanes_Frogs"
+html_temp_dir = "data/html_temp/Aristophanes_Frogs"
 md_bibliography = "editions/frontmatter/Aristophanes_Frogs/bibliography.md"
 md_frontmatter = "editions/frontmatter/Aristophanes_Frogs/frontmatter.md"
 lsj_url = "http://localhost:8080"
+editions_dir = "editions/html/"
 
 
 [lexicon]
@@ -60,3 +61,5 @@ anastrophe_dict   = "source-data/dictionaries/editorial_dict_anastrophe.tsv"
 lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
 lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
 master_morph_dict = "data/morphology/Greek_Morphology.cex"
+editor_index_files = "source-data/edited_morphology/Aristophanes_Frogs/"
+editor_index_error = "data/morphology/editorial_index_error_frogs.txt"

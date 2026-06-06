@@ -42,6 +42,7 @@ function main()
 
     html_temp_dir = output["html_temp_dir"]
     pages_dir = output["html_output_dir"]
+    editions_dir = output["editions_dir"]
     text_site_dir = dirname(pages_dir)
     index_path = joinpath(text_site_dir, "index.html")
 
@@ -51,6 +52,11 @@ function main()
     mkpath(joinpath(text_site_dir, "css"))
     mkpath(joinpath(text_site_dir, "js"))
 
+    # Top-level directories
+    mkpath(editions_dir)
+    mkpath(joinpath(editions_dir, "css"))
+    mkpath(joinpath(editions_dir, "js"))
+
     # === COPY TEMPLATED ASSETS (new) ===
     template_dir = output["html_template_dir"]
     cp(joinpath(template_dir, "css", "style.css"),
@@ -58,6 +64,12 @@ function main()
        force = true)
     cp(joinpath(template_dir, "js", "interactive.js"),
        joinpath(text_site_dir, "js", "interactive.js"),
+       force = true)
+    cp(joinpath(template_dir, "css", "style.css"),
+       joinpath(editions_dir, "css", "style.css"),
+       force = true)
+    cp(joinpath(template_dir, "js", "interactive.js"),
+       joinpath(editions_dir, "js", "interactive.js"),
        force = true)
 
     # Load templates

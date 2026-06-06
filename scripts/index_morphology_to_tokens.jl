@@ -33,7 +33,7 @@ using Unicode
 config = read_config()
 println("Loaded config for text: ", config["input"]["text_urn"])
 
-morph_path   = config["morphology"]["local_morph_dict"]
+morph_path   = config["editorial"]["master_morph_dict"]
 tokenized_path = get_output_path(config, "tokenized")
 output_path  = config["morphology"]["morph_token_index"]
 errors_path  = config["morphology"]["morph_token_index_errors"]

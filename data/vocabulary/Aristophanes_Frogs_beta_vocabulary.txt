@@ -17,7 +17,6 @@ form
 *bakxei='
 *bare/ws
 *bellerofo/ntas
-*bou/lei
 *ba/ros
 *glu/kh
 *glu/khs

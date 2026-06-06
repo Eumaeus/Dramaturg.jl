@@ -3,8 +3,8 @@
 [input]
 cex_path = "source-data/texts/homer_iliad.cex"
 text_urn = "urn:cts:greekLit:tlg0012.tlg001.allen:" 
-file_name = "The Homeric *Iliad*"
-text_title = "The Homeric Iliad"
+file_name = "Iliad"
+text_title = "The Homeric *Iliad*"
 text_genre = "poetry" # options are "poetry", "prose", "drama"
 citation_level = 2 # book + poetic line. For something like Herodotus, it would be 2, "book.section".
 filter_paratext = "" # filter out passages with this string in the URN.
@@ -16,9 +16,10 @@ html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/Iliad"
-md_bibliography = "edtions/frontmatter/Iliad/bibliography.md"
-md_frontmatter = "edtions/frontmatter/Iliad/frontmatter.md"
+md_bibliography = "editions/frontmatter/Iliad/bibliography.md"
+md_frontmatter = "editions/frontmatter/Iliad/frontmatter.md"
 lsj_url = "http://localhost:8080"
+editions_dir = "editions/html/"
 
 
 
@@ -59,3 +60,5 @@ anastrophe_dict   = "source-data/dictionaries/editorial_dict_anastrophe.tsv"
 lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
 lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
 master_morph_dict = "data/morphology/Greek_Morphology.cex"
+editor_index_files = "source-data/edited_morphology/Iliad/"
+editor_index_error = "data/morphology/editorial_index_error_iliad.txt"

@@ -286,7 +286,7 @@ function main()
 
     # === NEW: Load all morphology/lexicon data once ===
     morph_index = load_morph_index(config["morphology"]["morph_token_index"])
-    morph_dict  = load_morph_dict(config["morphology"]["local_morph_dict"])
+    morph_dict  = load_morph_dict(config["editorial"]["master_morph_dict"])
     lsj_defs    = load_lsj_short_defs(config["lexicon"]["lsj_short"])
     lsj_url     = output["lsj_url"]
 
