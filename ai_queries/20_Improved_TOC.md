@@ -64,4 +64,6 @@ And there were a couple of those where the function specifies String but we have
 
 I ran the script on the *Iliad* (2-level citation, 15,000 passages) and on *Frogs* (1-level citation scheme). It works great!
 
-This is really exactly what I wanted. I have pushed this
+This is really exactly what I wanted. I have pushed these changes. I will run them across my (now) five example texts and probably have a lot of fun fine-tuning the CSS for those TOC entries.
+
+I have begun writing up requests for your help with two other things. The obvious one will be integrating the editor-index. That will be next. Thank you so much!!!

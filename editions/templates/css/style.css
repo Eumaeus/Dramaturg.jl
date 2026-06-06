@@ -18,9 +18,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+
 
 h1, h2, h3 {
     font-family: "EB Garamond, Iowan Old Style", "Garamond", serif;
@@ -150,10 +148,7 @@ nav a:hover { text-decoration: underline; }
     border-radius: 3px;
 }
 
-.text_token:hover {
-    background-color: #fff8e1;
-    outline: 1px solid #f5d8a0;
-}
+
 
 .text_token.locked {
     background-color: #e6f0ff;
@@ -259,10 +254,22 @@ nav a:hover { text-decoration: underline; }
 
 
 .text_token {
-    transition: background-color 0.2s;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    padding: 2px 1px;
+    border-radius: 3px;
 }
-.text_token:hover {
+
+/* NEW: JS-driven hover (replaces the old :hover rules) */
+.text_token.hovered {
     background-color: #fff8e1;
+    outline: 1px solid #f5d8a0;
+}
+
+.text_token.locked {
+    background-color: #e6f0ff;
+    outline: 1px solid #0066cc;
+    box-shadow: 0 0 0 3px rgba(0,102,204,0.2);
 }
 
 /* CWB Custom */
@@ -274,6 +281,54 @@ nav a:hover { text-decoration: underline; }
   font-style: italic;
 }
 
+div#toc {
+    font-size: 1.5rem;
+}
+
+
 code {
     font-size: 80%;
+}
+
+/* TOC accordions – native <details> styling */
+details {
+    margin-bottom: 0.6rem;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+details summary {
+    padding: 0.75rem 1rem;
+    background: #f8f1e3;
+    font-weight: 400;
+    cursor: pointer;
+    list-style: none;           /* hides the default triangle in some browsers */
+    position: relative;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary::after {
+    content: "▾";
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.2s ease;
+}
+
+details[open] summary::after {
+    transform: rotate(180deg);
+}
+
+details summary:hover {
+    background: #f0e6d2;
+}
+
+details ul {
+    padding: 0.5rem 1rem 0.75rem 2rem;
+    margin: 0;
+    list-style-type: "☞ ";
+    background: #fffaf0;
+    border-left: 3px solid #d4b98a;
 }

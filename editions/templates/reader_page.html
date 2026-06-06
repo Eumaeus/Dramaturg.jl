@@ -25,6 +25,14 @@
         <div id="sidebar">
             <h3 id="sidebar-title">Morphology &amp; Lexicon <br/><span class="peek-note">( hover to peek ✧ click to lock )</span></h3>
             
+          <!-- Editor Mode toggle (always visible) -->
+            <div id="editor-mode-toggle-wrapper" style="margin-bottom: 1.2rem; font-size: 0.95rem;">
+                <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; user-select: none;">
+                    <input type="checkbox" id="editor-mode-toggle" checked>
+                    <span>Editor Mode <small style="color:#28a745; font-weight:normal;">(Mark preferred parsings)</small></span>
+                </label>
+            </div> 
+
             <!-- Editor Mode controls -->
             <div id="editor-controls" class="editor-controls" style="display: none; margin-bottom: 1.5rem; padding: 1rem; background: #f0f8f0; border: 1px solid #28a745; border-radius: 8px;">
                 <strong style="color:#28a745;">Editor Mode</strong><br>

@@ -8,12 +8,16 @@ using Dramaturg
 # NEW helpers for nice TOC labels
 function format_passage_range(first_cit::String, last_cit::String, level::Int)::String
     if level == 1
-        return "Passages $(first_cit)–$(last_cit)"
+        fparts = split(first_cit, '.')
+        lparts = split(last_cit, '.')
+
+        #return "Passages $(first_cit)–$(last_cit)"
+        return "Passages $(fparts[1])–$(fparts[1])"
     else
         fparts = split(first_cit, '.')
         lparts = split(last_cit, '.')
         if length(fparts) >= 2 && length(lparts) >= 2 && fparts[1] == lparts[1]
-            return "Passages $(fparts[1]).$(fparts[2])–$(lparts[2])"
+            return "Passages $(fparts[1]).$(fparts[2])–$(fparts[1]).$(lparts[2])"
         else
             return "Passages $(first_cit)–$(last_cit)"
         end
@@ -55,7 +59,11 @@ function generate_toc_html(html_temp_dir::String, citation_level::Int)::String
             group = chunks[i:min(i+group_size-1, length(chunks))]
             g_first = group[1].first_cit
             g_last  = group[end].last_cit
-            group_range = "Passages $(g_first)–$(g_last)"
+
+            g_first_parts = split(g_first, '.')
+            g_last_parts = split(g_last, '.')
+
+            group_range = "Passages $(g_first_parts[1])–$(g_last_parts[1])"
             ul_items = ["<li><a href=\"$(c.href)\">$(c.range_label)</a></li>" for c in group]
             toc *= """
             <details>
