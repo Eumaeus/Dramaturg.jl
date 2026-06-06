@@ -1,26 +1,26 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/frogs-speech-speaker.cex"
-text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:" 
-file_name = "Aristophanes_Frogs"
-text_title = "Aristophanes *Frogs*"
-text_genre = "drama" # options are "poetry", "prose", "drama"
-citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
-filter_paratext = "speaker" # filter out passages with this string in the URN.
-
+cex_path = "source-data/texts/homer_iliad.cex"
+text_urn = "urn:cts:greekLit:tlg0012.tlg001.allen:" 
+file_name = "Iliad"
+text_title = "The Homeric *Iliad*"
+text_genre = "poetry" # options are "poetry", "prose", "drama"
+citation_level = 2 # book + poetic line. For something like Herodotus, it would be 2, "book.section".
+filter_paratext = "" # filter out passages with this string in the URN.
 
 [output]
 html_tokens_per_page = 250
-html_output_dir = "editions/html/Aristophanes_Frogs/pages"
+html_output_dir = "editions/html/Iliad/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Aristophanes_Frogs"
-md_bibliography = "editions/frontmatter/Aristophanes_Frogs/bibliography.md"
-md_frontmatter = "editions/frontmatter/Aristophanes_Frogs/frontmatter.md"
+html_temp_dir = "data/html_temp/Iliad"
+md_bibliography = "editions/frontmatter/Iliad/bibliography.md"
+md_frontmatter = "editions/frontmatter/Iliad/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
+
 
 
 [lexicon]
@@ -29,15 +29,14 @@ lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
 lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
-raw_morph_data = "morph/output/frogs-analysis.txt"
-morph_pos_triplets = "data/indexes/Aristophanes_Frogs_morpheus_triplets.tsv"
-morph_pos_errors = "morph/output/Aristophanes_Frogs_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/Aristophanes_Frogs_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/Aristophanes_Frogs_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/Aristophanes_Frogs_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/Aristophanes_Frogs_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/frogs_morph.cex"
-
+raw_morph_data = "morph/output/iliad-analysis.txt"
+morph_pos_triplets = "data/indexes/Iliad_morpheus_triplets.tsv"
+morph_pos_errors = "morph/output/Iliad_parse_errors.log"
+morph_lemmata_alignment = "data/indexes/Iliad_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Iliad_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/Iliad_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/Iliad_morphology_index_errors.tsv"
+local_morph_dict = "data/morphology/iliad_morph.cex"
 
 
 # NEW sections for this milestone
@@ -61,5 +60,5 @@ anastrophe_dict   = "source-data/dictionaries/editorial_dict_anastrophe.tsv"
 lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
 lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
 master_morph_dict = "data/morphology/Greek_Morphology.cex"
-editor_index_files = "source-data/edited_morphology/Aristophanes_Frogs/"
-editor_index_error = "data/morphology/editorial_index_error_frogs.txt"
+editor_index_files = "source-data/edited_morphology/Iliad/"
+editor_index_error = "data/morphology/editorial_index_error_iliad.txt"

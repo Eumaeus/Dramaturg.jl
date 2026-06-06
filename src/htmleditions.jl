@@ -105,11 +105,12 @@ function get_natural_unit(urn::String)
 end
 
 """
-    chunk_prose_or_poetry(data::Vector{Tuple{String,String}}, target::Int)
+    chunk_prose_or_poetry(data::Vector{Tuple{String,String}}, target::Int, citation_level::Int=1)
 
 Prose & poetry: groups by natural unit → greedy packing, always keeping whole units together.
+For citation_level == 2, never crosses top-level boundaries (e.g. book boundaries in Herodotus/Iliad).
 """
-function chunk_prose_or_poetry(data::Vector{Tuple{String,String}}, target::Int)
+function chunk_prose_or_poetry(data::Vector{Tuple{String,String}}, target::Int, citation_level::Int=1)
     units = []
     current_unit = nothing
     current_tokens = Tuple{String,String}[]
@@ -130,14 +131,26 @@ function chunk_prose_or_poetry(data::Vector{Tuple{String,String}}, target::Int)
 
     isempty(current_tokens) || push!(units, current_tokens)
 
-    # Greedy chunking (never split a natural unit)
+    # Greedy chunking with optional top-level boundary enforcement
     chunks = Vector{Tuple{String,String}}[]
     current_chunk = Tuple{String,String}[]
     current_count = 0
+    current_top = nothing
 
     for unit_tokens in units
         unit_size = length(unit_tokens)
-        if current_count + unit_size > target && current_count > 0
+        top = nothing
+        if citation_level == 2 && !isempty(unit_tokens)
+            first_urn = unit_tokens[1][1]
+            unit_cit = get_natural_unit(first_urn)
+            parts = split(unit_cit, '.')
+            top = !isempty(parts) ? parts[1] : nothing
+        end
+
+        should_new = (current_count + unit_size > target && current_count > 0) ||
+                     (citation_level == 2 && current_top !== nothing && top !== nothing && current_top != top && current_count > 0)
+
+        if should_new
             push!(chunks, current_chunk)
             current_chunk = Tuple{String,String}[]
             current_count = 0
@@ -145,6 +158,7 @@ function chunk_prose_or_poetry(data::Vector{Tuple{String,String}}, target::Int)
 
         append!(current_chunk, unit_tokens)
         current_count += unit_size
+        current_top = top
     end
 
     isempty(current_chunk) || push!(chunks, current_chunk)
@@ -155,6 +169,7 @@ end
     chunk_for_html_edition(config::Dict)
 
 Main entry point. Dispatches by genre from config.toml and writes one .txt file per chunk.
+Now respects citation_level for 2-level texts (never crosses book boundaries).
 """
 function chunk_for_html_edition(config::Dict)
     data_root = config["processing"]["data_root"]
@@ -168,6 +183,7 @@ function chunk_for_html_edition(config::Dict)
 
     tokens_per_page = config["output"]["html_tokens_per_page"]
     genre = lowercase(config["input"]["text_genre"])
+    citation_level = get(config["input"], "citation_level", 1)  # defaults to 1
 
     data = load_cex(tokenized_path)
     println("Loaded $(length(data)) tokens from $tokenized_path")
@@ -175,7 +191,7 @@ function chunk_for_html_edition(config::Dict)
     if genre == "drama"
         chunks = chunk_drama(data, tokens_per_page)
     elseif genre == "prose" || genre == "poetry"
-        chunks = chunk_prose_or_poetry(data, tokens_per_page)
+        chunks = chunk_prose_or_poetry(data, tokens_per_page, citation_level)
     else
         error("Unknown genre: $genre. Supported: drama, prose, poetry.")
     end
@@ -189,8 +205,9 @@ function chunk_for_html_edition(config::Dict)
         end
     end
 
-    println("✅ Chunking complete: $(length(chunks)) chunks written to $html_temp_dir")
+    println("Chunking complete: $(length(chunks)) chunks written to $html_temp_dir")
     return nothing
 end
 
-export chunk_for_html_edition
+
+export chunk_for_html_edition, get_natural_unit

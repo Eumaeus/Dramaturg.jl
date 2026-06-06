@@ -18,7 +18,7 @@ There are three obvious things for our next steps. Two are short, and the third 
 
 ### 1 `:hover` in Safari
 
-The user interaction involving `:hover` works perfectly in Chrome. It only occasionally works in (Desktop) Safari. There is a lot of comment on `:hover` in Safari, but I have not seen anyone describe an obvious cause. I found the same problem in my earlier attempts at a UI like this. It only applies to more recent versions of desktop Safari. If you have thoughts on a fix, that would be great.
+The user interaction involving `:hover` works perfectly in Chrome. It only occasionally works in (Desktop) Safari. There is a lot of comment on `:hover` being broken in Safari, but I have not seen anyone describe an obvious cause. I found the same problem in my earlier attempts at a UI like this. It only applies to more recent versions of desktop Safari. If you have thoughts on a fix, that would be great.
 
 ### 2 Toggle "Editor Mode"
 
@@ -46,5 +46,22 @@ With a text like the Iliad, we would need to further divide the TOC based on bot
 
 I don't think we need to change the file-names of the chunk `.txt` files, or of the html pages. 'chunk_017.html' works fine.
 
+----
 
+Excellent!!!
 
+I made a couple of tweaks to get the `src/htmleditions.jl` to run. Julia didn't like:
+
+	return "Passages $first_cit–$last_cit"
+
+but insisted on
+
+	return "Passages $(first_cit)–$(last_cit)"
+
+And there were a couple of those where the function specifies String but we have a SubString from some earlier process. These are easily fixed, e.g.
+
+	        first_cit = Dramaturg.get_natural_unit(String(first_urn))
+
+I ran the script on the *Iliad* (2-level citation, 15,000 passages) and on *Frogs* (1-level citation scheme). It works great!
+
+This is really exactly what I wanted. I have pushed this
