@@ -326,9 +326,10 @@ function main()
         prev_href = idx > 1 ? "" * replace(txt_files[idx-1], r"\.txt$"i => "") * ".html" : "#"
         next_href = idx < length(txt_files) ? "" * replace(txt_files[idx+1], r"\.txt$"i => "") * ".html" : "#"
         navigation = """
-        <a href="../index.html">← Index</a>
-        <a href="$prev_href">Previous</a>
-        <a href="$next_href" style="float:right; font-weight:bold;">Next →</a>
+        <a href="$prev_href">← Previous</a>
+        <a href="../index.html" id="contents_link">Contents</a> | 
+        <a href="../../index.html" id="home_link">Editions Home</a>
+        <a href="$next_href" style="float:right;">Next →</a>
         """
 
         # Title
@@ -395,7 +396,7 @@ function main()
     end
 
     println("\n✅ Reader pages regenerated with both fixes!")
-    println("Open editions/html/Aristophanes_Frogs/index.html — the pages now look exactly as you described.")
+    println("Open $text_site_dir/index.html — the pages now look exactly as you described.")
 end
 
 main()

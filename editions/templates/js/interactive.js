@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const sourceDiv = morphSource.querySelector(`.morph4token[data-tokenurn="${tokenUrn}"]`);
         if (!sourceDiv) {
-            infopanel.innerHTML = `<p><em>No morphological data for this token.</em></p>`;
+            infopanel.innerHTML = `<p style="font-size: 1rem;"><em>No morphological data for this token.</em></p>`;
             return;
         }
 
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         header.style.cssText = 'margin-bottom:1rem;border-bottom:1px solid #ddd;padding-bottom:0.5rem;';
         header.innerHTML = `
             <strong style="font-size:1.2rem">${word}</strong>
-            <span style="font-size:0.8rem;color:#777;float:right">${tokenUrn}</span>`;
+            `;
         infopanel.appendChild(header);
 
         const clone = sourceDiv.cloneNode(true);

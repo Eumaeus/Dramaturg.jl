@@ -68,7 +68,9 @@ function main()
     # Build TOC, Markdown → HTML, navigation, etc. (unchanged from your current version)
     toc_html = generate_toc_html(html_temp_dir, file_name)
 
+    # Title
     title_html = Markdown.html(Markdown.parse(text_title_md))
+    page_title = replace(title_html, r"<[^>]+>" => "") # for the page-title, we dont' want markup.
 
     frontmatter_md_path = output["md_frontmatter"]
     frontmatter_html = isfile(frontmatter_md_path) ?
@@ -95,6 +97,7 @@ function main()
     # Fill template
     filled = index_template
     filled = replace(filled, "{{title}}" => title_html)
+    filled = replace(filled, "{{page_title}}" => page_title)
     filled = replace(filled, "{{navigation}}" => navigation_html)
     filled = replace(filled, "{{frontmatter}}" => frontmatter_html)
     filled = replace(filled, "{{bibliography}}" => bibliography_html)

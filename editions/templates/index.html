@@ -2,8 +2,11 @@
 <html lang="grc">
 <head>
     <meta charset="UTF-8">
-    <title>Greek Reader — {{title}}</title>
+    <title>Greek Reader — {{page_title}}</title>
     <link rel="stylesheet" href="../css/style.css"> <!-- your CSS will live here -->
+    <!-- Optional web fonts – fail gracefully -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400..800&amp;display=swap" rel="stylesheet"  media="print" onload="this.media='all'">
 </head>
 <body>
     <nav>{{navigation}}</nav>
@@ -12,7 +15,7 @@
             {{title}}
         </div>
         <div id="bibliography">
-            <!-- config.toml: ["ouput"]["md_bibliography"] --> 
+            {{bibliography}} 
         </div>
     </div>
     <div id="text">

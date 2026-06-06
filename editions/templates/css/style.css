@@ -4,17 +4,17 @@
 }
 
 body {
-    font-family: "Iowan Old Style", "Garamond", "EB Garamond", Georgia, serif;
-    max-width: 42em;
+    font-family: "EB Garamond, Iowan Old Style", "Garamond", "EB Garamond", Georgia, serif;
+    max-width: 60em;
     margin: 3rem auto;
     padding: 0 2rem;
-    line-height: 1.7;
+    line-height: 1.4;
     color: var(--text-color);
     background: #fff;
 }
 
 h1, h2, h3 {
-    font-family: "Iowan Old Style", "Garamond", serif;
+    font-family: "EB Garamond, Iowan Old Style", "Garamond", serif;
     font-weight: normal;
     color: var(--accent-color);
 }
@@ -32,17 +32,25 @@ nav a {
     color: var(--accent-color);
 }
 
+nav a#contents_link {
+    margin-left: 3rem;
+}
+
+nav a#home_link {
+    margin-left: 1.5rem;
+}
+
 nav a:hover { text-decoration: underline; }
 
 #title { margin-bottom: 2rem; }
 #work_title { font-size: 2rem; margin-bottom: 0.5rem; }
 
-.greek { font-size: 1.1rem; line-height: 1.8; }
+.greek { font-size: 4rem; line-height: 1.4; }
 
 /* ==================== READER INTERACTION STYLES ==================== */
 .main-content {
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
     align-items: flex-start;
     max-width: 100%;
 }
@@ -50,11 +58,12 @@ nav a:hover { text-decoration: underline; }
 #text {
     flex: 2;
     min-width: 0;
+    font-size: 1.4rem;
 }
 
 #sidebar {
     flex: 1;
-    min-width: 320px;
+    min-width: 340px;
     position: sticky;
     top: 2rem;
     align-self: start;
@@ -65,20 +74,20 @@ nav a:hover { text-decoration: underline; }
     box-shadow: 0 4px 12px rgba(139, 0, 0, 0.1);
     max-height: 85vh;
     overflow-y: auto;
-    font-size: 0.95rem;
-    line-height: 1.5;
+    font-size: 3rem;
+   /* line-height: 1.5; */
 }
 
 #sidebar-title {
     margin: 0 0 1rem 0;
-    font-size: 1.1rem;
+    font-size: 2rem;
     color: var(--accent-color);
     border-bottom: 1px solid #e8d8b8;
     padding-bottom: 0.5rem;
 }
 
 .peek-note {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: normal;
     color: #777;
 }
@@ -103,6 +112,7 @@ nav a:hover { text-decoration: underline; }
 
 .formparsing {
     margin-bottom: 1rem;
+    margin-top: 1rem;
     font-size: 1.05rem;
 }
 
@@ -127,7 +137,7 @@ nav a:hover { text-decoration: underline; }
 .text_token {
     transition: all 0.2s ease;
     cursor: pointer;
-    padding: 2px 4px;
+    padding: 2px 1px;
     border-radius: 3px;
 }
 
@@ -169,6 +179,7 @@ nav a:hover { text-decoration: underline; }
 /* ==================== EDITOR MODE STYLES ==================== */
 .editor-controls {
     font-size: 0.95rem;
+    line-height: 1.3;
 }
 
 .parse_and_lex {
@@ -205,4 +216,55 @@ nav a:hover { text-decoration: underline; }
 
 .parse_and_lex:not(.preferred) .preferred-btn {
     background: #6c757d;
+}
+/* Reader page styles - updated for drama */
+.citation-unit {
+    margin: 0;
+    position: relative;
+    line-height: 1.8;
+}
+.citation-label {
+    color: var(--accent-color);
+    font-weight: normal;
+    font-size: 0.95rem;
+    margin-right: 1rem;
+}
+.speaker-attribution {
+    font-weight: bold;
+    color: var(--accent-color);
+    margin: 0;
+    font-size: 1.1rem;
+}
+.inline-speech {
+    margin: 0;
+}
+
+
+.inline-speech + .inline-speech {
+    padding-left: 4em;          /* indents subsequent speeches in the same line */
+}
+
+.inline-speech + .inline-speech + .inline-speech {
+    padding-left: 8em;          /* indents subsequent speeches in the same line */
+}
+
+
+.text_token {
+    transition: background-color 0.2s;
+}
+.text_token:hover {
+    background-color: #fff8e1;
+}
+
+/* CWB Custom */
+
+.eb-garamond-italic {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+code {
+    font-size: 80%;
 }

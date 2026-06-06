@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- Optional web fonts – fail gracefully -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&amp;display=swap" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400..800&amp;display=swap" rel="stylesheet"  media="print" onload="this.media='all'">
+
 </head>
 <body>
     <nav>{{navigation}}</nav>
@@ -21,17 +23,14 @@
         </div>
 
         <div id="sidebar">
-        
-
-        <div id="sidebar">
-            <h3 id="sidebar-title">Morphology &amp; Lexicon <span class="peek-note">(hover to peek • click to lock)</span></h3>
+            <h3 id="sidebar-title">Morphology &amp; Lexicon <br/><span class="peek-note">( hover to peek ✧ click to lock )</span></h3>
             
             <!-- Editor Mode controls -->
             <div id="editor-controls" class="editor-controls" style="display: none; margin-bottom: 1.5rem; padding: 1rem; background: #f0f8f0; border: 1px solid #28a745; border-radius: 8px;">
                 <strong style="color:#28a745;">Editor Mode</strong><br>
                 <small style="color:#555;">Select preferred parsing for each token.<br>Download when finished reading the page.</small>
                 <div style="margin-top: 0.8rem;">
-                    <button id="download-editor-tsv" style="padding: 0.4rem 1rem; background: #28a745; color: white; border: none; border-radius: 6px; cursor: pointer;">📥 Download Editor’s Index (.tsv)</button>
+                    <button id="download-editor-tsv" style="padding: 0.4rem 1rem; margin: 0.4rem; background: #28a745; color: white; border: none; border-radius: 6px; cursor: pointer;">📥 Download Editor’s Index (.tsv)</button>
                     <button id="clear-editor-choices" style="padding: 0.4rem 1rem; background: #ccc; border: none; border-radius: 6px; cursor: pointer; margin-left: 0.5rem;">Clear All</button>
                 </div>
             </div>
