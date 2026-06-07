@@ -156,76 +156,81 @@ function render_greek_text(tokens::Vector{Tuple{String,String}}, genre::String, 
 end
 
 
+
 # ------------------------------------------------------------------
-# NEW: Load editorial morphology choices from a directory of .tsv files
+# NEW DURABLE VERSION: Load editorial picks using fields 3-8 for identity
 # ------------------------------------------------------------------
 function load_editorial_index(editor_dir::String,
                               token_dict::Dict{String,String},
-                              morph_dict::Dict{String,NamedTuple{(:desc,:lsj),Tuple{String,String}}})::Tuple{Dict{String,String},String}
+                              morph_dict::Dict{String,NamedTuple{(:desc,:lsj,:uc_form,:bc_form,:uc_lemma,:bc_lemma,:pos),Tuple{String,String,String,String,String,String,String}}})::Tuple{Dict{String,String},String}
     editorial = Dict{String,String}()
     conflict_lines = String[]
 
-    if !isdir(editor_dir)
-        return editorial, ""
+    !isdir(editor_dir) && return editorial, ""
+
+    # Build identity lookup: (uc_form, bc_form, uc_lemma, bc_lemma, lsj, pos) → CITE2 URN
+    identity_to_urn = Dict{Tuple{String,String,String,String,String,String}, String}()
+    for (urn, e) in morph_dict
+        key = (e.uc_form, e.bc_form, e.uc_lemma, e.bc_lemma, e.lsj, e.pos)
+        identity_to_urn[key] = urn
     end
 
     tsv_files = filter(f -> endswith(lowercase(f), ".tsv"), readdir(editor_dir))
-    if isempty(tsv_files)
-        return editorial, ""
-    end
+    isempty(tsv_files) && return editorial, ""
 
-    # mappings[cts_urn] = list of (morph_urn, tsv_filename, mod_date_str)
-    mappings = Dict{String,Vector{Tuple{String,String,String}}}()
+    # mappings[cts] = list of (key_tuple, tsv_filename, date_str)
+    mappings = Dict{String,Vector{Tuple{Tuple{String,String,String,String,String,String},String,String}}}()
 
     for tsv in tsv_files
         fullpath = joinpath(editor_dir, tsv)
         isfile(fullpath) || continue
-
         mtime = stat(fullpath).mtime
         date_str = Dates.format(Dates.unix2datetime(mtime), "yyyy-mm-dd HH:MM:SS")
 
         for line in readlines(fullpath)
-            line = strip(line)
-            isempty(line) && continue
-            parts = split(line, '\t')
-            length(parts) < 2 && continue
+            l = strip(line)
+            isempty(l) && continue
+            parts = split(l, '\t')
+            length(parts) < 7 && continue  # new format = 7 columns
             cts = strip(parts[1])
-            morph = strip(parts[2])
+            key = (strip(parts[2]), strip(parts[3]), strip(parts[4]),
+                   strip(parts[5]), strip(parts[6]), strip(parts[7]))
 
             if !haskey(mappings, cts)
-                mappings[cts] = Tuple{String,String,String}[]
+                mappings[cts] = Tuple{Tuple{String,String,String,String,String,String},String,String}[]
             end
-            push!(mappings[cts], (morph, tsv, date_str))
+            push!(mappings[cts], (key, tsv, date_str))
         end
     end
 
     for (cts, entries) in mappings
-        # Group by morph_urn (duplicates across files are allowed)
-        morph_to_sources = Dict{String,Vector{Tuple{String,String}}}()
-        for (morph, tsvf, dt) in entries
-            if !haskey(morph_to_sources, morph)
-                morph_to_sources[morph] = Tuple{String,String}[]
+        key_to_sources = Dict{Tuple{String,String,String,String,String,String},Vector{Tuple{String,String}}}()
+        for (key, tsvf, dt) in entries
+            if !haskey(key_to_sources, key)
+                key_to_sources[key] = Tuple{String,String}[]
             end
-            push!(morph_to_sources[morph], (tsvf, dt))
+            push!(key_to_sources[key], (tsvf, dt))
         end
 
-        if length(morph_to_sources) > 1
+        if length(key_to_sources) > 1
             # CONFLICT
             token_text = get(token_dict, cts, "[TOKEN TEXT NOT FOUND]")
             push!(conflict_lines, "CONFLICT for CTS-URN: $cts")
             push!(conflict_lines, "Token: \"$token_text\"")
-            for (morph, sources) in morph_to_sources
+            for (k, sources) in key_to_sources
                 for (tsvf, dt) in sources
-                    desc = haskey(morph_dict, morph) ? morph_dict[morph].desc : "[NO DESCRIPTION FOUND]"
-                    push!(conflict_lines, "  • $morph  ←  $tsvf  ($dt)")
-                    push!(conflict_lines, "    desc: $desc")
+                    push!(conflict_lines, "  • $k  ←  $tsvf  ($dt)")
                 end
             end
             push!(conflict_lines, "────────────────────────────────────────")
         else
-            # OK – take the single morphology choice
-            the_morph = first(keys(morph_to_sources))
-            editorial[cts] = the_morph
+            the_key = first(keys(key_to_sources))
+            urn = get(identity_to_urn, the_key, nothing)
+            if urn === nothing
+                push!(conflict_lines, "NO MATCH in master_morph_dict for CTS-URN: $cts (key: $the_key)")
+            else
+                editorial[cts] = urn
+            end
         end
     end
 
@@ -233,20 +238,18 @@ function load_editorial_index(editor_dir::String,
         return editorial, ""
     else
         report = """
-        EDITORIAL INDEX CONFLICTS
-        =========================
+        EDITORIAL INDEX CONFLICTS / NO-MATCHES
+        ======================================
         Generated: $(Dates.now())
-        Directory scanned: $editor_dir
+        Directory: $editor_dir
 
         $(join(conflict_lines, "\n"))
 
-        Build continuing WITHOUT editorial choices for the conflicting CTS-URNs above.
-        (They will fall back to the default morphology index.)
+        Build continuing WITHOUT editorial choices for the entries above.
         """
         return editorial, report
     end
 end
-
 
 
 # ------------------------------------------------------------------
@@ -269,16 +272,24 @@ function load_morph_index(path::String)::Dict{String,Vector{String}}
     idx
 end
 
-function load_morph_dict(path::String)::Dict{String,NamedTuple{(:desc,:lsj),Tuple{String,String}}}
-    d = Dict{String,NamedTuple{(:desc,:lsj),Tuple{String,String}}}()
+# ------------------------------------------------------------------
+# UPDATED: Load morphology dictionary (now includes all identity fields)
+# ------------------------------------------------------------------
+function load_morph_dict(path::String)::Dict{String,NamedTuple{(:desc,:lsj,:uc_form,:bc_form,:uc_lemma,:bc_lemma,:pos),Tuple{String,String,String,String,String,String,String}}}
+    d = Dict{String,NamedTuple{(:desc,:lsj,:uc_form,:bc_form,:uc_lemma,:bc_lemma,:pos),Tuple{String,String,String,String,String,String,String}}}()
     for line in readlines(path)
         line = strip(line)
         startswith(line, "urn:cite2:fufolio:greekmorph") || continue
         fields = split(line, '#')
-        length(fields) < 7 && continue
+        length(fields) < 8 && continue
+
         morph_urn = strip(fields[1])
-        desc = strip(fields[2])                     # the Markdown description you want
-        # LSJ URN is reliably the 7th field (or the first field that looks like an LSJ URN)
+        desc      = strip(fields[2])
+        uc_form   = strip(fields[3])
+        bc_form   = strip(fields[4])
+        uc_lemma  = strip(fields[5])
+        bc_lemma  = strip(fields[6])
+        # LSJ URN (robust to any column order)
         lsj = ""
         for f in fields
             if startswith(strip(f), "urn:cite2:hmt:lsj.chicago_md:")
@@ -287,7 +298,10 @@ function load_morph_dict(path::String)::Dict{String,NamedTuple{(:desc,:lsj),Tupl
             end
         end
         isempty(lsj) && length(fields) >= 7 && (lsj = strip(fields[7]))
-        d[morph_urn] = (desc = desc, lsj = lsj)
+        pos = strip(fields[8])
+
+        d[morph_urn] = (desc=desc, lsj=lsj, uc_form=uc_form, bc_form=bc_form,
+                        uc_lemma=uc_lemma, bc_lemma=bc_lemma, pos=pos)
     end
     d
 end
@@ -307,14 +321,14 @@ function load_lsj_short_defs(path::String)::Dict{String,String}
 end
 
 # ------------------------------------------------------------------
-# UPDATED: Build morphology HTML block with editorial top-choice support
+# UPDATED: Build morphology HTML (adds durable data-* attributes)
 # ------------------------------------------------------------------
 function build_morphdata_html(tokens::Vector{Tuple{String,String}},
                               morph_index::Dict{String,Vector{String}},
-                              morph_dict::Dict{String,NamedTuple{(:desc,:lsj),Tuple{String,String}}},
+                              morph_dict::Dict{String,NamedTuple{(:desc,:lsj,:uc_form,:bc_form,:uc_lemma,:bc_lemma,:pos),Tuple{String,String,String,String,String,String,String}}},
                               lsj_defs::Dict{String,String},
                               lsj_url::String,
-                              editorial_choices::Dict{String,String})::String   # NEW param
+                              editorial_choices::Dict{String,String})::String
     parts = String[]
     processed = Set{String}()
 
@@ -325,33 +339,34 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
 
         haskey(morph_index, urn) || continue
         possible_urns = morph_index[urn]
-
         chosen = get(editorial_choices, urn, nothing)
 
         push!(parts, """<div class="morph4token" data-tokenurn="$urn">""")
 
-        if chosen !== nothing && chosen ∈ possible_urns
-            # === EDITOR’S PREFERRED PARSING (top choice) ===
-            push!(parts, """<div class="editor-preferred-header sansfont"><strong>📌 Editor’s Preferred Parsing</strong></div>""")
+        if chosen !== nothing && chosen ∈ possible_urns && haskey(morph_dict, chosen)
+            # Editor’s Preferred Parsing
+            entry = morph_dict[chosen]
+            desc_html = Markdown.html(Markdown.parse(entry.desc))
+            shortdef = get(lsj_defs, entry.lsj, "[No short definition available]")
 
-            # Render the chosen entry
-            if haskey(morph_dict, chosen)
-                entry = morph_dict[chosen]
-                desc_html = Markdown.html(Markdown.parse(entry.desc))
-                lsj_urn = entry.lsj
-                shortdef = get(lsj_defs, lsj_urn, "[No short definition available]")
-
-                push!(parts, """
-                    <div class="parse_and_lex editor-preferred" data-morphurn="$chosen">
-                        <div class="formparsing" data-morphurn="$chosen">
-                            $desc_html
-                        </div>
-                        <div class="lsj_shortdef" data-lsjurn="$lsj_urn">
-                            <a href="$(lsj_url * "?urn=" * lsj_urn)" class="shortdeflink">$shortdef</a>
-                        </div>
+            push!(parts, """<div class="editor-preferred-header sansfont"><strong>Editor’s Preferred Parsing</strong></div>""")
+            push!(parts, """
+                <div class="parse_and_lex editor-preferred"
+                     data-morphurn="$chosen"
+                     data-uc-form="$(entry.uc_form)"
+                     data-bc-form="$(entry.bc_form)"
+                     data-uc-lemma="$(entry.uc_lemma)"
+                     data-bc-lemma="$(entry.bc_lemma)"
+                     data-lsj="$(entry.lsj)"
+                     data-pos="$(entry.pos)">
+                    <div class="formparsing" data-morphurn="$chosen">
+                        $desc_html
                     </div>
-                """)
-            end
+                    <div class="lsj_shortdef" data-lsjurn="$(entry.lsj)">
+                        <a href="$(lsj_url * "?urn=" * entry.lsj)" class="shortdeflink">$shortdef</a>
+                    </div>
+                </div>
+            """)
 
             # Remaining possibilities
             others = filter(m -> m != chosen, possible_urns)
@@ -359,50 +374,61 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
                 push!(parts, """<div class="possible-parsings-header sansfont"><strong>Possible Parsings of this Form</strong></div>""")
                 for murn in others
                     haskey(morph_dict, murn) || continue
-                    entry = morph_dict[murn]
-                    desc_html = Markdown.html(Markdown.parse(entry.desc))
-                    lsj_urn = entry.lsj
-                    shortdef = get(lsj_defs, lsj_urn, "[No short definition available]")
-
+                    e = morph_dict[murn]
+                    dhtml = Markdown.html(Markdown.parse(e.desc))
+                    sdef = get(lsj_defs, e.lsj, "[No short definition available]")
                     push!(parts, """
-                        <div class="parse_and_lex" data-morphurn="$murn">
+                        <div class="parse_and_lex"
+                             data-morphurn="$murn"
+                             data-uc-form="$(e.uc_form)"
+                             data-bc-form="$(e.bc_form)"
+                             data-uc-lemma="$(e.uc_lemma)"
+                             data-bc-lemma="$(e.bc_lemma)"
+                             data-lsj="$(e.lsj)"
+                             data-pos="$(e.pos)">
                             <div class="formparsing" data-morphurn="$murn">
-                                $desc_html
+                                $dhtml
                             </div>
-                            <div class="lsj_shortdef" data-lsjurn="$lsj_urn">
-                                <a href="$(lsj_url * "?urn=" * lsj_urn)" class="shortdeflink">$shortdef</a>
+                            <div class="lsj_shortdef" data-lsjurn="$(e.lsj)">
+                                <a href="$(lsj_url * "?urn=" * e.lsj)" class="shortdeflink">$sdef</a>
                             </div>
                         </div>
                     """)
                 end
             end
         else
-            # No editorial choice – render all possibilities exactly as before
+            # No editorial choice – render all possibilities normally
+            # (same structure as before, with data-* attrs added)
             for murn in possible_urns
                 haskey(morph_dict, murn) || continue
-                entry = morph_dict[murn]
-                desc_html = Markdown.html(Markdown.parse(entry.desc))
-                lsj_urn = entry.lsj
-                shortdef = get(lsj_defs, lsj_urn, "[No short definition available]")
-
+                e = morph_dict[murn]
+                dhtml = Markdown.html(Markdown.parse(e.desc))
+                sdef = get(lsj_defs, e.lsj, "[No short definition available]")
                 push!(parts, """
-                    <div class="parse_and_lex" data-morphurn="$murn">
+                    <div class="parse_and_lex"
+                         data-morphurn="$murn"
+                         data-uc-form="$(e.uc_form)"
+                         data-bc-form="$(e.bc_form)"
+                         data-uc-lemma="$(e.uc_lemma)"
+                         data-bc-lemma="$(e.bc_lemma)"
+                         data-lsj="$(e.lsj)"
+                         data-pos="$(e.pos)">
                         <div class="formparsing" data-morphurn="$murn">
-                            $desc_html
+                            $dhtml
                         </div>
-                        <div class="lsj_shortdef" data-lsjurn="$lsj_urn">
-                            <a href="$(lsj_url * "?urn=" * lsj_urn)" class="shortdeflink">$shortdef</a>
+                        <div class="lsj_shortdef" data-lsjurn="$(e.lsj)">
+                            <a href="$(lsj_url * "?urn=" * e.lsj)" class="shortdeflink">$sdef</a>
                         </div>
                     </div>
                 """)
             end
         end
 
-        push!(parts, "</div>")   # close morph4token
+        push!(parts, "</div>")
     end
+
     join(parts, "\n")
 end
-
 
 # ------------------------------------------------------------------
 # Main (updated with editorial loading + token collection for conflicts)

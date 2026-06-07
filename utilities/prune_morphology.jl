@@ -1,0 +1,67 @@
+# utilities/prune_morphology.jl
+# Removes duplicate entries (different CITE2 URN but identical other fields)
+# from a morphology CEX file.
+
+using Dates
+
+function prune_morphology(cex_path::String)
+    !isfile(cex_path) && error("File not found: $cex_path")
+    !endswith(cex_path, ".cex") && error("Must be a .cex file")
+
+    lines = readlines(cex_path)
+    sig_to_lines = Dict{Tuple{String,String,String,String,String,String,String}, Vector{String}}()
+
+    for line in lines
+        l = strip(line)
+        isempty(l) && continue
+        startswith(l, "urn:cite2:fufolio:greekmorph") || continue
+
+        fields = split(l, '#')
+        length(fields) < 8 && continue
+
+        # signature = fields 2–8 (everything except the URN)
+        sig = (
+            strip(fields[2]),
+            strip(fields[3]),
+            strip(fields[4]),
+            strip(fields[5]),
+            strip(fields[6]),
+            strip(fields[7]),
+            strip(fields[8])
+        )
+
+        if !haskey(sig_to_lines, sig)
+            sig_to_lines[sig] = String[]
+        end
+        push!(sig_to_lines[sig], l)
+    end
+
+    kept = String[]
+    for (sig, lst) in sig_to_lines
+        length(lst) > 1 && println("Pruned $(length(lst)-1) duplicate(s) for signature starting with '$(sig[1])'")
+        push!(kept, lst[1])  # keep any one
+    end
+
+    sort!(kept)
+
+    # backup
+    date_str = Dates.format(Dates.now(), "yyyymmdd")
+    dirn, filen = splitdir(cex_path)
+    old_name = replace(filen, r"\.cex$" => "-old-$(date_str).cex")
+    old_path = joinpath(dirn, old_name)
+    cp(cex_path, old_path; force=true)
+    println("Backup: $old_path")
+
+    open(cex_path, "w") do io
+        for l in kept
+            println(io, l)
+        end
+    end
+
+    println("Pruned morphology saved to $cex_path ($(length(lines) - length(kept)) duplicates removed)")
+end
+
+if abspath(PROGRAM_FILE) == abspath(@__FILE__)
+    length(ARGS) == 0 && error("Usage: julia utilities/prune_morphology.jl <path_to_Greek_Morphology.cex>")
+    prune_morphology(ARGS[1])
+end

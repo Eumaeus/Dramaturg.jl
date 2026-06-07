@@ -17,6 +17,6 @@ Backing up from end-user UI issues, I would like help with the current bottlenec
 
 It takes forever to run, because it uses repeated `filter()` operations on `source-data/dictionaries/lsj_index_beta.tsv`. 
 
-It is trying to match up lemmata in a file like `data/indexes/Aristophanes_Frogs_morpheus_triplets.tsv` with entries in the LSJ lexicon. It accepts that it may find more than one match, and if so, it collects them all. Sometimes Morpheus produces lemmata with hyphens, or numbers, and this tries to account for that. It prefers an exact match, but failing that it will try to lower-case the text-lemma to find a match in the LSJ, and as a last resort it will try with no accents. Direresis (`+` in Beta Code) can be a problem.
+It is trying to match up lemmata in a file like `data/indexes/Aristophanes_Frogs_morpheus_triplets.tsv` with entries in betacode version of the index to the LSJ lexicon: `source-data/dictionaries/lsj_index_beta.tsv`. It accepts that it may find more than one match, and if so, it collects them all. Sometimes Morpheus produces lemmata with hyphens, or numbers, and this tries to account for that. It prefers an exact match, but failing that it will try to lower-case the text-lemma to find a match in the LSJ, and as a last resort it will try with no accents. Direresis (`+` in Beta Code) can be a problem.
 
 I would value seeing what kind of efficiency (and improved accuracy in matching) you can come up with!

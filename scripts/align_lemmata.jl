@@ -1,321 +1,124 @@
 #!/usr/bin/env julia
-# utilities/align-lemmata.jl
-# Usage: julia --project=. utilities/align_lemmata.tsv -i PATH/TO/TRIPLETS.tsv -o PATH/TO/OUTPUT.tsv -l PATH/TO/BETA-LSJ.tsv -e PATH/TO/ERRORS.tsv
+# scripts/align_lemmata.jl
+# Revised 2026-06-07 — efficient Dict-based matching + better normalisation
 
-#=
-
-Read in a .tsv file of token-records (--input) consisting of:
-
-    surface-form (Unicode) \t surface-form (Betacode) \t lemma (Unicode) \t lemma (Betacode) \t part-of-speech-tag
-
-Read in an index to the LSJ lexicon (--lexindex)
-
-Try to align the `lemma` with an LSJ entry. Write to --output:
-
-    surface-form (Unicode) \t surface-form (Betacode) \t lemma (Unicode) \t lemma (Betacode) \t lsj-urn \t part-of-speech-tag
-
-If no match, write line to --errors:
-
-    surface-form \t lemma \t "none-found" \t part-of-speech-tag
-
-Defaults:
-
-julia --project=. utilities/align_lemmata.jl -i data/indexes/Aristophanes_Frogs_morpheus_triplets.tsv -o data/indexes/Aristophanes_Frogs_triplets_lemmata.tsv -l source-data/dictionaries/lsj_index_beta.tsv -e data/indexes/Aristophanes_Frogs_triplets_lemmata_errors.tsv
-
-SPECIAL CASES
-
-le/gw - urn:cite2:hmt:lsj.chicago_md:n62204 should never be chosen. 
-    Use urn:cite2:hmt:lsj.chicago_md:n62205
-
-
-
-
-=#
 using Dramaturg
-using BetaReader
-using ArgParse
+using ArgParse  # kept for future use if you uncomment
 
-function parse_commandline()
-    s = ArgParseSettings()
-    @add_arg_table s begin
-        "--input", "-i"
-            help = "Input file (Unicode or BetaCode Greek)"
-            required = true
-        "--output", "-o"
-            help = "Output file"
-            required = true
-        "--lexindex", "-l"
-            help = "Lexicon index"
-            required = true
-        "--errors", "-e"
-            help = "Error file"
-            required = true
+"""
+    normalize_beta(s::AbstractString; accents::Bool=true, lower::Bool=true)
+
+Normalise a BetaCode lemma for lookup.
+- Always strips hyphens.
+- Optional lower-casing (covers capitalisation differences).
+- Optional accent/dieresis/breathing stripping (fallback level).
+"""
+function normalize_beta(s::AbstractString; accents::Bool = true, lower::Bool = true)
+    t = string(s)
+    lower && (t = lowercase(t))
+    t = replace(t, "-" => "")
+    if !accents
+        # Remove: / \ = + (dieresis) ( ) (breathing) * (rough breathing marker)
+        t = replace(t, r"[\/\\=+\(\)\*]" => "")
     end
-    return parse_args(s)
+    return t
 end
 
 function main()
-    #=
-    args     = parse_commandline()
-    input    = args["input"]
-    output   = args["output"]
-    lexindex = args["lexindex"]
-    errors   = args["errors"]
-    =#
-
     config = read_config()
     println("Loaded config for text: ", config["input"]["text_urn"])
 
-    input = config["morphology"]["morph_pos_triplets"]
-    output = config["morphology"]["morph_lemmata_alignment"]
-    errors = config["morphology"]["morph_lemmata_alignment_errors"]
-    lexindex = config["lexicon"]["lsj_index"]
+    input    = config["morphology"]["morph_pos_triplets"]
+    output   = config["morphology"]["morph_lemmata_alignment"]
+    errors   = config["morphology"]["morph_lemmata_alignment_errors"]
+    lexindex = config["lexicon"]["lsj_index"]          # or config["lexicon"]["lsj_index_beta"] if you prefer
 
     lex = readlines(lexindex)
     lines = readlines(input)
-    converted = String[]
+
+    # ── Build fast lookup tables once ─────────────────────────────────────
+    primary_lookup   = Dict{String, Vector{String}}()   # exact (lower-cased, hyphen-stripped)
+    fallback_lookup  = Dict{String, Vector{String}}()   # no accents/dieresis
+
+    for line in lex
+        isempty(strip(line)) && continue
+        cols = split(line, '\t')
+        length(cols) < 2 && continue
+        urn  = string(cols[1])
+        beta = string(cols[2])
+
+        key_exact = normalize_beta(beta; accents = true, lower = true)
+        key_noacc = normalize_beta(beta; accents = false, lower = true)
+
+        get!(Vector{String}, primary_lookup, key_exact) |> (v -> push!(v, urn))
+        get!(Vector{String}, fallback_lookup, key_noacc) |> (v -> push!(v, urn))
+    end
+
+    println("Built lookup tables from $(length(lex)) LSJ entries ($(length(primary_lookup)) unique primary keys)")
+
+    # ── Process every triplet ─────────────────────────────────────────────
+    converted   = String[]
     bad_entries = String[]
 
-
-    println("Beginning to process $(length(lines)) lines…")
-    counter = 0
-
-    for line in lines
+    println("Processing $(length(lines)) lines…")
+    for (i, line) in enumerate(lines)
         line = strip(line)
-        line_parts = split(line, '\t')
-        test_lemma = string(line_parts[4])
-        new_parts = []
-        good_entry = false # flag
-      
-        counter = counter + 1
-        if (counter % 100) == 0
-            print("$counter ") 
+        isempty(line) && continue
+
+        parts = split(line, '\t')
+        length(parts) < 5 && continue
+
+        lemma_beta = string(parts[4])          # Morpheus lemma (BetaCode)
+
+        # 1. Strip trailing number (e.g. le/gw2 → le/gw, number = "2")
+        m = match(r"(.+?)([0-9]+)?$", lemma_beta)
+        base_lemma   = m !== nothing ? string(m[1]) : lemma_beta
+        lemma_number = m !== nothing && m[2] !== nothing ? m[2] : "1"
+
+        # 2. Try exact match first
+        key_exact = normalize_beta(base_lemma; accents = true, lower = true)
+        urns = get(primary_lookup, key_exact, String[])
+
+        # 3. Fallback: no accents / dieresis
+        if isempty(urns)
+            key_noacc = normalize_beta(base_lemma; accents = false, lower = true)
+            urns = get(fallback_lookup, key_noacc, String[])
         end
 
-        #================
-        Logic 
+        # 4. Special case you flagged
+        if occursin("le/gw", base_lemma)
+            filter!(u -> !occursin("n62204", u), urns)   # never choose this one
+        end
 
-        N.b. `test_lemma` is the current lemma from the input file of triplets.
-
-        # filter lex for test_lemma as is, but removing hyphen
-        ===============  =#
-        lemma_with_number = test_lemma
-
-        # Does the test lemma end in a number? 
-        nls = match(r"(.+)([0-9]+)", lemma_with_number)
-        # Get the lemma with no number
-        test_lemma = nls !== nothing ? nls[1] : lemma_with_number
-
-        # Get the number of the lemma; default to "1"
-        lemma_number = nls !== nothing ? nls[2] : "1"
-
-        # Remove any hyphens
-        no_hyphen = replace(test_lemma, "-" => "")
-
-        # Filter the lexicon for matching lemmata
-        candidates = filter( entry -> begin
-             cols = split(entry, "\t")
-             string(cols[2]) == no_hyphen
-           end, lex )
-
-       
-        # If exactly one hit… 
-        #   complete the new entry with its URN!
-        #   push onto output, `converted`
-
-        if length(candidates) == 1
-
-            entry = candidates[1]
-
-            # Go ahead and keep the first four fields, surface-form and lemma 
-            push!(new_parts, string(line_parts[1]))
-            push!(new_parts, string(line_parts[2]))
-            push!(new_parts, string(line_parts[3]))
-            push!(new_parts, test_lemma)
-            # Add the newly-discovered URN
-            cols = split(entry, "\t")
-            push!(new_parts, string(cols[1]))
-            # Add the pos-tag at the end
-            push!(new_parts, string(line_parts[5]))
-            # pushnew line to output
-            new_line = join(new_parts, '\t')
-            push!(converted, new_line)
-                
-        # If more than one hit…
-        #   If there was a number in the lemma, make that URN the top.
-        #   but push them all onto output, `candidates` 
-
-        elseif length(candidates) > 1
-
-            for entry in candidates
-
-                # Go ahead and keep the first four fields, surface-form and lemma 
-                push!(new_parts, string(line_parts[1]))
-                push!(new_parts, string(line_parts[2]))
-                push!(new_parts, string(line_parts[3]))
-                push!(new_parts, test_lemma) # 
-                # Add the newly-discovered URN
-                cols = split(entry, "\t")
-                push!(new_parts, string(cols[1]))
-
-                # Add the pos-tag at the end
-                push!(new_parts, string(line_parts[5]))
-                # pushnew line to output
-                new_line = join(new_parts, '\t')
-                push!(converted, new_line )
-                new_parts = []
-            end
-
-        else
-
-       
-            #=
-                Try without any accents
-            =#
-
-            # Filter the lexicon for matching lemmata
-            candidates = filter( entry -> begin
-                 cols = split(entry, "\t")
-                 string(cols[2]) == replace(no_hyphen, r"[/\\=]" => "")
-               end, lex )
-
-            if length(candidates) == 1
-
-                entry = candidates[1]
-
-                # Go ahead and keep the first four fields, surface-form and lemma 
-                push!(new_parts, string(line_parts[1]))
-                push!(new_parts, string(line_parts[2]))
-                push!(new_parts, string(line_parts[3]))
-                push!(new_parts, test_lemma)
-                # Add the newly-discovered URN
-                cols = split(entry, "\t")
-                push!(new_parts, string(cols[1]))
-                # Add the pos-tag at the end
-                push!(new_parts, string(line_parts[5]))
-                # pushnew line to output
-                new_line = join(new_parts, '\t')
+        if !isempty(urns)
+            # Output one line per matching URN (exactly as original behaviour)
+            for urn in urns
+                new_line = join([
+                    parts[1],          # surface Unicode
+                    parts[2],          # surface BetaCode
+                    parts[3],          # lemma Unicode
+                    base_lemma,        # lemma BetaCode (number stripped)
+                    urn,               # LSJ URN
+                    parts[5]           # POS tag
+                ], '\t')
                 push!(converted, new_line)
-
-            elseif length(candidates) > 1
-
-                for entry in candidates
-
-                # Go ahead and keep the first four fields, surface-form and lemma 
-                push!(new_parts, string(line_parts[1]))
-                push!(new_parts, string(line_parts[2]))
-                push!(new_parts, string(line_parts[3]))
-                push!(new_parts, test_lemma)
-                # Add the newly-discovered URN
-                cols = split(entry, "\t")
-                push!(new_parts, string(cols[1]))
-
-                # Add the pos-tag at the end
-                push!(new_parts, string(line_parts[5]))
-                # pushnew line to output
-                new_line = join(new_parts, '\t')
-                push!(converted, new_line )
-                new_parts = []
             end
-
-            else
-
-                #=   
-                    Catch Capitals. The lsj lemmata combine the asterisk and diacritical marks differently from how Morpheus does.
-                =#
-
-                # Filter the lexicon for matching lemmata
-                candidates = filter( entry -> begin
-                     cols = split(entry, "\t")
-                     no_hyphen == replace(string(cols[2]), r"^([A-Z])([)(/\\=]*)(.+)" => s"*\2\1\3") |> lowercase
-
-
-                   end, lex )
-
-                if length(candidates) == 1
-
-                    # println(candidates[1])
-                    entry = candidates[1]
-
-                    # Go ahead and keep the first four fields, surface-form and lemma 
-                    push!(new_parts, string(line_parts[1]))
-                    push!(new_parts, string(line_parts[2]))
-                    push!(new_parts, string(line_parts[3]))
-                    push!(new_parts, test_lemma)
-                    # Add the newly-discovered URN
-                    cols = split(entry, "\t")
-                    push!(new_parts, string(cols[1]))
-                    # Add the pos-tag at the end
-                    push!(new_parts, string(line_parts[5]))
-                    # pushnew line to output
-                    new_line = join(new_parts, '\t')
-                    push!(converted, new_line)
-
-                else
-
-                     #=   
-                        If that didn't work Capitals and de-capitalize, to get regular nouns being used as Gods, words at the beginning of quotations, etc.
-                    =#
-
-                    # Filter the lexicon for matching lemmata
-                    candidates = filter( entry -> begin
-                         cols = split(entry, "\t")
-                         no_hyphen == replace(string(cols[2]), r"^([A-Z])([)(/\\=]*)(.+)" => s"\1\2\3") |> lowercase
-
-
-                       end, lex )
-
-                    if length(candidates) == 1
-
-                        println(candidates[1])
-                        entry = candidates[1]
-
-                        # Go ahead and keep the first four fields, surface-form and lemma 
-                        push!(new_parts, string(line_parts[1]))
-                        push!(new_parts, string(line_parts[2]))
-                        push!(new_parts, string(line_parts[3]))
-                        push!(new_parts, test_lemma)
-                        # Add the newly-discovered URN
-                        cols = split(entry, "\t")
-                        push!(new_parts, string(cols[1]))
-                        # Add the pos-tag at the end
-                        push!(new_parts, string(line_parts[5]))
-                        # pushnew line to output
-                        new_line = join(new_parts, '\t')
-                        push!(converted, new_line)
-
-                    else
-
-
-                    #=== Write Bad Entry ===#
-                         # Go ahead and keep the first two fields, surface-form and lemma 
-                            push!(new_parts, string(line_parts[1]))
-                            push!(new_parts, test_lemma)
-                            # Add human-readable note that there is no entry found
-                            push!(new_parts, "- no urn found -")
-
-                            # Add the pos-tag at the end
-                            push!(new_parts, string(line_parts[3]))
-                            # Write new line to main index
-                            new_line = join(new_parts, '\t')
-                            # push!(converted, new_line) # Un-comment to include bad entries in fidal output
-                            # And to error log
-                            push!(bad_entries, new_line)
-
-
-                    end
-                end
-            end 
+        else
+            # Error line (format matches your top-level comment)
+            err_line = join([parts[1], base_lemma, "none-found", parts[5]], '\t')
+            push!(bad_entries, err_line)
         end
 
+        (i % 1000 == 0) && print(i, " ")
     end
 
-    mkpath(dirname(output))
-    write(output, (join(unique(converted), "\n") * "\n"))
-    if (!isempty(bad_entries))
-        write(errors, join(bad_entries, "\n") * "\n")
-    end
-    println("✅ Converted $(length(converted)) -> $(length(unique(converted))) lines → $output")
+    # ── Write results ─────────────────────────────────────────────────────
+    write(output, join(converted, "\n") * (isempty(converted) ? "" : "\n"))
+    write(errors, join(bad_entries, "\n") * (isempty(bad_entries) ? "" : "\n"))
+
+    println("\nDone!")
+    println("  ✓ $(length(converted)) alignments written to $output")
+    println("  ⚠ $(length(bad_entries)) unaligned entries written to $errors")
 end
 
 main()
