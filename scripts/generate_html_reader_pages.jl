@@ -332,7 +332,7 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
 
         if chosen !== nothing && chosen ∈ possible_urns
             # === EDITOR’S PREFERRED PARSING (top choice) ===
-            push!(parts, """<div class="editor-preferred-header"><strong>📌 Editor’s Preferred Parsing</strong></div>""")
+            push!(parts, """<div class="editor-preferred-header sansfont"><strong>📌 Editor’s Preferred Parsing</strong></div>""")
 
             # Render the chosen entry
             if haskey(morph_dict, chosen)
@@ -356,7 +356,7 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
             # Remaining possibilities
             others = filter(m -> m != chosen, possible_urns)
             if !isempty(others)
-                push!(parts, """<div class="possible-parsings-header"><strong>Possible Parsings of this Form</strong></div>""")
+                push!(parts, """<div class="possible-parsings-header sansfont"><strong>Possible Parsings of this Form</strong></div>""")
                 for murn in others
                     haskey(morph_dict, murn) || continue
                     entry = morph_dict[murn]

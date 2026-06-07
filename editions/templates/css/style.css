@@ -285,9 +285,28 @@ div#toc {
     font-size: 1.5rem;
 }
 
-
 code {
     font-size: 80%;
+}
+
+div.editor-preferred-header, div.possible-parsings-header {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+div#masthead {
+    color: #999;
+    background: url(logo.png) no-repeat;
+    padding-left: 50px;
+    min-height: 32px;
+    line-height: 2.1rem;
+    margin-bottom: 2rem;
+}
+
+.sansfont {
+    font-family: Arial, Verdana, sans-serif;
+    color: #999;
+
 }
 
 /* TOC accordions – native <details> styling */

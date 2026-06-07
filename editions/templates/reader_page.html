@@ -10,7 +10,10 @@
 
 </head>
 <body>
+    <div id="masthead" class="sansfont">Furman Classics. Dramaturg Editions. C. Blackwell, 2026. CC-BY-NC. Code on <a href="https://github.com/Eumaeus/Dramaturg.jl">Github</a>.</div>
+
     <nav>{{navigation}}</nav>
+
 
     <div id="title">
         <div id="work_title">{{title}}</div>
@@ -23,18 +26,18 @@
         </div>
 
         <div id="sidebar">
-            <h3 id="sidebar-title">Morphology &amp; Lexicon <br/><span class="peek-note">( hover to peek ✧ click to lock )</span></h3>
+            <h3 id="sidebar-title">Morphology &amp; Lexicon <br/><span class="peek-note sansfont">( hover to peek ✧ click to lock )</span></h3>
             
           <!-- Editor Mode toggle (always visible) -->
             <div id="editor-mode-toggle-wrapper" style="margin-bottom: 1.2rem; font-size: 0.95rem;">
                 <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; user-select: none;">
-                    <input type="checkbox" id="editor-mode-toggle" checked>
-                    <span>Editor Mode <small style="color:#28a745; font-weight:normal;">(Mark preferred parsings)</small></span>
+                    <input type="checkbox" id="editor-mode-toggle">
+                    <span class="sansfont">Editor Mode <small style="color:#28a745; font-weight:normal;">(Mark preferred parsings)</small></span>
                 </label>
             </div> 
 
             <!-- Editor Mode controls -->
-            <div id="editor-controls" class="editor-controls" style="display: none; margin-bottom: 1.5rem; padding: 1rem; background: #f0f8f0; border: 1px solid #28a745; border-radius: 8px;">
+            <div id="editor-controls" class="editor-controls sansfont" style="display: none; margin-bottom: 1.5rem; padding: 1rem; background: #f0f8f0; border: 1px solid #28a745; border-radius: 8px;">
                 <strong style="color:#28a745;">Editor Mode</strong><br>
                 <small style="color:#555;">Select preferred parsing for each token.<br>Download when finished reading the page.</small>
                 <div style="margin-top: 0.8rem;">

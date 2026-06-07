@@ -190,12 +190,19 @@ function main()
     cp(joinpath(template_dir, "css", "style.css"),
        joinpath(text_site_dir, "css", "style.css"),
        force = true)
+    cp(joinpath(template_dir, "css", "logo.png"),
+       joinpath(text_site_dir, "css", "logo.png"),
+       force = true)
     cp(joinpath(template_dir, "js", "interactive.js"),
        joinpath(text_site_dir, "js", "interactive.js"),
        force = true)
     cp(joinpath(template_dir, "css", "style.css"),
        joinpath(editions_dir, "css", "style.css"),
        force = true)
+    cp(joinpath(template_dir, "css", "logo.png"),
+       joinpath(editions_dir, "css", "logo.png"),
+       force = true)
+
     cp(joinpath(template_dir, "js", "interactive.js"),
        joinpath(editions_dir, "js", "interactive.js"),
        force = true)
