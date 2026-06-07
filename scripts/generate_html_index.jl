@@ -12,7 +12,7 @@ function format_passage_range(first_cit::String, last_cit::String, level::Int)::
         lparts = split(last_cit, '.')
 
         #return "Passages $(first_cit)–$(last_cit)"
-        return "Passages $(fparts[1])–$(fparts[1])"
+        return "Passages $(fparts[1])–$(lparts[1])"
     else
         fparts = split(first_cit, '.')
         lparts = split(last_cit, '.')

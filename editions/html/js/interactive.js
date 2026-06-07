@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const infopanel = document.getElementById('infopanel');
     let lockedToken = null;
     let editorChoices = {}; // tokenUrn → morphUrn
-    let editorModeEnabled = true;   // default ON
+    let editorModeEnabled = false;   // default OFF
     const editorToggle = document.getElementById('editor-mode-toggle');
 
     const editorControls = document.getElementById('editor-controls');
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         header.className = 'morph-header';
         header.style.cssText = 'margin-bottom:1rem;border-bottom:1px solid #ddd;padding-bottom:0.5rem;';
         header.innerHTML = `
-            <strong style="font-size:1.2rem">${word}</strong>
+            <strong style="font-size:2rem">${word}</strong>
             `;
         infopanel.appendChild(header);
 

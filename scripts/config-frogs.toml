@@ -11,7 +11,7 @@ filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 
 [output]
-html_tokens_per_page = 250
+html_tokens_per_page = 200
 html_output_dir = "editions/html/Aristophanes_Frogs/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"

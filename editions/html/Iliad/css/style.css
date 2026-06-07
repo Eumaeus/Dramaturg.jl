@@ -281,6 +281,73 @@ nav a:hover { text-decoration: underline; }
   font-style: italic;
 }
 
+div#toc {
+    font-size: 1.5rem;
+}
+
 code {
     font-size: 80%;
+}
+
+div.editor-preferred-header, div.possible-parsings-header {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+div#masthead {
+    color: #999;
+    background: url(logo.png) no-repeat;
+    padding-left: 50px;
+    min-height: 32px;
+    line-height: 2.1rem;
+    margin-bottom: 2rem;
+}
+
+.sansfont {
+    font-family: Arial, Verdana, sans-serif;
+    color: #999;
+
+}
+
+/* TOC accordions – native <details> styling */
+details {
+    margin-bottom: 0.6rem;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+details summary {
+    padding: 0.75rem 1rem;
+    background: #f8f1e3;
+    font-weight: 400;
+    cursor: pointer;
+    list-style: none;           /* hides the default triangle in some browsers */
+    position: relative;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary::after {
+    content: "▾";
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.2s ease;
+}
+
+details[open] summary::after {
+    transform: rotate(180deg);
+}
+
+details summary:hover {
+    background: #f0e6d2;
+}
+
+details ul {
+    padding: 0.5rem 1rem 0.75rem 2rem;
+    margin: 0;
+    list-style-type: "☞ ";
+    background: #fffaf0;
+    border-left: 3px solid #d4b98a;
 }

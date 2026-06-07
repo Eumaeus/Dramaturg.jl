@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const infopanel = document.getElementById('infopanel');
     let lockedToken = null;
     let editorChoices = {}; // tokenUrn → morphUrn
+    let editorModeEnabled = false;   // default OFF
+    const editorToggle = document.getElementById('editor-mode-toggle');
 
     const editorControls = document.getElementById('editor-controls');
     const downloadBtn = document.getElementById('download-editor-tsv');
@@ -32,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         header.className = 'morph-header';
         header.style.cssText = 'margin-bottom:1rem;border-bottom:1px solid #ddd;padding-bottom:0.5rem;';
         header.innerHTML = `
-            <strong style="font-size:1.2rem">${word}</strong>
+            <strong style="font-size:2rem">${word}</strong>
             `;
         infopanel.appendChild(header);
 
@@ -40,39 +42,42 @@ document.addEventListener('DOMContentLoaded', () => {
         clone.style.display = 'block';
 
         // Add Editor buttons + highlighting
-        clone.querySelectorAll('.parse_and_lex').forEach(parsing => {
-            const morphUrn = parsing.getAttribute('data-morphurn');
-            if (!morphUrn) return;
+        // Add Editor buttons ONLY if Editor Mode is enabled
+        if (editorModeEnabled) {
+            clone.querySelectorAll('.parse_and_lex').forEach(parsing => {
+                const morphUrn = parsing.getAttribute('data-morphurn');
+                if (!morphUrn) return;
 
-            const btn = document.createElement('button');
-            btn.className = 'preferred-btn';
-            btn.textContent = 'Mark as preferred';
-            btn.title = 'Click to record this parsing for this context';
+                const btn = document.createElement('button');
+                btn.className = 'preferred-btn';
+                btn.textContent = 'Mark as preferred';
+                btn.title = 'Click to record this parsing for this context';
 
-            btn.addEventListener('click', e => {
-                e.stopImmediatePropagation();
+                btn.addEventListener('click', e => {
+                    e.stopImmediatePropagation();
+                    if (editorChoices[tokenUrn] === morphUrn) {
+                        delete editorChoices[tokenUrn];
+                        parsing.classList.remove('preferred');
+                        btn.textContent = 'Mark as preferred';
+                    } else {
+                        editorChoices[tokenUrn] = morphUrn;
+                        clone.querySelectorAll('.parse_and_lex').forEach(p => p.classList.remove('preferred'));
+                        parsing.classList.add('preferred');
+                        btn.textContent = '✓ Preferred here';
+                    }
+                    renderEditorControls();
+                });
+
+                // Restore previous choice
                 if (editorChoices[tokenUrn] === morphUrn) {
-                    delete editorChoices[tokenUrn];
-                    parsing.classList.remove('preferred');
-                    btn.textContent = 'Mark as preferred';
-                } else {
-                    editorChoices[tokenUrn] = morphUrn;
-                    clone.querySelectorAll('.parse_and_lex').forEach(p => p.classList.remove('preferred'));
                     parsing.classList.add('preferred');
                     btn.textContent = '✓ Preferred here';
                 }
-                renderEditorControls();
+
+                parsing.style.position = 'relative';
+                parsing.appendChild(btn);
             });
-
-            // Restore previous choice
-            if (editorChoices[tokenUrn] === morphUrn) {
-                parsing.classList.add('preferred');
-                btn.textContent = '✓ Preferred here';
-            }
-
-            parsing.style.position = 'relative';
-            parsing.appendChild(btn);
-        });
+        }
 
         infopanel.appendChild(clone);
 
@@ -93,10 +98,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     tokens.forEach(token => {
         token.addEventListener('mouseenter', () => {
-            if (!lockedToken || lockedToken === token) showMorph(token);
+            // JS-driven visual hover (Safari-proof)
+            if (lockedToken !== token) {
+                token.classList.add('hovered');
+            }
+            if (!lockedToken || lockedToken === token) {
+                showMorph(token);
+            }
         });
 
-        token.addEventListener('mouseleave', clearPanel);
+        token.addEventListener('mouseleave', () => {
+            // Only remove hover if this token is not the locked one
+            if (lockedToken !== token) {
+                token.classList.remove('hovered');
+            }
+            clearPanel();
+        });
 
         token.addEventListener('click', e => {
             e.stopImmediatePropagation();
@@ -146,6 +163,17 @@ document.addEventListener('DOMContentLoaded', () => {
             if (lockedToken) showMorph(lockedToken);
         }
     });
+
+        // Editor Mode toggle
+    if (editorToggle) {
+        editorToggle.addEventListener('change', (e) => {
+            editorModeEnabled = e.target.checked;
+            // Refresh the currently locked panel so buttons appear/disappear instantly
+            if (lockedToken) {
+                showMorph(lockedToken);
+            }
+        });
+    }
 
     renderEditorControls();
 
