@@ -6,23 +6,17 @@
 
 Read in a .tsv file of token-records (--input) consisting of:
 
-    surface-form (UC) \t surface-form (Beta) \t lemma \t part-of-speech-tag
+    surface-form (Unicode) \t surface-form (Betacode) \t lemma (Unicode) \t lemma (Betacode) \t part-of-speech-tag
 
 Read in an index to the LSJ lexicon (--lexindex)
 
 Try to align the `lemma` with an LSJ entry. Write to --output:
 
-    surface-form \t lemma \t lsj-urn \t part-of-speech-tag
+    surface-form (Unicode) \t surface-form (Betacode) \t lemma (Unicode) \t lemma (Betacode) \t lsj-urn \t part-of-speech-tag
 
 If no match, write line to --errors:
 
     surface-form \t lemma \t "none-found" \t part-of-speech-tag
-
-Try to resolve predictable ambiguities. If they cannot be resolved, write all possible answers to --errors:
-
-        surface-form \t lemma \t urn1 \t part-of-speech-tag
-        surface-form \t lemma \t urn2 \t part-of-speech-tag
-        …
 
 Defaults:
 
@@ -159,7 +153,7 @@ function main()
                 push!(new_parts, string(line_parts[1]))
                 push!(new_parts, string(line_parts[2]))
                 push!(new_parts, string(line_parts[3]))
-                push!(new_parts, test_lemma)
+                push!(new_parts, test_lemma) # 
                 # Add the newly-discovered URN
                 cols = split(entry, "\t")
                 push!(new_parts, string(cols[1]))
@@ -227,7 +221,7 @@ function main()
             else
 
                 #=   
-                    Catch Capitals. The LSJ lemmata use yet-another-way-of-doing_Betacode-capitals.
+                    Catch Capitals. The lsj lemmata combine the asterisk and diacritical marks differently from how Morpheus does.
                 =#
 
                 # Filter the lexicon for matching lemmata
@@ -260,8 +254,7 @@ function main()
                 else
 
                      #=   
-                        Catch Capitals and de-capitalize, to get
-                        regular nouns being used as Gods, etc.
+                        If that didn't work Capitals and de-capitalize, to get regular nouns being used as Gods, words at the beginning of quotations, etc.
                     =#
 
                     # Filter the lexicon for matching lemmata
