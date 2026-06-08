@@ -9,74 +9,48 @@ The scripts of the pipeline depend on Julia code in the `src` directory.
 Everything is driven from `scripts/config.toml`.
 
 
-## Next Steps
+## Alignment Challenge
 
-### Durable Editor's Picks
+I have some legacy data that I would like to use as a editor's index to the Homeric Hymn to Demeter.
 
-This is a follow-up to an earlier request, which is documented here: `ai_queries/21_Editor_Index.md`.
+An example of such an index, for Aristphanes' Fogs, is on GitHub here:
 
-As the code stands, we are exported "editor's picks" in the form of a two-column index of CTS-URN and CITE2-URN, the former a citation to a token in the text, and the latter a citation to an entry in `["editorial"]["master_morph_dict"]`. That was tidy and neat, and would be a great idea if `master_morph_dict` were truly a stable resource, and its URNs were truly canonical.
+	source-data/edited_morphology/Aristophanes_Frogs/editorial_picks.tsv
 
-But since the code, and the texts, will remain works-in-progress, it is entirely likely that those will change, rendering all existing editorial picks useless. If the edited text changes such that token-URNs change, there is no helping that. But we should be able to design a workflow so that editorial data survies a change to `master_morph_dict`. 
+My edition of the Homeric Hymn to Demeter is here:
 
-Here's a sample line from `data/morphology/Greek_Morphology.cex`:
+	source-data/texts/demeter.cex
 
-	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400081#**Θηραμένης**. From **θηράω**. Verb. Perfect, participle, middle-passive, feminine, genitive, singular. [v-srpefg-]. See `urn:cite2:hmt:lsj.chicago_md:n48722`.#Θηραμένης#*qhrame/nhs#θηράω#qhra/w#urn:cite2:hmt:lsj.chicago_md:n48722#v-srpefg-
+And the scripts you helped me write generate this tokenized edition, with each token cited by CTS-URN:
 
-The property-fields are defined thus:
+	data/tokenized/The_Homeric_Hymn_to_Demeter_tokenized.cex
 
-	1   2    3       4       5        6        7   8
-	urn#desc#uc_form#bc_form#uc_lemma#bc_lemma#lsj#pos
+I have this piece of legacy data, in XML, in which some very good scholars captured morphological and syntactic information for each token of *an edition* of the Homeric Hymn to Demeter:
 
+	data/working_files/tlg0013.tlg002.perseus-grc1.tb.xml
 
-When we save a `.tsv` file of editor's picks, working in the UI, let's save it with the CTS-URN as a first column, and then the following fields separated by `\t`: 3, 4, 5, 6, 7, 8.
+I am not interested in syntax right now—you helped me get started on a project for documenting Ancient Greek Syntax, which I will return to. But I am interested in a lot of the data in this XML file. Here's one example element:
 
-Field 2, `desc`, is simply a formatted human-readable expansion of the data in other fields, which could be regenerated and thus might change. 
+	<word id="15" form="ἣν" lemma="ὅς" postag="p-s---fa-" relation="OBJ" sg="sbs acc dpd aff" gloss="who" head="20"/>
 
-So "identity", in terms of alignment of a token with its morphology and lexicography, is based on 3, 4, 5, 6, 7, 8.
+We have a surface-form `form`, a lemma, and a POS-tag. Which is all we need to construct a file like this one (which adds beta-code representations of the surface-form and lemma:
 
-When re-building the html site, then, the code should match a token (CTS-URN) with any entry in `["editorial"]["master_morph_dict"]` that matches in terms of those fields: 3, 4, 5, 6, 7, 8.
+	data/indexes/The_Homeric_Hymn_to_Demeter_morpheus_triplets.tsv
 
-This way, if the morphology dictionary is rebuilt, the editorial data will still work.
+But the editors of that XML file did not think to provide citation-information, poetic line. Also, their edition was different from my .cex edition by the presence (in the .cex) of quotation-marks, and some random editorial marks that appear as tokens in one or the other.
 
-I hope that makes sense!
+I would value your help writing a Julia script that does the following:
 
-Files that this change would touch:
+- Reads in `data/working_files/tlg0013.tlg002.perseus-grc1.tb.xml`.
+- Produces something like `data/indexes/The_Homeric_Hymn_to_Demeter_morpheus_triplets.tsv`, which I can then run through the script `scripts/align_lemmata.jl`.
+- Using the code in `scripts/align_lemmata.jl`, one way or another, produces a file like `source-data/edited_morphology/Aristophanes_Frogs/editorial_picks.tsv`, which would involve…
+- Aligning the tokens in the XML file, and their data, with those in `data/tokenized/The_Homeric_Hymn_to_Demeter_tokenized.cex`.
+	- For each token in the .cex file, find the corresponding token in the XML file, and capture its data like an entry in `source-data/edited_morphology/Aristophanes_Frogs/editorial_picks.tsv`, with the correct CTS-URN.
+	- If a token in the .cex file cannot be found in the XML, for any reason, skip it.
+	- If there are tokens in the XML file that aren't in the CEX file, skip them.
 
-- `scripts/generate_html_reader_pages.jl`
-- `editions/templates/js/interactive.js`
+The goal will be to have my Dramaturg reading environment provide "Editor's Preferred Parsings" for as many tokens in the Hymn to Demeter as possible, given this legacy XML.
 
-### Updating Legacy Editorial Picks
+There is a body of similar XML files for other texts, and eventually I would like to take advantage of all of them. Unfortunately, there is *no* consistency in the XML across these files, neither in structure nor in the details of the attributes. 
 
-I have a small number of editorial picks already documented. It would be useful to keep them. I would like a utility script, `utilties/update_editorial_picks.jl` that would:
-
-- work off a `config.toml`
-- read in any `.tsv` files in `["editorial"]["editor_index_files"]`
-- working from `["editorial"]["master_morph_dict"]`, update the `.tsv` data from "CTS-URN <-> CITE2-URN" to the scheme described above
-- save the result in `["editorial"]["editor_index_files"]` as "new_editorial_pics.tsv".
-
-### Consolidating Editorial Picks
-
-I would like a utility script, `utilities/consolidate_editorial_picks.jl` that would:
-
-- work off a `config.toml`
-- read in any `.tsv` files in `["editorial"]["editor_index_files"]`
-- concatenate them into a single `.tsv` file.
-- save the new file in the same directory as `editorial_picks_[DATE].tsv`
-
-### Cleaning `master_morph_dict`
-
-Somehow—and I don't know how—it seems that duplicate entries creep into `master_morph_dict`, that is, entries that have different CITE2 URNs, but the other properties are identical. I would like a utility script, `utilities/prune_morphology.jl`, which:
-
-- accepts a path to a .cex file of morphology as a parameter
-- finds duplicate entries (different URNs, otherwise identical data).
-- keeps one and deletes the other (it doesn't matter which).
-- saves the original file with the same name but ending in `-old-[DATE].cex`.
-- saves the new, pruned file under the original name. 
-
-
----------
-
-I ran the scripts as you suggested. The utility scripts work perfectly, and the legacy editoria-picks data works perfectly in the browser after rebuilding the pages.
-
-I think the "Download Editor's Index" function is still doing it the old way, saving a `.tsv` indexed by CTS-URN <-> CITE2-URN. It should save the data in the new form.
+If you can generate some code for me, and if the block that does the actual alignment-logic is clearly marked, I can educate myself on your code and perhaps be able to handle more of these on my own.
