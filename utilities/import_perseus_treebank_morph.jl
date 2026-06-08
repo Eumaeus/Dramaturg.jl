@@ -9,10 +9,10 @@ using Unicode
 
 # ── CONFIG ──
 const XML_PATH          = "data/working_files/tlg0013.tlg002.perseus-grc1.tb.xml"
-const TOKENIZED_CEX     = "data/tokenized/The_Homeric_Hymn_to_Demeter_tokenized.cex"
-const OUTPUT_TRIPLETS   = "data/indexes/The_Homeric_Hymn_to_Demeter_perseus_triplets.tsv"
-const MATCHED_URNS      = "data/indexes/The_Homeric_Hymn_to_Demeter_matched_urns.tsv"
-const ERROR_REPORT      = "data/indexes/The_Homeric_Hymn_to_Demeter_perseus_alignment_errors.txt"
+const TOKENIZED_CEX     = "data/tokenized/The_Homeric_Hymn_to_Demeter/The_Homeric_Hymn_to_Demeter_tokenized.cex"
+const OUTPUT_TRIPLETS   = "data/indexes/The_Homeric_Hymn_to_Demeter/_perseus_The_Homeric_Hymn_to_Demeter_triplets.tsv"
+const MATCHED_URNS      = "data/indexes/The_Homeric_Hymn_to_Demeter/_perseus_The_Homeric_Hymn_to_Demeter_matched_urns.tsv"
+const ERROR_REPORT      = "data/indexes/The_Homeric_Hymn_to_Demeter/_perseus_The_Homeric_Hymn_to_Demeter_perseus_alignment_errors.txt"
 
 const MAX_SKIP          = 10   # how many tokens we are willing to skip on either side
 # ─────────────

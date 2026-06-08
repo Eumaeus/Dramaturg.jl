@@ -176,6 +176,7 @@ end
 # Index (TSV, one entry per association, sorted by token URN)
 if !isempty(index_entries)
     sort!(index_entries)
+    #mkpath(output_path)
     open(output_path, "w") do io
         for entry in index_entries
             println(io, entry)

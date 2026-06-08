@@ -1,26 +1,26 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/oedipus.cex"
-text_urn = "urn:cts:greekLit:tlg0011.tlg004.fu.sp:" 
-file_name = "Oedipus"
-text_title = "Sophocles *Oedipus Tyrannos*"
-text_genre = "drama" # options are "poetry", "prose", "drama"
+cex_path = "source-data/texts/demeter.cex"
+text_urn = "urn:cts:greekLit:tlg0013.tlg002.fucex:" 
+file_name = "The_Homeric_Hymn_to_Demeter"
+text_title = "The *Homeric Hymn to Demeter*"
+text_genre = "poetry" # options are "poetry", "prose", "drama"
 citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
 filter_paratext = "speaker" # filter out passages with this string in the URN.
 
-
 [output]
-html_tokens_per_page = 200
-html_output_dir = "editions/html/Oedipus/pages"
+html_tokens_per_page = 250
+html_output_dir = "editions/html/The_Homeric_Hymn_to_Demeter/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Oedipus"
-md_bibliography = "editions/frontmatter/Oedipus/bibliography.md"
-md_frontmatter = "editions/frontmatter/Oedipus/frontmatter.md"
+html_temp_dir = "data/html_temp/The_Homeric_Hymn_to_Demeter"
+md_bibliography = "editions/frontmatter/The_Homeric_Hymn_to_Demeter/bibliography.md"
+md_frontmatter = "editions/frontmatter/The_Homeric_Hymn_to_Demeter/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
+
 
 
 [lexicon]
@@ -29,23 +29,22 @@ lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
 lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
-raw_morph_data = "morph/output/oedipus-analysis.txt"
-morph_pos_triplets = "data/indexes/Oedipus/Oedipus_morpheus_triplets.tsv"
-morph_pos_errors = "morph/output/Oedipus_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/Oedipus/Oedipus_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/Oedipus/Oedipus_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/Oedipus/Oedipus_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/Oedipus/Oedipus_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/oedipus_morph.cex"
-
+raw_morph_data = "morph/output/demeter-analysis.txt"
+morph_pos_triplets = "data/indexes/The_Homeric_Hymn_to_Demeter/The_Homeric_Hymn_to_Demeter_morpheus_triplets.tsv"
+morph_pos_errors = "morph/output/The_Homeric_Hymn_to_Demeter_parse_errors.log"
+morph_lemmata_alignment = "data/indexes/The_Homeric_Hymn_to_Demeter/The_Homeric_Hymn_to_Demeter_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/The_Homeric_Hymn_to_Demeter/The_Homeric_Hymn_to_Demeter_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/The_Homeric_Hymn_to_Demeter/The_Homeric_Hymn_to_Demeter_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/The_Homeric_Hymn_to_Demeter/The_Homeric_Hymn_to_Demeter_morphology_index_errors.tsv"
+local_morph_dict = "data/morphology/demeter_morph.cex"
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Oedipus"
-indexes_dir = "indexes/Oedipus"
-vocabulary_dir = "vocabulary/Oedipus"
+tokenized_dir = "tokenized/The_Homeric_Hymn_to_Demeter"
+indexes_dir = "indexes/The_Homeric_Hymn_to_Demeter"
+vocabulary_dir = "vocabulary/The_Homeric_Hymn_to_Demeter"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -60,6 +59,7 @@ enclitics_dict    = "source-data/dictionaries/editorial-dict-enclitics.tsv"
 anastrophe_dict   = "source-data/dictionaries/editorial_dict_anastrophe.tsv"
 lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
 lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
+morph_dict_template = "data/morphology/Greek_Morphology_template.cex"
 master_morph_dict = "data/morphology/Greek_Morphology.cex"
-editor_index_files = "source-data/edited_morphology/Oedipus/"
-editor_index_error = "data/morphology/editorial_index_error_oedipus.txt"
+editor_index_files = "source-data/edited_morphology/The_Homeric_Hymn_to_Demeter/"
+editor_index_error = "data/morphology/editorial_index_error_demeter.txt"
