@@ -1,4 +1,11 @@
 // interactive.js – Zero-friction Greek reader + Editor Mode (durable picks)
+
+function copySelf(element) {
+  navigator.clipboard.writeText(element.innerText)
+    .then(() => alert("Copied: " + element.innerText))
+    .catch(err => console.error("Error:", err));
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const tokens = document.querySelectorAll('.text_token');
     const morphSource = document.getElementById('morphdata');
@@ -42,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const header = document.createElement('div');
         header.className = 'morph-header';
         header.style.cssText = 'margin-bottom:1rem;border-bottom:1px solid #ddd;padding-bottom:0.5rem;';
-        header.innerHTML = `<strong style="font-size:2rem">${word}</strong>`;
+        header.innerHTML = `<div class="tokenWord">${word}</div><div class="tokenurn sansfont" onclick="copySelf(this)" >${tokenUrn}</div>`;
         infopanel.appendChild(header);
 
         const clone = sourceDiv.cloneNode(true);

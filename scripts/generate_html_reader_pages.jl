@@ -366,7 +366,7 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
                         $desc_html
                     </div>
                     <div class="lsj_shortdef" data-lsjurn="$(entry.lsj)">
-                        <a href="$(lsj_url * "?urn=" * entry.lsj)" class="shortdeflink">$shortdef</a>
+                        <a href="$(lsj_url * "?urn=" * entry.lsj)" target="_blank" rel="noreferrer" class="shortdeflink">$shortdef</a>
                     </div>
                 </div>
             """)

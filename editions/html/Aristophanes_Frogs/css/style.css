@@ -309,6 +309,15 @@ div#masthead {
 
 }
 
+div.tokenurn {
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+div.tokenurn:hover {
+    color: var(--accent-color);
+}
+
 /* TOC accordions – native <details> styling */
 details {
     margin-bottom: 0.6rem;
