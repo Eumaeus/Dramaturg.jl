@@ -56,3 +56,18 @@ The goal will be to have my Dramaturg reading environment provide "Editor's Pref
 There is a body of similar XML files for other texts, and eventually I would like to take advantage of all of them. Unfortunately, there is *no* consistency in the XML across these files, neither in structure nor in the details of the attributes. 
 
 If you can generate some code for me, and if the block that does the actual alignment-logic is clearly marked, I can educate myself on your code and perhaps be able to handle more of these on my own.
+
+-----
+
+Thanks for this! Unfortunately, it failed to match any tokens in the .cex file with any in the XML.
+
+The file `data/indexes/The_Homeric_Hymn_to_Demeter_perseus_alignment_errors.txt` has been checked into GitHub.
+
+One thing I notice is that the XML, unaccountably, uses a "Greek combining koronis" (U+0343), what I would call a "combinging smooth breathing" as a mark of ellision. The principle of "this character looks kind of like the one I mean, so I'll use it" is rampant among "digital humanities people", alas. Examples:
+
+	form="Δήμητῤ" for "Δήμητρ'"
+	form="ἄρχομ̓" for "ἄρχομ'"
+
+My initial reading of the code you gave me, which is checked in at `utilities/import_perseus_treebank_morph.jl`, doesn't reveal what much be a more fundamental problem.
+
+There are probably several reasons, some which I don't see immediately. 
