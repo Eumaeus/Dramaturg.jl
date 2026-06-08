@@ -103,4 +103,4 @@ A regex would obviously be the right answer. But we don't want to catch legitima
 
 But also, the script is still not correctly iterating through tokens after errors. It seems that if it hits a mismatch, every subsequent attempt at matching will be off. 
 
-I've checked the current state of the script and its output into GitHub.
+I've checked the current state of the script and its output into GitHub: &lt;https://github.com/Eumaeus/Dramaturg.jl/tree/main&gt;
