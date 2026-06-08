@@ -38,6 +38,9 @@ end
 # ------------------------------------------------------------------
 # Render Greek text body
 # ------------------------------------------------------------------
+# ------------------------------------------------------------------
+# Render Greek text body
+# ------------------------------------------------------------------
 function render_greek_text(tokens::Vector{Tuple{String,String}}, genre::String, citation_level::Int, text_urn::String)::String
     if genre != "drama"
         # Original logic for prose / poetry
@@ -76,11 +79,11 @@ function render_greek_text(tokens::Vector{Tuple{String,String}}, genre::String, 
         end
         return join(parts, "\n")
     else
-        # === DRAMA LOGIC (new) ===
+        # === DRAMA LOGIC ===
         parts = String[]
         current_main = ""
         current_sub = ""
-        current_speaker = ""
+        current_speaker = ""          # ← persists across the whole text
         citation_label_placed = false
         inside_inline = false
 
@@ -104,11 +107,11 @@ function render_greek_text(tokens::Vector{Tuple{String,String}}, genre::String, 
                 push!(parts, """<div class="citation-unit" data-citation="$this_main">""")
                 citation_label_placed = false
                 current_sub = ""
-                current_speaker = ""
+                # DO NOT reset current_speaker here – we want it to carry over
                 inside_inline = false
             end
 
-            # Start new inline-speech on sub-citation change (or first speech)
+            # Start new inline-speech on sub-citation change
             if this_sub != current_sub
                 if inside_inline
                     push!(parts, "</div>")
@@ -117,10 +120,10 @@ function render_greek_text(tokens::Vector{Tuple{String,String}}, genre::String, 
                 inside_inline = true
                 current_sub = this_sub
 
-                # Speaker token → render attribution + citation label (after speaker)
+                # Speaker token → render attribution ONLY when it actually changes
                 if occursin(".speaker", passage)
                     speaker = tok
-                    if !isempty(speaker)
+                    if !isempty(speaker) && speaker != current_speaker
                         push!(parts, """<div class="speaker-attribution"><strong>$speaker</strong></div>""")
                         current_speaker = speaker
                     end
