@@ -1,49 +1,45 @@
 #!/usr/bin/env julia
 # utilities/import_perseus_treebank_morph.jl
-# Imports Perseus TB XML morphological data → Dramaturg editorial index.
-# Now robust against:
-#   • U+0343 (combining koronis) vs. apostrophe / right-quote in CEX
-#   • Catalog lines accidentally being treated as tokens
-#   • Minor BetaCode failures
+# Perseus Treebank → Dramaturg alignment (robust BetaCode matching + full debug)
 
 using Dramaturg
 using BetaReader
 using Dates
+using Unicode   # for NFC normalisation
 
-# ── CONFIG (change these for other texts) ──
+# ── CONFIG ──
 const XML_PATH          = "data/working_files/tlg0013.tlg002.perseus-grc1.tb.xml"
 const TOKENIZED_CEX     = "data/tokenized/The_Homeric_Hymn_to_Demeter_tokenized.cex"
 const OUTPUT_TRIPLETS   = "data/indexes/The_Homeric_Hymn_to_Demeter_perseus_triplets.tsv"
 const MATCHED_URNS      = "data/indexes/The_Homeric_Hymn_to_Demeter_matched_urns.tsv"
 const ERROR_REPORT      = "data/indexes/The_Homeric_Hymn_to_Demeter_perseus_alignment_errors.txt"
-# ───────────────────────────────────────────
+# ─────────────
 
 """
-    normalize_form(s::String) -> String
+    form_to_beta(s::String) -> String
 
-Round-trip through BetaReader AFTER canonicalising elision markers.
-This is the fix for the koronis/apostrophe mismatch you spotted.
+Canonical normalisation for matching:
+1. Fix elision markers (koronis, curly quotes → plain apostrophe)
+2. Unicode NFC (critical for polytonic Greek consistency)
+3. unicodeToBeta
+Returns "#FAILED#" if BetaCode round-trip fails.
 """
-function normalize_form(s::String)::String
+function form_to_beta(s::String)::String
     isempty(s) && return ""
-    # Standardise all common elision characters to plain apostrophe
-    # (U+0343 = combining koronis used in Perseus XML;
-    #  U+2019 = right single quote common in CEX editions)
+    # Elision markers
     s = replace(s, '\u0343' => "'")
     s = replace(s, '\u2019' => "'")
-    s = replace(s, '\u2018' => "'")   # just in case
+    s = replace(s, '\u2018' => "'")
+    s = replace(s, "ῤ" => "ρ'")
+
+    # Force canonical composition BEFORE BetaReader
+    s = Unicode.normalize(s, :NFC)
 
     beta = unicodeToBeta(s)
     occursin('#', beta) && return "#FAILED#"
-    return betaToUnicode(beta)
+    return beta
 end
 
-"""
-    load_tokenized_cex(path::String)
-
-Now strictly filters to real token lines (those containing ".token.").
-This prevents the catalog line from being treated as token #1.
-"""
 function load_tokenized_cex(path::String)
     tokens = Tuple{String,String}[]
     for line in eachline(path)
@@ -51,7 +47,7 @@ function load_tokenized_cex(path::String)
         isempty(line) && continue
         if startswith(line, "urn:cts:greekLit:tlg0013.tlg002.fucex:") &&
            occursin('#', line) &&
-           occursin(".token.", line)          # ← new strict filter
+           occursin(".token.", line)
             parts = split(line, '#'; limit=2)
             length(parts) == 2 && push!(tokens, (parts[1], parts[2]))
         end
@@ -59,18 +55,10 @@ function load_tokenized_cex(path::String)
     tokens
 end
 
-"""
-    parse_perseus_treebank(xml_path::String)
-
-Unchanged regex parser (works fine for Perseus TB).
-The two “[0]” failures you saw were harmless parsing artefacts;
-they are now logged but do not stop the run.
-"""
 function parse_perseus_treebank(xml_path::String)
     content = read(xml_path, String)
     word_regex = r"<word\s+([^>]+?)\s*/>"
     words = Tuple{String,String,String}[]
-
     for m in eachmatch(word_regex, content)
         attrs_str = m[1]
         attr_regex = r"""(\w+)=["']([^"']*)["']"""
@@ -87,50 +75,58 @@ function parse_perseus_treebank(xml_path::String)
 end
 
 function main()
-    println("=== Perseus Treebank → Dramaturg alignment (fixed) ===")
+    println("=== Perseus Treebank → Dramaturg alignment (BetaCode matching + debug) ===")
     println("XML:  $XML_PATH")
-    println("CEX:  $TOKENIZED_CEX")
+    println("CEX:  $TOKENIZED_CEX\n")
 
     cex_tokens = load_tokenized_cex(TOKENIZED_CEX)
     xml_words  = parse_perseus_treebank(XML_PATH)
-    println("Loaded $(length(cex_tokens)) CEX tokens and $(length(xml_words)) XML words.")
+    println("Loaded $(length(cex_tokens)) CEX tokens and $(length(xml_words)) XML words.\n")
 
-    # Normalise both sides (the koronis fix lives here)
-    norm_cex = [normalize_form(form) for (_, form) in cex_tokens]
-    norm_xml = [normalize_form(form) for (form, _, _) in xml_words]
+    # Normalise to BetaCode for matching
+    cex_beta = [form_to_beta(form) for (_, form) in cex_tokens]
+    xml_beta = [form_to_beta(form) for (form, _, _) in xml_words]
 
-    # ─────────────────────────────────────────────────────────────
-    # ALIGNMENT LOGIC (this is the only block you should ever need to edit)
+    # ── DEBUG: first 15 items side-by-side (this will be in console + error report) ──
+    println("DEBUG: First 15 normalised BetaCode forms (CEX vs XML)")
+    for i in 1:min(15, length(cex_beta), length(xml_beta))
+        cform = cex_tokens[i][2]
+        xform = xml_words[i][1]
+        println("  $i | CEX: '$(cform)' → β '$(cex_beta[i])'")
+        println("      | XML: '$(xform)' → β '$(xml_beta[i])'")
+        println("      | MATCH? $(cex_beta[i] == xml_beta[i] && cex_beta[i] != "#FAILED#")")
+    end
+    println("\n")
+    # ─────────────────────────────────────────────────────────────────────────────
+
+    # ALIGNMENT LOGIC (only edit this block for future variants)
     matched = Tuple{String, String, String, String}[]   # (urn, surface_u, lemma_u, postag)
     beta_failures = String[]
     cex_i, xml_i = 1, 1
 
     while cex_i ≤ length(cex_tokens) && xml_i ≤ length(xml_words)
-        n_cex = norm_cex[cex_i]
-        n_xml = norm_xml[xml_i]
+        b_cex = cex_beta[cex_i]
+        b_xml = xml_beta[xml_i]
 
-        if n_xml == "#FAILED#"
+        if b_xml == "#FAILED#"
             xml_form = xml_words[xml_i][1]
-            push!(beta_failures, "XML form failed BetaCode round-trip: $(xml_form)")
+            push!(beta_failures, "XML form failed BetaCode: $(xml_form)")
             xml_i += 1
             continue
         end
 
-        if n_cex == n_xml
-            # MATCH!
+        if b_cex == b_xml
             urn, surface_u = cex_tokens[cex_i]
             _, lemma_u, postag = xml_words[xml_i]
             push!(matched, (urn, surface_u, lemma_u, postag))
             cex_i += 1
             xml_i += 1
         else
-            # Mismatch → skip extra token that exists only in the XML edition
-            xml_i += 1
+            xml_i += 1   # skip extra token that exists only in XML
         end
     end
-    # ─────────────────────────────────────────────────────────────
+    # ─────────────────────────────────────────────────────────────────────────────
 
-    # Remaining CEX tokens (if any) have no match
     unmatched_cex = String[]
     while cex_i ≤ length(cex_tokens)
         urn, form = cex_tokens[cex_i]
@@ -138,7 +134,7 @@ function main()
         cex_i += 1
     end
 
-    # Write triplets.tsv (ready for scripts/align_lemmata.jl)
+    # Write triplets (ready for align_lemmata.jl)
     triplets = String[]
     for (_, surface_u, lemma_u, postag) in matched
         surface_beta = unicodeToBeta(surface_u)
@@ -148,7 +144,7 @@ function main()
     write(OUTPUT_TRIPLETS, join(triplets, "\n") * "\n")
     write(MATCHED_URNS, join([u for (u,_,_,_) in matched], "\n") * "\n")
 
-    # Error report
+    # Error report with full debug
     open(ERROR_REPORT, "w") do io
         println(io, "Perseus Treebank Alignment Report – Homeric Hymn to Demeter")
         println(io, "Generated: $(Dates.now())")
@@ -156,7 +152,16 @@ function main()
         println(io, "XML words:  $(length(xml_words))")
         println(io, "Matched:    $(length(matched))")
         println(io, "Unmatched CEX tokens: $(length(unmatched_cex))")
-        println(io, "BetaCode failures:    $(length(beta_failures))")
+        println(io, "BetaCode failures:    $(length(beta_failures))\n")
+
+        println(io, "=== DEBUG: First 15 BetaCode forms (CEX vs XML) ===")
+        for i in 1:min(15, length(cex_beta), length(xml_beta))
+            cform = cex_tokens[i][2]
+            xform = xml_words[i][1]
+            println(io, "$i | CEX: '$(cform)' → β '$(cex_beta[i])'")
+            println(io, "   | XML: '$(xform)' → β '$(xml_beta[i])'  MATCH? $(cex_beta[i] == xml_beta[i] && cex_beta[i] != "#FAILED#")")
+        end
+
         println(io, "\n=== BETA CODE FAILURES IN XML ===")
         for f in beta_failures
             println(io, f)
@@ -171,15 +176,13 @@ function main()
     println("   Triplets      → $OUTPUT_TRIPLETS   ($(length(triplets)) rows)")
     println("   Matched URNs  → $MATCHED_URNS")
     println("   Error report  → $ERROR_REPORT")
-    println()
-    if length(matched) == 0
-        println("⚠️  Still zero matches? Uncomment the debug prints in normalize_form()")
-        println("   and run again — the first few normalised forms will be printed.")
+    if length(matched) > 0
+        println("\n🎉 Success! You now have matches. Run:")
+        println("   julia scripts/align_lemmata.jl")
+        println("   (then combine matched_urns.tsv with the output lemmata file into editorial_picks.tsv)")
     else
-        println("Next steps (exactly as before):")
-        println("1. Point config.toml [morphology] morph_pos_triplets at $OUTPUT_TRIPLETS")
-        println("2. julia scripts/align_lemmata.jl")
-        println("3. Zip the matched URNs with the lemmata output into editorial_picks.tsv")
+        println("\n⚠️  Still zero matches? Look at the DEBUG output above.")
+        println("   The BetaCode strings should now line up perfectly.")
     end
 end
 

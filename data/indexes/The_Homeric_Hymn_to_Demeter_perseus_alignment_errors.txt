@@ -1,22 +1,48 @@
 Perseus Treebank Alignment Report – Homeric Hymn to Demeter
-Generated: 2026-06-08T06:52:40.247
+Generated: 2026-06-08T08:52:45.794
 CEX tokens: 3936
 XML words:  3968
-Matched:    0
-Unmatched CEX tokens: 3936
+Matched:    6
+Unmatched CEX tokens: 3930
 BetaCode failures:    2
 
+=== DEBUG: First 15 BetaCode forms (CEX vs XML) ===
+1 | CEX: 'Δήμητρ’' → β 'Dh/mhtr''
+   | XML: 'Δήμητῤ' → β 'Dh/mhtr''  MATCH? true
+2 | CEX: 'ἠύκομον' → β 'h)u/komon'
+   | XML: 'ἠύκομον' → β 'h)u/komon'  MATCH? true
+3 | CEX: ',' → β ','
+   | XML: ',' → β ','  MATCH? true
+4 | CEX: 'σεμνὴν' → β 'semnh\n'
+   | XML: 'σεμνὴν' → β 'semnh\n'  MATCH? true
+5 | CEX: 'θεόν' → β 'qeo/n'
+   | XML: 'θεόν' → β 'qeo/n'  MATCH? true
+6 | CEX: ',' → β ','
+   | XML: ',' → β ','  MATCH? true
+7 | CEX: 'ἄρχομ’' → β 'a)/rxom''
+   | XML: 'ἄρχομ̓' → β 'a)/rxom)'  MATCH? false
+8 | CEX: 'ἀείδειν' → β 'a)ei/dein'
+   | XML: 'ἀείδειν' → β 'a)ei/dein'  MATCH? true
+9 | CEX: ',' → β ','
+   | XML: ',' → β ','  MATCH? true
+10 | CEX: 'αὐτὴν' → β 'au)th\n'
+   | XML: 'αὐτὴν' → β 'au)th\n'  MATCH? true
+11 | CEX: 'ἠδὲ' → β 'h)de\'
+   | XML: 'ἠδὲ' → β 'h)de\'  MATCH? true
+12 | CEX: 'θύγατρα' → β 'qu/gatra'
+   | XML: 'θύγατρα' → β 'qu/gatra'  MATCH? true
+13 | CEX: 'τανύσφυρον' → β 'tanu/sfuron'
+   | XML: 'τανύσφυρον' → β 'tanu/sfuron'  MATCH? true
+14 | CEX: ',' → β ','
+   | XML: ',' → β ','  MATCH? true
+15 | CEX: 'ἣν' → β 'h(\n'
+   | XML: 'ἣν' → β 'h(\n'  MATCH? true
+
 === BETA CODE FAILURES IN XML ===
-XML form failed BetaCode round-trip: [0]
-XML form failed BetaCode round-trip: [0]
+XML form failed BetaCode: [0]
+XML form failed BetaCode: [0]
 
 === UNMATCHED CEX TOKENS (urn	form) ===
-urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.1	Δήμητρ’
-urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.2	ἠύκομον
-urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.3	,
-urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.4	σεμνὴν
-urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.5	θεόν
-urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.6	,
 urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.7	ἄρχομ’
 urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.8	ἀείδειν
 urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.9	,

@@ -76,3 +76,13 @@ There are probably several reasons, some which I don't see immediately.
 
 Still zero matches, I'm afraid. I couldn't find the lines to un-comment in order to get debug. I've pushed the latest into GitHub.
 
+---
+
+Still no matches. I have checked in the latest code. I'm looking at lines 91 and 92, and also at the output of a little test I added at 106-110. It looks like the variables norm_cex and norm_xml are not actually containing normalized forms?
+
+---
+
+I've added one line in `form_to_beta()`, to correct the idiosyncratic attempt at an ellision following the letter rho, line 33 in the current checked-in version of `utilities/import_perseus_treebank_morph.jl`. This should have been taken care of by the preceding `replace()` functions.
+
+The script is currently matching the first six tokens, and none after that. I'm looking around line 124 in the script. Is it possible that, while it increments `xml_i` to skip an extra token that exists only in XML, it is not incrementing `cex_i` when there is an extra token that exists only in the CEX?
+
