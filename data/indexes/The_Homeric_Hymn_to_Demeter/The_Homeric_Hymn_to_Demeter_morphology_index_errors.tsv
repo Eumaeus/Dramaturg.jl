@@ -11,8 +11,6 @@ urn	citationScheme	citationScheme	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:	line	line	no_match_in_morph_dict
 	!ctsdata	!ctsdata	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:24.token.3	Περσαίου	Περσαίου	no_match_in_morph_dict
-urn:cts:greekLit:tlg0013.tlg002.fucex:60.token.1	Ῥείης	Ῥείης	no_match_in_morph_dict
-urn:cts:greekLit:tlg0013.tlg002.fucex:75.token.2	Ῥείης	Ῥείης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:79.token.7	ἄκοιτιν	ἄκοιτιν	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:105.token.5	Ἐλευσινίδαο	Ἐλευσινίδαο	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:109.token.1	Καλλιδίκη	Καλλιδίκη	no_match_in_morph_dict
@@ -20,7 +18,6 @@ urn:cts:greekLit:tlg0013.tlg002.fucex:109.token.3	Κλεισιδίκη	Κλει
 urn:cts:greekLit:tlg0013.tlg002.fucex:110.token.1	Καλλιθόη	Καλλιθόη	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:122.token.1	Δωσὼ	Δωσώ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:123.token.3	Κρήτηθεν	Κρήτηθεν	no_match_in_morph_dict
-urn:cts:greekLit:tlg0013.tlg002.fucex:126.token.3	Θόρικόνδε	Θόρικόνδε	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:128.token.3	ἐπηρτύνοντο	ἐπηρτύνοντο	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:137.token.8	οἰκτείρατε	οἰκτείρατε	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:146.token.1	Καλλιδίκη	Καλλιδίκη	no_match_in_morph_dict
@@ -38,7 +35,6 @@ urn:cts:greekLit:tlg0013.tlg002.fucex:234.token.1	Δημοφόωνθ’	Δημ�
 urn:cts:greekLit:tlg0013.tlg002.fucex:234.token.6	Μετάνειρα	Μετάνειρα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:243.token.6	Μετάνειρα	Μετάνειρα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:248.token.3	Δημοφόων	Δημοφόων	no_match_in_morph_dict
-urn:cts:greekLit:tlg0013.tlg002.fucex:248.token.8	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:255.token.6	Μετάνειραν	Μετάνειραν	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:279.token.7	κατενήνοθεν	κατενήνοθεν	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:286.token.6	ἐγκάτθετο	ἐγκάτθετο	no_match_in_morph_dict
@@ -46,9 +42,6 @@ urn:cts:greekLit:tlg0013.tlg002.fucex:303.token.2	καθεζομένη	καθε
 urn:cts:greekLit:tlg0013.tlg002.fucex:349.token.2	Ἐρέβευσφι	Ἐρέβευσφι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:355.token.1	μίσγεται	μίσγεται	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:376.token.1	ἔντυεν	ἔντυεν	no_match_in_morph_dict
-urn:cts:greekLit:tlg0013.tlg002.fucex:377.token.6	πάρα	πάρα	no_match_in_morph_dict
-urn:cts:greekLit:tlg0013.tlg002.fucex:382.token.5	ἔσχεθον	ἔσχεθον	no_match_in_morph_dict
-urn:cts:greekLit:tlg0013.tlg002.fucex:386.token.6	κάτα	κάτα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:418.token.1	Λευκίππη	Λευκίππη	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:418.token.5	Ἠλέκτρη	Ἠλέκτρη	no_match_in_morph_dict
 urn:cts:greekLit:tlg0013.tlg002.fucex:419.token.2	Μελίτη	Μελίτη	no_match_in_morph_dict

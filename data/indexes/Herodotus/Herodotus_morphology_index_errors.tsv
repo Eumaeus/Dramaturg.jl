@@ -220,7 +220,6 @@ urn:cts:greekLit:tlg0016.tlg001.grc:1.41.token.5	Κροῖσος	Κροῖσος
 urn:cts:greekLit:tlg0016.tlg001.grc:1.41.token.17	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.41.token.100	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.42.token.5	ʹ	ʹ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:1.42.token.35	πάρα	πάρα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.42.token.80	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.43.token.5	Κροῖσον	Κροῖσον	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.43.token.13	νεηνίῃσι	νεηνίῃσι	no_match_in_morph_dict
@@ -1155,10 +1154,8 @@ urn:cts:greekLit:tlg0016.tlg001.grc:1.179.token.181	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.180.token.21	διέργει	διέργει	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.180.token.26	Εὐφρήτης	Εὐφρήτης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.181.token.11	ἔσωθεν	ἔσωθεν	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:1.181.token.166	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.182.token.52	Θηβαιέος	Θηβαιέος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.182.token.69	Πατάροισι	Πατάροισι	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:1.183.token.17	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.183.token.148	Ὑστάσπεος	Ὑστάσπεος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.183.token.154	Ξέρξης	Ξέρξης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.184.token.52	Σεμίραμις	Σεμίραμις	no_match_in_morph_dict
@@ -1258,7 +1255,6 @@ urn:cts:greekLit:tlg0016.tlg001.grc:1.206.token.114	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.206.token.148	Τόμυρίν	Τόμυρίν	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.207.token.8	Κροῖσος	Κροῖσος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.207.token.20	ʹ	ʹ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:1.207.token.139	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.207.token.153	Μασσαγέται	Μασσαγέται	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.207.token.177	Μασσαγέτας	Μασσαγέτας	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:1.207.token.195	Τομύριος	Τομύριος	no_match_in_morph_dict
@@ -1567,7 +1563,6 @@ urn:cts:greekLit:tlg0016.tlg001.grc:2.90.token.19	τεθνεώς	τεθνεώς
 urn:cts:greekLit:tlg0016.tlg001.grc:2.90.token.74	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.91.token.30	Χέμμις	Χέμμις	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.91.token.35	Θηβαϊκοῦ	Θηβαϊκοῦ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:2.91.token.83	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.91.token.94	Χεμμῖται	Χεμμῖται	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.91.token.191	Δαναὸν	Δαναόν	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.91.token.196	Χεμμίτας	Χεμμίτας	no_match_in_morph_dict
@@ -1748,7 +1743,6 @@ urn:cts:greekLit:tlg0016.tlg001.grc:2.137.token.153	Βουβάστιος	Βου
 urn:cts:greekLit:tlg0016.tlg001.grc:2.138.token.23	συμμίσγουσαι	συμμίσγουσαι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.138.token.86	ἐκκεχωσμένης	ἐκκεχωσμένης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.138.token.110	ἔσωθεν	ἔσωθεν	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:2.138.token.123	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.138.token.147	μάλιστά	μάλιστά	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.139.token.31	συλλέξαντα	συλλέξαντα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.139.token.86	Αἰθιοπίῃ	Αἰθιοπίῃ	no_match_in_morph_dict
@@ -1809,10 +1803,8 @@ urn:cts:greekLit:tlg0016.tlg001.grc:2.154.token.177	Ψαμμήτιχος	Ψαμ
 urn:cts:greekLit:tlg0016.tlg001.grc:2.155.token.40	Σεβεννυτικὸν	Σεβεννυτικόν	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.155.token.62	Βουτώ	Βουτώ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.155.token.75	Βουτοῖ	Βουτοῖ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:2.155.token.93	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.156.token.22	Χέμμις	Χέμμις	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.156.token.36	Βουτοῖ	Βουτοῖ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:2.156.token.75	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.156.token.129	Βουτοῖ	Βουτοῖ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.156.token.164	Ὀσίριος	Ὀσίριος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:2.156.token.208	Αἰσχύλος	Αἰσχύλος	no_match_in_morph_dict
@@ -2563,14 +2555,12 @@ urn:cts:greekLit:tlg0016.tlg001.grc:3.80.token.34	Ὀτάνης	Ὀτάνης	n
 urn:cts:greekLit:tlg0016.tlg001.grc:3.80.token.47	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:3.80.token.67	Καμβύσεω	Καμβύσεω	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:3.80.token.152	Καίτοι	Καίτοι	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:3.80.token.295	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:3.80.token.299	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:3.81.token.1	Ὀτάνης	Ὀτάνης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:3.81.token.9	Μεγάβυζος	Μεγάβυζος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:3.81.token.18	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:3.81.token.21	Ὀτάνης	Ὀτάνης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:3.81.token.55	Καίτοι	Καίτοι	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:3.81.token.83	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:3.81.token.107	χειμάρρῳ	χειμάρρῳ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:3.81.token.151	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:3.82.token.1	Μεγάβυζος	Μεγάβυζος	no_match_in_morph_dict
@@ -3731,7 +3721,6 @@ urn:cts:greekLit:tlg0016.tlg001.grc:4.176.token.5	Γινδᾶνές	Γινδᾶ
 urn:cts:greekLit:tlg0016.tlg001.grc:4.176.token.26	μιχθέντα	μιχθέντα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:4.177.token.9	Γινδάνων	Γινδάνων	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:4.178.token.7	Μάχλυες	Μάχλυες	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:4.178.token.45	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:4.178.token.48	Φλά	Φλά	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:4.178.token.54	Λακεδαιμονίοισί	Λακεδαιμονίοισί	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:4.179.token.8	Ἰήσονα	Ἰήσονα	no_match_in_morph_dict
@@ -3979,7 +3968,6 @@ urn:cts:greekLit:tlg0016.tlg001.grc:5.30.token.244	ὑπίσχεσθαι	ὑπ�
 urn:cts:greekLit:tlg0016.tlg001.grc:5.30.token.268	Ναξίους	Ναξίους	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:5.31.token.4	Ἀρισταγόρης	Ἀρισταγόρης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:5.31.token.11	Ἀρταφρένεα	Ἀρταφρένεα	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:5.31.token.32	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:5.31.token.37	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:5.31.token.97	Ἄνδρον	Ἄνδρον	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:5.31.token.133	ʹ	ʹ	no_match_in_morph_dict
@@ -4507,7 +4495,6 @@ urn:cts:greekLit:tlg0016.tlg001.grc:5.106.token.61	ἀναγνώσας	ἀνα�
 urn:cts:greekLit:tlg0016.tlg001.grc:5.106.token.97	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:5.106.token.101	Ἱστιαῖος	Ἱστιαῖος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:5.106.token.103	ʹ	ʹ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:5.106.token.138	πάρα	πάρα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:5.106.token.219	Ἴωνες	Ἴωνες	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:5.106.token.303	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:5.107.token.1	Ἱστιαῖος	Ἱστιαῖος	no_match_in_morph_dict
@@ -5549,7 +5536,6 @@ urn:cts:greekLit:tlg0016.tlg001.grc:7.12.token.13	Ξέρξην	Ξέρξην	no_
 urn:cts:greekLit:tlg0016.tlg001.grc:7.12.token.16	Ἀρταβάνου	Ἀρταβάνου	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:7.12.token.58	Ξέρξης	Ξέρξης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:7.12.token.68	ʹ	ʹ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:7.12.token.98	πάρα	πάρα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:7.12.token.112	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:7.13.token.7	Ξέρξης	Ξέρξης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:7.13.token.27	συνέλεξε	συνέλεξε	no_match_in_morph_dict
@@ -6056,7 +6042,6 @@ urn:cts:greekLit:tlg0016.tlg001.grc:7.111.token.86	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:7.112.token.4	Ξέρξης	Ξέρξης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:7.112.token.16	Φάγρης	Φάγρης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:7.112.token.38	Πάγγαιον	Πάγγαιον	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:7.112.token.54	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:7.112.token.59	Πίερές	Πίερές	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:7.112.token.62	Ὀδόμαντοι	Ὀδόμαντοι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:7.112.token.64	μάλιστα	μάλιστα	no_match_in_morph_dict
@@ -7044,7 +7029,6 @@ urn:cts:greekLit:tlg0016.tlg001.grc:8.52.token.56	Πεισιστρατιδέω�
 urn:cts:greekLit:tlg0016.tlg001.grc:8.52.token.80	Ξέρξην	Ξέρξην	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:8.54.token.6	Ξέρξης	Ξέρξης	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:8.54.token.12	Ἀρταβάνῳ	Ἀρταβάνῳ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:8.55.token.19	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:8.55.token.25	Ποσειδέωνά	Ποσειδέωνά	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:8.57.token.3	Θεμιστοκλέα	Θεμιστοκλέα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:8.57.token.9	Μνησίφιλος	Μνησίφιλος	no_match_in_morph_dict
@@ -7220,7 +7204,6 @@ urn:cts:greekLit:tlg0016.tlg001.grc:8.68b.token.44	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:8.68b.token.56	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:8.68b.token.67	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:8.68b.token.78	ʹ	ʹ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0016.tlg001.grc:8.68b.token.80	πάρα	πάρα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:8.68b.token.91	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:8.68b.token.102	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0016.tlg001.grc:8.68b.token.111	ἥκον	ἥκον	no_match_in_morph_dict

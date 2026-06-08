@@ -2,10 +2,9 @@
 
 Using `scripts/config-oedipus.toml` as a starting point.
 
+cd PATH/TO/Dramaturg/
 
 [Start Docker]
-
-cd PATH/TO/Dramaturg/
 
 cp scripts/config-oedipus.toml scripts/config.toml
 

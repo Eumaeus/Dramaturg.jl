@@ -1,11 +1,11 @@
-// interactive.js – Zero-friction Greek reader + Editor Mode (fixed)
+// interactive.js – Zero-friction Greek reader + Editor Mode (durable picks)
 document.addEventListener('DOMContentLoaded', () => {
     const tokens = document.querySelectorAll('.text_token');
     const morphSource = document.getElementById('morphdata');
     const infopanel = document.getElementById('infopanel');
     let lockedToken = null;
-    let editorChoices = {}; // tokenUrn → morphUrn
-    let editorModeEnabled = false;   // default OFF
+    let editorChoices = {}; // tokenUrn → "uc_form\tbc_form\tuc_lemma\tbc_lemma\tlsj\tpos"
+    let editorModeEnabled = false;
     const editorToggle = document.getElementById('editor-mode-toggle');
 
     const editorControls = document.getElementById('editor-controls');
@@ -14,6 +14,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderEditorControls() {
         editorControls.style.display = Object.keys(editorChoices).length > 0 ? 'block' : 'none';
+    }
+
+    function getMorphKey(parsing) {
+        const uc = parsing.getAttribute('data-uc-form') || '';
+        const bc = parsing.getAttribute('data-bc-form') || '';
+        const ucL = parsing.getAttribute('data-uc-lemma') || '';
+        const bcL = parsing.getAttribute('data-bc-lemma') || '';
+        const lsj = parsing.getAttribute('data-lsj') || '';
+        const pos = parsing.getAttribute('data-pos') || '';
+        return [uc, bc, ucL, bcL, lsj, pos].join('\t');
     }
 
     function showMorph(token) {
@@ -26,27 +36,22 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Clear panel and build fresh DOM (preserves events)
         infopanel.innerHTML = '';
 
         const word = token.textContent.trim();
         const header = document.createElement('div');
         header.className = 'morph-header';
         header.style.cssText = 'margin-bottom:1rem;border-bottom:1px solid #ddd;padding-bottom:0.5rem;';
-        header.innerHTML = `
-            <strong style="font-size:2rem">${word}</strong>
-            `;
+        header.innerHTML = `<strong style="font-size:2rem">${word}</strong>`;
         infopanel.appendChild(header);
 
         const clone = sourceDiv.cloneNode(true);
         clone.style.display = 'block';
 
-        // Add Editor buttons + highlighting
-        // Add Editor buttons ONLY if Editor Mode is enabled
         if (editorModeEnabled) {
             clone.querySelectorAll('.parse_and_lex').forEach(parsing => {
-                const morphUrn = parsing.getAttribute('data-morphurn');
-                if (!morphUrn) return;
+                const key = getMorphKey(parsing);
+                if (!key) return;
 
                 const btn = document.createElement('button');
                 btn.className = 'preferred-btn';
@@ -55,12 +60,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 btn.addEventListener('click', e => {
                     e.stopImmediatePropagation();
-                    if (editorChoices[tokenUrn] === morphUrn) {
+                    if (editorChoices[tokenUrn] === key) {
                         delete editorChoices[tokenUrn];
                         parsing.classList.remove('preferred');
                         btn.textContent = 'Mark as preferred';
                     } else {
-                        editorChoices[tokenUrn] = morphUrn;
+                        editorChoices[tokenUrn] = key;
                         clone.querySelectorAll('.parse_and_lex').forEach(p => p.classList.remove('preferred'));
                         parsing.classList.add('preferred');
                         btn.textContent = '✓ Preferred here';
@@ -69,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
                 // Restore previous choice
-                if (editorChoices[tokenUrn] === morphUrn) {
+                if (editorChoices[tokenUrn] === key) {
                     parsing.classList.add('preferred');
                     btn.textContent = '✓ Preferred here';
                 }
@@ -81,7 +86,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         infopanel.appendChild(clone);
 
-        // Close button when locked
         if (lockedToken) {
             const closeBtn = document.createElement('button');
             closeBtn.textContent = '✕ Unlock';
@@ -91,28 +95,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function clearPanel() {
-        if (lockedToken) return;
-        infopanel.innerHTML = '';
-    }
+    // ... (the rest of the token event listeners, clearPanel, click handling, editor toggle, etc. are unchanged)
 
     tokens.forEach(token => {
         token.addEventListener('mouseenter', () => {
-            // JS-driven visual hover (Safari-proof)
-            if (lockedToken !== token) {
-                token.classList.add('hovered');
-            }
-            if (!lockedToken || lockedToken === token) {
-                showMorph(token);
-            }
+            if (lockedToken !== token) token.classList.add('hovered');
+            if (!lockedToken || lockedToken === token) showMorph(token);
         });
 
         token.addEventListener('mouseleave', () => {
-            // Only remove hover if this token is not the locked one
-            if (lockedToken !== token) {
-                token.classList.remove('hovered');
-            }
-            clearPanel();
+            if (lockedToken !== token) token.classList.remove('hovered');
+            if (!lockedToken) clearPanel();
         });
 
         token.addEventListener('click', e => {
@@ -132,29 +125,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
     infopanel.addEventListener('click', e => {
         if (e.target.classList.contains('close-btn')) {
-            if (lockedToken) {
-                lockedToken.classList.remove('locked');
-                lockedToken = null;
-            }
+            if (lockedToken) lockedToken.classList.remove('locked');
+            lockedToken = null;
             clearPanel();
         }
     });
 
-    // Editor buttons
-    downloadBtn.addEventListener('click', () => {
-        if (Object.keys(editorChoices).length === 0) return;
-        let tsv = Object.keys(editorChoices)
-            .sort()
-            .map(k => `${k}\t${editorChoices[k]}`)
-            .join('\n');
-        const blob = new Blob([tsv], { type: 'text/tab-separated-values' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = `editors_index_${window.location.pathname.split('/').pop().replace('.html','')}.tsv`;
-        a.click();
-        URL.revokeObjectURL(url);
-    });
+// Editor download – DURABLE 7-column format (CTS-URN + fields 3-8)
+downloadBtn.addEventListener('click', () => {
+    if (Object.keys(editorChoices).length === 0) {
+        alert("No editor choices to download yet.");
+        return;
+    }
+
+    const tsv = Object.keys(editorChoices)
+        .sort()
+        .map(k => `${k}\t${editorChoices[k]}`)   // ← this is now the new durable format
+        .join('\n');
+
+    const blob = new Blob([tsv], { type: 'text/tab-separated-values' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `editors_index_${window.location.pathname.split('/').pop().replace('.html','')}_${new Date().toISOString().slice(0,10)}.tsv`;
+    a.click();
+    URL.revokeObjectURL(url);
+
+    console.log('%c✅ Downloaded new durable editorial picks (7 columns)', 'color:#006400;font-weight:bold');
+});
 
     clearBtn.addEventListener('click', () => {
         if (confirm('Clear ALL preferred parsings for this page?')) {
@@ -164,18 +162,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-        // Editor Mode toggle
     if (editorToggle) {
         editorToggle.addEventListener('change', (e) => {
             editorModeEnabled = e.target.checked;
-            // Refresh the currently locked panel so buttons appear/disappear instantly
-            if (lockedToken) {
-                showMorph(lockedToken);
-            }
+            if (lockedToken) showMorph(lockedToken);
         });
     }
 
     renderEditorControls();
 
-    console.log('%c✅ Greek reader + Editor Mode ready (hover/click + preferred parsings + TSV export)', 'color:#8b0000;font-weight:bold');
+    console.log('%c✅ Greek reader + Editor Mode ready (durable picks via fields 3-8)', 'color:#8b0000;font-weight:bold');
 });

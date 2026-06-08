@@ -41,7 +41,6 @@ urn:cts:greekLit:tlg0011.tlg004.fu.sp:85.1.text.token.7	Μενοικέως	Με
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:87.1.text.token.2	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:93.1.text.token.4	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:94.1.text.token.8	πέρι	πέρι	no_match_in_morph_dict
-urn:cts:greekLit:tlg0011.tlg004.fu.sp:95.1.text.token.7	πάρα	πάρα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:98.1.text.token.5	μη	μη	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:105.1.text.token.3	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:106.1.text.token.2	θανόντος	θανόντος	no_match_in_morph_dict
@@ -58,7 +57,6 @@ urn:cts:greekLit:tlg0011.tlg004.fu.sp:147.1.speaker.token.1	Ἱερεύς	Ἱε
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:147.1.text.token.5	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:151.1.speaker.token.1	Χορός	Χορός	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:170.1.text.token.2	ʹ	ʹ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0011.tlg004.fu.sp:170.1.text.token.11	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:174.1.text.token.5	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:178.1.text.token.5	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:180.1.text.token.9	ʹ	ʹ	no_match_in_morph_dict
@@ -189,7 +187,6 @@ urn:cts:greekLit:tlg0011.tlg004.fu.sp:574.1.text.token.8	ʹ	ʹ	no_match_in_morph
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:576.1.text.token.2	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:586.1.text.token.7	αὔθ’	αὔθ’	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:597.1.text.token.7	ʹ	ʹ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0011.tlg004.fu.sp:598.1.text.token.7	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:604.1.text.token.8	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:607.1.text.token.13	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:614.1.text.token.6	ʹ	ʹ	no_match_in_morph_dict
@@ -229,13 +226,11 @@ urn:cts:greekLit:tlg0011.tlg004.fu.sp:700.1.text.token.11	σέβω	σέβω	no_
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:700.1.text.token.12	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:702.1.speaker.token.1	Ἰοκάστη	Ἰοκάστη	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:704.1.speaker.token.1	Ἰοκάστη	Ἰοκάστη	no_match_in_morph_dict
-urn:cts:greekLit:tlg0011.tlg004.fu.sp:704.1.text.token.6	πάρα	πάρα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:707.1.speaker.token.1	Ἰοκάστη	Ἰοκάστη	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:707.1.text.token.7	πέρι	πέρι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:708.1.text.token.3	πάκουσον	πάκουσον	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:712.1.text.token.9	ἄπο	ἄπο	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:713.1.text.token.7	θανεῖν	θανεῖν	no_match_in_morph_dict
-urn:cts:greekLit:tlg0011.tlg004.fu.sp:714.1.text.token.6	πάρα	πάρα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:716.1.text.token.6	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:722.1.text.token.6	θανεῖν	θανεῖν	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:723.1.text.token.4	διώρισαν	διώρισαν	no_match_in_morph_dict
@@ -494,13 +489,10 @@ urn:cts:greekLit:tlg0011.tlg004.fu.sp:1235.1.text.token.5	Ἰοκάστης	Ἰ
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:1236.1.speaker.token.1	Χορός	Χορός	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:1237.1.speaker.token.1	Ἐξάγγελος	Ἐξάγγελος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:1238.1.text.token.3	ʹ	ʹ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0011.tlg004.fu.sp:1238.1.text.token.8	πάρα	πάρα	no_match_in_morph_dict
-urn:cts:greekLit:tlg0011.tlg004.fu.sp:1239.1.text.token.9	ἔνι	ἔνι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:1247.1.text.token.1	θάνοι	θάνοι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:1251.1.text.token.8	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:1255.1.text.token.6	πορεῖν	πορεῖν	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:1258.1.text.token.7	ʹ	ʹ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0011.tlg004.fu.sp:1280.1.text.token.8	κάτα	κάτα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:1283.1.text.token.3	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:1286.1.speaker.token.1	Χορός	Χορός	no_match_in_morph_dict
 urn:cts:greekLit:tlg0011.tlg004.fu.sp:1287.1.speaker.token.1	Ἐξάγγελος	Ἐξάγγελος	no_match_in_morph_dict
