@@ -1,9 +1,9 @@
 Perseus Treebank Alignment Report – Homeric Hymn to Demeter
-Generated: 2026-06-08T06:37:41.313
-CEX tokens: 3937
+Generated: 2026-06-08T06:52:40.247
+CEX tokens: 3936
 XML words:  3968
 Matched:    0
-Unmatched CEX tokens: 3937
+Unmatched CEX tokens: 3936
 BetaCode failures:    2
 
 === BETA CODE FAILURES IN XML ===
@@ -11,7 +11,6 @@ XML form failed BetaCode round-trip: [0]
 XML form failed BetaCode round-trip: [0]
 
 === UNMATCHED CEX TOKENS (urn	form) ===
-urn:cts:greekLit:tlg0013.tlg002.fucex:	line#Homeric Hymns#To Demeter#Furman teaching edition, based on the edition of Hugh G. Evelyn-White (1914), courtesy of the Perseus Digital Library##true#grc
 urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.1	Δήμητρ’
 urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.2	ἠύκομον
 urn:cts:greekLit:tlg0013.tlg002.fucex:1.token.3	,
