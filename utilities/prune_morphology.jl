@@ -8,6 +8,11 @@ function prune_morphology(cex_path::String)
     !isfile(cex_path) && error("File not found: $cex_path")
     !endswith(cex_path, ".cex") && error("Must be a .cex file")
 
+    # Grab the template file's lines
+    template_path = "data/morphology/Greek_Morphology_template.cex"
+    template_lines = readlines(template_path)
+
+
     lines = readlines(cex_path)
     sig_to_lines = Dict{Tuple{String,String,String,String,String,String,String}, Vector{String}}()
 
@@ -37,6 +42,10 @@ function prune_morphology(cex_path::String)
     end
 
     kept = String[]
+
+
+
+
     for (sig, lst) in sig_to_lines
         length(lst) > 1 && println("Pruned $(length(lst)-1) duplicate(s) for signature starting with '$(sig[1])'")
         push!(kept, lst[1])  # keep any one
@@ -53,13 +62,20 @@ function prune_morphology(cex_path::String)
     println("Backup: $old_path")
 
     open(cex_path, "w") do io
+      # Add template_lines first
+        for tl in template_lines
+            println(io, tl)
+        end
+     # Now add data
         for l in kept
             println(io, l)
         end
     end
 
-    println("Pruned morphology saved to $cex_path ($(length(lines) - length(kept)) duplicates removed)")
+    println("Pruned morphology saved to $cex_path ( $( (length(lines)-length(template_lines))-length(kept) ) duplicates removed)")
 end
+
+
 
 if abspath(PROGRAM_FILE) == abspath(@__FILE__)
     length(ARGS) == 0 && error("Usage: julia utilities/prune_morphology.jl <path_to_Greek_Morphology.cex>")

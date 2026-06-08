@@ -10,7 +10,7 @@ cp scripts/config-odyssey.toml scripts/config.toml
 
 julia --project=. scripts/tokenize_cex.jl
 
-cp data/vocabulary/Odyssey_beta_vocabulary.txt morph/source-data/words.txt
+cp data/vocabulary/Odyssey/Odyssey_beta_vocabulary.txt morph/source-data/words.txt
 
 docker run --platform linux/amd64 -v /Users/cblackwell/cite/grok/Dramaturg/morph:/morpheus/morph -it perseidsproject/morpheus /bin/bash
 
