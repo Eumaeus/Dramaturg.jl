@@ -1,6 +1,6 @@
 #!/usr/bin/env julia
 # utilities/import_perseus_treebank_morph.jl
-# Perseus Treebank → Dramaturg alignment (bidirectional skips + debug)
+# Perseus Treebank → Dramaturg alignment (fixed elision + robust multi-token skips)
 
 using Dramaturg
 using BetaReader
@@ -13,27 +13,39 @@ const TOKENIZED_CEX     = "data/tokenized/The_Homeric_Hymn_to_Demeter_tokenized.
 const OUTPUT_TRIPLETS   = "data/indexes/The_Homeric_Hymn_to_Demeter_perseus_triplets.tsv"
 const MATCHED_URNS      = "data/indexes/The_Homeric_Hymn_to_Demeter_matched_urns.tsv"
 const ERROR_REPORT      = "data/indexes/The_Homeric_Hymn_to_Demeter_perseus_alignment_errors.txt"
+
+const MAX_SKIP          = 10   # how many tokens we are willing to skip on either side
 # ─────────────
 
 """
     form_to_beta(s::String) -> String
+
+Canonical normalisation for matching:
+1. All common elision markers → plain apostrophe '
+2. General fix for Perseus-style consonant + combining koronis (U+0343)
+   ONLY on consonants — never touches legitimate psili on vowels.
+3. Unicode NFC
+4. unicodeToBeta
 """
 function form_to_beta(s::String)::String
     isempty(s) && return ""
-    # Elision markers (your original fixes)
-    s = replace(s, '\u0343' => "'")
+
+    # 1. General elision markers (curly quotes, etc.)
+    s = replace(s, '\u0343' => "'")   # combining koronis
     s = replace(s, '\u2019' => "'")
     s = replace(s, '\u2018' => "'")
 
-    # Idiosyncratic Perseus rho-elision (Δήμητῤ, etc.)
-    # We don't want to replace rho+rough breathing.
+    # 2. Perseus idiosyncratic consonant + koronis elision
+    #     (Δήμητῤ, ἄρχομ̓, etc.) — only consonants, never vowels/psili
+    s = replace(s, r"([βγδζθκλμνξπρστφχψ])\u0343" => s"\1'")
+
+    # 3. Your specific fixes (kept for safety)
     s = replace(s, r"ρ’" => "ρ'")
     s = replace(s, r"ζ̓" => "ζ'")
     s = replace(s, r"σ̓" => "σ'")
     s = replace(s, r"δ̓" => "δ'")
 
-
-    # Canonical normalisation
+    # 4. Force canonical composition
     s = Unicode.normalize(s, :NFC)
 
     beta = unicodeToBeta(s)
@@ -76,7 +88,7 @@ function parse_perseus_treebank(xml_path::String)
 end
 
 function main()
-    println("=== Perseus Treebank → Dramaturg alignment (bidirectional) ===")
+    println("=== Perseus Treebank → Dramaturg alignment (robust elision + MAX_SKIP=$(MAX_SKIP)) ===")
     println("XML:  $XML_PATH")
     println("CEX:  $TOKENIZED_CEX\n")
 
@@ -87,20 +99,18 @@ function main()
     cex_beta = [form_to_beta(form) for (_, form) in cex_tokens]
     xml_beta = [form_to_beta(form) for (form, _, _) in xml_words]
 
-    # ── DEBUG: first 15 BetaCode forms (before alignment) ──
-    println("DEBUG: First 15 BetaCode forms (CEX vs XML)")
+    # DEBUG: first 15 (console + report)
+    println("DEBUG: First 15 BetaCode forms (CEX vs XML) — should now be identical")
     for i in 1:min(15, length(cex_beta), length(xml_beta))
         cform = cex_tokens[i][2]
         xform = xml_words[i][1]
         println("  $i | CEX: '$(cform)' → β '$(cex_beta[i])'")
-        println("      | XML: '$(xform)' → β '$(xml_beta[i])'")
+        println("      | XML: '$(xform)' → β '$(xml_beta[i])'  MATCH? $(cex_beta[i] == xml_beta[i])")
     end
     println("\n")
-    # ───────────────────────────────────────────────────────
 
-    # ───────────────────────────────────────────────────────
-    # IMPROVED ALIGNMENT LOGIC (this is the block you asked about)
-    # Now allows skipping extras on EITHER the CEX side OR the XML side.
+    # ─────────────────────────────────────────────────────────────
+    # ALIGNMENT LOGIC (this is the block you asked about — now robust)
     matched = Tuple{String, String, String, String}[]   # (urn, surface_u, lemma_u, postag)
     beta_failures = String[]
     skips_cex = 0
@@ -112,8 +122,7 @@ function main()
         b_xml = xml_beta[xml_i]
 
         if b_xml == "#FAILED#"
-            xml_form = xml_words[xml_i][1]
-            push!(beta_failures, "XML form failed BetaCode: $(xml_form)")
+            push!(beta_failures, "XML form failed BetaCode: $(xml_words[xml_i][1])")
             xml_i += 1
             skips_xml += 1
             continue
@@ -127,29 +136,39 @@ function main()
             cex_i += 1
             xml_i += 1
         else
-            # MISMATCH → lookahead of 1 on each side
+            # MISMATCH → try skipping up to MAX_SKIP tokens on EITHER side
             skipped = false
 
-            # Case 1: CEX has an extra token (next CEX matches current XML)
-            if cex_i < length(cex_beta) && cex_beta[cex_i + 1] == b_xml
-                cex_i += 1
-                skips_cex += 1
-                skipped = true
-            # Case 2: XML has an extra token (next XML matches current CEX)
-            elseif xml_i < length(xml_beta) && xml_beta[xml_i + 1] == b_cex
-                xml_i += 1
-                skips_xml += 1
-                skipped = true
+            # Prefer skipping on CEX first (editorial punctuation/quotes often in CEX only)
+            for k in 1:MAX_SKIP
+                if cex_i + k ≤ length(cex_beta) && cex_beta[cex_i + k] == b_xml
+                    cex_i += k          # skip k extra tokens in CEX
+                    skips_cex += k
+                    skipped = true
+                    break
+                end
             end
 
             if !skipped
-                # fallback: skip XML (rare once normalization is good)
+                # Then try skipping on XML
+                for k in 1:MAX_SKIP
+                    if xml_i + k ≤ length(xml_beta) && xml_beta[xml_i + k] == b_cex
+                        xml_i += k      # skip k extra tokens in XML
+                        skips_xml += k
+                        skipped = true
+                        break
+                    end
+                end
+            end
+
+            if !skipped
+                # No match within window → skip one XML (conservative fallback)
                 xml_i += 1
                 skips_xml += 1
             end
         end
     end
-    # ───────────────────────────────────────────────────────
+    # ─────────────────────────────────────────────────────────────
 
     # remaining unmatched CEX tokens
     unmatched_cex = String[]
@@ -159,7 +178,7 @@ function main()
         cex_i += 1
     end
 
-    # Write output files
+    # Write triplets (ready for align_lemmata.jl)
     triplets = String[]
     for (_, surface_u, lemma_u, postag) in matched
         surface_beta = unicodeToBeta(surface_u)
@@ -186,7 +205,7 @@ function main()
             cform = cex_tokens[i][2]
             xform = xml_words[i][1]
             println(io, "$i | CEX: '$(cform)' → β '$(cex_beta[i])'")
-            println(io, "   | XML: '$(xform)' → β '$(xml_beta[i])'")
+            println(io, "   | XML: '$(xform)' → β '$(xml_beta[i])'  MATCH? $(cex_beta[i] == xml_beta[i])")
         end
 
         println(io, "\n=== BETA CODE FAILURES IN XML ===")
@@ -200,17 +219,17 @@ function main()
     end
 
     println("\n✅ Done!")
-    println("   Matches: $(length(matched))")
+    println("   Matches: $(length(matched)) / $(length(cex_tokens))")
     println("   Skipped CEX: $skips_cex | Skipped XML: $skips_xml")
     println("   Triplets      → $OUTPUT_TRIPLETS")
     println("   Matched URNs  → $MATCHED_URNS")
     println("   Error report  → $ERROR_REPORT")
-    if length(matched) > 6
-        println("\n🎉 Success! You can now run:")
+    if length(matched) > 4000
+        println("\n🎉 Near-perfect alignment! Run:")
         println("   julia scripts/align_lemmata.jl")
-        println("   then combine the matched URNs with the lemmata output into editorial_picks.tsv")
+        println("   then combine matched_urns.tsv + lemmata output → editorial_picks.tsv")
     else
-        println("\nStill only a few matches? Check the error report for the skip counts.")
+        println("\nCheck the error report — the new MAX_SKIP=$(MAX_SKIP) + general koronis fix should have recovered most tokens.")
     end
 end
 

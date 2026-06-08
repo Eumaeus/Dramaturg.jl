@@ -104,3 +104,24 @@ A regex would obviously be the right answer. But we don't want to catch legitima
 But also, the script is still not correctly iterating through tokens after errors. It seems that if it hits a mismatch, every subsequent attempt at matching will be off. 
 
 I've checked the current state of the script and its output into GitHub: &lt;https://github.com/Eumaeus/Dramaturg.jl/tree/main&gt;
+
+------
+
+Nice!!!! Here's the output now:
+
+~~~
+Done!
+   Matches: 3666 / 3936
+   Skipped CEX: 270 | Skipped XML: 302
+   Triplets      → data/indexes/The_Homeric_Hymn_to_Demeter_perseus_triplets.tsv
+   Matched URNs  → data/indexes/The_Homeric_Hymn_to_Demeter_matched_urns.tsv
+   Error report  → data/indexes/The_Homeric_Hymn_to_Demeter_perseus_alignment_errors.txt
+~~~
+
+That really helped! 
+
+I've checked in the latest script, which is exactly the one you offered, the latest version of this conversation into `ai_queries`, and the output files.
+
+I will run `scripts/align_lemmata.jl` across this and see about generating a disambiguated "editor index" from this data. I may be back for another round of help.
+
+Thanks for sticking with me on this. Humanist computing is so complicated, because humanist data is a confused mess more often than not! 
