@@ -47,3 +47,5 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:17.1.text#ὅταν τι τούτων τ�
 In the HTML text, "Ξανθίας" is labelled as the speaker for lines 12, 13, and 14, and "Διόνυσος" for lines 16 and 17 (the line-numbers are based on a printed edition… it is okay that there is not 15!).
 
 I think we had this working at an earlier stage, and I can see evidence in the code that it is intended to act correctly!
+
+I have pushed the latest code, and the HTML framework and the first html reader page to GitHub.
