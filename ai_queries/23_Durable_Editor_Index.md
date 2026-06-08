@@ -73,3 +73,10 @@ Somehow—and I don't know how—it seems that duplicate entries creep into `mas
 - keeps one and deletes the other (it doesn't matter which).
 - saves the original file with the same name but ending in `-old-[DATE].cex`.
 - saves the new, pruned file under the original name. 
+
+
+---------
+
+I ran the scripts as you suggested. The utility scripts work perfectly, and the legacy editoria-picks data works perfectly in the browser after rebuilding the pages.
+
+I think the "Download Editor's Index" function is still doing it the old way, saving a `.tsv` indexed by CTS-URN <-> CITE2-URN. It should save the data in the new form.

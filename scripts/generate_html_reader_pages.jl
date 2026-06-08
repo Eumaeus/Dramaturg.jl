@@ -349,7 +349,7 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
             desc_html = Markdown.html(Markdown.parse(entry.desc))
             shortdef = get(lsj_defs, entry.lsj, "[No short definition available]")
 
-            push!(parts, """<div class="editor-preferred-header sansfont"><strong>Editor’s Preferred Parsing</strong></div>""")
+            push!(parts, """<div class="editor-preferred-header sansfont" style="color: green;"><strong>Editor’s Preferred Parsing</strong></div>""")
             push!(parts, """
                 <div class="parse_and_lex editor-preferred"
                      data-morphurn="$chosen"
