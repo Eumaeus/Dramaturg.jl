@@ -30,21 +30,21 @@ lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
 raw_morph_data = "morph/output/odyssey-analysis.txt"
-morph_pos_triplets = "data/indexes/Odyssey_morpheus_triplets.tsv"
+morph_pos_triplets = "data/indexes/Odyssey/Odyssey_morpheus_triplets.tsv"
 morph_pos_errors = "morph/output/Odyssey_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/Odyssey_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/Odyssey_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/Odyssey_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/Odyssey_morphology_index_errors.tsv"
+morph_lemmata_alignment = "data/indexes/Odyssey/Odyssey_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Odyssey/Odyssey_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/Odyssey/Odyssey_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/Odyssey/Odyssey_morphology_index_errors.tsv"
 local_morph_dict = "data/morphology/odyssey_morph.cex"
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized"
-indexes_dir = "indexes"
-vocabulary_dir = "vocabulary"
+tokenized_dir = "tokenized/Odyssey"
+indexes_dir = "indexes/Odyssey"
+vocabulary_dir = "vocabulary/Odyssey"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
