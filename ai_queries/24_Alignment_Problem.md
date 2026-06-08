@@ -8,38 +8,37 @@ The scripts of the pipeline depend on Julia code in the `src` directory.
 
 Everything is driven from `scripts/config.toml`.
 
-
 ## Alignment Challenge
 
 I have some legacy data that I would like to use as a editor's index to the Homeric Hymn to Demeter.
 
 An example of such an index, for Aristphanes' Fogs, is on GitHub here:
 
-	source-data/edited_morphology/Aristophanes_Frogs/editorial_picks.tsv
+`source-data/edited_morphology/Aristophanes_Frogs/editorial_picks.tsv`
 
 My edition of the Homeric Hymn to Demeter is here:
 
-	source-data/texts/demeter.cex
+`source-data/texts/demeter.cex`
 
 And the scripts you helped me write generate this tokenized edition, with each token cited by CTS-URN:
 
-	data/tokenized/The_Homeric_Hymn_to_Demeter_tokenized.cex
+`data/tokenized/The_Homeric_Hymn_to_Demeter_tokenized.cex`
 
 I have this piece of legacy data, in XML, in which some very good scholars captured morphological and syntactic information for each token of *an edition* of the Homeric Hymn to Demeter:
 
-	data/working_files/tlg0013.tlg002.perseus-grc1.tb.xml
+`data/working_files/tlg0013.tlg002.perseus-grc1.tb.xml`
 
 I am not interested in syntax right now—you helped me get started on a project for documenting Ancient Greek Syntax, which I will return to. But I am interested in a lot of the data in this XML file. Here's one example element:
 
-	<word id="15" form="ἣν" lemma="ὅς" postag="p-s---fa-" relation="OBJ" sg="sbs acc dpd aff" gloss="who" head="20"/>
+`&lt;word id="15" form="ἣν" lemma="ὅς" postag="p-s---fa-" relation="OBJ" sg="sbs acc dpd aff" gloss="who" head="20"/&gt;`
 
-We have a surface-form `form`, a lemma, and a POS-tag. Which is all we need to construct a file like this one (which adds beta-code representations of the surface-form and lemma:
+We have a surface-form `form`, a lemma, and a POS-tag. Which is all we need to construct a file like this one (which adds beta-code representations of the surface-form and lemma):
 
 	data/indexes/The_Homeric_Hymn_to_Demeter_morpheus_triplets.tsv
 
 But the editors of that XML file did not think to provide citation-information, poetic line. Also, their edition was different from my .cex edition by the presence (in the .cex) of quotation-marks, and some random editorial marks that appear as tokens in one or the other.
 
-I would value your help writing a Julia script that does the following:
+I would value your help writing a utility Julia script that does the following:
 
 - Reads in `data/working_files/tlg0013.tlg002.perseus-grc1.tb.xml`.
 - Produces something like `data/indexes/The_Homeric_Hymn_to_Demeter_morpheus_triplets.tsv`, which I can then run through the script `scripts/align_lemmata.jl`.
@@ -48,6 +47,9 @@ I would value your help writing a Julia script that does the following:
 	- For each token in the .cex file, find the corresponding token in the XML file, and capture its data like an entry in `source-data/edited_morphology/Aristophanes_Frogs/editorial_picks.tsv`, with the correct CTS-URN.
 	- If a token in the .cex file cannot be found in the XML, for any reason, skip it.
 	- If there are tokens in the XML file that aren't in the CEX file, skip them.
+	- It will be necessary to use BetaReader to generate Beta-Code versions of the surface-form and lemma from the XML.
+	- For comparison with the tokenized .cex text, it might be bood to "round-trip" unicode Greek in the XML, translating unicode to betacode and back to unicode, as an additional normalization step. 
+	- There should be an error report, listing tokens in the .cex file for which there was no match. This error report might also list any Greek forms from the XML that failed BetaCode translation, which would be indicated by the presence of the character '#' in the beta-code output.
 
 The goal will be to have my Dramaturg reading environment provide "Editor's Preferred Parsings" for as many tokens in the Hymn to Demeter as possible, given this legacy XML.
 
