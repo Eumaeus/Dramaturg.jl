@@ -17,12 +17,13 @@ The goal is to capture declarative and unambiguous data wherever possible, doing
 		- A URN-citation to the LSJ lexicon for each possible morphological parsing.
 - From this dataset, generate HTML editions aimed at helping people read the text.
 
-The heart of the project consists of:
+The source-data of the project consists of:
 
 - A corpus of CEX-serialized Greek texts.
 - A digital edition of the *LSJ* lexicon, with word-articles citable by URN and encoded in Markdown for formatting for human readers.
 - An index to the LSJ lexicon, facilitating associations of *lemmata* (Greek strings) with specific citable lexicon entries.
 - A (growing) dictionary of Greek word forms, unique and citable by URN, consisting of a **form**, and a morphological parsing, which in turn consists of a **lexicon URN** and a **Part-of-Speech Tag** (**POSTag**) documenting one parsing of a Greek morphological form.
+- A directory of "editor's indexes", which document human-selected parsings of specific tokens in specific texts, to supplement the machine-parsings and offer disambiguated parsings of as many tokens as possible.
 
 
 ## Expansion of the Generated Data
