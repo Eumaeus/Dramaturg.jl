@@ -86,3 +86,21 @@ I've added one line in `form_to_beta()`, to correct the idiosyncratic attempt at
 
 The script is currently matching the first six tokens, and none after that. I'm looking around line 124 in the script. Is it possible that, while it increments `xml_i` to skip an extra token that exists only in XML, it is not incrementing `cex_i` when there is an extra token that exists only in the CEX?
 
+---
+
+I've got it matching up to 459 before failing. The heart of the problem is those crazy ellision marks. I replaced the regex you had given me with the following lines, starting at line 28 in `utilities/import_perseus_treebank_morph.jl`. We don't want to "fix" rho with a combining rough breathing.
+
+~~~
+    # Idiosyncratic Perseus rho-elision (Δήμητῤ, etc.)
+    # We don't want to replace rho+rough breathing.
+    s = replace(s, r"ρ’" => "ρ'")
+    s = replace(s, r"ζ̓" => "ζ'")
+    s = replace(s, r"σ̓" => "σ'")
+    s = replace(s, r"δ̓" => "δ'")
+~~~
+
+A regex would obviously be the right answer. But we don't want to catch legitimate smooth-breathings (psili). Just these, which will be over a consonant and at the end of the string.
+
+But also, the script is still not correctly iterating through tokens after errors. It seems that if it hits a mismatch, every subsequent attempt at matching will be off. 
+
+I've checked the current state of the script and its output into GitHub.
