@@ -10,15 +10,15 @@ Everything is driven from `scripts/config.toml`.
 
 ## A Custom Morphology-Maker?
 
-Line 40 in `source-data/texts/frogs-speech-speaker.cex`:
+Line 40 in `source-data/texts/frogs-speech-speaker.cex` is:
 
 	urn:cts:greekLit:tlg0019.tlg009.fu.sp:10.1.text#εἰ μὴ καθαιρήσει τις, ἀποπαρδήσομαι;
 
 The word "ἀποπαρδήσομαι" seems to mean "I will fart forth", from the word "πέρδομαι" (LSJ-urn: `urn:cite2:hmt:lsj.chicago_md:n81011`). But the lexicon says "only in compounds", like "ἀποπέρδομαι", which must be the *lemma* for the form in *Frogs*, line 10. 
 
-But Morpheus will never offer a parsing that suggests that it is a form of "πέρδομαι" (the best it can come up with is "παρά-δέω", "I fasten to").
+But the Morpheus parser will never offer a parsing that suggests that "ἀποπαρδήσομαι" is a form of "πέρδομαι" (the best it can come up with is "παρά-δέω", "I fasten to") since that fact is buried in the lexicon article's body.
 
-So this is the first example of what I knew was coming: a morphological form for which I will have to hand-craft a morphological entry and have it roll into the pipeline during the build.
+So this is the first example of what I knew was coming: a morphological form for which I will have to hand-craft a morphological entry + LSJ reference, and have it roll into the pipeline during the build.
 
 ### Rolling User-Generated Morphology Into the Pipeline
 
@@ -42,7 +42,7 @@ The line I would first put into a `.tsv` file in `["editorial"]["user_morphology
 ἀποπαρδήσομαι	a)popardh/somai	πέρδομαι	pe/rdomai	urn:cite2:hmt:lsj.chicago_md:n81011	v1sfim---
 ~~~
 
-I have created a sample file, with my word from the *Frogs* at `source-data/morphology/user-generated/user_generated_forms1.tsv`, the location specified in `["editorial"]["user_morphology_dir"]`, in the `config.toml`.
+I have created a sample file, with an entry for my word from the *Frogs* at `source-data/morphology/user-generated/user_generated_forms1.tsv`, the location specified in `["editorial"]["user_morphology_dir"]`, in the `config.toml`.
 
 This is checked into GitHub, with all latest changes.
 
