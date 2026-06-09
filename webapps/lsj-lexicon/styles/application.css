@@ -209,7 +209,7 @@ span.lexEntryLink a:hover {
 	text-decoration: none;
 }
 
-span.lexEntryUrn, span.lexEntryLink {
+span.lexEntryUrn, span.lexEntryLink, span#copyUrn {
 	color: #444;
 	padding: 4px;
 	border: 1px dashed rgb(216, 216, 216);
@@ -245,7 +245,7 @@ span.lexEntryUrn:hover a {
 	color: white;
 }
 
-span.lexEntryUrn:hover, span.lexEntryLink:hover {
+span.lexEntryUrn:hover, span.lexEntryLink:hover, span#copyUrn:hover {
 	border: 1px solid navy;
 	background-color: navy;
 	color: white;

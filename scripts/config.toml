@@ -63,10 +63,19 @@ vocabulary_beta_suffix = "_beta_vocabulary.txt"
 
 [editorial]
 elision_dict      = "source-data/dictionaries/editorial_dict_elision.tsv"
+
 enclitics_dict    = "source-data/dictionaries/editorial-dict-enclitics.tsv"
+
 anastrophe_dict   = "source-data/dictionaries/editorial_dict_anastrophe.tsv"
+
 lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
+
 lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
+
 master_morph_dict = "data/morphology/Greek_Morphology.cex"
+
+user_morphology_dir = "source-data/morphology/user-generated"
+
 editor_index_files = "source-data/edited_morphology/Aristophanes_Frogs/"
+
 editor_index_error = "data/morphology/editorial_index_error_frogs.txt"

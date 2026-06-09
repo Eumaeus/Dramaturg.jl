@@ -249,6 +249,7 @@ function displayEntry( urn ) {
 			// Update URN links
 			$("#lexEntryUrn a").html(thisEntry.urn);
 			$("#lexEntryUrn a").attr("href", "?urn=" + thisEntry.urn);
+			$("#copyUrn").html("copy urn")
 			$("p#entryStats").html(`${urn}. Entry ${numberWithCommas(thisEntry.seq)} of ${numberWithCommas(lexData.length)}.`)
 			
 }
@@ -323,5 +324,14 @@ $("#searchButton").on("click", function(){
 						$("ul#resultsList").append(newEl);
 				}
 		}
+
+});
+
+$("#copyUrn").on("click", function(){
+	let thisUrn = $("#lexEntryUrn a").html();
+	console.log(thisUrn);
+	navigator.clipboard.writeText(thisUrn)
+    .then(() => alert("Copied ' " + thisUrn + " '!"))
+    .catch(err => console.error("Error:", err));
 
 });

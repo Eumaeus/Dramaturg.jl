@@ -26,6 +26,12 @@ $.get( indexFileName, function( data ) {
 
 });
 
+function copySelf(element) {
+  navigator.clipboard.writeText(thisEntry.urn)
+    .then(() => alert("URN Copied!"))
+    .catch(err => console.error("Error:", err));
+}
+
 
 function announceReady() {
   messageInfo("All data loaded: " + numberWithCommas(lexData.length)  + " entries.");
