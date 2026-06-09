@@ -62,8 +62,39 @@ Not only would this be useful for enhancing these Dramaturg online texts, but I 
 
 It will be useful for the end-user HTML reading environment, but should also be useful for other purposes as well.
 
+----
 
 
+This looks great! A few refinements…
+
+First, can you give me a best-practices step-by-step to get this into its own GitHub repository? 
+
+
+…then…
+
+It seems only to download the "For_editor_index-X-2026-06-09.tsv" file. Maybe Javascript has a limitation of one-file per download? Maybe we need two buttons?
+
+It would be ideal to allow a user to click on an entry in the list and edit it again.
+
+The Beta-code parsing should check for a sigma at the end and make it a terminal-sigma.
+
+Let's give the user some help generating POS-tags.
+
+A default value (= "no value") should be "-", not "x", which I think means "other".
+
+Let's disable irrelevant menus until they become relevent. In my old POS-Generator, it went like this:
+
+- All menus are disabled except "Part of Speech".
+- A user changing a menu will enable or disable others according to what is possible and appropriate.
+- If the user selects "Noun", "Pronoun", or "Article", then the menus for "Case", "Gender", and "Number" are enabled.
+- If the user selects "Adjective", then "Case", "Gender", "Number", and "Degree" are enabled.
+- User selects "Verb", then "Mood" is enabled.
+	- User then selects "Indicative", "Subjunctive", "Imperative", or "Optative", and "Voice", "Tense", "Person", and "Number" are enabled.
+	- User selects "Infinitive", and only "Voice" and "Tense" are enabled.
+	- User selects "Participle", and enables: "Voice", "Tense", "Person", "Case", "Number".
+- User selects "Adverb" and the only other menu enabled is "Degree".
+- "Preposition" enables no other menus.
+- "Preposition", "Conjunction", "Interjection", "Punctuation", and "Irregular" enable no other menus.
 
 
 
