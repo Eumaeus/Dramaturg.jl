@@ -312,10 +312,26 @@ div#masthead {
 div.tokenurn {
     font-size: 0.8rem;
     cursor: pointer;
+    border: 1px solid silver;
+    background-color: rgba(212, 159, 71, 0.2);
+    color: rgba(50, 50, 50, 0.9);
+    padding: 3px 3px 3px 6px;
+    margin-top: 6px;
+    border-radius: 6px;
+    transition: all 300ms ease;
 }
 
 div.tokenurn:hover {
     color: var(--accent-color);
+    font-weight: 600;
+}
+
+div.tokenurn:active {
+    background-color: var(--accent-color);
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    transition: all 300ms ease;
 }
 
 /* TOC accordions – native <details> styling */

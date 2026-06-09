@@ -2,7 +2,6 @@
 
 function copySelf(element) {
   navigator.clipboard.writeText(element.innerText)
-    .then(() => alert("Copied: " + element.innerText))
     .catch(err => console.error("Error:", err));
 }
 

@@ -250,10 +250,18 @@ span.lexEntryUrn:hover, span.lexEntryLink:hover, span#copyUrn:hover {
 	background-color: navy;
 	color: white;
 }
-span.lexEntryUrn:active {
+span.lexEntryUrn:active, span#copyUrn:active {
 	border: 1px solid maroon;
 	background-color: maroon;
 	color: rgb(255, 240, 194);
+}
+
+span#copyUrn {
+	   transition: border 0.5s ease; 
+}
+
+span#copyUrn:active {
+	border: 3px solid navy;
 }
 
 p.lexEntry {

@@ -26,7 +26,7 @@ To run tests:
 
 This work is part of a research collaboration with Lindsey Butler of Furman University. It is also based on three decades of collaboration with Neel Smith of the College of the Holy Cross.
 
-This project has benefited enormously from close and sustained collaboration with **Grok**, an AI model built by [xAI](https://x.ai/). I hope that it can serve as a model for AI-enabled scholarly computation.
+This project has benefited enormously from close and sustained collaboration with **Grok**, an AI model built by [xAI](https://x.ai/). I hope that it can serve as a model for AI-enabled scholarly computation. The queries used to develop this project are in this repository at <ai_queries>.
 
 Grok’s most valuable contribution has been its deep and consistent understanding of the project’s scholarly goals and philological context: producing thoroughly annotated, reader-friendly online texts in Ancient Greek that respect the conventions of classical drama and the CTS-URN standard. That contextual awareness has informed every piece of advice, every architectural decision, and every debugging suggestion, keeping the work tightly aligned with the larger humanistic objectives rather than defaulting to generic coding solutions.
 
