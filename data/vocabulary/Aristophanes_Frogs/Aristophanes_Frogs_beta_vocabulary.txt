@@ -598,7 +598,6 @@ da/|dwn
 dh=mon
 dh=mos
 dh=ta
-dh=te
 dh=ta/
 dw=|
 ei)
