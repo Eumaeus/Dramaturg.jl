@@ -105,3 +105,28 @@ This is looking terrific.
 The popup menus are not populating the POS-tag, except for the "POS" menu. And in the data-list, we want the Perseus POS-tag in the "POS" position. It is confusing, with "Part of Speech" being used in two senses. Let's use POSTag to refer to the 9-character code `v1sfim---`, and "part of speech" for the part of speech ("noun", "verb", etc.).
 
 The page is exactly as I hoped it would look!
+
+----
+
+I've checked in the latest changes. I did a little work on the beta-code interpretation of diacritical marks.
+
+https://github.com/Eumaeus/MorphologyDocumenter
+
+The app is still not downloading two files. What would be ideal are two downloaded `.tsv` files containing the data from the list of user-documented morphological forms.
+
+The "Editor's Name" property should not appear in the data, only in the file-name.
+
+The first file should be called `For_morphological_dictionary_[name]_[date].tsv`. It should have this format:
+
+`uc-form	bc-form	uc-lemma	bc-lemma	lsj-urn	pos-tag`
+`ἀποπαρδήσομαι	a)popardh/somai	πέρδομαι	pe/rdomai	urn:cite2:hmt:lsj.chicago_md:n81011	v1sfim---`
+`…`
+
+The second file should be called `For_editors_index_[name]_[date].tsv`. It should be like the previous format, but with a text-token-urn:
+
+`token-urn	uc-form	bc-form	uc-lemma	bc-lemma	lsj-urn	pos-tag`
+`urn:cts:greekLit:tlg0019.tlg009.fu.sp:10.1.text.token.6	ἀποπαρδήσομαι	a)popardh/somai	πέρδομαι	pe/rdomai	urn:cite2:hmt:lsj.chicago_md:n81011	v1sfim---`
+`…`
+
+But we are so close to a perfect app!
+

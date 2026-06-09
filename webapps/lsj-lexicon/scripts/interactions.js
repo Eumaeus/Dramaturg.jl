@@ -331,7 +331,6 @@ $("#copyUrn").on("click", function(){
 	let thisUrn = $("#lexEntryUrn a").html();
 	console.log(thisUrn);
 	navigator.clipboard.writeText(thisUrn)
-    .then(() => alert("Copied ' " + thisUrn + " '!"))
     .catch(err => console.error("Error:", err));
 
 });
