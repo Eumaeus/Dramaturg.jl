@@ -1,6 +1,6 @@
-# ai_queries/incremental_add_morphology.jl
-# Usage: julia ai_queries/incremental_add_morphology.jl path/to/new_triplets_lemmata.tsv
-# (run from project root)
+# scripts/update_morphology_dictionary.jl
+# (updated to also incorporate user-generated morphology TSV files from config["editorial"]["user_morphology_dir"];
+#  identical forms are skipped exactly as before)
 
 using Dates
 using BetaReader
@@ -12,8 +12,7 @@ println("Loaded config for text: ", config["input"]["text_urn"])
 
 CEX_PATH = config["editorial"]["master_morph_dict"]
 
-# Get the new TSV from command-line argument (or hard-code if you prefer)
-
+# Get the alignment TSV (the “official” output of align_lemmata.jl)
 new_tsv = config["morphology"]["morph_lemmata_alignment"]
 
 # 1. Build set of existing uniqueness keys from the current CEX
@@ -37,8 +36,36 @@ for line in cex_lines
 end
 println("Loaded $(length(existing_keys)) existing morphological forms.")
 
-# 2. Process the new TSV
-tsv_lines = readlines(new_tsv)
+# ── NEW: Load and validate any user-generated morphology TSV files ───────
+user_tsv_lines = String[]
+user_dir = config["editorial"]["user_morphology_dir"]
+if isdir(user_dir)
+    for file in readdir(user_dir)
+        if endswith(lowercase(file), ".tsv")
+            fullpath = joinpath(user_dir, file)
+            lines = readlines(fullpath)
+            valid_count = 0
+            for (lidx, line) in enumerate(lines)
+                stripped = strip(line)
+                isempty(stripped) && continue
+                fields = split(stripped, '\t')
+                if length(fields) != 6
+                    println("⚠️  ERROR in user morphology file $fullpath (line $lidx): expected exactly 6 tab-separated fields, found $(length(fields)). Skipping: '$stripped'")
+                    continue
+                end
+                push!(user_tsv_lines, stripped)
+                valid_count += 1
+            end
+            println("✅ Loaded $valid_count valid user-generated morphological forms from: $fullpath")
+        end
+    end
+end
+
+# ── Combine alignment + user-generated ───────────────────────────────────
+alignment_lines = readlines(new_tsv)
+tsv_lines = vcat(alignment_lines, user_tsv_lines)
+
+# 2. Process the new TSV (now includes user-generated entries)
 new_entries = String[]
 base_time = Dates.format(Dates.now(Dates.UTC), "yyyymmddTHHMMSS")
 added = 0
@@ -80,7 +107,7 @@ if added > 0
             println(io, entry)
         end
     end
-    println("✅ Added $added new morphological forms to $CEX_PATH")
+    println("Added $added new morphological forms to $CEX_PATH")
 else
     println("No new forms to add (all already present in the collection).")
 end

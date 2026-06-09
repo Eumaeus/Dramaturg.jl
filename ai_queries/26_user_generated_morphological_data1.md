@@ -46,4 +46,6 @@ I have created a sample file, with an entry for my word from the *Frogs* at `sou
 
 This is checked into GitHub, with all latest changes.
 
-x
+---------
+
+Thank you for this! I'm running the pipeline now for *Frogs*!
