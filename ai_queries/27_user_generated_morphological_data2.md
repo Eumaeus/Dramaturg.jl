@@ -64,13 +64,15 @@ It will be useful for the end-user HTML reading environment, but should also be 
 
 ----
 
+This is a follow-up to a query you helped me with. This is where we were:
 
-This looks great! A few refinements…
+https://github.com/Eumaeus/Dramaturg.jl/blob/main/ai_queries/27_user_generated_morphological_data2.md
 
-First, can you give me a best-practices step-by-step to get this into its own GitHub repository? 
+I have created a GitHub repository for our work on this project here:
 
+https://github.com/Eumaeus/MorphologyDocumenter/tree/main
 
-…then…
+It looks great! A few refinements…
 
 It seems only to download the "For_editor_index-X-2026-06-09.tsv" file. Maybe Javascript has a limitation of one-file per download? Maybe we need two buttons?
 
