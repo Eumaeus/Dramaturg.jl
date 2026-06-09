@@ -10,17 +10,19 @@ Everything is driven from `scripts/config.toml`.
 
 ## A Tool for User-Generating Morphology
 
-This is a follow-up to `ai_queries/26_user_generated_morphological_data1.md`, which you helped me with earlier. 
+This is a follow-up to my request, documented at `ai_queries/26_user_generated_morphological_data1.md`, which you helped me with earlier. Your new code works beautifully! 
 
-I would like to create a web-app called "MorphDoc", to allow users to generate, systematically, cleanly, and with some validation built in, records for newly discovered morphological forms.
+I would like to create a web-app called "MorphologyDocumenter", to allow users to generate, systematically, cleanly, and with some validation built in, records for morphological forms.
 
 This would be a stand-alone webapp, which would live in the `webapps` directory. I think I have all the pieces necessary.
 
 I wrote a Javascript version of BetaReader, which is on GitHub here: https://github.com/Eumaeus/BetaReader.js
 
-I wrote a "POS-Generator", a menu-driven application for creating POS-tags. I wrote it in ScalaJS, so its code is not human-readable. You might be able to parse it, or perhaps you can reproduced its functionality in standard Javascript. It is not a challenging app.
+I wrote a "POS-Generator", a menu-driven application for creating POS-tags: https://github.com/Eumaeus/pos-tagger. I wrote it in ScalaJS, so its compiled JS code is not human-readable. Its functionality should not be at all hard to implement in standard Javascript.
 
-I imagine four fields for Greek words: unicode-surface-form, betacode-surface-form, unicode-lemma, betacode-lemma. Let's let the users just type in Betacode (if they can't do betacode, they have no business presuming to add to a Greek morphologial dictionary).
+Because I also intend to use this for teaching, having students create data and submit it, the web-page should have an "Editor's Name" field, with some default value like "editor".
+
+I imagine four fields on a webpage for Greek words: unicode-surface-form, betacode-surface-form, unicode-lemma, betacode-lemma. Let's let the users just type in Betacode (if they can't use betacode, they have no business presuming to add to a Greek morphologial dictionary).
 
 So they type a beta-code surface-form, and the unicode-surface-form field is automatically populated, keystroke by keystroke. Likewise, they type a lemma in betacode.
 
@@ -40,19 +42,21 @@ Which can roll into the editorial index for the current text.
 
 So there will be two fields in this webapp for URNs. One for the text-token-CTS-urn, and one for the LSJ-urn. 
 
-I have edited the reader-displays to show the text-token-urn for a selected word and allow users to click on it to copy it to the clipboard.
+I have edited the Dramaturg reader-html-pages to show the text-token-urn for a selected token and allow users to click on it to copy the URN it to the clipboard.
 
 I have added that functionality to the LSJ webapp, so users can click on an LSJ entry's urn and copy it to the clipboard.
 
+The text-token-urn field can have a default dummy value—`urn:cts:greekLit:group.work:token`—since I can imagine classroom uses where there is not a specific text associated with the generated morphology.
+
 There should be a menu-driven POS-generator, where the user can specify the parsing of the new form.
 
-And a "Download Form" button that will download two files: "For_user_generated_morphology.tsv" and "For_editor_index.tsv".
+And a "Download Form" button that will download two files: "For_user_generated_morphology-[EDITOR-NAME]-[DATE].tsv" and "For_editor_index-[EDITOR-NAME]-[DATE].tsv".
 
 With this, the user can generated data that will go into the pipeline, documenting this new form *and* associating it with a specific textual context.
 
 I would include a copy of `source-data/dictionaries/lsj_urns.txt`, so the app can confirm that the LSJ-URN is at least a valid URN, present in the lexicon data.
 
-I think the very best version of this app would allow a user to generate more than one entry at a time, and download the list of generated entries when they click.
+I think the very best version of this app would allow a user to generate a list of entries, one after another, and download the list of generated entries in the two formats. when they click.
 
 Not only would this be useful for enhancing these Dramaturg online texts, but I can think of a dozen ways to have my students use something like this as they study Greek.
 
