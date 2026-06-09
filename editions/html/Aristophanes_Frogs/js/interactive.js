@@ -36,16 +36,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function showMorph(token) {
         const tokenUrn = token.dataset.ctsurn;
         if (!tokenUrn) return;
-
+        const word = token.textContent.trim();
         const sourceDiv = morphSource.querySelector(`.morph4token[data-tokenurn="${tokenUrn}"]`);
         if (!sourceDiv) {
-            infopanel.innerHTML = `<p style="font-size: 1rem;"><em>No morphological data for this token.</em></p>`;
+            infopanel.innerHTML = `<div class="tokenWord">${word}</div><div class="tokenurn sansfont" onclick="copySelf(this)" >${tokenUrn}</div><p style="font-size: 1rem;"><em>No morphological data for this token.</em></p>`;
             return;
         }
 
         infopanel.innerHTML = '';
 
-        const word = token.textContent.trim();
+        
         const header = document.createElement('div');
         header.className = 'morph-header';
         header.style.cssText = 'margin-bottom:1rem;border-bottom:1px solid #ddd;padding-bottom:0.5rem;';

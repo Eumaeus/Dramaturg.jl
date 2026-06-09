@@ -98,5 +98,10 @@ Let's disable irrelevant menus until they become relevent. In my old POS-Generat
 - "Preposition" enables no other menus.
 - "Preposition", "Conjunction", "Interjection", "Punctuation", and "Irregular" enable no other menus.
 
+-----
 
+This is looking terrific.
 
+The popup menus are not populating the POS-tag, except for the "POS" menu. And in the data-list, we want the Perseus POS-tag in the "POS" position. It is confusing, with "Part of Speech" being used in two senses. Let's use POSTag to refer to the 9-character code `v1sfim---`, and "part of speech" for the part of speech ("noun", "verb", etc.).
+
+The page is exactly as I hoped it would look!

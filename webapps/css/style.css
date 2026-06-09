@@ -1,0 +1,362 @@
+:root {
+    --text-color: #222;
+    --accent-color: #8b0000;
+}
+
+body {
+    font-family: "EB Garamond, Iowan Old Style", "Garamond", "EB Garamond", Georgia, serif;
+    max-width: 60em;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    line-height: 1.4;
+    color: var(--text-color);
+    background: #fff;
+}
+
+a {
+    color: navy;
+    text-decoration: none;
+}
+
+
+
+h1, h2, h3 {
+    font-family: "EB Garamond, Iowan Old Style", "Garamond", serif;
+    font-weight: normal;
+    color: var(--accent-color);
+}
+
+nav {
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+nav a {
+    margin-right: 1.5em;
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+nav a#contents_link {
+    margin-left: 3rem;
+}
+
+nav a#home_link {
+    margin-left: 1.5rem;
+}
+
+nav a:hover { text-decoration: underline; }
+
+#title { margin-bottom: 2rem; }
+#work_title { font-size: 2rem; margin-bottom: 0.5rem; }
+
+.greek { font-size: 4rem; line-height: 1.4; }
+
+/* ==================== READER INTERACTION STYLES ==================== */
+.main-content {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+#text {
+    flex: 2;
+    min-width: 0;
+    font-size: 1.6rem;
+}
+
+#sidebar {
+    flex: 1;
+    min-width: 340px;
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+    background: #fdfaf0;
+    border: 1px solid #e8d8b8;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.1);
+    max-height: 85vh;
+    overflow-y: auto;
+    font-size: 3rem;
+   /* line-height: 1.5; */
+}
+
+#sidebar-title {
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+    color: var(--accent-color);
+    border-bottom: 1px solid #e8d8b8;
+    padding-bottom: 0.5rem;
+}
+
+.peek-note {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #777;
+}
+
+.infopanel {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.morph4token {
+    display: none; /* hidden by default – JS reveals via clone */
+}
+
+.parse_and_lex {
+    margin-bottom: 1.8rem;
+    padding: 1.2rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.formparsing {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.05rem;
+}
+
+.formparsing p {
+    margin: 0 0 0.8rem 0;
+}
+
+.lsj_shortdef {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.lsj_shortdef a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.lsj_shortdef a:hover {
+    text-decoration: underline;
+}
+
+.text_token {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    padding: 2px 1px;
+    border-radius: 3px;
+}
+
+
+
+.text_token.locked {
+    background-color: #e6f0ff;
+    outline: 1px solid #0066cc;
+    box-shadow: 0 0 0 3px rgba(0,102,204,0.2);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .main-content {
+        flex-direction: column;
+    }
+    #sidebar {
+        position: static;
+        max-height: none;
+        margin-top: 2rem;
+    }
+}
+
+@media (hover: none) {
+    .text_token:active {
+        background-color: #fff8e1;
+    }
+}
+
+/* Small-screen fallback */
+@media (max-width: 600px) {
+    body { padding: 1rem; font-size: 1.05rem; }
+}
+
+
+/* ==================== EDITOR MODE STYLES ==================== */
+.editor-controls {
+    font-size: 0.95rem;
+    line-height: 1.3;
+}
+
+.parse_and_lex {
+    position: relative; /* for button positioning */
+}
+
+.parse_and_lex.preferred {
+    border-left: 6px solid #28a745;
+    background: #f0f8f0;
+    box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.2);
+}
+
+.preferred-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.preferred-btn:hover {
+    background: #218838;
+}
+
+.parse_and_lex.preferred .preferred-btn {
+    background: #28a745;
+}
+
+.parse_and_lex:not(.preferred) .preferred-btn {
+    background: #6c757d;
+}
+/* Reader page styles - updated for drama */
+.citation-unit {
+    margin: 0;
+    position: relative;
+    line-height: 1.8;
+}
+.citation-label {
+    color: var(--accent-color);
+    font-weight: normal;
+    font-size: 0.95rem;
+    margin-right: 1rem;
+}
+.speaker-attribution {
+    font-weight: bold;
+    color: var(--accent-color);
+    margin: 0;
+    font-size: 1.1rem;
+}
+.inline-speech {
+    margin: 0;
+}
+
+
+.inline-speech + .inline-speech {
+    padding-left: 4em;          /* indents subsequent speeches in the same line */
+}
+
+.inline-speech + .inline-speech + .inline-speech {
+    padding-left: 8em;          /* indents subsequent speeches in the same line */
+}
+
+
+.text_token {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    padding: 2px 1px;
+    border-radius: 3px;
+}
+
+/* NEW: JS-driven hover (replaces the old :hover rules) */
+.text_token.hovered {
+    background-color: #fff8e1;
+    outline: 1px solid #f5d8a0;
+}
+
+.text_token.locked {
+    background-color: #e6f0ff;
+    outline: 1px solid #0066cc;
+    box-shadow: 0 0 0 3px rgba(0,102,204,0.2);
+}
+
+/* CWB Custom */
+
+.eb-garamond-italic {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+div#toc {
+    font-size: 1.5rem;
+}
+
+code {
+    font-size: 80%;
+}
+
+div.editor-preferred-header, div.possible-parsings-header {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+div#masthead {
+    color: #999;
+    background: url(logo.png) no-repeat;
+    padding-left: 50px;
+    min-height: 32px;
+    line-height: 2.1rem;
+    margin-bottom: 2rem;
+}
+
+.sansfont {
+    font-family: Arial, Verdana, sans-serif;
+    color: #999;
+
+}
+
+div.tokenurn {
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+div.tokenurn:hover {
+    color: var(--accent-color);
+}
+
+/* TOC accordions – native <details> styling */
+details {
+    margin-bottom: 0.6rem;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+details summary {
+    padding: 0.75rem 1rem;
+    background: #f8f1e3;
+    font-weight: 400;
+    cursor: pointer;
+    list-style: none;           /* hides the default triangle in some browsers */
+    position: relative;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary::after {
+    content: "▾";
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.2s ease;
+}
+
+details[open] summary::after {
+    transform: rotate(180deg);
+}
+
+details summary:hover {
+    background: #f0e6d2;
+}
+
+details ul {
+    padding: 0.5rem 1rem 0.75rem 2rem;
+    margin: 0;
+    list-style-type: "☞ ";
+    background: #fffaf0;
+    border-left: 3px solid #d4b98a;
+}
