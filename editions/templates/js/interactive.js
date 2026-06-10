@@ -149,11 +149,14 @@ downloadBtn.addEventListener('click', () => {
         .map(k => `${k}\t${editorChoices[k]}`)   // ← this is now the new durable format
         .join('\n');
 
+    const date = new Date().toISOString().split("T")[0];
+    const longerdate = date + "-" + new Date().toISOString().split("T")[1].split(":")[0];
+
     const blob = new Blob([tsv], { type: 'text/tab-separated-values' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `editors_index_${window.location.pathname.split('/').pop().replace('.html','')}_${new Date().toISOString().slice(0,10)}.tsv`;
+    a.download = `editors_index_${window.location.pathname.split('/').pop().replace('.html','')}_${longerdate}.tsv`;
     a.click();
     URL.revokeObjectURL(url);
 
