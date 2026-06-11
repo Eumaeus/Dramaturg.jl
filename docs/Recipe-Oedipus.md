@@ -1,4 +1,4 @@
-# Recipe: Aristophanes' *Frogs*
+# Recipe: Sophocles' *Oedipus Tyrannos*
 
 Using `scripts/config-oedipus.toml` as a starting point.
 

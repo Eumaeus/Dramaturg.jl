@@ -3,13 +3,13 @@
 #!cexversion
 3.0
 #!citelibrary
-name#Aristphanes, Wasps 
+name#Aristophanes, Wasps 
 urn#urn:cite2:furman:cex.2026:aristophanes_project
 license#Creative Commons Attribution Share Alike
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0019.tlg004.fu.sp:#line/speech/speaker,line/speech/text#Aristphanes#Wasps#Furman University#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0019.tlg004.fu.sp:#line/speech/speaker,line/speech/text#Aristophanes#Wasps#Furman University#tokenized by speech#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0019.tlg004.fu.sp:1.1.speaker#Σωσίας

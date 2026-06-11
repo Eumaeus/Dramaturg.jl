@@ -3,13 +3,13 @@
 #!cexversion
 3.0
 #!citelibrary
-name#Aristphanes, Frogs
+name#Aristophanes, Frogs
 urn#urn:cite2:furman:cex.2026:aristophanes_project
 license#Creative Commons Attribution Share Alike
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:#line/speech/speaker,line/speech/text#Aristphanes#Frogs#Furman University#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:#line/speech/speaker,line/speech/text#Aristophanes#Frogs#Furman University#tokenized by speech#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:1.1.speaker#Ξανθίας

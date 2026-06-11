@@ -1,24 +1,24 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/thucydides.cex"
-text_urn = "urn:cts:greekLit:tlg0003.tlg001.fu:" 
-file_name = "Thucydides"
-text_title = "Thucydides, *Histories*"
-text_genre = "prose" # options are "poetry", "prose", "drama"
-citation_level = 3 # "book.section.paragraph". A poem might be 1, 'poetic-line'
-filter_paratext = "" # filter out passages with this string in the URN.
+cex_path = "source-data/texts/trachiniae-speech-speaker.cex"
+text_urn = "urn:cts:greekLit:tlg0011.tlg001.fu.sp:" 
+file_name = "Sophocles_Trachiniae"
+text_title = "Sophocles *Trachiniae*"
+text_genre = "drama" # options are "poetry", "prose", "drama"
+citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
+filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 
 [output]
-html_tokens_per_page = 250
-html_output_dir = "editions/html/Thucydides/pages"
+html_tokens_per_page = 200
+html_output_dir = "editions/html/Sophocles_Trachiniae/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Thucydides"
-md_bibliography = "editions/frontmatter/Thucydides/bibliography.md"
-md_frontmatter = "editions/frontmatter/Thucydides/frontmatter.md"
+html_temp_dir = "data/html_temp/Sophocles_Trachiniae"
+md_bibliography = "editions/frontmatter/Sophocles_Trachiniae/bibliography.md"
+md_frontmatter = "editions/frontmatter/Sophocles_Trachiniae/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
 
@@ -29,23 +29,30 @@ lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
 lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
-raw_morph_data = "morph/output/thucydides-analysis.txt"
-morph_pos_triplets = "data/indexes/Thucydides/Thucydides_morpheus_triplets.tsv"
-morph_pos_errors = "morph/output/Thucydides_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/Thucydides/Thucydides_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/Thucydides/Thucydides_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/Thucydides/Thucydides_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/Thucydides/Thucydides_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/thucydides_morph.cex"
+raw_morph_data = "morph/output/trachiniae-analysis.txt"
+
+morph_pos_triplets = "data/indexes/Sophocles_Trachiniae/Sophocles_Trachiniae_morpheus_triplets.tsv"
+
+morph_pos_errors = "morph/output/Sophocles_Trachiniae_parse_errors.log"
+
+morph_lemmata_alignment = "data/indexes/Sophocles_Trachiniae/Sophocles_Trachiniae_triplets_lemmata.tsv"
+
+morph_lemmata_alignment_errors = "data/indexes/Sophocles_Trachiniae/Sophocles_Trachiniae_triplets_lemmata_errors.tsv"
+
+morph_token_index = "data/indexes/Sophocles_Trachiniae/Sophocles_Trachiniae_morphology_index.tsv"
+
+morph_token_index_errors = "data/indexes/Sophocles_Trachiniae/Sophocles_Trachiniae_morphology_index_errors.tsv"
+
+local_morph_dict = "data/morphology/trachiniae_morph.cex"
 
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Thucydides"
-indexes_dir = "indexes/Thucydides"
-vocabulary_dir = "vocabulary/Thucydides"
+tokenized_dir = "tokenized/Sophocles_Trachiniae"
+indexes_dir = "indexes/Sophocles_Trachiniae"
+vocabulary_dir = "vocabulary/Sophocles_Trachiniae"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -69,8 +76,6 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/Thucydides/"
+editor_index_files = "source-data/edited_morphology/Sophocles_Trachiniae/"
 
-editor_index_error = "data/morphology/editorial_index_error_thucydides.txt"
-
-editor_index_morphology = "data/morphology/editorial_index_morphology_thucydides.cex"
+editor_index_error = "data/morphology/editorial_index_error_trachiniae.txt"
