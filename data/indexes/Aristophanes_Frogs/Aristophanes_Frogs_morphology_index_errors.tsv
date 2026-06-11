@@ -2,7 +2,7 @@ token_urn	surface_form	normalized_form	reason
 // The pound sign "	" is used as a column divider.	" is used as a column divider.	no_match_in_morph_dict
 	!cexversion	!cexversion	no_match_in_morph_dict
 	!citelibrary	!citelibrary	no_match_in_morph_dict
-name	Aristphanes, Frogs	Aristphanes, Frogs	no_match_in_morph_dict
+name	Aristophanes, Frogs	Aristophanes, Frogs	no_match_in_morph_dict
 urn	urn:cite2:furman:cex.2026:aristophanes_project	urn:cite2:furman:cex.2026:aristophanes_project	no_match_in_morph_dict
 license	Creative Commons Attribution Share Alike	Creative Commons Attribution Share Alike	no_match_in_morph_dict
 	!ctscatalog	!ctscatalog	no_match_in_morph_dict
@@ -23,9 +23,6 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:38.1.text.token.7	κενταυρικῶς	
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:48.2.text.token.2	Κλεισθένει	Κλεισθένει	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:55.2.text.token.3	Μόλων	Μόλων	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:57.3.text.token.3	Κλεισθένει	Κλεισθένει	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:60.1.text.token.3	ὦδελφίδιον	ὦδελφίδιον	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:64.1.text.token.6	’τέρᾳ	’τέρᾳ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:67.2.text.token.4	τεθνηκότος	τεθνηκότος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:73.1.text.token.5	Ἰοφῶν	Ἰοφῶν	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:76.1.text.token.3	Σοφοκλέα	Σοφοκλέα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:78.1.text.token.5	Ἰοφῶντ’	Ἰοφῶντ’	no_match_in_morph_dict
