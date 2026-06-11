@@ -7,5 +7,5 @@ The early years of Aristophanes coincided with the height of Athenian imperial p
 
 ## *Frogs*
 
-(405 BCE). Revived successfully at the Lenaea amid post-Arginusae oligarchic fears and Euripides' death, Dionysus descends to Hades on Heracles' quest to retrieve a tragedian for Athens' depleted stage, judging Aeschylus over Sophocles and Euripides in poetic contest, emphasizing moral instruction over novelty.
+*Frogs* (βάτραχοι, *Ranae*) (405 BCE): Revived successfully at the Lenaea amid post-Arginusae oligarchic fears and Euripides' death, Dionysus descends to Hades on Heracles' quest to retrieve a tragedian for Athens' depleted stage, judging Aeschylus over Sophocles and Euripides in poetic contest, emphasizing moral instruction over novelty.
 
