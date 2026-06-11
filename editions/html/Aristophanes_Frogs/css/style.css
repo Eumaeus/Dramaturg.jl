@@ -60,6 +60,7 @@ nav a:hover { text-decoration: underline; }
     gap: 1rem;
     align-items: flex-start;
     max-width: 100%;
+    min-width: 66rem;
 }
 
 #text {
