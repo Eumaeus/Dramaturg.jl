@@ -150,7 +150,8 @@ downloadBtn.addEventListener('click', () => {
         .join('\n');
 
     const date = new Date().toISOString().split("T")[0];
-    const longerdate = new Date().toISOString().replaceAll(":","-").replaceAll(".","-");
+    const longerdate = date + "-" + new Date().toISOString().split("T")[1].split(":")[0]+new Date().toISOString().split("T")[1].split(":")[1];
+
 
     const blob = new Blob([tsv + "\n"], { type: 'text/tab-separated-values' });
     const url = URL.createObjectURL(blob);
