@@ -1,0 +1,1940 @@
+// Library of texts for teaching CITE Collections
+// The pound sign "#" is used as a column divider.
+#!cexversion
+3.0
+#!citelibrary
+name#Sophocles, Oedipus Tyrannos
+urn#urn:cite2:furman:cex.2020:sophocles
+license#Creative Commons Attribution Share Alike
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:#line/speaker,line/speech#Sophocles#Oedipus Tyrannos#Furman University, after F.W. Hall and W.M. Geldart (1907)#tokenized by speech#true#grc
+
+
+#!ctsdata
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1.1.text#ὦ τέκνα , Κάδμου τοῦ πάλαι νέα τροφή ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:2.1.text#τίνας ποθ' ἕδρας τάσδε μοι θοάζετε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:3.1.text#ἱκτηρίοις κλάδοισιν ἐξεστεμμένοι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:4.1.text#πόλις δ' ὁμοῦ μὲν θυμιαμάτων γέμει ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:5.1.text#ὁμοῦ δὲ παιάνων τε καὶ στεναγμάτων :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:6.1.text#ἁγὼ δικαιῶν μὴ παρ' ἀγγέλων , τέκνα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:7.1.text#ἄλλων ἀκούειν αὐτὸς ὧδ' ἐλήλυθα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:8.1.text#ὁ πᾶσι κλεινὸς Οἰδίπους καλούμενος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:9.1.text#ἀλλ' ὦ γεραιέ , φράζ' , ἐπεὶ πρέπων ἔφυς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:10.1.text#πρὸ τῶνδε φωνεῖν , τίνι τρόπῳ καθέστατε ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:11.1.text#δείσαντες ἢ στέρξαντες ; ὡς θέλοντος ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:12.1.text#ἐμοῦ προσαρκεῖν πᾶν : δυσάλγητος γὰρ ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:13.1.text#εἴην τοιάνδε μὴ οὐ κατοικτίρων ἕδραν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:14.1.speaker#Ἱερεύς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:14.1.text#ἀλλ' ὦ κρατύνων Οἰδίπους χώρας ἐμῆς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:15.1.text#ὁρᾷς μὲν ἡμᾶς ἡλίκοι προσήμεθα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:16.1.text#βωμοῖσι τοῖς σοῖς : οἱ μὲν οὐδέπω μακρὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:17.1.text#πτέσθαι σθένοντες , οἱ δὲ σὺν γήρᾳ βαρεῖς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:18.1.text#ἱερῆς , ἐγὼ μὲν Ζηνός , οἵδε τ' ᾐθέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:19.1.text#λεκτοί : τὸ δ' ἄλλο φῦλον ἐξεστεμμένον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:20.1.text#ἀγοραῖσι θακεῖ πρός τε Παλλάδος διπλοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:21.1.text#ναοῖς , ἐπ' Ἰσμηνοῦ τε μαντείᾳ σποδῷ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:22.1.text#πόλις γάρ , ὥσπερ καὐτὸς εἰσορᾷς , ἄγαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:23.1.text#ἤδη σαλεύει κἀνακουφίσαι κάρα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:24.1.text#βυθῶν ἔτ' οὐχ οἵα τε φοινίου σάλου ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:25.1.text#φθίνουσα μὲν κάλυξιν ἐγκάρποις χθονός ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:26.1.text#φθίνουσα δ' ἀγέλαις βουνόμοις τόκοισί τε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:27.1.text#ἀγόνοις γυναικῶν : ἐν δ' ὁ πυρφόρος θεὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:28.1.text#σκήψας ἐλαύνει , λοιμὸς ἔχθιστος , πόλιν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:29.1.text#ὑφ' οὗ κενοῦται δῶμα Καδμεῖον , μέλας δ'
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:30.1.text#Ἅιδης στεναγμοῖς καὶ γόοις πλουτίζεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:31.1.text#θεοῖσι μέν νυν οὐκ ἰσούμενόν σ' ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:32.1.text#οὐ δ' οἵδε παῖδες ἑζόμεσθ' ἐφέστιοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:33.1.text#ἀνδρῶν δὲ πρῶτον ἔν τε συμφοραῖς βίου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:34.1.text#κρίνοντες ἔν τε δαιμόνων συναλλαγαῖς :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:35.1.text#ὅς γ' ἐξέλυσας ἄστυ Καδμεῖον μολὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:36.1.text#σκληρᾶς ἀοιδοῦ δασμὸν ὃν παρείχομεν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:37.1.text#καὶ ταῦθ' ὑφ' ἡμῶν οὐδὲν ἐξειδὼς πλέον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:38.1.text#οὐ δ' ἐκδιδαχθείς , ἀλλὰ προσθήκῃ θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:39.1.text#λέγει νομίζει θ' ἡμὶν ὀρθῶσαι βίον :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:40.1.text#νῦν τ' , ὦ κράτιστον πᾶσιν Οἰδίπου κάρα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:41.1.text#ἱκετεύομέν σε πάντες οἵδε πρόστροποι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:42.1.text#ἀλκήν τιν' εὑρεῖν ἡμίν , εἴτε του θεῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:43.1.text#φήμην ἀκούσας εἴτ' ἀπ' ἀνδρὸς οἶσθά του :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:44.1.text#ὡς τοῖσιν ἐμπείροισι καὶ τὰς ξυμφορὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:45.1.text#ζώσας ὁρῶ μάλιστα τῶν βουλευμάτων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:46.1.text#ἴθ' , ὦ βροτῶν ἄριστ' , ἀνόρθωσον πόλιν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:47.1.text#ἴθ' , εὐλαβήθηθ' : ὡς σὲ νῦν μὲν ἥδε γῆ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:48.1.text#σωτῆρα κλῄζει τῆς πάρος προθυμίας :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:49.1.text#ἀρχῆς δὲ τῆς σῆς μηδαμῶς μεμνώμεθα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:50.1.text#στάντες τ' ἐς ὀρθὸν καὶ πεσόντες ὕστερον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:51.1.text#ἀλλ' ἀσφαλείᾳ τήνδ' ἀνόρθωσον πόλιν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:52.1.text#ὄρνιθι γὰρ καὶ τὴν τότ' αἰσίῳ τύχην
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:53.1.text#παρέσχες ἡμῖν , καὶ τανῦν ἴσος γενοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:54.1.text#ὡς εἴπερ ἄρξεις τῆσδε γῆς , ὥσπερ κρατεῖς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:55.1.text#ξὺν ἀνδράσιν κάλλιον ἢ κενῆς κρατεῖν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:56.1.text#ὡς οὐδέν ἐστιν οὔ τε πύργος οὔ τε ναῦς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:57.1.text#ἔρημος ἀνδρῶν μὴ ξυνοικούντων ἔσω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:58.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:58.1.text#ὦ παῖδες οἰκτροί , γνωτὰ κοὐκ ἄγνωτά μοι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:59.1.text#προσήλθεθ' ἱμείροντες : εὖ γὰρ οἶδ' ὅτι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:60.1.text#νοσεῖτε πάντες , καὶ νοσοῦντες , ὡς ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:61.1.text#οὐκ ἔστιν ὑμῶν ὅστις ἐξ ἴσου νοσεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:62.1.text#τὸ μὲν γὰρ ὑμῶν ἄλγος εἰς ἕν' ἔρχεται
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:63.1.text#μόνον καθ' αὑτὸν κοὐδέν' ἄλλον , ἡ δ' ἐμὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:64.1.text#ψυχὴ πόλιν τε κἀμὲ καὶ σ' ὁμοῦ στένει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:65.1.text#ὥστ' οὐχ ὕπνῳ γ' εὕδοντά μ' ἐξεγείρετε ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:66.1.text#ἀλλ' ἴστε πολλὰ μέν με δακρύσαντα δή ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:67.1.text#πολλὰς δ' ὁδοὺς ἐλθόντα φροντίδος πλάνοις :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:68.1.text#ἣν δ' εὖ σκοπῶν ηὕρισκον ἴασιν μόνην ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:69.1.text#ταύτην ἔπραξα : παῖδα γὰρ Μενοικέως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:70.1.text#Κρέοντ' , ἐμαυτοῦ γαμβρόν , ἐς τὰ Πυθικὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:71.1.text#ἔπεμψα Φοίβου δώμαθ' , ὡς πύθοιθ' ὅ τι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:72.1.text#δρῶν ἢ τί φωνῶν τήνδε ῥυσαίμην πόλιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:73.1.text#καί μ' ἦμαρ ἤδη ξυμμετρούμενον χρόνῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:74.1.text#λυπεῖ τί πράσσει : τοῦ γὰρ εἰκότος πέρα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:75.1.text#ἄπεστι πλείω τοῦ καθήκοντος χρόνου .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:76.1.text#ὅταν δ' ἵκηται , τηνικαῦτ' ἐγὼ κακὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:77.1.text#μὴ δρῶν ἂν εἴην πάνθ' ὅσ' ἂν δηλοῖ θεός .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:78.1.speaker#Ἱερεύς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:78.1.text#ἀλλ' εἰς καλὸν σύ τ' εἶπας οἵδε τ' ἀρτίως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:79.1.text#Κρέοντα προσστείχοντα σημαίνουσί μοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:80.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:80.1.text#ὦναξ Ἄπολλον , εἰ γὰρ ἐν τύχῃ γέ τῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:81.1.text#σωτῆρι βαίη λαμπρὸς ὥσπερ ὄμματι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:82.1.speaker#Ἱερεύς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:82.1.text#ἀλλ' εἰκάσαι μέν , ἡδύς : οὐ γὰρ ἂν κάρα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:83.1.text#πολυστεφὴς ὧδ' εἷρπε παγκάρπου δάφνης .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:84.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:84.1.text#τάχ' εἰσόμεσθα : ξύμμετρος γὰρ ὡς κλύειν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:85.1.text#ἄναξ , ἐμὸν κήδευμα , παῖ Μενοικέως ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:86.1.text#τίν' ἡμὶν ἥκεις τοῦ θεοῦ φήμην φέρων ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:87.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:87.1.text#ἐσθλήν : λέγω γὰρ καὶ τὰ δύσφορ' , εἰ τύχοι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:88.1.text#κατ' ὀρθὸν ἐξελθόντα , πάντ' ἂν εὐτυχεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:89.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:89.1.text#ἔστιν δὲ ποῖον τοὔπος ; οὔ τε γὰρ θρασὺς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:90.1.text#οὔ τ' οὖν προδείσας εἰμὶ τῷ γε νῦν λόγῳ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:91.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:91.1.text#εἰ τῶνδε χρῄζεις πλησιαζόντων κλύειν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:92.1.text#ἕτοιμος εἰπεῖν , εἴτε καὶ στείχειν ἔσω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:93.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:93.1.text#ἐς πάντας αὔδα : τῶνδε γὰρ πλέον φέρω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:94.1.text#τὸ πένθος ἢ καὶ τῆς ἐμῆς ψυχῆς πέρι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:95.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:95.1.text#λέγοιμ' ἂν οἷ' ἤκουσα τοῦ θεοῦ πάρα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:96.1.text#ἄνωγεν ἡμᾶς Φοῖβος ἐμφανῶς ἄναξ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:97.1.text#μίασμα χώρας , ὡς τεθραμμένον χθονὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:98.1.text#ἐν τῇδ' , ἐλαύνειν μη δ' ἀνήκεστον τρέφειν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:99.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:99.1.text#ποίῳ καθαρμῷ ; τίς ὁ τρόπος τῆς ξυμφορᾶς ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:100.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:100.1.text#ἀνδρηλατοῦντας ἢ φόνῳ φόνον πάλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:101.1.text#λύοντας , ὡς τόδ' αἷμα χειμάζον πόλιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:102.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:102.1.text#ποίου γὰρ ἀνδρὸς τήνδε μηνύει τύχην ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:103.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:103.1.text#ἦν ἡμίν , ὦναξ , Λάϊός ποθ' ἡγεμὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:104.1.text#γῆς τῆσδε , πρὶν σὲ τήνδ' ἀπευθύνειν πόλιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:105.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:105.1.text#ἔξοιδ' ἀκούων : οὐ γὰρ εἰσεῖδόν γέ πω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:106.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:106.1.text#τούτου θανόντος νῦν ἐπιστέλλει σαφῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:107.1.text#τοὺς αὐτοέντας χειρὶ τιμωρεῖν τινας .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:108.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:108.1.text#οἳ δ' εἰσὶ ποῦ γῆς ; ποῦ τόδ' εὑρεθήσεται
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:109.1.text#ἴχνος παλαιᾶς δυστέκμαρτον αἰτίας ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:110.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:110.1.text#ἐν τῇδ' ἔφασκε γῇ : τὸ δὲ ζητούμενον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:111.1.text#ἁλωτόν , ἐκφεύγειν δὲ τἀμελούμενον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:112.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:112.1.text#πότερα δ' ἐν οἴκοις ἢ ' ν ἀγροῖς ὁ Λάϊος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:113.1.text#ἢ γῆς ἐπ' ἄλλης τῷδε συμπίπτει φόνῳ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:114.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:114.1.text#θεωρός , ὡς ἔφασκεν , ἐκδημῶν , πάλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:115.1.text#πρὸς οἶκον οὐκέθ' ἵκεθ' , ὡς ἀπεστάλη .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:116.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:116.1.text#οὐ δ' ἄγγελός τις οὐ δὲ συμπράκτωρ ὁδοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:117.1.text#κατεῖδ' , ὅτου τις ἐκμαθὼν ἐχρήσατ' ἄν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:118.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:118.1.text#θνῄσκουσι γάρ , πλὴν εἷς τις , ὃς φόβῳ , φυγὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:119.1.text#ὧν εἶδε πλὴν ἓν οὐδὲν εἶχ' εἰδὼς φράσαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:120.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:120.1.text#τὸ ποῖον ; ἓν γὰρ πόλλ' ἂν ἐξεύροι μαθεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:121.1.text#ἀρχὴν βραχεῖαν εἰ λάβοιμεν ἐλπίδος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:122.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:122.1.text#λῃστὰς ἔφασκε συντυχόντας οὐ μιᾷ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:123.1.text#ῥώμῃ κτανεῖν νιν , ἀλλὰ σὺν πλήθει χερῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:124.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:124.1.text#πῶς οὖν ὁ λῃστής , εἴ τι μὴ ξὺν ἀργύρῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:125.1.text#ἐπράσσετ' ἐνθένδ' , ἐς τόδ' ἂν τόλμης ἔβη ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:126.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:126.1.text#δοκοῦντα ταῦτ' ἦν : Λαΐου δ' ὀλωλότος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:127.1.text#οὐδεὶς ἀρωγὸς ἐν κακοῖς ἐγίγνετο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:128.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:128.1.text#κακὸν δὲ ποῖον ἐμποδών , τυραννίδος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:129.1.text#οὕτω πεσούσης , εἶργε τοῦτ' ἐξειδέναι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:130.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:130.1.text#ἡ ποικιλῳδὸς Σφὶγξ τὸ πρὸς ποσὶν σκοπεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:131.1.text#μεθέντας ἡμᾶς τἀφανῆ προσήγετο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:132.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:132.1.text#ἀλλ' ἐξ ὑπαρχῆς αὖθις αὔτ' ἐγὼ φανῶ :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:133.1.text#ἐπαξίως γὰρ Φοῖβος , ἀξίως δὲ σὺ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:134.1.text#πρὸ τοῦ θανόντος τήνδ' ἔθεσθ' ἐπιστροφήν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:135.1.text#ὥστ' ἐνδίκως ὄψεσθε κἀμὲ σύμμαχον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:136.1.text#γῇ τῇδε τιμωροῦντα τῷ θεῷ θ' ἅμα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:137.1.text#ὑπὲρ γὰρ οὐχὶ τῶν ἀπωτέρω φίλων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:138.1.text#ἀλλ' αὐτὸς αὑτοῦ τοῦτ' ἀποσκεδῶ μύσος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:139.1.text#ὅστις γὰρ ἦν ἐκεῖνον ὁ κτανών , τάχ' ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:140.1.text#κἄμ' ἂν τοιαύτῃ χειρὶ τιμωροῦνθ' ἕλοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:141.1.text#κείνῳ προσαρκῶν οὖν ἐμαυτὸν ὠφελῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:142.1.text#ἀλλ' ὡς τάχιστα , παῖδες , ὑμεῖς μὲν βάθρων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:143.1.text#ἵστασθε , τούσδ' ἄραντες ἱκτῆρας κλάδους ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:144.1.text#ἄλλος δὲ Κάδμου λαὸν ὧδ' ἀθροιζέτω ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:145.1.text#ὡς πᾶν ἐμοῦ δράσοντος : ἢ γὰρ εὐτυχεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:146.1.text#σὺν τῷ θεῷ φανούμεθ' ἢ πεπτωκότες .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:147.1.speaker#Ἱερεύς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:147.1.text#ὦ παῖδες , ἱστώμεσθα : τῶνδε γὰρ χάριν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:148.1.text#καὶ δεῦρ' ἔβημεν ὧν ὅδ' ἐξαγγέλλεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:149.1.text#Φοῖβος δ' ὁ πέμψας τάσδε μαντείας ἅμα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:150.1.text#σωτήρ δ' ἵκοιτο καὶ νόσου παυστήριος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:151.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:151.1.text#ὦ Διὸς ἁδυεπὲς φάτι , τίς ποτε τᾶς πολυχρύσου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:152.1.text#Πυθῶνος ἀγλαὰς ἔβας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:153.1.text#Θήβας ; ἐκτέταμαι φοβερὰν φρένα , δείματι πάλλων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:154.1.text#ἰήιε Δάλιε Παιάν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:155.1.text#ἀμφὶ σοὶ ἁζόμενος τί μοι ἢ νέον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:156.1.text#ἢ περιτελλομέναις ὥραις πάλιν ἐξανύσεις χρέος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:157.1.text#εἰπέ μοι , ὦ χρυσέας τέκνον Ἐλπίδος , ἄμβροτε Φάμα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:158.1.text#πρῶτα σὲ κεκλόμενος , θύγατερ Διός , ἄμβροτ' Ἀθάνα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:160.1.text#γαιάοχόν τ' ἀδελφεὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:161.1.text#Ἄρτεμιν , ἃ κυκλόεντ' ἀγορᾶς θρόνον εὐκλέα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:162.1.text#θάσσει ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:163.1.text#καὶ Φοῖβον ἑκαβόλον , ἰὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:164.1.text#τρισσοὶ ἀλεξίμοροι προφάνητέ μοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:165.1.text#εἴ ποτε καὶ προτέρας ἄτας ὕπερ ὀρνυμένας πόλει
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:166.1.text#ἠνύσατ' ἐκτοπίαν φλόγα πήματος , ἔλθετε καὶ νῦν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:167.1.text#ὦ πόποι , ἀνάριθμα γὰρ φέρω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:170.1.text#πήματα : νοσεῖ δέ μοι πρόπας στόλος , οὐ δ' ἔνι φροντίδος ἔγχος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:171.1.text#ᾧ τις ἀλέξεται . οὔ τε γὰρ ἔκγονα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:172.1.text#κλυτᾶς χθονὸς αὔξεται οὔ τε τόκοισιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:174.1.text#ἰηίων καμάτων ἀνέχουσι γυναῖκες :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:175.1.text#ἄλλον δ' ἂν ἄλλῳ προσίδοις ἅπερ εὔπτερον ὄρνιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:176.1.text#κρεῖσσον ἀμαιμακέτου πυρὸς ὄρμενον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:177.1.text#ἀκτὰν πρὸς ἑσπέρου θεοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:178.1.text#ὧν πόλις ἀνάριθμος ὄλλυται :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:180.1.text#νηλέα δὲ γένεθλα πρὸς πέδῳ θαναταφόρα κεῖται ἀνοίκτως :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:181.1.text#ἐν δ' ἄλοχοι πολιαί τ' ἔπι ματέρες
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:182.1.text#ἀχὰν παραβώμιον ἄλλοθεν ἄλλαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:183.1.text#λυγρῶν πόνων ἱκετῆρες ἐπιστενάχουσιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:185.1.text#παιὰν δὲ λάμπει στονόεσσά τε γῆρυς ὅμαυλος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:186.1.text#ὧν ὕπερ , ὦ χρυσέα θύγατερ Διός ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:187.1.text#εὐῶπα πέμψον ἀλκάν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:190.1.text#Ἄρεά τε τὸν μαλερόν , ὃς νῦν ἄχαλκος ἀσπίδων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:191.1.text#φλέγει με περιβόατον , ἀντιάζω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:192.1.text#παλίσσυτον δράμημα νωτίσαι πάτρας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:193.1.text#ἔπουρον , εἴτ' ἐς μέγαν θάλαμον Ἀμφιτρίτας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:195.1.text#εἴτ' ἐς τὸν ἀπόξενον ὅρμων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:196.1.text#Θρῄκιον κλύδωνα :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:197.1.text#τελεῖν γὰρ εἴ τι νὺξ ἀφῇ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:198.1.text#τοῦτ' ἐπ' ἦμαρ ἔρχεται :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:199.1.text#τόν , ὦ τᾶν πυρφόρων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:200.1.text#ἀστραπᾶν κράτη νέμων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:201.1.text#ὦ Ζεῦ πάτερ , ὑπὸ σῷ φθίσον κεραυνῷ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:202.1.text#Λύκει' ἄναξ , τά τε σὰ χρυσοστρόφων ἀπ' ἀγκυλᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:203.1.text#βέλεα θέλοιμ' ἂν ἀδάματ' ἐνδατεῖσθαι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:205.1.text#ἀρωγὰ προσταχθέντα τάς τε πυρφόρους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:206.1.text#Ἀρτέμιδος αἴγλας , ξὺν αἷς Λύκι' ὄρεα διᾴσσει :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:207.1.text#τὸν χρυσομίτραν τε κικλήσκω ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:210.1.text#τᾶσδ' ἐπώνυμον γᾶς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:211.1.text#οἰνῶπα Βάκχον εὔιον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:212.1.text#Μαινάδων ὁμόστολον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:213.1.text#πελασθῆναι φλέγοντ'
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:214.1.text#ἀγλαῶπι ¯ ? ¯
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:215.1.text#πεύκᾳ ' πὶ τὸν ἀπότιμον ἐν θεοῖς θεόν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:216.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:216.1.text#αἰτεῖς : ἃ δ' αἰτεῖς , τἄμ' ἐὰν θέλῃς ἔπη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:217.1.text#κλύων δέχεσθαι τῇ νόσῳ θ' ὑπηρετεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:218.1.text#ἀλκὴν λάβοις ἂν κἀνακούφισιν κακῶν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:219.1.text#ἁγὼ ξένος μὲν τοῦ λόγου τοῦδ' ἐξερῶ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:220.1.text#ξένος δὲ τοῦ πραχθέντος : οὐ γὰρ ἂν μακρὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:221.1.text#ἴχνευον αὐτός , μὴ οὐκ ἔχων τι σύμβολον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:222.1.text#νῦν δ' ὕστερος γὰρ ἀστὸς εἰς ἀστοὺς τελῶ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:223.1.text#ὑμῖν προφωνῶ πᾶσι Καδμείοις τάδε :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:224.1.text#ὅστις ποθ' ὑμῶν Λάϊον τὸν Λαβδάκου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:225.1.text#κάτοιδεν ἀνδρὸς ἐκ τίνος διώλετο ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:226.1.text#τοῦτον κελεύω πάντα σημαίνειν ἐμοί :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:227.1.text#κεἰ μὲν φοβεῖται , τοὐπίκλημ' ὑπεξελεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:228.1.text#αὐτὸν καθ' αὑτοῦ : πείσεται γὰρ ἄλλο μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:229.1.text#ἀστεργὲς οὐδέν . γῆς δ' ἄπεισιν ἀσφαλής .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:230.1.text#εἰ δ' αὖ τις ἄλλον οἶδεν ἐξ ἄλλης χθονὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:231.1.text#τὸν αὐτόχειρα , μὴ σιωπάτω : τὸ γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:232.1.text#κέρδος τελῶ ' γὼ χἠ χάρις προσκείσεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:233.1.text#εἰ δ' αὖ σιωπήσεσθε , καί τις ἢ φίλου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:234.1.text#δείσας ἀπώσει τοὔπος ἢ χαὐτοῦ τόδε ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:235.1.text#ἃκ τῶνδε δράσω , ταῦτα χρὴ κλύειν ἐμοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:236.1.text#τὸν ἄνδρ' ἀπαυδῶ τοῦτον , ὅστις ἐστί , γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:237.1.text#τῆσδ' , ἧς ἐγὼ κράτη τε καὶ θρόνους νέμω ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:238.1.text#μήτ' εἰσδέχεσθαι μήτε προσφωνεῖν τινα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:239.1.text#μήτ' ἐν θεῶν εὐχαῖσι μήτε θύμασιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:240.1.text#κοινὸν ποεῖσθαι , μήτε χέρνιβας νέμειν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:241.1.text#ὠθεῖν δ' ἀπ' οἴκων πάντας , ὡς μιάσματος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:242.1.text#τοῦδ' ἡμὶν ὄντος , ὡς τὸ Πυθικὸν θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:243.1.text#μαντεῖον ἐξέφηνεν ἀρτίως ἐμοί .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:244.1.text#ἐγὼ μὲν οὖν τοιόσδε τῷ τε δαίμονι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:245.1.text#τῷ τ' ἀνδρὶ τῷ θανόντι σύμμαχος πέλω :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:246.1.text#κατεύχομαι δὲ τὸν δεδρακότ' , εἴτε τις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:247.1.text#εἷς ὢν λέληθεν εἴτε πλειόνων μέτα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:248.1.text#κακὸν κακῶς νιν ἄμορον ἐκτρῖψαι βίον :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:249.1.text#ἐπεύχομαι δ' , οἴκοισιν εἰ ξυνέστιος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:250.1.text#ἐν τοῖς ἐμοῖς γένοιτ' ἐμοῦ συνειδότος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:251.1.text#παθεῖν ἅπερ τοῖσδ' ἀρτίως ἠρασάμην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:252.1.text#ὑμῖν δὲ ταῦτα πάντ' ἐπισκήπτω τελεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:253.1.text#ὑπέρ τ' ἐμαυτοῦ τοῦ θεοῦ τε τῆσδέ τε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:254.1.text#γῆς ὧδ' ἀκάρπως κἀθέως ἐφθαρμένης .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:255.1.text#οὐ δ' εἰ γὰρ ἦν τὸ πρᾶγμα μὴ θεήλατον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:256.1.text#ἀκάθαρτον ὑμᾶς εἰκὸς ἦν οὕτως ἐᾶν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:257.1.text#ἀνδρός γ' ἀρίστου βασιλέως τ' ὀλωλότος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:258.1.text#ἀλλ' ἐξερευνᾶν : νῦν δ' ἐπεὶ κυρῶ γ' ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:259.1.text#ἔχων μὲν ἀρχὰς ἃς ἐκεῖνος εἶχε πρίν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:260.1.text#ἔχων δὲ λέκτρα καὶ γυναῖχ' ὁμόσπορον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:261.1.text#κοινῶν τε παίδων κοίν' ἄν , εἰ κείνῳ γένος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:262.1.text#μὴ ' δυστύχησεν , ἦν ἂν ἐκπεφυκότα :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:263.1.text#νῦν δ' ἐς τὸ κείνου κρᾶτ' ἐνήλαθ' ἡ τύχη :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:264.1.text#ἀνθ' ὧν ἐγὼ τάδ' , ὡσπερεὶ τοὐμοῦ πατρός ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:265.1.text#ὑπερμαχοῦμαι κἀπὶ πᾶν ἀφίξομαι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:266.1.text#ζητῶν τὸν αὐτόχειρα τοῦ φόνου λαβεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:267.1.text#τῷ Λαβδακείῳ παιδὶ Πολυδώρου τε καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:268.1.text#τοῦ πρόσθε Κάδμου τοῦ πάλαι τ' Ἀγήνορος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:269.1.text#καὶ ταῦτα τοῖς μὴ δρῶσιν εὔχομαι θεοὺς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:270.1.text#μήτ' ἄροτον αὐτοῖς γῆς ἀνιέναι τινὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:271.1.text#μήτ' οὖν γυναικῶν παῖδας , ἀλλὰ τῷ πότμῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:272.1.text#τῷ νῦν φθερεῖσθαι κἄτι τοῦδ' ἐχθίονι :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:273.1.text#ὑμῖν δὲ τοῖς ἄλλοισι Καδμείοις , ὅσοις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:274.1.text#τάδ' ἔστ' ἀρέσκονθ' , ἥ τε σύμμαχος Δίκη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:275.1.text#χοἰ πάντες εὖ ξυνεῖεν εἰσαεὶ θεοί .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:276.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:276.1.text#ὥσπερ μ' ἀραῖον ἔλαβες , ὧδ' , ἄναξ , ἐρῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:277.1.text#οὔ τ' ἔκτανον γὰρ οὔ τε τὸν κτανόντ' ἔχω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:278.1.text#δεῖξαι . τὸ δὲ ζήτημα τοῦ πέμψαντος ἦν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:279.1.text#Φοίβου τόδ' εἰπεῖν , ὅστις εἴργασταί ποτε .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:280.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:280.1.text#δίκαι' ἔλεξας : ἀλλ' ἀναγκάσαι θεοὺς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:281.1.text#ἃν μὴ θέλωσιν οὐ δ' ἂν εἷς δύναιτ' ἀνήρ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:282.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:282.1.text#τὰ δεύτερ' ἐκ τῶνδ' ἂν λέγοιμ' ἁμοὶ δοκεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:283.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:283.1.text#εἰ καὶ τρίτ' ἐστί , μὴ παρῇς τὸ μὴ οὐ φράσαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:284.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:284.1.text#ἄνακτ' ἄνακτι ταὔθ' ὁρῶντ' ἐπίσταμαι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:285.1.text#μάλιστα Φοίβῳ Τειρεσίαν , παρ' οὗ τις ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:286.1.text#σκοπῶν τάδ' , ὦναξ , ἐκμάθοι σαφέστατα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:287.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:287.1.text#ἀλλ' οὐκ ἐν ἀργοῖς οὐ δὲ τοῦτ' ἐπραξάμην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:288.1.text#ἔπεμψα γὰρ Κρέοντος εἰπόντος διπλοῦς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:289.1.text#πομπούς : πάλαι δὲ μὴ παρῶν θαυμάζεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:290.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:290.1.text#καὶ μὴν τά γ' ἄλλα κωφὰ καὶ παλαί' ἔπη .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:291.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:291.1.text#τὰ ποῖα ταῦτα ; πάντα γὰρ σκοπῶ λόγον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:292.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:292.1.text#θανεῖν ἐλέχθη πρός τινων ὁδοιπόρων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:293.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:293.1.text#ἤκουσα κἀγώ . τὸν δ' ἰδόντ' οὐδεὶς ὁρᾷ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:294.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:294.1.text#ἀλλ' εἴ τι μὲν δὴ δείματός γ' ἔχει μέρος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:295.1.text#τὰς σὰς ἀκούων οὐ μενεῖ τοιάσδ' ἀράς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:296.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:296.1.text#ᾧ μή ' στι δρῶντι τάρβος , οὐ δ' ἔπος φοβεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:297.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:297.1.text#ἀλλ' οὑξελέγξων αὐτὸν ἔστιν : οἵδε γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:298.1.text#τὸν θεῖον ἤδη μάντιν ὧδ' ἄγουσιν , ᾧ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:299.1.text#τἀληθὲς ἐμπέφυκεν ἀνθρώπων μόνῳ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:300.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:300.1.text#ὦ πάντα νωμῶν Τειρεσία , διδακτά τε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:301.1.text#ἄρρητά τ' , οὐράνιά τε καὶ χθονοστιβῆ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:302.1.text#πόλιν μέν , εἰ καὶ μὴ βλέπεις , φρονεῖς δ' ὅμως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:303.1.text#οἵᾳ νόσῳ σύνεστιν : ἧς σὲ προστάτην
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:304.1.text#σωτῆρά τ' , ὦναξ , μοῦνον ἐξευρίσκομεν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:305.1.text#Φοῖβος γάρ , εἴ τι μὴ κλύεις τῶν ἀγγέλων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:306.1.text#πέμψασιν ἡμῖν ἀντέπεμψεν , ἔκλυσιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:307.1.text#μόνην ἂν ἐλθεῖν τοῦδε τοῦ νοσήματος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:308.1.text#εἰ τοὺς κτανόντας Λάϊον μαθόντες εὖ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:309.1.text#κτείναιμεν ἢ γῆς φυγάδας ἐκπεμψαίμεθα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:310.1.text#σύ νυν φθονήσας μήτ' ἀπ' οἰωνῶν φάτιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:311.1.text#μήτ' εἴ τιν' ἄλλην μαντικῆς ἔχεις ὁδόν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:312.1.text#ῥῦσαι σεαυτὸν καὶ πόλιν , ῥῦσαι δ' ἐμέ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:313.1.text#ῥῦσαι δὲ πᾶν μίασμα τοῦ τεθνηκότος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:314.1.text#ἐν σοὶ γὰρ ἐσμέν : ἄνδρα δ' ὠφελεῖν ἀφ' ὧν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:315.1.text#ἔχοι τε καὶ δύναιτο , κάλλιστος πόνων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:316.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:316.1.text#φεῦ φεῦ , φρονεῖν ὡς δεινὸν ἔνθα μὴ τέλη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:317.1.text#λύῃ φρονοῦντι : ταῦτα γὰρ καλῶς ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:318.1.text#εἰδὼς διώλεσ' : οὐ γὰρ ἂν δεῦρ' ἱκόμην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:319.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:319.1.text#τί δ' ἔστιν ; ὡς ἄθυμος εἰσελήλυθας .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:320.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:320.1.text#ἄφες μ' ἐς οἴκους : ῥᾷστα γὰρ τὸ σόν τε σὺ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:321.1.text#κἀγὼ διοίσω τοὐμόν , ἢν ἐμοὶ πίθῃ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:322.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:322.1.text#οὔ τ' ἔννομ' εἶπας οὔ τε προσφιλῆ πόλει
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:323.1.text#τῇδ' , ἥ σ' ἔθρεψε , τήνδ' ἀποστερῶν φάτιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:324.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:324.1.text#ὁρῶ γὰρ οὐ δὲ σοὶ τὸ σὸν φώνημ' ἰὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:325.1.text#πρὸς καιρόν : ὡς οὖν μη δ' ἐγὼ ταὐτὸν πάθω -
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:326.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:326.1.text#μὴ πρὸς θεῶν φρονῶν γ' ἀποστραφῇς , ἐπεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:327.1.text#πάντες σε προσκυνοῦμεν οἵδ' ἱκτήριοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:328.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:328.1.text#πάντες γὰρ οὐ φρονεῖτ' : ἐγὼ δ' οὐ μή ποτε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:329.1.text#τἄμ' , ὡς ἂν εἴπω μὴ τὰ σ' , ἐκφήνω κακά .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:330.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:330.1.text#τί φής ; ξυνειδὼς οὐ φράσεις , ἀλλ' ἐννοεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:331.1.text#ἡμᾶς προδοῦναι καὶ καταφθεῖραι πόλιν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:332.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:332.1.text#ἐγὼ οὔ τ' ἐμαυτὸν οὔ τε σ' ἀλγυνῶ . τί ταῦτ'
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:333.1.text#ἄλλως ἐλέγχεις ; οὐ γὰρ ἂν πύθοιό μου .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:334.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:334.1.text#οὐκ , ὦ κακῶν κάκιστε , καὶ γὰρ ἂν πέτρου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:335.1.text#φύσιν σύ γ' ὀργάνειας , ἐξερεῖς ποτε ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:336.1.text#ἀλλ' ὧδ' ἄτεγκτος κἀτελεύτητος φανεῖ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:337.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:337.1.text#ὀργὴν ἐμέμψω τὴν ἐμήν , τὴν σὴν δ' ὁμοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:338.1.text#ναίουσαν οὐ κατεῖδες , ἀλλ' ἐμὲ ψέγεις .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:339.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:339.1.text#τίς γὰρ τοιαῦτ' ἂν οὐκ ἂν ὀργίζοιτ' ἔπη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:340.1.text#κλύων , ἃ νῦν σὺ τήνδ' ἀτιμάζεις πόλιν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:341.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:341.1.text#ἥξει γὰρ αὐτά , κἂν ἐγὼ σιγῇ στέγω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:342.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:342.1.text#οὐκοῦν ἅ γ' ἥξει καὶ σὲ χρὴ λέγειν ἐμοί .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:343.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:343.1.text#οὐκ ἂν πέρα φράσαιμι . πρὸς τάδ' , εἰ θέλεις ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:344.1.text#θυμοῦ δι' ὀργῆς ἥτις ἀγριωτάτη .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:345.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:345.1.text#καὶ μὴν παρήσω γ' οὐδέν , ὡς ὀργῆς ἔχω ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:346.1.text#ἅπερ ξυνίημ' : ἴσθι γὰρ δοκῶν ἐμοὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:347.1.text#καὶ ξυμφυτεῦσαι τοὔργον εἰργάσθαι θ' , ὅσον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:348.1.text#μὴ χερσὶ καίνων : εἰ δ' ἐτύγχανες βλέπων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:349.1.text#καὶ τοὔργον ἂν σοῦ τοῦτ' , ἔφην εἶναι μόνου .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:350.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:350.1.text#ἄληθες ; ἐννέπω σὲ τῷ κηρύγματι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:351.1.text#ᾧπερ προεῖπας ἐμμένειν , κἀφ' ἡμέρας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:352.1.text#τῆς νῦν προσαυδᾶν μήτε τούσδε μήτ' ἐμέ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:353.1.text#ὡς ὄντι γῆς τῆσδ' ἀνοσίῳ μιάστορι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:354.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:354.1.text#οὕτως ἀναιδῶς ἐξεκίνησας τόδε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:355.1.text#τὸ ῥῆμα ; καὶ ποῦ τοῦτο φεύξεσθαι δοκεῖς ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:356.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:356.1.text#πέφευγα : τἀληθὲς γὰρ ἰσχῦον τρέφω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:357.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:357.1.text#πρὸς τοῦ διδαχθείς ; οὐ γὰρ ἔκ γε τῆς τέχνης .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:358.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:358.1.text#πρὸς σοῦ : σὺ γάρ μ' ἄκοντα προυτρέψω λέγειν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:359.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:359.1.text#ποῖον λόγον ; λέγ' αὖθις , ὡς μᾶλλον μάθω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:360.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:360.1.text#οὐχὶ ξυνῆκας πρόσθεν ; ἢ ' κπειρᾷ λέγων ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:361.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:361.1.text#οὐχ ὥστε γ' εἰπεῖν γνωστόν : ἀλλ' αὖθις φράσον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:362.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:362.1.text#φονέα σε φημὶ τἀνδρὸς οὗ ζητεῖς κυρεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:363.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:363.1.text#ἀλλ' οὔ τι χαίρων δίς γε πημονὰς ἐρεῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:364.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:364.1.text#εἴπω τι δῆτα κἄλλ' , ἵν' ὀργίζῃ πλέον ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:365.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:365.1.text#ὅσον γε χρῄζεις : ὡς μάτην εἰρήσεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:366.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:366.1.text#λεληθέναι σε φημὶ σὺν τοῖς φιλτάτοις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:367.1.text#αἴσχισθ' ὁμιλοῦντ' , οὐ δ' ὁρᾶν ἵν' εἶ κακοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:368.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:368.1.text#ἦ καὶ γεγηθὼς ταῦτ' ἀεὶ λέξειν δοκεῖς ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:369.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:369.1.text#εἴπερ τί γ' ἐστὶ τῆς ἀληθείας σθένος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:370.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:370.1.text#ἀλλ' ἔστι , πλὴν σοί : σοὶ δὲ τοῦτ' οὐκ ἔστ' ἐπεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:371.1.text#τυφλὸς τά τ' ὦτα τόν τε νοῦν τά τ' ὄμματ' εἶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:372.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:372.1.text#σὺ δ' ἄθλιός γε ταῦτ' ὀνειδίζων , ἃ σοὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:373.1.text#οὐδεὶς ὃς οὐχὶ τῶνδ' ὀνειδιεῖ τάχα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:374.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:374.1.text#μιᾶς τρέφει πρὸς νυκτός , ὥστε μήτ' ἐμὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:375.1.text#μήτ' ἄλλον , ὅστις φῶς ὁρᾷ , βλάψαι ποτ' ἄν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:376.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:376.1.text#οὐ γάρ σε μοῖρα πρός γ' ἐμοῦ πεσεῖν , ἐπεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:377.1.text#ἱκανὸς Ἀπόλλων , ᾧ τάδ' ἐκπρᾶξαι μέλει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:378.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:378.1.text#Κρέοντος ἢ σοῦ ταῦτα τἀξευρήματα ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:379.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:379.1.text#Κρέων δέ σοι πῆμ' οὐδέν , ἀλλ' αὐτὸς σὺ σοί .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:380.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:380.1.text#ὦ πλοῦτε καὶ τυραννὶ καὶ τέχνη τέχνης
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:381.1.text#ὑπερφέρουσα τῷ πολυζήλῳ βίῳ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:382.1.text#ὅσος παρ' ὑμῖν ὁ φθόνος φυλάσσεται ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:383.1.text#εἰ τῆσδέ γ' ἀρχῆς οὕνεχ' , ἣν ἐμοὶ πόλις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:384.1.text#δωρητόν , οὐκ αἰτητόν , εἰσεχείρισεν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:385.1.text#ταύτης Κρέων ὁ πιστός , οὑξ ἀρχῆς φίλος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:386.1.text#λάθρᾳ μ' ὑπελθὼν ἐκβαλεῖν ἱμείρεται ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:387.1.text#ὑφεὶς μάγον τοιόνδε μηχανορράφον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:388.1.text#δόλιον ἀγύρτην , ὅστις ἐν τοῖς κέρδεσιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:389.1.text#μόνον δέδορκε , τὴν τέχνην δ' ἔφυ τυφλός .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:390.1.text#ἐπεί , φέρ' εἰπέ , ποῦ σὺ μάντις εἶ σαφής ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:391.1.text#πῶς οὐκ , ὅθ' ἡ ῥαψῳδὸς ἐνθάδ' ἦν κύων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:392.1.text#ηὔδας τι τοῖσδ' ἀστοῖσιν ἐκλυτήριον ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:393.1.text#καίτοι τό γ' αἴνιγμ' οὐχὶ τοὐπιόντος ἦν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:394.1.text#ἀνδρὸς διειπεῖν , ἀλλὰ μαντείας ἔδει :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:395.1.text#ἣν οὔ τ' ἀπ' οἰωνῶν σὺ προυφάνης ἔχων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:396.1.text#οὔ τ' ἐκ θεῶν του γνωτόν : ἀλλ' ἐγὼ μολών ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:397.1.text#ὁ μηδὲν εἰδὼς Οἰδίπους , ἔπαυσά νιν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:398.1.text#γνώμῃ κυρήσας οὐ δ' ἀπ' , οἰωνῶν μαθών :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:399.1.text#ὃν δὴ σὺ πειρᾷς ἐκβαλεῖν , δοκῶν θρόνοις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:400.1.text#παραστατήσειν τοῖς Κρεοντείοις πέλας .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:401.1.text#κλαίων δοκεῖς μοι καὶ σὺ χὠ συνθεὶς τάδε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:402.1.text#ἀγηλατήσειν : εἰ δὲ μὴ ' δόκεις γέρων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:403.1.text#εἶναι , παθὼν ἔγνως ἂν οἷά περ φρονεῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:404.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:404.1.text#ἡμῖν μὲν εἰκάζουσι καὶ τὰ τοῦδ' ἔπη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:405.1.text#ὀργῇ λελέχθαι καὶ τά σ' , Οἰδίπους , δοκεῖ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:406.1.text#δεῖ δ' οὐ τοιούτων , ἀλλ' ὅπως τὰ τοῦ θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:407.1.text#μαντεῖ' ἄριστα λύσομεν , τόδε σκοπεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:408.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:408.1.text#εἰ καὶ τυραννεῖς , ἐξισωτέον τὸ γοῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:409.1.text#ἴσ' ἀντιλέξαι : τοῦδε γὰρ κἀγὼ κρατῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:410.1.text#οὐ γάρ τι σοὶ ζῶ δοῦλος , ἀλλὰ Λοξίᾳ :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:411.1.text#ὥστ' οὐ Κρέοντος προστάτου γεγράψομαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:412.1.text#λέγω δ' , ἐπειδὴ καὶ τυφλόν μ' ὠνείδισας :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:413.1.text#σὺ καὶ δέδορκας κοὐ βλέπεις ἵν' εἶ κακοῦ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:414.1.text#οὐ δ' ἔνθα ναίεις , οὐ δ' ὅτων οἰκεῖς μέτα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:415.1.text#ἆρ' οἶσθ' ἀφ' ὧν εἶ ; καὶ λέληθας ἐχθρὸς ὢν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:416.1.text#τοῖς σοῖσιν αὐτοῦ νέρθε κἀπὶ γῆς ἄνω ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:417.1.text#καί σ' ἀμφιπλὴξ μητρός τε καὶ τοῦ σοῦ πατρὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:418.1.text#ἐλᾷ ποτ' ἐκ γῆς τῆσδε δεινόπους ἀρά ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:419.1.text#βλέποντα νῦν μὲν ὄρθ' , ἔπειτα δὲ σκότον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:420.1.text#βοῆς δὲ τῆς σῆς ποῖος οὐκ ἔσται λιμήν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:421.1.text#ποῖος Κιθαιρὼν οὐχὶ σύμφωνος τάχα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:422.1.text#ὅταν καταίσθῃ τὸν ὑμέναιον , ὃν δόμοις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:423.1.text#ἄνορμον εἰσέπλευσας , εὐπλοίας τυχών ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:424.1.text#ἄλλων δὲ πλῆθος οὐκ ἐπαισθάνει κακῶν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:425.1.text#ἅ σ' ἐξισώσει σοί τε καὶ τοῖς σοῖς τέκνοις .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:426.1.text#πρὸς ταῦτα καὶ Κρέοντα καὶ τοὐμὸν στόμα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:427.1.text#προπηλάκιζε : σοῦ γὰρ οὐκ ἔστιν βροτῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:428.1.text#κάκιον ὅστις ἐκτριβήσεταί ποτε .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:429.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:429.1.text#ἦ ταῦτα δῆτ' ἀνεκτὰ πρὸς τούτου κλύειν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:430.1.text#οὐκ εἰς ὄλεθρον ; οὐχὶ θᾶσσον ; οὐ πάλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:431.1.text#ἄψορρος οἴκων τῶνδ' ἀποστραφεὶς ἄπει ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:432.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:432.1.text#οὐ δ' ἱκόμην ἔγωγ' ἄν , εἰ σὺ μὴ ' κάλεις .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:433.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:433.1.text#οὐ γάρ τί σ' ᾔδη μῶρα φωνήσοντ' , ἐπεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:434.1.text#σχολῇ σ' ἂν οἴκους τοὺς ἐμοὺς ἐστειλάμην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:435.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:435.1.text#ἡμεῖς τοιοίδ' ἔφυμεν , ὡς μὲν σοὶ δοκεῖ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:436.1.text#μῶροι , γονεῦσι δ' , οἵ σ' ἔφυσαν , ἔμφρονες .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:437.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:437.1.text#ποίοισι ; μεῖνον , τίς δέ μ' ἐκφύει βροτῶν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:438.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:438.1.text#ἥδ' ἡμέρα φύσει σε καὶ διαφθερεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:439.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:439.1.text#ὡς πάντ' ἄγαν αἰνικτὰ κἀσαφῆ λέγεις .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:440.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:440.1.text#οὔκουν σὺ ταῦτ' ἄριστος εὑρίσκειν ἔφυς ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:441.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:441.1.text#τοιαῦτ' ὀνείδιζ' , οἷς ἔμ' εὑρήσεις μέγαν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:442.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:442.1.text#αὕτη γε μέντοι σ' ἡ τύχη διώλεσεν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:443.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:443.1.text#ἀλλ' εἰ πόλιν τήνδ' ἐξέσωσ' , οὔ μοι μέλει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:444.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:444.1.text#ἄπειμι τοίνυν : καὶ σύ , παῖ , κόμιζέ με .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:445.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:445.1.text#κομιζέτω δῆθ' : ὡς παρὼν σύ γ' ἐμποδὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:446.1.text#ὀχλεῖς , συθείς τ' ἂν οὐκ ἂν ἀλγύνοις πλέον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:447.1.speaker#Τειρεσίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:447.1.text#εἰπὼν ἄπειμ' ὧν οὕνεκ' , ἦλθον , οὐ τὸ σὸν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:448.1.text#δείσας πρόσωπον : οὐ γὰρ ἔσθ' ὅπου μ' ὀλεῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:449.1.text#λέγω δέ σοι : τὸν ἄνδρα τοῦτον , ὃν πάλαι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:450.1.text#ζητεῖς ἀπειλῶν κἀνακηρύσσων φόνον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:451.1.text#τὸν Λαΐειον , οὗτός ἐστιν ἐνθάδε ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:452.1.text#ξένος λόγῳ μέτοικος , εἶτα δ' ἐγγενὴς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:453.1.text#φανήσεται Θηβαῖος , οὐ δ' ἡσθήσεται
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:454.1.text#τῇ ξυμφορᾷ : τυφλὸς γὰρ ἐκ δεδορκότος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:455.1.text#καὶ πτωχὸς ἀντὶ πλουσίου ξένην ἔπι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:456.1.text#σκήπτρῳ προδεικνὺς γαῖαν ἐμπορεύσεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:457.1.text#φανήσεται δὲ παισὶ τοῖς αὑτοῦ ξυνὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:458.1.text#ἀδελφὸς αὑτὸς καὶ πατήρ , κἀξ ἧς ἔφυ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:459.1.text#γυναικὸς υἱὸς καὶ πόσις , καὶ τοῦ πατρὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:460.1.text#ὁμόσπορός τε καὶ φονεύς . καὶ ταῦτ' ἰὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:461.1.text#εἴσω λογίζου : κἂν λάβῃς ἐψευσμένον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:462.1.text#φάσκειν ἔμ' ἤδη μαντικῇ μηδὲν φρονεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:463.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:463.1.text#τίς ὅντιν' ἁ θεσπιέπεια Δελφὶς εἶπε πέτρα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:465.1.text#ἄρρητ' ἀρρήτων τελέσαντα φοινίαισι χερσίν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:466.1.text#ὥρα νιν ἀελλάδων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:467.1.text#ἵππων σθεναρώτερον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:468.1.text#φυγᾷ πόδα νωμᾶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:469.1.text#ἔνοπλος γὰρ ἐπ' αὐτὸν ἐπενθρῴσκει
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:470.1.text#πυρὶ καὶ στεροπαῖς ὁ Διὸς γενέτας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:471.1.text#δειναὶ δ' ἅμ' ἕπονται
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:472.1.text#κῆρες ἀναπλάκητοι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:473.1.text#ἔλαμψε γὰρ τοῦ νιφόεντος ἀρτίως φανεῖσα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:474.1.text#φάμα Παρνασοῦ τὸν ἄδηλον ἄνδρα πάντ' ἰχνεύειν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:475.1.text#φοιτᾷ γὰρ ὑπ' ἀγρίαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:476.1.text#ὕλαν ἀνά τ' ἄντρα καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:477.1.text#πέτρας ἰσόταυρος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:478.1.text#μέλεος μελέῳ ποδὶ χηρεύων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:480.1.text#τὰ μεσόμφαλα γᾶς ἀπονοσφίζων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:481.1.text#μαντεῖα : τὰ δ' ἀεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:482.1.text#ζῶντα περιποτᾶται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:483.1.text#δεινὰ μὲν οὖν , δεινὰ ταράσσει σοφὸς οἰωνοθέτας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:485.1.text#οὔ τε δοκοῦντ' οὔ τ' ἀποφάσκονθ' : ὅ τι λέξω δ' ἀπορῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:486.1.text#πέτομαι δ' ἐλπίσιν οὔ τ' , ἐνθάδ' ὁρῶν οὔ τ' ὀπίσω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:487.1.text#τί γὰρ ἢ Λαβδακίδαις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:490.1.text#ἢ τῷ Πολύβου νεῖκος ἔκειτ' , οὔ τε πάροιθέν ποτ' ἔγωγ'
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:491.1.text#ἔμαθον , πρὸς ὅτου δὴ βασανίζων βασάνῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:492.1.text#ἐπὶ τὰν ἐπίδαμον φάτιν εἶμ' Οἰδιπόδα Λαβδακίδαις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:495.1.text#ἐπίκουρος ἀδήλων θανάτων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:496.1.text#ἀλλ' ὁ μὲν οὖν Ζεὺς ὅ τ' Ἀπόλλων ξυνετοὶ καὶ τὰ βροτῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:500.1.text#εἰδότες : ἀνδρῶν δ' ὅτι μάντις πλέον ἢ ' γὼ φέρεται ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:501.1.text#κρίσις οὔκ ἔστιν ἀλαθής : σοφίᾳ δ' ἂν σοφίαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:502.1.text#παραμείψειεν ἀνήρ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:505.1.text#ἀλλ' οὔποτ' ἔγωγ' ἄν , πρὶν ἴδοιμ' ὀρθὸν ἔπος , μεμφομένων ἂν καταφαίην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:506.1.text#φανερὰ γὰρ ἐπ' αὐτῷ , πτερόεσσ' ἦλθε κόρα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:510.1.text#ποτέ , καὶ σοφὸς ὤφθη βασάνῳ θ' ἁδύπολις τῷ ἀπ' ἐμᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:511.1.text#φρενὸς οὔποτ' ὀφλήσει κακίαν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:512.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:512.1.text#ἄνδρες πολῖται , δείν' ἔπη πεπυσμένος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:513.1.text#κατηγορεῖν μου τὸν τύραννον Οἰδίπουν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:515.1.text#πάρειμ' ἀτλητῶν . εἰ γὰρ ἐν ταῖς ξυμφοραῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:516.1.text#ταῖς νῦν νομίζει πρός γ' ἐμοῦ πεπονθέναι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:517.1.text#λόγοισιν εἴτ' ἔργοισιν εἰς βλάβην φέρον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:518.1.text#οὔτοι βίου μοι τοῦ μακραίωνος πόθος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:519.1.text#φέροντι τήνδε βάξιν . οὐ γὰρ εἰς ἁπλοῦν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:520.1.text#ἡ ζημία μοι τοῦ λόγου τούτου φέρει ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:521.1.text#ἀλλ' ἐς μέγιστον , εἰ κακὸς μὲν ἐν πόλει ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:522.1.text#κακὸς δὲ πρὸς σοῦ καὶ φίλων κεκλήσομαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:523.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:523.1.text#ἀλλ' ἦλθε μὲν δὴ τοῦτο τοὔνειδος τάχ' ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:524.1.text#ὀργῇ βιασθὲν μᾶλλον ἢ γνώμῃ φρενῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:525.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:525.1.text#τοὔπος δ' ἐφάνθη , ταῖς ἐμαῖς γνώμαις ὅτι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:526.1.text#πεισθεὶς ὁ μάντις τοὺς λόγους ψευδεῖς λέγοι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:527.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:527.1.text#ηὐδᾶτο μὲν τάδ' , οἶδα δ' οὐ γνώμῃ τίνι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:528.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:528.1.text#ἐξ ὀμμάτων δ' ὀρθῶν τε κἀξ ὀρθῆς φρενὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:529.1.text#κατηγορεῖτο τοὐπίκλημα τοῦτό μου ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:530.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:530.1.text#οὐκ οἶδ' : ἃ γὰρ δρῶσ' , οἱ κρατοῦντες οὐχ ὁρῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:531.1.text#αὐτὸς δ' ὅδ' ἤδη δωμάτων ἔξω περᾷ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:532.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:532.1.text#οὗτος σύ , πῶς δεῦρ' ἦλθες ; ἦ τοσόνδ' ἔχεις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:533.1.text#τόλμης πρόσωπον ὥστε τὰς ἐμὰς στέγας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:534.1.text#ἵκου , φονεὺς ὢν τοῦδε τἀνδρὸς ἐμφανῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:535.1.text#λῃστής τ' ἐναργὴς τῆς ἐμῆς τυραννίδος ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:536.1.text#φέρ' εἰπὲ πρὸς θεῶν , δειλίαν ἢ μωρίαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:537.1.text#ἰδών τιν' ἔν μοι ταῦτ' ἐβουλεύσω ποεῖν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:538.1.text#ἢ τοὔργον ὡς οὐ γνωριοῖμί σου τόδε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:539.1.text#δόλῳ προσέρπον ἢ οὐκ ἀλεξοίμην μαθών ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:540.1.text#ἆρ' οὐχὶ μῶρόν ἐστι τοὐγχείρημά σου ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:541.1.text#ἄνευ τε πλήθους καὶ φίλων τυραννίδα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:542.1.text#θηρᾶν , ὃ πλήθει χρήμασίν θ' ἁλίσκεται ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:543.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:543.1.text#οἶσθ' ὡς πόησον ; ἀντὶ τῶν εἰρημένων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:544.1.text#ἴσ' ἀντάκουσον , κᾆτα κρῖν' αὐτὸς μαθών .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:545.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:545.1.text#λέγειν σὺ δεινός , μανθάνειν δ' ἐγὼ κακὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:546.1.text#σοῦ : δυσμενῆ γὰρ καὶ βαρύν σ' ηὕρηκ' ἐμοί .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:547.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:547.1.text#τοῦτ' αὐτὸ νῦν μου πρῶτ' ἄκουσον ὡς ἐρῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:548.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:548.1.text#τοῦτ' αὐτὸ μή μοι φράζ' , ὅπως οὐκ εἶ κακός .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:549.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:549.1.text#εἴ τοι νομίζεις κτῆμα τὴν αὐθαδίαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:550.1.text#εἶναί τι τοῦ νοῦ χωρίς , οὐκ ὀρθῶς φρονεῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:551.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:551.1.text#εἴ τοι νομίζεις ἄνδρα συγγενῆ κακῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:552.1.text#δρῶν οὐχ ὑφέξειν τὴν δίκην , οὐκ εὖ φρονεῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:553.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:553.1.text#ξύμφημί σοι ταῦτ' ἔνδικ' εἰρῆσθαι : τὸ δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:554.1.text#πάθημ' ὁποῖον φὴς παθεῖν , δίδασκέ με .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:555.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:555.1.text#ἔπειθες ἢ οὐκ ἔπειθες , ὡς χρείη μ' ἐπὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:556.1.text#τὸν σεμνόμαντιν ἄνδρα πέμψασθαί τινα ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:557.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:557.1.text#καὶ νῦν ἔθ' αὑτός εἰμι τῷ βουλεύματι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:558.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:558.1.text#πόσον τιν' ἤδη δῆθ' ὁ Λάϊος χρόνον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:559.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:559.1.text#δέδρακε ποῖον ἔργον ; οὐ γὰρ ἐννοῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:560.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:560.1.text#ἄφαντος ἔρρει θανασίμῳ χειρώματι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:561.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:561.1.text#μακροὶ παλαιοί τ' ἂν μετρηθεῖεν χρόνοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:562.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:562.1.text#τότ' οὖν ὁ μάντις οὗτος ἦν ἐν τῇ τέχνῃ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:563.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:563.1.text#σοφός γ' ὁμοίως κἀξ ἴσου τιμώμενος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:564.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:564.1.text#ἐμνήσατ' οὖν ἐμοῦ τι τῷ τότ' ἐν χρόνῳ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:565.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:565.1.text#οὔκουν ἐμοῦ γ' ἑστῶτος οὐδαμοῦ πέλας .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:566.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:566.1.text#ἀλλ' οὐκ ἔρευναν τοῦ κτανόντος ἔσχετε ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:567.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:567.1.text#παρέσχομεν , πῶς δ' οὐχί ; κοὐκ ἠκούσαμεν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:568.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:568.1.text#πῶς οὖν τόθ' οὗτος ὁ σοφὸς οὐκ ηὔδα τάδε ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:569.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:569.1.text#οὐκ οἶδ' : ἐφ' οἷς γὰρ μὴ φρονῶ σιγᾶν φιλῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:570.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:570.1.text#τοσόνδε γ' οἶσθα καὶ λέγοις ἂν εὖ φρονῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:571.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:571.1.text#ποῖον τόδ' ; εἰ γὰρ οἶδά γ' , οὐκ ἀρνήσομαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:572.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:572.1.text#ὁθούνεκ' , εἰ μὴ σοὶ ξυνῆλθε , τάσδ' ἐμὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:573.1.text#οὐκ ἄν ποτ' εἶπε Λαΐου διαφθοράς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:574.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:574.1.text#εἰ μὲν λέγει τάδ' , αὐτὸς οἶσθ' : ἐγὼ δὲ σοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:575.1.text#μαθεῖν δικαιῶ ταὔθ' ἅπερ κἀμοῦ σὺ νῦν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:576.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:576.1.text#ἐκμάνθαν' : οὐ γὰρ δὴ φονεὺς ἁλώσομαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:577.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:577.1.text#τί δῆτ' ; ἀδελφὴν τὴν ἐμὴν γήμας ἔχεις ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:578.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:578.1.text#ἄρνησις οὐκ ἔνεστιν ὧν ἀνιστορεῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:579.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:579.1.text#ἄρχεις δ' ἐκείνῃ ταὐτὰ γῆς ἴσον νέμων ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:580.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:580.1.text#ἃν ᾖ θέλουσα πάντ' ἐμοῦ κομίζεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:581.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:581.1.text#οὔκουν ἰσοῦμαι σφῷν ἐγὼ δυοῖν τρίτος ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:582.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:582.1.text#ἐνταῦθα γὰρ δὴ καὶ κακὸς φαίνει φίλος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:583.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:583.1.text#οὔκ , εἰ διδοίης γ' ὡς ἐγὼ σαυτῷ λόγον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:584.1.text#σκέψαι δὲ τοῦτο πρῶτον , εἴ τιν' ἂν δοκεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:585.1.text#ἄρχειν ἑλέσθαι ξὺν φόβοισι μᾶλλον ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:586.1.text#ἄτρεστον εὕδοντ' , εἰ τά γ' αὔθ' ἕξει κράτη .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:587.1.text#ἐγὼ μὲν οὖν οὔ τ' αὐτὸς ἱμείρων ἔφυν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:588.1.text#τύραννος εἶναι μᾶλλον ἢ τύραννα δρᾶν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:589.1.text#οὔ τ' ἄλλος ὅστις σωφρονεῖν ἐπίσταται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:590.1.text#νῦν μὲν γὰρ ἐκ σοῦ πάντ' ἄνευ φόβου φέρω ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:591.1.text#εἰ δ' αὐτὸς ἦρχον , πολλὰ κἂν ἄκων ἔδρων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:592.1.text#πῶς δῆτ' ἐμοὶ τυραννὶς ἡδίων ἔχειν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:593.1.text#ἀρχῆς ἀλύπου καὶ δυναστείας ἔφυ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:594.1.text#οὔπω τοσοῦτον ἠπατημένος κυρῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:595.1.text#ὥστ' ἄλλα χρῄζειν ἢ τὰ σὺν κέρδει καλά .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:596.1.text#νῦν πᾶσι χαίρω , νῦν με πᾶς ἀσπάζεται ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:597.1.text#νῦν οἱ σέθεν χρῄζοντες ἐκκαλοῦσί με :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:598.1.text#τὸ γὰρ τυχεῖν αὐτοῖσι πᾶν ἐνταῦθ' ἔνι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:599.1.text#πῶς δῆτ' ἐγὼ κεῖν' ἂν λάβοιμ' ἀφεὶς τάδε ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:600.1.text#οὐκ ἂν γένοιτο νοῦς κακὸς καλῶς φρονῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:601.1.text#ἀλλ' οὔ τ' ἐραστὴς τῆσδε τῆς γνώμης ἔφυν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:602.1.text#οὔ τ' ἂν μετ' ἄλλου δρῶντος ἂν τλαίην ποτέ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:603.1.text#καὶ τῶνδ' ἔλεγχον τοῦτο μὲν Πυθώδ' ἰὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:604.1.text#πεύθου τὰ χρησθέντ' εἰ σαφῶς ἤγγειλά σοι :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:605.1.text#τοῦτ' ἄλλ' , ἐάν με τῷ τερασκόπῳ λάβῃς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:606.1.text#κοινῇ τι βουλεύσαντα , μή μ' ἁπλῇ κτάνῃς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:607.1.text#ψήφῳ , διπλῇ δέ , τῇ τ' ἐμῇ καὶ σῇ , λαβών :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:608.1.text#γνώμῃ δ' ἀδήλῳ μή με χωρὶς αἰτιῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:609.1.text#οὐ γὰρ δίκαιον οὔ τε τοὺς κακοὺς μάτην
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:610.1.text#χρηστοὺς νομίζειν οὔ τε τοὺς χρηστοὺς κακούς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:611.1.text#φίλον γὰρ ἐσθλὸν ἐκβαλεῖν ἴσον λέγω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:612.1.text#καὶ τὸν παρ' αὑτῷ βίοτον , ὃν πλεῖστον , φιλεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:613.1.text#ἀλλ' ἐν χρόνῳ γνώσει τάδ' ἀσφαλῶς , ἐπεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:614.1.text#χρόνος δίκαιον ἄνδρα δείκνυσιν μόνος :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:615.1.text#κακὸν δὲ κἂν ἐν ἡμέρᾳ γνοίης μιᾷ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:616.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:616.1.text#καλῶς ἔλεξεν εὐλαβουμένῳ πεσεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:617.1.text#ἄναξ : φρονεῖν γὰρ οἱ ταχεῖς οὐκ ἀσφαλεῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:618.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:618.1.text#ὅταν ταχύς τις οὑπιβουλεύων λάθρᾳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:619.1.text#χωρῇ , ταχὺν δεῖ κἀμὲ βουλεύειν πάλιν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:620.1.text#εἰ δ' ἡσυχάζων προσμενῶ , τὰ τοῦδε μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:621.1.text#πεπραγμέν' ἔσται , τἀμὰ δ' ἡμαρτημένα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:622.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:622.1.text#τί δῆτα χρῄζεις ; ἦ με γῆς ἔξω βαλεῖν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:623.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:623.1.text#ἥκιστα : θνῄσκειν , οὐ φυγεῖν σε βούλομαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:624.1.text#ὡς ἂν προδείξῃς οἷόν ἐστι τὸ φθονεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:625.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:625.1.text#ὡς οὐχ ὑπείξων οὐ δὲ πιστεύσων λέγεις ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:626.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:626.1.text#τὸ γοῦν ἐμόν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:626.2.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:626.2.text#οὐ γὰρ φρονοῦντά σ' εὖ βλέπω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:627.2.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:627.2.text#ἀλλ' ἐξ ἴσου δεῖ κἀμόν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:627.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:627.1.text#ἀλλ' ἔφυς κακός .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:628.2.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:628.2.text#εἰ δὲ ξυνίης μηδέν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:628.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:628.1.text#ἀρκτέον γ' ὅμως .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:629.2.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:629.2.text#οὔτοι κακῶς γ' ἄρχοντος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:629.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:629.1.text#ὦ πόλις πόλις .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:630.1.text#κἀμοὶ πόλεως μέτεστιν , οὐχί σοι μόνῳ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:631.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:631.1.text#παύσασθ' , ἄνακτες : καιρίαν δ' ὑμῖν ὁρῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:632.1.text#τήνδ' ἐκ δόμων στείχουσαν Ἰοκάστην , μεθ' ἧς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:633.1.text#τὸ νῦν παρεστὸς νεῖκος εὖ θέσθαι χρεών .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:634.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:634.1.text#τί τὴν ἄβουλον , ὦ ταλαίπωροι , στάσιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:635.1.text#γλώσσης ἐπήρασθ' οὐ δ' ἐπαισχύνεσθε γῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:636.1.text#οὕτω νοσούσης ἴδια κινοῦντες κακά ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:637.1.text#οὐκ εἶ σύ τ' οἴκους σύ τε , Κρέων , κατὰ στέγας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:638.1.text#καὶ μὴ τὸ μηδὲν ἄλγος εἰς μέγ' οἴσετε ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:639.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:639.1.text#ὅμαιμε , δεινά μ' Οἰδίπους ὁ σὸς πόσις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:640.1.text#δρᾶσαι δικαιοῖ δυοῖν ἀποκρίνας κακοῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:641.1.text#ἢ γῆς ἀπῶσαι πατρίδος ἢ κτεῖναι λαβών .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:642.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:642.1.text#ξύμφημι : δρῶντα γάρ νιν , ὦ γύναι , κακῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:643.1.text#εἴληφα τοὐμὸν σῶμα σὺν τέχνῃ κακῇ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:644.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:644.1.text#μή νυν ὀναίμην , ἀλλ' ἀραῖος , εἴ σέ τι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:645.1.text#δέδρακ' , ὀλοίμην , ὧν ἐπαιτιᾷ με δρᾶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:646.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:646.1.text#ὦ πρὸς θεῶν πίστευσον , Οἰδίπους , τάδε ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:647.1.text#μάλιστα μὲν τόνδ' ὅρκον αἰδεσθεὶς θεῶν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:648.1.text#ἔπειτα κἀμὲ τούσδε θ' οἳ πάρεισί σοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:649.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:649.1.text#πιθοῦ θελήσας φρονήσας τ' , ἄναξ , λίσσομαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:650.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:650.1.text#τί σοι θέλεις δῆτ' εἰκάθω ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:651.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:651.1.text#τὸν οὔ τε πρὶν νήπιον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:652.1.text#νῦν τ' ἐν ὅρκῳ μέγαν καταίδεσαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:653.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:653.1.text#οἶσθ' οὖν ἃ χρῄζεις ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:654.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:654.1.text#οἶδα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:655.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:655.1.text#φράζε δὴ τί φής .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:656.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:656.1.text#τὸν ἐναγῆ φίλον μήποτ' ἐν αἰτίᾳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:657.1.text#σὺν ἀφανεῖ λόγῳ σ' ἄτιμον βαλεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:658.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:658.1.text#εὖ νυν ἐπίστω , ταῦθ' ὅταν ζητῇς , ἐμοὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:659.1.text#ζητῶν ὄλεθρον ἢ φυγὴν ἐκ τῆσδε γῆς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:660.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:660.1.text#οὐ τὸν πάντων θεῶν θεὸν πρόμον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:661.1.text#Ἅλιον : ἐπεὶ ἄθεος ἄφιλος ὅ τι πύματον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:662.1.text#ὀλοίμαν , φρόνησιν εἰ τάνδ' ἔχω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:665.1.text#ἀλλά μοι δυσμόρῳ γᾶ φθινὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:666.1.text#τρύχει ψυχάν , τάδ' εἰ κακοῖς κακὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:667.1.text#προσάψει τοῖς πάλαι τὰ πρὸς σφῷν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:668.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:668.1.text#ὁ δ' οὖν ἴτω , κεἰ χρή με παντελῶς θανεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:670.1.text#ἢ γῆς ἄτιμον τῆσδ' ἀπωσθῆναι βίᾳ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:671.1.text#τὸ γὰρ σόν , οὐ τὸ τοῦδ' , ἐποικτίρω στόμα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:672.1.text#ἐλεινόν : οὗτος δ' ἔνθ' ἂν ᾖ στυγήσεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:673.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:673.1.text#στυγνὸς μὲν εἴκων δῆλος εἶ , βαρὺς δ' , ὅταν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:674.1.text#θυμοῦ περάσῃς : αἱ δὲ τοιαῦται φύσεις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:675.1.text#αὑταῖς δικαίως εἰσὶν ἄλγισται φέρειν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:676.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:676.1.text#οὔκουν μ' ἐάσεις κἀκτὸς εἶ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:677.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:677.1.text#πορεύσομαι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:678.1.text#σοῦ μὲν τυχὼν ἀγνῶτος , ἐν δὲ τοῖσδ' ἴσος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:679.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:679.1.text#γύναι , τί μέλλεις κομίζειν δόμων τόνδ' ἔσω ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:680.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:680.1.text#μαθοῦσά γ' ἥτις ἡ τύχη .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:681.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:681.1.text#δόκησις ἀγνὼς λόγων ἦλθε , δάπτει δὲ καὶ τὸ μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:682.1.text#' νδικον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:683.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:683.1.text#ἀμφοῖν ἀπ' αὐτοῖν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:684.2.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:684.2.text#καὶ τίς ἦν λόγος ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:684.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:684.1.text#ναίχι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:685.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:685.1.text#ἅλις ἔμοιγ' , ἅλις , γᾶς προπονουμένας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:686.1.text#φαίνεται ἔνθ' ἔληξεν αὐτοῦ μένειν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:687.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:687.1.text#ὁρᾷς ἵν' ἥκεις , ἀγαθὸς ὢν γνώμην ἀνήρ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:688.1.text#τοὐμὸν παριεὶς καὶ καταμβλύνων κέαρ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:690.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:690.1.text#ὦναξ , εἶπον μὲν οὐχ ἅπαξ μόνον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:691.1.text#ἴσθι δὲ παραφρόνιμον , ἄπορον ἐπὶ φρόνιμα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:692.1.text#πεφάνθαι μ' ἄν , εἴ σ' ἐνοσφιζόμαν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:693.1.text#ὅς τ' ἐμὰν γᾶν φίλαν ἐν πόνοις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:695.1.text#ἀλύουσαν κατ' ὀρθὸν οὔρισας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:696.1.text#τανῦν τ' εὔπομπος , ἂν γένοιο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:697.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:697.1.text#πρὸς θεῶν δίδαξον κἄμ' , ἄναξ , ὅτου ποτὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:698.1.text#μῆνιν τοσήνδε πράγματος στήσας ἔχεις .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:700.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:700.1.text#ἐρῶ : σὲ γὰρ τῶνδ' ἐς πλέον , γύναι , σέβω :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:701.1.text#Κρέοντος , οἷά μοι βεβουλευκὼς ἔχει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:702.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:702.1.text#λέγ' , εἰ σαφῶς τὸ νεῖκος ἐγκαλῶν ἐρεῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:703.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:703.1.text#φονέα με φησὶ Λαΐου καθεστάναι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:704.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:704.1.text#αὐτὸς ξυνειδὼς ἢ μαθὼν ἄλλου πάρα ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:705.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:705.1.text#μάντιν μὲν οὖν κακοῦργον εἰσπέμψας , ἐπεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:706.1.text#τό γ' εἰς ἑαυτὸν πᾶν ἐλευθεροῖ στόμα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:707.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:707.1.text#σύ νυν ἀφεὶς σεαυτὸν ὧν λέγεις πέρι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:708.1.text#ἐμοῦ ' πάκουσον , καὶ μάθ' οὕνεκ' ἐστί σοι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:709.1.text#βρότειον οὐδὲν μαντικῆς ἔχον τέχνης .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:710.1.text#φανῶ δέ σοι σημεῖα τῶνδε σύντομα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:711.1.text#χρησμὸς γὰρ ἦλθε Λαΐῳ ποτ' , οὐκ ἐρῶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:712.1.text#Φοίβου γ' ἄπ' αὐτοῦ , τῶν δ' ὑπηρετῶν ἄπο ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:713.1.text#ὡς αὐτὸν ἕξοι μοῖρα πρὸς παιδὸς θανεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:714.1.text#ὅστις γένοιτ' ἐμοῦ τε κἀκείνου πάρα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:715.1.text#καὶ τὸν μέν , ὥσπερ γ' ἡ φάτις , ξένοι ποτὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:716.1.text#λῃσταὶ φονεύουσ' ἐν τριπλαῖς ἁμαξιτοῖς :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:717.1.text#παιδὸς δὲ βλάστας οὐ διέσχον ἡμέραι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:718.1.text#τρεῖς , καί νιν ἄρθρα κεῖνος ἐνζεύξας ποδοῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:719.1.text#ἔρριψεν ἄλλων χερσὶν ἄβατον εἰς ὄρος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:720.1.text#κἀνταῦθ' Ἀπόλλων οὔ τ' ἐκεῖνον ἤνυσεν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:721.1.text#φονέα γενέσθαι πατρὸς οὔ τε Λάϊον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:722.1.text#τὸ δεινὸν οὑφοβεῖτο πρὸς παιδὸς θανεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:723.1.text#τοιαῦτα φῆμαι μαντικαὶ διώρισαν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:724.1.text#ὧν ἐντρέπου σὺ μηδέν : ὧν γὰρ ἂν θεὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:725.1.text#χρείαν ἐρευνᾷ , ῥᾳδίως αὐτὸς φανεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:726.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:726.1.text#οἷόν μ' ἀκούσαντ' ἀρτίως ἔχει , γύναι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:727.1.text#ψυχῆς πλάνημα κἀνακίνησις φρενῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:728.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:728.1.text#ποίας μερίμνης τοῦθ' ὑποστραφεὶς λέγεις ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:729.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:729.1.text#ἔδοξ' ἀκοῦσαι σοῦ τόδ' , ὡς ὁ Λάϊος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:730.1.text#κατασφαγείη πρὸς τριπλαῖς ἁμαξιτοῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:731.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:731.1.text#ηὐδᾶτο γὰρ ταῦτ' οὐ δέ πω λήξαντ' ἔχει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:732.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:732.1.text#καὶ ποῦ ' σθ' ὁ χῶρος οὗτος οὗ τόδ' ἦν πάθος ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:733.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:733.1.text#Φωκὶς μὲν ἡ γῆ κλῄζεται , σχιστὴ δ' ὁδὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:734.1.text#ἐς ταὐτὸ Δελφῶν κἀπὸ Δαυλίας ἄγει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:735.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:735.1.text#καὶ τίς χρόνος τοῖσδ' ἐστὶν οὑξεληλυθώς ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:736.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:736.1.text#σχεδόν τι πρόσθεν ἢ σὺ τῆσδ' ἔχων χθονὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:737.1.text#ἀρχὴν ἐφαίνου , τοῦτ' ἐκηρύχθη πόλει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:738.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:738.1.text#ὦ Ζεῦ , τί μου δρᾶσαι βεβούλευσαι πέρι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:739.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:739.1.text#τί δ' ἐστί σοι τοῦτ' , Οἰδίπους , ἐνθύμιον ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:740.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:740.1.text#μήπω μ' ἐρώτα : τὸν δὲ Λάϊον φύσιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:741.1.text#τίν' ἦλθε φράζε , τίνα δ' ἀκμὴν ἥβης ἔχων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:742.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:742.1.text#μέγας , χνοάζων ἄρτι λευκανθὲς κάρα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:743.1.text#μορφῆς δὲ τῆς σῆς οὐκ ἀπεστάτει πολύ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:744.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:744.1.text#οἴμοι τάλας : ἔοικ' ἐμαυτὸν εἰς ἀρὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:745.1.text#δεινὰς προβάλλων ἀρτίως οὐκ εἰδέναι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:746.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:746.1.text#πῶς φῄς ; ὀκνῶ τοι πρός σ' ἀποσκοποῦσ' , ἄναξ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:747.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:747.1.text#δεινῶς ἀθυμῶ μὴ βλέπων ὁ μάντις ᾖ :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:748.1.text#δείξεις δὲ μᾶλλον , ἢν ἓν ἐξείπῃς ἔτι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:749.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:749.1.text#καὶ μὴν ὀκνῶ μέν , ἃ δ' ἂν ἔρῃ μαθοῦσ' ἐρῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:750.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:750.1.text#πότερον ἐχώρει βαιὸς ἢ πολλοὺς ἔχων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:751.1.text#ἄνδρας λοχίτας , οἷ' ἀνὴρ ἀρχηγέτης ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:752.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:752.1.text#πέντ' ἦσαν οἱ ξύμπαντες , ἐν δ' αὐτοῖσιν ἦν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:753.1.text#κῆρυξ : ἀπήνη δ' ἦγε Λάϊον μία .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:754.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:754.1.text#αἰαῖ , τάδ' ἤδη διαφανῆ . τίς ἦν ποτε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:755.1.text#ὁ τούσδε λέξας τοὺς λόγους ὑμῖν , γύναι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:756.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:756.1.text#οἰκεύς τις , ὅσπερ ἵκετ' ἐκσωθεὶς μόνος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:757.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:757.1.text#ἦ κἀν δόμοισι τυγχάνει τανῦν παρών ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:758.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:758.1.text#οὐ δῆτ' : ἀφ' οὗ γὰρ κεῖθεν ἦλθε καὶ κράτη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:759.1.text#σέ τ' εἶδ' ἔχοντα Λάϊόν τ' ὀλωλότα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:760.1.text#ἐξικέτευσε τῆς ἐμῆς χειρὸς θιγὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:761.1.text#ἀγρούς σφε πέμψαι κἀπὶ ποιμνίων νομάς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:762.1.text#ὡς πλεῖστον εἴη τοῦδ' ἄποπτος ἄστεως .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:763.1.text#κἄπεμψ' ἐγώ νιν : ἄξιος γὰρ οἷ' ἀνὴρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:764.1.text#δοῦλος φέρειν ἦν τῆσδε καὶ μείζω χάριν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:765.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:765.1.text#πῶς ἂν μόλοι δῆθ' ἡμὶν ἐν τάχει πάλιν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:766.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:766.1.text#πάρεστιν : ἀλλὰ πρὸς τί τοῦτ' ἐφίεσαι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:767.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:767.1.text#δέδοικ' ἐμαυτόν , ὦ γύναι , μὴ πόλλ' ἄγαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:768.1.text#εἰρημέν' ᾖ μοι δι' ἅ νιν εἰσιδεῖν θέλω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:769.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:769.1.text#ἀλλ' ἵξεται μέν : ἀξία δέ που μαθεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:770.1.text#κἀγὼ τά γ' ἐν σοὶ δυσφόρως ἔχοντ' , ἄναξ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:771.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:771.1.text#κοὐ μὴ στερηθῇς γ' , ἐς τοσοῦτον ἐλπίδων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:772.1.text#ἐμοῦ βεβῶτος . τῷ γὰρ ἂν καὶ μείζονι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:773.1.text#λέξαιμ' ἂν ἢ σοί , διὰ τύχης τοιᾶσδ' ἰών ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:774.1.text#ἐμοὶ πατὴρ μὲν Πόλυβος ἦν Κορίνθιος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:775.1.text#μήτηρ δὲ Μερόπη Δωρίς . ἠγόμην δ' ἀνὴρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:776.1.text#ἀστῶν μέγιστος τῶν ἐκεῖ , πρίν μοι τύχη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:777.1.text#τοιάδ' ἐπέστη , θαυμάσαι μὲν ἀξία ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:778.1.text#σπουδῆς γε μέντοι τῆς ἐμῆς οὐκ ἀξία .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:779.1.text#ἀνὴρ γὰρ ἐν δείπνοις μ' ὑπερπλησθεὶς μέθῃ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:780.1.text#καλεῖ παρ' οἴνῳ , πλαστὸς ὡς εἴην πατρί .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:781.1.text#κἀγὼ βαρυνθεὶς τὴν μὲν οὖσαν ἡμέραν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:782.1.text#μόλις κατέσχον , θἀτέρᾳ δ' ἰὼν πέλας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:783.1.text#μητρὸς πατρός τ' ἤλεγχον : οἱ δὲ δυσφόρως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:784.1.text#τοὔνειδος ἦγον τῷ μεθέντι τὸν λόγον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:785.1.text#κἀγὼ τὰ μὲν κείνοιν ἐτερπόμην , ὅμως δ'
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:786.1.text#ἔκνιζέ μ' ἀεὶ τοῦθ' : ὑφεῖρπε γὰρ πολύ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:787.1.text#λάθρᾳ δὲ μητρὸς καὶ πατρὸς πορεύομαι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:788.1.text#Πυθώδε , καί μ' ὁ Φοῖβος ὧν μὲν ἱκόμην
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:789.1.text#ἄτιμον ἐξέπεμψεν , ἄλλα δ' ἄθλια
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:790.1.text#καὶ δεινὰ καὶ δύστηνα προύφηνεν λέγων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:791.1.text#ὡς μητρὶ μὲν χρείη με μιχθῆναι , γένος δ'
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:792.1.text#ἄτλητον ἀνθρώποισι δηλώσοιμ' ὁρᾶν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:793.1.text#φονεὺς δ' ἐσοίμην τοῦ φυτεύσαντος πατρός .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:794.1.text#κἀγὼ ' πακούσας ταῦτα τὴν Κορινθίαν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:795.1.text#ἄστροις τὸ λοιπὸν ἐκμετρούμενος , χθόνα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:796.1.text#ἔφευγον , ἔνθα μήποτ' ὀψοίμην κακῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:797.1.text#χρησμῶν ὀνείδη τῶν ἐμῶν τελούμενα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:798.1.text#στείχων δ' ἱκνοῦμαι τούσδε τοὺς χώρους , ἐν οἷς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:799.1.text#σὺ τὸν τύραννον τοῦτον ὄλλυσθαι λέγεις .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:800.1.text#καί σοι , γύναι , τἀληθὲς ἐξερῶ . τριπλῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:801.1.text#ὅτ' ἦ κελεύθου τῆσδ' ὁδοιπορῶν πέλας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:802.1.text#ἐνταῦθά μοι κῆρύξ τε κἀπὶ πωλικῆς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:803.1.text#ἀνὴρ ἀπήνης ἐμβεβώς , οἷον σὺ φῇς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:804.1.text#ξυνηντίαζον : κἀξ ὁδοῦ μ' ὅ θ' ἡγεμὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:805.1.text#αὐτός θ' ὁ πρέσβυς πρὸς βίαν ἠλαυνέτην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:806.1.text#κἀγὼ τὸν ἐκτρέποντα , τὸν τροχηλάτην ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:807.1.text#παίω δι' ὀργῆς : καί μ' ὁ πρέσβυς ὡς ὁρᾷ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:808.1.text#ὄχου παραστείχοντα τηρήσας , μέσον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:809.1.text#κάρα διπλοῖς κέντροισί μου καθίκετο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:810.1.text#οὐ μὴν ἴσην γ' ἔτισεν , ἀλλὰ συντόμως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:811.1.text#σκήπτρῳ τυπεὶς ἐκ τῆσδε χειρὸς ὕπτιος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:812.1.text#μέσης ἀπήνης εὐθὺς ἐκκυλίνδεται :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:813.1.text#κτείνω δὲ τοὺς ξύμπαντας . εἰ δὲ τῷ ξένῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:814.1.text#τούτῳ προσήκει Λαΐου τι συγγενές ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:815.1.text#τίς τοῦδέ γ' ἀνδρός ἐστιν ἀθλιώτερος ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:816.1.text#τίς ἐχθροδαίμων μᾶλλον ἂν γένοιτ' ἀνήρ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:817.1.text#ὃν μὴ ξένων ἔξεστι μη δ' ἀστῶν τινι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:818.1.text#δόμοις δέχεσθαι μη δὲ προσφωνεῖν τινα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:819.1.text#ὠθεῖν δ' ἀπ' οἴκων . καὶ τάδ' οὔτις ἄλλος ἦν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:820.1.text#ἢ ' γὼ ' π' ἐμαυτῷ τάσδ' ἀρὰς ὁ προστιθείς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:821.1.text#λέχη δὲ τοῦ θανόντος ἐκ χεροῖν ἐμαῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:822.1.text#χραίνω , δι' ὧνπερ ὤλετ' : ἆρ' ἔφυν κακός ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:823.1.text#ἆρ' οὐχὶ πᾶς ἄναγνος ; εἴ με χρὴ φυγεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:824.1.text#καί μοι φυγόντι μἤστι τοὺς ἐμοὺς ἰδεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:825.1.text#μη δ' ἐμβατεύειν πατρίδος , ἢ γάμοις με δεῖ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:826.1.text#μητρὸς ζυγῆναι καὶ πατέρα κατακτανεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:827.1.text#Πόλυβον , ὃς ἐξέφυσε κἀξέθρεψέ με .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:828.1.text#ἆρ' οὐκ ἀπ' ὠμοῦ ταῦτα δαίμονός τις ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:829.1.text#κρίνων ἐπ' ἀνδρὶ τῷδ' ἂν ὀρθοίη λόγον ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:830.1.text#μὴ δῆτα , μὴ δῆτ' , ὦ θεῶν ἁγνὸν σέβας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:831.1.text#ἴδοιμι ταύτην ἡμέραν , ἀλλ' ἐκ βροτῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:832.1.text#βαίην ἄφαντος πρόσθεν ἢ τοιάνδ' ἰδεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:833.1.text#κηλῖδ' ἐμαυτῷ συμφορᾶς ἀφιγμένην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:834.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:834.1.text#ἡμῖν μέν , ὦναξ , ταῦτ' ὀκνήρ' : ἕως δ' ἂν οὖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:835.1.text#πρὸς τοῦ παρόντος ἐκμάθῃς , ἔχ' ἐλπίδα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:836.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:836.1.text#καὶ μὴν τοσοῦτόν γ' ἐστί μοι τῆς ἐλπίδος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:837.1.text#τὸν ἄνδρα τὸν βοτῆρα προσμεῖναι μόνον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:838.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:838.1.text#πεφασμένου δὲ τίς ποθ' ἡ προθυμία ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:839.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:839.1.text#ἐγὼ διδάξω σ' : ἢν γὰρ εὑρεθῇ λέγων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:840.1.text#σοὶ ταὔτ' , ἔγωγ' ἂν ἐκπεφευγοίην πάθος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:841.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:841.1.text#ποῖον δέ μου περισσὸν ἤκουσας λόγον ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:842.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:842.1.text#λῃστὰς ἔφασκες αὐτὸν ἄνδρας ἐννέπειν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:843.1.text#ὥς νιν κατακτείνειαν . εἰ μὲν οὖν ἔτι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:844.1.text#λέξει τὸν αὐτὸν ἀριθμόν , οὐκ ἐγὼ ' κτανον :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:845.1.text#οὐ γὰρ γένοιτ' ἂν εἷς γε τοῖς πολλοῖς ἴσος :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:846.1.text#εἰ δ' ἄνδρ' ἕν' οἰόζωνον αὐδήσει , σαφῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:847.1.text#τοῦτ' ἐστὶν ἤδη τοὔργον εἰς ἐμὲ ῥέπον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:848.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:848.1.text#ἀλλ' ὡς φανέν γε τοὔπος ὧδ' ἐπίστασο ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:849.1.text#κοὐκ ἔστιν αὐτῷ τοῦτό γ' ἐκβαλεῖν πάλιν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:850.1.text#πόλις γὰρ ἤκουσ' , οὐκ ἐγὼ μόνη , τάδε .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:851.1.text#εἰ δ' οὖν τι κἀκτρέποιτο τοῦ πρόσθεν λόγου ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:852.1.text#οὔτοι ποτ' , ὦναξ , σόν γε Λαΐου φόνον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:853.1.text#φανεῖ δικαίως ὀρθόν , ὅν γε Λοξίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:854.1.text#διεῖπε χρῆναι παιδὸς ἐξ ἐμοῦ θανεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:855.1.text#καίτοι νιν οὐ κεῖνός γ' ὁ δύστηνός ποτε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:856.1.text#κατέκταν' , ἀλλ' αὐτὸς πάροιθεν ὤλετο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:857.1.text#ὥστ' οὐχὶ μαντείας γ' ἂν οὔ τε τῇδ' ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:858.1.text#βλέψαιμ' ἂν εἵνεκ' οὔ τε τῇδ' ἂν ὕστερον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:859.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:859.1.text#καλῶς νομίζεις : ἀλλ' ὅμως τὸν ἐργάτην
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:860.1.text#πέμψον τινὰ στελοῦντα μη δὲ τοῦτ' ἀφῇς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:861.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:861.1.text#πέμψω ταχύνασ' : ἀλλ' ἴωμεν ἐς δόμους :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:862.1.text#οὐδὲν γὰρ ἂν πράξαιμ' ἂν ὧν οὐ σοὶ φίλον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:863.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:863.1.text#εἴ μοι ξυνείη φέροντι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:864.1.text#μοῖρα τὰν εὔσεπτον ἁγνείαν λόγων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:865.1.text#ἔργων τε πάντων , ὧν νόμοι πρόκεινται
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:866.1.text#ὑψίποδες , οὐρανίαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:867.1.text#δι' αἰθέρα τεκνωθέντες , ὧν Ὄλυμπος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:868.1.text#πατὴρ μόνος , οὐ δέ νιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:869.1.text#θνατὰ φύσις ἀνέρων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:870.1.text#ἔτικτεν οὐ δὲ μή ποτε λάθα κατακοιμάσῃ :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:871.1.text#μέγας ἐν τούτοις θεὸς οὐ δὲ γηράσκει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:873.1.text#ὕβρις φυτεύει τύραννον :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:874.1.text#ὕβρις , εἰ πολλῶν ὑπερπλησθῇ μάταν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:875.1.text#ἃ μὴ ' πίκαιρα μη δὲ συμφέροντα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:876.1.text#ἀκρότατον εἰσαναβᾶσ'
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:877.1.text#αἶπος ἀπότομον ὤρουσεν εἰς ἀνάγκαν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:878.1.text#ἔνθ' οὐ ποδὶ χρησίμῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:880.1.text#χρῆται . τὸ καλῶς δ' ἔχον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:881.1.text#πόλει πάλαισμα μήποτε λῦσαι θεὸν αἰτοῦμαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:882.1.text#θεὸν οὐ λήξω ποτὲ προστάταν ἴσχων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:884.1.text#εἰ δέ τις ὑπέροπτα χερσὶν ἢ λόγῳ πορεύεται ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:885.1.text#δίκας ἀφόβητος οὐ δὲ δαιμόνων ἕδη σέβων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:886.1.text#κακά νιν ἕλοιτο μοῖρα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:887.1.text#δυσπότμου χάριν χλιδᾶς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:888.1.text#εἰ μὴ τὸ κέρδος κερδανεῖ δικαίως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:890.1.text#καὶ τῶν ἀσέπτων ἔρξεται
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:891.1.text#ἢ τῶν ἀθίκτων θίξεται ματᾴζων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:892.1.text#τίς ἔτι ποτ' ἐν τοῖσδ' ἀνὴρ θεῶν βέλη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:893.1.text#εὔξεται ψυχᾶς ἀμύνειν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:895.1.text#εἰ γὰρ αἱ τοιαίδε πράξεις τίμιαι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:896.1.text#τί δεῖ με χορεύειν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:897.1.text#οὐκέτι τὸν ἄθικτον εἶμι γᾶς ἐπ' ὀμφαλὸν σέβων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:900.1.text#οὐ δ' ἐς τὸν Ἀβαῖσι ναὸν οὐ δὲ τὰν Ὀλυμπίαν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:901.1.text#εἰ μὴ τάδε χειρόδεικτα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:902.1.text#πᾶσιν ἁρμόσει βροτοῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:905.1.text#ἀλλ' , ὦ κρατύνων , εἴπερ ὄρθ' ἀκούεις ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:906.1.text#Ζεῦ , πάντ' ἀνάσσων , μὴ λάθοι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:907.1.text#σὲ τάν τε σὰν ἀθάνατον αἰὲν ἀρχάν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:908.1.text#φθίνοντα γὰρ Λαΐου παλαίφατα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:909.1.text#θέσφατ' ἐξαιροῦσιν ἤδη , κοὐδαμοῦ τιμαῖς Ἀπόλλων ἐμφανής :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:910.1.text#ἔρρει δὲ τὰ θεῖα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:911.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:911.1.text#χώρας ἄνακτες , δόξα μοι παρεστάθη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:912.1.text#ναοὺς ἱκέσθαι δαιμόνων , τάδ' ἐν χεροῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:913.1.text#στέφη λαβούσῃ κἀπιθυμιάματα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:914.1.text#ὑψοῦ γὰρ αἴρει θυμὸν Οἰδίπους ἄγαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:915.1.text#λύπαισι παντοίαισιν : οὐ δ' ὁποῖ' ἀνὴρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:916.1.text#ἔννους τὰ καινὰ τοῖς πάλαι τεκμαίρεται ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:917.1.text#ἀλλ' ἐστὶ τοῦ λέγοντος , εἰ φόβους λέγοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:918.1.text#ὅτ' οὖν παραινοῦσ' οὐδὲν ἐς πλέον ποιῶ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:919.1.text#πρὸς σ' , ὦ Λύκει' Ἄπολλον , ἄγχιστος γὰρ εἶ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:920.1.text#ἱκέτις ἀφῖγμαι τοῖσδε σὺν κατεύγμασιν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:921.1.text#ὅπως λύσιν τιν' ἡμὶν εὐαγῆ πόρῃς :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:922.1.text#ὡς νῦν ὀκνοῦμεν πάντες ἐκπεπληγμένον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:923.1.text#κεῖνον βλέποντες ὡς κυβερνήτην νεώς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:924.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:924.1.text#ἆρ' ἂν παρ' ὑμῶν , ὦ ξένοι , μάθοιμ' ὅπου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:925.1.text#τὰ τοῦ τυράννου δώματ' ἐστὶν Οἰδίπου ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:926.1.text#μάλιστα δ' αὐτὸν εἴπατ' , εἰ κάτισθ' ὅπου .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:927.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:927.1.text#στέγαι μὲν αἵδε , καὐτὸς ἔνδον , ὦ ξένε :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:928.1.text#γυνὴ δὲ μήτηρ ἥδε τῶν κείνου τέκνων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:929.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:929.1.text#ἀλλ' ὀλβία τε καὶ ξὺν ὀλβίοις ἀεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:930.1.text#γένοιτ' , ἐκείνου γ' οὖσα παντελὴς δάμαρ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:931.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:931.1.text#αὔτως δὲ καὶ σύ γ' , ὦ ξέν' : ἄξιος γὰρ εἶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:932.1.text#τῆς εὐεπείας εἵνεκ' : ἀλλὰ φράζ' ὅτου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:933.1.text#χρῄζων ἀφῖξαι χὤ τι σημῆναι θέλων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:934.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:934.1.text#ἀγαθὰ δόμοις τε καὶ πόσει τῷ σῷ , γύναι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:935.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:935.1.text#τὰ ποῖα ταῦτα ; παρὰ τίνος δ' ἀφιγμένος ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:936.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:936.1.text#ἐκ τῆς Κορίνθου : τὸ δ' ἔπος οὑξερῶ τάχα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:937.1.text#ἥδοιο μέν , πῶς δ' οὐκ ἄν , ἀσχάλλοις δ' ἴσως .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:938.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:938.1.text#τί δ' ἔστι ; ποίαν δύναμιν ὧδ' ἔχει διπλῆν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:939.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:939.1.text#τύραννον αὐτὸν οὑπιχώριοι χθονὸς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:940.1.text#τῆς Ἰσθμίας στήσουσιν , ὡς ηὐδᾶτ' ἐκεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:941.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:941.1.text#τί δ' ; οὐχ ὁ πρέσβυς Πόλυβος ἐγκρατὴς ἔτι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:942.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:942.1.text#οὐ δῆτ' , ἐπεί νιν θάνατος ἐν τάφοις ἔχει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:943.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:943.1.text#πῶς εἶπας ; ἦ τέθνηκε Πόλυβος , ὦ γέρον ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:944.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:944.1.text#εἰ μὴ λέγω τἀληθές , ἀξιῶ θανεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:945.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:945.1.text#ὦ πρόσπολ' , οὐχὶ δεσπότῃ τάδ' ὡς τάχος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:946.1.text#μολοῦσα λέξεις ; ὦ θεῶν μαντεύματα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:947.1.text#ἵν' ἐστέ : τοῦτον Οἰδίπους πάλαι τρέμων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:948.1.text#τὸν ἄνδρ' ἔφευγε μὴ κτάνοι , καὶ νῦν ὅδε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:949.1.text#πρὸς τῆς τύχης ὄλωλεν οὐ δὲ τοῦδ' ὕπο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:950.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:950.1.text#ὦ φίλτατον γυναικὸς Ἰοκάστης κάρα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:951.1.text#τί μ' ἐξεπέμψω δεῦρο τῶνδε δωμάτων ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:952.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:952.1.text#ἄκουε τἀνδρὸς τοῦδε , καὶ σκόπει κλύων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:953.1.text#τὰ σέμν' ἵν' ἥκει τοῦ θεοῦ μαντεύματα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:954.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:954.1.text#οὗτος δὲ τίς ποτ' ἐστὶ καὶ τί μοι λέγει ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:955.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:955.1.text#ἐκ τῆς Κορίνθου , πατέρα τὸν σὸν ἀγγελῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:956.1.text#ὡς οὐκέτ' ὄντα Πόλυβον , ἀλλ' ὀλωλότα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:957.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:957.1.text#τί φῄς , ξέν' ; αὐτός μοι σὺ σημάντωρ γενοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:958.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:958.1.text#εἰ τοῦτο πρῶτον δεῖ μ' ἀπαγγεῖλαι σαφῶς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:959.1.text#εὖ ἴσθ' ἐκεῖνον θανάσιμον βεβηκότα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:960.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:960.1.text#πότερα δόλοισιν ἢ νόσου ξυναλλαγῇ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:961.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:961.1.text#σμικρὰ παλαιὰ σώματ' εὐνάζει ῥοπή .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:962.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:962.1.text#νόσοις ὁ τλήμων , ὡς ἔοικεν , ἔφθιτο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:963.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:963.1.text#καὶ τῷ μακρῷ γε συμμετρούμενος χρόνῳ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:964.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:964.1.text#φεῦ φεῦ , τί δῆτ' ἄν , ὦ γύναι , σκοποῖτό τι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:965.1.text#τὴν Πυθόμαντιν ἑστίαν ἢ τοὺς ἄνω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:966.1.text#κλάζοντας ὄρνεις , ὧν ὑφηγητῶν ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:967.1.text#κτενεῖν ἔμελλον πατέρα τὸν ἐμόν ; ὁ δὲ θανὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:968.1.text#κεύθει κάτω δὴ γῆς . ἐγὼ δ' ὅδ' ἐνθάδε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:969.1.text#ἄψαυστος ἔγχους : εἴ τι μὴ τὠμῷ πόθῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:970.1.text#κατέφθιθ' : οὕτω δ' ἂν θανὼν εἴη ' ξ ἐμοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:971.1.text#τὰ δ' οὖν παρόντα συλλαβὼν θεσπίσματα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:972.1.text#κεῖται παρ' Ἅιδῃ Πόλυβος ἄξι' οὐδενός .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:973.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:973.1.text#οὔκουν ἐγώ σοι ταῦτα προύλεγον πάλαι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:974.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:974.1.text#ηὔδας : ἐγὼ δὲ τῷ φόβῳ παρηγόμην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:975.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:975.1.text#μὴ νῦν ἔτ' αὐτῶν μηδὲν ἐς θυμὸν βάλῃς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:976.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:976.1.text#καὶ πῶς τὸ μητρὸς οὐκ ὀκνεῖν λέχος με δεῖ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:977.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:977.1.text#τί δ' ἂν φοβοῖτ' ἄνθρωπος ᾧ τὰ τῆς τύχης
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:978.1.text#κρατεῖ , πρόνοια δ' ἐστὶν οὐδενὸς σαφής ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:979.1.text#εἰκῆ κράτιστον ζῆν , ὅπως δύναιτό τις .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:980.1.text#σὺ δ' εἰς τὰ μητρὸς μὴ φοβοῦ νυμφεύματα :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:981.1.text#πολλοὶ γὰρ ἤδη κἀν ὀνείρασιν βροτῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:982.1.text#μητρὶ ξυνηυνάσθησαν . ἀλλὰ ταῦθ' ὅτῳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:983.1.text#παρ' οὐδέν ἐστι , ῥᾷστα τὸν βίον φέρει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:984.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:984.1.text#καλῶς ἅπαντα ταῦτ' ἂν ἐξείρητό σοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:985.1.text#εἰ μὴ ' κύρει ζῶσ' ἡ τεκοῦσα : νῦν δ' ἐπεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:986.1.text#ζῇ , πᾶσ' ἀνάγκη , κεἰ καλῶς λέγεις , ὀκνεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:987.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:987.1.text#καὶ μὴν μέγας γ' ὀφθαλμὸς οἱ πατρὸς τάφοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:988.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:988.1.text#μέγας , ξυνίημ' : ἀλλὰ τῆς ζώσης φόβος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:989.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:989.1.text#ποίας δὲ καὶ γυναικὸς ἐκφοβεῖσθ' ὕπερ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:990.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:990.1.text#Μερόπης , γεραιέ , Πόλυβος ἧς ᾤκει μέτα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:991.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:991.1.text#τί δ' ἔστ' ἐκείνης ὑμὶν ἐς φόβον φέρον ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:992.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:992.1.text#θεήλατον μάντευμα δεινόν , ὦ ξένε .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:993.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:993.1.text#ἦ ῥητόν ; ἢ οὐχὶ θεμιτὸν ἄλλον εἰδέναι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:994.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:994.1.text#μάλιστά γ' : εἶπε γάρ με Λοξίας ποτὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:995.1.text#χρῆναι μιγῆναι μητρὶ τἠμαυτοῦ τό τε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:996.1.text#πατρῷον αἷμα χερσὶ ταῖς ἐμαῖς ἑλεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:997.1.text#ὧν οὕνεχ' ἡ Κόρινθος ἐξ ἐμοῦ πάλαι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:998.1.text#μακρὰν ἀπῳκεῖτ' : εὐτυχῶς μέν , ἀλλ' ὅμως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:999.1.text#τὰ τῶν τεκόντων ὄμμαθ' ἥδιστον βλέπειν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1000.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1000.1.text#ἦ γὰρ τάδ' ὀκνῶν κεῖθεν ἦσθ' ἀπόπτολις ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1001.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1001.1.text#πατρός τε χρῄζων μὴ φονεὺς εἶναι , γέρον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1002.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1002.1.text#τί δῆτ' ἐγὼ οὐχὶ τοῦδε τοῦ φόβου σ' , ἄναξ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1003.1.text#ἐπείπερ εὔνους ἦλθον , ἐξελυσάμην ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1004.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1004.1.text#καὶ μὴν χάριν γ' ἂν ἀξίαν λάβοις ἐμοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1005.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1005.1.text#καὶ μὴν μάλιστα τοῦτ' ἀφικόμην , ὅπως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1006.1.text#σοῦ πρὸς δόμους ἐλθόντος εὖ πράξαιμί τι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1007.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1007.1.text#ἀλλ' οὔποτ' εἶμι τοῖς φυτεύσασίν γ' ὅμοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1008.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1008.1.text#ὦ παῖ , καλῶς εἶ δῆλος οὐκ εἰδὼς τί δρᾷς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1009.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1009.1.text#πῶς , ὦ γεραιέ ; πρὸς θεῶν δίδασκέ με .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1010.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1010.1.text#εἰ τῶνδε φεύγεις οὕνεκ' εἰς οἴκους μολεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1011.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1011.1.text#ταρβῶν γε μή μοι Φοῖβος ἐξέλθῃ σαφής .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1012.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1012.1.text#ἦ μὴ μίασμα τῶν φυτευσάντων λάβῃς ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1013.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1013.1.text#τοῦτ' αὐτό , πρέσβυ , τοῦτό μ' εἰσαεὶ φοβεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1014.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1014.1.text#ἆρ' οἶσθα δῆτα πρὸς δίκης οὐδὲν τρέμων ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1015.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1015.1.text#πῶς δ' οὐχί , παῖς γ' εἰ τῶνδε γεννητῶν ἔφυν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1016.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1016.1.text#ὁθούνεκ' ἦν σοι Πόλυβος οὐδὲν ἐν γένει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1017.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1017.1.text#πῶς εἶπας ; οὐ γὰρ Πόλυβος ἐξέφυσέ με ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1018.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1018.1.text#οὐ μᾶλλον οὐδὲν τοῦδε τἀνδρός , ἀλλ' ἴσον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1019.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1019.1.text#καὶ πῶς ὁ φύσας ἐξ ἴσου τῷ μηδενί ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1020.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1020.1.text#ἀλλ' οὔ σ' ἐγείνατ' οὔ τ' ἐκεῖνος οὔ τ' ἐγώ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1021.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1021.1.text#ἀλλ' ἀντὶ τοῦ δὴ παῖδά μ' ὠνομάζετο ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1022.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1022.1.text#δῶρόν ποτ' , ἴσθι , τῶν ἐμῶν χειρῶν λαβών .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1023.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1023.1.text#κᾆθ' ὧδ' ἀπ' ἄλλης χειρὸς ἔστερξεν μέγα ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1024.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1024.1.text#ἡ γὰρ πρὶν αὐτὸν ἐξέπεισ' ἀπαιδία .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1025.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1025.1.text#σὺ δ' ἐμπολήσας ἢ τυχών μ' αὐτῷ δίδως ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1026.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1026.1.text#εὑρὼν ναπαίαις ἐν Κιθαιρῶνος πτυχαῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1027.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1027.1.text#ὡδοιπόρεις δὲ πρὸς τί τούσδε τοὺς τόπους ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1028.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1028.1.text#ἐνταῦθ' ὀρείοις ποιμνίοις ἐπεστάτουν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1029.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1029.1.text#ποιμὴν γὰρ ἦσθα κἀπὶ θητείᾳ πλάνης ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1030.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1030.1.text#σοῦ τ' , ὦ τέκνον , σωτήρ γε τῷ τότ' ἐν χρόνῳ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1031.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1031.1.text#τί δ' ἄλγος ἴσχοντ' ἀγκάλαις με λαμβάνεις ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1032.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1032.1.text#ποδῶν ἂν ἄρθρα μαρτυρήσειεν τὰ σά :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1033.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1033.1.text#οἴμοι , τί τοῦτ' ἀρχαῖον ἐννέπεις κακόν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1034.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1034.1.text#λύω σ' ἔχοντα διατόρους ποδοῖν ἀκμάς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1035.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1035.1.text#δεινόν γ' ὄνειδος σπαργάνων ἀνειλόμην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1036.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1036.1.text#ὥστ' ὠνομάσθης ἐκ τύχης ταύτης ὃς εἶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1037.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1037.1.text#ὦ πρὸς θεῶν , πρὸς μητρὸς ἢ πατρός ; φράσον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1038.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1038.1.text#οὐκ οἶδ' : ὁ δοὺς δὲ ταῦτ' ἐμοῦ λῷον φρονεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1039.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1039.1.text#ἦ γὰρ παρ' ἄλλου μ' ἔλαβες οὐ δ' αὐτὸς τυχών ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1040.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1040.1.text#οὔκ , ἀλλὰ ποιμὴν ἄλλος ἐκδίδωσί μοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1041.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1041.1.text#τίς οὗτος ; ἦ κάτοισθα δηλῶσαι λόγῳ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1042.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1042.1.text#τῶν Λαΐου δήπου τις ὠνομάζετο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1043.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1043.1.text#ἦ τοῦ τυράννου τῆσδε γῆς πάλαι ποτέ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1044.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1044.1.text#μάλιστα : τούτου τἀνδρὸς οὗτος ἦν βοτήρ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1045.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1045.1.text#ἦ κἄστ' ἔτι ζῶν οὗτος , ὥστ' ἰδεῖν ἐμέ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1046.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1046.1.text#ὑμεῖς γ' ἄριστ' εἰδεῖτ' ἂν οὑπιχώριοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1047.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1047.1.text#ἔστιν τις ὑμῶν τῶν παρεστώτων πέλας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1048.1.text#ὅστις κάτοιδε τὸν βοτῆρ' ὃν ἐννέπει ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1049.1.text#εἴτ' οὖν ἐπ' ἀγρῶν εἴτε κἀνθάδ' εἰσιδών ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1050.1.text#σημήναθ' , ὡς ὁ καιρὸς ηὑρῆσθαι τάδε .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1051.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1051.1.text#οἶμαι μὲν οὐδέν' ἄλλον ἢ τὸν ἐξ ἀγρῶν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1052.1.text#ὃν κἀμάτευες πρόσθεν εἰσιδεῖν : ἀτὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1053.1.text#ἥδ' ἂν τάδ' οὐχ ἥκιστ' ἂν Ἰοκάστη λέγοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1054.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1054.1.text#γύναι , νοεῖς ἐκεῖνον , ὅντιν' ἀρτίως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1055.1.text#μολεῖν ἐφιέμεσθα ; τόνδ' οὗτος λέγει ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1056.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1056.1.text#τί δ' ὅντιν' εἶπε ; μηδὲν ἐντραπῇς : τὰ δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1057.1.text#ῥηθέντα βούλου μη δὲ μεμνῆσθαι μάτην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1058.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1058.1.text#οὐκ ἂν γένοιτο τοῦθ' ὅπως ἐγὼ λαβὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1059.1.text#σημεῖα τοιαῦτ' οὐ φανῶ τοὐμὸν γένος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1060.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1060.1.text#μὴ πρὸς θεῶν , εἴπερ τι τοῦ σαυτοῦ βίου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1061.1.text#κήδει , ματεύσῃς τοῦθ' : ἅλις νοσοῦσ' ἐγώ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1062.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1062.1.text#θάρσει : σὺ μὲν γὰρ οὐ δ' ἐὰν τρίτης ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1063.1.text#μητρὸς φανῶ τρίδουλος , ἐκφανεῖ κακή .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1064.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1064.1.text#ὅμως πιθοῦ μοι , λίσσομαι : μὴ δρᾶ τάδε .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1065.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1065.1.text#οὐκ ἂν πιθοίμην μὴ οὐ τάδ' ἐκμαθεῖν σαφῶς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1066.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1066.1.text#καὶ μὴν φρονοῦσά γ' εὖ τὰ λῷστά σοι λέγω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1067.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1067.1.text#τὰ λῷστα τοίνυν ταῦτά μ' ἀλγύνει πάλαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1068.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1068.1.text#ὦ δύσποτμ' , εἴθε μήποτε γνοίης ὃς εἶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1069.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1069.1.text#ἄξει τις ἐλθὼν δεῦρο τὸν βοτῆρά μοι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1070.1.text#ταύτην δ' ἐᾶτε πλουσίῳ χαίρειν γένει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1071.1.speaker#Ἰοκάστη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1071.1.text#ἰοὺ ἰού , δύστηνε : τοῦτο γάρ σ' ἔχω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1072.1.text#μόνον προσειπεῖν , ἄλλο δ' οὔποθ' ὕστερον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1073.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1073.1.text#τί ποτε βέβηκεν , Οἰδίπους , ὑπ' ἀγρίας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1074.1.text#ᾄξασα λύπης ἡ γυνή ; δέδοιχ' ὅπως
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1075.1.text#μὴ ' κ τῆς σιωπῆς τῆσδ' ἀναρρήξει κακά .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1076.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1076.1.text#ὁποῖα χρῄζει ῥηγνύτω : τοὐμὸν δ' ἐγώ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1077.1.text#κεἰ σμικρόν ἐστι , σπέρμ' ἰδεῖν βουλήσομαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1078.1.text#αὕτη δ' ἴσως , φρονεῖ γὰρ ὡς γυνὴ μέγα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1079.1.text#τὴν δυσγένειαν τὴν ἐμὴν αἰσχύνεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1080.1.text#ἐγὼ δ' ἐμαυτὸν παῖδα τῆς Τύχης νέμων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1081.1.text#τῆς εὖ διδούσης οὐκ ἀτιμασθήσομαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1082.1.text#τῆς γὰρ πέφυκα μητρός : οἱ δὲ συγγενεῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1083.1.text#μῆνές με μικρὸν καὶ μέγαν διώρισαν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1084.1.text#τοιόσδε δ' ἐκφὺς οὐκ ἂν ἐξέλθοιμ' ἔτι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1085.1.text#ποτ' ἄλλος , ὥστε μὴ ' κμαθεῖν τοὐμὸν γένος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1086.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1086.1.text#εἴπερ ἐγὼ μάντις εἰμὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1087.1.text#καὶ κατὰ γνώμαν ἴδρις ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1088.1.text#οὐ τὸν Ὄλυμπον ἀπείρων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1089.1.text#ὦ Κιθαιρών , οὐκ ἔσει τὰν αὔριον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1090.1.text#πανσέληνον , μὴ οὐ σέ γε καὶ πατριώταν Οἰδίπουν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1091.1.text#καὶ τροφὸν καὶ ματέρ' αὔξειν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1092.1.text#καὶ χορεύεσθαι πρὸς ἡμῶν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1093.1.text#ὡς ἐπὶ ἦρα φέροντα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1095.1.text#τοῖς ἐμοῖς τυράννοις .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1096.1.text#ἰήϊε Φοῖβε , σοὶ δὲ ταῦτ' ἀρέστ' εἴη .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1097.1.text#τίς σε , τέκνον , τίς σ' ἔτικτε τᾶν μακραιώνων ἄρα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1100.1.text#Πανὸς ὀρεσσιβάτα πατρὸς πελασθεῖσ' ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1101.1.text#ἢ σέ γ' εὐνάτειρά τις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1102.1.text#Λοξίου ; τῷ γὰρ πλάκες ἀγρόνομοι πᾶσαι φίλαι :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1105.1.text#εἴθ' ὁ Κυλλάνας ἀνάσσων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1106.1.text#εἴθ' ὁ Βακχεῖος θεὸς ναίων ἐπ' ἄκρων ὀρέων σ' εὕρημα δέξατ' ἔκ του
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1107.1.text#Νυμφᾶν Ἑλικωνίδων , αἷς πλεῖστα συμπαίζει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1110.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1110.1.text#εἰ χρή τι κἀμὲ μὴ συναλλάξαντά πω ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1111.1.text#πρέσβεις , σταθμᾶσθαι , τὸν βοτῆρ' ὁρᾶν δοκῶ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1112.1.text#ὅνπερ πάλαι ζητοῦμεν : ἔν τε γὰρ μακρῷ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1113.1.text#γήρᾳ ξυνᾴδει τῷδε τἀνδρὶ σύμμετρος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1114.1.text#ἄλλως τε τοὺς ἄγοντας ὥσπερ οἰκέτας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1115.1.text#ἔγνωκ' ἐμαυτοῦ : τῇ δ' ἐπιστήμῃ σύ μου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1116.1.text#προύχοις τάχ' ἄν που , τὸν βοτῆρ' ἰδὼν πάρος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1117.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1117.1.text#ἔγνωκα γάρ , σάφ' ἴσθι : Λαΐου γὰρ ἦν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1118.1.text#εἴπερ τις ἄλλος πιστὸς ὡς νομεὺς ἀνήρ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1119.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1119.1.text#σὲ πρῶτ' ἐρωτῶ , τὸν Κορίνθιον ξένον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1120.1.text#ἦ τόνδε φράζεις ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1120.2.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1120.2.text#τοῦτον , ὅνπερ εἰσορᾷς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1121.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1121.1.text#οὗτος σύ , πρέσβυ , δεῦρό μοι φώνει βλέπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1122.1.text#ὅσ' ἄν σ' ἐρωτῶ . Λαΐου ποτ' ἦσθα σύ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1123.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1123.1.text#ἦ δοῦλος οὐκ ὠνητός , ἀλλ' οἴκοι τραφείς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1124.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1124.1.text#ἔργον μεριμνῶν ποῖον ἢ βίον τινά ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1125.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1125.1.text#ποίμναις τὰ πλεῖστα τοῦ βίου συνειπόμην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1126.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1126.1.text#χώροις μάλιστα πρὸς τίσι ξύναυλος ὤν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1127.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1127.1.text#ἦν μὲν Κιθαιρών , ἦν δὲ πρόσχωρος τόπος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1128.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1128.1.text#τὸν ἄνδρα τόνδ' οὖν οἶσθα τῇδέ που μαθών ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1129.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1129.1.text#τί χρῆμα δρῶντα ; ποῖον ἄνδρα καὶ λέγεις ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1130.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1130.1.text#τόνδ' ὃς πάρεστιν : ἢ ξυναλλάξας τί πω ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1131.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1131.1.text#οὐχ ὥστε γ' εἰπεῖν ἐν τάχει μνήμης ἄπο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1132.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1132.1.text#κοὐδέν γε θαῦμα , δέσποτ' : ἀλλ' ἐγὼ σαφῶς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1133.1.text#ἀγνῶτ' ἀναμνήσω νιν . εὖ γὰρ οἶδ' ὅτι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1134.1.text#κάτοιδεν , ἦμος τῷ Κιθαιρῶνος τόπῳ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1135.1.text#ὁ μὲν διπλοῖσι ποιμνίοις , ἐγὼ δ' ἑνί ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1136.1.text#ἐπλησίαζον τῷδε τἀνδρὶ τρεῖς ὅλους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1137.1.text#ἐξ ἦρος εἰς ἀρκτοῦρον ἑκμήνους χρόνους :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1138.1.text#χειμῶνα δ' ἤδη τἀμά τ' εἰς ἔπαυλ' ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1139.1.text#ἤλαυνον οὗτός τ' εἰς τὰ Λαΐου σταθμά .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1140.1.text#λέγω τι τούτων ἢ οὐ λέγω πεπραγμένον ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1141.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1141.1.text#λέγεις ἀληθῆ , καίπερ ἐκ μακροῦ χρόνου .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1142.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1142.1.text#φέρ' εἰπὲ νῦν , τότ' οἶσθα παῖδά μοί τινα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1143.1.text#δούς , ὡς ἐμαυτῷ θρέμμα θρεψαίμην ἐγώ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1144.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1144.1.text#τί δ' ἔστι ; πρὸς τί τοῦτο τοὔπος ἱστορεῖς ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1145.1.speaker#Ἄγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1145.1.text#ὅδ' ἐστίν , ὦ τᾶν , κεῖνος ὃς τότ' ἦν νέος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1146.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1146.1.text#οὐκ εἰς ὄλεθρον ; οὐ σιωπήσας ἔσει ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1147.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1147.1.text#ἆ , μὴ κόλαζε , πρέσβυ , τόνδ' , ἐπεὶ τὰ σὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1148.1.text#δεῖται κολαστοῦ μᾶλλον ἢ τὰ τοῦδ' ἔπη .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1149.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1149.1.text#τί δ' , ὦ φέριστε δεσποτῶν , ἁμαρτάνω ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1150.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1150.1.text#οὐκ ἐννέπων τὸν παῖδ' ὃν οὗτος ἱστορεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1151.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1151.1.text#λέγει γὰρ εἰδὼς οὐδέν , ἀλλ' ἄλλως πονεῖ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1152.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1152.1.text#σὺ πρὸς χάριν μὲν οὐκ ἐρεῖς , κλαίων δ' ἐρεῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1153.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1153.1.text#μὴ δῆτα , πρὸς θεῶν , τὸν γέροντά μ' αἰκίσῃ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1154.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1154.1.text#οὐχ ὡς τάχος τις τοῦδ' ἀποστρέψει χέρας ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1155.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1155.1.text#δύστηνος , ἀντὶ τοῦ ; τί προσχρῄζων μαθεῖν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1156.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1156.1.text#τὸν παῖδ' ἔδωκας τῷδ' ὃν οὗτος ἱστορεῖ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1157.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1157.1.text#ἔδωκ' : ὀλέσθαι δ' ὤφελον τῇδ' ἡμέρᾳ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1158.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1158.1.text#ἀλλ' εἰς τόδ' ἥξεις μὴ λέγων γε τοὔνδικον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1159.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1159.1.text#πολλῷ γε μᾶλλον , ἢν φράσω , διόλλυμαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1160.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1160.1.text#ἁνὴρ ὅδ' , ὡς ἔοικεν , ἐς τριβὰς ἐλᾷ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1161.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1161.1.text#οὐ δῆτ' ἔγωγ' , ἀλλ' εἶπον , ὡς δοίην , πάλαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1162.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1162.1.text#πόθεν λαβών ; οἰκεῖον ἢ ' ξ ἄλλου τινός ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1163.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1163.1.text#ἐμὸν μὲν οὐκ ἔγωγ' , ἐδεξάμην δέ του .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1164.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1164.1.text#τίνος πολιτῶν τῶνδε κἀκ ποίας στέγης ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1165.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1165.1.text#μὴ πρὸς θεῶν , μή , δέσποθ' , ἱστόρει πλέον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1166.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1166.1.text#ὄλωλας , εἴ σε ταῦτ' ἐρήσομαι πάλιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1167.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1167.1.text#τῶν Λαΐου τοίνυν τις ἦν γεννημάτων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1168.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1168.1.text#ἦ δοῦλος ἢ κείνου τις ἐγγενὴς γεγώς ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1169.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1169.1.text#οἴμοι , πρὸς αὐτῷ γ' εἰμὶ τῷ δεινῷ λέγειν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1170.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1170.1.text#κἄγωγ' ἀκούειν : ἀλλ' ὅμως ἀκουστέον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1171.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1171.1.text#κείνου γέ τοι δὴ παῖς ἐκλῄζεθ' : ἡ δ' ἔσω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1172.1.text#κάλλιστ' ἂν εἴποι σὴ γυνὴ τάδ' ὡς ἔχει .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1173.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1173.1.text#ἦ γὰρ δίδωσιν ἥδε σοι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1173.2.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1173.2.text#μάλιστ' , ἄναξ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1174.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1174.1.text#ὡς πρὸς τί χρείας ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1174.2.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1174.2.text#ὡς ἀναλώσαιμί νιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1175.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1175.1.text#τεκοῦσα τλήμων ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1175.2.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1175.2.text#θεσφάτων γ' ὄκνῳ κακῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1176.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1176.1.text#ποίων ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1176.2.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1176.2.text#κτενεῖν νιν τοὺς τεκόντας ἦν λόγος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1177.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1177.1.text#πῶς δῆτ' ἀφῆκας τῷ γέροντι τῷδε σύ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1178.1.speaker#Θεράπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1178.1.text#κατοικτίσας , ὦ δέσποθ' , ὡς ἄλλην χθόνα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1179.1.text#δοκῶν ἀποίσειν , αὐτὸς ἔνθεν ἦν : ὁ δὲ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1180.1.text#κάκ' εἰς μέγιστ' ἔσωσεν . εἰ γὰρ οὗτος εἶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1181.1.text#ὅν φησιν οὗτος , ἴσθι δύσποτμος γεγώς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1182.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1182.1.text#ἰοὺ ἰού : τὰ πάντ' ἂν ἐξήκοι σαφῆ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1183.1.text#ὦ φῶς , τελευταῖόν σε προσβλέψαιμι νῦν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1184.1.text#ὅστις πέφασμαι φύς τ' ἀφ' ὧν οὐ χρῆν , ξὺν οἷς τ'
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1185.1.text#οὐ χρῆν ὁμιλῶν , οὕς τέ μ' οὐκ ἔδει κτανών .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1186.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1186.1.text#ἰὼ γενεαὶ βροτῶν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1187.1.text#ὡς ὑμᾶς ἴσα καὶ τὸ μηδὲν ζώσας ἐναριθμῶ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1188.1.text#τίς γάρ , τίς ἀνὴρ πλέον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1189.1.text#τᾶς εὐδαιμονίας φέρει
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1190.1.text#ἢ τοσοῦτον ὅσον δοκεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1191.1.text#καὶ δόξαντ' ἀποκλῖναι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1192.1.text#τὸν σόν τοι παράδειγμ' ἔχων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1193.1.text#τὸν σὸν δαίμονα , τὸν σόν , ὦ τλᾶμον Οἰδιπόδα , βροτῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1194.1.text#οὐδὲν μακαρίζω :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1195.1.text#ὅστις καθ' ὑπερβολὰν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1196.1.text#τοξεύσας ἐκράτησε τοῦ πάντ' εὐδαίμονος ὄλβου ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1197.1.text#ὦ Ζεῦ , κατὰ μὲν φθίσας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1198.1.text#τὰν γαμψώνυχα παρθένον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1199.1.text#χρησμῳδόν , θανάτων δ' ἐμᾷ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1200.1.text#χώρᾳ πύργος ἀνέστα :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1201b.1.text#ἐξ οὗ καὶ βασιλεὺς καλεῖ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1202.1.text#ἐμὸς καὶ τὰ μέγιστ' ἐτιμάθης , ταῖς μεγάλαισιν ἐν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1203.1.text#Θήβαισιν ἀνάσσων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1204.1.text#τανῦν δ' ἀκούειν τίς ἀθλιώτερος ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1205.1.text#τίς ἄταις ἀγρίαις , τίς ἐν πόνοις
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1206.1.text#ξύνοικος ἀλλαγᾷ βίου ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1207.1.text#ἰὼ κλεινὸν Οἰδίπου κάρα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1208.1.text#ἦ στέγας λιμὴν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1209.1.text#αὑτὸς ἤρκεσεν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1210.1.text#παιδὶ καὶ πατρὶ θαλαμηπόλῳ πεσεῖν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1211.1.text#πῶς ποτε πῶς ποθ' αἱ πατρῷαί σ' ἄλοκες φέρειν , τάλας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1212.1.text#σῖγ' ἐδυνάθησαν ἐς τοσόνδε ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1213.1.text#ἐφηῦρέ σ' ἄκονθ' ὁ πάνθ' ὁρῶν χρόνος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1214.1.text#δικάζει τ' ἄγαμον γάμον πάλαι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1215.1.text#τεκνοῦντα καὶ τεκνούμενον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1216.1.text#ἰώ , Λαΐειον ὦ τέκνον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1217.1.text#εἴθε σ' εἴθε σε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1218.1.text#μήποτ' εἰδόμαν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1219.1.text#δύρομαι γὰρ ὥσπερ ἰάλεμον χέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1220.1.text#ἐκ στομάτων . τὸ δ' ὀρθὸν εἰπεῖν , ἀνέπνευσά τ' ἐκ σέθεν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1222.1.text#καὶ κατεκοίμασα τοὐμὸν ὄμμα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1223.1.speaker#Ἐξάγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1223.1.text#ὦ γῆς μέγιστα τῆσδ' ἀεὶ τιμώμενοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1224.1.text#οἷ' , ἔργ' ἀκούσεσθ' , οἷα δ' εἰσόψεσθ' , ὅσον δ'
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1225.1.text#ἀρεῖσθε πένθος , εἴπερ ἐγγενῶς ἔτι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1226.1.text#τῶν Λαβδακείων ἐντρέπεσθε δωμάτων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1227.1.text#οἶμαι γὰρ οὔ τ' ἂν Ἴστρον οὔ τε Φᾶσιν ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1228.1.text#νίψαι καθαρμῷ τήνδε τὴν στέγην , ὅσα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1229.1.text#κεύθει , τὰ δ' αὐτίκ' εἰς τὸ φῶς φανεῖ κακὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1230.1.text#ἑκόντα κοὐκ ἄκοντα . τῶν δὲ πημονῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1231.1.text#μάλιστα λυποῦσ' αἳ φανῶσ' αὐθαίρετοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1232.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1232.1.text#λείπει μὲν οὐ δ' ἃ πρόσθεν εἴδομεν τὸ μὴ οὐ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1233.1.text#βαρύστον' εἶναι : πρὸς δ' ἐκείνοισιν τί φῄς ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1234.1.speaker#Ἐξάγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1234.1.text#ὁ μὲν τάχιστος τῶν λόγων εἰπεῖν τε καὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1235.1.text#μαθεῖν , τέθνηκε θεῖον Ἰοκάστης κάρα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1236.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1236.1.text#ὦ δυστάλαινα , πρὸς τίνος ποτ' αἰτίας ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1237.1.speaker#Ἐξάγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1237.1.text#αὐτὴ πρὸς αὑτῆς . τῶν δὲ πραχθέντων τὰ μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1238.1.text#ἄλγιστ' ἄπεστιν : ἡ γὰρ ὄψις οὐ πάρα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1239.1.text#ὅμως δ' , ὅσον γε κἀν ἐμοὶ μνήμης ἔνι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1240.1.text#πεύσει τὰ κείνης ἀθλίας παθήματα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1241.1.text#ὅπως γὰρ ὀργῇ χρωμένη παρῆλθ' ἔσω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1242.1.text#θυρῶνος , ἵετ' εὐθὺ πρὸς τὰ νυμφικὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1243.1.text#λέχη , κόμην σπῶσ' ἀμφιδεξίοις ἀκμαῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1244.1.text#πύλας δ' , ὅπως εἰσῆλθ' , ἐπιρράξασ' ἔσω
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1245.1.text#καλεῖ τὸν ἤδη Λάϊον πάλαι νεκρόν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1246.1.text#μνήμην παλαιῶν σπερμάτων ἔχουσ' , ὑφ' ὧν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1247.1.text#θάνοι μὲν αὐτός , τὴν δὲ τίκτουσαν λίποι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1248.1.text#τοῖς οἷσιν αὐτοῦ δύστεκνον παιδουργίαν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1249.1.text#γοᾶτο δ' εὐνάς , ἔνθα δύστηνος διπλοῦς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1250.1.text#ἐξ ἀνδρὸς ἄνδρα καὶ τέκν' ἐκ τέκνων τέκοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1251.1.text#χὤπως μὲν ἐκ τῶνδ' οὐκέτ' οἶδ' ἀπόλλυται :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1252.1.text#βοῶν γὰρ εἰσέπαισεν Οἰδίπους , ὑφ' οὗ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1253.1.text#οὐκ ἦν τὸ κείνης ἐκθεάσασθαι κακόν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1254.1.text#ἀλλ' εἰς ἐκεῖνον περιπολοῦντ' ἐλεύσσομεν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1255.1.text#φοιτᾷ γὰρ ἡμᾶς ἔγχος ἐξαιτῶν πορεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1256.1.text#γυναῖκά τ' οὐ γυναῖκα , μητρῴαν δ' ὅπου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1257.1.text#κίχοι διπλῆν ἄρουραν οὗ τε καὶ τέκνων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1258.1.text#λυσσῶντι δ' αὐτῷ δαιμόνων δείκνυσί τις :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1259.1.text#οὐδεὶς γὰρ ἀνδρῶν , οἳ παρῆμεν ἐγγύθεν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1260.1.text#δεινὸν δ' ἀύσας ὡς ὑφηγητοῦ τινος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1261.1.text#πύλαις διπλαῖς ἐνήλατ' , ἐκ δὲ πυθμένων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1262.1.text#ἔκλινε κοῖλα κλῇθρα κἀμπίπτει στέγῃ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1263.1.text#οὗ δὴ κρεμαστὴν τὴν γυναῖκ' ἐσείδομεν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1264.1.text#πλεκταῖσιν αἰώραισιν ἐμπεπλεγμένην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1265.1.text#ὁ δ' ὡς ὁρᾷ νιν , δεινὰ βρυχηθεὶς τάλας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1266.1.text#χαλᾷ κρεμαστὴν ἀρτάνην ἐπεὶ δὲ γῇ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1267.1.text#ἔκειτο τλήμων , δεινὰ δ' ἦν τἀνθένδ' ὁρᾶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1268.1.text#ἀποσπάσας γὰρ εἱμάτων χρυσηλάτους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1269.1.text#περόνας ἀπ' αὐτῆς , αἷσιν ἐξεστέλλετο ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1270.1.text#ἄρας ἔπαισεν ἄρθρα τῶν αὑτοῦ κύκλων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1271.1.text#αὐδῶν τοιαῦθ' , ὁθούνεκ' οὐκ ὄψοιντό νιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1272.1.text#οὔθ' οἷ' ἔπασχεν οὔθ' ὁποῖ' ἔδρα κακά ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1273.1.text#ἀλλ' ἐν σκότῳ τὸ λοιπὸν οὓς μὲν οὐκ ἔδει
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1274.1.text#ὀψοίαθ' , οὓς δ' ἔχρῃζεν οὐ γνωσοίατο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1275.1.text#τοιαῦτ' ἐφυμνῶν πολλάκις τε κοὐχ ἅπαξ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1276.1.text#ἤρασσ' ἐπαίρων βλέφαρα . φοίνιαι δ' ὁμοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1277.1.text#γλῆναι γένει' ἔτελλον , οὐ δ' ἀνίεσαν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1278.1.text#φόνου μυδώσας σταγόνας , ἀλλ' ὁμοῦ μέλας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1279.1.text#ὄμβρος χαλάζης αἱματοῦς ἐτέγγετο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1280.1.text#τάδ' ἐκ δυοῖν ἔρρωγεν , οὐ μόνου κάτα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1281.1.text#ἀλλ' ἀνδρὶ καὶ γυναικὶ συμμιγῆ κακά .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1282.1.text#ὁ πρὶν παλαιὸς δ' ὄλβος ἦν πάροιθε μὲν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1283.1.text#ὄλβος δικαίως : νῦν δὲ τῇδε θἠμέρᾳ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1284.1.text#στεναγμός , ἄτη , θάνατος , αἰσχύνη , κακῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1285.1.text#ὅσ' ἐστὶ πάντων ὀνόματ' , οὐδέν ἐστ' ἀπόν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1286.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1286.1.text#νῦν δ' ἔσθ' ὁ τλήμων ἐν τίνι σχολῇ κακοῦ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1287.1.speaker#Ἐξάγγελος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1287.1.text#βοᾷ διοίγειν κλῇθρα καὶ δηλοῦν τινα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1288.1.text#τοῖς πᾶσι Καδμείοισι τὸν πατροκτόνον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1289.1.text#τὸν μητέρ' - αὐδῶν ἀνόσι' οὐ δὲ ῥητά μοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1290.1.text#ὡς ἐκ χθονὸς ῥίψων ἑαυτὸν οὐ δ' ἔτι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1291.1.text#μενῶν δόμοις ἀραῖος , ὡς ἠράσατο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1292.1.text#ῥώμης γε μέντοι καὶ προηγητοῦ τινος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1293.1.text#δεῖται : τὸ γὰρ νόσημα μεῖζον ἢ φέρειν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1294.1.text#δείξει δὲ καὶ σοί : κλῇθρα γὰρ πυλῶν τάδε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1295.1.text#διοίγεται : θέαμα δ' εἰσόψει τάχα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1296.1.text#τοιοῦτον οἷον καὶ στυγοῦντ' ἐποικτίσαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1297.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1297.1.text#ὦ δεινὸν ἰδεῖν πάθος ἀνθρώποις ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1298.1.text#ὦ δεινότατον πάντων ὅσ' ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1299.1.text#προσέκυρσ' ἤδη . τίς σ' , ὦ τλῆμον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1300.1.text#προσέβη μανία ; τίς ὁ πηδήσας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1301.1.text#μείζονα δαίμων τῶν μακίστων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1302.1.text#πρὸς σῇ δυσδαίμονι μοίρᾳ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1303.1.text#φεῦ φεῦ , δύσταν' :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1304.1.text#ἀλλ' οὐ δ' ἐσιδεῖν δύναμαί σε , θέλων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1305.1.text#πόλλ' ἀνερέσθαι , πολλὰ πυθέσθαι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1306.1.text#πολλὰ δ' ἀθρῆσαι :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1307.1.text#τοίαν φρίκην παρέχεις μοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1308.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1308.1.text#αἰαῖ αἰαῖ , δύστανος ἐγώ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1309.1.text#ποῖ γᾶς φέρομαι τλάμων ; πᾷ μοι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1310.1.text#φθογγὰ διαπωτᾶται φοράδην ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1311.1.text#ἰὼ δαῖμον , ἵν' ἐξήλλου .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1312.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1312.1.text#ἐς δεινὸν οὐ δ' ἀκουστὸν οὐ δ' ἐπόψιμον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1313.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1313.1.text#ἰὼ σκότου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1314.1.text#νέφος ἐμὸν ἀπότροπον , ἐπιπλόμενον ἄφατον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1315.1.text#ἀδάματόν τε καὶ δυσούριστον ὄν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1316.1.text#οἴμοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1317.1.text#οἴμοι μάλ' αὖθις : οἷον εἰσέδυ μ' ἅμα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1318.1.text#κέντρων τε τῶνδ' οἴστρημα καὶ μνήμη κακῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1319.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1319.1.text#καὶ θαῦμά γ' οὐδὲν ἐν τοσοῖσδε πήμασιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1320.1.text#διπλᾶ σε πενθεῖν καὶ διπλᾶ φορεῖν κακά .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1321.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1321.1.text#ἰὼ φίλος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1322.1.text#σὺ μὲν ἐμὸς ἐπίπολος ἔτι μόνιμος : ἔτι γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1323.1.text#ὑπομένεις με τὸν τυφλὸν κηδεύων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1324.1.text#φεῦ φεῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1325.1.text#οὐ γάρ με λήθεις , ἀλλὰ γιγνώσκω σαφῶς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1326.1.text#καίπερ σκοτεινός , τήν γε σὴν αὐδὴν ὅμως .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1327.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1327.1.text#ὦ δεινὰ δράσας , πῶς ἔτλης τοιαῦτα σὰς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1328.1.text#ὄψεις μαρᾶναι ; τίς σ' ἐπῆρε δαιμόνων ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1329.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1329.1.text#Ἀπόλλων τάδ' ἦν , Ἀπόλλων , φίλοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1330.1.text#ὁ κακὰ κακὰ τελῶν ἐμὰ τάδ' ἐμὰ πάθεα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1331.1.text#ἔπαισε δ' αὐτόχειρ νιν οὔτις ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1332.1.text#ἀλλ' ἐγὼ τλάμων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1333.1.text#τί γὰρ ἔδει μ' ὁρᾶν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1335.1.text#ὅτῳ γ' ὁρῶντι μηδὲν ἦν ἰδεῖν γλυκύ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1336.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1336.1.text#ἦν τᾷδ' ὅπωσπερ καὶ σύ φῄς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1337.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1337.1.text#τί δῆτ' ἐμοὶ βλεπτὸν ἢ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1338.1.text#στερκτὸν ἢ προσήγορον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1339.1.text#ἔτ' ἔστ' ἀκούειν ἡδονᾷ φίλοι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1340.1.text#ἀπάγετ' ἐκτόπιον ὅ τι τάχιστά με ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1341.1.text#ἀπάγετ' , ὦ φίλοι , τὸν μέγ' ὀλέθριον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1342.1.text#τὸν καταρατότατον , ἔτι δὲ καὶ θεοῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1345.1.text#ἐχθρότατον βροτῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1346.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1346.1.text#δείλαιε τοῦ νοῦ τῆς τε συμφορᾶς ἴσον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1347.1.text#ὡς σ' ἠθέλησα μη δέ γ' ἂν γνῶναί ποτε .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1349.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1349.1.text#ὄλοιθ' ὅστις ἦν , ὃς ἀγρίας πέδας
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1350.1.text#μονάδ' ἐπιποδίας ἔλυσ' μ' ἀπό τε φόνου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1351.1.text#ἔρυτο κἀνέσωσεν , οὐδὲν εἰς χάριν πράσσων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1352.1.text#τότε γὰρ ἂν θανὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1355.1.text#οὐκ ἦ φίλοισιν οὐ δ' ἐμοὶ τοσόνδ' ἄχος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1356.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1356.1.text#θέλοντι κἀμοὶ τοῦτ' ἂν ἦν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1357.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1357.1.text#οὔκουν πατρός γ' ἂν φονεὺς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1358.1.text#ἦλθον οὐ δὲ νυμφίος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1359.1.text#βροτοῖς ἐκλήθην ὧν ἔφυν ἄπο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1360.1.text#νῦν δ' ἄθεος μέν εἰμ' , ἀνοσίων δὲ παῖς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1361.1.text#ὁμολεχὴς δ' ἀφ' ὧν αὐτὸς ἔφυν τάλας .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1365.1.text#εἰ δέ τι πρεσβύτερον ἔτι κακοῦ κακόν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1366.1.text#τοῦτ' ἔλαχ' Οἰδίπους .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1367.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1367.1.text#οὐκ οἶδ' ὅπως σε φῶ βεβουλεῦσθαι καλῶς :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1368.1.text#κρείσσων γὰρ ἦσθα μηκέτ' ὢν ἢ ζῶν τυφλός .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1369.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1369.1.text#ὡς μὲν τάδ' οὐχ ὧδ' ἔστ' ἄριστ' εἰργασμένα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1370.1.text#μή μ' ἐκδίδασκε , μη δὲ συμβούλευ' ἔτι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1371.1.text#ἐγὼ γὰρ οὐκ οἶδ' ὄμμασιν ποίοις βλέπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1372.1.text#πατέρα ποτ' ἂν προσεῖδον εἰς Ἅιδου μολὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1373.1.text#οὐ δ' αὖ τάλαιναν μητέρ' , οἷν ἐμοὶ δυοῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1374.1.text#ἔργ' ἐστὶ κρείσσον' ἀγχόνης εἰργασμένα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1375.1.text#ἀλλ' ἡ τέκνων δῆτ' ὄψις ἦν ἐφίμερος ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1376.1.text#βλαστοῦσ' ὅπως ἔβλαστε , προσλεύσσειν ἐμοί ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1377.1.text#οὐ δῆτα τοῖς γ' ἐμοῖσιν ὀφθαλμοῖς ποτε :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1378.1.text#οὐ δ' ἄστυ γ' οὐ δὲ πύργος οὐ δὲ δαιμόνων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1379.1.text#ἀγάλμαθ' ἱερά , τῶν ὁ παντλήμων ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1380.1.text#κάλλιστ' ἀνὴρ εἷς ἔν γε ταῖς Θήβαις τραφεὶς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1381.1.text#ἀπεστέρησ' ἐμαυτόν , αὐτὸς ἐννέπων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1382.1.text#ὠθεῖν ἅπαντας τὸν ἀσεβῆ , τὸν ἐκ θεῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1383.1.text#φανέντ' ἄναγνον καὶ γένους τοῦ Λαΐου .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1384.1.text#τοιάνδ' ἐγὼ κηλῖδα μηνύσας ἐμὴν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1385.1.text#ὀρθοῖς ἔμελλον ὄμμασιν τούτους ὁρᾶν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1386.1.text#ἥκιστά γ' : ἀλλ' εἰ τῆς ἀκουούσης ἔτ' ἦν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1387.1.text#πηγῆς δι' ὤτων φραγμός , οὐκ ἂν ἐσχόμην
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1388.1.text#τὸ μὴ ἀποκλῇσαι τοὐμὸν ἄθλιον δέμας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1389.1.text#ἵν' ἦ τυφλός τε καὶ κλύων μηδέν : τὸ γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1390.1.text#τὴν φροντίδ' ἔξω τῶν κακῶν οἰκεῖν γλυκύ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1391.1.text#ἰὼ Κιθαιρών , τί μ' ἐδέχου ; τί μ' οὐ λαβὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1392.1.text#ἔκτεινας εὐθύς , ὡς ἔδειξα μήποτε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1393.1.text#ἐμαυτὸν ἀνθρώποισιν ἔνθεν ἦ γεγώς ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1394.1.text#ὦ Πόλυβε καὶ Κόρινθε καὶ τὰ πάτρια
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1395.1.text#λόγῳ παλαιὰ δώμαθ' , οἷον ἆρά με
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1396.1.text#κάλλος κακῶν ὕπουλον ἐξεθρέψατε :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1397.1.text#νῦν γὰρ κακός τ' ὢν κἀκ κακῶν εὑρίσκομαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1398.1.text#ὦ τρεῖς κέλευθοι καὶ κεκρυμμένη νάπη
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1399.1.text#δρυμός τε καὶ στενωπὸς ἐν τριπλαῖς ὁδοῖς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1400.1.text#αἳ τοὐμὸν αἷμα τῶν ἐμῶν χειρῶν ἄπο
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1401.1.text#ἐπίετε πατρός , ἆρά μου μέμνησθ' ἔτι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1402.1.text#οἷ' ἔργα δράσας ὑμὶν εἶτα δεῦρ' ἰὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1403.1.text#ὁποῖ' ἔπρασσον αὖθις ; ᾧ γάμοι γάμοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1404.1.text#ἐφύσαθ' ἡμᾶς , καὶ φυτεύσαντες πάλιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1405.1.text#ἀνεῖτε ταὐτοῦ σπέρμα , κἀπεδείξατε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1406.1.text#πατέρας , ἀδελφούς , παῖδας , αἷμ' ἐμφύλιον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1407.1.text#νύμφας , γυναῖκας μητέρας τε , χὠπόσα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1408.1.text#αἴσχιστ' ἐν ἀνθρώποισιν ἔργα γίγνεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1409.1.text#ἀλλ' οὐ γὰρ αὐδᾶν ἔσθ' ἃ μη δὲ δρᾶν καλόν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1410.1.text#ὅπως τάχιστα πρὸς θεῶν ἔξω μέ που
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1411.1.text#καλύψατ' ἢ φονεύσατ' ἢ θαλάσσιον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1412.1.text#ἐκρίψατ' , ἔνθα μήποτ' εἰσόψεσθ' ἔτι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1413.1.text#ἴτ' , ἀξιώσατ' ἀνδρὸς ἀθλίου θιγεῖν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1414.1.text#πίθεσθε , μὴ δείσητε : τἀμὰ γὰρ κακὰ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1415.1.text#οὐδεὶς οἷός τε πλὴν ἐμοῦ φέρειν βροτῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1416.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1416.1.text#ἀλλ' ὧν ἐπαιτεῖς εἰς δέον πάρεσθ' ὅδε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1417.1.text#Κρέων τὸ πράσσειν καὶ τὸ βουλεύειν , ἐπεὶ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1418.1.text#χώρας λέλειπται μοῦνος ἀντὶ σοῦ φύλαξ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1419.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1419.1.text#οἴμοι , τί δῆτα λέξομεν πρὸς τόνδ' ἔπος ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1420.1.text#τίς μοι φανεῖται πίστις ἔνδικος ; τὰ γὰρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1421.1.text#πάρος πρὸς αὐτὸν πάντ' ἐφεύρημαι κακός .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1422.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1422.1.text#οὐχ ὡς γελαστής , Οἰδίπους , ἐλήλυθα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1423.1.text#οὐ δ' ὡς ὀνειδιῶν τι τῶν πάρος κακῶν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1424.1.text#ἀλλ' εἰ τὰ θνητῶν μὴ καταισχύνεσθ' ἔτι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1425.1.text#γένεθλα , τὴν γοῦν πάντα βόσκουσαν φλόγα
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1426.1.text#αἰδεῖσθ' ἄνακτος Ἡλίου , τοιόνδ' ἄγος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1427.1.text#ἀκάλυπτον οὕτω δεικνύναι , τὸ μήτε γῆ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1428.1.text#μήτ' ὄμβρος ἱερὸς μήτε φῶς προσδέξεται .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1429.1.text#ἀλλ' ὡς τάχιστ' ἐς οἶκον ἐσκομίζετε :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1430.1.text#τοῖς ἐν γένει γὰρ τἀγγενῆ μάλισθ' ὁρᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1431.1.text#μόνοις τ' ἀκούειν εὐσεβῶς ἔχει κακά .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1432.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1432.1.text#πρὸς θεῶν , ἐπείπερ ἐλπίδος μ' ἀπέσπασας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1433.1.text#ἄριστος ἐλθὼν πρὸς κάκιστον ἄνδρ' ἐμέ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1434.1.text#πιθοῦ τί μοι : πρὸς σοῦ γὰρ οὐ δ' ἐμοῦ φράσω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1435.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1435.1.text#καὶ τοῦ με χρείας ὧδε λιπαρεῖς τυχεῖν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1436.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1436.1.text#ῥῖψόν με γῆς ἐκ τῆσδ' ὅσον τάχισθ' , ὅπου
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1437.1.text#θνητῶν φανοῦμαι μηδενὸς προσήγορος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1438.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1438.1.text#ἔδρασ' ἂν εὖ τοῦτ' ἴσθ' ἄν , εἰ μὴ τοῦ θεοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1439.1.text#πρώτιστ' ἔχρῃζον ἐκμαθεῖν τί πρακτέαν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1440.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1440.1.text#ἀλλ' ἥ γ' ἐκείνου πᾶσ' ἐδηλώθη φάτις ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1441.1.text#τὸν πατροφόντην , τὸν ἀσεβῆ μ' ἀπολλύναι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1442.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1442.1.text#οὕτως ἐλέχθη ταῦθ' : ὅμως δ' ἵν' ἕσταμεν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1443.1.text#χρείας , ἄμεινον ἐκμαθεῖν τι δραστέον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1444.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1444.1.text#οὕτως ἄρ' ἀνδρὸς ἀθλίου πεύσεσθ' ὕπερ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1445.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1445.1.text#καὶ γὰρ σὺ νῦν τἂν τῷ θεῷ πίστιν φέροις .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1446.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1446.1.text#καὶ σοί γ' ἐπισκήπτω τε καὶ προστέψομαι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1447.1.text#τῆς μὲν κατ' οἴκους αὐτὸς ὃν θέλεις τάφον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1448.1.text#θοῦ : καὶ γὰρ ὀρθῶς τῶν γε σῶν τελεῖς ὕπερ :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1449.1.text#ἐμοῦ δὲ μήποτ' ἀξιωθήτω τόδε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1450.1.text#πατρῷον ἄστυ ζῶντος οἰκητοῦ τυχεῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1451.1.text#ἀλλ' ἔα με ναίειν ὄρεσιν , ἔνθα κλῄζεται
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1452.1.text#οὑμὸς Κιθαιρὼν οὗτος , ὃν μήτηρ τέ μοι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1453.1.text#πατήρ τ' ἐθέσθην ζῶντε κύριον τάφον ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1454.1.text#ἵν' ἐξ ἐκείνων , οἵ μ' ἀπωλλύτην , θάνω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1455.1.text#καίτοι τοσοῦτόν γ' οἶδα , μήτε μ' ἂν νόσον
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1456.1.text#μήτ' ἄλλο πέρσαι μηδέν : οὐ γὰρ ἄν ποτε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1457.1.text#θνῄσκων ἐσώθην , μὴ ' πί τῳ δεινῷ κακῷ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1458.1.text#ἀλλ' ἡ μὲν ἡμῶν μοῖρ' , ὅποιπερ εἶσ' , ἴτω :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1459.1.text#παίδων δὲ τῶν μὲν ἀρσένων μή μοι , Κρέων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1460.1.text#προσθῇ μέριμναν : ἄνδρες εἰσίν , ὥστε μὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1461.1.text#σπάνιν ποτὲ σχεῖν , ἔνθ' ἂν ὦσι , τοῦ βίου :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1462.1.text#ταῖν δ' ἀθλίαιν οἰκτραῖν τε παρθένοιν ἐμαῖν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1463.1.text#αἷν οὔποθ' ἡμὴ χωρὶς ἐστάθη βορᾶς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1464.1.text#τράπεζ' ἄνευ τοῦδ' ἀνδρός , ἀλλ' ὅσων ἐγὼ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1465.1.text#ψαύοιμι , πάντων τῶνδ' ἀεὶ μετειχέτην :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1466.1.text#αἷν μοι μέλεσθαι : καὶ μάλιστα μὲν χεροῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1467.1.text#ψαῦσαί μ' ἔασον κἀποκλαύσασθαι κακά .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1468.1.text#ἴθ' ὦναξ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1469.1.text#ἴθ' ὦ γονῇ γενναῖε : χερσί τἂν θιγὼν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1470.1.text#δοκοῖμ' ἔχειν σφᾶς , ὥσπερ ἡνίκ' ἔβλεπον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1471.1.text#τί φημί ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1472.1.text#οὐ δὴ κλύω που πρὸς θεῶν τοῖν μοι φίλοιν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1473.1.text#δακρυρροούντοιν , καί μ' ἐποικτίρας Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1474.1.text#ἔπεμψέ μοι τὰ φίλτατ' ἐκγόνοιν ἐμοῖν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1475.1.text#λέγω τι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1476.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1476.1.text#λέγεις : ἐγὼ γὰρ εἰμ' ὁ πορσύνας τάδε ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1477.1.text#γνοὺς τὴν παροῦσαν τέρψιν , ἥ σ' εἶχεν πάλαι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1478.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1478.1.text#ἀλλ' εὐτυχοίης , καί σε τῆσδε τῆς ὁδοῦ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1479.1.text#δαίμων ἄμεινον ἢ ' μὲ φρουρήσας τύχοι .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1480.1.text#ὦ τέκνα , ποῦ ποτ' ἐστέ ; δεῦρ' ἴτ' , ἔλθετε
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1481.1.text#ὡς τὰς ἀδελφὰς τάσδε τὰς ἐμὰς χέρας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1482.1.text#αἳ τοῦ φυτουργοῦ πατρὸς ὑμὶν ὧδ' ὁρᾶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1483.1.text#τὰ πρόσθε λαμπρὰ προυξένησαν ὄμματα :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1484.1.text#ὃς ὑμίν , ὦ τέκν' , οὔθ' ὁρῶν οὔθ' ἱστορῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1485.1.text#πατὴρ ἐφάνθην ἔνθεν αὐτὸς ἠρόθην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1486.1.text#καὶ σφὼ δακρύω : προσβλέπειν γὰρ οὐ σθένω :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1487.1.text#νοούμενος τὰ λοιπὰ τοῦ πικροῦ βίου ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1488.1.text#οἷον βιῶναι σφὼ πρὸς ἀνθρώπων χρεών .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1489.1.text#ποίας γὰρ ἀστῶν ἥξετ' εἰς ὁμιλίας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1490.1.text#ποίας δ' ἑορτάς , ἔνθεν οὐ κεκλαυμέναι
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1491.1.text#πρὸς οἶκον ἵξεσθ' ἀντὶ τῆς θεωρίας ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1492.1.text#ἀλλ' ἡνίκ' ἂν δὴ πρὸς γάμων ἥκητ' ἀκμάς ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1493.1.text#τίς οὗτος ἔσται , τίς παραρρίψει , τέκνα ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1494.1.text#τοιαῦτ' ὀνείδη λαμβάνων , ἃ ταῖς ἐμαῖς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1495.1.text#γοναῖσιν ἔσται σφῷν θ' ὁμοῦ δηλήματα ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1496.1.text#τί γὰρ κακῶν ἄπεστι ; τὸν πατέρα πατὴρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1497.1.text#ὑμῶν ἔπεφνε : τὴν τεκοῦσαν ἤροσεν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1498.1.text#ὅθεν περ αὐτὸς ἐσπάρη , κἀκ τῶν ἴσων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1499.1.text#ἐκτήσαθ' ὑμᾶς , ὧνπερ αὐτὸς ἐξέφυ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1500.1.text#τοιαῦτ' ὀνειδιεῖσθε : κᾆτα τίς γαμεῖ ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1501.1.text#οὐκ ἔστιν οὐδείς , ὦ τέκν' , ἀλλὰ δηλαδὴ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1502.1.text#χέρσους φθαρῆναι κἀγάμους ὑμᾶς χρεών .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1503.1.text#ὦ παῖ Μενοικέως , ἀλλ' ἐπεὶ μόνος πατὴρ
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1504.1.text#ταύταιν λέλειψαι , νὼ γάρ , ὣ ' φυτεύσαμεν ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1505.1.text#ὀλώλαμεν δύ' ὄντε , μή σφε περιίδῃς
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1506.1.text#πτωχὰς ἀνάνδρους ἐκγενεῖς ἀλωμένας ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1507.1.text#μη δ' ἐξισώσῃς τάσδε τοῖς ἐμοῖς κακοῖς .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1508.1.text#ἀλλ' οἴκτισόν σφας , ὧδε τηλικάσδ' ὁρῶν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1509.1.text#πάντων ἐρήμους , πλὴν ὅσον τὸ σὸν μέρος .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1510.1.text#ξύννευσον , ὦ γενναῖε , σῇ ψαύσας χερί .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1512.1.text#πόλλ' ἂν παρῄνουν : νῦν δὲ τοῦτ' εὔχεσθέ μοι ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1513.1.text#οὗ καιρὸς ἐᾷ ζῆν , τοῦ βίου δὲ λῴονος
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1514.1.text#ὑμᾶς κυρῆσαι τοῦ φυτεύσαντος πατρός .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1515.1.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1515.1.text#ἅλις ἵν' ἐξήκεις δακρύων : ἀλλ' ἴθι στέγης ἔσω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1516.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1516.1.text#πειστέον , κεἰ μηδὲν ἡδύ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1516.2.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1516.2.text#πάντα γὰρ καιρῷ καλά .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1517.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1517.1.text#οἶσθ' ἐφ' οἷς οὖν εἶμι ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1517.2.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1517.2.text#λέξεις , καὶ τότ' εἴσομαι κλύων .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1518.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1518.1.text#γῆς μ' ὅπως πέμψεις ἄποικον .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1518.2.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1518.2.text#τοῦ θεοῦ μ' αἰτεῖς δόσιν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1519.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1519.1.text#ἀλλὰ θεοῖς γ' ἔχθιστος ἥκω .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1519.2.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1519.2.text#τοιγαροῦν τεύξει τάχα .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1520.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1520.1.text#φῂς τάδ' οὖν ;
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1520.2.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1520.2.text#ἃ μὴ φρονῶ γὰρ οὐ φιλῶ λέγειν μάτην .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1521.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1521.1.text#ἄπαγέ νύν μ' ἐντεῦθεν ἤδη .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1521.2.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1521.2.text#στεῖχέ νυν , τέκνων δ' ἀφοῦ .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1522.1.speaker#Οἰδίπους
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1522.1.text#μηδαμῶς ταύτας γ' ἕλῃ μου .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1522.2.speaker#Κρέων
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1522.2.text#πάντα μὴ βούλου κρατεῖν :
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1523.1.text#καὶ γὰρ ἁκράτησας οὔ σοι τῷ βίῳ ξυνέσπετο .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1524.1.speaker#Χορός
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1524.1.text#ὦ πάτρας Θήβης ἔνοικοι , λεύσσετ' , Οἰδίπους ὅδε ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1525.1.text#ὃς τὰ κλείν' αἰνίγματ' ᾔδει καὶ κράτιστος ἦν ἀνήρ ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1526.1.text#οὗ τίς οὐ ζήλῳ πολιτῶν ἦν τύχαις ἐπιβλέπων ,
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1527.1.text#εἰς ὅσον κλύδωνα δεινῆς συμφορᾶς ἐλήλυθεν .
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1528.1.text#ὥστε θνητὸν ὄντα κείνην τὴν τελευταίαν ἰδεῖν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1529.1.text#ἡμέραν ἐπισκοποῦντα μηδέν' ὀλβίζειν , πρὶν ἂν
+urn:cts:greekLit:tlg0011.tlg004.fu.sp:1530.1.text#τέρμα τοῦ βίου περάσῃ μηδὲν ἀλγεινὸν παθών .

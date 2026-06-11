@@ -1,10 +1,10 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/frogs-speech-speaker.cex"
-text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:" 
-file_name = "Aristophanes_Frogs"
-text_title = "Aristophanes *Frogs*"
+cex_path = "source-data/texts/sophocles_philoctetes.cex"
+text_urn = "urn:cts:greekLit:tlg0011.tlg006.fu.sp:" 
+file_name = "Sophocles_Philoctetes"
+text_title = "Sophocles *Philoctetes*"
 text_genre = "drama" # options are "poetry", "prose", "drama"
 citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
 filter_paratext = "speaker" # filter out passages with this string in the URN.
@@ -12,13 +12,13 @@ filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 [output]
 html_tokens_per_page = 200
-html_output_dir = "editions/html/Aristophanes_Frogs/pages"
+html_output_dir = "editions/html/Sophocles_Philoctetes/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Aristophanes_Frogs"
-md_bibliography = "editions/frontmatter/Aristophanes_Frogs/bibliography.md"
-md_frontmatter = "editions/frontmatter/Aristophanes_Frogs/frontmatter.md"
+html_temp_dir = "data/html_temp/Sophocles_Philoctetes"
+md_bibliography = "editions/frontmatter/Sophocles_Philoctetes/bibliography.md"
+md_frontmatter = "editions/frontmatter/Sophocles_Philoctetes/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
 
@@ -29,30 +29,30 @@ lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
 lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
-raw_morph_data = "morph/output/frogs-analysis.txt"
+raw_morph_data = "morph/output/philoctetes-analysis.txt"
 
-morph_pos_triplets = "data/indexes/Aristophanes_Frogs/Aristophanes_Frogs_morpheus_triplets.tsv"
+morph_pos_triplets = "data/indexes/Sophocles_Philoctetes/Sophocles_Philoctetes_morpheus_triplets.tsv"
 
-morph_pos_errors = "morph/output/Aristophanes_Frogs_parse_errors.log"
+morph_pos_errors = "morph/output/Sophocles_Philoctetes_parse_errors.log"
 
-morph_lemmata_alignment = "data/indexes/Aristophanes_Frogs/Aristophanes_Frogs_triplets_lemmata.tsv"
+morph_lemmata_alignment = "data/indexes/Sophocles_Philoctetes/Sophocles_Philoctetes_triplets_lemmata.tsv"
 
-morph_lemmata_alignment_errors = "data/indexes/Aristophanes_Frogs/Aristophanes_Frogs_triplets_lemmata_errors.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Sophocles_Philoctetes/Sophocles_Philoctetes_triplets_lemmata_errors.tsv"
 
-morph_token_index = "data/indexes/Aristophanes_Frogs/Aristophanes_Frogs_morphology_index.tsv"
+morph_token_index = "data/indexes/Sophocles_Philoctetes/Sophocles_Philoctetes_morphology_index.tsv"
 
-morph_token_index_errors = "data/indexes/Aristophanes_Frogs/Aristophanes_Frogs_morphology_index_errors.tsv"
+morph_token_index_errors = "data/indexes/Sophocles_Philoctetes/Sophocles_Philoctetes_morphology_index_errors.tsv"
 
-local_morph_dict = "data/morphology/frogs_morph.cex"
+local_morph_dict = "data/morphology/philoctetes_morph.cex"
 
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Aristophanes_Frogs"
-indexes_dir = "indexes/Aristophanes_Frogs"
-vocabulary_dir = "vocabulary/Aristophanes_Frogs"
+tokenized_dir = "tokenized/Sophocles_Philoctetes"
+indexes_dir = "indexes/Sophocles_Philoctetes"
+vocabulary_dir = "vocabulary/Sophocles_Philoctetes"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -76,6 +76,6 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/Aristophanes_Frogs/"
+editor_index_files = "source-data/edited_morphology/Sophocles_Philoctetes/"
 
-editor_index_error = "data/morphology/editorial_index_error_frogs.txt"
+editor_index_error = "data/morphology/editorial_index_error_philoctetes.txt"
