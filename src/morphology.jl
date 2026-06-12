@@ -192,6 +192,7 @@ surface-form → lemma → Perseus-style POS tag triplets.
 """
 function parse_morpheus_to_triplets(input_path::String, output_triplets::String, error_log::String="")
     lines = readlines(input_path)
+    println("Read $(length(lines)) lines.")
     open(output_triplets, "w") do out
         open(error_log, "w") do err
             i = 1

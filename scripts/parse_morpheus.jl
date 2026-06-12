@@ -18,6 +18,8 @@ morph_input = config["morphology"]["raw_morph_data"]
 morph_output = config["morphology"]["morph_pos_triplets"]
 morph_errors = config["morphology"]["morph_pos_errors"]
 
+println("Reading from $morph_input.")
+println("Writing to $morph_output.")
 
 parse_morpheus_to_triplets(morph_input, morph_output, morph_errors)
 
