@@ -459,6 +459,7 @@ frequency	form	turns
 3	ναῦς	urn:cts:greekLit:tlg0019.tlg009.fu.sp:49.2.text.token.4,urn:cts:greekLit:tlg0019.tlg009.fu.sp:362.1.text.token.5,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1465.1.text.token.4
 3	μελῶν	urn:cts:greekLit:tlg0019.tlg009.fu.sp:915.1.text.token.1,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1281.1.text.token.8,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1364.1.text.token.4
 3	δευρί	urn:cts:greekLit:tlg0019.tlg009.fu.sp:609.1.text.token.2,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1076.1.text.token.7,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1509.1.text.token.3
+3	βάρος	urn:cts:greekLit:tlg0019.tlg009.fu.sp:27.1.text.token.3,urn:cts:greekLit:tlg0019.tlg009.fu.sp:941.1.text.token.7,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1367.1.text.token.3
 3	ὀργήν	urn:cts:greekLit:tlg0019.tlg009.fu.sp:844.1.text.token.4,urn:cts:greekLit:tlg0019.tlg009.fu.sp:856.1.text.token.5,urn:cts:greekLit:tlg0019.tlg009.fu.sp:998.1.text.token.3
 3	ἕν	urn:cts:greekLit:tlg0019.tlg009.fu.sp:538.1.text.token.5,urn:cts:greekLit:tlg0019.tlg009.fu.sp:927.1.text.token.6,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1262.1.text.token.2
 3	τήνδε	urn:cts:greekLit:tlg0019.tlg009.fu.sp:108.1.text.token.4,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1128.1.text.token.5,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1153.1.text.token.5
@@ -696,6 +697,7 @@ frequency	form	turns
 2	κατόμοσον	urn:cts:greekLit:tlg0019.tlg009.fu.sp:305.2.text.token.1,urn:cts:greekLit:tlg0019.tlg009.fu.sp:306.1.text.token.2
 2	τἄρα	urn:cts:greekLit:tlg0019.tlg009.fu.sp:253.1.text.token.2,urn:cts:greekLit:tlg0019.tlg009.fu.sp:656.1.text.token.2
 2	σφετέραν	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1464.1.text.token.2,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1464.1.text.token.6
+2	βαρέως	urn:cts:greekLit:tlg0019.tlg009.fu.sp:26.3.text.token.1,urn:cts:greekLit:tlg0019.tlg009.fu.sp:803.1.text.token.3
 2	ἕκαστον	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1131.1.text.token.3,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1199.1.text.token.3
 2	σκέψαι	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1013.1.text.token.1,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1030.1.text.token.8
 2	λειμῶνα	urn:cts:greekLit:tlg0019.tlg009.fu.sp:326.1.text.token.4,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1300.1.text.token.1
@@ -808,7 +810,6 @@ frequency	form	turns
 2	ὁπότε	urn:cts:greekLit:tlg0019.tlg009.fu.sp:651.1.text.token.1,urn:cts:greekLit:tlg0019.tlg009.fu.sp:920.1.text.token.1
 2	χθόνιε	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1126.1.text.token.3,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1138.1.text.token.3
 2	ῥόπαλον	urn:cts:greekLit:tlg0019.tlg009.fu.sp:47.1.text.token.8,urn:cts:greekLit:tlg0019.tlg009.fu.sp:495.1.text.token.6
-2	βάρος	urn:cts:greekLit:tlg0019.tlg009.fu.sp:941.1.text.token.7,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1367.1.text.token.3
 2	νεφρώ	urn:cts:greekLit:tlg0019.tlg009.fu.sp:475.1.text.token.5,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1280.1.text.token.6
 2	δειπνεῖν	urn:cts:greekLit:tlg0019.tlg009.fu.sp:107.1.text.token.1,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1478.1.text.token.4
 2	κόπων	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1278.1.text.token.7,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1280.1.text.token.3
@@ -1321,7 +1322,6 @@ frequency	form	turns
 1	ὀφθαλμούς	urn:cts:greekLit:tlg0019.tlg009.fu.sp:626.1.text.token.8
 1	κρεμάσαντι	urn:cts:greekLit:tlg0019.tlg009.fu.sp:122.1.text.token.1
 1	ἔργοισι	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1347.1.text.token.2
-1	Βαρέως	urn:cts:greekLit:tlg0019.tlg009.fu.sp:26.3.text.token.1
 1	διαπέμπων	urn:cts:greekLit:tlg0019.tlg009.fu.sp:364.1.text.token.6
 1	βέλτιστόν	urn:cts:greekLit:tlg0019.tlg009.fu.sp:322.1.text.token.1
 1	ἆ	urn:cts:greekLit:tlg0019.tlg009.fu.sp:759.1.text.token.1
@@ -1722,7 +1722,6 @@ frequency	form	turns
 1	ἅρμα	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1403.1.text.token.5
 1	δείξεις	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1205.1.text.token.4
 1	σύμμαχοι	urn:cts:greekLit:tlg0019.tlg009.fu.sp:782.1.text.token.7
-1	Βάρος	urn:cts:greekLit:tlg0019.tlg009.fu.sp:27.1.text.token.3
 1	χλαῖνα	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1459.1.text.token.3
 1	ἅνδρες	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1411.1.text.token.1
 1	ἔθει	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1091.1.text.token.4
@@ -2348,7 +2347,6 @@ frequency	form	turns
 1	σκῶπτέ	urn:cts:greekLit:tlg0019.tlg009.fu.sp:58.1.text.token.2
 1	στίχον	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1239.1.text.token.7
 1	καταγέλαστ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:480.1.text.token.2
-1	βαρέως	urn:cts:greekLit:tlg0019.tlg009.fu.sp:803.1.text.token.3
 1	ἀνύετον	urn:cts:greekLit:tlg0019.tlg009.fu.sp:606.1.text.token.5
 1	Ἀγήνορος	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1226.1.text.token.1
 1	ᾤχετ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:567.1.text.token.3

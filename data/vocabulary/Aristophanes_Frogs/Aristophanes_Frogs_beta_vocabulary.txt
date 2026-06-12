@@ -15,9 +15,7 @@ form
 *au(ai/nou
 *bakxei=on
 *bakxei='
-*bare/ws
 *bellerofo/ntas
-*ba/ros
 *glu/kh
 *glu/khs
 *gorgo/nes
