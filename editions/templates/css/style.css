@@ -33,6 +33,10 @@ nav {
     font-size: 0.95rem;
 }
 
+nav.bottom-nav {
+    margin-top: 2rem;
+}
+
 nav a {
     margin-right: 1.5em;
     text-decoration: none;

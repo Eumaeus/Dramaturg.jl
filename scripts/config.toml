@@ -1,10 +1,10 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/euripides_suppliants.cex"
-text_urn = "urn:cts:greekLit:tlg0006.tlg008.fu.sp:" 
-file_name = "Euripides_Suppliants"
-text_title = "Euripides *Suppliants*"
+cex_path = "source-data/texts/euripides_trojan.cex"
+text_urn = "urn:cts:greekLit:tlg0006.tlg011.fu.sp:" 
+file_name = "Euripides_Trojan"
+text_title = "Euripides *The Trojan Women*"
 text_genre = "drama" # options are "poetry", "prose", "drama"
 citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
 filter_paratext = "speaker" # filter out passages with this string in the URN.
@@ -12,13 +12,13 @@ filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 [output]
 html_tokens_per_page = 150
-html_output_dir = "editions/html/Euripides_Suppliants/pages"
+html_output_dir = "editions/html/Euripides_Trojan/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Euripides_Suppliants"
-md_bibliography = "editions/frontmatter/Euripides_Suppliants/bibliography.md"
-md_frontmatter = "editions/frontmatter/Euripides_Suppliants/frontmatter.md"
+html_temp_dir = "data/html_temp/Euripides_Trojan"
+md_bibliography = "editions/frontmatter/Euripides_Trojan/bibliography.md"
+md_frontmatter = "editions/frontmatter/Euripides_Trojan/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
 
@@ -29,30 +29,30 @@ lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
 lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
-raw_morph_data = "morph/output/euripides-suppliants-analysis.txt"
+raw_morph_data = "morph/output/euripides-trojan-analysis.txt"
 
-morph_pos_triplets = "data/indexes/Euripides_Suppliants/Euripides_Suppliants_morpheus_triplets.tsv"
+morph_pos_triplets = "data/indexes/Euripides_Trojan/Euripides_Trojan_morpheus_triplets.tsv"
 
-morph_pos_errors = "morph/output/Euripides_Suppliants_parse_errors.log"
+morph_pos_errors = "morph/output/Euripides_Trojan_parse_errors.log"
 
-morph_lemmata_alignment = "data/indexes/Euripides_Suppliants/Euripides_Suppliants_triplets_lemmata.tsv"
+morph_lemmata_alignment = "data/indexes/Euripides_Trojan/Euripides_Trojan_triplets_lemmata.tsv"
 
-morph_lemmata_alignment_errors = "data/indexes/Euripides_Suppliants/Euripides_Suppliants_triplets_lemmata_errors.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Euripides_Trojan/Euripides_Trojan_triplets_lemmata_errors.tsv"
 
-morph_token_index = "data/indexes/Euripides_Suppliants/Euripides_Suppliants_morphology_index.tsv"
+morph_token_index = "data/indexes/Euripides_Trojan/Euripides_Trojan_morphology_index.tsv"
 
-morph_token_index_errors = "data/indexes/Euripides_Suppliants/Euripides_Suppliants_morphology_index_errors.tsv"
+morph_token_index_errors = "data/indexes/Euripides_Trojan/Euripides_Trojan_morphology_index_errors.tsv"
 
-local_morph_dict = "data/morphology/suppliants_morph.cex"
+local_morph_dict = "data/morphology/trojan_morph.cex"
 
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Euripides_Suppliants"
-indexes_dir = "indexes/Euripides_Suppliants"
-vocabulary_dir = "vocabulary/Euripides_Suppliants"
+tokenized_dir = "tokenized/Euripides_Trojan"
+indexes_dir = "indexes/Euripides_Trojan"
+vocabulary_dir = "vocabulary/Euripides_Trojan"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -76,6 +76,6 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/Euripides_Suppliants/"
+editor_index_files = "source-data/edited_morphology/Euripides_Trojan/"
 
-editor_index_error = "data/morphology/editorial_index_error_suppliants.txt"
+editor_index_error = "data/morphology/editorial_index_error_trojan.txt"
