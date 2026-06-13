@@ -363,7 +363,7 @@ details summary::after {
     content: "▾";
     position: absolute;
     right: 1rem;
-    transition: transform 0.2s ease;
+    transition: transform 0.4s ease;
 }
 
 details[open] summary::after {
@@ -380,4 +380,8 @@ details ul {
     list-style-type: "☞ ";
     background: #fffaf0;
     border-left: 3px solid #d4b98a;
+}
+
+details ul li:hover {
+    background: #f8f1e3;
 }
