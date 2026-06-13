@@ -1,0 +1,81 @@
+# Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
+
+[input]
+cex_path = "source-data/texts/euripides_hippolytus.cex"
+text_urn = "urn:cts:greekLit:tlg0006.tlg005.fu.sp:" 
+file_name = "Euripides_Hippolytus"
+text_title = "Euripides *Hippolytus*"
+text_genre = "drama" # options are "poetry", "prose", "drama"
+citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
+filter_paratext = "speaker" # filter out passages with this string in the URN.
+
+
+[output]
+html_tokens_per_page = 150
+html_output_dir = "editions/html/Euripides_Hippolytus/pages"
+html_template_dir = "editions/templates"
+html_index_template = "index.html"
+html_page_template = "reader_page.html"
+html_temp_dir = "data/html_temp/Euripides_Hippolytus"
+md_bibliography = "editions/frontmatter/Euripides_Hippolytus/bibliography.md"
+md_frontmatter = "editions/frontmatter/Euripides_Hippolytus/frontmatter.md"
+lsj_url = "http://localhost:8080"
+editions_dir = "editions/html/"
+
+
+[lexicon]
+lsj_cex =   "source-data/dictionaries/lsj_chicago.cex"
+lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
+lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
+
+[morphology]
+raw_morph_data = "morph/output/euripides-hippolytus-analysis.txt"
+
+morph_pos_triplets = "data/indexes/Euripides_Hippolytus/Euripides_Hippolytus_morpheus_triplets.tsv"
+
+morph_pos_errors = "morph/output/Euripides_Hippolytus_parse_errors.log"
+
+morph_lemmata_alignment = "data/indexes/Euripides_Hippolytus/Euripides_Hippolytus_triplets_lemmata.tsv"
+
+morph_lemmata_alignment_errors = "data/indexes/Euripides_Hippolytus/Euripides_Hippolytus_triplets_lemmata_errors.tsv"
+
+morph_token_index = "data/indexes/Euripides_Hippolytus/Euripides_Hippolytus_morphology_index.tsv"
+
+morph_token_index_errors = "data/indexes/Euripides_Hippolytus/Euripides_Hippolytus_morphology_index_errors.tsv"
+
+local_morph_dict = "data/morphology/hippolytus_morph.cex"
+
+
+
+# NEW sections for this milestone
+[processing]
+data_root = "data"                       # base folder for all generated files
+tokenized_dir = "tokenized/Euripides_Hippolytus"
+indexes_dir = "indexes/Euripides_Hippolytus"
+vocabulary_dir = "vocabulary/Euripides_Hippolytus"
+tokenized_suffix = "_tokenized.cex"
+elided_index_suffix = "_elided.tsv"
+elided_histogram_suffix = "_elided_histogram.tsv"
+word_histogram_suffix = "_word_histogram.tsv"
+vocabulary_unicode_suffix = "_uc_vocabulary.txt"
+vocabulary_beta_suffix = "_beta_vocabulary.txt"
+
+
+[editorial]
+elision_dict      = "source-data/dictionaries/editorial_dict_elision.tsv"
+
+enclitics_dict    = "source-data/dictionaries/editorial-dict-enclitics.tsv"
+
+anastrophe_dict   = "source-data/dictionaries/editorial_dict_anastrophe.tsv"
+
+lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
+
+lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
+
+master_morph_dict = "data/morphology/Greek_Morphology.cex"
+
+user_morphology_dir = "source-data/morphology/user-generated"
+
+editor_index_files = "source-data/edited_morphology/Euripides_Hippolytus/"
+
+editor_index_error = "data/morphology/editorial_index_error_hippolytus.txt"
