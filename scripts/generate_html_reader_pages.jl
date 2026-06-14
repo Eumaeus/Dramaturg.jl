@@ -65,7 +65,12 @@ function render_greek_text(tokens::Vector{Tuple{String,String}}, genre::String, 
                     push!(parts, joined)
                     push!(parts, "</div>")
                 end
-                current_citation = this_cit
+
+                # Display on the page only the correct front-part of the citation
+                cite_parts = split(this_cit, '.')
+                n = min(citation_level, length(cite_parts))
+                current_citation =  join(cite_parts[1:n], '.')
+
                 current_unit_spans = String[]
                 push!(parts, """<div class="citation-unit" data-citation="$this_cit">""")
                 push!(parts, """<span class="citation-label">$this_cit</span>""")
@@ -529,7 +534,7 @@ function main()
             ""
         end
 
-        prev_href = idx > 1 ? replace(txt_files[idx-1], r"\.txt$"i => "") * ".html" : "#"
+        prev_href = idx > 1 ? replace(txt_files[idx-1], r"\.txt$"i => "") * ".html" : "../index.html"
         next_href = idx < length(txt_files) ? replace(txt_files[idx+1], r"\.txt$"i => "") * ".html" : "#"
         navigation = """
         <a href="$prev_href">← Previous</a>
@@ -541,6 +546,7 @@ function main()
         title_and_span_html = Markdown.html(Markdown.parse(text_title_md * " " * passage_span))
         title_html = Markdown.html(Markdown.parse(text_title_md))
         page_title = replace(title_html, r"<[^>]+>" => "")
+
 
         # Fill template
         filled = template

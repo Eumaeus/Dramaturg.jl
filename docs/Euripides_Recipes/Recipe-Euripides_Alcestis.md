@@ -6,7 +6,7 @@ cd PATH/TO/Dramaturg/
 
 [Start Docker]
 
-cp scripts/config-euripides_alcestis.toml scripts/config.toml
+cp scripts/Configs_Euripides/config-euripides_alcestis.toml scripts/config.toml
 
 julia --project=. scripts/tokenize_cex.jl
 

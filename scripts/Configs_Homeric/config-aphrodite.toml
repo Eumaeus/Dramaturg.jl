@@ -1,0 +1,75 @@
+# Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
+
+[input]
+cex_path = "source-data/texts/aphrodite.cex"
+text_urn = "urn:cts:greekLit:tlg0013.tlg005.fucex:" 
+file_name = "The_Homeric_Hymn_to_Aphrodite"
+text_title = "The *Homeric Hymn to Aphrodite*"
+text_genre = "poetry" # options are "poetry", "prose", "drama"
+citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
+filter_paratext = "speaker" # filter out passages with this string in the URN.
+
+[output]
+html_tokens_per_page = 250
+html_output_dir = "editions/html/The_Homeric_Hymn_to_Aphrodite/pages"
+html_template_dir = "editions/templates"
+html_index_template = "index.html"
+html_page_template = "reader_page.html"
+html_temp_dir = "data/html_temp/The_Homeric_Hymn_to_Aphrodite"
+md_bibliography = "editions/frontmatter/The_Homeric_Hymn_to_Aphrodite/bibliography.md"
+md_frontmatter = "editions/frontmatter/The_Homeric_Hymn_to_Aphrodite/frontmatter.md"
+lsj_url = "http://localhost:8080"
+editions_dir = "editions/html/"
+
+
+
+[lexicon]
+lsj_cex =   "source-data/dictionaries/lsj_chicago.cex"
+lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
+lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
+
+[morphology]
+raw_morph_data = "morph/output/aphrodite-analysis.txt"
+morph_pos_triplets = "data/indexes/The_Homeric_Hymn_to_Aphrodite/The_Homeric_Hymn_to_Aphrodite_morpheus_triplets.tsv"
+morph_pos_errors = "morph/output/The_Homeric_Hymn_to_Aphrodite_parse_errors.log"
+morph_lemmata_alignment = "data/indexes/The_Homeric_Hymn_to_Aphrodite/The_Homeric_Hymn_to_Aphrodite_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/The_Homeric_Hymn_to_Aphrodite/The_Homeric_Hymn_to_Aphrodite_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/The_Homeric_Hymn_to_Aphrodite/The_Homeric_Hymn_to_Aphrodite_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/The_Homeric_Hymn_to_Aphrodite/The_Homeric_Hymn_to_Aphrodite_morphology_index_errors.tsv"
+local_morph_dict = "data/morphology/aphrodite_morph.cex"
+
+
+# NEW sections for this milestone
+[processing]
+data_root = "data"                       # base folder for all generated files
+tokenized_dir = "tokenized/The_Homeric_Hymn_to_Aphrodite"
+indexes_dir = "indexes/The_Homeric_Hymn_to_Aphrodite"
+vocabulary_dir = "vocabulary/The_Homeric_Hymn_to_Aphrodite"
+tokenized_suffix = "_tokenized.cex"
+elided_index_suffix = "_elided.tsv"
+elided_histogram_suffix = "_elided_histogram.tsv"
+word_histogram_suffix = "_word_histogram.tsv"
+vocabulary_unicode_suffix = "_uc_vocabulary.txt"
+vocabulary_beta_suffix = "_beta_vocabulary.txt"
+
+
+[editorial]
+elision_dict      = "source-data/dictionaries/editorial_dict_elision.tsv"
+
+enclitics_dict    = "source-data/dictionaries/editorial-dict-enclitics.tsv"
+
+anastrophe_dict   = "source-data/dictionaries/editorial_dict_anastrophe.tsv"
+
+lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
+
+lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
+
+morph_dict_template = "data/morphology/Greek_Morphology_template.cex"
+
+master_morph_dict = "data/morphology/Greek_Morphology.cex"
+
+user_morphology_dir = "source-data/morphology/user-generated"
+
+editor_index_files = "source-data/edited_morphology/The_Homeric_Hymn_to_Aphrodite/"
+
+editor_index_error = "data/morphology/editorial_index_error_aphrodite.txt"

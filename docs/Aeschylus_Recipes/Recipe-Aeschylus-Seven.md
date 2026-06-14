@@ -6,7 +6,7 @@ cd PATH/TO/Dramaturg/
 
 [Start Docker]
 
-cp scripts/config-aeschylus_seven.toml scripts/config.toml
+cp scripts/Configs_Aeschylus/config-aeschylus_seven.toml scripts/config.toml
 
 julia --project=. scripts/tokenize_cex.jl
 

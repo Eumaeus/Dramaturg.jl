@@ -7,6 +7,8 @@ using Dramaturg
 
 # NEW helpers for nice TOC labels
 function format_passage_range(first_cit::String, last_cit::String, level::Int)::String
+
+
     if level == 1
         fparts = split(first_cit, '.')
         lparts = split(last_cit, '.')
@@ -15,12 +17,14 @@ function format_passage_range(first_cit::String, last_cit::String, level::Int)::
         return "Passages $(fparts[1])–$(lparts[1])"
     else
         fparts = split(first_cit, '.')
-        lparts = split(last_cit, '.')
+        return "Passages $(first_cit) – $(last_cit)"
+        #=
         if length(fparts) >= 2 && length(lparts) >= 2 && fparts[1] == lparts[1]
             return "Passages $(fparts[1]).$(fparts[2])–$(fparts[1]).$(lparts[2])"
         else
             return "Passages $(first_cit)–$(last_cit)"
         end
+        =#
     end
 end
 
@@ -78,6 +82,7 @@ function generate_toc_html(html_temp_dir::String, citation_level::Int)::String
     end
 
     # === 2-level citation scheme (e.g. Herodotus, Iliad) ===
+    # === NOTE!! This fails below, sorted_books, with non-numeric citation-values
     book_groups = Dict{String, Vector}()
     for c in chunks
         top = split(c.first_cit, '.')[1]
@@ -87,7 +92,17 @@ function generate_toc_html(html_temp_dir::String, citation_level::Int)::String
         push!(book_groups[top], c)
     end
 
-    sorted_books = sort(collect(keys(book_groups)), by = x -> parse(Int, x))
+    # Trying this instead! Allows for non-numeric citation-values
+    test_books = Vector{String}()
+    for c in chunks
+        top = split(c.first_cit, '.')[1] |> String
+        if !( top in test_books )
+            push!(test_books, top)
+        end
+    end 
+
+    # sorted_books = sort(collect(keys(book_groups)), by = x -> parse(Int, x))
+    sorted_books = test_books
     num_books = length(sorted_books)
 
     toc = ""
@@ -96,11 +111,11 @@ function generate_toc_html(html_temp_dir::String, citation_level::Int)::String
     for i in range(1, num_books, step = book_group_size)
         book_subgroup = sorted_books[i:min(i+book_group_size-1, num_books)]
         if length(book_subgroup) > 1
-            super_label = "Books $(book_subgroup[1])–$(book_subgroup[end])"
+            super_label = "$(book_subgroup[1]) – $(book_subgroup[end])"
             super_content = ""
             for b in book_subgroup
                 b_chunks = book_groups[b]
-                b_label = "Book $b"
+                b_label = "Chapter “$(b)”"
                 sub_list = length(b_chunks) <= 8 ?
                     "<ul>" * join(["<li><a href=\"$(c.href)\">$(c.range_label)</a></li>" for c in b_chunks], "\n") * "</ul>" :
                     generate_chunk_groups(b_chunks)

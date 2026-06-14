@@ -1,0 +1,597 @@
+
+#!citelibrary
+name#Hymn to Hermes, Greek
+urn#urn:cite2:cex:fufolio.2026:hermes_grc
+license#CC Share Alike. For details, see more info.
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:greekLit:tlg0013.tlg004.fucex:#line#Homeric Hymns#To Hermes#Furman teaching edition, based on the edition of Hugh G. Evelyn-White (1914), courtesy of the Perseus Digital Library##true#grc
+
+#!ctsdata
+urn:cts:greekLit:tlg0013.tlg004.fucex:1#"Ἑρμῆν ὕμνει, Μοῦσα, Διὸς καὶ Μαιάδος υἱόν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:2#Κυλλήνης μεδέοντα καὶ Ἀρκαδίης πολυμήλου, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:3#ἄγγελον ἀθανάτων ἐριούνιον, ὃν τέκε Μαῖα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:4#νύμφη ἐυπλόκαμος, Διὸς ἐν φιλότητι μιγεῖσα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:5#αἰδοίη· μακάρων δὲ θεῶν ἠλεύαθ' ὅμιλον, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:6#ἄντρον ἔσω ναίουσα παλίσκιον, ἔνθα Κρονίων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:7#νύμφῃ ἐυπλοκάμῳ μισγέσκετο νυκτὸς ἀμολγῷ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:8#ὄφρα κατὰ γλυκὺς ὕπνος ἔχοι λευκώλενον Ἥρην, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:9#λήθων ἀθανάτους τε θεοὺς θνητούς τ' ἀνθρώπους." 
+urn:cts:greekLit:tlg0013.tlg004.fucex:10#ἀλλ' ὅτε δὴ μεγάλοιο Διὸς νόος ἐξετελεῖτο, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:11#τῇ δ' ἤδη δέκατος μεὶς οὐρανῷ ἐστήρικτο, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:12#εἴς τε φόως ἄγαγεν ἀρίσημά τε ἔργα τέτυκτο· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:13#καὶ τότ' ἐγείνατο παῖδα πολύτροπον, αἱμυλομήτην, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:14#ληιστῆρ', ἐλατῆρα βοῶν, ἡγήτορ' ὀνείρων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:15#νυκτὸς ὀπωπητῆρα, πυληδόκον, ὃς τάχ' ἔμελλεν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:16#ἀμφανέειν κλυτὰ ἔργα μετ' ἀθανάτοισι θεοῖσιν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:17#ἠῷος γεγονὼς μέσῳ ἤματι ἐγκιθάριζεν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:18#ἑσπέριος βοῦς κλέψεν ἑκηβόλου Ἀπόλλωνος 
+urn:cts:greekLit:tlg0013.tlg004.fucex:19#τετράδι τῇ προτέρῃ, τῇ μιν τέκε πότνια Μαῖα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:20#ὃς καί, ἐπειδὴ μητρὸς ἀπ' ἀθανάτων θόρε γυίων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:21#οὐκέτι δηρὸν ἔκειτο μένων ἱερῷ ἐνὶ λίκνῳ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:22#ἀλλ' ὅ γ' ἀναΐξας ζήτει βόας Ἀπόλλωνος 
+urn:cts:greekLit:tlg0013.tlg004.fucex:23#οὐδὸν ὑπερβαίνων ὑψηρεφέος ἄντροιο. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:24#ἔνθα χέλυν εὑρὼν ἐκτήσατο μυρίον ὄλβον· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:25#Ἑρμῆς τοι πρώτιστα χέλυν τεκτήνατ' ἀοιδόν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:26#ἥ ῥά οἱ ἀντεβόλησεν ἐπ' αὐλείῃσι θύρῃσι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:27#βοσκομένη προπάροιθε δόμων ἐριθηλέα ποίην, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:28#σαῦλα ποσὶν βαίνουσα· Διὸς δ' ἐριούνιος υἱὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:29#ἀθρήσας ἐγέλασσε καὶ αὐτίκα μῦθον ἔειπε· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:30#σύμβολον ἤδη μοι μέγ' ὀνήσιμον· οὐκ ὀνοτάζω. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:31#χαῖρε, φυὴν ἐρόεσσα, χοροιτύπε, δαιτὸς ἑταίρη, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:32#ἀσπασίη προφανεῖσα· πόθεν τόδε καλὸν ἄθυρμα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:33#αἰόλον ὄστρακον ἕσσο χέλυς ὄρεσι ζώουσα; 
+urn:cts:greekLit:tlg0013.tlg004.fucex:34#ἀλλ' οἴσω σ' ἐς δῶμα λαβών· ὄφελός τι μοι ἔσσῃ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:35#οὐδ' ἀποτιμήσω· σὺ δέ με πρώτιστον ὀνήσεις 
+urn:cts:greekLit:tlg0013.tlg004.fucex:36#οἴκοι βέλτερον εἶναι, ἐπεὶ βλαβερὸν τὸ θύρηφιν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:37#ἦ γὰρ ἐπηλυσίης πολυπήμονος ἔσσεαι ἔχμα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:38#ζώουσ'· ἢν δὲ θάνῃς, τότε κεν μάλα καλὸν ἀείδοις. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:39#ὣς ἂρ' ἔφη· καὶ χερσὶν ἅμ' ἀμφοτέρῃσιν ἀείρας 
+urn:cts:greekLit:tlg0013.tlg004.fucex:40#ἂψ εἴσω κίε δῶμα φέρων ἐρατεινὸν ἄθυρμα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:41#ἔνθ' ἀναπηρώσας γλυφάνῳ πολιοῖο σιδήρου 
+urn:cts:greekLit:tlg0013.tlg004.fucex:42#αἰῶν' ἐξετόρησεν ὀρεσκῴοιο χελώνης. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:43#ὡς δ' ὁπότ' ὠκὺ νόημα διὰ στέρνοιο περήσῃ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:44#ἀνέρος, ὅν τε θαμειαὶ ἐπιστρωφῶσι μέριμναι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:45#ἢ ὅτε δινηθῶσιν ἀπ' ὀφθαλμῶν ἀμαρυγαί, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:46#ὣς ἅμ' ἔπος τε καὶ ἔργον ἐμήδετο κύδιμος Ἑρμῆς. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:47#πῆξε δ' ἄρ' ἐν μέτροισι ταμὼν δόνακας καλάμοιο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:48#πειρήνας διὰ νῶτα διὰ ῥινοῖο χελώνης. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:49#ἀμφὶ δὲ δέρμα τάνυσσε βοὸς πραπίδεσσιν ἑῇσι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:50#καὶ πήχεις ἐνέθηκ', ἐπὶ δὲ ζυγὸν ἤραρεν ἀμφοῖν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:51#ἑπτὰ δὲ θηλυτέρων ὀίων ἐτανύσσατο χορδάς. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:52#αὐτὰρ ἐπεὶ δὴ τεῦξε, φέρων, ἐρατεινὸν ἄθυρμα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:53#πλήκτρῳ ἐπειρήτιζε κατὰ μέρος· ἣ δ' ὑπὸ χειρὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:54#σμερδαλέον κονάβησε· θεὸς δ' ὑπὸ καλὸν ἄειδεν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:55#ἐξ αὐτοσχεδίης πειρώμενος, ἠύτε κοῦροι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:56#ἡβηταὶ θαλίῃσι παραιβόλα κερτομέουσιν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:57#ἀμφὶ Δία Κρονίδην καὶ Μαιάδα καλλιπέδιλον, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:58#ὡς πάρος ὠρίζεσκον ἑταιρείῃ φιλότητι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:59#ἥν τ' αὐτοῦ γενεὴν ὀνομακλυτὸν ἐξονομάζων· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:60#ἀμφιπόλους τε γέραιρε καὶ ἀγλαὰ δώματα νύμφης 
+urn:cts:greekLit:tlg0013.tlg004.fucex:61#καὶ τρίποδας κατὰ οἶκον ἐπηετανούς τε λέβητας. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:62#καὶ τὰ μὲν οὖν ἤειδε, τὰ δὲ φρεσὶν ἄλλα μενοίνα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:63#καὶ τὴν μὲν κατέθηκε φέρων ἱερῷ ἐνὶ λίκνῳ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:64#φόρμιγγα γλαφυρήν· ὃ δ' ἄρα κρειῶν ἐρατίζων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:65#ἆλτο κατὰ σκοπιὴν εὐώδεος ἐκ μεγάροιο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:66#ὁρμαίνων δόλον αἰπὺν ἐνὶ φρεσίν, οἶά τε φῶτες 
+urn:cts:greekLit:tlg0013.tlg004.fucex:67#φηληταὶ διέπουσι μελαίνης νυκτὸς ἐν ὥρῃ. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:68#ἠέλιος μὲν ἔδυνε κατὰ χθονὸς Ὠκεανόνδε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:69#αὐτοῖσίν θ' ἵπποισι καὶ ἅρμασιν· αὐτὰρ ἄρ' Ἑρμῆς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:70#Πιερίης ἀφίκανε θέων ὄρεα σκιόεντα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:71#ἔνθα θεῶν μακάρων βόες ἄμβροτοι αὖλιν ἔχεσκον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:72#βοσκόμεναι λειμῶνας ἀκηρασίους, ἐρατεινούς. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:73#τῶν τότε Μαιάδος υἱός, ἐύσκοπος Ἀργειφόντης, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:74#πεντήκοντ' ἀγέλης ἀπετάμνετο βοῦς ἐριμύκους. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:75#πλανοδίας δ' ἤλαυνε διὰ ψαμαθώδεα χῶρον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:76#ἴχνι' ἀποστρέψας· δολίης δ' οὐ λήθετο τέχνης 
+urn:cts:greekLit:tlg0013.tlg004.fucex:77#ἀντία ποιήσας ὁπλάς, τὰς πρόσθεν ὄπισθεν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:78#τὰς δ' ὄπιθεν πρόσθεν· κατὰ δ' ἔμπαλιν αὐτὸς ἔβαινε. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:79#σάνδαλα δ' αὐτίκα ῥιψὶν ἐπὶ ψαμάθοις ἁλίῃσιν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:80#ἄφραστ' ἠδ' ἀνόητα διέπλεκε, θαυματὰ ἔργα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:81#συμμίσγων μυρίκας καὶ μυρσινοειδέας ὄζους. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:82#τῶν τότε συνδήσας νεοθηλέος ἄγκαλον ὕλης 
+urn:cts:greekLit:tlg0013.tlg004.fucex:83#ἀβλαβέως ὑπὸ ποσσὶν ἐδήσατο σάνδαλα κοῦφα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:84#αὐτοῖσιν πετάλοισι τὰ κύδιμος Ἀργειφόντης 
+urn:cts:greekLit:tlg0013.tlg004.fucex:85#ἔσπασε Πιερίηθεν ὁδοιπορίην ἀλεγύνων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:86#οἷά τ' ἐπειγόμενος δολιχὴν ὁδόν, αὐτοτροπήσας.† 
+urn:cts:greekLit:tlg0013.tlg004.fucex:87#τὸν δὲ γέρων ἐνόησε δέμων ἀνθοῦσαν ἀλωὴν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:88#ἱέμενον πεδίονδε δι' Ὀγχηστὸν λεχεποίην 
+urn:cts:greekLit:tlg0013.tlg004.fucex:89#τὸν πρότερος προσέφη Μαίης ἐρικυδέος υἱός· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:90#"ὦ γέρον, ὅστε φυτὰ σκάπτεις ἐπικαμπύλος ὤμους, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:91#ἦ πολυοινήσεις, εὖτ' ἂν τάδε πάντα φέρῃσι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:91a#εἴ κε πίθῃ, μάλα περ μεμνημένος ἐν φρεσὶ σῇσι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:92#καί τε ἰδὼν μὴ ἰδὼν εἶναι καὶ κωφὸς ἀκούσας, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:93#καὶ σιγᾶν ὅτε μή τι καταβλάπτῃ τὸ σὸν αὐτοῦ. "
+urn:cts:greekLit:tlg0013.tlg004.fucex:94#τόσσον φὰς συνέσευε βοῶν ἴφθιμα κάρηνα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:95#πολλὰ δ' ὄρη σκιόεντα καὶ αὐλῶνας κελαδεινοὺς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:96#καὶ πεδί' ἀνθεμόεντα διήλασε κύδιμος Ἑρμῆς. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:97#ὀρφναίη δ' ἐπίκουρος ἐπαύετο δαιμονίη νύξ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:98#ἡ πλείων, τάχα δ' ὄρθρος ἐγίγνετο δημιοεργός· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:99#ἣ δὲ νέον σκοπιὴν προσεβήσατο δῖα Σελήνη, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:100#Πάλλαντος θυγάτηρ Μεγαμηδείδαο ἄνακτος. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:101#τῆμος ἐπ' Ἀλφειὸν ποταμὸν Διὸς ἄλκιμος υἱὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:102#Φοίβου Ἀπόλλωνος βοῦς ἤλασεν εὐρυμετώπους. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:103#ἀκμῆτες δ' ἵκανον ἐπ' αὔλιον ὑψιμέλαθρον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:104#καὶ ληνοὺς προπάροιθεν ἀριπρεπέος λειμῶνος. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:105#ἔνθ' ἐπεὶ εὖ βοτάνης ἐπεφόρβει βοῦς ἐριμύκους 
+urn:cts:greekLit:tlg0013.tlg004.fucex:106#καὶ τὰς μὲν συνέλασσεν ἐς αὔλιον ἀθρόας οὔσας, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:107#λωτὸν ἐρεπτομένας ἠδ' ἑρσήεντα κύπειρον· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:108#σὺν δ' ἐφόρει ξύλα πολλά, πυρὸς δ' ἐπεμαίετο τέχνην. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:109#δάφνης ἀγλαὸν ὄζον ἑλὼν ἀπέλεψε σιδήρῳ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:110#[ … ] ἄρμενον ἐν παλάμῃ· ἄμπνυτο δὲ θερμὸς ἀυτμή· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:111#Ἑρμῆς τοι πρώτιστα πυρήια πῦρ τ' ἀνέδωκε. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:112#πολλὰ δὲ κάγκανα κᾶλα κατουδαίῳ ἐνὶ βόθρῳ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:113#οὖλα λαβὼν ἐπέθηκεν ἐπηετανά· λάμπετο δὲ φλὸξ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:114#τηλόσε φῦσαν ἱεῖσα πυρὸς μέγα δαιομένοιο. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:115#ὄφρα δὲ πῦρ ἀνέκαιε βίη κλυτοῦ Ἡφαίστοιο, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:116#τόφρα δ' ὑποβρύχους ἕλικας βοῦς εἷλκε θύραζε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:117#δοιὰς ἄγχι πυρός· δύναμις δέ οἱ ἕσπετο πολλή. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:118#ἀμφοτέρας δ' ἐπὶ νῶτα χαμαὶ βάλε φυσιοώσας· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:119#ἀγκλίνων δ' ἐκύλινδε δι' αἰῶνας τετορήσας. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:120#ἔργῳ δ' ἔργον ὄπαζε ταμὼν κρέα πίονα δημῷ· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:121#ὤπτα δ' ἀμφ' ὀβελοῖσι πεπαρμένα δουρατέοισι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:122#σάρκας ὁμοῦ καὶ νῶτα γεράσμια καὶ μέλαν αἷμα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:123#ἐργμένον ἐν χολάδεσσι· τὰ δ' αὐτοῦ κεῖτ' ἐπὶ χώρης· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:124#ῥινοὺς δ' ἐξετάνυσσε καταστυφέλῳ ἐνὶ πέτρῃ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:125#ὡς ἔτι νῦν τὰ μέτασσα πολυχρόνιοι πεφύασι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:126#δηρὸν δὴ μετὰ ταῦτα καὶ ἄκριτον· αὐτὰρ ἔπειτα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:127#Ἑρμῆς χαρμόφρων εἰρύσατο πίονα ἔργα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:128#λείῳ ἐπὶ πλαταμῶνι καὶ ἔσχισε δώδεκα μοίρας 
+urn:cts:greekLit:tlg0013.tlg004.fucex:129#κληροπαλεῖς· τέλεον δὲ γέρας προσέθηκεν ἑκάστῃ. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:130#ἔνθ' ὁσίης κρεάων ἠράσσατο κύδιμος Ἑρμῆς· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:131#ὀδμὴ γάρ μιν ἔτειρε καὶ ἀθάνατόν περ ἐόντα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:132#ἡδεῖ'· ἀλλ' οὐδ' ὥς οἱ ἐπείθετο θυμὸς ἀγήνωρ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:133#καί τε μάλ' ἱμείροντι, περῆν† ἱερῆς κατὰ δειρῆς. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:134#ἀλλὰ τὰ μὲν κατέθηκεν ἐς αὔλιον ὑψιμέλαθρον, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:135#δημὸν καὶ κρέα πολλά, μετήορα δ' αἶψ' ἀνάειρε, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:136#σῆμα νέης φωρῆς· ἐπὶ δὲ ξύλα κάγκαν' ἀγείρας 
+urn:cts:greekLit:tlg0013.tlg004.fucex:137#οὐλόποδ', οὐλοκάρηνα πυρὸς κατεδάμνατ' ἀυτμῇ. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:138#αὐτὰρ ἐπεί τοι πάντα κατὰ χρέος ἤνυσε δαίμων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:139#σάνδαλα μὲν προέηκεν ἐς Ἀλφειὸν βαθυδίνην· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:140#ἀνθρακιὴν δ' ἐμάρανε, κόνιν δ' ἀμάθυνε μέλαιναν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:141#παννύχιος· καλὸν δὲ φόως κατέλαμπε Σελήνης. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:142#Κυλλήνης δ' αἶψ' αὖτις ἀφίκετο δῖα κάρηνα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:143#ὄρθριος, οὐδέ τί οἱ δολιχῆς ὁδοῦ ἀντεβόλησεν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:144#οὔτε θεῶν μακάρων οὔτε θνητῶν ἀνθρώπων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:145#οὐδὲ κύνες λελάκοντο· Διὸς δ' ἐριούνιος Ἑρμῆς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:146#δοχμωθεὶς μεγάροιο διὰ κλήιθρον ἔδυνεν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:147#αὔρῃ ὀπωρινῇ ἐναλίγκιος, ἠύτ' ὀμίχλη. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:148#ἰθύσας δ' ἄντρου ἐξίκετο πίονα νηὸν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:149#ἦκα ποσὶ προβιβῶν· οὐ γὰρ κτύπεν, ὥσπερ ἐπ' οὔδει. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:150#ἐσσυμένως δ' ἄρα λίκνον ἐπῴχετο κύδιμος Ἑρμῆς· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:151#σπάργανον ἀμφ' ὤμοις εἰλυμένος, ἠύτε τέκνον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:152#νήπιον, ἐν παλάμῃσι περ' ἰγνύσι λαῖφος ἀθύρων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:153#κεῖτο, χέλυν ἐρατὴν ἐπ' ἀριστερὰ χειρὸς ἐέργων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:154#μητέρα δ' οὐκ ἄρ' ἔληθε θεὰν θεὸς εἰπέ τε μῦθον· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:155#τίπτε σύ, ποικιλομῆτα, πόθεν τόδε νυκτὸς ἐν ὥρῃ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:156#ἔρχῃ, ἀναιδείην ἐπιειμένε; νῦν σε μάλ' οἴω 
+urn:cts:greekLit:tlg0013.tlg004.fucex:157#ἢ τάχ' ἀμήχανα δεσμὰ περὶ πλευρῇσιν ἔχοντα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:158#Λητοίδου ὑπὸ χερσὶ διὲκ προθύροιο περήσειν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:159#ἣ σὲ φέροντα μεταξὺ κατ' ἄγκεα φηλητεύσειν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:160#ἔρρε πάλιν· μεγάλην σε πατὴρ ἐφύτευσε μέριμναν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:161#θνητοῖς ἀνθρώποισι καὶ ἀθανάτοισι θεοῖσι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:162#τὴν δ' Ἑρμῆς μύθοισιν ἀμείβετο κερδαλέοισι· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:163#"μῆτερ ἐμή, τί με ταῦτα δεδίσκεαι, ἠύτε τέκνον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:164#νήπιον, ὃς μάλα παῦρα μετὰ φρεσὶν αἴσυλα οἶδε, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:165#ταρβαλέον, καὶ μητρὸς ὑπαιδείδοικεν ἐνιπάς; 
+urn:cts:greekLit:tlg0013.tlg004.fucex:166#αὐτὰρ ἐγὼ τέχνης ἐπιβήσομαι, ἥ τις ἀρίστη, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:167#βουκολέων ἐμὲ καὶ σὲ διαμπερές· οὐδὲ θεοῖσι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:168#νῶι μετ' ἀθανάτοισιν ἀδώρητοι καὶ ἄλιστοι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:169#αὐτοῦ τῇδε μένοντες ἀνεξόμεθ', ὡς σὺ κελεύεις. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:170#βέλτερον ἤματα πάντα μετ' ἀθανάτοις ὀαρίζειν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:171#πλούσιον, ἀφνειόν, πολυλήιον, ἢ κατὰ δῶμα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:172#ἄντρῳ ἐν ἠερόεντι θαασσέμεν· ἀμφὶ δὲ τιμῆς, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:173#κἀγὼ τῆς ὁσίης ἐπιβήσομαι, ἧς περ Ἀπόλλων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:174#εἰ δέ κε μὴ δώῃσι πατὴρ ἐμός, ἧ τοι ἔγωγε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:175#πειρήσω, δύναμαι, φηλητέων ὄρχαμος εἶναι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:176#εἰ δέ μ' ἐρευνήσει Λητοῦς ἐρικυδέος υἱός, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:177#ἄλλο τί οἱ καὶ μεῖζον ὀίομαι ἀντιβολήσειν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:178#εἶμι γὰρ ἐς Πυθῶνα μέγαν δόμον ἀντιτορήσων· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:179#ἔνθεν ἅλις τρίποδας περικαλλέας ἠδὲ λέβητας 
+urn:cts:greekLit:tlg0013.tlg004.fucex:180#πορθήσω καὶ χρυσόν, ἅλις τ' αἴθωνα σίδηρον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:181#καὶ πολλὴν ἐσθῆτα· σὺ δ' ὄψεαι, αἴ κ' ἐθέλῃσθα. "
+urn:cts:greekLit:tlg0013.tlg004.fucex:182#ὣς οἳ μέν ῥ' ἐπέεσσι πρὸς ἀλλήλους ἀγόρευον, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:183#υἱός τ' αἰγιόχοιο Διὸς καὶ πότνια Μαῖα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:184#Ἠὼς δ' ἠριγένεια φόως θνητοῖσι φέρουσα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:185#ὤρνυτ' ἀπ' Ὠκεανοῖο βαθυρρόου· αὐτὰρ Ἀπόλλων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:186#Ὀγχηστόνδ' ἀφίκανε κιών, πολυήρατον ἄλσος 
+urn:cts:greekLit:tlg0013.tlg004.fucex:187#ἁγνὸν ἐρισφαράγου Γαιηόχου· ἔνθα γέροντα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:188#κνώδαλον εὗρε νέμοντα παρ' ἔξοδον ἕρκεος αὐλῆς. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:189#τὸν πρότερος προσέφη Λητοῦς ἐρικυδέος υἱός· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:190#ὦ γέρον, Ὀγχηστοῖο βατοδρόπε ποιήεντος, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:191#βοῦς ἀπὸ Πιερίης διζήμενος ἐνθάδ' ἱκάνω, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:192#πάσας θηλείας, πάσας κεράεσσιν ἑλικτάς, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:193#ἐξ ἀγέλης· ὁ δὲ ταῦρος ἐβόσκετο μοῦνος ἀπ' ἄλλων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:194#κυάνεος· χαροποὶ δὲ κύνες κατόπισθεν ἕποντο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:195#τέσσαρες, ἠύτε φῶτες, ὁμόφρονες· οἳ μὲν ἔλειφθεν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:196#οἵ τε κύνες ὅ τε ταῦρος· ὃ δὴ περὶ θαῦμα τέτυκται· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:197#ταὶ δ' ἔβαν ἠελίοιο νέον καταδυομένοιο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:198#ἐκ μαλακοῦ λειμῶνος ἀπὸ γλυκεροῖο νομοῖο. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:199#ταῦτά μοι εἰπέ, γεραιὲ παλαιγενές, εἴ που ὄπωπας 
+urn:cts:greekLit:tlg0013.tlg004.fucex:200#ἀνέρα ταῖσδ' ἐπὶ βουσὶ διαπρήσσοντα κέλευθον. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:201#τὸν δ' ὁ γέρων μύθοισιν ἀμειβόμενος προσέειπεν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:202#ὦ φίλος, ἀργαλέον μέν, ὅσ' ὀφθαλμοῖσιν ἴδοιτο, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:203#πάντα λέγειν· πολλοὶ γὰρ ὁδὸν πρήσσουσιν ὁδῖται, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:204#τῶν οἳ μὲν κακὰ πολλὰ μεμαότες, οἳ δὲ μάλ' ἐσθλὰ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:205#φοιτῶσιν· χαλεπὸν δὲ δαήμεναί ἐστιν ἕκαστον· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:206#αὐτὰρ ἐγὼ πρόπαν ἦμαρ ἐς ἠέλιον καταδύντα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:207#ἔσκαπτον περὶ γουνὸν ἀλωῆς οἰνοπέδοιο· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:208#παῖδα δ' ἔδοξα, φέριστε, σαφὲς δ' οὐκ οἶδα, νοῆσαι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:209#ὅς τις ὁ παῖς, ἅμα βουσὶν ἐυκραίρῃσιν ὀπήδει 
+urn:cts:greekLit:tlg0013.tlg004.fucex:210#νήπιος, εἶχε δὲ ῥάβδον· ἐπιστροφάδην δ' ἐβάδιζεν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:211#ἐξοπίσω δ' ἀνέεργε, κάρη δ' ἔχεν ἀντίον αὐτῷ. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:212#φῆ ῥ' ὁ γέρων· ὃ δὲ θᾶσσον ὁδὸν κίε μῦθον ἀκούσας· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:213#οἰωνὸν δ' ἐνόει τανυσίπτερον, αὐτίκα δ' ἔγνω 
+urn:cts:greekLit:tlg0013.tlg004.fucex:214#φηλητὴν γεγαῶτα Διὸς παῖδα Κρονίωνος. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:215#ἐσσυμένως δ' ἤιξεν ἄναξ Διὸς υἱὸς Ἀπόλλων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:216#ἐς Πύλον ἠγαθέην διζήμενος εἰλίποδας βοῦς, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:217#πορφυρέῃ νεφέλῃ κεκαλυμμένος εὐρέας ὤμουσ' 
+urn:cts:greekLit:tlg0013.tlg004.fucex:218#ἴχνιά τ' εἰσενόησεν Ἑκηβόλος εἶπέ τε μῦθον· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:219#ὦ πόποι, ἦ μέγα θαῦμα τόδ' ὀφθαλμοῖσιν ὁρῶμαι· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:220#ἴχνια μὲν τάδε γ' ἐστὶ βοῶν ὀρθοκραιράων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:221#ἀλλὰ πάλιν τέτραπται ἐς ἀσφοδελὸν λειμῶνα· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:222#βήματα δ' οὔτ' ἀνδρὸς τάδε γίγνεται οὔτε γυναικὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:223#οὔτε λύκων πολιῶν οὔτ' ἄρκτων οὔτε λεόντων· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:224#οὔτε τι Κενταύρου λασιαύχενος ἔλπομαι εἶναι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:225#ὅς τις τοῖα πέλωρα βιβᾷ ποσὶ καρπαλίμοισιν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:226#αἰνὰ μὲν ἔνθεν ὁδοῖο, τὰ δ' αἰνότερ' ἔνθεν ὁδοῖο. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:227#ὣς εἰπὼν ἤιξεν ἄναξ Διὸς υἱὸς Ἀπόλλων· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:228#Κυλλήνης δ' ἀφίκανεν ὄρος καταείμενον ὕλῃ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:229#πέτρης ἐς κευθμῶνα βαθύσκιον, ἔνθα τε νύμφη 
+urn:cts:greekLit:tlg0013.tlg004.fucex:230#ἀμβροσίη ἐλόχευσε Διὸς παῖδα Κρονίωνος. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:231#ὀδμὴ δ' ἱμερόεσσα δι' οὔρεος ἠγαθέοιο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:232#κίδνατο, πολλὰ δὲ μῆλα ταναύποδα βόσκετο ποίην. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:233#ἔνθα τότε σπεύδων κατεβήσατο λάινον οὐδὸν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:234#ἄντρον ἐς ἠερόεν ἑκατηβόλος αὐτὸς Ἀπόλλων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:235# Τὸν δ' ὡς οὖν ἐνόησε Διὸς καὶ Μαιάδος υἱὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:236#χωόμενον περὶ βουσὶν ἑκηβόλον Ἀπόλλωνα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:237#σπάργαν' ἔσω κατέδυνε θυήεντ'· ἠύτε πολλὴν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:238#πρέμνων ἀνθρακιὴν ὕλης σποδὸς ἀμφικαλύπτει, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:239#ὣς Ἑρμῆς Ἑκάεργον ἰδὼν ἀνέειλεν ἑαυτόν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:240#ἐν δ' ὀλίγῳ συνέλασσε κάρη χεῖράς τε πόδας τε, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:241#φή ῥα νεόλλουτος, προκαλεύμενος ἥδυμον ὕπνον, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:242#ἐγρήσσων ἐτεόν γε· χέλυν δ' ὑπὸ μασχάλῃ εἶχε. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:243#γνῶ δ' οὐδ' ἠγνοίησε Διὸς καὶ Λητοῦς υἱὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:244#νύμφην τ' οὐρείην περικαλλέα καὶ φίλον υἱόν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:245#παῖδ' ὀλίγον, δολίῃς εἰλυμένον ἐντροπίῃσι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:246#παπτήνας δ' ἀνὰ πάντα μυχὸν μεγάλοιο δόμοιο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:247#τρεῖς ἀδύτους ἀνέῳγε λαβὼν κληῖδα φαεινὴν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:248#νέκταρος ἐμπλείους ἠδ' ἀμβροσίης ἐρατεινῆς· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:249#πολλὸς δὲ χρυσός τε καὶ ἄργυρος ἔνδον ἔκειτο, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:250#πολλὰ δὲ φοινικόεντα καὶ ἄργυφα εἵματα νύμφης, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:251#οἷα θεῶν μακάρων ἱεροὶ δόμοι ἐντὸς ἔχουσιν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:252#ἔνθ' ἐπεὶ ἐξερέεινε μυχοὺς μεγάλοιο δόμοιο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:253#Λητοΐδης, μύθοισι προσηύδα κύδιμον Ἑρμῆν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:254#ὦ παῖ, ὃς ἐν λίκνῳ κατάκειαι, μήνυέ μοι βοῦς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:255#θᾶσσον· ἐπεὶ τάχα νῶι διοισόμεθ' οὐ κατὰ κόσμον. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:256#ῥίψω γάρ σε λαβὼν ἐς Τάρταρον ἠερόεντα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:257#ἐς ζόφον αἰνόμορον καὶ ἀμήχανον· οὐδέ σε μήτηρ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:258#ἐς φάος οὐδὲ πατὴρ ἀναλύσεται, ἀλλ' ὑπὸ γαίῃ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:259#ἐρρήσεις ὀλίγοισι μετ' ἀνδράσιν ἡγεμονεύων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:260# Τὸν δ' Ἑρμῆς μύθοισιν ἀμείβετο κερδαλέοισι· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:261#Λητοΐδη, τίνα τοῦτον ἀπηνέα μῦθον ἔειπας; 
+urn:cts:greekLit:tlg0013.tlg004.fucex:262#καὶ βοῦς ἀγραύλους διζήμενος ἐνθάδ' ἱκάνεις; 
+urn:cts:greekLit:tlg0013.tlg004.fucex:263#οὐκ ἴδον, οὐ πυθόμην, οὐκ ἄλλου μῦθον ἄκουσα· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:264#οὐκ ἂν μηνύσαιμ', οὐκ ἂν μήνυτρον ἀροίμην· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:265#οὐδὲ βοῶν ἐλατῆρι, κραταιῷ φωτί, ἔοικα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:266#οὐκ ἐμὸν ἔργον τοῦτο, πάρος δέ μοι ἄλλα μέμηλεν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:267#ὕπνος ἐμοί γε μέμηλε καὶ ἡμετέρης γάλα μητρὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:268#σπάργανά τ' ἀμφ' ὤμοισιν ἔχειν καὶ θερμὰ λοετρά. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:269#μή τις τοῦτο πύθοιτο, πόθεν τόδε νεῖκος ἐτύχθη· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:270#καί κεν δὴ μέγα θαῦμα μετ' ἀθανάτοισι γένοιτο, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:271#παῖδα νέον γεγαῶτα διὲκ προθύροιο περῆσαι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:272#βουσὶν ἐπ' ἀγραύλοισι· τὸ δ' ἀπρεπέως ἀγορεύεις. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:273#χθὲς γενόμην, ἁπαλοὶ δὲ πόδες, τρηχεῖα δ' ὕπο χθών. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:274#εἰ δ' ἐθέλεις, πατρὸς κεφαλὴν μέγαν ὅρκον ὀμοῦμαι· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:275#μὴ μὲν ἐγὼ μήτ' αὐτὸς ὑπίσχομαι αἴτιος εἶναι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:276#μήτε τιν' ἄλλον ὄπωπα βοῶν κλοπὸν ὑμετεράων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:277#αἵ τινες αἱ βόες εἰσί· τὸ δὲ κλέος οἶον ἀκούω. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:278#ὣς ἄρ' ἔφη καὶ πυκνὸν ἀπὸ βλεφάρων ἀμαρύσσων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:279#ὀφρῦς ῥιπτάζεσκεν ὁρώμενος ἔνθα καὶ ἔνθα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:280#μάκρ' ἀποσυρίζων, ἅλιον τὸν μῦθον ἀκούων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:281#τὸν δ' ἁπαλὸν γελάσας προσέφη ἑκάεργος Ἀπόλλων· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:282#ὦ πέπον, ἠπεροπευτά, δολοφραδές, ἦ σε μάλ' οἴω 
+urn:cts:greekLit:tlg0013.tlg004.fucex:283#πολλάκις ἀντιτοροῦντα δόμους εὖ ναιετάοντας 
+urn:cts:greekLit:tlg0013.tlg004.fucex:284#ἔννυχον οὐχ ἕνα μοῦνον ἐπ' οὔδεϊ φῶτα καθίσσαι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:285#σκευάζοντα κατ' οἶκον ἄτερ ψόφου, οἷ' ἀγορεύεις· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:286#πολλοὺς δ' ἀγραύλους ἀκαχήσεις μηλοβοτῆρας 
+urn:cts:greekLit:tlg0013.tlg004.fucex:287#οὔρεος ἐν βήσσῃς, ὁπότ' ἄν κρειῶν ἐρατίζων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:288#ἀντᾷς βουκολίοισι καὶ εἰροπόκοις ὀίεσσιν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:289#ἀλλ' ἄγε, μὴ πύματόν τε καὶ ὕστατον ὕπνον ἰαύσῃς, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:290#ἐκ λίκνου κατάβαινε, μελαίνης νυκτὸς ἑταῖρε. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:291#τοῦτο γὰρ οὖν καὶ ἔπειτα μετ' ἀθανάτοις γέρας ἕξεις. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:292#ἀρχὸς φηλητέων κεκλήσεαι ἤματα πάντα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:293#ὣς ἄρ' ἔφη καὶ παῖδα λαβὼν φέρε Φοῖβος Ἀπόλλων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:294#σὺν δ' ἄρα φρασσάμενος τότε δὴ κρατὺς Ἀργειφόντης 
+urn:cts:greekLit:tlg0013.tlg004.fucex:295#οἰωνὸν προέηκεν ἀειρόμενος μετὰ χερσί, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:296#τλήμονα γαστρὸς ἔριθον, ἀτάσθαλον ἀγγελιώτην. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:297#ἐσσυμένως δὲ μετ' αὐτὸν ἐπέπταρε· τοῖο δ' Ἀπόλλων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:298#ἔκλυεν, ἐκ χειρῶν δὲ χαμαὶ βάλε κύδιμον Ἑρμῆν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:299#ἕζετο δὲ προπάροιθε καὶ ἐσσύμενός περ ὁδοῖο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:300#Ἑρμῆν κερτομέων καί μιν πρὸς μῦθον ἔειπε· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:301#"θάρσει, σπαργανιῶτα, Διὸς καὶ Μαιάδος υἱέ· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:302#εὑρήσω καὶ ἔπειτα βοῶν ἴφθιμα κάρηνα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:303#τούτοις οἰωνοῖσι· σὺ δ' αὖθ' ὁδὸν ἡγεμονεύσεις. "
+urn:cts:greekLit:tlg0013.tlg004.fucex:304#ὣς φάθ'· ὃ δ' αὖτ' ἀνόρουσε θοῶς Κυλλήνιος Ἑομῆς, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:305#σπουδῇ ἰών· ἄμφω δὲ παρ' οὔατα χερσὶν ἐώθει 
+urn:cts:greekLit:tlg0013.tlg004.fucex:306#σπάργανον ἀμφ' ὤμοισιν ἐελμένος, εἶπε δὲ μῦθον· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:307#πῆ με φέρεις, Ἑκάεργε, θεῶν ζαμενέστατε πάντων; 
+urn:cts:greekLit:tlg0013.tlg004.fucex:308#ἦ με βοῶν ἕνεχ' ὧδε χολούμενος ὀρσολοπεύεις; 
+urn:cts:greekLit:tlg0013.tlg004.fucex:309#ὦ πόποι, εἴθ' ἀπόλοιτο βοῶν γένος· οὐ γὰρ ἐγώ γε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:310#ὑμετέρας ἔκλεψα βόας οὐδ' ἄλλον ὄπωπα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:311#αἵτινες αἱ βόες εἰσί· τὸ δὲ κλέος οἶον ἀκούω. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:312#δὸς δὲ δίκην καὶ δέξο παρὰ Ζηνὶ Κρονίωνι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:313#αὐτὰρ ἐπεὶ τὰ ἕκαστα διαρρήδην ἐρίδαινον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:314#Ἑρμῆς τ' οἰοπόλος καὶ Λητοῦς ἀγλαὸς υἱός, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:315#ἀμφὶς θυμὸν ἔχοντες. ὃ μὲν νημερτέα φωνὴν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:316#[ … ] οὐκ ἀδίκως ἐπὶ βουσὶν ἐλάζυτο κύδιμον Ἑρμῆν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:317#αὐτὰρ ὃ τέχνῃσίν τε καὶ αἱμυλίοισι λόγοισιν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:318#ἤθελεν ἐξαπατᾶν Κυλλήνιος Ἀργυρότοξον. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:319#αὐτὰρ ἐπεὶ πολύμητις ἐὼν πολυμήχανον εὗρεν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:320#ἐσσυμένως δὴ ἔπειτα διὰ ψαμάθοιο βάδιζε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:321#πρόσθεν, ἀτὰρ κατόπισθε Διὸς καὶ Λητοῦς υἱός. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:322#αἶψα δὲ τέρθρον ἵκοντο θυώδεος Οὐλύμποιο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:323#ἐς πατέρα Κρονίωνα Διὸς περικαλλέα τέκνα· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:324#κεῖθι γὰρ ἀμφοτέροισι δίκης κατέκειτο τάλαντα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:325#οὐμιλίη δ' ἔχ' Ὄλυμπον ἀγάννιφον, ἀθάνατοι δὲ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:326#ἄφθιτοι ἠγερέθοντο μετὰ χρυσόθρονον Ἠῶ. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:327#ἔστησαν δ' Ἑρμῆς τε καὶ ἀργυρότοξος Ἀπόλλων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:328#πρόσθε Διὸς γούνων· ὃ δ' ἀνείρετο φαίδιμον υἱὸν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:329#Ζεὺς ὑψιβρεμέτης καί μιν πρὸς μῦθον ἔειπε· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:330#φοῖβε, πόθεν ταύτην μενοεικέα ληίδ' ἐλαύνεις, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:331#παῖδα νέον γεγαῶτα, φυὴν κήρυκος ἔχοντα; 
+urn:cts:greekLit:tlg0013.tlg004.fucex:332#σπουδαῖον τόδε χρῆμα θεῶν μεθ' ὁμήγυριν ἦλθε. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:333#τὸν δ' αὖτε προσέειπεν ἄναξ ἑκάεργος Ἀπόλλων· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:334#"ὦ πάτερ, ἦ τάχα μῦθον ἀκούσεαι οὐκ ἀλαπαδνόν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:335#κερτομέων ὡς οἶος ἐγὼ φιλολήιός εἰμι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:336#παῖδά τιν' εὗρον τόνδε διαπρύσιον κεραϊστὴν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:337#Κυλλήνης ἐν ὄρεσσι, πολὺν διὰ χῶρον ἀνύσσας, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:338#κέρτομον, οἷον ἐγώ γε θεῶν οὐκ ἄλλον ὄπωπα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:339#οὐδ' ἀνδρῶν, ὁπόσοι λησίμβροτοί εἰσ' ἐπὶ γαίῃ. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:340#κλέψας δ' ἐκ λειμῶνος ἐμὰς βοῦς ὤχετ' ἐλαύνων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:341#ἑσπέριος παρὰ θῖνα πολυφλοίσβοιο θαλάσσης, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:342#εὐθὺ Πύλονδ' ἐλάων· τὰ δ' ἄρ' ἴχνια δοιὰ πέλωρα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:343#οἷά τ' ἀγάσσασθαι, καὶ ἀγαυοῦ δαίμονος ἔργα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:344#τῇσιν μὲν γὰρ βουσὶν ἐς ἀσφοδελὸν λειμῶνα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:345#ἀντία βήματ' ἔχουσα κόνις ἀνέφαινε μέλαινα· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:346#αὐτὸς δ' ἐκτὸς ὁδοῦ, τις ἀμήχανος, οὔτ' ἄρα ποσσὶν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:347#οὔτ' ἄρα χερσὶν ἔβαινε διὰ ψαμαθώδεα χῶρον· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:348#ἀλλ' ἄλλην τινὰ μῆτιν ἔχων διέτριβε κέλευθα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:349#τοῖα πέλωρ' ὡς εἴ τις ἀραιῇσι δρυσὶ βαίνοι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:350#ὄφρα μὲν οὖν ἐδίωκε διὰ ψαμαθώδεα χῶρον, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:351#ῥεῖα μάλ' ἴχνια πάντα διέπρεπεν ἐν κονίῃσιν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:352#αὐτὰρ ἐπεὶ ψαμάθοιο μέγαν στίβον ἐξεπέρησεν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:353#ἄφραστος γένετ' ὦκα βοῶν στίβος ἠδὲ καὶ αὐτοῦ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:354#χῶρον ἀνὰ κρατερόν· τὸν δ' ἐφράσατο βροτὸς ἀνὴρ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:355#ἐς Πύλον εὐθὺς ἐλῶντα βοῶν γένος εὐρυμετώπων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:356#αὐτὰρ ἐπεὶ δὴ τὰς μὲν ἐν ἡσυχίῃ κατέερξε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:357#καὶ διαπυρπαλάμησεν ὁδοῦ τὸ μὲν ἔνθα, τὸ δ' ἔνθα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:358#ἐν λίκνῳ κατέκειτο μελαίνῃ νυκτὶ ἐοικώς, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:359#ἄντρῳ ἐν ἠερόεντι κατὰ ζόφον· οὐδέ κεν αὐτὸν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:360#αἰετὸς ὀξὺ λάων ἐσκέψατο· πολλὰ δὲ χερσὶν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:361#αὐγὰς ὠμόργαζε δολοφροσύνην ἀλεγύνων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:362#αὐτὸς δ' αὐτίκα μῦθον ἀπηλεγέως ἀγόρευεν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:363#οὐκ ἴδον, οὐ πυθόμην, οὐκ ἄλλου μῦθον ἄκουσα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:364#οὐδέ κε μηνύσαιμ', οὐδ' ἄν μήνυτρον ἀροίμην. "
+urn:cts:greekLit:tlg0013.tlg004.fucex:365# Ἠ τοι ἄρ' ὣς εἰπὼν κατ' ἄρ' ἕζετο Φοῖβος Ἀπόλλων· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:366#Ερμῆς δ' αὖθ' ἑτέρωθεν ἀμειβόμενος ἔπος ηὔδα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:367#δείξατο δ' ἐς Κρονίωνα, θεῶν σημάντορα πάντων· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:368#"ζεῦ πάτερ, ἦ τοι ἐγώ σοι ἀληθείην καταλέξω· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:369#νημερτής τε γάρ εἰμι καὶ οὐκ οἶδα ψεύδεσθαι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:370#ἦλθεν ἐς ἡμετέρου διζήμενος εἰλίποδας βοῦς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:371#σήμερον ἠελίοιο νέον ἐπιτελλομένοιο· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:372#οὐδὲ θεῶν μακάρων ἄγε μάρτυρας οὐδὲ κατόπτας, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:373#μηνύειν δ' ἐκέλευεν ἀναγκαίης ὑπὸ πολλῆς, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:374#πολλὰ δέ μ' ἠπείλησε βαλεῖν ἐς Τάρταρον εὐρύν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:375#οὕνεχ' ὃ μὲν τέρεν ἄνθος ἔχει φιλοκυδέος ἥβης, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:376#αὐτὰρ ἐγὼ χθιζὸς γενόμην, τὰ δέ τ' οἶδε καὶ αὐτός, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:377#οὔτι βοῶν ἐλατῆρι, κραταιῷ φωτί, ἐοικώς. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:378#πείθεο· καὶ γὰρ ἐμεῖο πατὴρ φίλος εὔχεαι εἶναι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:379#ὡς οὐκ οἴκαδ' ἔλασσα βόας, ὣς ὄλβιος εἴην, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:380#οὐδ' ὑπὲρ οὐδὸν ἔβην· τὸ δέ τ' ἀτρεκέως ἀγορεύω. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:381#Ἠέλιον δὲ μάλ' αἰδέομαι καὶ δαίμονας ἄλλους, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:382#καὶ σε φιλῶ καὶ τοῦτον ὀπίζομαι· οἶσθα καὶ αὐτός, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:383#ὡς οὐκ αἴτιός εἰμι· μέγαν δ' ἐπιδώσομαι ὅρκον· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:384#οὐ μὰ τάδ' ἀθανάτων εὐκόσμητα προθύραια. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:385#καί που ἐγὼ τούτῳ τίσω ποτὲ νηλέα φώρην, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:386#καὶ κρατερῷ περ ἐόντι· σὺ δ' ὁπλοτέροισιν ἄρηγε. "
+urn:cts:greekLit:tlg0013.tlg004.fucex:387#ὣς φάτ' ἐπιλλίζων Κυλλήνιος Ἀργειφόντης· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:388#καὶ τὸ σπάργανον εἶχεν ἐπ' ὠλένῃ οὐδ' ἀπέβαλλε. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:389#Ζεὺς δὲ μέγ' ἐξεγέλασσεν ἰδὼν κακομηδέα παῖδα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:390#εὖ καὶ ἐπισταμένως ἀρνεύμενον ἀμφὶ βόεσσιν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:391#ἀμφοτέρους δ' ἐκέλευσεν ὁμόφρονα θυμὸν ἔχοντας 
+urn:cts:greekLit:tlg0013.tlg004.fucex:392#ζητεύειν, Ἑρμῆν δὲ διάκτορον ἡγεμονεύειν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:393#καὶ δεῖξαι τὸν χῶρον ἐπ' ἀβλαβίῃσι νόοιο, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:394#ὅππη δὴ αὖτ' ἀπέκρυψε βοῶν ἴφθιμα κάρηνα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:395#νεῦσεν δὲ Κρονίδης, ἐπεπείθετο δ' ἀγλαὸς Ἑρμῆς· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:396#ῥηιδίως γὰρ ἔπειθε Διὸς νόος αἰγιόχοιο. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:397#τὼ δ' ἄμφω σπεύδοντε Διὸς περικαλλέα τέκνα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:398#ἐς Πύλον ἠμαθόεντα ἐπ' Ἀλφειοῦ πόρον ἷξον· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:399#ἀγροὺς δ' ἐξίκοντο καὶ αὔλιον ὑψιμέλαθρον, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:400#ἡχοῦ δὴ τὰ χρήματ' ἀτάλλετο νυκτὸς ἐν ὥρῃ. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:401#ἔνθ' Ἑρμῆς μὲν ἔπειτα κιὼν παρὰ λάινον ἄντρον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:402#ἐς φῶς ἐξήλαυνε βοῶν ἴφθιμα κάρηνα· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:403#Λητοΐδης δ' ἀπάτερθεν ἰδὼν ἐνόησε βοείας 
+urn:cts:greekLit:tlg0013.tlg004.fucex:404#πέτρῃ ἐπ' ἠλιβάτῳ, τάχα δ' εἴρετο κύδιμον Ἑρμῆν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:405#"πῶς ἐδύνω, δολομῆτα, δύω βόε δειροτομῆσαι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:406#ὧδε νεογνὸς ἐὼν καὶ νήπιος; αὐτὸς ἐγώ γε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:407#θαυμαίνω κατόπισθε τὸ σὸν κράτος· οὐδέ τί σε χρὴ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:408#μακρὸν ἀέξεσθαι, Κυλλήνιε, Μαιάδος υἱέ. "
+urn:cts:greekLit:tlg0013.tlg004.fucex:409#ὣς ἄρ ἔφη καὶ χερσὶ περίστρεφε καρτερὰ δεσμὰ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:409a#ἐνδῆσαι μεμαὼς Ἑρμῆν κρατεραῖσι λύγοισι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:409b#τὸν δ' οὐκ ἴσχανε δεσμά, λύγοι δ' ἀπὸ τηλόσε πῖπτον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:410#ἄγνου· ταὶ δ' ὑπὸ ποσσὶ κατὰ χθονὸς αἶψα φύοντο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:411#αὐτόθεν, ἐμβολάδην ἐστραμμέναι ἀλλήλῃσι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:412#ῥεῖά τε καὶ πάσῃσιν ἐπ' ἀγραύλοισι βόεσσιν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:413#Ἑρμέω βουλῇσι κλεψίφρονος· αὐτὰρ Ἀπόλλων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:414#θαύμασεν ἀθρήσας. τότε δὴ κρατὺς Ἀργειφόντης 
+urn:cts:greekLit:tlg0013.tlg004.fucex:415#χῶρον ὑποβλήδην ἐσκέψατο, πῦρ ἀμαρύσσων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:416#[ … ] ἐγκρύψαι μεμαώς· Λητοῦς δ' ἐρικυδέος υἱὸν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:417#ῥεῖα μάλ' ἐπρήυνεν ἑκηβόλον, ὡς ἔθελ' αὐτός, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:418#καὶ κρατερόν περ ἐόντα· λαβὼν δ' ἐπ' ἀριστερὰ χειρὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:419#πλήκτρῳ ἐπειρήτιζε κατὰ μέρος· ἣ δ' ὑπὸ χειρὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:420#σμερδαλέον κονάβησε· γέλασσε δὲ Φοῖβος Ἀπόλλων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:421#γηθήσας, ἐρατὴ δὲ διὰ φρένας ἤλυθ' ἰωὴ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:422#θεσπεσίης ἐνοπῆς καὶ μιν γλυκὺς ἵμερος ᾕρει 
+urn:cts:greekLit:tlg0013.tlg004.fucex:423#θυμῷ ἀκουάζοντα· λύρῃ δ' ἐρατὸν κιθαρίζων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:424#στῆ ῥ' ὅ γε θαρσήσας ἐπ' ἀριστερὰ Μαιάδος υἱὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:425#Φοίβου Ἀπόλλωνος· τάχα δὲ λιγέως κιθαρίζων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:426#γηρύετ' ἀμβολάδην — ἐρατὴ δέ οἱ ἕσπετο φωνή — κραίνων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:427#ἀθανάτους τε θεοὺς καὶ γαῖαν ἐρεμνήν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:428#ὡς τὰ πρῶτα γένοντο καὶ ὡς λάχε μοῖραν ἕκαστος. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:429#Μνημοσύνην μὲν πρῶτα θεῶν ἐγέραιρεν ἀοιδῇ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:430#μητέρα Μουσάων· ἣ γὰρ λάχε Μαιάδος υἱόν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:431#τοὺς δὲ κατὰ πρέσβιν τε καὶ ὡς γεγάασιν ἕκαστος 
+urn:cts:greekLit:tlg0013.tlg004.fucex:432#ἀθανάτους ἐγέραιρε θεοὺς Διὸς ἀγλαὸς υἱός, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:433#πάντ' ἐνέπων κατὰ κόσμον, ἐπωλένιον κιθαρίζων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:434#τὸν δ' ἔρος ἐν στήθεσσιν ἀμήχανος αἴνυτο θυμόν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:435#καὶ μιν φωνήσας ἔπεα πτερόεντα προσηύδα· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:436#"βουφόνε, μηχανιῶτα, πονεύμενε, δαιτὸς ἑταῖρε, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:437#πεντήκοντα βοῶν ἀντάξια ταῦτα μέμηλας. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:438#ἡσυχίως καὶ ἔπειτα διακρινέεσθαι ὀίω· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:439#νῦν δ' ἄγε μοι τόδε εἰπέ, πολύτροπε Μαιάδος υἱέ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:440#ἦ σοί γ' ἐκ γενετῆς τάδ' ἅμ' ἕσπετο θαυματὰ ἔργα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:441#ἠέ τις ἀθανάτων ἠὲ θνητῶν ἀνθρώπων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:442#δῶρον ἀγαυὸν ἔδωκε καὶ ἔφρασε θέσπιν ἀοιδήν; 
+urn:cts:greekLit:tlg0013.tlg004.fucex:443#θαυμασίην γὰρ τήνδε νεήφατον ὄσσαν ἀκούω, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:444#ἣν οὐ πώ ποτέ φημι δαήμεναι οὔτε τιν' ἀνδρῶν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:445#οὔτε τιν' ἀθανάτων, οἳ Ὀλύμπια δώματ' ἔχουσι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:446#νόσφι σέθεν, φηλῆτα, Διὸς καὶ Μαιάδος υἱέ. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:447#τίς τέχνη, τίς μοῦσα ἀμηχανέων μελεδώνων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:448#τίς τρίβος; ἀτρεκέως γὰρ ἅμα τρία πάντα πάρεστιν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:449#εὐφροσύνην καὶ ἔρωτα καὶ ἥδυμον ὕπνον ἑλέσθαι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:450#καὶ γὰρ ἐγὼ Μούσῃσιν Ὀλυμπιάδεσσιν ὀπηδός, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:451#τῇσι χοροί τε μέλουσι καὶ ἀγλαὸς οἶμος ἀοιδῆς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:452#καὶ μολπὴ τεθαλυῖα καὶ ἱμερόεις βρόμος αὐλῶν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:453#ἀλλ' οὔ πω τί μοι ὧδε μετὰ φρεσὶν ἄλλο μέλησεν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:454#οἷα νέων θαλίῃς ἐνδέξια ἔργα πέλονται. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:455#θαυμάζω, Διὸς υἱέ, τάδ', ὡς ἐρατὸν κιθαρίζεις. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:456#νῦν δ' ἐπεὶ οὖν ὀλίγος περ ἐὼν κλυτὰ μήδεα οἶδας, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:457#ἷζε, πέπον, καὶ μῦθον ἐπαίνει πρεσβυτέροισι· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:458#νῦν γάρ τοι κλέος ἔσται ἐν ἀθανάτοισι θεοῖσι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:459#σοί τ' αὐτῷ καὶ μητρί· τὸ δ' ἀτρεκέως ἀγορεύσω· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:460#ναὶ μὰ τόδε κρανέινον ἀκόντιον, ἦ μὲν ἐγώ σε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:461#κυδρὸν ἐν ἀθανάτοισι καὶ ὄλβιον ἡγεμόν' εἵσω 
+urn:cts:greekLit:tlg0013.tlg004.fucex:462#δώσω τ' ἀγλαὰ δῶρα καὶ ἐς τέλος οὐκ ἀπατήσω. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:463#τὸν δ' Ἑρμῆς μύθοισιν ἀμείβετο κερδαλέοισιν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:464#εἰρωτᾷς μ', Ἐκάεργε, περιφραδές· αὐτὰρ ἐγώ σοι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:465#τέχνης ἡμετέρης ἐπιβήμεναι οὔ τι μεγαίρω. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:466#σήμερον εἰδήσεις· ἐθέλω δέ τοι ἤπιος εἶναι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:467#βουλῇ καὶ μύθοισι. σὺ δὲ φρεσὶ πάντ' εὖ οἶδας· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:468#πρῶτος γάρ, Διὸς υἱέ, μετ' ἀθανάτοισι θαάσσεις, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:469#ἠύς τε κρατερός τε· φιλεῖ δέ σε μητίετα Ζεὺς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:470#ἐκ πάσης ὁσίης, ἔπορεν δέ τοι ἀγλαὰ δῶρα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:471#καὶ τιμάς σέ γέ φασι δαήμεναι ἐκ Διὸς ὀμφῆς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:472#μαντείας θ' Ἐκάεργε, Διὸς παρά, θέσφατα πάντα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:473#τῶν νῦν αὐτὸς ἐγώ σε μαλ' ἀφνειὸν δεδάηκα· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:474#σοὶ δ' αὐτάγρετόν ἐστι δαήμεναι, ὅττι μενοινᾷς. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:475#ἀλλ' ἐπεὶ οὖν τοι θυμὸς ἐπιθύει κιθαρίζειν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:476#μέλπεο καὶ κιθάριζε καὶ ἀγλαίας ἀλέγυνε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:477#δέγμενος ἐξ ἐμέθεν· σὺ δέ μοι, φίλε, κῦδος ὄπαζε. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:478#εὐμόλπει μετὰ χερσὶν ἔχων λιγύφωνον ἑταίρην, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:479#καλὰ καὶ εὖ κατὰ κόσμον ἐπιστάμενος ἀγορεύειν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:480#εὔκηλος μὲν ἔπειτα φέρειν ἐς δαῖτα θάλειαν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:481#καὶ χορὸν ἱμερόεντα καὶ ἐς φιλοκυδέα κῶμον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:482#εὐφροσύνην νυκτός τε καὶ ἤματος. ὅς τις ἂν αὐτὴν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:483#τέχνῃ καὶ σοφίῃ δεδαημένος ἐξερεείνῃ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:484#φθεγγομένη παντοῖα νόῳ χαρίεντα διδάσκει 
+urn:cts:greekLit:tlg0013.tlg004.fucex:485#ῥεῖα συνηθείῃσιν ἀθυρομένη μαλακῇσιν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:486#ἐργασίην φεύγουσα δυήπαθον· ὃς δέ κεν αὐτὴν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:487#νῆις ἐὼν τὸ πρῶτον ἐπιζαφελῶς ἐρεείνῃ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:488#μὰψ αὔτως κεν ἔπειτα μετήορά τε θρυλλίζοι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:489#σοὶ δ' αὐτάγρετόν ἐστι δαήμεναι, ὅττι μενοινᾷς. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:490#καὶ τοι ἐγὼ δώσω ταύτην, Διὸς ἀγλαὲ κοῦρε· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:491#ἡμεῖς δ' αὖτ' ὄρεός τε καὶ ἱπποβότου πεδίοιο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:492#βουσὶ νομούς, Ἐκάεργε, νομεύσομεν ἀγραύλοισιν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:493#ἔνθεν ἅλις τέξουσι βόες ταύροις·, μιγεῖσαι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:494#μίγδην θηλείας τε καὶ ἄρσενας· οὐδέ τί σε χρὴ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:495#κερδαλέον περ ἐόντα περιζαμενῶς κεχολῶσθαι. "
+urn:cts:greekLit:tlg0013.tlg004.fucex:496#ὣς εἰπὼν ὤρεξ'· ὃ δ' ἐδέξατο Φοῖβος Ἀπόλλων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:497#Ἐρμῇ δ' ἐγγυάλιξεν ἑκὼν μάστιγα φαεινήν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:498#βουκολίας τ' ἐπέτελλεν· ἔδεκτο δὲ Μαιάδος υἱὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:499#γηθήσας· κίθαριν δὲ λαβὼν ἐπ' ἀριστερὰ χειρὸς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:500#Λητοῦς ἀγλαὸς υἱός, ἄναξ ἑκάεργος Ἀπόλλων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:501#πλήκτρῳ ἐπειρήτιζε κατὰ μένος· ἣ δ' ὑπένερθε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:502#σμερδαλέον κονάβησε· θεὸς δ' ὑπὸ καλὸν ἄεισεν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:503#ἔνθα βόας μὲν ἔπειτα ποτὶ ζάθεον λειμῶνα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:504#ἐτραπέτην· αὐτοὶ δέ, Διὸς περικαλλέα τέκνα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:505#ἄψορροι πρὸς Ὄλυμπον ἀγάννιφον ἐρρώσαντο 
+urn:cts:greekLit:tlg0013.tlg004.fucex:506#τερπόμενοι φόρμιγγι· χάρη δ' ἄρα μητιέτα Ζεύς, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:507#ἄμφω δ' ἐς φιλότητα συνήγαγε· καὶ τὰ μὲν Ἑρμῆς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:508#Λητοΐδην ἐφίλησε διαμπερὲς ὡς ἔτι καὶ νῦν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:509#σήματ' ἐπεὶ κίθαριν μὲν Ἑκηβόλῳ ἐγγυάλιξεν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:510#ἱμερτήν, δεδαώς, ὃ δ' ἐπωλένιον κιθάριζεν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:511#αὐτὸς δ' αὖθ' ἑτέρης σοφίης ἐκμάσσατο τέχνην· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:512#συρίγγων ἐνοπὴν ποιήσατο τηλόθ' ἀκουστήν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:513#καὶ τότε Λητοΐδης Ἑρμῆν πρὸς μῦθον ἔειπε· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:514#"δείδια, Μαιάδος υἱέ, διάκτορε, ποικιλομῆτα, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:515#μή μοι ἅμα κλέψῃς κίθαριν καὶ καμπύλα τόξα· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:516#τιμὴν γὰρ πὰρ Ζηνὸς ἔχεις ἐπαμοίβια ἔργα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:517#θήσειν ἀνθρώποισι κατὰ χθόνα πουλυβότειραν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:518#ἀλλ' εἴ μοι τλαίης γε θεῶν μέγαν ὅρκον ὀμόσσαι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:519#ἢ κεφαλῇ νεύσας ἢ ἐπὶ Στυγὸς ὄβριμον ὕδωρ, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:520#πάντ' ἂν ἐμῷ θυμῷ κεχαρισμένα καὶ φίλα ἔρδοις. "
+urn:cts:greekLit:tlg0013.tlg004.fucex:521#καὶ τότε Μαιάδος υἱὸς ὑποσχόμενος κατένευσε, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:522#μή ποτ' ἀποκλέψειν, ὅσ' Ἑκηβόλος ἐκτεάτισται, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:523#μηδέ ποτ' ἐμπελάσειν πυκινῷ δόμῳ· αὐτὰρ Ἀπόλλων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:524#Λητοΐδης κατένευσεν ἐπ' ἀρθμῷ καὶ φιλότητι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:525#μή τινα φίλτερον ἄλλον ἐν ἀθανάτοισιν ἔσεσθαι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:526#μήτε θεὸν μήτ' ἄνδρα Διὸς γόνον· ἐκ δὲ τέλειον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:526a# αἰετὸν ἧκε πατήρ· ὁ δ' ἐπώμοσεν· ἦ σε μάλ' οἶον
+urn:cts:greekLit:tlg0013.tlg004.fucex:527#"σύμβολον ἀθανάτων ποιήσομαι ἠδ' ἅμα πάντων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:528#πιστὸν ἐμῷ θυμῷ καὶ τίμιον· αὐτὰρ ἔπειτα 
+urn:cts:greekLit:tlg0013.tlg004.fucex:529#ὄλβου καὶ πλούτου δώσω περικαλλέα ῥάβδον, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:530#χρυσείην, τριπέτηλον, ἀκήριον ἥ σε φυλάξει 
+urn:cts:greekLit:tlg0013.tlg004.fucex:531#πάντας ἐπικραίνουσ' ἄθλους ἐπέων τε καὶ ἔργων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:532#τῶν ἀγαθῶν, ὅσα φημὶ δαήμεναι ἐκ Διὸς ὀμφῆς. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:533#μαντείην δέ, φέριστε, διοτρεφές, ἣν ἐρεείνεις, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:534#οὔτε σὲ θέσφατόν ἐστι δαήμεναι οὔτε τιν' ἄλλον 
+urn:cts:greekLit:tlg0013.tlg004.fucex:535#ἀθανάτων· τὸ γὰρ οἶδε Διὸς νόος· αὐτὰρ ἐγώ γε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:536#πιστωθεὶς κατένευσα καὶ ὤμοσα καρτερὸν ὅρκον, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:537#μή τινα νόσφιν ἐμεῖο θεῶν αἰειγενετάων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:538#ἄλλον γ' εἴσεσθαι Ζηνὸς πυκινόφρονα βουλήν. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:539#καὶ σύ, κασίγνητε χρυσόρραπι, μή με κέλευε 
+urn:cts:greekLit:tlg0013.tlg004.fucex:540#θέσφατα πιφαύσκειν, ὅσα μήδεται εὐρύοπα Ζεύς. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:541#ἀνθρώπων δ' ἄλλον δηλήσομαι, ἄλλον ὀνήσω, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:542#πολλὰ περιτροπέων ἀμεγάρτων φῦλ' ἀνθρώπων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:543#καὶ μὲν ἐμῆς ὀμφῆς ἀπονήσεται, ὅς τις ἂν ἔλθῃ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:544#φωνῇ καὶ πτερύγεσσι τεληέντων οἰωνῶν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:545#οὗτος ἐμῆς ὀμφῆς ἀπονήσεται, οὐδ' ἀπατήσω. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:546#ὃς δέ κε μαψιλόγοισι πιθήσας οἰωνοῖσι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:547#μαντείην ἐθέλῃσι παρὲκ νόον ἐξερεείνειν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:548#ἡμετέρην, νοέειν δὲ θεῶν πλέον αἰὲν ἐόντων, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:549#φήμ', ἁλίην ὁδὸν εἶσιν. ἐγὼ δέ κε δῶρα δεχοίμην. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:550#ἄλλο δέ τοι ἐρέω, Μαίης ἐρικυδέος υἱὲ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:551#καὶ Διὸς αἰγιόχοιο, θεῶν ἐριούνιε δαῖμον· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:552#σεμναὶ γὰρ τινες εἰσί, κασίγνηται γεγαυῖαι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:553#παρθένοι, ὠκείῃσιν ἀγαλλόμεναι πτερύγεσσι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:554#τρεῖς· κατὰ δὲ κρατὸς πεπαλαγμέναι ἄλφιτα λευκά, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:555#οἰκία ναιετάουσιν ὑπὸ πτυχὶ Παρνησοῖο, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:556#μαντείης ἀπάνευθε διδάσκαλοι, ἣν ἐπὶ βουσὶ 
+urn:cts:greekLit:tlg0013.tlg004.fucex:557#παῖς ἔτ' ἐὼν μελέτησα· πατὴρ δ' ἐμὸς οὐκ ἀλέγιζεν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:558#ἐντεῦθεν δὴ ἔπειτα ποτώμεναι ἄλλοτε ἄλλη 
+urn:cts:greekLit:tlg0013.tlg004.fucex:559#κηρία βόσκονται καὶ τε κραίνουσιν ἕκαστα. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:560#αἳ δ' ὅτε μὲν θυΐωσιν ἐδηδυῖαι μέλι χλωρόν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:561#προφρονέως ἐθέλουσιν ἀληθείην ἀγορεύειν· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:562#ἢν δ' ἀπονοσφισθῶσι θεῶν ἡδεῖαν ἐδωδήν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:563#ψεύδονται δὴ ἔπειτα δι' ἀλλήλων δονέουσαι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:564#τάς τοι ἔπειτα δίδωμι· σὺ δ' ἀτρεκέως ἐρεείνων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:565#σὴν αὐτοῦ φρένα τέρπε, καὶ εἰ βροτὸν ἄνδρα δαείῃς, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:566#πολλάκι σῆς ὀμφῆς ἐπακούσεται, αἴ κε τύχῃσι. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:567#ταῦτ' ἔχε, Μαιάδος υἱέ, καὶ ἀγραύλους ἕλικας βοῦς 
+urn:cts:greekLit:tlg0013.tlg004.fucex:568#ἵππους τ' ἀμφιπόλευε καὶ ἡμιόνους ταλαεργούς. "
+urn:cts:greekLit:tlg0013.tlg004.fucex:568a# ὡς ἔφατ'· οὐρανόθεν δὲ πατὴρ Ζεὺς αὐτὸς ἔπεσσι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:568b# θῆκε τέλος· πᾶσιν δ' ἄρ' ὅ γ' οἰωνοῖσι κέλευσεν 
+urn:cts:greekLit:tlg0013.tlg004.fucex:569#καὶ χαροποῖσι λέουσι καὶ ἀργιόδουσι σύεσσι 
+urn:cts:greekLit:tlg0013.tlg004.fucex:570#καὶ κυσὶ καὶ μήλοισιν, ὅσα τρέφει εὐρεῖα χθών, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:571#πᾶσι δ' ἐπὶ προβάτοισιν ἀνάσσειν κύδιμον Ἑρμῆν, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:572#οἶον δ' εἰς Ἀΐδην τετελεσμένον ἄγγελον εἶναι, 
+urn:cts:greekLit:tlg0013.tlg004.fucex:573#ὅς τ' ἄδοτός περ ἐὼν δώσει γέρας οὐκ ἐλάχιστον. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:574#οὕτω Μαιάδος υἱὸν ἄναξ ἐφίλησεν Ἀπόλλων 
+urn:cts:greekLit:tlg0013.tlg004.fucex:575#παντοίῃ φιλότητι· χάριν δ' ἐπέθηκε Κρονίων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:576#πᾶσι δ' ὅ γε θνητοῖσι καὶ ἀθανάτοισιν ὁμιλεῖ. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:577#παῦρα μὲν οὖν ὀνίνησι, τὸ δ' ἄκριτον ἠπεροπεύει 
+urn:cts:greekLit:tlg0013.tlg004.fucex:578#νύκτα δι' ὀρφναίην φῦλα θνητῶν ἀνθρώπων. 
+urn:cts:greekLit:tlg0013.tlg004.fucex:579#"καὶ σὺ μὲν οὕτω χαῖρε, Διὸς καὶ Μαιάδος, υἱέ· 
+urn:cts:greekLit:tlg0013.tlg004.fucex:580#αὐτὰρ ἐγὼ καὶ σεῖο καὶ ἄλλης μνήσομ' ἀοιδῆς. "

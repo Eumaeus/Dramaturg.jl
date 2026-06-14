@@ -36,6 +36,7 @@ Write a complete tokenized CEX that:
 """
 function write_tokenized_cex(original_path::String, tokenized_data_lines::Vector{String}, config::Dict)
     output_path = get_output_path(config, "tokenized")
+    println("=====\n$output_path\n======")
     mkpath(dirname(output_path))
 
     original_lines = readlines(original_path)

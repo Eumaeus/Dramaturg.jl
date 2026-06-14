@@ -1,0 +1,6 @@
+
+## The *Homeric Hymn to Hermes*
+
+The *Homeric Hymn to Hermes* is an anonymous ancient Greek epic poem in dactylic hexameter, part of the collection known as the Homeric Hymns, composed likely in the late seventh or early sixth century BC. 
+
+The poem recounts the god's birth and precocious exploits as a trickster. Born to Maia in a cave on Mount Cyllene, the infant Hermes immediately leaves his cradle, invents the lyre from a tortoise shell, and steals fifty of Apollo's cattle from Pieria, driving them backwards to obscure his tracks and crafting sandals to conceal his footprints. He sacrifices two cows, divides the meat into twelve portions as offerings, and returns home to feign innocence in his cradle. When confronted by Apollo, Hermes denies the theft with bold lies and clever oaths, even before Zeus, who is amused by the child's cunning. The dispute resolves when Hermes gifts the lyre to Apollo in exchange for honors, including authority over certain oracles and other prerogatives, securing his place among the Olympians while highlighting his wily nature, inventiveness, and humorous audacity in deception and negotiation. 

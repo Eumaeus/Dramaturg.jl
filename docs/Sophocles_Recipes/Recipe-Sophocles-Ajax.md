@@ -6,7 +6,7 @@ cd PATH/TO/Dramaturg/
 
 [Start Docker]
 
-cp scripts/config-sophocles-ajax.toml scripts/config.toml
+cp scripts/Configs_Sophocles/config-sophocles-ajax.toml scripts/config.toml
 
 julia --project=. scripts/tokenize_cex.jl
 
