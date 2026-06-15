@@ -13,11 +13,21 @@ function format_passage_range(first_cit::String, last_cit::String, level::Int)::
         fparts = split(first_cit, '.')
         lparts = split(last_cit, '.')
 
+
         #return "Passages $(first_cit)–$(last_cit)"
-        return "Passages $(fparts[1])–$(lparts[1])"
+        if (fparts[1] == lparts[1])
+            return "Passage $(fparts[1])"
+        else
+            return "Passages $(fparts[1])–$(lparts[1])"
+        end
     else
         fparts = split(first_cit, '.')
-        return "Passages $(first_cit) – $(last_cit)"
+
+        if (first_cit == last_cit)
+            return "Passage $(last_cit)"
+        else
+            return "Passages $(first_cit)–$(first_cit)"
+        end
         #=
         if length(fparts) >= 2 && length(lparts) >= 2 && fparts[1] == lparts[1]
             return "Passages $(fparts[1]).$(fparts[2])–$(fparts[1]).$(lparts[2])"
