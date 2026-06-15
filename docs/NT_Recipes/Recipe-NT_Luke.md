@@ -6,7 +6,7 @@ cd PATH/TO/Dramaturg/
 
 [Start Docker]
 
-cp scripts/Configs_History/config-nt-luke.toml scripts/config.toml
+cp scripts/Configs_NT/config-nt-luke.toml scripts/config.toml
 
 julia --project=. scripts/tokenize_cex.jl
 
