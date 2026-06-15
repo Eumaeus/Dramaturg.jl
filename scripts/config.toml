@@ -1,10 +1,10 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/plutarch-pericles.cex"
-text_urn = "urn:cts:greekLit:tlg0007.tlg012.ziegler:" 
-file_name = "Plutarch_Pericles"
-text_title = "Plutarch, *Life of Pericles*"
+cex_path = "source-data/texts/nt-luke.cex"
+text_urn = "urn:cts:greekLit:tlg0031.tlg003.wh:" 
+file_name = "NT_Luke"
+text_title = "New Testament: *The Gospel According to Luke*"
 text_genre = "prose" # options are "poetry", "prose", "drama"
 citation_level = 2 # "book.section". A poem might be 1, 'poetic-line'
 filter_paratext = "" # filter out passages with this string in the URN.
@@ -12,13 +12,13 @@ filter_paratext = "" # filter out passages with this string in the URN.
 
 [output]
 html_tokens_per_page = 250
-html_output_dir = "editions/html/Plutarch_Pericles/pages"
+html_output_dir = "editions/html/NT_Luke/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Plutarch_Pericles"
-md_bibliography = "editions/frontmatter/Plutarch_Pericles/bibliography.md"
-md_frontmatter = "editions/frontmatter/Plutarch_Pericles/frontmatter.md"
+html_temp_dir = "data/html_temp/NT_Luke"
+md_bibliography = "editions/frontmatter/NT_Luke/bibliography.md"
+md_frontmatter = "editions/frontmatter/NT_Luke/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
 
@@ -29,23 +29,23 @@ lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
 lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
-raw_morph_data = "morph/output/plutarch-pericles-analysis.txt"
-morph_pos_triplets = "data/indexes/Plutarch_Pericles/Plutarch_Pericles_morpheus_triplets.tsv"
-morph_pos_errors = "morph/output/Plutarch_Pericles_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/Plutarch_Pericles/Plutarch_Pericles_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/Plutarch_Pericles/Plutarch_Pericles_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/Plutarch_Pericles/Plutarch_Pericles_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/Plutarch_Pericles/Plutarch_Pericles_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/plutarch-pericles_morph.cex"
+raw_morph_data = "morph/output/nt-luke-analysis.txt"
+morph_pos_triplets = "data/indexes/NT_Luke/NT_Luke_morpheus_triplets.tsv"
+morph_pos_errors = "morph/output/NT_Luke_parse_errors.log"
+morph_lemmata_alignment = "data/indexes/NT_Luke/NT_Luke_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/NT_Luke/NT_Luke_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/NT_Luke/NT_Luke_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/NT_Luke/NT_Luke_morphology_index_errors.tsv"
+local_morph_dict = "data/morphology/nt-luke_morph.cex"
 
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Plutarch_Pericles"
-indexes_dir = "indexes/Plutarch_Pericles"
-vocabulary_dir = "vocabulary/Plutarch_Pericles"
+tokenized_dir = "tokenized/NT_Luke"
+indexes_dir = "indexes/NT_Luke"
+vocabulary_dir = "vocabulary/NT_Luke"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -69,8 +69,8 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/Plutarch_Pericles/"
+editor_index_files = "source-data/edited_morphology/NT_Luke/"
 
-editor_index_error = "data/morphology/editorial_index_error_plutarch-pericles.txt"
+editor_index_error = "data/morphology/editorial_index_error_nt-luke.txt"
 
-editor_index_morphology = "data/morphology/editorial_index_morphology_plutarch-pericles.cex"
+editor_index_morphology = "data/morphology/editorial_index_morphology_nt-luke.cex"
