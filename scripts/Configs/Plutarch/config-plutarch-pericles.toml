@@ -36,7 +36,7 @@ morph_lemmata_alignment = "data/indexes/Plutarch/Plutarch_Pericles/Plutarch_Peri
 morph_lemmata_alignment_errors = "data/indexes/Plutarch/Plutarch_Pericles/Plutarch_Pericles_triplets_lemmata_errors.tsv"
 morph_token_index = "data/indexes/Plutarch/Plutarch_Pericles/Plutarch_Pericles_morphology_index.tsv"
 morph_token_index_errors = "data/indexes/Plutarch/Plutarch_Pericles/Plutarch_Pericles_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/plutarch-pericles_morph.cex"
+local_morph_dict = "data/morphology/Plutarch/plutarch-pericles_morph.cex"
 
 
 

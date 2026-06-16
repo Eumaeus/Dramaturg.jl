@@ -36,7 +36,7 @@ morph_lemmata_alignment = "data/indexes/Philosophy/Epictetus_Discourses/Epictetu
 morph_lemmata_alignment_errors = "data/indexes/Philosophy/Epictetus_Discourses/Epictetus_Discourses_triplets_lemmata_errors.tsv"
 morph_token_index = "data/indexes/Philosophy/Epictetus_Discourses/Epictetus_Discourses_morphology_index.tsv"
 morph_token_index_errors = "data/indexes/Philosophy/Epictetus_Discourses/Epictetus_Discourses_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/epictetus-discourses_morph.cex"
+local_morph_dict = "data/morphology/Philosophy/epictetus-discourses_morph.cex"
 
 
 

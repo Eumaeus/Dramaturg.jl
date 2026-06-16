@@ -28,6 +28,8 @@ julia --project=. scripts/align_lemmata.jl
 
 julia --project=. scripts/initial_cex.jl
 
+cp scripts/Configs/NT/config-nt-john.toml scripts/config.toml
+
 julia --project=. scripts/update_morphology_dictionary.jl
 
 julia --project=. scripts/index_morphology_to_tokens.jl

@@ -36,7 +36,7 @@ morph_lemmata_alignment = "data/indexes/Philosophy/Aristotle_Poetics/Aristotle_P
 morph_lemmata_alignment_errors = "data/indexes/Philosophy/Aristotle_Poetics/Aristotle_Poetics_triplets_lemmata_errors.tsv"
 morph_token_index = "data/indexes/Philosophy/Aristotle_Poetics/Aristotle_Poetics_morphology_index.tsv"
 morph_token_index_errors = "data/indexes/Philosophy/Aristotle_Poetics/Aristotle_Poetics_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/aristotle-poetics_morph.cex"
+local_morph_dict = "data/morphology/Philosophy/aristotle-poetics_morph.cex"
 
 
 

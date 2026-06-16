@@ -32,6 +32,8 @@ julia --project=. scripts/update_morphology_dictionary.jl
 
 julia --project=. scripts/index_morphology_to_tokens.jl
 
+cp scripts/Configs/History/config-herodotus.toml scripts/config.toml
+
 julia --project=. scripts/generate_html_index.jl
 
 julia --project=. scripts/generate_html_reader_pages.jl	

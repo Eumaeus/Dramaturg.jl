@@ -26,6 +26,8 @@ julia --project=. scripts/parse_morpheus.jl
 
 julia --project=. scripts/align_lemmata.jl
 
+cp scripts/Configs/Homer/config-hymn-2-Demeter.toml scripts/config.toml
+
 julia --project=. scripts/initial_cex.jl
 
 julia --project=. scripts/update_morphology_dictionary.jl
