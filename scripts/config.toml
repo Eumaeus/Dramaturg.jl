@@ -74,7 +74,7 @@ lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
 
 master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
-user_morphology_dir = "source-data/morphology/Aristophanes/user-generated"
+user_morphology_dir = "source-data/morphology/user-generated"
 
 editor_index_files = "source-data/edited_morphology/Aristophanes/Aristophanes_Frogs/"
 

@@ -497,7 +497,7 @@ function main()
     if !isempty(conflict_report) && !isempty(error_path)
         mkpath(dirname(error_path))
         write(error_path, conflict_report)
-        println("⚠️  Editorial conflicts written to: $error_path")
+        println("⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️\nEditorial conflicts written to: $(error_path)\n⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️")
     elseif !isempty(editorial_choices)
         println("✅ Loaded $(length(editorial_choices)) editorial morphology choices (no conflicts).")
     else
