@@ -1,0 +1,378 @@
+token_urn	surface_form	normalized_form	reason
+	!citelibrary	!citelibrary	no_match_in_morph_dict
+name	Aristotle, Poetics	Aristotle, Poetics	no_match_in_morph_dict
+urn	urn:cite2:cex:fufolio.2026:aristotle_poetics	urn:cite2:cex:fufolio.2026:aristotle_poetics	no_match_in_morph_dict
+license	CC Share Alike. For details, see more info.	CC Share Alike. For details, see more info.	no_match_in_morph_dict
+	!ctscatalog	!ctscatalog	no_match_in_morph_dict
+urn	citationScheme	citationScheme	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu.token:	line/speech/speaker/token,line/speech/text/token	line/speech/speaker/token,line/speech/text/token	no_match_in_morph_dict
+urn	citationScheme	citationScheme	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:	section/subsection	section/subsection	no_match_in_morph_dict
+	!ctsdata	!ctsdata	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:1.4.token.46	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:1.4.token.50	μεμιγμένοις	μεμιγμένοις	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:1.7.token.15	μιγνῦσα	μιγνῦσα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:1.7.token.16	μετ ̓	μετ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:1.7.token.19	εἴθ ̓	εἴθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:1.8.token.10	Ξενάρχου	Ξενάρχου	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:1.11.token.23	Ἐμπεδοκλεῖ	Ἐμπεδοκλεῖ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:1.12.token.9	μιγνύων	μιγνύων	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:1.12.token.15	Χαιρήμων	Χαιρήμων	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:1.12.token.35	διωρίσθω	διωρίσθω	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:2.1.token.38	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:2.5.token.15	Κλεοφῶν	Κλεοφῶν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:2.5.token.19	Ἡγήμων	Ἡγήμων	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:2.5.token.29	Νικοχάρης	Νικοχάρης	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:2.5.token.32	Δηλιάδα	Δηλιάδα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:2.6.token.16	Τιμόθεος	Τιμόθεος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:3.3.token.12	κατ ̓	κατ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:3.4.token.10	Σοφοκλῆς	Σοφοκλῆς	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:3.4.token.19	Ἀριστοφάνει·	Ἀριστοφάνει·	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:3.5.token.25	παρ ̓	παρ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:3.5.token.38	Ἐπίχαρμος	Ἐπίχαρμος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:3.5.token.45	Χωνίδου	Χωνίδου	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.3.token.19	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.4.token.18	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.7.token.32	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.12.token.6	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.12.token.17	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.13.token.8	ἐφ ̓	ἐφ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.13.token.62	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.14.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.14.token.4	ἀπ ̓	ἀπ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.16.token.12	Αἰσχύλος	Αἰσχύλος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.16.token.30	Σοφοκλῆς	Σοφοκλῆς	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.18.token.26	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:4.21.token.16	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:5.3.token.9	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:5.3.token.36	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:5.5.token.5	Ἐπίχαρμος	Ἐπίχαρμος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:5.8.token.9	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:5.9.token.1	Καίτοι	Καίτοι	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:5.10.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:6.2.token.27	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:6.2.token.30	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:6.8.token.23	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:6.9.token.9	καθ ̓ἃ	καθ ̓ἅ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:6.9.token.16	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:6.14.token.13	γένοιτ ̓	γένοιτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:6.15.token.30	ἠθογράφος	ἠθογράφος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:6.21.token.9	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:6.22.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:6.24.token.21	μηδ ̓	μηδ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.1.token.1	Διωρισμένων	Διωρισμένων	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.2.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.3.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.4.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.4.token.10	μετ ̓	μετ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.4.token.14	μετ ̓	μετ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.4.token.16	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.5.token.6	μετ ̓	μετ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.6.token.6	μετ ̓	μετ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.6.token.9	μετ ̓	μετ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.7.token.7	μήθ ̓	μήθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.7.token.11	μήθ ̓	μήθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.8.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.9.token.29	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.10.token.30	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:7.12.token.3	κατ ̓	κατ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:8.1.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:8.2.token.11	θησηΐδα	θησηΐδα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:8.3.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:8.3.token.12	τοῦτ ̓	τοῦτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:8.3.token.38	Παρνασσῷ	Παρνασσῷ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.1.token.19	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.2.token.19	Ἡροδότου	Ἡροδότου	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.3.token.18	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.3.token.21	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.4.token.9	ποῖ ̓	ποῖ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.4.token.30	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.4.token.34	Ἀλκιβιάδης	Ἀλκιβιάδης	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.5.token.30	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.6.token.11	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.7.token.31	Ἀγάθωνος	Ἀγάθωνος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.8.token.1	Ὥστ ̓	Ὥστ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.8.token.32	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.10.token.27	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.11.token.13	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.11.token.21	μετ ̓	μετ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.11.token.23	οὔτ ̓	οὔτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.11.token.25	οὔτ ̓	οὔτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.11.token.37	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.11.token.83	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:9.11.token.93	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:10.3.token.6	μετ ̓	μετ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.3.token.9	ἀποθανούμενος	ἀποθανούμενος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.3.token.13	Δαναὸς	Δαναός	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.3.token.23	ἀποθανεῖν	ἀποθανεῖν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.3.token.27	σωθῆναι	σωθῆναι	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.4.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.6.token.31	ἀναγωρίσαι·	ἀναγωρίσαι·	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.7.token.1	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.7.token.3	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.7.token.8	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.8.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.8.token.25	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.9.token.8	ταῦτ ̓	ταῦτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:11.10.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:12.2.token.2	τοῦτου	τοῦτου	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:12.3.token.8	κόμμοι	κόμμοι	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:12.6.token.6	μεθ ̓	μεθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:12.9.token.1	κόμμος	κόμμος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:12.10.token.23	ταῦτ ̓	ταῦτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.3.token.11	τοῦτ ̓	τοῦτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.4.token.1	οὐδ ̓	οὐδ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.4.token.22	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.5.token.27	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.6.token.1	Ἄνάγκη	Ἄνάγκη	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.6.token.35	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.7.token.29	Ἀλκμαίωνα	Ἀλκμαίωνα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.7.token.39	Τήλεφον	Τήλεφον	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.11.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.12.token.14	κατ ̓	κατ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.13.token.28	Αἴγισθος	Αἴγισθος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.13.token.37	ἀποθνήσκει	ἀποθνήσκει	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:13.13.token.39	ὑπ ̓	ὑπ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.7.token.17	κατ ̓	κατ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.8.token.1	οὐδ ̓	οὐδ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.9.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.10.token.14	Κλυταιμνήστραν	Κλυταιμνήστραν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.10.token.15	ἀποθανοῦσαν	ἀποθανοῦσαν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.10.token.21	Ἐριφύλην	Ἐριφύλην	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.10.token.24	Ἀλκμαίωνος·	Ἀλκμαίωνος·	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.11.token.2	δἐ	δἐ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.13.token.12	εἶθ ̓	εἶθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.13.token.20	Σοφοκλέους	Σοφοκλέους	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.13.token.31	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.13.token.38	Ἀλκμαίων	Ἀλκμαίων	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.13.token.40	Ἀστυδάμαντος	Ἀστυδάμαντος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.14.token.12	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.16.token.34	Ἀντιγόνῃ	Ἀντιγόνῃ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.19.token.11	Κρεσφόντῃ	Κρεσφόντῃ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.19.token.13	Μερόπη	Μερόπη	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.19.token.22	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.19.token.37	Ἕλλῃ	Ἕλλῃ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:14.20.token.22	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:15.2.token.26	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:15.4.token.12	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:15.8.token.17	Μελανίππης	Μελανίππης	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:15.10.token.138	Σοφοκλέους	Σοφοκλέους	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:15.11.token.37	ῥᾳθύμους	ῥᾳθύμους	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:15.12.token.20	κατ ̓	κατ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.1.token.22	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.6.token.21	ὑπ ̓	ὑπ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.7.token.10	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.7.token.31	Σοφοκλέους	Σοφοκλέους	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.8.token.17	Δικαιογένους	Δικαιογένους	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.8.token.28	Ἀλκίνου	Ἀλκίνου	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.9.token.19	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.9.token.41	τ ̓	τ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.9.token.54	θεοδέκτου	θεοδέκτου	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.9.token.69	Φινείδαις·	Φινείδαις·	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.9.token.82	ἀποθανεῖν	ἀποθανεῖν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.10.token.31	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.11.token.14	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:16.11.token.21	Σοφοκλέους	Σοφοκλέους	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.1.token.11	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.1.token.22	παρ ̓	παρ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.1.token.33	ἥκιστ ̓	ἥκιστ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.5.token.13	εἶθ ̓	εἶθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.6.token.44	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.6.token.60	τιν ̓	τιν ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.6.token.69	ἐφ ̓	ἐφ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.6.token.86	εἴθ ̓	εἴθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.6.token.89	εἴθ ̓	εἴθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.8.token.15	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.9.token.11	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.10.token.53	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:17.11.token.8	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.1.token.18	ἔσωθεν	ἔσωθεν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.2.token.7	ἀπ ̓	ἀπ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.3.token.6	Θεοδέκτου	Θεοδέκτου	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.3.token.19	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.6.token.8	Αἴαντες	Αἴαντες	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.6.token.11	Ἰξίονες·	Ἰξίονες·	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.7.token.7	Φθιώτιδες	Φθιώτιδες	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.8.token.14	ᾅδου	ᾅδου	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.9.token.1	Μάλιστα	Μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.9.token.28	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.15.token.16	Νιόβην	Νιόβην	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.15.token.21	Αἰσχύλος	Αἰσχύλος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.19.token.21	παρ ̓	παρ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.19.token.23	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.19.token.26	Σοφοκλεῖ	Σοφοκλεῖ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.20.token.19	Ἀγάθωνος	Ἀγάθωνος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:18.20.token.23	Καίτοι	Καίτοι	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:19.8.token.28	Πρωταγόρας	Πρωταγόρας	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.1.token.5	τάδ ̓	τάδ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.2.token.12	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.3.token.25	Α	Α	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.3.token.28	Ω	Ω	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.3.token.41	Σ	Σ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.3.token.44	Ρ	Ρ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.3.token.51	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.3.token.69	Γ	Γ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.3.token.72	Δ	Δ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.4.token.29	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.5.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.5.token.16	ΓΡ	ΓΡ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.5.token.19	Α	Α	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.5.token.25	Α	Α	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.5.token.29	ΓΡΑ	ΓΡΑ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.6.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.6.token.38	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.7.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.8.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.8.token.15	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.8.token.28	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.8.token.35	Θεοδώρῳ	Θεοδώρῳ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.9.token.14	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.10.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.10.token.40	κατ ̓	κατ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.11.token.10	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.12.token.17	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:20.13.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.3.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.3.token.16	Μεγαλιωτῶν	Μεγαλιωτῶν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.3.token.17	Ἑρμοκαϊκόξανθος	Ἑρμοκαϊκόξανθος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.6.token.24	σίγυνον	σίγυνον	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.7.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.8.token.13	ἥδ ̓	ἥδ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.9.token.8	Ἀπ ̓	Ἀπ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.9.token.15	μυρί ̓	μυρί ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.10.token.1	Ἀπ ̓	Ἀπ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.12.token.4	ἀνθ ̓	ἀνθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.13.token.24	Ἐμπεδοκλῆς	Ἐμπεδοκλῆς	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.14.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.14.token.10	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.14.token.31	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.14.token.48	θεοκτίσταν	θεοκτίσταν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.16.token.9	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.17.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.17.token.23	ἐρνύγας	ἐρνύγας	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.18.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.18.token.21	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.19.token.10	Πηληϊάδεω	Πηληϊάδεω	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.20.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.22.token.7	Ν	Ν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.22.token.9	Ρ	Ρ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.22.token.17	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.22.token.21	Ψ	Ψ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.22.token.23	Ξ	Ξ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.23.token.3	Η	Η	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.23.token.5	Ω	Ω	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.23.token.11	Α·	Α·	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.24.token.14	Ψ	Ψ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.24.token.17	Ξ	Ξ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.26.token.4	Ι	Ι	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.26.token.15	Υ	Υ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.26.token.39	Ν	Ν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:21.26.token.41	Σ	Σ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.2.token.16	Κλεοφῶντος	Κλεοφῶντος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.2.token.20	Σθενέλου	Σθενέλου	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.4.token.1	Ἀλλ ̓	Ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.5.token.18	ὀνόματων	ὀνόματων	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.5.token.33	Ἄνδρ ̓	Ἄνδρ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.5.token.37	ἐπ ̓	ἐπ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.7.token.3	κεκρᾶσθαί	κεκρᾶσθαί	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.9.token.18	Εὐκλείδης	Εὐκλείδης	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.9.token.30	ἐφ ̓	ἐφ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.9.token.39	ἠτίχαριν	ἠτίχαριν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.9.token.41	Μαραθῶνάδε	Μαραθῶνάδε	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.9.token.47	γεράμενος	γεράμενος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.13.token.30	Αἰσχύλου	Αἰσχύλου	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.13.token.50	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.13.token.53	Αἰσχύλος	Αἰσχύλος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.13.token.58	Φιλοκτήτῃ	Φιλοκτήτῃ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.13.token.79	μ ̓	μ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.13.token.96	μ ̓	μ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.14.token.3	Ἀρειφράδης	Ἀρειφράδης	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.14.token.23	ἄπο	ἄπο	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.14.token.42	πέρι	πέρι	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.16.token.9	πρέπόντως	πρέπόντως	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.17.token.5	παρ ̓	παρ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.18.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.18.token.7	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:22.19.token.18	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:23.1.token.36	ἵν ̓	ἵν ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:23.2.token.17	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:23.3.token.8	τ ̓	τ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:23.5.token.49	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:23.6.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:23.7.token.32	Φιλοκτήτης	Φιλοκτήτης	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:23.7.token.36	Εὐρύπυλος	Εὐρύπυλος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:23.7.token.40	Λάκαιναι	Λάκαιναι	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.5.token.20	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.6.token.54	ὑφ ̓	ὑφ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.7.token.2	τοῦτ ̓	τοῦτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.9.token.17	μάλιστα·	μάλιστα·	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.11.token.5	μιγνύοι	μιγνύοι	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.11.token.10	Χαιρήμων	Χαιρήμων	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.12.token.12	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.14.token.21	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.14.token.48	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.15.token.12	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.15.token.22	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.18.token.3	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.18.token.43	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.20.token.11	μάλιστα	μάλιστα	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.20.token.33	ἀπέθανεν	ἀπέθανεν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:24.20.token.43	Ἠλέκτρᾳ	Ἠλέκτρᾳ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.1.token.16	ὧδ ̓	ὧδ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.1.token.19	γένοιτ ̓	γένοιτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.3.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.5.token.11	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.6.token.27	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.6.token.34	κατ ̓	κατ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.6.token.47	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.8.token.1	Ἀλλ ̓	Ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.10.token.12	κατ ̓	κατ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.10.token.31	κακομιμήτως	κακομιμήτως	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.11.token.10	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.11.token.16	Σοφοκλῆς	Σοφοκλῆς	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.13.token.7	οὔτ ̓	οὔτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.13.token.10	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.13.token.13	Ξενοφάνης·	Ξενοφάνης·	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.13.token.14	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.14.token.7	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.14.token.20	ὄρθ ̓	ὄρθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.14.token.25	τότ ̓	τότ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.15.token.16	σκεπτέον	σκεπτέον	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.17.token.22	ὅτ ̓	ὅτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.17.token.31	θ ̓	θ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.17.token.32	ὁμαδόν	ὁμαδόν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.17.token.52	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.19.token.6	Ἐμπεδοκλῆς	Ἐμπεδοκλῆς	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.19.token.9	θνήτ ̓	θνήτ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.20.token.5	παρῴχηκεν	παρῴχηκεν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.21.token.32	Γανυμήδης	Γανυμήδης	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.21.token.41	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.22.token.23	ῥ ̓	ῥ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.23.token.7	μάλιστ ̓	μάλιστ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.25.token.26	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.25.token.31	Κεφαλῆνές	Κεφαλῆνές	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.25.token.33	παρ ̓	παρ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.25.token.43	Ἰκάδιον	Ἰκάδιον	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.25.token.44	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.27.token.14	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.30.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.31.token.2	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:25.32.token.37	σκεπτέαι	σκεπτέαι	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.2.token.9	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.4.token.24	Μυνίσκος	Μυνίσκος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.4.token.26	Καλλιππίδην	Καλλιππίδην	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.4.token.34	Πινδάρου	Πινδάρου	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.4.token.38	δ ̓	δ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.6.token.31	Σωσίστρατος	Σωσίστρατος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.6.token.38	Μνασίθεος	Μνασίθεος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.6.token.39	Ὀπούντιος	Ὀπούντιος	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.7.token.8	μηδ ̓	μηδ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.7.token.11	ἀλλ ̓	ἀλλ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.7.token.17	Καλλιππίδῃ	Καλλιππίδῃ	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.9.token.3	πάντ ̓	πάντ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.10.token.20	δι ̓	δι ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.12.token.30	Σοφοκλέους	Σοφοκλέους	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.13.token.4	ὁποιαοῦν	ὁποιαοῦν	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.13.token.20	Ὥστ ̓	Ὥστ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.14.token.14	καθ ̓	καθ ̓	no_match_in_morph_dict
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:26.14.token.29	μάλιστα	μάλιστα	no_match_in_morph_dict

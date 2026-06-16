@@ -1,7 +1,7 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/epictetus-encheiridion.cex"
+cex_path = "source-data/texts/Philosophy/epictetus-encheiridion.cex"
 text_urn = "urn:cts:greekLit:tlg0557.tlg002.fucex:" 
 file_name = "Epictetus_Encheiridion"
 text_title = "Epictetus, *Encheiridion*"
@@ -12,13 +12,13 @@ filter_paratext = "" # filter out passages with this string in the URN.
 
 [output]
 html_tokens_per_page = 250
-html_output_dir = "editions/html/Epictetus_Encheiridion/pages"
+html_output_dir = "editions/html/Philosophy/Epictetus_Encheiridion/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Epictetus_Encheiridion"
-md_bibliography = "editions/frontmatter/Epictetus_Encheiridion/bibliography.md"
-md_frontmatter = "editions/frontmatter/Epictetus_Encheiridion/frontmatter.md"
+html_temp_dir = "data/html_temp/Philosophy/Epictetus_Encheiridion"
+md_bibliography = "editions/frontmatter/Philosophy/Epictetus_Encheiridion/bibliography.md"
+md_frontmatter = "editions/frontmatter/Philosophy/Epictetus_Encheiridion/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
 
@@ -30,22 +30,22 @@ lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
 raw_morph_data = "morph/output/epictetus-encheiridion-analysis.txt"
-morph_pos_triplets = "data/indexes/Epictetus_Encheiridion/Epictetus_Encheiridion_morpheus_triplets.tsv"
+morph_pos_triplets = "data/indexes/Philosophy/Epictetus_Encheiridion/Epictetus_Encheiridion_morpheus_triplets.tsv"
 morph_pos_errors = "morph/output/Epictetus_Encheiridion_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/Epictetus_Encheiridion/Epictetus_Encheiridion_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/Epictetus_Encheiridion/Epictetus_Encheiridion_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/Epictetus_Encheiridion/Epictetus_Encheiridion_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/Epictetus_Encheiridion/Epictetus_Encheiridion_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/epictetus-encheiridion_morph.cex"
+morph_lemmata_alignment = "data/indexes/Philosophy/Epictetus_Encheiridion/Epictetus_Encheiridion_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Philosophy/Epictetus_Encheiridion/Epictetus_Encheiridion_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/Philosophy/Epictetus_Encheiridion/Epictetus_Encheiridion_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/Philosophy/Epictetus_Encheiridion/Epictetus_Encheiridion_morphology_index_errors.tsv"
+local_morph_dict = "data/morphology/Philosophy/epictetus-encheiridion_morph.cex"
 
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Epictetus_Encheiridion"
-indexes_dir = "indexes/Epictetus_Encheiridion"
-vocabulary_dir = "vocabulary/Epictetus_Encheiridion"
+tokenized_dir = "tokenized/Philosophy/Epictetus_Encheiridion"
+indexes_dir = "indexes/Philosophy/Epictetus_Encheiridion"
+vocabulary_dir = "vocabulary/Philosophy/Epictetus_Encheiridion"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -69,8 +69,8 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/Epictetus_Encheiridion/"
+editor_index_files = "source-data/edited_morphology/Philosophy/Epictetus_Encheiridion/"
 
-editor_index_error = "data/morphology/editorial_index_error_epictetus-encheiridion.txt"
+editor_index_error = "data/morphology/Philosophy/editorial_index_error_epictetus-encheiridion.txt"
 
-editor_index_morphology = "data/morphology/editorial_index_morphology_epictetus-encheiridion.cex"
+editor_index_morphology = "data/morphology/Philosophy/editorial_index_morphology_epictetus-encheiridion.cex"

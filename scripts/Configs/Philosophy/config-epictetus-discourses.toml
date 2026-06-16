@@ -1,7 +1,7 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/epictetus-discourses.cex"
+cex_path = "source-data/texts/Philosophy/epictetus-discourses.cex"
 text_urn = "urn:cts:greekLit:tlg0557.tlg001.fucex:" 
 file_name = "Epictetus_Discourses"
 text_title = "Epictetus, *Discourses*"
@@ -12,13 +12,13 @@ filter_paratext = "" # filter out passages with this string in the URN.
 
 [output]
 html_tokens_per_page = 250
-html_output_dir = "editions/html/Epictetus_Discourses/pages"
+html_output_dir = "editions/html/Philosophy/Epictetus_Discourses/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Epictetus_Discourses"
-md_bibliography = "editions/frontmatter/Epictetus_Discourses/bibliography.md"
-md_frontmatter = "editions/frontmatter/Epictetus_Discourses/frontmatter.md"
+html_temp_dir = "data/html_temp/Philosophy/Epictetus_Discourses"
+md_bibliography = "editions/frontmatter/Philosophy/Epictetus_Discourses/bibliography.md"
+md_frontmatter = "editions/frontmatter/Philosophy/Epictetus_Discourses/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
 
@@ -30,12 +30,12 @@ lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
 raw_morph_data = "morph/output/epictetus-discourses-analysis.txt"
-morph_pos_triplets = "data/indexes/Epictetus_Discourses/Epictetus_Discourses_morpheus_triplets.tsv"
+morph_pos_triplets = "data/indexes/Philosophy/Epictetus_Discourses/Epictetus_Discourses_morpheus_triplets.tsv"
 morph_pos_errors = "morph/output/Epictetus_Discourses_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/Epictetus_Discourses/Epictetus_Discourses_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/Epictetus_Discourses/Epictetus_Discourses_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/Epictetus_Discourses/Epictetus_Discourses_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/Epictetus_Discourses/Epictetus_Discourses_morphology_index_errors.tsv"
+morph_lemmata_alignment = "data/indexes/Philosophy/Epictetus_Discourses/Epictetus_Discourses_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Philosophy/Epictetus_Discourses/Epictetus_Discourses_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/Philosophy/Epictetus_Discourses/Epictetus_Discourses_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/Philosophy/Epictetus_Discourses/Epictetus_Discourses_morphology_index_errors.tsv"
 local_morph_dict = "data/morphology/epictetus-discourses_morph.cex"
 
 
@@ -43,9 +43,9 @@ local_morph_dict = "data/morphology/epictetus-discourses_morph.cex"
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Epictetus_Discourses"
-indexes_dir = "indexes/Epictetus_Discourses"
-vocabulary_dir = "vocabulary/Epictetus_Discourses"
+tokenized_dir = "tokenized/Philosophy/Epictetus_Discourses"
+indexes_dir = "indexes/Philosophy/Epictetus_Discourses"
+vocabulary_dir = "vocabulary/Philosophy/Epictetus_Discourses"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -69,8 +69,8 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/Epictetus_Discourses/"
+editor_index_files = "source-data/edited_morphology/Philosophy/Epictetus_Discourses/"
 
-editor_index_error = "data/morphology/editorial_index_error_epictetus-discourses.txt"
+editor_index_error = "data/morphology/Philosophy/editorial_index_error_epictetus-discourses.txt"
 
-editor_index_morphology = "data/morphology/editorial_index_morphology_epictetus-discourses.cex"
+editor_index_morphology = "data/morphology/Philosophy/editorial_index_morphology_epictetus-discourses.cex"

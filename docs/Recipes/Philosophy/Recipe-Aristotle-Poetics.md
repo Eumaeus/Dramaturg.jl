@@ -1,16 +1,16 @@
 # Recipe: Aristotle Poetics
 
-Using `scripts/config-aristotle-poetics.toml` as a starting point.
+Using `scripts/Configs/Philosophy/config-aristotle-poetics.toml` as a starting point.
 
 cd PATH/TO/Dramaturg/
 
 [Start Docker]
 
-cp scripts/Configs_History/config-aristotle-poetics.toml scripts/config.toml
+cp scripts/Configs/Philosophy/config-aristotle-poetics.toml scripts/config.toml
 
 julia --project=. scripts/tokenize_cex.jl
 
-cp data/vocabulary/Aristotle_Poetics/Aristotle_Poetics_beta_vocabulary.txt morph/source-data/words.txt
+cp data/vocabulary/Philosophy/Aristotle_Poetics/Aristotle_Poetics_beta_vocabulary.txt morph/source-data/words.txt
 
 docker run --platform linux/amd64 -v /Users/cblackwell/cite/grok/Dramaturg/morph:/morpheus/morph -it perseidsproject/morpheus /bin/bash
 

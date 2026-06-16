@@ -1,20 +1,25 @@
 # Recipe: Epictetus Encheiridion
 
-Using `scripts/config-epictetus-encheiridion.toml` as a starting point.
+Using `scripts/Configs/Philosophy/config-epictetus-encheiridion.toml` as a starting point.
 
 cd PATH/TO/Dramaturg/
 
 [Start Docker]
 
-cp scripts/Configs_History/config-epictetus-encheiridion.toml scripts/config.toml
+cp scripts/Configs/Philosophy/config-epictetus-encheiridion.toml scripts/config.toml
 
 julia --project=. scripts/tokenize_cex.jl
 
-cp data/vocabulary/Epictetus_Encheiridion/Epictetus_Encheiridion_beta_vocabulary.txt morph/source-data/words.txt
+cp data/vocabulary/Philosophy/Epictetus_Encheiridion/Epictetus_Encheiridion_beta_vocabulary.txt morph/source-data/words.txt
 
 docker run --platform linux/amd64 -v /Users/cblackwell/cite/grok/Dramaturg/morph:/morpheus/morph -it perseidsproject/morpheus /bin/bash
 
 [In the Docker VM terminal] 
+
+MORPHLIB=stemlib bin/cruncher -S < morph/source-data/words.txt > morph/output/epictetus-encheiridion-analysis.txt 2> morph/output/epictetus-encheiridion-errors.log
+
+exit
+
 
 MORPHLIB=stemlib bin/cruncher -S < morph/source-data/words.txt > morph/output/epictetus-encheiridion-analysis.txt 2> morph/output/epictetus-encheiridion-errors.log
 
