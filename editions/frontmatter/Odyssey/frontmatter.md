@@ -1,5 +1,0 @@
-
-## The Homeric *Odyssey*
-
-The Odyssey is an ancient Greek epic poem traditionally attributed to the poet Homer that narrates the ten-year journey of Odysseus, king of Ithaca, to return home after fighting in the Trojan War. The poem begins in medias res, with Odysseus held captive for seven years by the nymph Calypso while his wife Penelope and son Telemachus face the invasive presence of suitors who consume their household's resources in Ithaca, presuming Odysseus dead. Odysseus recounts many of his prior adventures—including encounters with the Lotus-Eaters, the Cyclops Polyphemus, the witch Circe, the Sirens, Scylla and Charybdis, and the cattle of the Sun—to the Phaeacians after his release from Calypso and arrival on their island. The narrative culminates in Odysseus's return to Ithaca disguised as a beggar, his recognition by Telemachus and loyal retainers, the slaughter of the suitors with Athena's assistance, and his long-awaited reunion with Penelope and restoration of order to his palace. 
-

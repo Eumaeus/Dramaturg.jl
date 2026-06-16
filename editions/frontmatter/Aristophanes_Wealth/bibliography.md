@@ -1,2 +1,0 @@
-Aristophanes, *Wealth* (Πλοῦτος, *Plutus*). Digital edition based on: *Aristophanes Comoediae*, F.W. Hall and W.M. Geldart edd. Oxford. Clarendon Press (1907). Original SGML digital edition 1988 by *The Perseus Project*, G. Crane, ed. This derived edition, C. Blackwell and L. Butler, Furman University. 2026. Source texts and code for this page (and others) on [GitHub](https://github.com/Eumaeus/Dramaturg.jl). Licensed CC-BY-NC. **urn:cts:greekLit:tlg0019.tlg011:**
-

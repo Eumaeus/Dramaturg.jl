@@ -1,9 +1,0 @@
-## Sophocles
-
-Sophocles (c. 496–406 BCE), one of the three principal ancient Greek tragedians alongside Aeschylus and Euripides, composed the work amid the Peloponnesian War and shortly after the catastrophic Plague of Athens (430–426 BCE), which the play's opening plague is widely understood to evoke. A highly successful dramatist who introduced key innovations to Greek theater—including the third actor and more elaborate scene painting.
-
-## *Oedipus at Colonus*
-
-*Oedipus at Colonus* (Οἰδίπους ἐπὶ Κολωνῷ) is the final work Sophocles completed. It was produced posthumously in 401 BC by his grandson Sophocles the Younger at the City Dionysia festival in Athens, where it won first prize. The play forms the third part of Sophocles' so-called "Theban cycle", following *Oedipus Tyrannos* in the mythological timeline and preceding Antigone in narrative sequence. The three plays about the Theban royal family, it is important to note, were not written or produced together as a trilogy.
-
-The drama depicts the last days of Oedipus, now old, blind, and exiled from Thebes, as he arrives at Colonus, a deme near Athens, accompanied by his devoted daughter Antigone. Seeking refuge in the sacred grove of the Eumenides (Furies), Oedipus encounters local resistance but gains protection from Theseus, king of Athens, while fending off attempts by Creon of Thebes to seize him and by his son Polynices to enlist his aid in a civil war. The play culminates in Oedipus's mysterious, divinely guided death and apotheosis, marked by signs from the gods and his secret burial by Theseus, granting lasting protective power to Athens. 

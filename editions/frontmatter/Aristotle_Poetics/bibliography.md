@@ -1,2 +1,0 @@
-Aristotle, *Poetics* (Περὶ ποιητικῆς). Based on *Aristotelis Opera*. Immanuel Bekker, ed. Oxford University Press. Oxford (1837). Original SGML digital edition by *The Perseus Project*, G. Crane, ed. This derived edition, C. Blackwell, Furman University. 2026. Source texts and code for this page (and others) on [GitHub](https://github.com/Eumaeus/Dramaturg.jl). Licensed CC-BY-NC. **urn:cts:greekLit:tlg0086.tlg034:**
-

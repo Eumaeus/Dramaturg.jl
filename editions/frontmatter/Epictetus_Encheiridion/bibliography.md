@@ -1,2 +1,0 @@
-*Encheiridion of Epictetus* (Ἐγχειρίδιον Ἐπικτήτου, "Handbook of Epictetus"). Based on *Epicteti Dissertationes ab Arriano digestae*. Heinrich Schenkl, ed. Leipzig. Teubner (1916). Original SGML digital edition by *The Perseus Project*, G. Crane, ed. This derived edition, C. Blackwell, Furman University. 2026. Source texts and code for this page (and others) on [GitHub](https://github.com/Eumaeus/Dramaturg.jl). Licensed CC-BY-NC. **urn:cts:greekLit:tlg0557.tlg002:**
-

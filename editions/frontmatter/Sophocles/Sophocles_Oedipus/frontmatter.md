@@ -1,0 +1,9 @@
+## Sophocles
+
+Sophocles (c. 496–406 BCE), one of the three principal ancient Greek tragedians alongside Aeschylus and Euripides, composed the work amid the Peloponnesian War and shortly after the catastrophic Plague of Athens (430–426 BCE), which the play's opening plague is widely understood to evoke.  A highly successful dramatist who introduced key innovations to Greek theater—including the third actor and more elaborate scene painting—Sophocles crafted Oedipus the King with exceptional structural precision, building suspense through gradual exposition of past events in a manner resembling a modern detective story. 
+
+## *Oedipus Tyrannos*
+
+*Oedipus Tyrannos* (Οἰδίπους Τύραννος, *Oedipus the King*, *Oedipus Rex*) is an ancient Greek tragedy written by Sophocles and first performed around 429 BCE during the height of Athens' classical period.  The play centers on Oedipus, the ruler of Thebes, who vows to end a devastating plague afflicting his city by uncovering the truth behind the unsolved murder of the former king Laius, only to discover through relentless investigation that he himself has unknowingly fulfilled a long-standing oracle's prophecy by killing his father and marrying his mother.  This revelation transforms the drama into a powerful study of human ignorance, self-discovery, and tragic inevitability. 
+
+The tragedy is renowned for its pervasive dramatic irony, whereby the audience grasps the fatal truths long before the characters do, and for its deep exploration of themes such as the tension between fate and human agency, the limits of mortal knowledge contrasted with divine omniscience, the perils of hubris, and the quest for identity amid ignorance and suffering.  Oedipus emerges as a sympathetic figure—intelligent, determined, and committed to justice—whose downfall stems not from deliberate evil but from the inexorable fulfillment of prophecy despite his efforts to evade it. 

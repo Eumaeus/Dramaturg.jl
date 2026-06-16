@@ -1,0 +1,2 @@
+*Lysias 1: On the Murder of Eratosthenes*. Based on *Lysias*, W.R.M. Lamb, ed. Harvard University Press (1930). Original SGML digital edition by *The Perseus Project*, G. Crane, ed. This derived edition, C. Blackwell, Furman University. 2026. Source texts and code for this page (and others) on [GitHub](https://github.com/Eumaeus/Dramaturg.jl). Licensed CC-BY-NC. **urn:cts:greekLit:tlg0540.tlg001.fucex:**
+

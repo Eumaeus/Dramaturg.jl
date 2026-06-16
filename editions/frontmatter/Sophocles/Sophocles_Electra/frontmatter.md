@@ -1,0 +1,7 @@
+## Sophocles
+
+Sophocles (c. 496–406 BCE), one of the three principal ancient Greek tragedians alongside Aeschylus and Euripides, composed the work amid the Peloponnesian War and shortly after the catastrophic Plague of Athens (430–426 BCE), which the play's opening plague is widely understood to evoke.  A highly successful dramatist who introduced key innovations to Greek theater—including the third actor and more elaborate scene painting.
+
+## *Electra*
+
+*Electra* (Ἠλέκτρα) explores the theme of vengeance within the house of Atreus, focusing on Electra's unrelenting grief for her father Agamemnon, murdered by her mother Clytemnestra and stepfather Aegisthus. Electra, isolated and mourning at her father's tomb, rejects her mother's attempts at reconciliation and awaits the return of her brother Orestes to exact justice. Orestes, presumed dead but actually alive and plotting with his companion Pylades, arrives in disguise, stages a false report of his death to test Electra's resolve, and reveals himself. Together, they orchestrate the murders: Orestes kills Aegisthus first, then Clytemnestra upon Electra's urging, though the play ends with Electra's complicity in the matricide raising questions of moral excess. The date of production remains uncertain, with scholarly estimates placing it between approximately 420 and 410 BC.

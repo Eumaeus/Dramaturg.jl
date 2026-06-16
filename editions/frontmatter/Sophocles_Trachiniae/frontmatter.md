@@ -1,7 +1,0 @@
-## Sophocles
-
-Sophocles (c. 496–406 BCE), one of the three principal ancient Greek tragedians alongside Aeschylus and Euripides, composed the work amid the Peloponnesian War and shortly after the catastrophic Plague of Athens (430–426 BCE), which the play's opening plague is widely understood to evoke.  A highly successful dramatist who introduced key innovations to Greek theater—including the third actor and more elaborate scene painting.
-
-## *Trachiniae*
-
-*Trachiniae* (Τραχίνιαι, *The Women of Trachis*) is a Greek tragedy by Sophocles that dramatizes the final tragic events in the life of the hero Heracles, culminating in his accidental death by poisoning at the hands of his devoted but desperate wife Deianira. Composed likely in the 430s BCE, the play centers on Deianira's anguish over Heracles' prolonged absence and his infatuation with the captive Iole, leading her to send him a robe smeared with what she believes is a love charm but is actually deadly poison derived from the centaur Nessus' blood. The action unfolds before the palace in Trachis, with the chorus of local women providing commentary on the unfolding domestic catastrophe, and it concludes with Heracles' excruciating suffering, Deianira's suicide, and his dying instructions for his son Hyllus to marry Iole and burn his body on a funeral pyre. 

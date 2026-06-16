@@ -1,7 +1,0 @@
-## Sophocles
-
-Sophocles (c. 496–406 BCE), one of the three principal ancient Greek tragedians alongside Aeschylus and Euripides, composed the work amid the Peloponnesian War and shortly after the catastrophic Plague of Athens (430–426 BCE), which the play's opening plague is widely understood to evoke.  A highly successful dramatist who introduced key innovations to Greek theater—including the third actor and more elaborate scene painting.
-
-## *Ajax*
-
-*Ajax* (Αἴας) is likely one of Sophocles' earliest surviving tragedies, dramatizes the downfall of the Greek hero Ajax during the Trojan War, following the death of Achilles. In the play, Ajax, enraged after losing the contest for Achilles' armor to Odysseus through Athena's intervention, falls into madness induced by the goddess and slaughters livestock under the delusion of attacking his Greek rivals. Upon regaining sanity and facing ridicule from the Greek leaders, Ajax isolates himself, rejects reconciliation despite pleas from his concubine Tecmessa and a messenger from Odysseus, and ultimately commits suicide by falling on his sword. The chorus of sailors and Ajax's son Eurysaces attempt to honor his burial rites, which are contested by the Atreidae (Agamemnon and Menelaus), but Odysseus intervenes to secure a proper burial, affirming Ajax's heroic status despite his flaws.

@@ -1,2 +1,0 @@
-*The Gospel According to Luke* (Κατά Λουκάν Ευαγγέλιον). Based on *The New Testament in the original Greek*. The text revised by Brooke Foss Westcott, D.D., and Fenton John Anthony Hort, D.D. New York. Harper & Brothers, Franklin Square (1885). This derived edition, C. Blackwell, Furman University. 2026. Source texts and code for this page (and others) on [GitHub](https://github.com/Eumaeus/Dramaturg.jl). Licensed CC-BY-NC. **urn:cts:greekLit:tlg0031.tlg003:**
-
