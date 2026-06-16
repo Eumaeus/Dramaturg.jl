@@ -27,3 +27,5 @@ editions/html/Aristophanes/*
 !editions/html/Aristophanes/Frogs/
 editions/html/Aristophanes/Frogs/pages/*
 !editions/html/Aristophanes/Frogs/pages/chunk_001.html
+data/morphology/Greek_Mythology*
+source-data/morphology/Greek_Morphology.cex

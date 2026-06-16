@@ -2,6 +2,22 @@
 # Removes duplicate entries (different CITE2 URN but identical other fields)
 # from a morphology CEX file.
 
+#= Example line
+
+1   urn:cite2:fufolio:greekmorph.2026a:20260615T1545330003
+2   **Αἰγαῖον**. From **Αἰγαῖος**. Adjective. Masculine, accusative, singular. [a-s---ma-]. See `urn:cite2:hmt:lsj.chicago_md:n2118`.
+3   Αἰγαῖον
+4   *ai)gai=on
+5   Αἰγαῖος
+6   *ai)gai=os
+7   urn:cite2:hmt:lsj.chicago_md:n2118
+8   a-s---ma-
+
+
+
+
+=#
+
 using Dates
 
 function prune_morphology(cex_path::String)
@@ -15,6 +31,7 @@ function prune_morphology(cex_path::String)
 
     lines = readlines(cex_path)
     sig_to_lines = Dict{Tuple{String,String,String,String,String,String,String}, Vector{String}}()
+
 
     for line in lines
         l = strip(line)
@@ -47,7 +64,7 @@ function prune_morphology(cex_path::String)
 
 
     for (sig, lst) in sig_to_lines
-        length(lst) > 1 && println("Pruned $(length(lst)-1) duplicate(s) for signature starting with '$(sig[1])'")
+        length(lst) > 1 && println("Pruned $(length(lst)-1) duplicate(s) for signature: $(sig[1])\t$(sig[2])\t$(sig[3])\t$(sig[4])")
         push!(kept, lst[1])  # keep any one
     end
 
