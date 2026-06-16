@@ -1,9 +1,9 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/sophocles_oedipus.cex"
+cex_path = "source-data/texts/Sophocles/sophocles_oedipus.cex"
 text_urn = "urn:cts:greekLit:tlg0011.tlg004.fu.sp:" 
-file_name = "Sophocles_Oedipus"
+file_name = "Oedipus"
 text_title = "Sophocles *Oedipus Tyrannos*"
 text_genre = "drama" # options are "poetry", "prose", "drama"
 citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
@@ -12,13 +12,13 @@ filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 [output]
 html_tokens_per_page = 200
-html_output_dir = "editions/html/Sophocles_Oedipus/pages"
+html_output_dir = "editions/html/Sophocles/Oedipus/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Sophocles_Oedipus"
-md_bibliography = "editions/frontmatter/Sophocles_Oedipus/bibliography.md"
-md_frontmatter = "editions/frontmatter/Sophocles_Oedipus/frontmatter.md"
+html_temp_dir = "data/html_temp/Sophocles/Oedipus"
+md_bibliography = "editions/frontmatter/Sophocles/Oedipus/bibliography.md"
+md_frontmatter = "editions/frontmatter/Sophocles/Oedipus/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
 
@@ -30,22 +30,22 @@ lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
 raw_morph_data = "morph/output/oedipus-analysis.txt"
-morph_pos_triplets = "data/indexes/Sophocles_Oedipus/Oedipus_morpheus_triplets.tsv"
+morph_pos_triplets = "data/indexes/Sophocles/Oedipus/Oedipus_morpheus_triplets.tsv"
 morph_pos_errors = "morph/output/Oedipus_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/Sophocles_Oedipus/Oedipus_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/Sophocles_Oedipus/Oedipus_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/Sophocles_Oedipus/Oedipus_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/Sophocles_Oedipus/Oedipus_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/oedipus_morph.cex"
+morph_lemmata_alignment = "data/indexes/Sophocles/Oedipus/Oedipus_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Sophocles/Oedipus/Oedipus_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/Sophocles/Oedipus/Oedipus_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/Sophocles/Oedipus/Oedipus_morphology_index_errors.tsv"
+local_morph_dict = "data/morphology/Sophocles/oedipus_morph.cex"
 
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Sophocles_Oedipus"
-indexes_dir = "indexes/Sophocles_Oedipus"
-vocabulary_dir = "vocabulary/Sophocles_Oedipus"
+tokenized_dir = "tokenized/Sophocles/Oedipus"
+indexes_dir = "indexes/Sophocles/Oedipus"
+vocabulary_dir = "vocabulary/Sophocles/Oedipus"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -69,6 +69,6 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/Sophocles_Oedipus/"
+editor_index_files = "source-data/edited_morphology/Sophocles/Oedipus/"
 
-editor_index_error = "data/morphology/editorial_index_error_oedipus.txt"
+editor_index_error = "data/morphology/Sophocles/editorial_index_error_oedipus.txt"

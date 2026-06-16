@@ -1,9 +1,9 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/sophocles_antigone.cex"
+cex_path = "source-data/texts/Sophocles/sophocles_antigone.cex"
 text_urn = "urn:cts:greekLit:tlg0011.tlg002.fu.sp:" 
-file_name = "Sophocles_Antigone"
+file_name = "Antigone"
 text_title = "Sophocles *Antigone*"
 text_genre = "drama" # options are "poetry", "prose", "drama"
 citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
@@ -12,13 +12,13 @@ filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 [output]
 html_tokens_per_page = 200
-html_output_dir = "editions/html/Sophocles_Antigone/pages"
+html_output_dir = "editions/html/Sophocles/Antigone/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Sophocles_Antigone"
-md_bibliography = "editions/frontmatter/Sophocles_Antigone/bibliography.md"
-md_frontmatter = "editions/frontmatter/Sophocles_Antigone/frontmatter.md"
+html_temp_dir = "data/html_temp/Sophocles/Antigone"
+md_bibliography = "editions/frontmatter/Sophocles/Antigone/bibliography.md"
+md_frontmatter = "editions/frontmatter/Sophocles/Antigone/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
 
@@ -31,28 +31,28 @@ lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 [morphology]
 raw_morph_data = "morph/output/antigone-analysis.txt"
 
-morph_pos_triplets = "data/indexes/Sophocles_Antigone/Sophocles_Antigone_morpheus_triplets.tsv"
+morph_pos_triplets = "data/indexes/Sophocles/Antigone/Antigone_morpheus_triplets.tsv"
 
-morph_pos_errors = "morph/output/Sophocles_Antigone_parse_errors.log"
+morph_pos_errors = "morph/output/Antigone_parse_errors.log"
 
-morph_lemmata_alignment = "data/indexes/Sophocles_Antigone/Sophocles_Antigone_triplets_lemmata.tsv"
+morph_lemmata_alignment = "data/indexes/Sophocles/Antigone/Antigone_triplets_lemmata.tsv"
 
-morph_lemmata_alignment_errors = "data/indexes/Sophocles_Antigone/Sophocles_Antigone_triplets_lemmata_errors.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Sophocles/Antigone/Antigone_triplets_lemmata_errors.tsv"
 
-morph_token_index = "data/indexes/Sophocles_Antigone/Sophocles_Antigone_morphology_index.tsv"
+morph_token_index = "data/indexes/Sophocles/Antigone/Antigone_morphology_index.tsv"
 
-morph_token_index_errors = "data/indexes/Sophocles_Antigone/Sophocles_Antigone_morphology_index_errors.tsv"
+morph_token_index_errors = "data/indexes/Sophocles/Antigone/Antigone_morphology_index_errors.tsv"
 
-local_morph_dict = "data/morphology/antigone_morph.cex"
+local_morph_dict = "data/morphology/Sophocles/antigone_morph.cex"
 
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Sophocles_Antigone"
-indexes_dir = "indexes/Sophocles_Antigone"
-vocabulary_dir = "vocabulary/Sophocles_Antigone"
+tokenized_dir = "tokenized/Sophocles/Antigone"
+indexes_dir = "indexes/Sophocles/Antigone"
+vocabulary_dir = "vocabulary/Sophocles/Antigone"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -76,6 +76,6 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/Sophocles_Antigone/"
+editor_index_files = "source-data/edited_morphology/Sophocles/Antigone/"
 
-editor_index_error = "data/morphology/editorial_index_error_antigone.txt"
+editor_index_error = "data/morphology/Sophocles/editorial_index_error_antigone.txt"

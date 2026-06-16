@@ -1,16 +1,16 @@
 # Recipe: Sophocles' *Electra*
 
-Using `scripts/config-electra.toml` as a starting point.
+Using `scripts/Configs/Sophocles/config-electra.toml` as a starting point.
 
 cd PATH/TO/Dramaturg/
 
 [Start Docker]
 
-cp scripts/Configs_Sophocles/config-sophocles-electra.toml scripts/config.toml
+cp scripts/Configs/Sophocles/config-sophocles-electra.toml scripts/config.toml
 
 julia --project=. scripts/tokenize_cex.jl
 
-cp data/vocabulary/Sophocles_Electra/Sophocles_Electra_beta_vocabulary.txt morph/source-data/words.txt
+cp data/vocabulary/Sophocles/Electra/Electra_beta_vocabulary.txt morph/source-data/words.txt
 
 docker run --platform linux/amd64 -v /Users/cblackwell/cite/grok/Dramaturg/morph:/morpheus/morph -it perseidsproject/morpheus /bin/bash
 
@@ -31,6 +31,8 @@ julia --project=. scripts/initial_cex.jl
 julia --project=. scripts/update_morphology_dictionary.jl
 
 julia --project=. scripts/index_morphology_to_tokens.jl
+
+cp scripts/Configs/Sophocles/config-sophocles-electra.toml scripts/config.toml
 
 julia --project=. scripts/generate_html_index.jl
 
