@@ -1,16 +1,16 @@
 # Recipe: Lysias 1
 
-Using `scripts/config-lysias-1.toml` as a starting point.
+Using `scripts/Configs/Oratory/config-lysias-1.toml` as a starting point.
 
 cd PATH/TO/Dramaturg/
 
 [Start Docker]
 
-cp scripts/Configs_History/config-lysias-1.toml scripts/config.toml
+cp scripts/Configs/Oratory/config-lysias-1.toml scripts/config.toml
 
 julia --project=. scripts/tokenize_cex.jl
 
-cp data/vocabulary/Lysias_1/Lysias_1_beta_vocabulary.txt morph/source-data/words.txt
+cp data/vocabulary/Oratory/Lysias_1/Lysias_1_beta_vocabulary.txt morph/source-data/words.txt
 
 docker run --platform linux/amd64 -v /Users/cblackwell/cite/grok/Dramaturg/morph:/morpheus/morph -it perseidsproject/morpheus /bin/bash
 
