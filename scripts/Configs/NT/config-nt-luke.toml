@@ -36,7 +36,7 @@ morph_lemmata_alignment = "data/indexes/NT/Luke/Luke_triplets_lemmata.tsv"
 morph_lemmata_alignment_errors = "data/indexes/NT/Luke/Luke_triplets_lemmata_errors.tsv"
 morph_token_index = "data/indexes/NT/Luke/Luke_morphology_index.tsv"
 morph_token_index_errors = "data/indexes/NT/Luke/Luke_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/nt-luke_morph.cex"
+local_morph_dict = "data/morphology/NT/luke_morph.cex"
 
 
 
