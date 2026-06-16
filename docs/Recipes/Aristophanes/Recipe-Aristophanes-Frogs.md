@@ -30,6 +30,8 @@ julia --project=. scripts/initial_cex.jl
 
 julia --project=. scripts/update_morphology_dictionary.jl
 
+cp scripts/Configs/Aristophanes/config-frogs.toml scripts/config.toml
+
 julia --project=. scripts/index_morphology_to_tokens.jl
 
 julia --project=. scripts/generate_html_index.jl
