@@ -263,7 +263,7 @@ function main()
     first_page_href = "pages/" * first_chunk_base * ".html"
 
     navigation_html = """
-    <a href="../index.html">Editions Home</a>
+    <a href="/index.html">Editions Home</a>
     <a href="$(first_page_href)" style="float: right; font-weight: bold;">Start Reading</a>
     """
 

@@ -15,7 +15,8 @@ function get_citation_unit(urn::String, level::Int, text_urn::String)::String
     passage = split(urn, ':')[end]
     parts = split(passage, '.')
     n = min(level, length(parts))
-    return join(parts[1:n], '.')
+    joined = join(parts[1:n], '.')
+    return joined
 end
 
 function get_sub_citation(urn::String, level::Int, text_urn::String)::String
@@ -539,7 +540,7 @@ function main()
         navigation = """
         <a href="$prev_href">← Previous</a>
         <a href="../index.html" id="contents_link">Contents</a> | 
-        <a href="../../index.html" id="home_link">Editions Home</a>
+        <a href="/index.html" id="home_link">Editions Home</a>
         <a href="$next_href" style="float:right;">Next →</a>
         """
 

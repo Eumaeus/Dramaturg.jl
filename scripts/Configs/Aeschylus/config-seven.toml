@@ -1,0 +1,81 @@
+# Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
+
+[input]
+cex_path = "source-data/texts/Aeschylus/aeschylus-seven.cex"
+text_urn = "urn:cts:greekLit:tlg0085.tlg004.fu.sp:" 
+file_name = "Aeschylus_Seven"
+text_title = "Aeschylus *Seven against Thebes*"
+text_genre = "drama" # options are "poetry", "prose", "drama"
+citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
+filter_paratext = "speaker" # filter out passages with this string in the URN.
+
+
+[output]
+html_tokens_per_page = 200
+html_output_dir = "editions/html/Aeschylus/Seven/pages"
+html_template_dir = "editions/templates"
+html_index_template = "index.html"
+html_page_template = "reader_page.html"
+html_temp_dir = "data/html_temp/Aeschylus/Seven"
+md_bibliography = "editions/frontmatter/Aeschylus/Seven/bibliography.md"
+md_frontmatter = "editions/frontmatter/Aeschylus/Seven/frontmatter.md"
+lsj_url = "http://localhost:8080"
+editions_dir = "editions/html/"
+
+
+[lexicon]
+lsj_cex =   "source-data/dictionaries/lsj_chicago.cex"
+lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
+lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
+
+[morphology]
+raw_morph_data = "morph/output/aeschylus-seven-analysis.txt"
+
+morph_pos_triplets = "data/indexes/Aeschylus/Seven/Aeschylus_Seven_morpheus_triplets.tsv"
+
+morph_pos_errors = "morph/output/aeschylus-seven_parse_errors.log"
+
+morph_lemmata_alignment = "data/indexes/Aeschylus/Seven/Aeschylus_Seven_triplets_lemmata.tsv"
+
+morph_lemmata_alignment_errors = "data/indexes/Aeschylus/Seven/Aeschylus_Seven_triplets_lemmata_errors.tsv"
+
+morph_token_index = "data/indexes/Aeschylus/Seven/Aeschylus_Seven_morphology_index.tsv"
+
+morph_token_index_errors = "data/indexes/Aeschylus/Seven/Aeschylus_Seven_morphology_index_errors.tsv"
+
+local_morph_dict = "data/morphology/Aeschylus/seven_morph.cex"
+
+
+
+# NEW sections for this milestone
+[processing]
+data_root = "data"                       # base folder for all generated files
+tokenized_dir = "tokenized/Aeschylus/Seven"
+indexes_dir = "indexes/Aeschylus/Seven"
+vocabulary_dir = "vocabulary/Aeschylus/Seven"
+tokenized_suffix = "_tokenized.cex"
+elided_index_suffix = "_elided.tsv"
+elided_histogram_suffix = "_elided_histogram.tsv"
+word_histogram_suffix = "_word_histogram.tsv"
+vocabulary_unicode_suffix = "_uc_vocabulary.txt"
+vocabulary_beta_suffix = "_beta_vocabulary.txt"
+
+
+[editorial]
+elision_dict      = "source-data/dictionaries/editorial_dict_elision.tsv"
+
+enclitics_dict    = "source-data/dictionaries/editorial-dict-enclitics.tsv"
+
+anastrophe_dict   = "source-data/dictionaries/editorial_dict_anastrophe.tsv"
+
+lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
+
+lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
+
+master_morph_dict = "data/morphology/Greek_Morphology.cex"
+
+user_morphology_dir = "source-data/morphology/Aeschylus/user-generated"
+
+editor_index_files = "source-data/edited_morphology/Aeschylus_Seven/"
+
+editor_index_error = "data/morphology/Aeschylus/editorial_index_error_seven.txt"

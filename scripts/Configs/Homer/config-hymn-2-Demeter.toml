@@ -1,23 +1,23 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/Homer/hymn-5-aphrodite.cex"
-text_urn = "urn:cts:greekLit:tlg0013.tlg005.fucex:" 
-file_name = "5_Aphrodite"
-text_title = "The *Homeric Hymn to Aphrodite*"
+cex_path = "source-data/texts/Homer/hymn-2-demeter.cex"
+text_urn = "urn:cts:greekLit:tlg0013.tlg002.fucex:" 
+file_name = "2_Demeter"
+text_title = "The *Homeric Hymn to Demeter*"
 text_genre = "poetry" # options are "poetry", "prose", "drama"
 citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
 filter_paratext = "speaker" # filter out passages with this string in the URN.
 
 [output]
 html_tokens_per_page = 250
-html_output_dir = "editions/html/Homer/5_Aphrodite/pages"
+html_output_dir = "editions/html/Homer/2_Demeter/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Homer/5_Aphrodite"
-md_bibliography = "editions/frontmatter/Homer/5_Aphrodite/bibliography.md"
-md_frontmatter = "editions/frontmatter/Homer/5_Aphrodite/frontmatter.md"
+html_temp_dir = "data/html_temp/Homer/2_Demeter"
+md_bibliography = "editions/frontmatter/Homer/2_Demeter/bibliography.md"
+md_frontmatter = "editions/frontmatter/Homer/2_Demeter/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
 
@@ -29,22 +29,22 @@ lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
 lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
-raw_morph_data = "morph/output/homer-hymn-5-aphrodite-analysis.txt"
-morph_pos_triplets = "data/indexes/Homer/5_Aphrodite/5_Aphrodite_morpheus_triplets.tsv"
-morph_pos_errors = "morph/output/homer-hymn-5-aphrodite_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/Homer/5_Aphrodite/5_Aphrodite_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/Homer/5_Aphrodite/5_Aphrodite_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/Homer/5_Aphrodite/5_Aphrodite_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/Homer/5_Aphrodite/5_Aphrodite_morphology_index_errors.tsv"
-local_morph_dict = "data/morphology/Homer/5-aphrodite_morph.cex"
+raw_morph_data = "morph/output/homer-hymn-2-demeter-analysis.txt"
+morph_pos_triplets = "data/indexes/Homer/2_Demeter/2_Demeter_morpheus_triplets.tsv"
+morph_pos_errors = "morph/output/hymn-2-demeter_parse_errors.log"
+morph_lemmata_alignment = "data/indexes/Homer/2_Demeter/2_Demeter_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Homer/2_Demeter/2_Demeter_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/Homer/2_Demeter/2_Demeter_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/Homer/2_Demeter/2_Demeter_morphology_index_errors.tsv"
+local_morph_dict = "data/morphology/Homer/2-demeter_morph.cex"
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Homer/5_Aphrodite"
-indexes_dir = "indexes/Homer/5_Aphrodite"
-vocabulary_dir = "vocabulary/Homer/5_Aphrodite"
+tokenized_dir = "tokenized/Homer/2_Demeter"
+indexes_dir = "indexes/Homer/2_Demeter"
+vocabulary_dir = "vocabulary/Homer/2_Demeter"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -70,6 +70,6 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/Homer/5_Aphrodite/"
+editor_index_files = "source-data/edited_morphology/Homer/2_Demeter/"
 
-editor_index_error = "data/morphology/Homer/editorial_index_error_aphrodite.txt"
+editor_index_error = "data/morphology/Homer/editorial_index_error_demeter.txt"

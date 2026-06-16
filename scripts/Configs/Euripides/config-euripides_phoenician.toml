@@ -1,0 +1,82 @@
+# Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
+
+[input]
+cex_path = "source-data/texts/Euripides/euripides_phoenician.cex"
+text_urn = "urn:cts:greekLit:tlg0006.tlg015.fu.sp:" 
+file_name = "Euripides_Phoenician"
+text_title = "Euripides *The Phoenician Women*"
+text_genre = "drama" # options are "poetry", "prose", "drama"
+citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
+filter_paratext = "speaker" # filter out passages with this string in the URN.
+
+
+[output]
+html_tokens_per_page = 200
+html_output_dir = "editions/html/Euripides/Phoenician/pages"
+cex_path = "source-data/texts/Euripides/Phoenician/pages"
+html_template_dir = "editions/templates"
+html_index_template = "index.html"
+html_page_template = "reader_page.html"
+html_temp_dir = "data/html_temp/Euripides/Phoenician"
+md_bibliography = "editions/frontmatter/Euripides/Phoenician/bibliography.md"
+md_frontmatter = "editions/frontmatter/Euripides/Phoenician/frontmatter.md"
+lsj_url = "http://localhost:8080"
+editions_dir = "editions/html/"
+
+
+[lexicon]
+lsj_cex =   "source-data/dictionaries/lsj_chicago.cex"
+lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
+lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
+
+[morphology]
+raw_morph_data = "morph/output/euripides-phoenician-analysis.txt"
+
+morph_pos_triplets = "data/indexes/Euripides/Phoenician/Euripides_Phoenician_morpheus_triplets.tsv"
+
+morph_pos_errors = "morph/output/euripides-phoenician_parse_errors.log"
+
+morph_lemmata_alignment = "data/indexes/Euripides/Phoenician/Phoenician_triplets_lemmata.tsv"
+
+morph_lemmata_alignment_errors = "data/indexes/Euripides/Phoenician/Phoenician_triplets_lemmata_errors.tsv"
+
+morph_token_index = "data/indexes/Euripides/Phoenician/Phoenician_morphology_index.tsv"
+
+morph_token_index_errors = "data/indexes/Euripides/Phoenician/Phoenician_morphology_index_errors.tsv"
+
+local_morph_dict = "data/morphology/Euripides/phoenician_morph.cex"
+
+
+
+# NEW sections for this milestone
+[processing]
+data_root = "data"                       # base folder for all generated files
+tokenized_dir = "tokenized/Euripides/Phoenician"
+indexes_dir = "indexes/Euripides/Phoenician"
+vocabulary_dir = "vocabulary/Euripides/Phoenician"
+tokenized_suffix = "_tokenized.cex"
+elided_index_suffix = "_elided.tsv"
+elided_histogram_suffix = "_elided_histogram.tsv"
+word_histogram_suffix = "_word_histogram.tsv"
+vocabulary_unicode_suffix = "_uc_vocabulary.txt"
+vocabulary_beta_suffix = "_beta_vocabulary.txt"
+
+
+[editorial]
+elision_dict      = "source-data/dictionaries/editorial_dict_elision.tsv"
+
+enclitics_dict    = "source-data/dictionaries/editorial-dict-enclitics.tsv"
+
+anastrophe_dict   = "source-data/dictionaries/editorial_dict_anastrophe.tsv"
+
+lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
+
+lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
+
+master_morph_dict = "data/morphology/Greek_Morphology.cex"
+
+user_morphology_dir = "source-data/morphology/user-generated"
+
+editor_index_files = "source-data/edited_morphology/Euripides/Phoenician/"
+
+editor_index_error = "data/morphology/Euripides/editorial_index_error_phoenician.txt"
