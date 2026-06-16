@@ -22,7 +22,8 @@ morph/output/
 morph/source-data/words.txt
 _new_texts/*
 editions/html/*
-!editions/html/Aristophanes/Frogs/css/*
-!editions/html/Aristophanes/Frogs/js/*
-!editions/html/Aristophanes/Frogs/index.html
+!editions/html/Aristophanes/
+editions/html/Aristophanes/*
+!editions/html/Aristophanes/Frogs/
+editions/html/Aristophanes/Frogs/pages/*
 !editions/html/Aristophanes/Frogs/pages/chunk_001.html
