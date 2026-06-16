@@ -1,9 +1,9 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/nt-matthew.cex"
+cex_path = "source-data/texts/NT/nt-matthew.cex"
 text_urn = "urn:cts:greekLit:tlg0031.tlg001.wh:" 
-file_name = "NT_Matthew"
+file_name = "Matthew"
 text_title = "The New Testament, *The Gospel According to Matthew*"
 text_genre = "prose" # options are "poetry", "prose", "drama"
 citation_level = 2 # "book.section". A poem might be 1, 'poetic-line'
@@ -12,13 +12,13 @@ filter_paratext = "" # filter out passages with this string in the URN.
 
 [output]
 html_tokens_per_page = 250
-html_output_dir = "editions/html/NT_Matthew/pages"
+html_output_dir = "editions/html/NT/Matthew/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/NT_Matthew"
-md_bibliography = "editions/frontmatter/NT_Matthew/bibliography.md"
-md_frontmatter = "editions/frontmatter/NT_Matthew/frontmatter.md"
+html_temp_dir = "data/html_temp/NT/Matthew"
+md_bibliography = "editions/frontmatter/NT/Matthew/bibliography.md"
+md_frontmatter = "editions/frontmatter/NT/Matthew/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
 
@@ -30,12 +30,12 @@ lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
 raw_morph_data = "morph/output/nt-matthew-analysis.txt"
-morph_pos_triplets = "data/indexes/NT_Matthew/NT_Matthew_morpheus_triplets.tsv"
-morph_pos_errors = "morph/output/NT_Matthew_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/NT_Matthew/NT_Matthew_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/NT_Matthew/NT_Matthew_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/NT_Matthew/NT_Matthew_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/NT_Matthew/NT_Matthew_morphology_index_errors.tsv"
+morph_pos_triplets = "data/indexes/NT/Matthew/Matthew_morpheus_triplets.tsv"
+morph_pos_errors = "morph/output/nt-matthew_parse_errors.log"
+morph_lemmata_alignment = "data/indexes/NT/Matthew/Matthew_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/NT/Matthew/Matthew_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/NT/Matthew/Matthew_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/NT/Matthew/Matthew_morphology_index_errors.tsv"
 local_morph_dict = "data/morphology/nt-matthew_morph.cex"
 
 
@@ -43,9 +43,9 @@ local_morph_dict = "data/morphology/nt-matthew_morph.cex"
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/NT_Matthew"
-indexes_dir = "indexes/NT_Matthew"
-vocabulary_dir = "vocabulary/NT_Matthew"
+tokenized_dir = "tokenized/NT/Matthew"
+indexes_dir = "indexes/NT/Matthew"
+vocabulary_dir = "vocabulary/NT/Matthew"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -69,7 +69,7 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/NT_Matthew/"
+editor_index_files = "source-data/edited_morphology/NT/Matthew/"
 
 editor_index_error = "data/morphology/editorial_index_error_nt-matthew.txt"
 

@@ -6,11 +6,11 @@ cd PATH/TO/Dramaturg/
 
 [Start Docker]
 
-cp scripts/Configs_NT/config-nt-mark.toml scripts/config.toml
+cp scripts/Configs/NT/config-nt-mark.toml scripts/config.toml
 
 julia --project=. scripts/tokenize_cex.jl
 
-cp data/vocabulary/NT_Mark/NT_Mark_beta_vocabulary.txt morph/source-data/words.txt
+cp data/vocabulary/NT/Mark/Mark_beta_vocabulary.txt morph/source-data/words.txt
 
 docker run --platform linux/amd64 -v /Users/cblackwell/cite/grok/Dramaturg/morph:/morpheus/morph -it perseidsproject/morpheus /bin/bash
 

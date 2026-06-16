@@ -1,9 +1,9 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/nt-mark.cex"
+cex_path = "source-data/texts/NT/nt-mark.cex"
 text_urn = "urn:cts:greekLit:tlg0031.tlg002.wh:" 
-file_name = "NT_Mark"
+file_name = "Mark"
 text_title = "The New Testament, *The Gospel According to Mark*"
 text_genre = "prose" # options are "poetry", "prose", "drama"
 citation_level = 2 # "book.section". A poem might be 1, 'poetic-line'
@@ -12,13 +12,13 @@ filter_paratext = "" # filter out passages with this string in the URN.
 
 [output]
 html_tokens_per_page = 250
-html_output_dir = "editions/html/NT_Mark/pages"
+html_output_dir = "editions/html/NT/Mark/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/NT_Mark"
-md_bibliography = "editions/frontmatter/NT_Mark/bibliography.md"
-md_frontmatter = "editions/frontmatter/NT_Mark/frontmatter.md"
+html_temp_dir = "data/html_temp/NT/Mark"
+md_bibliography = "editions/frontmatter/NT/Mark/bibliography.md"
+md_frontmatter = "editions/frontmatter/NT/Mark/frontmatter.md"
 lsj_url = "http://localhost:8080"
 editions_dir = "editions/html/"
 
@@ -30,12 +30,12 @@ lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
 raw_morph_data = "morph/output/nt-mark-analysis.txt"
-morph_pos_triplets = "data/indexes/NT_Mark/NT_Mark_morpheus_triplets.tsv"
-morph_pos_errors = "morph/output/NT_Mark_parse_errors.log"
-morph_lemmata_alignment = "data/indexes/NT_Mark/NT_Mark_triplets_lemmata.tsv"
-morph_lemmata_alignment_errors = "data/indexes/NT_Mark/NT_Mark_triplets_lemmata_errors.tsv"
-morph_token_index = "data/indexes/NT_Mark/NT_Mark_morphology_index.tsv"
-morph_token_index_errors = "data/indexes/NT_Mark/NT_Mark_morphology_index_errors.tsv"
+morph_pos_triplets = "data/indexes/NT/Mark/Mark_morpheus_triplets.tsv"
+morph_pos_errors = "morph/output/nt-mark_parse_errors.log"
+morph_lemmata_alignment = "data/indexes/NT/Mark/Mark_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/NT/Mark/Mark_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/NT/Mark/Mark_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/NT/Mark/Mark_morphology_index_errors.tsv"
 local_morph_dict = "data/morphology/nt-mark_morph.cex"
 
 
@@ -43,9 +43,9 @@ local_morph_dict = "data/morphology/nt-mark_morph.cex"
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/NT_Mark"
-indexes_dir = "indexes/NT_Mark"
-vocabulary_dir = "vocabulary/NT_Mark"
+tokenized_dir = "tokenized/NT/Mark"
+indexes_dir = "indexes/NT/Mark"
+vocabulary_dir = "vocabulary/NT/Mark"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -69,7 +69,7 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/NT_Mark/"
+editor_index_files = "source-data/edited_morphology/NT/Mark/"
 
 editor_index_error = "data/morphology/editorial_index_error_nt-mark.txt"
 
