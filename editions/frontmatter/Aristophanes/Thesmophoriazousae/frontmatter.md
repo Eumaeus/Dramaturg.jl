@@ -7,4 +7,4 @@ The early years of Aristophanes coincided with the height of Athenian imperial p
 
 ## *Thesmophoriazousae*
 
-*Thesmophoriazousae* ("Women Celebrating the Thesmophoria", Θεσμοφοριάζουσαι) (411 BCE): Produced the same years as *Lysistrata* BC, Euripides recruits in-law Mnesilochus to infiltrate women's Thesmophoria festival to defend against their plots to kill him for misogynistic portrayals; disguised as a woman, Mnesilochus steals a child (revealed as a wine bottle) in chaotic farce critiquing tragic tropes.
+*Thesmophoriazousae* (“Women Celebrating the Thesmophoria”, Θεσμοφοριάζουσαι) (411 BCE): Produced the same years as *Lysistrata* BC, Euripides recruits in-law Mnesilochus to infiltrate women's Thesmophoria festival to defend against their plots to kill him for misogynistic portrayals; disguised as a woman, Mnesilochus steals a child (revealed as a wine bottle) in chaotic farce critiquing tragic tropes.

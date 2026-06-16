@@ -1,7 +1,7 @@
 
 ## Lysias
 
-Lysias (c. 445 – c. 380 BC) was an ancient Greek logographer ("speechwriter") and orator who resided in Athens as a metic, a resident foreigner. Born to a wealthy Syracusan family that had relocated to Athens, he initially managed the family's shield-making business before turning to speechwriting following the confiscation of their property by the Thirty Tyrants in 404 BC.
+Lysias (c. 445 – c. 380 BC) was an ancient Greek logographer (“speechwriter”) and orator who resided in Athens as a metic, a resident foreigner. Born to a wealthy Syracusan family that had relocated to Athens, he initially managed the family's shield-making business before turning to speechwriting following the confiscation of their property by the Thirty Tyrants in 404 BC.
 
 As a professional logographer, Lysias composed forensic speeches for clients to deliver in Athenian courts, producing over 200 works, of which 34 complete speeches and fragments of others survive.
 

@@ -5,7 +5,7 @@ Aeschylus (c. 525 – c. 456 BC) was an ancient Greek tragedian from Eleusis, wi
 
 ## *Choephoroi*
 
-The *Choephoroi* (Χοηφóρoι, *Libation Bearers*) is the second play of the *Oresteia*, "The Epic of Orestes."
+The *Choephoroi* (Χοηφóρoι, *Libation Bearers*) is the second play of the *Oresteia*, “The Epic of Orestes.”
 
  The *Oresteia* is a trilogy of tragedies composed by Aeschylus and first performed at the City Dionysia festival in 458 BC, where it secured first prize among competing tetralogies. The work comprises three interconnected plays—*Agamemnon*, *Libation Bearers* (also known as *Choephori*), and *The Eumenides*—accompanied by a now-lost satyr play titled *Proteus*, forming a complete tetralogy as per the conventions of the Dionysia. As the sole surviving example of a complete ancient Greek tragic trilogy, it represents a pinnacle of Aeschylus's dramatic innovation, emphasizing interconnected narratives across multiple plays to explore escalating consequences of familial curses and moral dilemmas.
 

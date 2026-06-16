@@ -7,5 +7,5 @@ The early years of Aristophanes coincided with the height of Athenian imperial p
 
 ## *Ecclesiazousae*
 
-*Ecclesiazousae* ("Assemblywomen", Ἐκκλησιάζουσαι) (c. 392 BC): In the post-war recovery era, Praxagora and women disguise themselves to seize the Assembly, enacting communal property, meals, and sexual equality where the ugliest mate first, exposing absurdities of radical redistribution after Athens' defeat and Spartan hegemony 
+*Ecclesiazousae* (“Assemblywomen”, Ἐκκλησιάζουσαι) (c. 392 BC): In the post-war recovery era, Praxagora and women disguise themselves to seize the Assembly, enacting communal property, meals, and sexual equality where the ugliest mate first, exposing absurdities of radical redistribution after Athens' defeat and Spartan hegemony 
 
