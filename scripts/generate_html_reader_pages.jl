@@ -365,6 +365,22 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
             # Lexicon Def goes below…
             shortdef = get(lsj_defs, entry.lsj, "[No short definition available]")
 
+            shortdefhtml = ""
+
+            if !(contains(entry.lsj, "urn:cite2:hmt:lsj"))
+               shortdefhtml = """
+                    <div class="lsj_shortdef" data-lsjurn="$(entry.lsj)">
+                        $shortdef (Supplemental definition.)
+                    </div>
+                """
+            else
+               shortdefhtml = """
+                    <div class="lsj_shortdef" data-lsjurn="$(entry.lsj)">
+                        <a href="$(lsj_url * "?urn=" * entry.lsj)" target="_blank" rel="noreferrer" class="shortdeflink">$shortdef</a>
+                    </div>
+               """
+            end
+
             push!(parts, """<div class="editor-preferred-header sansfont" style="color: green;"><strong>Editor’s Preferred Parsing</strong></div>""")
             push!(parts, """
                 <div class="parse_and_lex editor-preferred"
@@ -378,9 +394,7 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
                     <div class="formparsing" data-morphurn="$chosen">
                         $desc_html
                     </div>
-                    <div class="lsj_shortdef" data-lsjurn="$(entry.lsj)">
-                        <a href="$(lsj_url * "?urn=" * entry.lsj)" target="_blank" rel="noreferrer" class="shortdeflink">$shortdef</a>
-                    </div>
+                    $(shortdefhtml)
                 </div>
             """)
 
@@ -393,6 +407,23 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
                     e = morph_dict[murn]
                     dhtml = Markdown.html(Markdown.parse(e.desc))
                     sdef = get(lsj_defs, e.lsj, "[No short definition available]")
+
+                    shortdefhtml = ""
+
+                    if !(contains(entry.lsj, "urn:cite2:hmt:lsj"))
+                       shortdefhtml = """
+                            <div class="lsj_shortdef" data-lsjurn="$(entry.lsj)">
+                                $shortdef (Supplemental definition.)
+                            </div>
+                        """
+                    else
+                       shortdefhtml = """
+                            <div class="lsj_shortdef" data-lsjurn="$(entry.lsj)">
+                                <a href="$(lsj_url * "?urn=" * entry.lsj)" target="_blank" rel="noreferrer" class="shortdeflink">$shortdef</a>
+                            </div>
+                       """
+                    end
+
                     push!(parts, """
                         <div class="parse_and_lex"
                              data-morphurn="$murn"
@@ -405,9 +436,7 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
                             <div class="formparsing" data-morphurn="$murn">
                                 $dhtml
                             </div>
-                            <div class="lsj_shortdef" data-lsjurn="$(e.lsj)">
-                                <a href="$(lsj_url * "?urn=" * e.lsj)" class="shortdeflink" target="_blank" rel="noreferrer">$sdef</a>
-                            </div>
+                            $(shortdefhtml)
                         </div>
                     """)
                 end
@@ -420,6 +449,23 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
                 e = morph_dict[murn]
                 dhtml = Markdown.html(Markdown.parse(e.desc))
                 sdef = get(lsj_defs, e.lsj, "[No short definition available]")
+
+                shortdefhtml = ""
+
+                if !(contains(e.lsj, "urn:cite2:hmt:lsj"))
+                   shortdefhtml = """
+                        <div class="lsj_shortdef" data-lsjurn="$(e.lsj)">
+                            $sdef (Supplemental definition.)
+                        </div>
+                    """
+                else
+                   shortdefhtml = """
+                        <div class="lsj_shortdef" data-lsjurn="$(e.lsj)">
+                            <a href="$(lsj_url * "?urn=" * e.lsj)" class="shortdeflink" target="_blank" rel="noreferrer">$sdef</a>
+                        </div>
+                   """
+                end
+
                 push!(parts, """
                     <div class="parse_and_lex"
                          data-morphurn="$murn"
@@ -432,9 +478,7 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
                         <div class="formparsing" data-morphurn="$murn">
                             $dhtml
                         </div>
-                        <div class="lsj_shortdef" data-lsjurn="$(e.lsj)">
-                            <a href="$(lsj_url * "?urn=" * e.lsj)" class="shortdeflink" target="_blank" rel="noreferrer">$sdef</a>
-                        </div>
+                        $(shortdefhtml)
                     </div>
                 """)
             end
