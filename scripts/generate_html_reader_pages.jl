@@ -315,11 +315,17 @@ function load_morph_dict(path::String)::Dict{String,NamedTuple{(:desc,:lsj,:uc_f
     d
 end
 
+# ------------------------------------------------------------------
+# UPDATED: Ignores blank lines and '//' commented lines in input.
+# Does NOT check for LSJ URNs, allowing user-generated lexical 
+# entries in the lsj_short_defs.tsv
+# ------------------------------------------------------------------
 function load_lsj_short_defs(path::String)::Dict{String,String}
     defs = Dict{String,String}()
     for line in readlines(path)
         line = strip(line)
         isempty(line) && continue
+        contains(line,"//") && continue
         parts = split(line, '\t', limit = 2)
         length(parts) == 2 || continue
         urn = strip(parts[1])
@@ -356,6 +362,7 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
             # Editor’s Preferred Parsing
             entry = morph_dict[chosen]
             desc_html = Markdown.html(Markdown.parse(entry.desc))
+            # Lexicon Def goes below…
             shortdef = get(lsj_defs, entry.lsj, "[No short definition available]")
 
             push!(parts, """<div class="editor-preferred-header sansfont" style="color: green;"><strong>Editor’s Preferred Parsing</strong></div>""")

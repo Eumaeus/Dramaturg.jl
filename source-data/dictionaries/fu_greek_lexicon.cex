@@ -1,0 +1,60 @@
+
+#!cexversion
+3.0
+
+#!citelibrary
+name#A lexicon to supplement *LSJ*, including named-entities and other words.
+urn#urn:cite2:cex:fufolio.2026:dramaturg
+license#CC 3.0 NC-BY-SA.
+
+//
+// Collection Inventory:
+// This lexicon is a CITE Collection.
+// The other identified collections allow CITE to discover that 
+// the LSJ's entry, in this collection, is formatted in Markdown
+//
+#!citecollections
+URN#Description#Labelling property#Ordering property#License
+urn:cite2:fu:greeklex.md:#Supplemental Greek Lexicon. Furman University.#urn:cite2:fu:greeklex.md.key:#urn:cite2:fu:greeklex.md.seq:#CC 3.0 NC-BY-SA
+//
+// This is a collection of extended text properties
+//
+urn:cite2:fufolio:extended_text_properties.v1:#Extended Text Properties#urn:cite2:fufolio:extended_text_properties.v1.label:##CC-BY-SA
+
+// 
+// Properties for the extended_text_properties extension
+// In addition to the (standard) URN and label, there are:
+// a propertyurn, identifying the property of type "string", and
+// its type, an enumerated list of supported extensions.
+// (a different collection could define any other set of extension types.)
+//
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:fufolio:extended_text_properties.v1.urn:#URN#Cite2Urn#
+urn:cite2:fufolio:extended_text_properties.v1.label:#Label#String#
+urn:cite2:fufolio:extended_text_properties.v1.propertyurn:#Property URN#Cite2Urn#
+urn:cite2:fufolio:extended_text_properties.v1.extendedtype:#Extended Text Type#String#geojson,pleiadesuri,latlong,markdown,teixml
+
+
+//
+// Records for the extended_text_properties collection.
+// Note that we can identify properties at the versioned-collection-level _or_
+// at the individual object level.
+//
+#!citedata
+urn#label#propertyurn#extendedtype
+urn:cite2:fufolio:extended_text_properties.v1:lsj_md#LSJ (Markdown)#urn:cite2:fu:greeklex.md.entry:#markdown
+
+// Definition of the LSJ Collection
+
+#!citeproperties
+Property#Label#Type#Authority list
+urn:cite2:fu:greeklex.md.seq:#Seq#Number#
+urn:cite2:fu:greeklex.md.urn:#URN#Cite2Urn#
+urn:cite2:fu:greeklex.md.key:#Key#String#
+urn:cite2:fu:greeklex.md.entry:#Entry#String#
+
+#!citedata
+seq#urn#key#entry
+1#urn:cite2:fu:greeklex.md:n1#Κλεισθένης#**Κλεισθένης, Κλεισθένους, Κλεισθένει, Κλεισθένη:** prpoper name. Athenian statesman. Name of a warship.#urn:cite2:fu:greeklex.md:n1#Κλεισθένης#**Κλεισθένης, Κλεισθένους, Κλεισθένει, Κλεισθένη:** prpoper name. Athenian statesman. Name of a warship.
+2#urn:cite2:fu:greeklex.md:n2#Μόλων, Μόλωνος, ὁ. A proper name: Molōn.

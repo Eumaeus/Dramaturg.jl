@@ -72,6 +72,7 @@ lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
 
 lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
 
+
 master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
