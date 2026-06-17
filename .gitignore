@@ -30,3 +30,5 @@ editions/html/Aristophanes/Frogs/pages/*
 data/morphology/Greek_Morphology*
 source-data/morphology/Greek_Morphology.cex
 data/morphology/Aristophanes/editorial_index_error_frogs.txt
+docs/Bash-Scripts/frogs.sh
+frogs.sh
