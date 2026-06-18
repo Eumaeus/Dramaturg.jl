@@ -101,6 +101,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function clearPanel() {
+        if (lockedToken) return;
+        infopanel.innerHTML = '';
+    }
+
     // ... (the rest of the token event listeners, clearPanel, click handling, editor toggle, etc. are unchanged)
 
     tokens.forEach(token => {
