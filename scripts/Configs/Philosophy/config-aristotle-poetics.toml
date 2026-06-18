@@ -19,7 +19,7 @@ html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/Philosophy/Aristotle_Poetics"
 md_bibliography = "editions/frontmatter/Philosophy/Aristotle_Poetics/bibliography.md"
 md_frontmatter = "editions/frontmatter/Philosophy/Aristotle_Poetics/frontmatter.md"
-lsj_url = "http://localhost:8080"
+lsj_url = "https://folio3.furman.edu/lsj/"
 editions_dir = "editions/html/"
 
 

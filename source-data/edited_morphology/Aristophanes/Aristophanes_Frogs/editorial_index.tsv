@@ -292,6 +292,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:139.1.text.token.6	γέρων	ge/rwn	γ�
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:14.1.text.token.1	εἴωθε	ei)/wqe	ἔθω	e)/qw	urn:cite2:hmt:lsj.chicago_md:n30814	v3sria---
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:14.1.text.token.2	ποιεῖν	poiei=n	ποιέω	poie/w	urn:cite2:hmt:lsj.chicago_md:n84234	v--pna---
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:14.1.text.token.3	καὶ	kai\	καί	kai/	urn:cite2:hmt:lsj.chicago_md:n51951	c--------
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:14.1.text.token.4	Λύκις	*lu/kis	Λύκις	*lu/kis	urn:cite2:fu:greeklex.md:n3	n-s---mn-
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:14.1.text.token.5	κἀμειψίας	ka)meiyi/as	Ἀμειψίας	*a)meiyi/as	urn:cite2:fu:greeklex.md:n4	n-s---mn-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:140.1.text.token.1	ναύτης	nau/ths	ναύτης	nau/ths	urn:cite2:hmt:lsj.chicago_md:n69896	n-s---mn-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:140.1.text.token.2	διάξει	dia/cei	διάγω	dia/gw	urn:cite2:hmt:lsj.chicago_md:n24666	v2sfim---
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:140.1.text.token.3	δύ’	du/'	δύο	du/o	urn:cite2:hmt:lsj.chicago_md:n28592	m--------
@@ -715,6 +717,7 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:55.1.text.token.3	πόσος	po/sos	πό
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:55.1.text.token.4	τις	tis	τις	tis	urn:cite2:hmt:lsj.chicago_md:n104051	p-s---mn-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:55.2.text.token.1	μικρός	mikro/s	μικρός	mikro/s	urn:cite2:hmt:lsj.chicago_md:n67762	a-s---mn-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:55.2.text.token.2	ἡλίκος	h(li/kos	ἡλίκος	h(li/kos	urn:cite2:hmt:lsj.chicago_md:n46861	a-s---mn-
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:55.2.text.token.3	Μόλων	*mo/lwn	Μόλων	*mo/lwn	urn:cite2:fu:greeklex.md:n2	n-s---mn-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:56.1.text.token.1	γυναικός	gunaiko/s	γυνή	gunh/	urn:cite2:hmt:lsj.chicago_md:n23069	n-s---fg-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:56.2.text.token.1	οὐ	ou)	οὐ	ou)	urn:cite2:hmt:lsj.chicago_md:n75730	d--------
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:56.2.text.token.2	δῆτα	dh=ta	δῆτα	dh=ta	urn:cite2:hmt:lsj.chicago_md:n24506	d--------
@@ -729,6 +732,7 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:57.3.text.token.1	ξυνεγένου	cune
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:57.3.text.token.1	ξυνεγένου	cunege/nou	συγγίγνομαι	suggi/gnomai	urn:cite2:hmt:lsj.chicago_md:n97523	v2saim---
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:57.3.text.token.2	τῷ	tw=|	ὁ	o(	urn:cite2:hmt:lsj.chicago_md:n71882	l-s---md-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:57.3.text.token.2	τῷ	tw=|	ὁ	o(	urn:cite2:hmt:lsj.chicago_md:n71882	l-s---md-
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:57.3.text.token.3	Κλεισθένει	*Kleisqe/nei	Κλεισθένης	*Kleisqe/nhs	urn:cite2:fu:greeklex.md:n1	n-s---md-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:58.1.text.token.1	μὴ	mh\	μὴ	mh\	urn:cite2:hmt:lsj.chicago_md:n67283	d--------
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:58.1.text.token.10	κακῶς	kakw=s	κακός	kako/s	urn:cite2:hmt:lsj.chicago_md:n52332	d--------
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:58.1.text.token.2	σκῶπτέ	skw=pte/	σκώπτω	skw/ptw	urn:cite2:hmt:lsj.chicago_md:n95432	v2spma---
@@ -858,6 +862,7 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:72.1.text.token.9	ὄντες	o)/ntes	ε�
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:73.1.text.token.1	τί	ti/	τίς	ti/s	urn:cite2:hmt:lsj.chicago_md:n104051a	n-s---na-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:73.1.text.token.2	δ’	d'	δέ	de/	urn:cite2:hmt:lsj.chicago_md:n23596	g--------
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:73.1.text.token.4	οὐκ	ou)k	οὐ	ou)	urn:cite2:hmt:lsj.chicago_md:n75730	d--------
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:73.1.text.token.5	Ἰοφῶν	*i)ofw=n	Ἰοφῶν	*i)ofw=n	urn:cite2:fu:greeklex.md:n5	n-s---mn-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:73.1.text.token.6	ζῇ	zh=|	ζάω	za/w	urn:cite2:hmt:lsj.chicago_md:n46123	v3spia---
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:73.2.text.token.1	τοῦτο	tou=to	οὗτος	ou(=tos	urn:cite2:hmt:lsj.chicago_md:n76062	n-s---na-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:73.2.text.token.2	γάρ	ga/r	γάρ	ga/r	urn:cite2:hmt:lsj.chicago_md:n21618	g--------
@@ -883,6 +888,7 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:75.1.text.token.8	ὅπως	o(/pws	ὅπω
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:75.1.text.token.9	ἔχει	e)/xei	ἔχω	e)/xw	urn:cite2:hmt:lsj.chicago_md:n45996	v3spia---
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:76.1.text.token.1	εἶτ’	ei)=t'	εἶτα	ei)=ta	urn:cite2:hmt:lsj.chicago_md:n31562	d--------
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:76.1.text.token.2	οὐχί	ou)xi/	οὐ	ou)	urn:cite2:hmt:lsj.chicago_md:n75730	d--------
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:76.1.text.token.3	Σοφοκλέα	*sofokle/a	Σοφοκλέης	*sofokle/hs	urn:cite2:fu:greeklex.md:n6	n-s---ma-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:76.1.text.token.4	πρότερον	pro/teron	πρότερος	pro/teros	urn:cite2:hmt:lsj.chicago_md:n90504	a-s---ma-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:76.1.text.token.5	Εὐριπίδου	*eu)ripi/dou	εὐριπίδης	eu)ripi/dhs	urn:cite2:hmt:lsj.chicago_md:n44956	n-s---mg-
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:77.1.text.token.1	μέλλεις	me/lleis	μέλλω	me/llw	urn:cite2:hmt:lsj.chicago_md:n66173	v2spia---

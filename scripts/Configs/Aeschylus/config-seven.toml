@@ -19,7 +19,7 @@ html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/Aeschylus/Seven"
 md_bibliography = "editions/frontmatter/Aeschylus/Seven/bibliography.md"
 md_frontmatter = "editions/frontmatter/Aeschylus/Seven/frontmatter.md"
-lsj_url = "http://localhost:8080"
+lsj_url = "https://folio3.furman.edu/lsj/"
 editions_dir = "editions/html/"
 
 

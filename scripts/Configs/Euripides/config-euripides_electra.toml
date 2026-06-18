@@ -20,7 +20,7 @@ html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/Euripides/Electra"
 md_bibliography = "editions/frontmatter/Euripides/Electra/bibliography.md"
 md_frontmatter = "editions/frontmatter/Euripides/Electra/frontmatter.md"
-lsj_url = "http://localhost:8080"
+lsj_url = "https://folio3.furman.edu/lsj/"
 editions_dir = "editions/html/"
 
 

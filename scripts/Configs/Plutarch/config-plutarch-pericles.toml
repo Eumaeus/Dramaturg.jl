@@ -19,7 +19,7 @@ html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/Plutarch/Plutarch_Pericles"
 md_bibliography = "editions/frontmatter/Plutarch/Plutarch_Pericles/bibliography.md"
 md_frontmatter = "editions/frontmatter/Plutarch/Plutarch_Pericles/frontmatter.md"
-lsj_url = "http://localhost:8080"
+lsj_url = "https://folio3.furman.edu/lsj/"
 editions_dir = "editions/html/"
 
 

@@ -19,7 +19,7 @@ html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/Philosophy/Epictetus_Discourses"
 md_bibliography = "editions/frontmatter/Philosophy/Epictetus_Discourses/bibliography.md"
 md_frontmatter = "editions/frontmatter/Philosophy/Epictetus_Discourses/frontmatter.md"
-lsj_url = "http://localhost:8080"
+lsj_url = "https://folio3.furman.edu/lsj/"
 editions_dir = "editions/html/"
 
 

@@ -18,7 +18,7 @@ html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/Homer/4_Hermes"
 md_bibliography = "editions/frontmatter/Homer/4_Hermes/bibliography.md"
 md_frontmatter = "editions/frontmatter/Homer/4_Hermes/frontmatter.md"
-lsj_url = "http://localhost:8080"
+lsj_url = "https://folio3.furman.edu/lsj/"
 editions_dir = "editions/html/"
 
 

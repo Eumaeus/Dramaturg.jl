@@ -19,7 +19,7 @@ Confirm what will be changed:
 
 Replace the address of the LSJ app:
 
-	grep -rlI 'http://localhost:8080' . | tee xargs -I {} sed -i '.bak' 's|http://localhost:8080|https://folio3.furman.edu/lsj/|g' {}
+	grep -rlI 'http://localhost:8080' . | xargs -I {} sed -i '.bak' 's|http://localhost:8080|https://folio3.furman.edu/lsj/|g' {}
 
 Confirm that you got them all:
 

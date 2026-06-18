@@ -19,7 +19,7 @@ html_page_template = "reader_page.html"
 html_temp_dir = "data/html_temp/NT/Mark"
 md_bibliography = "editions/frontmatter/NT/Mark/bibliography.md"
 md_frontmatter = "editions/frontmatter/NT/Mark/frontmatter.md"
-lsj_url = "http://localhost:8080"
+lsj_url = "https://folio3.furman.edu/lsj/"
 editions_dir = "editions/html/"
 
 
