@@ -507,9 +507,6 @@ form	token_urn	expanded_form	presentation_form
 σ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:77.1.text.token.7	σε	σε
 σ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:139.1.text.token.4	σε	σε
 σ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:167.1.text.token.5	σε	σε
-σ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:186.1.text.token.8	σε	σε
-σ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:187.1.text.token.2	σε	σε
-σ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:187.1.text.token.6	σε	σε
 σ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:481.1.text.token.3	σε	σε
 σ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:504.1.text.token.4	σε	σε
 σ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:508.2.text.token.6	σε	σε
@@ -758,21 +755,21 @@ form	token_urn	expanded_form	presentation_form
 ἐξόπισθ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:286.3.text.token.1		ἐξόπισθ’
 ἐπαίροιμ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1041.1.text.token.7		ἐπαίροιμ’
 ἐπύθεθ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:504.1.text.token.6		ἐπύθεθ’
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:9.1.text.token.5	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:69.1.text.token.2	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:291.2.text.token.5	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:352.1.text.token.3	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:440.1.text.token.3	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1119.1.text.token.3	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1172.1.text.token.4	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1265.1.text.token.5	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1267.1.text.token.5	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1271.1.text.token.5	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1275.1.text.token.5	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1277.1.text.token.5	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1293.1.text.token.4	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1487.1.text.token.1	ἐπί	ἐπί
-ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1488.1.text.token.1	ἐπί	ἐπί
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:9.1.text.token.5		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:69.1.text.token.2		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:291.2.text.token.5		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:352.1.text.token.3		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:440.1.text.token.3		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1119.1.text.token.3		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1172.1.text.token.4		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1265.1.text.token.5		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1267.1.text.token.5		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1271.1.text.token.5		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1275.1.text.token.5		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1277.1.text.token.5		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1293.1.text.token.4		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1487.1.text.token.1		ἐπ’
+ἐπ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:1488.1.text.token.1		ἐπ’
 ἐσθ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:282.1.text.token.5	ἐστί	ἐστί
 ἐσθ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:322.1.text.token.2	ἐστί	ἐστί
 ἐστ’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:4.1.text.token.7	ἐστί	ἐστί
@@ -917,6 +914,9 @@ form	token_urn	expanded_form	presentation_form
 ’πίορκον	urn:cts:greekLit:tlg0019.tlg009.fu.sp:150.1.text.token.4	ἐπίορκον	ἐπίορκον
 ’π’	urn:cts:greekLit:tlg0019.tlg009.fu.sp:928.1.text.token.7	ἐπί	ἐπί
 ’ρεῖς	urn:cts:greekLit:tlg0019.tlg009.fu.sp:7.1.text.token.8	ἐρεῖς	ἐρεῖς
+’ς	urn:cts:greekLit:tlg0019.tlg009.fu.sp:186.1.text.token.8	εἰς	εἰς
+’ς	urn:cts:greekLit:tlg0019.tlg009.fu.sp:187.1.text.token.2	εἰς	εἰς
+’ς	urn:cts:greekLit:tlg0019.tlg009.fu.sp:187.1.text.token.6	εἰς	εἰς
 ’σται	urn:cts:greekLit:tlg0019.tlg009.fu.sp:596.1.text.token.1	ἐσται	ἐσται
 ’στι	urn:cts:greekLit:tlg0019.tlg009.fu.sp:291.2.text.token.2	ἐστί	ἐστί
 ’στιν	urn:cts:greekLit:tlg0019.tlg009.fu.sp:83.1.text.token.4	ἐστίν	ἐστίν
