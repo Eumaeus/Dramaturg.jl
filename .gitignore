@@ -35,7 +35,6 @@ frogs.sh
 source-data/edited_morphology/Aristophanes/Aristophanes_Frogs/2026-06-17/ei_cwb_For_editors_index_2026-06-17-1429.tsv
 source-data/edited_morphology/Aristophanes/Aristophanes_Frogs/2026-06-17/ei_cwb_For_editors_index_2026-06-17-1535.tsv
 source-data/edited_morphology/Aristophanes/Aristophanes_Frogs/2026-06-17/sample-from-user-dictionary.tsv
-source-data/morphology/user-generated/2026-06-17/md_cwb_For_morphological_dictionary_2026-06-17-1429.tsv
-source-data/morphology/user-generated/2026-06-17/md_cwb_For_morphological_dictionary_2026-06-17-1535.tsv
-source-data/morphology/user-generated/2026-06-17/sample-from-user-dictionary.tsv
-source-data/morphology/user-generated/2026-06-17/user_morphology.tsv
+source-data/morphology/user-generated/20*
+source-data/edited_morphology/Aristophanes/Aristophanes_Frogs/20*
+source-data/edited_morphology/Aristophanes/Aristophanes_Frogs/Attic/*

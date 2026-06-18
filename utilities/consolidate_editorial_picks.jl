@@ -26,7 +26,7 @@ function consolidate_editorial_picks(config_path::String="scripts/config.toml")
     end
 
     date_str = Dates.format(Dates.today(), "yyyymmdd")
-    new_file = joinpath(editor_dir, "editorial_picks_$(date_str).tsv")
+    new_file = joinpath(editor_dir, "editorial_index_$(date_str).tsv")
     sort!(collected)
 
     open(new_file, "w") do io
