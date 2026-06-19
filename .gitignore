@@ -41,3 +41,4 @@ source-data/edited_morphology/Aristophanes/Aristophanes_Frogs/Attic/*
 source-data/morphology/user-generated/user_morphology_2*
 source-data/edited_morphology/Aristophanes/Aristophanes_Frogs/editorial_index_2*
 consol.sh
+scripts/initial_cex-works.jl
