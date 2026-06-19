@@ -15176,6 +15176,7 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:203.1.text.token.1	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:203.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260607T0312404992
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:203.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260607T0312404993
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:203.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260607T0312404994
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:203.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02414811342
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:203.2.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:203.2.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312402797
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:203.2.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260607T0312405431
@@ -15210,9 +15211,7 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:205.2.speaker.token.1	urn:cite2:fufolio:gr
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:205.2.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T1029010398
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:205.2.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T1029010399
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:205.2.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T1029010400
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:205.2.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010376
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:205.2.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010377
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:205.2.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010378
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:205.2.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260619T02414811343
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:205.2.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260607T0312407315
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:205.2.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260607T0312407316
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:205.2.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260607T0312407317
@@ -15282,9 +15281,13 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:208.1.speaker.token.1	urn:cite2:fufolio:gr
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:208.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T1029010400
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:208.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010254
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:208.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010255
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:208.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02414811344
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:208.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010254
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:208.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010255
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:208.1.text.token.4	urn:cite2:fufolio:greekmorph.2026a:20260619T02414811344
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:209.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400545
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:209.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:209.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:21.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:21.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312515624
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:21.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312515625
@@ -15306,6 +15309,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:21.1.text.token.7	urn:cite2:fufolio:greekm
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:21.1.text.token.8	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406138
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:21.1.text.token.8	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406139
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:210.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400545
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:210.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:210.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:211.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312402967
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:211.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312402968
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:211.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312402969
@@ -15334,6 +15339,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:213.1.text.token.1	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:213.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260607T0312401676
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:213.1.text.token.4	urn:cite2:fufolio:greekmorph.2026a:20260607T0312408391
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:213.1.text.token.5	urn:cite2:fufolio:greekmorph.2026a:20260607T0312407615
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:214.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:214.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:215.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312409475
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:215.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312409476
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:215.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260608T1833430009
@@ -15420,6 +15427,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:220.1.text.token.5	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:220.1.text.token.5	urn:cite2:fufolio:greekmorph.2026a:20260608T1833433206
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:220.1.text.token.6	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010019
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:221.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400545
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:221.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:221.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:222.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:222.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312408269
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:222.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312408270
@@ -15443,6 +15452,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:223.1.text.token.1	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:223.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010008
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:223.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010254
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:223.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010255
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:223.1.text.token.4	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:223.1.text.token.5	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:224.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:224.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T03124010125
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:224.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260608T1833430812
@@ -15462,6 +15473,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:224.1.text.token.5	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:224.1.text.token.5	urn:cite2:fufolio:greekmorph.2026a:20260607T0312403585
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:224.1.text.token.5	urn:cite2:fufolio:greekmorph.2026a:20260607T0312403586
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:225.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400545
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:225.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:225.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:226.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:226.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T03125126950
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:226.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260617T14114611221
@@ -15469,6 +15482,7 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:226.1.text.token.2	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:226.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400386
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:226.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400387
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:226.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260608T1833431879
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:226.1.text.token.4	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:227.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:227.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312404173
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:227.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312404174
@@ -15489,6 +15503,7 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:227.1.text.token.5	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:227.1.text.token.5	urn:cite2:fufolio:greekmorph.2026a:20260608T1833430434
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:227.1.text.token.5	urn:cite2:fufolio:greekmorph.2026a:20260608T1833430435
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:227.1.text.token.5	urn:cite2:fufolio:greekmorph.2026a:20260608T1833430436
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:227.1.text.token.6	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:228.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312401540
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:228.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312401541
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:228.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260607T0312512090
@@ -15607,6 +15622,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:233.1.text.token.3	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:233.1.text.token.4	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406146
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:233.1.text.token.4	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406147
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:235.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400545
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:235.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:235.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:236.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:236.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312408269
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:236.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312408270
@@ -15659,6 +15676,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:238.1.text.token.4	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:238.1.text.token.4	urn:cite2:fufolio:greekmorph.2026a:20260607T0312408684
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:238.1.text.token.4	urn:cite2:fufolio:greekmorph.2026a:20260607T0312408685
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:239.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400545
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:239.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:239.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:24.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:24.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312409741
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:24.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312409742
@@ -15826,6 +15845,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:25.2.text.token.6	urn:cite2:fufolio:greekm
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:25.2.text.token.6	urn:cite2:fufolio:greekmorph.2026a:20260607T0312409841
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:251.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:251.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400545
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:251.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:251.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:252.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:252.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406027
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:252.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406028
@@ -15898,6 +15919,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:255.1.text.token.1	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:255.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260607T0312401109
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:255.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260607T0312401110
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:256.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400545
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:256.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:256.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:257.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:257.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312404085
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:257.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312404086
@@ -15992,6 +16015,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:260.1.text.token.3	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:260.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260607T0312409391
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:261.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:261.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400545
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:261.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:261.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:262.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:262.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406067
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:262.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406068
@@ -16082,6 +16107,8 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:265.1.text.token.4	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:265.1.text.token.4	urn:cite2:fufolio:greekmorph.2026a:20260607T0312409391
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:265b.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:265b.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400545
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:265b.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:265b.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:266.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:266.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312409293
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:266.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312409294
@@ -16120,8 +16147,11 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:266.1.text.token.5	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:266.1.text.token.5	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406493
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:266.1.text.token.5	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406494
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:266.1.text.token.5	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406495
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:266.1.text.token.6	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:267.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:267.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400545
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:267.1.text.token.2	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:267.1.text.token.3	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:268.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400042
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:268.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312408984
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:268.1.text.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312408985
@@ -16178,6 +16208,7 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:268.1.text.token.6	urn:cite2:fufolio:greek
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:268.1.text.token.6	urn:cite2:fufolio:greekmorph.2026a:20260607T0312406081
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:268.1.text.token.6	urn:cite2:fufolio:greekmorph.2026a:20260608T1833430072
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:268.1.text.token.6	urn:cite2:fufolio:greekmorph.2026a:20260608T1833431973
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:268.1.text.token.7	urn:cite2:fufolio:greekmorph.2026a:20260619T02500311260
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:269.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400268
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:269.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T0312400269
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:269.1.speaker.token.1	urn:cite2:fufolio:greekmorph.2026a:20260607T1029010397
