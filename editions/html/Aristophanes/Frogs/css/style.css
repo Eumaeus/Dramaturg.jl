@@ -92,14 +92,14 @@ nav a:hover { text-decoration: underline; }
 
 #sidebar-title {
     margin: 0 0 1rem 0;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: var(--accent-color);
     border-bottom: 1px solid #e8d8b8;
     padding-bottom: 0.5rem;
 }
 
 .peek-note {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: normal;
     color: #777;
 }
@@ -124,7 +124,7 @@ nav a:hover { text-decoration: underline; }
 
 .formparsing {
     margin-bottom: 1rem;
-    margin-top: 0;
+    margin-top: 1rem;
     font-size: 1.05rem;
 }
 
@@ -203,7 +203,7 @@ nav a:hover { text-decoration: underline; }
 
 .preferred-btn {
     position: absolute;
-    top: 8px;
+    top: 14px;
     right: 8px;
     font-size: 0.75rem;
     padding: 2px 8px;

@@ -115,6 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         token.addEventListener('mouseleave', () => {
+            token.classList.remove('hovered');
             if (lockedToken !== token) token.classList.remove('hovered');
             if (!lockedToken) clearPanel();
         });
