@@ -381,7 +381,7 @@ function build_morphdata_html(tokens::Vector{Tuple{String,String}},
                """
             end
 
-            push!(parts, """<div class="editor-preferred-header sansfont" style="color: green;"><strong>Editor’s Preferred Parsing</strong></div>""")
+            push!(parts, """<div class="editor-preferred-header sansfont" style="color: #0066cc;"><strong>Editor’s Preferred Parsing</strong></div>""")
             push!(parts, """
                 <div class="parse_and_lex editor-preferred"
                      data-morphurn="$chosen"

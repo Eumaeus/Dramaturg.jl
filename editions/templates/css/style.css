@@ -300,7 +300,8 @@ div.editor-preferred-header, div.possible-parsings-header {
 }
 
 div.editor-preferred {
-    background-color: #e8fce3;
+    background-color: #e6f0ff;
+    border-left: 6px solid #0066cc;
 }
 
 div#masthead {
