@@ -11,7 +11,7 @@ In the directory `ai_queries` are the queries that got us to the present state o
 	- parsing individual Greek words
 	- batch-parsing words in `Dramaturg/morph/source-data/words.txt` to output and an error log that will appear in `Dramaturg/morph/output/`.
 1. Also in that directory are `morph/test-data` and `morph/test-output`, for a hand-curated set of forms to test this process and subsequent steps based on data from this process.
-1. I have added a directory `webapps` that currently contains one html/css/js application that lets users generate a POS-tag by choosing options from a series of popup menus. So the user selects "noun", "femininte", "accusative", "plural", and the app generates `n-p---fa-`. This will be useful, possibly, for me and other users. Its code (JS compiled with ScalaJS) might also be helpful as we work to perfect the generation of pos-tags from Morpheus data.
+1. I have added a directory `webapps` that currently contains one html/css/js application that lets users generate a POS-tag by choosing options from a series of popup menus. So the user selects "noun", "feminine", "accusative", "plural", and the app generates `n-p---fa-`. This will be useful, possibly, for me and other users. Its code (JS compiled with ScalaJS) might also be helpful as we work to perfect the generation of pos-tags from Morpheus data.
 
 All of this is checked into GitHub at <https://github.com/Eumaeus/Dramaturg.jl/tree/main>.
 
