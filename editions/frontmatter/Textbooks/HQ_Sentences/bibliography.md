@@ -1,0 +1,1 @@
+Hardy Hansen, Gerald M. Quinn, *Greek: An Intensive Course*. Fordham University Press. New York. 1992. Source texts and code for this page (and others) on [GitHub](https://github.com/Eumaeus/Dramaturg.jl). **urn:cts:fuTeaching:blackwell.hq.2026:**
