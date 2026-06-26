@@ -1,0 +1,1 @@
+rsync -avz --progres --exclude='ai_queries' --exclude='.git' --exclude='.gitignore' --exclude='.DS_Store' /Users/cblackwell/cite/grok/Dramaturg/editions/html/ cblackwell@folio3.furman.edu:~/dramaturg/
