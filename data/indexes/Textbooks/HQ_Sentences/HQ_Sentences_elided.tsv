@@ -1,15 +1,15 @@
 form	token_urn	expanded_form	presentation_form
-αἴσχισθ’	urn:cts:fuTeaching:blackwell.hq.2026:20.33.token.16		αἴσχισθ’
-βούλεσθ’	urn:cts:fuTeaching:blackwell.hq.2026:12.13.token.12		βούλεσθ’
-γενοίμεθ’	urn:cts:fuTeaching:blackwell.hq.2026:13.15.token.30		γενοίμεθ’
+αἴσχισθ’	urn:cts:fuTeaching:blackwell.hq.2026:20.33b.token.3		αἴσχισθ’
+βούλεσθ’	urn:cts:fuTeaching:blackwell.hq.2026:12.13a.token.12		βούλεσθ’
+γενοίμεθ’	urn:cts:fuTeaching:blackwell.hq.2026:13.15b.token.15		γενοίμεθ’
 γένοιντ’	urn:cts:fuTeaching:blackwell.hq.2026:16.28c.token.7		γένοιντ’
 γ’	urn:cts:fuTeaching:blackwell.hq.2026:8.3.token.7	γε	γε
 γ’	urn:cts:fuTeaching:blackwell.hq.2026:8.7.token.21	γε	γε
 γ’	urn:cts:fuTeaching:blackwell.hq.2026:8.8.token.15	γε	γε
 γ’	urn:cts:fuTeaching:blackwell.hq.2026:8.23.token.12	γε	γε
-γ’	urn:cts:fuTeaching:blackwell.hq.2026:9.11.token.24	γε	γε
+γ’	urn:cts:fuTeaching:blackwell.hq.2026:9.11b.token.6	γε	γε
 γ’	urn:cts:fuTeaching:blackwell.hq.2026:9.30.token.2	γε	γε
-γ’	urn:cts:fuTeaching:blackwell.hq.2026:10.4.token.35	γε	γε
+γ’	urn:cts:fuTeaching:blackwell.hq.2026:10.4b.token.6	γε	γε
 γ’	urn:cts:fuTeaching:blackwell.hq.2026:10.5.token.7	γε	γε
 γ’	urn:cts:fuTeaching:blackwell.hq.2026:11.26.token.8	γε	γε
 γ’	urn:cts:fuTeaching:blackwell.hq.2026:12.23.token.21	γε	γε
@@ -21,7 +21,7 @@ form	token_urn	expanded_form	presentation_form
 διδάξαιτ’	urn:cts:fuTeaching:blackwell.hq.2026:8.27.token.18		διδάξαιτ’
 δοίητ’	urn:cts:fuTeaching:blackwell.hq.2026:13.17.token.6		δοίητ’
 δῶρ’	urn:cts:fuTeaching:blackwell.hq.2026:4.19.token.9		δῶρ’
-δῶρ’	urn:cts:fuTeaching:blackwell.hq.2026:12.5.token.10		δῶρ’
+δῶρ’	urn:cts:fuTeaching:blackwell.hq.2026:12.5a.token.10		δῶρ’
 δ’	urn:cts:fuTeaching:blackwell.hq.2026:9.14.token.7	δέ	δέ
 δ’	urn:cts:fuTeaching:blackwell.hq.2026:13.19.token.17	δέ	δέ
 δ’	urn:cts:fuTeaching:blackwell.hq.2026:14.11.token.9	δέ	δέ
@@ -29,72 +29,72 @@ form	token_urn	expanded_form	presentation_form
 δ’	urn:cts:fuTeaching:blackwell.hq.2026:20.32.token.19	δέ	δέ
 εἴθ’	urn:cts:fuTeaching:blackwell.hq.2026:18.28d.token.1	εἴτε	εἴτε
 εἴθ’	urn:cts:fuTeaching:blackwell.hq.2026:18.28e.token.1	εἴτε	εἴτε
-ζητήσεθ’	urn:cts:fuTeaching:blackwell.hq.2026:20.33.token.9		ζητήσεθ’
-θ’	urn:cts:fuTeaching:blackwell.hq.2026:9.24.token.22	τε	τε
+ζητήσεθ’	urn:cts:fuTeaching:blackwell.hq.2026:20.33a.token.9		ζητήσεθ’
+θ’	urn:cts:fuTeaching:blackwell.hq.2026:9.24b.token.7	τε	τε
 λάθοιτ’	urn:cts:fuTeaching:blackwell.hq.2026:14.4.token.10		λάθοιτ’
 λύοιτ’	urn:cts:fuTeaching:blackwell.hq.2026:4.6.token.10		λύοιτ’
-μήτ’	urn:cts:fuTeaching:blackwell.hq.2026:9.20.token.26	μήτε	μήτε
+μήτ’	urn:cts:fuTeaching:blackwell.hq.2026:9.20b.token.7	μήτε	μήτε
 μήτ’	urn:cts:fuTeaching:blackwell.hq.2026:14.25.token.4	μήτε	μήτε
-νιʹκώμεθ’	urn:cts:fuTeaching:blackwell.hq.2026:9.20.token.5		νιʹκώμεθ’
-οὐδ’	urn:cts:fuTeaching:blackwell.hq.2026:15.7.token.16	οὐδέ	οὐδέ
+νιʹκώμεθ’	urn:cts:fuTeaching:blackwell.hq.2026:9.20a.token.5		νιʹκώμεθ’
+οὐδ’	urn:cts:fuTeaching:blackwell.hq.2026:15.7a.token.16	οὐδέ	οὐδέ
 οὔθ’	urn:cts:fuTeaching:blackwell.hq.2026:10.16.token.1		οὔθ’
 οὔθ’	urn:cts:fuTeaching:blackwell.hq.2026:10.16.token.5		οὔθ’
 οὔποθ’	urn:cts:fuTeaching:blackwell.hq.2026:16.17.token.13		οὔποθ’
-οὔτ’	urn:cts:fuTeaching:blackwell.hq.2026:9.6.token.3		οὔτ’
+οὔτ’	urn:cts:fuTeaching:blackwell.hq.2026:9.6a.token.3		οὔτ’
 οὔτ’	urn:cts:fuTeaching:blackwell.hq.2026:9.7.token.13		οὔτ’
-οὔτ’	urn:cts:fuTeaching:blackwell.hq.2026:11.10.token.14		οὔτ’
+οὔτ’	urn:cts:fuTeaching:blackwell.hq.2026:11.10b.token.5		οὔτ’
 οὔτ’	urn:cts:fuTeaching:blackwell.hq.2026:12.23.token.13		οὔτ’
 οὔτ’	urn:cts:fuTeaching:blackwell.hq.2026:16.12.token.8		οὔτ’
 οὔτ’	urn:cts:fuTeaching:blackwell.hq.2026:16.27.token.16		οὔτ’
-ποθ’	urn:cts:fuTeaching:blackwell.hq.2026:11.22.token.26	ποτε	ποτε
-ποθ’	urn:cts:fuTeaching:blackwell.hq.2026:12.12.token.4	ποτε	ποτε
+ποθ’	urn:cts:fuTeaching:blackwell.hq.2026:11.22b.token.15	ποτε	ποτε
+ποθ’	urn:cts:fuTeaching:blackwell.hq.2026:12.12a.token.4	ποτε	ποτε
 ποθ’	urn:cts:fuTeaching:blackwell.hq.2026:16.26.token.5	ποτε	ποτε
-ποτ’	urn:cts:fuTeaching:blackwell.hq.2026:10.6.token.17	ποτε	ποτε
-ποτ’	urn:cts:fuTeaching:blackwell.hq.2026:11.7.token.8	ποτε	ποτε
-ποτ’	urn:cts:fuTeaching:blackwell.hq.2026:11.10.token.16	ποτε	ποτε
+ποτ’	urn:cts:fuTeaching:blackwell.hq.2026:10.6b.token.3	ποτε	ποτε
+ποτ’	urn:cts:fuTeaching:blackwell.hq.2026:11.7a.token.8	ποτε	ποτε
+ποτ’	urn:cts:fuTeaching:blackwell.hq.2026:11.10b.token.7	ποτε	ποτε
 ποτ’	urn:cts:fuTeaching:blackwell.hq.2026:12.23.token.15	ποτε	ποτε
-ποτ’	urn:cts:fuTeaching:blackwell.hq.2026:13.3.token.2	ποτε	ποτε
+ποτ’	urn:cts:fuTeaching:blackwell.hq.2026:13.3a.token.2	ποτε	ποτε
 πέμπετ’	urn:cts:fuTeaching:blackwell.hq.2026:4.23.token.20		πέμπετ’
 πέμψαιμ’	urn:cts:fuTeaching:blackwell.hq.2026:8.16.token.8		πέμψαιμ’
-σῷζοιντ’	urn:cts:fuTeaching:blackwell.hq.2026:10.7.token.29		σῷζοιντ’
+σῷζοιντ’	urn:cts:fuTeaching:blackwell.hq.2026:10.7b.token.4		σῷζοιντ’
 ταῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:9.29.token.2	ταῦτα	ταῦτα
-ταῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:10.3.token.22	ταῦτα	ταῦτα
-ταῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:10.13.token.26	ταῦτα	ταῦτα
-ταῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:11.6.token.33	ταῦτα	ταῦτα
+ταῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:10.3b.token.3	ταῦτα	ταῦτα
+ταῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:10.13b.token.1	ταῦτα	ταῦτα
+ταῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:11.6b.token.1	ταῦτα	ταῦτα
 ταῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:11.11.token.3	ταῦτα	ταῦτα
-τοῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:10.7.token.22	τοῦτο	τοῦτο
-τοῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:10.20.token.25	τοῦτο	τοῦτο
+τοῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:10.7a.token.22	τοῦτο	τοῦτο
+τοῦτ’	urn:cts:fuTeaching:blackwell.hq.2026:10.20a.token.25	τοῦτο	τοῦτο
 τάττοιντ’	urn:cts:fuTeaching:blackwell.hq.2026:9.5.token.1		τάττοιντ’
 τίν’	urn:cts:fuTeaching:blackwell.hq.2026:16.18.token.1	τίνα	τίνα
 τόδ’	urn:cts:fuTeaching:blackwell.hq.2026:13.14.token.2		τόδ’
-τόδ’	urn:cts:fuTeaching:blackwell.hq.2026:20.24.token.5		τόδ’
+τόδ’	urn:cts:fuTeaching:blackwell.hq.2026:20.24a.token.5		τόδ’
 τόδ’	urn:cts:fuTeaching:blackwell.hq.2026:20.29.token.4		τόδ’
 τ’	urn:cts:fuTeaching:blackwell.hq.2026:8.25.token.15	τε	τε
-τ’	urn:cts:fuTeaching:blackwell.hq.2026:15.5.token.16	τε	τε
-τ’	urn:cts:fuTeaching:blackwell.hq.2026:15.7.token.18	τε	τε
+τ’	urn:cts:fuTeaching:blackwell.hq.2026:15.5b.token.4	τε	τε
+τ’	urn:cts:fuTeaching:blackwell.hq.2026:15.7a.token.18	τε	τε
 τ’	urn:cts:fuTeaching:blackwell.hq.2026:15.14.token.12	τε	τε
-τ’	urn:cts:fuTeaching:blackwell.hq.2026:15.20.token.14	τε	τε
-τ’	urn:cts:fuTeaching:blackwell.hq.2026:15.26.token.18	τε	τε
+τ’	urn:cts:fuTeaching:blackwell.hq.2026:15.20b.token.5	τε	τε
+τ’	urn:cts:fuTeaching:blackwell.hq.2026:15.26b.token.8	τε	τε
 τ’	urn:cts:fuTeaching:blackwell.hq.2026:16.26.token.9	τε	τε
 τ’	urn:cts:fuTeaching:blackwell.hq.2026:16.31.token.13	τε	τε
 τ’	urn:cts:fuTeaching:blackwell.hq.2026:17.25.token.9	τε	τε
 τ’	urn:cts:fuTeaching:blackwell.hq.2026:19.13.token.5	τε	τε
 χρήματ’	urn:cts:fuTeaching:blackwell.hq.2026:8.19.token.23		χρήματ’
 χρήματ’	urn:cts:fuTeaching:blackwell.hq.2026:10.8.token.2		χρήματ’
-χρήματ’	urn:cts:fuTeaching:blackwell.hq.2026:20.21.token.16		χρήματ’
-ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:5.4.token.22	ἀλλά	ἀλλά
-ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:5.7.token.14	ἀλλά	ἀλλά
+χρήματ’	urn:cts:fuTeaching:blackwell.hq.2026:20.21b.token.3		χρήματ’
+ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:5.4b.token.1	ἀλλά	ἀλλά
+ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:5.7b.token.1	ἀλλά	ἀλλά
 ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:8.8.token.13	ἀλλά	ἀλλά
 ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:8.27.token.15	ἀλλά	ἀλλά
 ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:10.1.token.12	ἀλλά	ἀλλά
-ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:10.20.token.22	ἀλλά	ἀλλά
-ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:11.3.token.7	ἀλλά	ἀλλά
-ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:11.16.token.10	ἀλλά	ἀλλά
-ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:12.12.token.19	ἀλλά	ἀλλά
+ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:10.20a.token.22	ἀλλά	ἀλλά
+ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:11.3a.token.7	ἀλλά	ἀλλά
+ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:11.16a.token.10	ἀλλά	ἀλλά
+ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:12.12b.token.8	ἀλλά	ἀλλά
 ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:12.16.token.10	ἀλλά	ἀλλά
 ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:12.23.token.10	ἀλλά	ἀλλά
 ἀλλ’	urn:cts:fuTeaching:blackwell.hq.2026:13.4.token.20	ἀλλά	ἀλλά
-ἀντ’	urn:cts:fuTeaching:blackwell.hq.2026:12.17.token.20		ἀντ’
+ἀντ’	urn:cts:fuTeaching:blackwell.hq.2026:12.17b.token.4		ἀντ’
 ἀπ’	urn:cts:fuTeaching:blackwell.hq.2026:16.27.token.23	ἀπό	ἀπό
 ἄγοιτ’	urn:cts:fuTeaching:blackwell.hq.2026:8.30.token.6		ἄγοιτ’
 ἅτ’	urn:cts:fuTeaching:blackwell.hq.2026:8.30.token.9	ἅτε	ἅτε
@@ -106,7 +106,7 @@ form	token_urn	expanded_form	presentation_form
 ἐκβάλετ’	urn:cts:fuTeaching:blackwell.hq.2026:11.19.token.13		ἐκβάλετ’
 ἐκκλέψητ’	urn:cts:fuTeaching:blackwell.hq.2026:14.25.token.5		ἐκκλέψητ’
 ἐνιʹκήσατ’	urn:cts:fuTeaching:blackwell.hq.2026:9.7.token.16		ἐνιʹκήσατ’
-ἐνταῦθ’	urn:cts:fuTeaching:blackwell.hq.2026:14.12.token.17		ἐνταῦθ’
+ἐνταῦθ’	urn:cts:fuTeaching:blackwell.hq.2026:14.12a.token.17		ἐνταῦθ’
 ἐνταῦθ’	urn:cts:fuTeaching:blackwell.hq.2026:18.14b.token.1		ἐνταῦθ’
 ἐπείθεσθ’	urn:cts:fuTeaching:blackwell.hq.2026:8.36.token.9		ἐπείθεσθ’
 ἤλθετ’	urn:cts:fuTeaching:blackwell.hq.2026:13.14.token.3		ἤλθετ’
@@ -115,15 +115,15 @@ form	token_urn	expanded_form	presentation_form
 ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:8.9.token.9	ὑπό	ὑπό
 ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:8.17.token.30	ὑπό	ὑπό
 ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:9.14.token.9	ὑπό	ὑπό
-ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:11.16.token.22	ὑπό	ὑπό
-ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:12.4.token.18	ὑπό	ὑπό
+ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:11.16b.token.5	ὑπό	ὑπό
+ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:12.4b.token.11	ὑπό	ὑπό
 ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:12.16.token.17	ὑπό	ὑπό
-ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:12.17.token.29	ὑπό	ὑπό
-ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:13.10.token.17	ὑπό	ὑπό
-ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:15.25.token.17	ὑπό	ὑπό
-ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:20.28.token.23	ὑπό	ὑπό
-ὑφ’	urn:cts:fuTeaching:blackwell.hq.2026:10.10.token.41		ὑφ’
+ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:12.17b.token.13	ὑπό	ὑπό
+ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:13.10b.token.8	ὑπό	ὑπό
+ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:15.25b.token.3	ὑπό	ὑπό
+ὑπ’	urn:cts:fuTeaching:blackwell.hq.2026:20.28b.token.8	ὑπό	ὑπό
+ὑφ’	urn:cts:fuTeaching:blackwell.hq.2026:10.10b.token.11		ὑφ’
 ὑφ’	urn:cts:fuTeaching:blackwell.hq.2026:15.29.token.9		ὑφ’
-ὥσθ’	urn:cts:fuTeaching:blackwell.hq.2026:10.10.token.40		ὥσθ’
+ὥσθ’	urn:cts:fuTeaching:blackwell.hq.2026:10.10b.token.10		ὥσθ’
 ὥστ’	urn:cts:fuTeaching:blackwell.hq.2026:10.15.token.13	ὥστε	ὥστε
 ὥστ’	urn:cts:fuTeaching:blackwell.hq.2026:10.27.token.14	ὥστε	ὥστε

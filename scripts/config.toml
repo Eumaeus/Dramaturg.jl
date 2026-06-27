@@ -1,24 +1,24 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/Aristophanes/frogs-speech-speaker.cex"
-text_urn = "urn:cts:greekLit:tlg0019.tlg009.fu.sp:" 
-file_name = "Aristophanes_Frogs"
-text_title = "Aristophanes *Frogs*"
-text_genre = "drama" # options are "poetry", "prose", "drama"
-citation_level = 1 # poetic line. For something like Herodotus, it would be 2, "book.section".
-filter_paratext = "speaker" # filter out passages with this string in the URN.
+cex_path = "source-data/texts/Textbooks/HQ_Sentences.cex"
+text_urn = "urn:cts:fuTeaching:blackwell.hq.2026:" 
+file_name = "HQ_Sentences"
+text_title = "Hansen & Quinn: Exercise Sentences"
+text_genre = "prose" # options are "poetry", "prose", "drama"
+citation_level = 2 # poetic line. For something like Herodotus, it would be 2, "book.section".
+filter_paratext = "" # filter out passages with this string in the URN.
 
 
 [output]
 html_tokens_per_page = 200
-html_output_dir = "editions/html/Aristophanes/Frogs/pages"
+html_output_dir = "editions/html/Textbooks/HQ_Sentences/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Aristophanes/Aristophanes_Frogs"
-md_bibliography = "editions/frontmatter/Aristophanes/Frogs/bibliography.md"
-md_frontmatter = "editions/frontmatter/Aristophanes/Frogs/frontmatter.md"
+html_temp_dir = "data/html_temp/Textbooks/HQ_Sentences"
+md_bibliography = "editions/frontmatter/Textbooks/HQ_Sentences/bibliography.md"
+md_frontmatter = "editions/frontmatter/Textbooks/HQ_Sentences/frontmatter.md"
 lsj_url = "https://folio3.furman.edu/lsj/"
 editions_dir = "editions/html/"
 
@@ -29,30 +29,30 @@ lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
 lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
-raw_morph_data = "morph/output/aristophanes-frogs-analysis.txt"
+raw_morph_data = "morph/output/hq-analysis.txt"
 
-morph_pos_triplets = "data/indexes/Aristophanes/Frogs/Aristophanes_Frogs_morpheus_triplets.tsv"
+morph_pos_triplets = "data/indexes/Textbooks/HQ_Sentences/HQ_Sentences_morpheus_triplets.tsv"
 
-morph_pos_errors = "morph/output/aristophanes-Aristophanes_Frogs_parse_errors.log"
+morph_pos_errors = "morph/output/HQ_Sentences_parse_errors.log"
 
-morph_lemmata_alignment = "data/indexes/Aristophanes/Frogs/Aristophanes_Frogs_triplets_lemmata.tsv"
+morph_lemmata_alignment = "data/indexes/Textbooks/HQ_Sentences/HQ_Sentences_triplets_lemmata.tsv"
 
-morph_lemmata_alignment_errors = "data/indexes/Aristophanes/Frogs/Aristophanes_Frogs_triplets_lemmata_errors.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Textbooks/HQ_Sentences/HQ_Sentences_triplets_lemmata_errors.tsv"
 
-morph_token_index = "data/indexes/Aristophanes/Frogs/Aristophanes_Frogs_morphology_index.tsv"
+morph_token_index = "data/indexes/Textbooks/HQ_Sentences/HQ_Sentences_morphology_index.tsv"
 
-morph_token_index_errors = "data/indexes/Aristophanes/Frogs/Aristophanes_Frogs_morphology_index_errors.tsv"
+morph_token_index_errors = "data/indexes/Textbooks/HQ_Sentences/HQ_Sentences_morphology_index_errors.tsv"
 
-local_morph_dict = "data/morphology/Aristophanes/frogs_morph.cex"
+local_morph_dict = "data/morphology/Textbooks/hq_morph.cex"
 
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Aristophanes/Frogs"
-indexes_dir = "indexes/Aristophanes/Frogs"
-vocabulary_dir = "vocabulary/Aristophanes/Frogs"
+tokenized_dir = "tokenized/Textbooks/HQ_Sentences"
+indexes_dir = "indexes/Textbooks/HQ_Sentences"
+vocabulary_dir = "vocabulary/Textbooks/HQ_Sentences"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -72,11 +72,10 @@ lsj_index 			= "source-data/dictionaries/lsj_index.tsv"
 
 lsj_index_beta		= "source-data/dictionaries/lsj_index_beta.tsv"
 
-
 master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/Aristophanes/Aristophanes_Frogs/"
+editor_index_files = "source-data/edited_morphology/Textbooks/HQ_Sentences/"
 
-editor_index_error = "data/morphology/Aristophanes/editorial_index_error_frogs.txt"
+editor_index_error = "data/morphology/Textbooks/editorial_index_error_hq.txt"
