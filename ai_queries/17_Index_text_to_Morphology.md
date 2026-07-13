@@ -29,11 +29,11 @@ Some text-tokens will result in one-to-one indexing; some will be one-to-many.
 
 For example, this is line 29 of the file `data/tokenized/Aristophanes_Frogs_tokenized.cex`:
 
-	urn:cts:greekLit:tlg0019.tlg009.fu.sp:2.1.text.token.3#ἀεὶ
+	urn:cts:greekLit:tlg0019.tlg009.fu.sp:2.1.text.token3#ἀεὶ
 
 The URN is:
 
-	urn:cts:greekLit:tlg0019.tlg009.fu.sp:2.1.text.token.3
+	urn:cts:greekLit:tlg0019.tlg009.fu.sp:2.1.text.token3
 
 The surface-form `ἀεί` (note the acute accent) appears only once (line 11951) in `source-data/dictionaries/Greek_Morphology.cex`:
 
@@ -41,11 +41,11 @@ The surface-form `ἀεί` (note the acute accent) appears only once (line 1195
 
 I would like the index to include the line:
 
-		urn:cts:greekLit:tlg0019.tlg009.fu.sp:2.1.text.token.3 \t urn:cite2:fufolio:greekmorph.2026a:20260602T1702307840
+		urn:cts:greekLit:tlg0019.tlg009.fu.sp:2.1.text.token3 \t urn:cite2:fufolio:greekmorph.2026a:20260602T1702307840
 
 As another example, from the tokenized text of *Frogs*:
 
-	urn:cts:greekLit:tlg0019.tlg009.fu.sp:4.1.text.token.1#τοῦτο
+	urn:cts:greekLit:tlg0019.tlg009.fu.sp:4.1.text.token1#τοῦτο
 
 The surface-form `τοῦτο` appears three times in `Greek_Morphology.cex`:
 
@@ -57,9 +57,9 @@ The surface-form `τοῦτο` appears three times in `Greek_Morphology.cex`:
 
 So for this token, in the context of this text, the index would include three entries:
 
-	urn:cts:greekLit:tlg0019.tlg009.fu.sp:4.1.text.token.1 \t urn:cite2:fufolio:greekmorph.2026a:20260602T1429082481
-	urn:cts:greekLit:tlg0019.tlg009.fu.sp:4.1.text.token.1 \t urn:cite2:fufolio:greekmorph.2026a:20260602T1429082482
-	urn:cts:greekLit:tlg0019.tlg009.fu.sp:4.1.text.token.1 \t urn:cite2:fufolio:greekmorph.2026a:20260602T1429082483
+	urn:cts:greekLit:tlg0019.tlg009.fu.sp:4.1.text.token1 \t urn:cite2:fufolio:greekmorph.2026a:20260602T1429082481
+	urn:cts:greekLit:tlg0019.tlg009.fu.sp:4.1.text.token1 \t urn:cite2:fufolio:greekmorph.2026a:20260602T1429082482
+	urn:cts:greekLit:tlg0019.tlg009.fu.sp:4.1.text.token1 \t urn:cite2:fufolio:greekmorph.2026a:20260602T1429082483
 
 ## Desiderata
 

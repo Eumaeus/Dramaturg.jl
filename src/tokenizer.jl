@@ -69,7 +69,7 @@ function tokenize_to_exemplar(cex_data::Vector{Tuple{String,String}}, config::Di
     for (urn, text) in cex_data
         tokens = tokenize_line(text)
         for (i, tok) in enumerate(tokens)
-            new_urn = "$urn.token.$(i)"
+            new_urn = "$urn.token$(i)"
             push!(tokenized_lines, "$new_urn#$tok")
         end
     end

@@ -36,7 +36,7 @@ Which will roll into the morphological dictionary build process.
 
 We also want something like:
 
-`urn:cts:greekLit:tlg0019.tlg009.fu.sp:10.1.text.token.6	ἀποπαρδήσομαι	a)popardh/somai	πέρδομαι	pe/rdomai	urn:cite2:hmt:lsj.chicago_md:n81011	v1sfim---`
+`urn:cts:greekLit:tlg0019.tlg009.fu.sp:10.1.text.token6	ἀποπαρδήσομαι	a)popardh/somai	πέρδομαι	pe/rdomai	urn:cite2:hmt:lsj.chicago_md:n81011	v1sfim---`
 
 Which can roll into the editorial index for the current text.
 
@@ -125,7 +125,7 @@ The first file should be called `For_morphological_dictionary_[name]_[date].tsv`
 The second file should be called `For_editors_index_[name]_[date].tsv`. It should be like the previous format, but with a text-token-urn:
 
 `token-urn	uc-form	bc-form	uc-lemma	bc-lemma	lsj-urn	pos-tag`
-`urn:cts:greekLit:tlg0019.tlg009.fu.sp:10.1.text.token.6	ἀποπαρδήσομαι	a)popardh/somai	πέρδομαι	pe/rdomai	urn:cite2:hmt:lsj.chicago_md:n81011	v1sfim---`
+`urn:cts:greekLit:tlg0019.tlg009.fu.sp:10.1.text.token6	ἀποπαρδήσομαι	a)popardh/somai	πέρδομαι	pe/rdomai	urn:cite2:hmt:lsj.chicago_md:n81011	v1sfim---`
 `…`
 
 But we are so close to a perfect app!
