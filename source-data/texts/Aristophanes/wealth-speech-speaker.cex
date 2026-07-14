@@ -10,7 +10,7 @@ license#Creative Commons Attribution Share Alike
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0019.tlg011.fucex:#line/speech/speaker,text#Aristophanes#Wealth#Furman University#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0019.tlg011.fucex:#line/speech/speaker,text#Aristophanes#Wealth#Furman University. Citable by speech, speaker, and dialog##true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0019.tlg011.fucex:1.1.speaker#Καρίων

@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Euripides/euripides_electra.cex"
-text_urn = "urn:cts:greekLit:tlg0006.tlg012.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0006.tlg012.fu-sp:" 
 file_name = "Euripides_Electra"
 text_title = "Euripides *Electra*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

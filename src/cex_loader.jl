@@ -41,7 +41,8 @@ function write_tokenized_cex(original_path::String, tokenized_data_lines::Vector
 
     original_lines = readlines(original_path)
     open(output_path, "w") do io
-        catalog_replaced = false
+        in_catalog_block = false
+        cat_header_replaced = false
         in_data_block = false
 
         for line in original_lines
@@ -49,18 +50,50 @@ function write_tokenized_cex(original_path::String, tokenized_data_lines::Vector
             isempty(stripped) && continue
 
             # === REPLACE CATALOG BLOCK (unchanged) ===
-            if startswith(stripped, "#!ctscatalog") && !catalog_replaced
-                catalog_replaced = true
+            if startswith(stripped, "#!ctscatalog")
+                println("Starting with in_catalog_block = $in_catalog_block and cat_header_replaced = $cat_header_replaced")
+                in_catalog_block = true
                 println(io)  # blank line
                 println(io, "#!ctscatalog")
-                println(io, "urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang")
-
-                urn_base = config["input"]["text_urn"]
-                tokenized_urn = replace(urn_base, r":$" => ".token:")
-
-                println(io, "$tokenized_urn#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of $urn_base, tokenized by word and punctuation#true#grc")
                 continue
             end
+            if (cat_header_replaced && in_catalog_block)
+                println("…now in_catalog_block = $in_catalog_block and cat_header_replaced = $cat_header_replaced")
+                # Get new URN
+                urn_base = config["input"]["text_urn"]
+                println("urn_base = $urn_base")
+                urn_parts = split(urn_base, ":")
+                bibpart = urn_parts[4]
+                versionpart = split(bibpart, ".")[1:3]
+                newexemplar = join(versionpart, ".") * ".tok"
+                println("newexemplar = '$newexemplar'")
+                urn_parts[4] = newexemplar
+                tokenized_urn = join(urn_parts, ":")
+
+                # Get new citationScheme
+                entry_parts = split(stripped, "#")
+                # add new URN
+                entry_parts[1] = tokenized_urn
+                println(length(entry_parts))
+                cit_scheme = entry_parts[2] * "/token"
+                entry_parts[2] = cit_scheme
+
+                # New exemplar label
+                entry_parts[6] = "tokenized"
+
+                # Assemble new line
+                new_entry = join(entry_parts, "#")
+                println("\n---\n$new_entry\n")
+                println(io, new_entry)
+                in_catalog_block = false
+                continue
+            elseif (in_catalog_block)
+                    println("…now in_catalog_block = $in_catalog_block and cat_header_replaced = $cat_header_replaced")
+                    println(io, "urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang")
+                    cat_header_replaced = true
+                    continue
+            end
+
 
             # === DATA BLOCK ===
             if startswith(stripped, "#!ctsdata")

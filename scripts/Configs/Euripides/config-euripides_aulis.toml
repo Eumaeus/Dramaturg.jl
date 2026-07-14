@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Euripides/euripides_aulis.cex"
-text_urn = "urn:cts:greekLit:tlg0006.tlg018.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0006.tlg018.fu-sp:" 
 file_name = "Euripides_Aulis"
 text_title = "Euripides *Iphigenia at Aulis*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

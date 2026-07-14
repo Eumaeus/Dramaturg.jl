@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Aeschylus/aeschylus-seven.cex"
-text_urn = "urn:cts:greekLit:tlg0085.tlg004.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0085.tlg004.fu-sp:" 
 file_name = "Aeschylus_Seven"
 text_title = "Aeschylus *Seven against Thebes*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

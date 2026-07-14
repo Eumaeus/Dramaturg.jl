@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Aeschylus/aeschylus-suppliants.cex"
-text_urn = "urn:cts:greekLit:tlg0085.tlg001.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0085.tlg001.fu-sp:" 
 file_name = "Aeschylus_Suppliants"
 text_title = "Aeschylus *Suppliants*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

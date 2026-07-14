@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Euripides/euripides_taurians.cex"
-text_urn = "urn:cts:greekLit:tlg0006.tlg013.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0006.tlg013.fu-sp:" 
 file_name = "Euripides_Taurians"
 text_title = "Euripides *Iphigenia among the Taurians*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

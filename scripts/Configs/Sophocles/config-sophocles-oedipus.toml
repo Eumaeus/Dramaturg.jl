@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Sophocles/sophocles_oedipus.cex"
-text_urn = "urn:cts:greekLit:tlg0011.tlg004.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0011.tlg004.fu-sp:" 
 file_name = "Oedipus"
 text_title = "Sophocles *Oedipus Tyrannos*"
 text_genre = "drama" # options are "poetry", "prose", "drama"
