@@ -9,9 +9,7 @@ license#Public Domain.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0012.tlg002.murray.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0012.tlg002.murray:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0012.tlg002.murray:#Plaintext#Homeric Epic#Odyssey#Perseus Greek, following Murray##true#grc
+urn:cts:greekLit:tlg0012.tlg002.murray:#book/line/token#Homeric Epic#Odyssey#Perseus Greek, following Murray#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0012.tlg002.murray:1.1.token1#ἄνδρα

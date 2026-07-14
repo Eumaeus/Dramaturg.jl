@@ -6,9 +6,7 @@ license#CC Share Alike. For details, see more info.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0013.tlg004.fucex.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0013.tlg004.fucex:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0013.tlg004.fucex:#line#Homeric Hymns#To Hermes#Furman teaching edition, based on the edition of Hugh G. Evelyn-White (1914), courtesy of the Perseus Digital Library##true#grc
+urn:cts:greekLit:tlg0013.tlg004.fucex:#line/token#Homeric Hymns#To Hermes#Furman teaching edition, based on the edition of Hugh G. Evelyn-White (1914), courtesy of the Perseus Digital Library#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0013.tlg004.fucex:1.token1#"

@@ -6,9 +6,7 @@ license#CC Share Alike. For details, see more info.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0540.tlg001.fucex.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0540.tlg001.fucex:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0540.tlg001.fucex:#section#Lysias#1 On the Murder of Eratoshenes#Lamb, ed.##true#grc
+urn:cts:greekLit:tlg0540.tlg001.fucex:#section/token#Lysias#1 On the Murder of Eratoshenes#Lamb, ed.#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0540.tlg001.fucex:1.token1#περὶ

@@ -6,9 +6,7 @@ license#CC Share Alike. For details, see more info.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0086.tlg034.bekker_fu.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0086.tlg034.bekker_fu:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0086.tlg034.bekker_fu:#section/subsection#Aristotle#Poetics#Bekker, 1837##true#grc
+urn:cts:greekLit:tlg0086.tlg034.bekker_fu:#section/subsection/token#Aristotle#Poetics#Bekker, 1837#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0086.tlg034.bekker_fu:1.head.token1#Περὶ

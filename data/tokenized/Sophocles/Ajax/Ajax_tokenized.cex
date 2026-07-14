@@ -11,9 +11,7 @@ license#Creative Commons Attribution Share Alike
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0011.tlg003.fu.sp.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0011.tlg003.fu.sp:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0011.tlg003.fu.sp::#line/speaker,line/speech#Sophocles#Ajax#Furman University, after F.W. Hall and W.M. Geldart (1907)#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0011.tlg003.fu.sp:#line/speech/speaker,text/token#Sophocles#Ajax#Furman University, after F.W. Hall and W.M. Geldart (1907)#tokenized by speech#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0011.tlg003.fu.sp:1.1.speaker.token1#Ἀθήνα

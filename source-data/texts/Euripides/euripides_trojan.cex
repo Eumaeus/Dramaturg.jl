@@ -9,7 +9,7 @@ license#Creative Commons Attribution Share Alike
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0006.tlg0011.fu.sp:#line/speech/speaker,line/speech/text#Euripides#The Trojan Women#Furman University#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0006.tlg0011.fu.sp:#line/speech/speaker,text#Euripides#The Trojan Women#Furman University#tokenized by speech#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0006.tlg011.fu.sp:1.1.speaker#Ποσειδῶν

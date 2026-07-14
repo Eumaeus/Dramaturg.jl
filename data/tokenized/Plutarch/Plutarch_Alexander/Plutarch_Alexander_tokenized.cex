@@ -6,9 +6,7 @@ license#CC Share Alike. For details, see more info.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0007.tlg047.ziegler.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0007.tlg047.ziegler:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0007.tlg047.ziegler:#Plaintext#Plutarch#Life of Alexander#Bernadotte Perrin, ed.##true#grc
+urn:cts:greekLit:tlg0007.tlg047.ziegler:#section/paragraph/token#Plutarch#Life of Alexander#Bernadotte Perrin, ed.#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0007.tlg047.ziegler:1.head.token1#Ἀλέξανδρος

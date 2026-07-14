@@ -10,7 +10,7 @@ license#Creative Commons Attribution Share Alike
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0019.tlg006.fu.sp:#line/speech/speaker,line/speech/text#Aristophanes#Birds#Furman University#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0019.tlg006.fu.sp:#line/speech/speaker,text#Aristophanes#Birds#Furman University#tokenized by speech#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0019.tlg006.fu.sp:1.1.speaker#Ἐυελπίδης

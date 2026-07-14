@@ -6,9 +6,7 @@ license#CC Share Alike. For details, see more info.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0031.tlg002.wh.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0031.tlg002.wh:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0031.tlg002.wh:#chapter/verse#New Testament#Mark#Greek: Westcott & Hort##true#grc
+urn:cts:greekLit:tlg0031.tlg002.wh:#chapter/verse/token#New Testament#Mark#Greek: Westcott & Hort#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0031.tlg002.wh:1.title.token1#Κατὰ

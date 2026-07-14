@@ -10,9 +10,7 @@ license#Creative Commons Attribution Share Alike
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0019.tlg010.fu.sp.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0019.tlg010.fu.sp:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0019.tlg010.fu.sp:#line/speech/speaker,line/speech/text#Aristophanes#Ecclesiazousae#Furman University#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0019.tlg010.fu.sp:#line/speech/speaker,text/token#Aristophanes#Ecclesiazousae#Furman University#tokenized by speech#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0019.tlg010.fu.sp:1.1.speaker.token1#Πραξάγορα

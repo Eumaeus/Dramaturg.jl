@@ -10,9 +10,7 @@ license#CC Share Alike. For details, see more info.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0557.tlg002.fucex.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0557.tlg002.fucex:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0557.tlg002.fucex:#chapter/section#Epictetus#Encheiridion#Heinrich Schenkl, ec., 1916##true#grc
+urn:cts:greekLit:tlg0557.tlg002.fucex:#chapter/section/token#Epictetus#Encheiridion#Heinrich Schenkl, ec., 1916#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0557.tlg002.fucex:1.1.token1#τῶν

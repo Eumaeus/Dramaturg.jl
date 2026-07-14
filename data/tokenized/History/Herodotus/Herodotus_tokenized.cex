@@ -9,9 +9,7 @@ license#Public Domain.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0016.tlg001.grc.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0016.tlg001.grc:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0016.tlg001.grc:#book/section#Herodotus#Histories#Greek, Godley, ed.##true#grc
+urn:cts:greekLit:tlg0016.tlg001.grc:#book/section/token#Herodotus#Histories#Greek, Godley, ed.#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0016.tlg001.grc:1.0.token1#Ἡροδότου

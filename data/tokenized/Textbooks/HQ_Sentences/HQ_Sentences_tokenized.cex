@@ -10,9 +10,7 @@ license#Creative Commons Attribution Share Alike
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:fuTeaching:blackwell.hq.2026.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:fuTeaching:blackwell.hq.2026:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:fuTeaching:blackwell.hq.2026:#chapter/sentence#Blackwell Teaching Data#Hansen & Quinn#2026##true#grc
+urn:cts:fuTeaching:blackwell.hq.2026:#chapter/sentence/token#Blackwell Teaching Data#Hansen & Quinn#2026#tokenized#true#grc
 
 #!ctsdata
 urn:cts:fuTeaching:blackwell.hq.2026:1.1.token1#ὁ

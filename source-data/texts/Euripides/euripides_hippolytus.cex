@@ -8,7 +8,7 @@ license#Creative Commons Attribution Share Alike
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0006.tlg005.fu.sp:#line/speech/speaker,line/speech/text#Euripides#Hippolytus#Furman University#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0006.tlg005.fu.sp:#line/speech/speaker,text#Euripides#Hippolytus#Furman University#tokenized by speech#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0006.tlg005.fu.sp:1.1.speaker#Ἀφροδίτη

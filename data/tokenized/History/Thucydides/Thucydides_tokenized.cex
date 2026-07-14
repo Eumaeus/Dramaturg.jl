@@ -9,9 +9,7 @@ license#Public Domain.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0003.tlg001.fu.token:#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of urn:cts:greekLit:tlg0003.tlg001.fu:, tokenized by word and punctuation#true#grc
-urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0003.tlg001.fu:#book/section/paragraph#Thucydides#History#Greek, Godley, ed.##true#grc
+urn:cts:greekLit:tlg0003.tlg001.fu:#book/section/paragraph/token#Thucydides#History#Greek, Godley, ed.#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0003.tlg001.fu:1.1.1.token1#Θουκυδίδης
