@@ -352,6 +352,7 @@ details {
 }
 
 details summary {
+    margin-bottom: 0.6rem;
     padding: 0.75rem 1rem;
     background: #f8f1e3;
     font-weight: 400;
@@ -363,6 +364,7 @@ details summary {
 details summary::-webkit-details-marker {
     display: none;
 }
+
 
 details summary::after {
     content: "▾";

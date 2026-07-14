@@ -6,7 +6,7 @@ license#CC Share Alike. For details, see more info.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0007.tlg047.ziegler.tok:#section/paragraph/token#Plutarch#Life of Alexander#Bernadotte Perrin, ed.#tokenized#true#grc
+urn:cts:greekLit:tlg0007.tlg047.ziegler.tok:#Plaintext/token#Plutarch#Life of Alexander#Bernadotte Perrin, ed.#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0007.tlg047.ziegler.tok:1.head.token1#Ἀλέξανδρος

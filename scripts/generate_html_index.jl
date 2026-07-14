@@ -6,7 +6,7 @@ using Markdown
 using Dramaturg
 
 # NEW helpers for nice TOC labels
-function format_passage_range(first_cit::String, last_cit::String, level::Int)::String
+function format_passage_range(first_cit::AbstractString, last_cit::AbstractString, level::Int)::String
 
 
     if level == 1
@@ -21,10 +21,13 @@ function format_passage_range(first_cit::String, last_cit::String, level::Int)::
             return "Passages $(fparts[1])–$(lparts[1])"
         end
     else
+        passage_level = level
+        new_first = join(split(first_cit, ".")[1:passage_level], ".")
+        new_last = join(split(last_cit, ".")[1:passage_level], ".")
         if (first_cit == last_cit)
-            return "Passage $(last_cit)"
+            return "Passage $(new_last)"
         else
-            return "Passages $(first_cit)–$(last_cit)"
+            return "Passages $(new_first)–$(new_last)"
         end
         #=
         if length(fparts) >= 2 && length(lparts) >= 2 && fparts[1] == lparts[1]
@@ -119,11 +122,11 @@ function generate_toc_html(html_temp_dir::String, citation_level::Int)::String
     for i in range(1, num_books, step = book_group_size)
         book_subgroup = sorted_books[i:min(i+book_group_size-1, num_books)]
         if length(book_subgroup) > 1
-            super_label = "$(book_subgroup[1]) – $(book_subgroup[end])"
+            super_label = "<strong>Sections $(book_subgroup[1]) – $(book_subgroup[end])</strong>"
             super_content = ""
             for b in book_subgroup
                 b_chunks = book_groups[b]
-                b_label = "Chapter “$(b)”"
+                b_label = " Section $(b)"
                 sub_list = length(b_chunks) <= 8 ?
                     "<ul>" * join(["<li><a href=\"$(c.href)\">$(c.range_label)</a></li>" for c in b_chunks], "\n") * "</ul>" :
                     generate_chunk_groups(b_chunks)
@@ -164,9 +167,19 @@ function generate_chunk_groups(chunks_list)
     s = ""
     for i in range(1, length(chunks_list), step = group_size)
         g = chunks_list[i:min(i+group_size-1, length(chunks_list))]
+
         g_first = g[1].first_cit
         g_last  = g[end].last_cit
-        g_range = "Passages $(g_first)–$(g_last)"
+
+        gf_parts = split(g_first, ".")
+        remove_tok = pop!(gf_parts)
+        new_gf = join(gf_parts, ".")
+
+        gl_parts = split(g_last, ".")
+        remove_tok = pop!(gl_parts)
+        new_gl = join(gl_parts, ".")
+
+        g_range = "Passages $(new_gf)–$(new_gl)"
         ul = join(["<li><a href=\"$(c.href)\">$(c.range_label)</a></li>" for c in g], "\n")
         s *= """
         <details>

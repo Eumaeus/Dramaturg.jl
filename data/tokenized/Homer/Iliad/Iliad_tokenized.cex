@@ -9,10 +9,10 @@ license#Public Domain.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0012.tlg001.allen:#book/line/token#Homeric Epic#Iliad#Perseus Greek, following Allen#tokenized#true#grc
+urn:cts:greekLit:tlg0012.tlg001.allen.tok:#Plaintext/token#Homeric Epic#Iliad#Perseus Greek, following Allen#tokenized#true#grc
 
 #!ctsdata
-urn:cts:greekLit.tok:tlg0012.tlg001.allen:1.1.token1#μῆνιν
+urn:cts:greekLit:tlg0012.tlg001.allen.tok:1.1.token1#μῆνιν
 urn:cts:greekLit:tlg0012.tlg001.allen.tok:1.1.token2#ἄειδε
 urn:cts:greekLit:tlg0012.tlg001.allen.tok:1.1.token3#θεὰ
 urn:cts:greekLit:tlg0012.tlg001.allen.tok:1.1.token4#Πηληϊάδεω

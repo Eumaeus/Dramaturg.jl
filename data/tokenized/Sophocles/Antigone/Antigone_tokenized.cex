@@ -11,7 +11,7 @@ license#Creative Commons Attribution Share Alike
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0011.tlg002.fu-sp.tok:#line/speech/speaker,text/token#Sophocles#Antigone#Furman University, after F.W. Hall and W.M. Geldart (1907)#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0011.tlg002.fu-sp.tok:#line/speaker,line/speech/token#Sophocles#Antigone#Furman University, after F.W. Hall and W.M. Geldart (1907). Citable by speech, speaker, and dialog#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0011.tlg002.fu-sp.tok:1.1.speaker.token1#Ἀντιγόνη

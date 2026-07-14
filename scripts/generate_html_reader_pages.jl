@@ -9,7 +9,8 @@ using Dates
 # Helpers
 # ------------------------------------------------------------------
 function get_citation_unit(urn::String, level::Int, text_urn::String)::String
-    if !startswith(urn, text_urn)
+
+    if !startswith(urn, chop(text_urn))
         return "??"
     end
     passage = split(urn, ':')[end]
@@ -20,7 +21,7 @@ function get_citation_unit(urn::String, level::Int, text_urn::String)::String
 end
 
 function get_sub_citation(urn::String, level::Int, text_urn::String)::String
-    if !startswith(urn, text_urn)
+    if !startswith(urn, chop(text_urn))
         return "??"
     end
     passage = split(urn, ':')[end]

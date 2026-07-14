@@ -2923,6 +2923,7 @@ e)po/yion
 e)ph|sqo/mhn
 e)ph=n
 e)pw=n
+e)p'
 e)rga/zetai
 e)remnh/
 e)reunw=sin

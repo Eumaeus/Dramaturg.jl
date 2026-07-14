@@ -5921,6 +5921,7 @@ e)ph=gon
 e)ph=lqen
 e)ph=ran
 e)ph=re
+e)p'
 e)rasqei/s
 e)rasqh=nai
 e)rasta/s
