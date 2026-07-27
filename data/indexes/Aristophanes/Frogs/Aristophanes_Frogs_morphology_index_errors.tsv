@@ -7,9 +7,7 @@ urn	urn:cite2:furman:cex.2026:aristophanes_project	urn:cite2:furman:cex.2026:ari
 license	Creative Commons Attribution Share Alike	Creative Commons Attribution Share Alike	no_match_in_morph_dict
 	!ctscatalog	!ctscatalog	no_match_in_morph_dict
 urn	citationScheme	citationScheme	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu.sp.token:	line/speech/speaker/token,line/speech/text/token	line/speech/speaker/token,line/speech/text/token	no_match_in_morph_dict
-urn	citationScheme	citationScheme	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:	line/speech/speaker,line/speech/text	line/speech/speaker,line/speech/text	no_match_in_morph_dict
+urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:	line/speech/speaker,text/token	line/speech/speaker,text/token	no_match_in_morph_dict
 	!ctsdata	!ctsdata	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:3.1.text.token10	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:3.1.text.token13	ʹ	ʹ	no_match_in_morph_dict
@@ -69,14 +67,10 @@ urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:259.1.speaker.token1	Βάτραχοι
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:260.1.speaker.token1	Βάτραχοι	Βάτραχοι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:263.1.speaker.token1	Βάτραχοι	Βάτραχοι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:276.1.text.token4	’γωγε	’γωγε	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:303.1.text.token4	Ἡγέλοχος	Ἡγέλοχος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:304.1.text.token1	ʹ	ʹ	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:304.1.text.token10	ʹ	ʹ	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:305.1.text.token1	ἥμπουσα	ἥμπουσα	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:312.1.stage.token3	ἔνδοθεν̓	ἔνδοθεν̓	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:316.1.speaker.token1	Χορός	Χορός	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:317.1.speaker.token1	Χορός	Χορός	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:320.1.text.token6	Διαγόρας	Διαγόρας	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:324.1.speaker.token1	Χορός	Χορός	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:325.1.speaker.token1	Χορός	Χορός	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:326.1.speaker.token1	Χορός	Χορός	no_match_in_morph_dict
@@ -1004,7 +998,6 @@ urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:1422.1.text.token5	Ἀλκιβιάδ�
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:1426.1.text.token7	πέρι	πέρι	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:1431.1.speaker.token1	Αἰσχύλος	Αἰσχύλος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:1431b.1.speaker.token1	Αἰσχύλος	Αἰσχύλος	no_match_in_morph_dict
-urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:1431b.1.text.token2	μάλιστα	μάλιστα	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:1431b.1.text.token6	ν’	ν’	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:1432.1.speaker.token1	Αἰσχύλος	Αἰσχύλος	no_match_in_morph_dict
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:1437.1.text.token4	Κλεόκριτον	Κλεόκριτον	no_match_in_morph_dict

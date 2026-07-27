@@ -59,7 +59,7 @@ function render_greek_text(tokens::Vector{Tuple{String,String}}, genre::String, 
                     current_speaker = speaker
                 end
                 continue
-            end
+            end 
             this_cit = get_citation_unit(urn, citation_level, text_urn)
             if this_cit != current_citation
                 if !isempty(current_unit_spans)

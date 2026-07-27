@@ -10,7 +10,7 @@ license#Creative Commons Attribution Share Alike
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:#line/speech/speaker,text/token#Aristophanes#Frogs#Furman University#tokenized by speech#true#grc
+urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:#line/speech/speaker,text/token#Aristophanes#Frogs#Furman University. Citable by speech, speaker, and dialog#tokenized#true#grc
 
 #!ctsdata
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:1.1.speaker.token1#Ξανθίας
@@ -2787,9 +2787,11 @@ urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:311.1.text.token4#ἢ
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:311.1.text.token5#χρόνου
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:311.1.text.token6#πόδα
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:311.1.text.token7#;
-urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:312.1.stage.token1#αὐλεῖ
-urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:312.1.stage.token2#τις
-urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:312.1.stage.token3#ἔνδοθεν̓
+urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:311stage.1.stage.token1#[
+urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:311stage.1.stage.token2#αὐλεῖ
+urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:311stage.1.stage.token3#τις
+urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:311stage.1.stage.token4#ἔνδοθεν
+urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:311stage.1.stage.token5#]
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:312.1.speaker.token1#Διόνυσος
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:312.1.text.token1#οὗτος
 urn:cts:greekLit:tlg0019.tlg009.fu-sp.tok:312.1.text.token2#.
