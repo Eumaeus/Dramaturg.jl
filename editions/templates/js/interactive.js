@@ -1,9 +1,21 @@
 // interactive.js – Zero-friction Greek reader + Editor Mode (durable picks)
 
+let isDirty = false;
+    console.log(isDirty);
+
+
 function copySelf(element) {
   navigator.clipboard.writeText(element.innerText)
     .catch(err => console.error("Error:", err));
 }
+
+// Only trigger the alert if isDirty is true
+window.addEventListener('beforeunload', (event) => {
+    if (isDirty) {
+        event.preventDefault();
+        event.returnValue = '';
+    }
+});
 
 document.addEventListener('DOMContentLoaded', () => {
     const tokens = document.querySelectorAll('.text_token');
@@ -75,6 +87,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         clone.querySelectorAll('.parse_and_lex').forEach(p => p.classList.remove('preferred'));
                         parsing.classList.add('preferred');
                         btn.textContent = '✓ Preferred here';
+                        isDirty = true;
+                            console.log(isDirty);
+
                     }
                     renderEditorControls();
                 });
@@ -168,6 +183,9 @@ downloadBtn.addEventListener('click', () => {
     URL.revokeObjectURL(url);
 
     console.log('%c✅ Downloaded new durable editorial picks (7 columns)', 'color:#006400;font-weight:bold');
+
+    isDirty = false;
+    console.log(isDirty);
 });
 
     clearBtn.addEventListener('click', () => {
@@ -175,6 +193,8 @@ downloadBtn.addEventListener('click', () => {
             editorChoices = {};
             renderEditorControls();
             if (lockedToken) showMorph(lockedToken);
+            isDirty = false;
+
         }
     });
 
