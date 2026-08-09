@@ -12,7 +12,6 @@ function copySelf(element) {
 // Only trigger the alert if isDirty is true
 window.addEventListener('beforeunload', (event) => {
     if (isDirty) {
-        alert("You have saved editorial choices!");
         event.preventDefault();
         event.returnValue = '';
     }
