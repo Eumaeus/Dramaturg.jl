@@ -9,10 +9,10 @@ license#Public Domain.
 
 #!ctscatalog
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
-urn:cts:greekLit:tlg0012.tlg002.murray:#book/line/token#Homeric Epic#Odyssey#Perseus Greek, following Murray#tokenized#true#grc
+urn:cts:greekLit:tlg0012.tlg002.murray.tok:#Plaintext/token#Homeric Epic#Odyssey#Perseus Greek, following Murray#tokenized#true#grc
 
 #!ctsdata
-urn:cts:greekLit.tok:tlg0012.tlg002.murray:1.1.token1#ἄνδρα
+urn:cts:greekLit:tlg0012.tlg002.murray.tok:1.1.token1#ἄνδρα
 urn:cts:greekLit:tlg0012.tlg002.murray.tok:1.1.token2#μοι
 urn:cts:greekLit:tlg0012.tlg002.murray.tok:1.1.token3#ἔννεπε
 urn:cts:greekLit:tlg0012.tlg002.murray.tok:1.1.token4#,

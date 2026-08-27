@@ -122,11 +122,11 @@ function generate_toc_html(html_temp_dir::String, citation_level::Int)::String
     for i in range(1, num_books, step = book_group_size)
         book_subgroup = sorted_books[i:min(i+book_group_size-1, num_books)]
         if length(book_subgroup) > 1
-            super_label = "<strong>Sections $(book_subgroup[1]) – $(book_subgroup[end])</strong>"
+            super_label = "<strong>Books $(book_subgroup[1]) – $(book_subgroup[end])</strong>"
             super_content = ""
             for b in book_subgroup
                 b_chunks = book_groups[b]
-                b_label = " Section $(b)"
+                b_label = " Book $(b)"
                 sub_list = length(b_chunks) <= 8 ?
                     "<ul>" * join(["<li><a href=\"$(c.href)\">$(c.range_label)</a></li>" for c in b_chunks], "\n") * "</ul>" :
                     generate_chunk_groups(b_chunks)
@@ -179,7 +179,8 @@ function generate_chunk_groups(chunks_list)
         remove_tok = pop!(gl_parts)
         new_gl = join(gl_parts, ".")
 
-        g_range = "Passages $(new_gf)–$(new_gl)"
+        # g_range = "Passages $(new_gf)–$(new_gl)"
+        g_range = "Passages $(g_first)–$(g_last)"
         ul = join(["<li><a href=\"$(c.href)\">$(c.range_label)</a></li>" for c in g], "\n")
         s *= """
         <details>
