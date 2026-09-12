@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Sophocles/sophocles_antigone.cex"
-text_urn = "urn:cts:greekLit:tlg0011.tlg002.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0011.tlg002.fu-sp:" 
 file_name = "Antigone"
 text_title = "Sophocles *Antigone*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

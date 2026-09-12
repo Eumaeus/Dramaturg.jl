@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Euripides/euripides_heracles.cex"
-text_urn = "urn:cts:greekLit:tlg0006.tlg009.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0006.tlg009.fu-sp:" 
 file_name = "Euripides_Heracles"
 text_title = "Euripides *Heracles*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

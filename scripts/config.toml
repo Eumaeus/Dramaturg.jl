@@ -1,26 +1,26 @@
 # Configuration for Dramaturg — CEX loading, tokenization, and elision indexing
 
 [input]
-cex_path = "source-data/texts/Textbooks/HQ_Sentences.cex"
-text_urn = "urn:cts:fuTeaching:blackwell.hq.2026:" 
-file_name = "HQ_Sentences"
-text_title = "Hansen & Quinn: Exercise Sentences"
-text_genre = "prose" # options are "poetry", "prose", "drama"
-citation_level = 2 # poetic line. For something like Herodotus, it would be 2, "book.section".
+cex_path = "source-data/texts/Homer/homer_odyssey.cex"
+text_urn = "urn:cts:greekLit:tlg0012.tlg002.murray:" 
+file_name = "Odyssey"
+text_title = "The Homeric *Odyssey*"
+text_genre = "poetry" # options are "poetry", "prose", "drama"
+citation_level = 2 # book + poetic line. For something like Herodotus, it would be 2, "book.section".
 filter_paratext = "" # filter out passages with this string in the URN.
 
-
 [output]
-html_tokens_per_page = 200
-html_output_dir = "editions/html/Textbooks/HQ_Sentences/pages"
+html_tokens_per_page = 250
+html_output_dir = "editions/html/Homer/Odyssey/pages"
 html_template_dir = "editions/templates"
 html_index_template = "index.html"
 html_page_template = "reader_page.html"
-html_temp_dir = "data/html_temp/Textbooks/HQ_Sentences"
-md_bibliography = "editions/frontmatter/Textbooks/HQ_Sentences/bibliography.md"
-md_frontmatter = "editions/frontmatter/Textbooks/HQ_Sentences/frontmatter.md"
+html_temp_dir = "data/html_temp/Homer/Odyssey"
+md_bibliography = "editions/frontmatter/Homer/Odyssey/bibliography.md"
+md_frontmatter = "editions/frontmatter/Homer/Odyssey/frontmatter.md"
 lsj_url = "https://folio3.furman.edu/lsj/"
 editions_dir = "editions/html/"
+
 
 
 [lexicon]
@@ -29,30 +29,22 @@ lsj_index = "source-data/dictionaries/lsj_index_beta.tsv"
 lsj_short = "source-data/dictionaries/lsj_short_defs.tsv"
 
 [morphology]
-raw_morph_data = "morph/output/hq-analysis.txt"
-
-morph_pos_triplets = "data/indexes/Textbooks/HQ_Sentences/HQ_Sentences_morpheus_triplets.tsv"
-
-morph_pos_errors = "morph/output/HQ_Sentences_parse_errors.log"
-
-morph_lemmata_alignment = "data/indexes/Textbooks/HQ_Sentences/HQ_Sentences_triplets_lemmata.tsv"
-
-morph_lemmata_alignment_errors = "data/indexes/Textbooks/HQ_Sentences/HQ_Sentences_triplets_lemmata_errors.tsv"
-
-morph_token_index = "data/indexes/Textbooks/HQ_Sentences/HQ_Sentences_morphology_index.tsv"
-
-morph_token_index_errors = "data/indexes/Textbooks/HQ_Sentences/HQ_Sentences_morphology_index_errors.tsv"
-
-local_morph_dict = "data/morphology/Textbooks/hq_morph.cex"
-
+raw_morph_data = "morph/output/odyssey-analysis.txt"
+morph_pos_triplets = "data/indexes/Homer/Odyssey/Odyssey_morpheus_triplets.tsv"
+morph_pos_errors = "morph/output/odyssey_parse_errors.log"
+morph_lemmata_alignment = "data/indexes/Homer/Odyssey/Odyssey_triplets_lemmata.tsv"
+morph_lemmata_alignment_errors = "data/indexes/Homer/Odyssey/Odyssey_triplets_lemmata_errors.tsv"
+morph_token_index = "data/indexes/Homer/Odyssey/Odyssey_morphology_index.tsv"
+morph_token_index_errors = "data/indexes/Homer/Odyssey/Odyssey_morphology_index_errors.tsv"
+local_morph_dict = "data/morphology/Homer/odyssey_morph.cex"
 
 
 # NEW sections for this milestone
 [processing]
 data_root = "data"                       # base folder for all generated files
-tokenized_dir = "tokenized/Textbooks/HQ_Sentences"
-indexes_dir = "indexes/Textbooks/HQ_Sentences"
-vocabulary_dir = "vocabulary/Textbooks/HQ_Sentences"
+tokenized_dir = "tokenized/Homer/Odyssey"
+indexes_dir = "indexes/Homer/Odyssey"
+vocabulary_dir = "vocabulary/Homer/Odyssey"
 tokenized_suffix = "_tokenized.cex"
 elided_index_suffix = "_elided.tsv"
 elided_histogram_suffix = "_elided_histogram.tsv"
@@ -76,6 +68,6 @@ master_morph_dict = "data/morphology/Greek_Morphology.cex"
 
 user_morphology_dir = "source-data/morphology/user-generated"
 
-editor_index_files = "source-data/edited_morphology/Textbooks/HQ_Sentences/"
+editor_index_files = "source-data/edited_morphology/Homer/Odyssey/"
 
-editor_index_error = "data/morphology/Textbooks/editorial_index_error_hq.txt"
+editor_index_error = "data/morphology/Homer/editorial_index_error_odyssey.txt"

@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Euripides/euripides_medea.cex"
-text_urn = "urn:cts:greekLit:tlg0006.tlg003.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0006.tlg003.fu-sp:" 
 file_name = "Euripides_Medea"
 text_title = "Euripides *Medea*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

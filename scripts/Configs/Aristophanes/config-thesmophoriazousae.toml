@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Aristophanes/thesmophoriazousae-speech-speaker.cex"
-text_urn = "urn:cts:greekLit:tlg0019.tlg008.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0019.tlg008.fu-sp:" 
 file_name = "Aristophanes_Thesmophoriazousae"
 text_title = "Aristophanes *Thesmophoriazousae*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

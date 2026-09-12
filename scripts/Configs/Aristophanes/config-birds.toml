@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Aristophanes/birds-speech-speaker.cex"
-text_urn = "urn:cts:greekLit:tlg0019.tlg006.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0019.tlg006.fu-sp:" 
 file_name = "Aristophanes_Birds"
 text_title = "Aristophanes *Birds*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

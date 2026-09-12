@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Euripides/euripides_bacchae.cex"
-text_urn = "urn:cts:greekLit:tlg0006.tlg017.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0006.tlg017.fu-sp:" 
 file_name = "Euripides_Bacchae"
 text_title = "Euripides *Bacchae*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

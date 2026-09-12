@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Sophocles/sophocles_ajax.cex"
-text_urn = "urn:cts:greekLit:tlg0011.tlg003.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0011.tlg003.fu-sp:" 
 file_name = "Ajax"
 text_title = "Sophocles *Ajax*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Aeschylus/aeschylus-persians.cex"
-text_urn = "urn:cts:greekLit:tlg0085.tlg002.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0085.tlg002.fu-sp:" 
 file_name = "Aeschylus_Persians"
 text_title = "Aeschylus *Persians*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

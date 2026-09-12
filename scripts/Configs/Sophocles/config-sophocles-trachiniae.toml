@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Sophocles/sophocles_trachiniae.cex"
-text_urn = "urn:cts:greekLit:tlg0011.tlg001.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0011.tlg001.fu-sp:" 
 file_name = "Trachiniae"
 text_title = "Sophocles *Trachiniae*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

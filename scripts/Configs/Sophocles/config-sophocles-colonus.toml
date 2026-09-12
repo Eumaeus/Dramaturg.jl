@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Sophocles/sophocles_colonus.cex"
-text_urn = "urn:cts:greekLit:tlg0011.tlg007.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0011.tlg007.fu-sp:" 
 file_name = "Colonus"
 text_title = "Sophocles *Oedipus at Colonus*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

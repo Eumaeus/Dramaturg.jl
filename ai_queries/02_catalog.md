@@ -41,10 +41,10 @@ urn:cts:greekLit:tlg0019.tlg009.fu.sp:.token:#line/speech/speaker/token,line/spe
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
 urn:cts:greekLit:tlg0019.tlg009.fu.sp:#line/speech/speaker,line/speech/text#Aristphanes#Frogs#Furman University#tokenized by speech#true#grc
 #!ctsdata
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:1.1.speaker.token.1#Ξανθίας
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:1.1.text.token.1#Εἴπω
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:1.1.text.token.2#τι
-urn:cts:greekLit:tlg0019.tlg009.fu.sp:1.1.text.token.3#τῶν
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:1.1.speaker.token1#Ξανθίας
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:1.1.text.token1#Εἴπω
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:1.1.text.token2#τι
+urn:cts:greekLit:tlg0019.tlg009.fu.sp:1.1.text.token3#τῶν
 ```
 
 ## Request 1

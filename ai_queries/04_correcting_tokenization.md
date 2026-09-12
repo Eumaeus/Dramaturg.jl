@@ -37,7 +37,7 @@ Looking in output file `speech-speaker_elided_histogram.tsv`, at output line 32 
 For comparison, line 31, which is correct, is:
 
 ```
-5	ἄρʼ		urn:cts:greekLit:tlg0019.tlg009.fu.sp:19.1.text.token.3,urn:cts:greekLit:tlg0019.tlg009.fu.sp:795.1.text.token.3,urn:cts:greekLit:tlg0019.tlg009.fu.sp:921.1.text.token.5,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1195.2.text.token.2,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1517.1.text.token.5
+5	ἄρʼ		urn:cts:greekLit:tlg0019.tlg009.fu.sp:19.1.text.token3,urn:cts:greekLit:tlg0019.tlg009.fu.sp:795.1.text.token3,urn:cts:greekLit:tlg0019.tlg009.fu.sp:921.1.text.token5,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1195.2.text.token2,urn:cts:greekLit:tlg0019.tlg009.fu.sp:1517.1.text.token5
 ```
 
 For some reason, line 5 seems to be pulling data from the original CEX file, `working-files/speech-speaker.cex`, rather than from the tokenized derivative, `data/tokenized/speech-speaker_tokenized.cex`. We can see this from, first, the fact that it is a whole line of poetry, and second, that it cites URNs to the un-tokenized text.

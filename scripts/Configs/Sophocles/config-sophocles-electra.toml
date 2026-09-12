@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Sophocles/sophocles_electra.cex"
-text_urn = "urn:cts:greekLit:tlg0011.tlg005.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0011.tlg005.fu-sp:" 
 file_name = "Electra"
 text_title = "Sophocles *Electra*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

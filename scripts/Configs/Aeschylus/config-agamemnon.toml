@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Aeschylus/aeschylus-agamemnon.cex"
-text_urn = "urn:cts:greekLit:tlg0085.tlg005.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0085.tlg005.fu-sp:" 
 file_name = "Aeschylus_Agamemnon"
 text_title = "Aeschylus *Agamemnon*"
 text_genre = "drama" # options are "poetry", "prose", "drama"

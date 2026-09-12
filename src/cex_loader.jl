@@ -41,33 +41,71 @@ function write_tokenized_cex(original_path::String, tokenized_data_lines::Vector
 
     original_lines = readlines(original_path)
     open(output_path, "w") do io
-        catalog_replaced = false
+        in_catalog_block = false
+        cat_header_replaced = false
         in_data_block = false
+
+        # Get new URN
+        urn_base = config["input"]["text_urn"]
+        urn_parts = split(urn_base, ":")
+        bibpart = urn_parts[4]
+        versionpart = split(bibpart, ".")[1:3]
+        newexemplar = join(versionpart, ".") * ".tok"
+        urn_parts[4] = newexemplar
+        tokenized_urn = join(urn_parts, ":")
 
         for line in original_lines
             stripped = strip(line)
             isempty(stripped) && continue
 
             # === REPLACE CATALOG BLOCK (unchanged) ===
-            if startswith(stripped, "#!ctscatalog") && !catalog_replaced
-                catalog_replaced = true
+            if startswith(stripped, "#!ctscatalog")
+                in_catalog_block = true
                 println(io)  # blank line
                 println(io, "#!ctscatalog")
-                println(io, "urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang")
-
-                urn_base = config["input"]["text_urn"]
-                tokenized_urn = replace(urn_base, r":$" => ".token:")
-
-                println(io, "$tokenized_urn#line/speech/speaker/token,line/speech/text/token#Aristophanes#Frogs#Furman University#a derivative of $urn_base, tokenized by word and punctuation#true#grc")
                 continue
             end
+            if (cat_header_replaced && in_catalog_block)
+                
+                # Get new citationScheme
+                entry_parts = split(stripped, "#")
+                # add new URN
+                entry_parts[1] = tokenized_urn
+                # document new citationScheme
+                cit_scheme = entry_parts[2] * "/token"
+                entry_parts[2] = cit_scheme
+
+                # New exemplar label
+                entry_parts[6] = "tokenized"
+
+                # Assemble new line
+                new_entry = join(entry_parts, "#")
+                println(io, new_entry)
+                in_catalog_block = false
+                continue
+            elseif (in_catalog_block)
+                    println(io, "urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang")
+                    cat_header_replaced = true
+                    continue
+            end
+
 
             # === DATA BLOCK ===
             if startswith(stripped, "#!ctsdata")
                 println(io)  # blank line
                 println(io, "#!ctsdata")
+
+                println("------\n$(tokenized_data_lines[4])\n")
+
                 for tline in tokenized_data_lines
-                    println(io, tline)
+                    # Gotta replace the URN!
+                    tl_parts = split(tline, "#")
+                    tl_urn = tl_parts[1]
+                    urn_parts = split(tl_urn, ":")
+                    tl_passage = urn_parts[5]
+                    tl_parts[1] = tokenized_urn * tl_passage
+                    new_tline = join(tl_parts, "#")
+                    println(io, new_tline)
                 end
                 in_data_block = true
                 continue   # do NOT write the original #!ctsdata line itself

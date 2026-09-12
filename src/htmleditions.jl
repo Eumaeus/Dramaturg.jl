@@ -96,8 +96,9 @@ This gives the natural citation unit (section, line, etc.).
 function get_natural_unit(urn::String)
     passage = split(urn, ':')[end]
     parts = split(passage, '.')
-    if length(parts) >= 3 && parts[end-1] == "token"
-        unit_parts = parts[1:end-2]
+    # if length(parts) >= 3 && parts[end-1] == "token"
+    if length(parts) >= 3 && startswith(parts[end], "token")
+        unit_parts = parts[1:end-1]
         return join(unit_parts, '.')
     else
         return passage

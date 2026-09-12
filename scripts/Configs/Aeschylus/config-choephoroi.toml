@@ -2,7 +2,7 @@
 
 [input]
 cex_path = "source-data/texts/Aeschylus/aeschylus-choephoroi.cex"
-text_urn = "urn:cts:greekLit:tlg0085.tlg006.fu.sp:" 
+text_urn = "urn:cts:greekLit:tlg0085.tlg006.fu-sp:" 
 file_name = "Aeschylus_Choephoroi"
 text_title = "Aeschylus *Choephoroi*"
 text_genre = "drama" # options are "poetry", "prose", "drama"
